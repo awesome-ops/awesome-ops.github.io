@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'lab';
+  src: url('../static/lab.woff2') format('woff2');
+}
+
+:root {
+  --font-base: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+  --layout-header-height: 56px;
+  --layout-footer-height: 100px;
+
+  --gg-border: rgba(180, 180, 180, 0.1);
+}
+
+* {
+  transition: all 300ms ease-out;
+  box-sizing: border-box;
+}
+
+html.dark {
+  --theme-content-background-color: #232629;
+  --theme-header-background-color: #232629;
+  --theme-footer-background-color: #232629;
+  --theme-text: #d8d8d8;
+  --gg-logo: #d8d8d8;
+  --gg-icon: #75757a;
+}
+
+html.light {
+  --theme-content-background-color: #ffffff;
+  --theme-header-background-color: #fafafa;
+  --theme-footer-background-color: #fefefe;
+  --theme-text: #232629;
+  --gg-logo: #232629;
+  --gg-icon: #a5a5ac;
+}
+
+body {
+  font-family: var(--font-base);
+  margin: 0;
+  padding: 0;
+}
+
+.icon-action {
+  cursor: pointer;
+  user-select: none;
+}
+
+.page-title {
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-title .icon {
+  margin-right: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.gg-empty {
+  font-size: 18px;
+  color: rgba(180, 180, 180, 0.5);
+}

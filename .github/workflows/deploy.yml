@@ -1,0 +1,42 @@
+name: github pages
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 20 * * *'
+  discussion:
+    types: [created, edited, answered, deleted, transferred]
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: "Log level"
+        required: true
+        default: "warning"
+      tags:
+        description: "Test scenario tags"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '14'
+          cache: "yarn"
+          cache-dependency-path: "yarn.lock"
+      - run: yarn
+      - run: yarn posts:ci --token=${{ secrets.GITHUB_TOKEN }} --repository=${{ github.repository }} --type=${{ secrets.GG_TYPE }} --dis-owner=${{ secrets.GG_DIS_OWNER }} --dis-repo=${{ secrets.GG_DIS_REPO }} --issues-owner=${{ secrets.GG_ISSUES_OWNER }} --issues-repo=${{ secrets.GG_ISSUES_REPO }} --issues-state=${{ secrets.GG_ISSUES_STATE }}
+      - run: yarn reconf
+      - run: yarn build
+      - run: yarn copy
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          force_orphan: true
