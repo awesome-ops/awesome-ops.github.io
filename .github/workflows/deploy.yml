@@ -40,3 +40,14 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           force_orphan: true
+
+      # 利用action把build好的文件上传到服务器/home/eryajf.github.io路径下,需要确认此目录已在服务端创建
+      - name: deploy file to server
+        uses: wlixcc/SFTP-Deploy-Action@v1.0
+        with:
+          username: 'root'   #ssh user name
+          port: '2023' # 远程服务器ssh端口，默认22
+          server: 'prod.eryajf.net' # 远程服务器IP
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} # 认证服务器秘钥对的私钥
+          local_path: 'public/*'  # 对应我们项目打包后的静态文件路径
+          remote_path: '/data/www/awesome-ops.opsre.top' # 服务器上的路径
