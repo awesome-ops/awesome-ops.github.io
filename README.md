@@ -13,6 +13,8 @@
 
 </div>
 
+仓库地址： https://github.com/opsre/awesome-ops
+
 🧰 全世界运维人员联合起来 | The Operations Personnel Of The World Unite
 
 优秀的运维人，加入进来吧。
