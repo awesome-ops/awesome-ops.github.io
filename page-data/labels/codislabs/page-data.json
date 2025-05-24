@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/codislabs",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"CodisLabs/codis: 基于代理的 Redis 集群解决方案，支持管道和动态扩展。但已 6 年没有更新了","number":92}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UvpQ","name":"CodisLabs","color":"b72f5c","description":null},"name":"CodisLabs","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

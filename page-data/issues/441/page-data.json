@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/441",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":441,"previous":{"title":"pipe-cd/pipecd: 一个 CD 适用于所有 {应用程序、平台、操作}","number":440},"next":{"title":"caoyingjunz/pixiu: 一个面对 k8s 集群从创建集群，到业务开发到服务部署的全流程管控平台。","number":442}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/noovertime7",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"noovertime7/gin-mysqlbak: 一款分布式高性能的备份系统，支持 MySQL、ElasticSearch 备份，多集群任务统一，数据集中存储","number":3}},{"node":{"title":"noovertime7/kubemanage: 一个简单易用的 K8s 管理平台，前端使用 Vue3 ，后端使用 Gin+Gorm ，未来将支持多集群接入","number":323}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7D7mg","name":"noovertime7","color":"5195ac","description":null},"name":"noovertime7","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

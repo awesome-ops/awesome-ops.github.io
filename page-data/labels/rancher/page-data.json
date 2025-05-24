@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/rancher",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"rancher/rancher: 一个开源容器管理平台，专为在生产中部署容器的组织而构建。Rancher 让您可以轻松地在任何地方运行 Kubernetes、满足 IT 要求并为 DevOps 团队提供支持","number":468}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7cqAw","name":"rancher","color":"b5b9cc","description":null},"name":"rancher","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

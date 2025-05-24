@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/126",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":126,"previous":{"title":"docmost/docmost: 一款开源的协作 Wiki 和文档软件。它是 Confluence 和 Notion 的开源替代品。","number":125},"next":{"title":"mr-karan/doggo: 一个使用 go 语言编写的类似 dig 的查询 dns 信息的命令行工具。","number":127}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

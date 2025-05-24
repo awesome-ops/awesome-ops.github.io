@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/ofkm",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"ofkm/arcane: 使用 Typescript 和 SvelteKit 编写的简洁优雅的 Docker 管理 UI","number":32}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TkWw","name":"ofkm","color":"c34b7f","description":null},"name":"ofkm","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

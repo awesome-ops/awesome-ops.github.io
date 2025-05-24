@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/gocd",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"gocd/gocd: GoCD 主要仓库 - 持续交付服务器","number":192}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WyBQ","name":"gocd","color":"896b0b","description":null},"name":"gocd","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

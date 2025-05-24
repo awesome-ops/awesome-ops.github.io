@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/239",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":239,"previous":{"title":"influxdata/influxdb: 可扩展数据存储，用于度量、事件和实时分析","number":238},"next":{"title":"instantbox/instantbox: 在不到 30s 内得到一个干净、开箱即用的临时 Linux 系统","number":240}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

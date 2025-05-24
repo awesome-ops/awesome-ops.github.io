@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/theonedev",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"theonedev/onedev: 完全免费开源的 Git 代码托管服务，支持一行命令安装到自己服务器","number":413}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7biSg","name":"theonedev","color":"76230d","description":null},"name":"theonedev","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

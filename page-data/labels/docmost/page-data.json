@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/docmost",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"docmost/docmost: 一款开源的协作 Wiki 和文档软件。它是 Confluence 和 Notion 的开源替代品。","number":125}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Vaug","name":"docmost","color":"78fe0c","description":null},"name":"docmost","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/状态面板",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"akile-network/akile_monitor: 一个简洁的服务器监控面板，提供了一些基础信息的监控。","number":17}},{"node":{"title":"operacle/checkcle: 提供实时服务器和服务正常运行时间监控、事件、多渠道告警能力。","number":75}},{"node":{"title":"star7th/coolmonitor: 一个高颜值的监控工具，支持网站监控/接口监控/HTTPS证书监控等","number":98}},{"node":{"title":"rajnandan1/kener: 基于 Node.js 编写的状态页面工具，类似 uptime。","number":280}},{"node":{"title":"imsyy/site-status: 一个基于 UptimeRobot API 的在线状态面板","number":516}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TRZg","name":"状态面板","color":"d10a51","description":null},"name":"状态面板","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

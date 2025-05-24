@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/tal-tech",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"tal-tech/alarm-dog: 通用的统一告警平台，提供配置化、流程化、标准化的能力，支持多种告警通知渠道，支持告警收敛、过滤、升级、工作流、自动恢复等功能","number":18}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TSqg","name":"tal-tech","color":"1de03f","description":null},"name":"tal-tech","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/382",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":382,"previous":{"title":"kubeshop/monokle: 通过可视化 UI 更好地创建、理解和部署 YAML 清单，该 UI 还提供策略验证和集群见解","number":381},"next":{"title":"zmister2016/MrDoc: 觅思文档，适合于个人和中小型团队的在线文档、知识库系统","number":383}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

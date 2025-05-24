@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/工单",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"wansenai/flow: 开箱即用的流程引擎一体化解决方案","number":168}},{"node":{"title":"sunwenbo/smart-api: 基于 Go 语言开发的自定义开放式工单系统","number":523}},{"node":{"title":"ZFSNYJ/VFD: 一款基于 Vue 的在线绘制流程图工具","number":592}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WSlg","name":"工单","color":"e52df1","description":null},"name":"工单","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

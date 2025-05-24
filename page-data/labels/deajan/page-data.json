@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/deajan",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"deajan/osync: 基于 rsync 的强大双向（双向）文件同步脚本，具有容错功能、POSIX ACL 支持、时间控制和近实时同步","number":423}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7btxQ","name":"deajan","color":"c05fc4","description":null},"name":"deajan","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

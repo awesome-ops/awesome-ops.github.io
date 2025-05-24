@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/huichen",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"huichen/kunlun: 基于 Golang 实现的 Git 仓库代码搜索引擎，只支持检索本地代码仓库","number":343}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7aGPA","name":"huichen","color":"13f450","description":null},"name":"huichen","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/项目管理",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"kuaifan/dootask:  一款开源在线项目任务管理工具，提供各类文档协作工具、在线思维导图、在线流程图、项目管理、任务分发、即时IM，文件管理等工具","number":132}},{"node":{"title":"makeplane/plane: JIRA、Linear 和 Asana 的开源替代方案。 Plane 可帮助您以最简单的方式跟踪问题、史诗和产品路线图。","number":443}},{"node":{"title":"plankanban/planka: 一款优雅的开源项目管理看板项目。","number":444}},{"node":{"title":"JordanKnott/taskcafe:  带有看板的开源项目管理工具。","number":546}},{"node":{"title":"easysoft/zentaopms:  禅道是第一款国产的开源项目管理软件。它集产品管理、项目管理、质量管理、文档管理、 组织管理和事务管理于一体，是一款专业的研发项目管理软件，完整地覆盖了项目管理的核心流程。","number":628}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Vj4g","name":"项目管理","color":"44e9e0","description":null},"name":"项目管理","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

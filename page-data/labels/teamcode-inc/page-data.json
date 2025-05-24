@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/teamcode-inc",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"teamcode-inc/kubeorbit: 轻量高效的微服务本地联调测试工具, 轻松将集群内流量转发到本地开发环境","number":325}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Zukw","name":"teamcode-inc","color":"549486","description":null},"name":"teamcode-inc","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

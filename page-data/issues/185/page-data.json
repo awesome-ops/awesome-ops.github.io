@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/185",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":185,"previous":{"title":"harness/gitness: Gitness 是一个开发者用的开源平台，具备源代码控制管理、持续集成和持续交付等功能。","number":184},"next":{"title":"heppu/gkill: 运行 gkill 可搜索并选择要终止的进程","number":186}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

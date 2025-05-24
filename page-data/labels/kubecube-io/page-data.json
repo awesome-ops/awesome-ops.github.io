@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/kubecube-io",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"kubecube-io/KubeCube: K8s 资源可视化管理以及统一的多集群多租户管理平台","number":313}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7ZeHg","name":"kubecube-io","color":"918cb8","description":null},"name":"kubecube-io","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

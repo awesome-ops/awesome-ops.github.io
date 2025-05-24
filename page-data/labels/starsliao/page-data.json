@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/starsliao",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"starsliao/TenSunS: 基于Consul的运维平台：更优雅的Consul管理UI, 多云与自建ECS/MySQL/Redis同步Prometheus/JumpServer, ECS/MySQL/Redis云监控指标采集, Blackbox站点监控维护, 漏洞通知/资源到期余额告警, 各类资源Grafana看板展示","number":555}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9h_CQ","name":"starsliao","color":"6d7c48","description":null},"name":"starsliao","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

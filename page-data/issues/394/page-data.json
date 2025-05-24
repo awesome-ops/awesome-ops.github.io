@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/394",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":394,"previous":{"title":"gnmyt/Nexterm: 一个简易的堡垒机，支持 SSH、VNC 和 RDP 协议管理远程主机。同时支持 SFTP 管理功能，并且支持服务应用的简单管理。","number":393},"next":{"title":"goreleaser/nfpm: 一个用 Go 编写的简单且 0 依赖项的 deb、rpm、apk 和 arch Linux 打包器","number":395}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

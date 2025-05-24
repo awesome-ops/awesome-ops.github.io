@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/aliyuncontainerservice",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"AliyunContainerService/kube-eventer: 一个 K8S 事件同步工具，支持将事件同步到 DingDing， ES， Kafka，MySQL，Webhook 等","number":317}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Zj_Q","name":"AliyunContainerService","color":"1c7a4c","description":null},"name":"AliyunContainerService","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

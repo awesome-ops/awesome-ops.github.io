@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/version-fox",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"version-fox/vfox: 跨平台的用于管理 SDK 版本的工具，允许你通过命令行快速安装和切换不同版本的 SDK","number":593}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9iZow","name":"version-fox","color":"b6e80c","description":null},"name":"version-fox","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

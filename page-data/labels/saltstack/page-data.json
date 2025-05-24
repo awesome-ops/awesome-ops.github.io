@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/saltstack",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"saltstack/salt: 该软件能自动化管理和配置任何规模的基础设施或应用程序。","number":498}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9hdNA","name":"saltstack","color":"5eb979","description":null},"name":"saltstack","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}
