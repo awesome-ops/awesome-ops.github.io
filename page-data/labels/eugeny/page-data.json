@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/eugeny",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"Eugeny/tabby: 一款开源的跨平台支持的终端程序，能够方便地管理主机连接","number":545}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9h6Pg","name":"Eugeny","color":"2c911f","description":null},"name":"Eugeny","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

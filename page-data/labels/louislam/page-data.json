@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/louislam",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"louislam/dockge: 一个时髦、易于使用且响应迅速的自托管式 docker compose.yaml 管理器","number":122}},{"node":{"title":"louislam/uptime-kuma: Uptime Kuma 是一款易于使用的自托管监控工具。","number":582}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VXSQ","name":"louislam","color":"b90d90","description":null},"name":"louislam","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/songquanpeng",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"songquanpeng/go-file: 文件分享工具，仅单个可执行文件，开箱即用，可用于局域网内分享文件和文件夹，直接跑满本地带宽","number":194}},{"node":{"title":"songquanpeng/message-pusher: 搭建专属于你的消息推送服务，支持多种消息推送方式，支持 Markdown，仅单可执行文件，开箱即用","number":371}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7W0AQ","name":"songquanpeng","color":"9a2057","description":null},"name":"songquanpeng","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

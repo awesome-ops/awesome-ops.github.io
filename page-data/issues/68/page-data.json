@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/68",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":68,"previous":{"title":"flashcatcloud/categraf: 一款 All-in-One 的开源的 telemetry 数据采集器，支持指标、日志采集；支持 Tracing 数据的收集；支持物理机、虚拟机、交换机、容器、K8s、多种中间件/数据库的数据采集，支持混合云架构、云原生架构、多云架构。汇聚领域最佳实践，开箱即用。","number":67},"next":{"title":"owenthereal/ccat: ccat是着色cat。它的工作原理与此类似，cat但显示带有语法突出显示的内容。","number":69}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/64",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":64,"previous":{"title":"caddyserver/caddy: Caddy是一款基于Go语言编写的强大且可扩展的平台，可以给你的站点、服务和应用程序提供服务。","number":63},"next":{"title":"capistrano/capistrano: 一个利用 Ruby、Rake 和 SSH 构建的部署自动化工具。","number":65}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

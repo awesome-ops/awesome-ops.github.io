@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/629",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":629,"previous":{"title":"easysoft/zentaopms:  禅道是第一款国产的开源项目管理软件。它集产品管理、项目管理、质量管理、文档管理、 组织管理和事务管理于一体，是一款专业的研发项目管理软件，完整地覆盖了项目管理的核心流程。","number":628},"next":{"title":"zitadel/zitadel: 企业级统一身份认证管理系统","number":630}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

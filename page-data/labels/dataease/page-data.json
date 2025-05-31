@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/dataease",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"dataease/dataease: DataEase 是开源的数据可视化分析工具，帮助用户快速分析数据并洞察业务趋势，从而实现业务的改进与优化。DataEase 支持丰富的数据源连接，能够通过拖拉拽方式快速制作图表，并可以方便的与他人分享。","number":105}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VAvA","name":"dataease","color":"72926b","description":null},"name":"dataease","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

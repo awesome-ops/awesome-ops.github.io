@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/dockovpn",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"dockovpn/dockovpn: 一个开箱即用、无状态、无需持久存储的 VPN服务器 Docker 镜像，可以在几秒钟内启动。","number":124}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VZew","name":"dockovpn","color":"6fd91f","description":null},"name":"dockovpn","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

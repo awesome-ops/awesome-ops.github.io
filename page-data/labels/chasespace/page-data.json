@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/chasespace",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"chaseSpace/k8s-tutorial-cn: 作者整理的中文 k8s 教程，适合初学者阅读","number":264}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7YXUQ","name":"chaseSpace","color":"9a2114","description":null},"name":"chaseSpace","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

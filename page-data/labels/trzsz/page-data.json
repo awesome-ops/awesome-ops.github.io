@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/trzsz",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"trzsz/trzsz-ssh: 支持 trzsz ( trz / tsz ) 的 ssh 客户端，支持搜索和选择服务器进行批量登录，支持记住密码","number":576}},{"node":{"title":"trzsz/trzsz: 一个兼容 tmux 的文件传输工具，类似 lrzsz ，有进度条并且支持目录传输","number":577}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9iOEg","name":"trzsz","color":"2cfe9f","description":null},"name":"trzsz","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

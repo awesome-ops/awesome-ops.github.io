@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/596",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":596,"previous":{"title":"vprix/vncproxy: VncProxy 是使用 Golang 实现的 Vnc 远程桌面代理组件，完全解析 rfb 协议，支持远程桌面代理，rbs 文件录屏，rbs 文件回放，截图，录制视频 ","number":595},"next":{"title":"Qihoo360/wayne: 一个通用的、基于Web的Kubernetes多集群管理平台。通过可视化Kubernetes对象模板编辑，降低服务访问成本。拥有完善的权限管理体系，适应多租户场景，是适合企业级集群的发布平台。","number":597}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

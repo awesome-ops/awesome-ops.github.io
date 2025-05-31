@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/golangci",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"golangci/golangci-lint: 一个快速的 Go linter 运行器。它并行运行 linter，使用缓存，支持 yaml 配置，与所有主要 IDE 集成，并包含数十个 linter","number":199}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7W6jA","name":"golangci","color":"a14bfa","description":null},"name":"golangci","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

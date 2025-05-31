@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/37",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":37,"previous":{"title":"zmops/ArgusDBM: Argus 开源数据库一体化监控平台。致力于监控所有数据库。","number":36},"next":{"title":"gomods/athens: go 语言的私服仓库程序。没有 web 管理界面，但是认证内部 gitlab 很好用","number":38}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/612",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":612,"previous":{"title":"woodpecker-ci/woodpecker: 一个简单而强大具有很强的可扩展性的 CI/CD 引擎","number":611},"next":{"title":"chubin/wttr.in: 执行 curl wttr.in 在终端中显示天气预报","number":613}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

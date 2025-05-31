@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/toeverything",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"toeverything/AFFiNE: 一个开源的，类 notion 的笔记工具。","number":13}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TMzw","name":"toeverything","color":"f46c54","description":null},"name":"toeverything","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

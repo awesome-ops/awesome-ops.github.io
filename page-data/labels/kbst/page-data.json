@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/kbst",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"kbst/terraform-kubestack: Kubestack 是一个面向 Kubernetes 平台工程团队的框架，它允许在一个 Terraform 代码库中定义完整的云原生技术栈，并通过 GitOps 实现平台的安全持续发展。","number":558}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9iBdg","name":"kbst","color":"e91d72","description":null},"name":"kbst","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

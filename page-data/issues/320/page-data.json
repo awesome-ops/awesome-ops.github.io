@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/320",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":320,"previous":{"title":"kubewharf/kubegateway: kube-gateway 是字节跳动内部管理海量 kubernetes 集群的最佳实践。 它是为 kube-apiserver 的 HTTP2 流量专门设计并定制的七层负载均衡代理。 目标是为海量的大规模 kubernetes 集群（千级 node 以上）提供灵活的稳定的流量治理方案。","number":319},"next":{"title":"aquasecurity/kube-hunter: 在 Kubernetes 集群中追踪安全弱点","number":321}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

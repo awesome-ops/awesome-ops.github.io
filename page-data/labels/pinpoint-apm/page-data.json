@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/pinpoint-apm",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"pinpoint-apm/pinpoint:  APM，（应用程序性能管理）大规模分布式系统的工具。","number":439}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7cD9g","name":"pinpoint-apm","color":"f42f0e","description":null},"name":"pinpoint-apm","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/technitiumsoftware",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"TechnitiumSoftware/DnsServer: Technitium DNS服务器是一个开源的权威递归DNS服务器，可用于自托管DNS服务器以保护隐私和安全","number":119}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VTnQ","name":"TechnitiumSoftware","color":"e7305b","description":null},"name":"TechnitiumSoftware","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

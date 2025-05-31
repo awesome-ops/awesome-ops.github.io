@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/jenkins-tools",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"kairyou/jenkins-cli: 一个用 Rust 编写的强大高效的 Jenkins CLI 工具。通过命令行简化 Jenkins 的项目部署。","number":246}},{"node":{"title":"lework/jenkins-update-center: Jenkins 插件国内镜像源加速配置。","number":247}},{"node":{"title":"miyajan/jflint: Jenkinsfile 语法检测工具，可集成在 Jenkinsfile 仓库的 CI 流程中","number":251}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7X8VA","name":"Jenkins-Tools","color":"308780","description":null},"name":"Jenkins-Tools","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

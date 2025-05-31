@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/wting",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"wting/autojump: autojump 是一个快速跳转到目录的命令行工具，它可以记住你经常访问的目录并通过模糊匹配的方式快速跳转到目标目录","number":40}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Ttjw","name":"wting","color":"3655a8","description":null},"name":"wting","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

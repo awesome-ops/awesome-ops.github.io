@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/kafka-manage",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"smartloli/EFAK: 一个开源的 Kafka 集群管理和监控工具，旨在帮助用户更好地管理和监控其 Kafka 集群。","number":149}},{"node":{"title":"obsidiandynamics/kafdrop: 一个用于查看 Kafka 主题和浏览消费者组的 Web UI。该工具显示代理、主题、分区、消费者等信息，并允许您查看消息","number":267}},{"node":{"title":"xxd763795151/kafka-console-ui:  一款轻量级的 kafka 可视化管理平台，安装配置快捷、简单易用。","number":268}},{"node":{"title":"Bronya0/Kafka-King: 一个现代、实用的kafka GUI客户端，支持多平台","number":270}},{"node":{"title":"dushixiang/kafka-map: 一个美观简洁且强大的 Kafka Web 管理工具","number":271}},{"node":{"title":"provectus/kafka-ui: 一款 Python+Vue 写的 Kafka-Web 管理后台","number":272}},{"node":{"title":"didi/KnowStreaming: 一站式云原生实时流数据平台，通过0侵入、插件化构建企业级 Kafka 服务，极大降低操作、存储和管理实时流数据门槛","number":289}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7V5Sw","name":"Kafka-Manage","color":"21adcf","description":null},"name":"Kafka-Manage","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

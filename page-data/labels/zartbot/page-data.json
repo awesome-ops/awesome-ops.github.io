@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/zartbot",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"zartbot/ztrace: Golang 实现的一个 Traceroute 命令","number":632}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9ixvg","name":"zartbot","color":"6ef797","description":null},"name":"zartbot","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

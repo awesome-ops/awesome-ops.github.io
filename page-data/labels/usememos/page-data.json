@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/usememos",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"usememos/memos: 一项隐私优先的轻量级笔记服务, 轻松捕捉并分享您的精彩想法, [flomo](https://flomoapp.com/) 的开源替代品","number":370}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7apXA","name":"usememos","color":"3d4da6","description":null},"name":"usememos","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

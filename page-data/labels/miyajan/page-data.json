@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/miyajan",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"miyajan/jflint: Jenkinsfile 语法检测工具，可集成在 Jenkinsfile 仓库的 CI 流程中","number":251}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7YDgw","name":"miyajan","color":"358c86","description":null},"name":"miyajan","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

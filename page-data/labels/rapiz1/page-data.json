@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/rapiz1",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"rapiz1/rathole: 安全、稳定、高性能的内网穿透工具，用 Rust 语言编写，类似frp","number":469}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7crPg","name":"rapiz1","color":"5d0e13","description":null},"name":"rapiz1","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

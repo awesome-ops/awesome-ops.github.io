@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/leslieleung",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"LeslieLeung/heimdallr: 一个非常轻量的通知网关，可以聚合各种推送渠道，使用 Serverless 部署，几乎零成本运行。","number":224}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7XdzQ","name":"LeslieLeung","color":"1e91d1","description":null},"name":"LeslieLeung","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

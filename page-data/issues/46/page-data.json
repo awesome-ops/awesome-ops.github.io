@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/46",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":46,"previous":{"title":"sharkdp/bat: 类似 cat 命令，但带有 git 集成和语法高亮.","number":45},"next":{"title":"elastic/beats: Elasticsearch 和 Logstash 的轻量级传输器","number":47}}},
+    "staticQueryHashes": ["151096407","2861350382"]}
