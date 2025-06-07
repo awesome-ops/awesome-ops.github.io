@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/ouqiang",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"ouqiang/gocron: 使用 Go 语言开发的轻量级定时任务集中调度和管理系统,  用于替代 Linux-crontab","number":193}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WzTw","name":"ouqiang","color":"da02e5","description":null},"name":"ouqiang","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

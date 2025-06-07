@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/skooner-k8s",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"skooner-k8s/skooner: 简单的 Kubernetes 实时仪表板和管理工具","number":520}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9hq8Q","name":"skooner-k8s","color":"57c2ad","description":null},"name":"skooner-k8s","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

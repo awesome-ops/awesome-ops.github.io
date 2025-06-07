@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/tair-opensource",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"tair-opensource/RedisShake: RedisShake 是一个 Redis 数据处理和迁移工具。","number":479}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7c8Fw","name":"tair-opensource","color":"1433b1","description":null},"name":"tair-opensource","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

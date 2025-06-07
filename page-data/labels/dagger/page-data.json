@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/dagger",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"dagger/dagger: 代码形式的应用交付，可在任何地方运行","number":104}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7U_lA","name":"dagger","color":"5c17cf","description":null},"name":"dagger","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/stakater",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"stakater/Reloader: 一款 Kubernetes 控制器，用于监视 ConfigMap 和 Secrets 的更改，并对其关联的 Deployment、StatefulSet、DaemonSet 和 DeploymentConfig 中的 Pods 进行滚动升级","number":480}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7c-7A","name":"stakater","color":"93e579","description":null},"name":"stakater","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

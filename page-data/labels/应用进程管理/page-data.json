@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/应用进程管理",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"ntt360/pmon2: Golang 进程管理工具，类似 Node 进程管理的 PM2","number":446}},{"node":{"title":"ochinchina/supervisord: 基于 Golang 实现的 Supervisord 进程管理工具","number":542}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7cMGg","name":"应用进程管理","color":"fa632f","description":null},"name":"应用进程管理","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

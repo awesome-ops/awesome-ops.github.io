@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/donknap",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"donknap/dpanel: Docker 可视化面板系统，提供完善的 docker 管理功能。","number":134}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VmQw","name":"donknap","color":"8228ca","description":null},"name":"donknap","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

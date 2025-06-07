@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/duolatech",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"duolatech/xapimanager:  专业实用的开源接口管理平台，为程序开发者提供一个灵活，方便，快捷的 API 管理工具，让 API 管理变的更加清晰、明朗。","number":615}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9ineQ","name":"duolatech","color":"883cb7","description":null},"name":"duolatech","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

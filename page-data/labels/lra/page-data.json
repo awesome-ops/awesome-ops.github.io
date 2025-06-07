@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/lra",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"lra/mackup: 一个可以保持你应用程序配置同步的工具","number":362}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7aeQw","name":"lra","color":"778741","description":null},"name":"lra","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

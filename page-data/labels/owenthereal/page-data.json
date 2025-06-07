@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/owenthereal",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"owenthereal/ccat: ccat是着色cat。它的工作原理与此类似，cat但显示带有语法突出显示的内容。","number":69}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7US7w","name":"owenthereal","color":"d99a09","description":null},"name":"owenthereal","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

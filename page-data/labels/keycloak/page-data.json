@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/keycloak",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"keycloak/keycloak: Keycloak提供用户联合、强身份验证、用户管理、细粒度授权等功能","number":281}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7YwTQ","name":"keycloak","color":"6fb82e","description":null},"name":"keycloak","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

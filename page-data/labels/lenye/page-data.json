@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/lenye",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"lenye/pmsg: 发送消息的小工具：企业微信群机器人消息，钉钉自定义机器人消息，飞书自定义机器人消息，Slack bot，微信消息，微信客服消息，企业微信消息，企业微信客服消息","number":447}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7cN9A","name":"lenye","color":"747d5e","description":null},"name":"lenye","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

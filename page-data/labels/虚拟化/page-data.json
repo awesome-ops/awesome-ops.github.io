@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/虚拟化",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"instantbox/instantbox: 在不到 30s 内得到一个干净、开箱即用的临时 Linux 系统","number":240}},{"node":{"title":"utmapp/utm: 适用于 iOS 和 MacOS 的虚拟机工具","number":584}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Xzzg","name":"虚拟化","color":"061cd6","description":null},"name":"虚拟化","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

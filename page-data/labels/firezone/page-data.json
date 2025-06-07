@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/firezone",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"firezone/firezone: 一个开源平台，可安全地管理各种规模组织的远程访问。与大多数 VPN 不同，Firezone 采用细粒度、最小权限的访问管理方法。","number":167}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WRMw","name":"firezone","color":"a7af5a","description":null},"name":"firezone","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

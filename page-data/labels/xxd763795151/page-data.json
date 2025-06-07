@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/xxd763795151",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"xxd763795151/kafka-console-ui:  一款轻量级的 kafka 可视化管理平台，安装配置快捷、简单易用。","number":268}},{"node":{"title":"xxd763795151/rocketmq-monitor: rocketmq 开箱即用的大盘，以及 Prometheus 的告警规则。","number":486}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Yc3w","name":"xxd763795151","color":"4b6927","description":null},"name":"xxd763795151","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/moreking",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"moreKing/web-firewall: 基于 golang+vue3 开发的 Web Linux 防火墙，可以在 Linux 系统中基于 nfatables 用于替代 firewalld 工具。","number":600}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9ieOQ","name":"moreKing","color":"9af86b","description":null},"name":"moreKing","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

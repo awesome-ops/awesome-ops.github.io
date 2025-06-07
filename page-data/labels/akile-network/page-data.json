@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/akile-network",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"akile-network/akile_monitor: 一个简洁的服务器监控面板，提供了一些基础信息的监控。","number":17}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TRlw","name":"akile-network","color":"512776","description":null},"name":"akile-network","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

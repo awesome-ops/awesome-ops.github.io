@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/ehang-io",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"ehang-io/nps: 一款轻量级、高性能、功能强大的内网穿透代理服务器。支持 tcp、udp、socks5、http 等几乎所有流量转发，可用来访问内网网站、本地支付接口调试、ssh 访问、远程桌面，内网 dns 解析、内网 socks5 代理等，并带有功能强大的 web 管理端。","number":404}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7bWWg","name":"ehang-io","color":"531e87","description":null},"name":"ehang-io","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

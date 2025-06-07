@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/bfenetworks",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"bfenetworks/bfe: 百度开源的现代化、企业级的七层负载均衡系统。","number":50}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7T6kw","name":"bfenetworks","color":"e82c37","description":null},"name":"bfenetworks","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

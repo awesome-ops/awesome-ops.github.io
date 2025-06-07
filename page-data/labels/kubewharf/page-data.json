@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/kubewharf",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"kubewharf/kelemetry: 将 Kubernetes 事件、审计日志、通知者等各种数据源聚合成传统追踪的形式，通过 Jaeger UI 实现可视化和自动分析。","number":279}},{"node":{"title":"kubewharf/kubegateway: kube-gateway 是字节跳动内部管理海量 kubernetes 集群的最佳实践。 它是为 kube-apiserver 的 HTTP2 流量专门设计并定制的七层负载均衡代理。 目标是为海量的大规模 kubernetes 集群（千级 node 以上）提供灵活的稳定的流量治理方案。","number":319}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7YtlA","name":"kubewharf","color":"b3decf","description":null},"name":"kubewharf","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

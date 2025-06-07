@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/k8gb-io",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"k8gb-io/k8gb: Kubernetes 的完全开源、云原生、全局负载均衡解决方案","number":260}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7YRLg","name":"k8gb-io","color":"fa4b01","description":null},"name":"k8gb-io","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

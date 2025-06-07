@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/schachmat",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"schachmat/wego: Golang 版本的终端天气工具","number":605}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9ihpQ","name":"schachmat","color":"2e85f8","description":null},"name":"schachmat","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/bluewave-labs",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"bluewave-labs/checkmate: Checkmate 是一个开源的、自托管的工具，旨在实时跟踪和监控服务器硬件、正常运行时间、响应时间和事件，并提供精美的可视化展示。","number":76}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UbTQ","name":"bluewave-labs","color":"09af70","description":null},"name":"bluewave-labs","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

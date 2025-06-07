@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/go-gost",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"go-gost/gost: GO语言实现的安全隧道","number":207}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7XHjQ","name":"go-gost","color":"d8c060","description":null},"name":"go-gost","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}
