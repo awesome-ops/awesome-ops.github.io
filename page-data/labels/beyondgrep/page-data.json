@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/beyondgrep",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"beyondgrep/ack3: ack 是一个代码搜索工具，类似于 grep，但针对搜索大型源代码树的程序员进行了优化。","number":7}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TESw","name":"beyondgrep","color":"924329","description":null},"name":"beyondgrep","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/workpieces",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"workpieces/etcdWp: 一款美观、易于 etcd 数据库管理应用程序，支持多平台","number":163}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WMcA","name":"workpieces","color":"62574a","description":null},"name":"workpieces","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

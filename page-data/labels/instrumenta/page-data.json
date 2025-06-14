@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/instrumenta",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"instrumenta/kubeval: 验证您的 Kubernetes 配置文件，支持多个不同版本的 Kubernetes","number":338}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Z_LQ","name":"instrumenta","color":"136837","description":null},"name":"instrumenta","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

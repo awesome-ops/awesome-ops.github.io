@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/ahmetb",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"ahmetb/kubectx: 在 kubectl 中更快速地切换不同集群和命名空间的方法","number":312}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Zcvw","name":"ahmetb","color":"f1e0dc","description":null},"name":"ahmetb","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

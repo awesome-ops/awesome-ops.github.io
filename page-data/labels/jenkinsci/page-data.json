@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/jenkinsci",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"jenkinsci/jenkins: Jenkins 是领先的开源自动化服务器。它使用 Java 构建，提供超过 1800 个插件来支持几乎所有事情的自动化，以便人类可以将时间花在机器无法完成的事情上。","number":248}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7X_WA","name":"jenkinsci","color":"6e86a1","description":null},"name":"jenkinsci","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

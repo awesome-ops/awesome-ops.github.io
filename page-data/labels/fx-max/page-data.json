@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/fx-max",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"FX-Max/docker-install-everything: 使用 Docker-compose 安装各种服务","number":121}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VWMg","name":"FX-Max","color":"6646b1","description":null},"name":"FX-Max","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

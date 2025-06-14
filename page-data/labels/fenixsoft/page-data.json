@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/fenixsoft",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"fenixsoft/awesome-fenix: 讨论如何构建一套可靠的大型分布式系统","number":41}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TuwQ","name":"fenixsoft","color":"44ae07","description":null},"name":"fenixsoft","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

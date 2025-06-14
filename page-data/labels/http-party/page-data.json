@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/http-party",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"http-party/http-server: 一个简单的、零配置的命令行静态 HTTP 服务器","number":232}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7XpVA","name":"http-party","color":"b1e8cd","description":null},"name":"http-party","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

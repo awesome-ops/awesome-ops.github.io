@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/weaviate",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"weaviate/weaviate: Weaviate是一个开源的向量数据库，可以存储对象和向量，允许将向量搜索与结构化过滤相结合，并具有云原生数据库的容错性和可伸缩性。","number":599}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9idNg","name":"weaviate","color":"ffb0c7","description":null},"name":"weaviate","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

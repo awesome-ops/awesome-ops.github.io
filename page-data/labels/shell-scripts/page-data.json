@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/shell-scripts",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"aqzt/kjyw: 项目基于shell、 python，运维脚本工具库，收集各类运维常用工具脚本，实现快速安装nginx、 mysql、 php、 redis、 nagios、 运维经常使用的脚本等","number":285}},{"node":{"title":"eryajf/magic-of-sysuse-scripts: 基于shell脚本实现的一个运维外挂，可通过脚本随处完成一些运维自动化的操作","number":363}},{"node":{"title":"oldratlee/useful-scripts: 👉 平时有用的手动操作做成脚本，以便捷地使用，让开发的日常生活更轻松些","number":583}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Y01w","name":"Shell-Scripts","color":"6c2d3a","description":null},"name":"Shell-Scripts","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

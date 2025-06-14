@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/openobserve",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"openobserve/openobserve: 一个云原生可观察性平台，专为日志、指标、跟踪、分析、RUM（真实用户监控 - 性能、错误、会话重放）而构建，设计用于 PB 级工作","number":418}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7boLQ","name":"openobserve","color":"e90d7d","description":null},"name":"openobserve","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

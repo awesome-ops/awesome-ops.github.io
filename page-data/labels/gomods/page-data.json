@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/gomods",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"gomods/athens: go 语言的私服仓库程序。没有 web 管理界面，但是认证内部 gitlab 很好用","number":38}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TrSw","name":"gomods","color":"2d545c","description":null},"name":"gomods","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/0xjacky",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"0xJacky/nginx-ui: 一个基于 Web 的综合界​​面，旨在简化 Nginx 服务器的管理和配置","number":398}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7bOqQ","name":"0xJacky","color":"bb9484","description":null},"name":"0xJacky","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

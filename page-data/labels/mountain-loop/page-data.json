@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/mountain-loop",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"mountain-loop/yaak: 一个桌面 API 客户端，用于与 REST、GraphQL、服务器发送事件 (SSE)、WebSocket 和 gRPC API 进行交互。","number":618}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9ipKw","name":"mountain-loop","color":"544b8e","description":null},"name":"mountain-loop","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

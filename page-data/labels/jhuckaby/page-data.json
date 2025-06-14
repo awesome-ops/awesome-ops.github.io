@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/jhuckaby",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"jhuckaby/Cronicle: 一个简单的分布式任务调度程序和运行程序，具有基于 Web 的 UI","number":100}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7U6NA","name":"jhuckaby","color":"49b16b","description":null},"name":"jhuckaby","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}
