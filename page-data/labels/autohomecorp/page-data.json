@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/autohomecorp",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"AutohomeCorp/frostmourne: 基于 Elasticsearch,  Prometheus,  SkyWalking,  InfluxDB，MySQL/TiDB，ClickHouse,  SQLServer,  IoTDB 数据的分布式监控报警系统","number":175}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WbFA","name":"AutohomeCorp","color":"b5dd7b","description":null},"name":"AutohomeCorp","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

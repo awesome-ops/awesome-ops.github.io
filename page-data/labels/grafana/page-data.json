@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/grafana",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"grafana/grafana: 开放且可组合的可观测性和数据可视化平台。可视化来自 Prometheus、Loki、Elasticsearch、InfluxDB、Postgres 等多个来源的指标、日志和跟踪。","number":209}},{"node":{"title":"grafana/k6: 一款现代化的负载测试工具，使用 Go 和 JavaScript 实现","number":259}},{"node":{"title":"grafana/loki: 水平可扩展、高可用、多租户日志聚合系统。它的设计非常经济高效且易于操作。它不索引日志的内容，而是为每个日志流建立一组标签。","number":358}},{"node":{"title":"grafana/pyroscope:  性能分析平台，用于分析 CPU 利用率和内存泄漏等应用性能问题","number":462}},{"node":{"title":"grafana/tempo:  Grafana Tempo 是一个高容量、最小依赖的分布式跟踪后端。","number":552}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7XKQQ","name":"grafana","color":"b33f06","description":null},"name":"grafana","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

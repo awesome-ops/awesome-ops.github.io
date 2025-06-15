@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/paas",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"Dokploy/dokploy: 一个免费的、自托管的平台即服务 (PaaS)，可简化应用程序和数据库的部署和管理。","number":128}},{"node":{"title":"moghtech/komodo: 一种在多台服务器上构建和部署软件的工具。","number":291}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Vebg","name":"PaaS","color":"dc15b0","description":null},"name":"PaaS","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

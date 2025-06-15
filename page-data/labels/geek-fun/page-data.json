@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/geek-fun",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"geek-fun/dockit: 一个用于连接管理 elasticsearch，opensearch 的客户端软件，支持 Mac，Windows，Linux 多平台。","number":123}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VYkw","name":"geek-fun","color":"56a1ac","description":null},"name":"geek-fun","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

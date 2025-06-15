@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/wgzhao",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"wgzhao/Addax: 一个基于阿里的 DataX 开发的多数据源同步工具。","number":10}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TIZw","name":"wgzhao","color":"c992a8","description":null},"name":"wgzhao","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

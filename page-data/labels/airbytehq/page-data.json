@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/airbytehq",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"airbytehq/airbyte: 一个开源数据集成引擎，可帮助您整合数据仓库、数据湖和数据库中的数据。","number":15}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TPEg","name":"airbytehq","color":"f7c5be","description":null},"name":"airbytehq","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/kubewall",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"kubewall/kubewall: 一个轻量的 k8s 集群控制面板，一个二进制即可部署，用在本地使用还是不错的。","number":340}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7aB-Q","name":"kubewall","color":"ce7bf7","description":null},"name":"kubewall","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

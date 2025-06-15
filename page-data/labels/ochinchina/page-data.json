@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/ochinchina",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"ochinchina/supervisord: 基于 Golang 实现的 Supervisord 进程管理工具","number":542}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9h3sg","name":"ochinchina","color":"dec8f5","description":null},"name":"ochinchina","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

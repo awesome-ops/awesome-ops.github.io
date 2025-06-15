@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/enix",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"enix/x509-certificate-exporter: Prometheus 导出器用于监控 Kubernetes 集群或独立系统中的 x509 证书过期情况","number":614}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9im2g","name":"enix","color":"1a51ba","description":null},"name":"enix","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/novuhq",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"novuhq/novu: 开源的通知基础设施，可以使用一个 API 管理多个渠道的通知。","number":401}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7bSfA","name":"novuhq","color":"20c7c9","description":null},"name":"novuhq","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

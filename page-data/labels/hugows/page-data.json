@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/hugows",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"hugows/hf: hf 是一个命令行实用程序，用于快速查找文件并执行命令 - 类似于终端的 Helm/Anything/CtrlP。它试图找到最佳匹配，就像其他模糊查找器（Sublime、ido、Helm）一样。","number":227}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Xjag","name":"hugows","color":"d2ddde","description":null},"name":"hugows","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

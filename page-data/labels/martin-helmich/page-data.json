@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/martin-helmich",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"martin-helmich/prometheus-nginxlog-exporter: 解析 Nginx 日志，暴露成指标","number":456}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7caAw","name":"martin-helmich","color":"1f6fd7","description":null},"name":"martin-helmich","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

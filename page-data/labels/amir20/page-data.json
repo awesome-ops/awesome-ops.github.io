@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/amir20",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"amir20/dozzle:  Dozzle 是一个小型轻量级应用程序，具有基于 Web 的界面来监视 Docker 日志。它不存储任何日志文件。它仅用于实时监控您的容器日志。 ","number":133}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Vk5A","name":"amir20","color":"ec62da","description":null},"name":"amir20","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

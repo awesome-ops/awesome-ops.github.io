@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/opentdp",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"opentdp/tdp-cloud: 土豆片多云资源管理系统","number":547}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9h7Bg","name":"opentdp","color":"5ef9aa","description":null},"name":"opentdp","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

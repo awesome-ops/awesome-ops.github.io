@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/ufoscout",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"ufoscout/docker-compose-wait: 一个小型命令行工具，用于在使用 Docker-compose(or K8s)时等待其他 Docker 容器启动的场景","number":120}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VUzQ","name":"ufoscout","color":"6bf8dc","description":null},"name":"ufoscout","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

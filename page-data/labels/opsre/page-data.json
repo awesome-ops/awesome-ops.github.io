@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/opsre",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"opsre/cloud_dns_exporter: 自动获取DNS提供商的域名及解析列表，同时自动获取每个域名解析的证书信息，并导出为Prometheus Metrics。","number":83}},{"node":{"title":"opsre/WatchAlert: WatchAlert 是基于Go+React开发的监控告警管理平台。可以完全替代 AlertManager、PrometheusAlert(通知平台) 等组件，支持配置交互式通知、通知对象、值班系统和聚合功能，并且拥有规则管理、告警抑制、告警推送和告警静默能力。可以提升运维效率，降低维护成本","number":596}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Ujzg","name":"opsre","color":"23f0d5","description":null},"name":"opsre","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

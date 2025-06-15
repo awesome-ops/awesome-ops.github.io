@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/traefik",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"traefik/traefik: 一种现代 HTTP 反向代理和负载均衡器，可以轻松部署微服务","number":572}},{"node":{"title":"traefik/whoami: 一个提供根据请求返回内容的调试工具。","number":608}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9iLTA","name":"traefik","color":"7aba4b","description":null},"name":"traefik","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/kedacore",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"kedacore/keda: KEDA 是一个基于 Kubernetes 的事件驱动自动伸缩组件。它为在 Kubernetes 中运行的任何容器提供基于事件的伸缩能力。","number":277}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Yq2w","name":"kedacore","color":"b169a2","description":null},"name":"kedacore","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

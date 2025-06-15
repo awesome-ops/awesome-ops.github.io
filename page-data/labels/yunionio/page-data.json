@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/yunionio",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"yunionio/cloudpods: 开源、云原生的多云和混合云融合平台","number":84}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Uk2g","name":"yunionio","color":"3b63bd","description":null},"name":"yunionio","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

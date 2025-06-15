@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/gocrane",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"gocrane/crane: Crane 是一个基于 FinOps 的云资源分析与成本优化平台。它的愿景是在保证客户应用运行质量的前提下实现极致的降本。","number":99}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7U4hA","name":"gocrane","color":"8e9573","description":null},"name":"gocrane","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}
