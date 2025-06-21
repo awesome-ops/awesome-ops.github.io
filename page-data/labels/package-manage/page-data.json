@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/package-manage",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"gomods/athens: go 语言的私服仓库程序。没有 web 管理界面，但是认证内部 gitlab 很好用","number":38}},{"node":{"title":"cnpm/cnpmcore: 前端 npm 包管理器","number":89}},{"node":{"title":"composer/composer: PHP 语言栈的私服程序","number":95}},{"node":{"title":"dzikoysk/reposilite: 轻量级且易于使用的存储库管理器，用于 JVM 生态系统中基于 Maven 的私服","number":482}},{"node":{"title":"verdaccio/verdaccio: 一个简单易用、无需配置的本地私有 npm 仓库。","number":590}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TrJg","name":"Package-Manage","color":"43e6e6","description":null},"name":"Package-Manage","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/kubediag",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"kubediag/kubediag: 将 Kubernetes 事件、审计日志、通知者等各种数据源聚合成传统追踪的形式，通过 Jaeger UI 实现可视化和自动分析。","number":314}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7ZfeQ","name":"kubediag","color":"8bc58e","description":null},"name":"kubediag","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

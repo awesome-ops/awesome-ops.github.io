@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/hipages",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"hipages/php-fpm_exporter: 用于 PHP-FPM 指标的 Prometheus Exporter","number":435}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7b95w","name":"hipages","color":"6370f4","description":null},"name":"hipages","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

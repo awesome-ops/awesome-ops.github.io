@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/gnmyt",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"gnmyt/Nexterm: 一个简易的堡垒机，支持 SSH、VNC 和 RDP 协议管理远程主机。同时支持 SFTP 管理功能，并且支持服务应用的简单管理。","number":393}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7bHjQ","name":"gnmyt","color":"ded0c3","description":null},"name":"gnmyt","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

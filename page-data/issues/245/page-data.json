@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/245",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":245,"previous":{"title":"istio/istio: Istio 是一个开源服务网格，它透明地分层到现有的分布式应用程序上。","number":244},"next":{"title":"kairyou/jenkins-cli: 一个用 Rust 编写的强大高效的 Jenkins CLI 工具。通过命令行简化 Jenkins 的项目部署。","number":246}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

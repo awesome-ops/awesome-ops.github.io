@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/pymumu",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"pymumu/smartdns: 一个本地DNS服务器，获取最快的网站IP，获得最佳上网体验，支持DoH，DoT，DoQ。","number":524}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9ht0g","name":"pymumu","color":"fa57dd","description":null},"name":"pymumu","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

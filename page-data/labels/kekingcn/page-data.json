@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/kekingcn",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"kekingcn/kkFileView: 文档在线预览项目解决方案，使用流行的 Spring Boot 框架构建，可轻松设置和部署。","number":286}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Y2rQ","name":"kekingcn","color":"6a3699","description":null},"name":"kekingcn","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

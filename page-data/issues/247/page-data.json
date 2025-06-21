@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/247",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":247,"previous":{"title":"kairyou/jenkins-cli: 一个用 Rust 编写的强大高效的 Jenkins CLI 工具。通过命令行简化 Jenkins 的项目部署。","number":246},"next":{"title":"jenkinsci/jenkins: Jenkins 是领先的开源自动化服务器。它使用 Java 构建，提供超过 1800 个插件来支持几乎所有事情的自动化，以便人类可以将时间花在机器无法完成的事情上。","number":248}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

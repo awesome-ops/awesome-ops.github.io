@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/nvm-sh",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"nvm-sh/nvm: 一个简单的工具，用于多个 Node 版本的管理与切换","number":408}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7bbeA","name":"nvm-sh","color":"677910","description":null},"name":"nvm-sh","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/sharkdp",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"sharkdp/bat: 类似 cat 命令，但带有 git 集成和语法高亮.","number":45}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7T0VQ","name":"sharkdp","color":"bb72b2","description":null},"name":"sharkdp","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

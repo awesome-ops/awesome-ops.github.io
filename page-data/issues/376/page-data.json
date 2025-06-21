@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/376",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":376,"previous":{"title":"MirrorX-Desktop/MirrorX: 基于 Rust 构建的远程桌面控制软件","number":375},"next":{"title":"FiloSottile/mkcert: 一个简单的零配置工具，可以使用您想要的任何名称制作本地可信的开发证书","number":377}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

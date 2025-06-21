@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/dushixiang",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"dushixiang/kafka-map: 一个美观简洁且强大的 Kafka Web 管理工具","number":271}},{"node":{"title":"dushixiang/next-terminal: 一个 Golang 开发的简单好用安全的开源交互审计系统，支持 RDP、SSH、VNC、Telnet、Kubernetes 协议","number":394}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7YgrQ","name":"dushixiang","color":"e1212f","description":null},"name":"dushixiang","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

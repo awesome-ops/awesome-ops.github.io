@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/kubernetes-sigs",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"kubernetes-sigs/kind: 使用 Docker 容器作为节点，在本地快速运行起 Kubernetes 集群的工具","number":283}},{"node":{"title":"kubernetes-sigs/krew: 寻找并安装 kubectl 插件","number":299}},{"node":{"title":"kubernetes-sigs/kubespray: 部署一个生产環境的 Kubernetes 集群","number":333}},{"node":{"title":"kubernetes-sigs/kwok: 一个没有 Kubelet 的 Kubernetes， 你可以在笔记本电脑上在几秒钟内模拟数千个节点，而不会大量消耗 CPU 或内存资源。且兼容 K8S API","number":345}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Yyeg","name":"kubernetes-sigs","color":"d55cf6","description":null},"name":"kubernetes-sigs","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

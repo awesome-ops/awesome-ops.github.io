@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/248",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":248,"previous":{"title":"lework/jenkins-update-center: Jenkins 插件国内镜像源加速配置。","number":247},"next":{"title":"jenv/jenv: 一个简单的工具，用于多个 JDK 版本的管理与切换","number":249}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

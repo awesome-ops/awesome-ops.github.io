@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/codesearch",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"eryajf/gitlabCodeSearch: 🔎 使用关键字搜索所有 Gitlab 项目, 并将结果输出为 Excel","number":183}},{"node":{"title":"huichen/kunlun: 基于 Golang 实现的 Git 仓库代码搜索引擎，只支持检索本地代码仓库","number":343}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Wlcw","name":"CodeSearch","color":"234a00","description":null},"name":"CodeSearch","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

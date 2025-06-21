@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/252",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":252,"previous":{"title":"miyajan/jflint: Jenkinsfile 语法检测工具，可集成在 Jenkinsfile 仓库的 CI 流程中","number":251},"next":{"title":"joggle-cn/joggle: Joggle 是基于 Ngrok 二开的开源内网穿透项目，支持多节点、私有部署、云服务。","number":253}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

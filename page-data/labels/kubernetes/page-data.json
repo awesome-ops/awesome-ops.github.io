@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/kubernetes",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"kubernetes/kompose: 将 Docker Compose 转换为 Kubernetes","number":292}},{"node":{"title":"kubernetes/kops: Kubernetes Operations (kOps) - 生产级别的 k8s 安装、升级与管理","number":297}},{"node":{"title":"kubernetes/kube-state-metrics: k8s官方推出的用于监控k8s集群状态的指标收集器，提供了大量的k8s集群状态指标，如节点状态、pod状态、deployment状态等","number":334}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Y_uw","name":"kubernetes","color":"9273f9","description":null},"name":"kubernetes","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/246",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":246,"previous":{"title":"jaegertracing/jaeger: 开源、分布式跟踪平台","number":245},"next":{"title":"lework/jenkins-update-center: Jenkins 插件国内镜像源加速配置。","number":247}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

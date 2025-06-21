@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/rpm",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"jordansissel/fpm: 轻松又合理地为多个平台（deb、rpm 等）构建软件包。","number":173}},{"node":{"title":"goreleaser/nfpm: 一个用 Go 编写的简单且 0 依赖项的 deb、rpm、apk 和 arch Linux 打包器","number":395}},{"node":{"title":"eryajf/rpmbuild: 收集整理生产实践中积累的 RPM 包构建 spec 文件，你可以直接基于此构建出符合自己实际需求的 RPM 包","number":487}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WYfw","name":"RPM","color":"69b715","description":null},"name":"RPM","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

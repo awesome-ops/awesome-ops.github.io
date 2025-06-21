@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/kubetail-org",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"kubetail-org/kubetail: 一个通用的 Kubernetes 日志仪表板，可以暴漏在浏览器当中查看。","number":336}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Z8cA","name":"kubetail-org","color":"575c52","description":null},"name":"kubetail-org","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

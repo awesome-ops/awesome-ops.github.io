@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/akazwz",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"akazwz/smail: 使用 cloudflare worker 快速搭建临时邮箱服务","number":522}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9hs2Q","name":"akazwz","color":"11d081","description":null},"name":"akazwz","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

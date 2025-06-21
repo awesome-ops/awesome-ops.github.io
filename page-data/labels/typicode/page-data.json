@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/typicode",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"typicode/json-server: 一款能够直接将 json 内容转成 REST API 接口的工具，你可以在日常开发中，通过该工具快速进行调试","number":256}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7YJzw","name":"typicode","color":"68998b","description":null},"name":"typicode","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

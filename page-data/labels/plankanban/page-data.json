@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/plankanban",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"plankanban/planka: 一款优雅的开源项目管理看板项目。","number":444}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7cJ4w","name":"plankanban","color":"02b0a3","description":null},"name":"plankanban","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

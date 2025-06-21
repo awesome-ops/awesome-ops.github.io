@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/116",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":116,"previous":{"title":"xxnuo/dns-benchmark: 一个批量 DNS 服务器基准测试工具，用于本地测量全世界的 DNS 服务器的可访问性和性能。","number":115},"next":{"title":"lanyi1998/DNSlog-GO: DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面","number":117}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

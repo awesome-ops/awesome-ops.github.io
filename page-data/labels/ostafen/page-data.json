@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/ostafen",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"ostafen/clover: 基于 Golang 编写，一个轻量级的NoSQL数据库，由于它的代码库很小，所以设计得简单且易于维护","number":87}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Uo5Q","name":"ostafen","color":"062677","description":null},"name":"ostafen","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

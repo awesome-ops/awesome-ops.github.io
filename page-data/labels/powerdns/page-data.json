@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/powerdns",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"PowerDNS/pdns: PowerDNS 权威、PowerDNS 递归、dnsdist","number":431}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7b46A","name":"PowerDNS","color":"7a80b5","description":null},"name":"PowerDNS","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}
