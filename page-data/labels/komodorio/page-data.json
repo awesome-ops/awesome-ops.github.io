@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/komodorio",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"komodorio/helm-dashboard: Helm 缺失的用户界面 - 可视化你的发布","number":225}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7XfLg","name":"komodorio","color":"43e504","description":null},"name":"komodorio","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

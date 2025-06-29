@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/homeport",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"homeport/termshot: 根据终端命令输出创建屏幕截图","number":557}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9iAlA","name":"homeport","color":"2e7af2","description":null},"name":"homeport","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

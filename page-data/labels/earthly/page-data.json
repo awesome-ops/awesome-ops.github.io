@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/earthly",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"earthly/earthly: 超级简单的构建框架，具有快速、可重复的构建和即时熟悉的语法 - 就像 Dockerfile 和 Makefile 的结合体。","number":142}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Vv8Q","name":"earthly","color":"ec5c08","description":null},"name":"earthly","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

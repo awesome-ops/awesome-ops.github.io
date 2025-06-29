@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/ccfos",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"ccfos/nightingale: All-in-One 的云原生监控工具，集合了 Prometheus 和 Grafana 的优点，你可以在 WebUI 上管理和配置告警策略，也可以对分布在多个 Region 的指标、日志、链路追踪数据进行统一的可视化和分析","number":399}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7bPdA","name":"ccfos","color":"5cc275","description":null},"name":"ccfos","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

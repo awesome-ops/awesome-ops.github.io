@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/backup",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"jeessy2/backup-x: 带Web界面的数据库/文件备份增强工具","number":2}},{"node":{"title":"noovertime7/gin-mysqlbak: 一款分布式高性能的备份系统，支持 MySQL、ElasticSearch 备份，多集群任务统一，数据集中存储","number":3}},{"node":{"title":"Hellager/mission-backup: 简单好用的备份软件","number":4}},{"node":{"title":"restic/restic: Restic 是一款快速、高效且安全的备份程序。它支持多系统。","number":5}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA6_uVg","name":"Backup","color":"530CF3","description":""},"name":"Backup","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

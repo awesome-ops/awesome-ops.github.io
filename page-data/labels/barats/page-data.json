@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/barats",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"barats/ohUrlShortener: 企业级短链接服务系统，支持短链接生产、查询及302转向，并自带点击量统计、独立 IP 数统计、访问日志","number":410}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7beWw","name":"barats","color":"befd3f","description":null},"name":"barats","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

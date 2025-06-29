@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/data-observe",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"data-observe/datav: 一个现代化的数据可视化平台，构建于 2023 年，可以对 Metrics,  Traces 和 Logs 数据进行深度可视化和交互操作","number":107}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VD6w","name":"data-observe","color":"07ecc4","description":null},"name":"data-observe","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

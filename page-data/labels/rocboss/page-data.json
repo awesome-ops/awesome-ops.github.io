@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/rocboss",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"rocboss/paopao-ce: 一个清新文艺的微社区，Gin+Zinc+Vue+TS开发","number":428}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7b06w","name":"rocboss","color":"069594","description":null},"name":"rocboss","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

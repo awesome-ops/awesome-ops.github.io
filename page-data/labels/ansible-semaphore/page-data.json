@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/ansible-semaphore",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"ansible-semaphore/semaphore: Ansible 的现代化用户界面","number":506}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9hirQ","name":"ansible-semaphore","color":"a9d249","description":null},"name":"ansible-semaphore","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

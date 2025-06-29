@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/provectus",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"provectus/kafka-ui: 一款 Python+Vue 写的 Kafka-Web 管理后台","number":272}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Yhzg","name":"provectus","color":"f90439","description":null},"name":"provectus","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

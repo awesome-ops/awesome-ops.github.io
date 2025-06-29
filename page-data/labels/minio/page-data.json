@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/minio",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"minio/minio: MinIO 是一个高性能、兼容 S3 的对象存储","number":374}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7avbQ","name":"minio","color":"0bb6c5","description":null},"name":"minio","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

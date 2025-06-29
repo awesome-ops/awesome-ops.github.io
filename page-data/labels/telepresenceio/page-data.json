@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/telepresenceio",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"telepresenceio/telepresence: 面向远程 Kubernetes 或 OpenShift 集群的本地开发工具","number":551}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9h85Q","name":"telepresenceio","color":"0d02a4","description":null},"name":"telepresenceio","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

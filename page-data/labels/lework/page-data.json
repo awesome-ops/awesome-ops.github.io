@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/lework",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"lework/jenkins-update-center: Jenkins 插件国内镜像源加速配置。","number":247}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7X9xg","name":"lework","color":"dc8bdc","description":null},"name":"lework","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

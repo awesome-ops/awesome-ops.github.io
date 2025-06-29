@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/wagoodman",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"wagoodman/dive: 用于探索分析 docker 镜像、分层内容以及发现缩小 Docker/OCI 镜像大小的方法的工具","number":114}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VMmg","name":"wagoodman","color":"3b3e70","description":null},"name":"wagoodman","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

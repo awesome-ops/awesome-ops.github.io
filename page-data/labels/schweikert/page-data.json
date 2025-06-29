@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/schweikert",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"schweikert/fping: 一个向网络主机发送 ICMP 回显探测的程序，类似于 ping，但在 ping 多个主机时性能要好得多。","number":172}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WXcw","name":"schweikert","color":"edc9c9","description":null},"name":"schweikert","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

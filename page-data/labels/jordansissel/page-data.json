@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/jordansissel",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"jordansissel/fpm: 轻松又合理地为多个平台（deb、rpm 等）构建软件包。","number":173}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WYvg","name":"jordansissel","color":"741cc3","description":null},"name":"jordansissel","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

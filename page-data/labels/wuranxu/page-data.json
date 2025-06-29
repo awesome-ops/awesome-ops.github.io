@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/wuranxu",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"wuranxu/pity: 一款专注于api自动化的工具，采用Python+FastApi+React开发","number":441}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7cGTQ","name":"wuranxu","color":"c96718","description":null},"name":"wuranxu","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/goreleaser",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"goreleaser/nfpm: 一个用 Go 编写的简单且 0 依赖项的 deb、rpm、apk 和 arch Linux 打包器","number":395}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7bJ4g","name":"goreleaser","color":"33268a","description":null},"name":"goreleaser","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

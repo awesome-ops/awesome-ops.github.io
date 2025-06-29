@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/prometheus-operator",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"prometheus-operator/kube-prometheus: 使用 Prometheus 监控 Kubernetes 和在 Kubernetes 上运行的应用程序","number":327}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Zwrw","name":"prometheus-operator","color":"ea2260","description":null},"name":"prometheus-operator","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}
