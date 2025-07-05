@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/339",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":339,"previous":{"title":"instrumenta/kubeval: 验证您的 Kubernetes 配置文件，支持多个不同版本的 Kubernetes","number":338},"next":{"title":"kubewall/kubewall: 一个轻量的 k8s 集群控制面板，一个二进制即可部署，用在本地使用还是不错的。","number":340}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

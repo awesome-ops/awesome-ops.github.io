@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/78",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":78,"previous":{"title":"chef/chef: Chef Infra 是一个高效的自动化平台，它将基础设施转化成可编程代码，实现了基础设施配置、部署和管理在任何环境、任何规模下的自动化。","number":77},"next":{"title":"TongchengOpenSource/ckibana: CKibana是一款可以在原生kibana查询Clickhouse的服务","number":79}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/opengemini",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"openGemini/openGemini: 一款云原生分布式时序数据库，主要面向物联网和运维监控场景","number":416}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7blrA","name":"openGemini","color":"ba2654","description":null},"name":"openGemini","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

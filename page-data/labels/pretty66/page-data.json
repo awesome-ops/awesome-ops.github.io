@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/pretty66",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"pretty66/iptables-web: 一个轻量级的 iptables Web 管理界面程序，支持二进制文件直接运行及 Docker 快速部署安装","number":243}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7X3hA","name":"pretty66","color":"381bfa","description":null},"name":"pretty66","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

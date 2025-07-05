@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/dianping",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"dianping/cat: CAT 作为服务端项目基础组件，提供了 Java, C/C++, Node.js, Python, Go 等多语言客户端","number":68}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UR1g","name":"dianping","color":"9a2b0f","description":null},"name":"dianping","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

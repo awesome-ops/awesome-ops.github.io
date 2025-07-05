@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/etcd-io",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"etcd-io/bbolt: Go 语言开发的嵌入式键/值数据库","number":46}},{"node":{"title":"etcd-io/etcd: 用于分布式系统中最关键数据的分布式可靠键值存储","number":164}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7T1nQ","name":"etcd-io","color":"5a1fed","description":null},"name":"etcd-io","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

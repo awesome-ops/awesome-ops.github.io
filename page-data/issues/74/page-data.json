@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/74",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":74,"previous":{"title":"cert-manager/cert-manager: 在 Kubernetes 中自动配置和管理 TLS 证书","number":73},"next":{"title":"operacle/checkcle: 提供实时服务器和服务正常运行时间监控、事件、多渠道告警能力。","number":75}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

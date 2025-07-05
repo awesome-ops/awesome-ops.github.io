@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/helloxz",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"helloxz/zdir: 使用 Golang + Vue3 开发的轻量级目录列表程序，支持 Linux、Docker、Windows 部署，支持视频、音频、代码等常规文件预览，适合个人或初创公司文件分享使用，亦可作为轻量级网盘使用","number":625}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9iteg","name":"helloxz","color":"67a4d4","description":null},"name":"helloxz","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

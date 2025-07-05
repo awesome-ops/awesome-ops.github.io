@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/xpf0000",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"xpf0000/FlyEnv: FlyEnv 提供了一个完整的运行环境，帮助用户开发和调试诸如 Laravel、WordPress、Yii2、FastAdmin、NestJS、SpringBoot、Gin、Beego、Django、Flask 等应用程序。","number":170}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WVXw","name":"xpf0000","color":"53cdca","description":null},"name":"xpf0000","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

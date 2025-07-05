@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/rustscan",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"RustScan/RustScan: 现代端口扫描仪，3 秒内扫描所有 65k 端口。","number":495}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9gmHQ","name":"RustScan","color":"EB40C5","description":""},"name":"RustScan","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

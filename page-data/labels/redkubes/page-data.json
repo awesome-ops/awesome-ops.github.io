@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/redkubes",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"redkubes/otomi-core: 适用于 Kubernetes 的自托管 DevOps 平台","number":424}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7bu7g","name":"redkubes","color":"0c275c","description":null},"name":"redkubes","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

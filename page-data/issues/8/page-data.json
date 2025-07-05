@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/8",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":8,"previous":{"title":"beyondgrep/ack3: ack 是一个代码搜索工具，类似于 grep，但针对搜索大型源代码树的程序员进行了优化。","number":7},"next":{"title":"nektos/act: 本地运行 GitHub Actions","number":9}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

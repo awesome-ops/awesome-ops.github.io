@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/abiosoft",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"abiosoft/colima: MacOS 和 Linux 上的容器运行时，只需最少的设置","number":93}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Uw4w","name":"abiosoft","color":"3e71f4","description":null},"name":"abiosoft","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

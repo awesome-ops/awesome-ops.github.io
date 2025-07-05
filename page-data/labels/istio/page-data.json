@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/istio",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"istio/istio: Istio 是一个开源服务网格，它透明地分层到现有的分布式应用程序上。","number":244}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7X4kg","name":"istio","color":"c347e1","description":null},"name":"istio","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

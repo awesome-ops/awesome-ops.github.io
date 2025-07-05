@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/zulu-openjdk",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"zulu-openjdk/zulu-openjdk: 该项目存放了Azul Zulu 构建的 OpenJDK 的 Docker 镜像的 Dockerfile。","number":633}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9iyjw","name":"zulu-openjdk","color":"87a280","description":null},"name":"zulu-openjdk","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

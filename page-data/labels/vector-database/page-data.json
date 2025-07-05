@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/vector-database",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"qdrant/qdrant: Qdrant - 面向下一代人工智能的高性能、大规模向量数据库。","number":463}},{"node":{"title":"weaviate/weaviate: Weaviate是一个开源的向量数据库，可以存储对象和向量，允许将向量搜索与结构化过滤相结合，并具有云原生数据库的容错性和可伸缩性。","number":599}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7at2g","name":"vector-database","color":"caa1ca","description":null},"name":"vector-database","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

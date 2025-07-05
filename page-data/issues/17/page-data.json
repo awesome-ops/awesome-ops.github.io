@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/17",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":17,"previous":{"title":"cosmtrek/air: ☁️ 针对 Golang 应用开发设计的一个热重载的命令行工具","number":16},"next":{"title":"tal-tech/alarm-dog: 通用的统一告警平台，提供配置化、流程化、标准化的能力，支持多种告警通知渠道，支持告警收敛、过滤、升级、工作流、自动恢复等功能","number":18}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

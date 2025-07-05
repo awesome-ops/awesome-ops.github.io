@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/didi",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"didi/gatekeeper: 一款golang编写的支持快速开发、插件化的高性能网关。使用二进制文件安装即刻体验网关功能。","number":180}},{"node":{"title":"didi/KnowSearch: 面向 Elasticsearch 研发与运维人员，围绕集群、索引构建的零侵入、多租户的 Elasticsearch GUI 管控平台","number":288}},{"node":{"title":"didi/KnowStreaming: 一站式云原生实时流数据平台，通过0侵入、插件化构建企业级 Kafka 服务，极大降低操作、存储和管理实时流数据门槛","number":289}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Wg7Q","name":"didi","color":"df6c8f","description":null},"name":"didi","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

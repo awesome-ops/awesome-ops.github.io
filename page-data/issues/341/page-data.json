@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/341",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":341,"previous":{"title":"kubewall/kubewall: 一个轻量的 k8s 集群控制面板，一个二进制即可部署，用在本地使用还是不错的。","number":340},"next":{"title":"eip-work/kuboard-press: K8s 多集群管理平台，开源免费版本仅支持3个以内的集群","number":342}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

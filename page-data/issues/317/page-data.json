@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/317",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":317,"previous":{"title":"CassInfra/KubeDoor: 基于K8S准入控制机制的微服务资源管控平台，多K8S统一监控、告警、展示最佳实践","number":316},"next":{"title":"kubesphere/kubeeye: KubeEye 是为 Kubernetes 设计的巡检工具，用于发现 Kubernetes 资源（使用 OPA ）、集群组件、集群节点（使用Node-Problem-Detector）等配置是否符合最佳实践，对于不符合最佳实践的，将给出修改建议。","number":318}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

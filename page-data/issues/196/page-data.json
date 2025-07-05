@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/196",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":196,"previous":{"title":"gogs/gogs: 一个最简单、最快速和最轻松的方式搭建自助 Git 服务，基于 Golang 开发，支持多平台。","number":195},"next":{"title":"lazzyfu/goInsight: 一个基于Gin和Vue开发的前后端分离Web平台，支持MySQL/TiDB/ClickHouse数据库，提供工单管理和数据查询功能。","number":197}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

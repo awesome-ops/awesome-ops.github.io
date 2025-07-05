@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/188",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":188,"previous":{"title":"nicolargo/glances: 一款开源的跨平台系统监控工具。它可以实时监控系统的各个方面，例如 CPU、内存、磁盘、网络使用情况等。","number":187},"next":{"title":"charmbracelet/glow: Glow 是一款基于终端的 Markdown 阅读器，从头开始设计，旨在展现 CLI 的美丽和强大功能。","number":189}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

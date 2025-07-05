@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/ncabatoff",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"ncabatoff/process-exporter: 用于进程指标的 Prometheus Exporter","number":453}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7cV2g","name":"ncabatoff","color":"4092f5","description":null},"name":"ncabatoff","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

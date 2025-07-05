@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/mylxsw",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"mylxsw/wizard: 一款开源的文档管理工具，支持 Markdown/Swagger/Table 类型的文档","number":610}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9ikSg","name":"mylxsw","color":"673ad9","description":null},"name":"mylxsw","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

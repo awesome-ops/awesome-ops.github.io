@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/tnk-studio",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"TNK-Studio/gortal: 一个使用 Go 语言开发的，超级轻量的跳板机服务。","number":205}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7XE1A","name":"TNK-Studio","color":"2fc1ba","description":null},"name":"TNK-Studio","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/argoproj",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"argoproj/argo-cd: 针对 Kubernetes 的声明式持续部署","number":34}},{"node":{"title":"argoproj/argo-workflows: Argo Workflows是一个开源的容器原生工作流引擎, 用于在Kubernetes上编排并行作业","number":35}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Tm5g","name":"argoproj","color":"ae8e28","description":null},"name":"argoproj","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

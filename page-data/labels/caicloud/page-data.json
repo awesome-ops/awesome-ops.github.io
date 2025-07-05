@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/caicloud",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"caicloud/kube-ladder: 文档旨在为广大从业者提供一个 Kubernetes 学习路径，为大家提供一定的指引","number":322}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Zqcw","name":"caicloud","color":"62c8e3","description":null},"name":"caicloud","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

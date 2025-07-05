@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/cert-manager",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"cert-manager/cert-manager: 在 Kubernetes 中自动配置和管理 TLS 证书","number":73}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UXrw","name":"cert-manager","color":"630fda","description":null},"name":"cert-manager","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

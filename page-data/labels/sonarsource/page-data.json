@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/sonarsource",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"SonarSource/sonarqube: SonarQube 不仅能够显示应用程序的运行状况，还能够突出显示新引入的问题。有了质量门，您就可以实现干净的代码，从而系统地提高代码质量。","number":528}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9hv8A","name":"SonarSource","color":"3055c8","description":null},"name":"SonarSource","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

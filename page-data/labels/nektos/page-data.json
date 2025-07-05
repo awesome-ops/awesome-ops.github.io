@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/nektos",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"nektos/act: 本地运行 GitHub Actions","number":9}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TGoQ","name":"nektos","color":"badf0a","description":null},"name":"nektos","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

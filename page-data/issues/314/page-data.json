@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/314",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":314,"previous":{"title":"kubecube-io/KubeCube: K8s 资源可视化管理以及统一的多集群多租户管理平台","number":313},"next":{"title":"werf/kubedog: 监视和跟踪 CI/CD 部署管道中的 Kubernetes 资源","number":315}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

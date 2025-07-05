@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/329",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":329,"previous":{"title":"jonmosco/kube-ps1: Kubernetes Bash/Zsh提示符插件。","number":328},"next":{"title":"duyanghao/kubernetes-reading-notes: Kubernetes源码阅读笔记，专注云原生、边缘计算、程序员综合素质以及自我修养","number":330}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

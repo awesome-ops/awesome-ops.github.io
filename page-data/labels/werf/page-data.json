@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/werf",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"werf/kubedog: 监视和跟踪 CI/CD 部署管道中的 Kubernetes 资源","number":315}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Zg7w","name":"werf","color":"b6c359","description":null},"name":"werf","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

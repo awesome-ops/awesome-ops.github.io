@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/pdm-project",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"pdm-project/pdm: 一个现代的 Python 包管理器，支持 PEP 最新标准。","number":430}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7b3vg","name":"pdm-project","color":"21b2d8","description":null},"name":"pdm-project","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

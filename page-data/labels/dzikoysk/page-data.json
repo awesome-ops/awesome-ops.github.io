@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/dzikoysk",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"dzikoysk/reposilite: 轻量级且易于使用的存储库管理器，用于 JVM 生态系统中基于 Maven 的私服","number":482}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7dCVQ","name":"dzikoysk","color":"819589","description":null},"name":"dzikoysk","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

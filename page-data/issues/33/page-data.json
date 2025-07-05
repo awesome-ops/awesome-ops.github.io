@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/33",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":33,"previous":{"title":"ofkm/arcane: 使用 Typescript 和 SvelteKit 编写的简洁优雅的 Docker 管理 UI","number":32},"next":{"title":"argoproj/argo-cd: 针对 Kubernetes 的声明式持续部署","number":34}}},
+    "staticQueryHashes": ["151096407","2861350382"]}
