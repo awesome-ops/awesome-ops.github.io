@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/lwch",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"lwch/natpass: 主机管理工具，支持 Shell 管理，支持远程桌面管理","number":387}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7a_5w","name":"lwch","color":"296725","description":null},"name":"lwch","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

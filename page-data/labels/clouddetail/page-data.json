@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/clouddetail",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"CloudDetail/apo: OpenTelemetry 结合 eBPF 的向导式可观测性产品","number":31}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TjEw","name":"CloudDetail","color":"9de481","description":null},"name":"CloudDetail","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

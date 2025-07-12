@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/vectordotdev",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"vectordotdev/vector: 高性能、高可靠、可观察的数据管道, 性能比 Logstash 强很多","number":588}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9iWSA","name":"vectordotdev","color":"6ff79b","description":null},"name":"vectordotdev","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

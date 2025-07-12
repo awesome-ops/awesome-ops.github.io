@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/thetnb",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"TheTNB/panel: 耗子 Linux 面板是使用 Golang + Vue 开发的轻量 Linux 服务器运维管理面板","number":427}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7bzXA","name":"TheTNB","color":"12a1dc","description":null},"name":"TheTNB","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,606 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/><meta name="theme-color" content="#FFFFFF"/><meta name="generator" content="Gatsby 4.11.3"/><style data-href="/styles.3aaba633489943369223.css" data-identity="gatsby-global-css">@media (prefers-color-scheme:dark){.markdown-body{--color-prettylights-syntax-comment:#8b949e;--color-prettylights-syntax-constant:#79c0ff;--color-prettylights-syntax-entity:#d2a8ff;--color-prettylights-syntax-storage-modifier-import:#c9d1d9;--color-prettylights-syntax-entity-tag:#7ee787;--color-prettylights-syntax-keyword:#ff7b72;--color-prettylights-syntax-string:#a5d6ff;--color-prettylights-syntax-variable:#ffa657;--color-prettylights-syntax-brackethighlighter-unmatched:#f85149;--color-prettylights-syntax-invalid-illegal-text:#f0f6fc;--color-prettylights-syntax-invalid-illegal-bg:#8e1519;--color-prettylights-syntax-carriage-return-text:#f0f6fc;--color-prettylights-syntax-carriage-return-bg:#b62324;--color-prettylights-syntax-string-regexp:#7ee787;--color-prettylights-syntax-markup-list:#f2cc60;--color-prettylights-syntax-markup-heading:#1f6feb;--color-prettylights-syntax-markup-italic:#c9d1d9;--color-prettylights-syntax-markup-bold:#c9d1d9;--color-prettylights-syntax-markup-deleted-text:#ffdcd7;--color-prettylights-syntax-markup-deleted-bg:#67060c;--color-prettylights-syntax-markup-inserted-text:#aff5b4;--color-prettylights-syntax-markup-inserted-bg:#033a16;--color-prettylights-syntax-markup-changed-text:#ffdfb6;--color-prettylights-syntax-markup-changed-bg:#5a1e02;--color-prettylights-syntax-markup-ignored-text:#c9d1d9;--color-prettylights-syntax-markup-ignored-bg:#1158c7;--color-prettylights-syntax-meta-diff-range:#d2a8ff;--color-prettylights-syntax-brackethighlighter-angle:#8b949e;--color-prettylights-syntax-sublimelinter-gutter-mark:#484f58;--color-prettylights-syntax-constant-other-reference-link:#a5d6ff;--color-fg-default:#c9d1d9;--color-fg-muted:#8b949e;--color-fg-subtle:#484f58;--color-canvas-default:#0d1117;--color-canvas-subtle:#161b22;--color-border-default:#30363d;--color-border-muted:#21262d;--color-neutral-muted:hsla(215,8%,47%,.4);--color-accent-fg:#58a6ff;--color-accent-emphasis:#1f6feb;--color-attention-subtle:rgba(187,128,9,.15);--color-danger-fg:#f85149;color-scheme:dark}}@media (prefers-color-scheme:light){.markdown-body{--color-prettylights-syntax-comment:#6e7781;--color-prettylights-syntax-constant:#0550ae;--color-prettylights-syntax-entity:#8250df;--color-prettylights-syntax-storage-modifier-import:#24292f;--color-prettylights-syntax-entity-tag:#116329;--color-prettylights-syntax-keyword:#cf222e;--color-prettylights-syntax-string:#0a3069;--color-prettylights-syntax-variable:#953800;--color-prettylights-syntax-brackethighlighter-unmatched:#82071e;--color-prettylights-syntax-invalid-illegal-text:#f6f8fa;--color-prettylights-syntax-invalid-illegal-bg:#82071e;--color-prettylights-syntax-carriage-return-text:#f6f8fa;--color-prettylights-syntax-carriage-return-bg:#cf222e;--color-prettylights-syntax-string-regexp:#116329;--color-prettylights-syntax-markup-list:#3b2300;--color-prettylights-syntax-markup-heading:#0550ae;--color-prettylights-syntax-markup-italic:#24292f;--color-prettylights-syntax-markup-bold:#24292f;--color-prettylights-syntax-markup-deleted-text:#82071e;--color-prettylights-syntax-markup-deleted-bg:#ffebe9;--color-prettylights-syntax-markup-inserted-text:#116329;--color-prettylights-syntax-markup-inserted-bg:#dafbe1;--color-prettylights-syntax-markup-changed-text:#953800;--color-prettylights-syntax-markup-changed-bg:#ffd8b5;--color-prettylights-syntax-markup-ignored-text:#eaeef2;--color-prettylights-syntax-markup-ignored-bg:#0550ae;--color-prettylights-syntax-meta-diff-range:#8250df;--color-prettylights-syntax-brackethighlighter-angle:#57606a;--color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;--color-prettylights-syntax-constant-other-reference-link:#0a3069;--color-fg-default:#24292f;--color-fg-muted:#57606a;--color-fg-subtle:#6e7781;--color-canvas-default:#fff;--color-canvas-subtle:#f6f8fa;--color-border-default:#d0d7de;--color-border-muted:#d8dee4;--color-neutral-muted:rgba(175,184,193,.2);--color-accent-fg:#0969da;--color-accent-emphasis:#0969da;--color-attention-subtle:#fff8c5;--color-danger-fg:#cf222e;color-scheme:light}}.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;word-wrap:break-word;background-color:var(--color-canvas-default);color:var(--color-fg-default);font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:16px;line-height:1.5;margin:0}.markdown-body h1:hover .anchor .octicon-link:before,.markdown-body h2:hover .anchor .octicon-link:before,.markdown-body h3:hover .anchor .octicon-link:before,.markdown-body h4:hover .anchor .octicon-link:before,.markdown-body h5:hover .anchor .octicon-link:before,.markdown-body h6:hover .anchor .octicon-link:before{background-color:currentColor;content:" ";display:inline-block;height:16px;-webkit-mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');width:16px}.markdown-body details,.markdown-body figcaption,.markdown-body figure{display:block}.markdown-body summary{display:list-item}.markdown-body [hidden]{display:none!important}.markdown-body a{background-color:transparent;color:var(--color-accent-fg);text-decoration:none}.markdown-body a:active,.markdown-body a:hover{outline-width:0}.markdown-body abbr[title]{border-bottom:none;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}.markdown-body b,.markdown-body strong{font-weight:600}.markdown-body dfn{font-style:italic}.markdown-body h1{border-bottom:1px solid var(--color-border-muted);font-size:2em;font-weight:600;margin:.67em 0;padding-bottom:.3em}.markdown-body mark{background-color:var(--color-attention-subtle);color:var(--color-text-primary)}.markdown-body small{font-size:90%}.markdown-body sub,.markdown-body sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}.markdown-body sub{bottom:-.25em}.markdown-body sup{top:-.5em}.markdown-body img{background-color:var(--color-canvas-default);border-style:none;box-sizing:content-box;max-width:100%}.markdown-body code,.markdown-body kbd,.markdown-body pre,.markdown-body samp{font-family:monospace,monospace;font-size:1em}.markdown-body figure{margin:1em 40px}.markdown-body hr{background:transparent;background-color:var(--color-border-default);border:0;box-sizing:content-box;height:.25em;margin:24px 0;overflow:hidden;padding:0}.markdown-body input{font:inherit;font-family:inherit;font-size:inherit;line-height:inherit;margin:0;overflow:visible}.markdown-body [type=button],.markdown-body [type=reset],.markdown-body [type=submit]{-webkit-appearance:button}.markdown-body [type=button]::-moz-focus-inner,.markdown-body [type=reset]::-moz-focus-inner,.markdown-body [type=submit]::-moz-focus-inner{border-style:none;padding:0}.markdown-body [type=button]:-moz-focusring,.markdown-body [type=reset]:-moz-focusring,.markdown-body [type=submit]:-moz-focusring{outline:1px dotted ButtonText}.markdown-body [type=checkbox],.markdown-body [type=radio]{box-sizing:border-box;padding:0}.markdown-body [type=number]::-webkit-inner-spin-button,.markdown-body [type=number]::-webkit-outer-spin-button{height:auto}.markdown-body [type=search]{-webkit-appearance:textfield;outline-offset:-2px}.markdown-body [type=search]::-webkit-search-cancel-button,.markdown-body [type=search]::-webkit-search-decoration{-webkit-appearance:none}.markdown-body ::-webkit-input-placeholder{color:inherit;opacity:.54}.markdown-body ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}.markdown-body a:hover{text-decoration:underline}.markdown-body hr:after,.markdown-body hr:before{content:"";display:table}.markdown-body hr:after{clear:both}.markdown-body table{border-collapse:collapse;border-spacing:0;display:block;max-width:100%;overflow:auto;width:-webkit-max-content;width:max-content}.markdown-body td,.markdown-body th{padding:0}.markdown-body details summary{cursor:pointer}.markdown-body details:not([open])>:not(summary){display:none!important}.markdown-body kbd{background-color:var(--color-canvas-subtle);border-bottom-color:var(--color-neutral-muted);border:1px solid var(--color-neutral-muted);border-radius:6px;box-shadow:inset 0 -1px 0 var(--color-neutral-muted);color:var(--color-fg-default);display:inline-block;font:11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;line-height:10px;padding:3px 5px;vertical-align:middle}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{font-weight:600;line-height:1.25;margin-bottom:16px;margin-top:24px}.markdown-body h2{border-bottom:1px solid var(--color-border-muted);font-size:1.5em;font-weight:600;padding-bottom:.3em}.markdown-body h3{font-size:1.25em;font-weight:600}.markdown-body h4{font-size:1em;font-weight:600}.markdown-body h5{font-size:.875em;font-weight:600}.markdown-body h6{color:var(--color-fg-muted);font-size:.85em;font-weight:600}.markdown-body p{margin-bottom:10px;margin-top:0}.markdown-body blockquote{border-left:.25em solid var(--color-border-default);color:var(--color-fg-muted);margin:0;padding:0 1em}.markdown-body ol,.markdown-body ul{margin-bottom:0;margin-top:0;padding-left:2em}.markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}.markdown-body ol ol ol,.markdown-body ol ul ol,.markdown-body ul ol ol,.markdown-body ul ul ol{list-style-type:lower-alpha}.markdown-body dd{margin-left:0}.markdown-body code,.markdown-body pre,.markdown-body tt{font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;font-size:12px}.markdown-body pre{word-wrap:normal;margin-bottom:0;margin-top:0}.markdown-body .octicon{fill:currentColor;display:inline-block;overflow:visible!important;vertical-align:text-bottom}.markdown-body ::-webkit-input-placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body :-ms-input-placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body ::placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body input::-webkit-inner-spin-button,.markdown-body input::-webkit-outer-spin-button{-webkit-appearance:none;appearance:none;margin:0}.markdown-body .pl-c{color:var(--color-prettylights-syntax-comment)}.markdown-body .pl-c1,.markdown-body .pl-s .pl-v{color:var(--color-prettylights-syntax-constant)}.markdown-body .pl-e,.markdown-body .pl-en{color:var(--color-prettylights-syntax-entity)}.markdown-body .pl-s .pl-s1,.markdown-body .pl-smi{color:var(--color-prettylights-syntax-storage-modifier-import)}.markdown-body .pl-ent{color:var(--color-prettylights-syntax-entity-tag)}.markdown-body .pl-k{color:var(--color-prettylights-syntax-keyword)}.markdown-body .pl-pds,.markdown-body .pl-s,.markdown-body .pl-s .pl-pse .pl-s1,.markdown-body .pl-sr,.markdown-body .pl-sr .pl-cce,.markdown-body .pl-sr .pl-sra,.markdown-body .pl-sr .pl-sre{color:var(--color-prettylights-syntax-string)}.markdown-body .pl-smw,.markdown-body .pl-v{color:var(--color-prettylights-syntax-variable)}.markdown-body .pl-bu{color:var(--color-prettylights-syntax-brackethighlighter-unmatched)}.markdown-body .pl-ii{background-color:var(--color-prettylights-syntax-invalid-illegal-bg);color:var(--color-prettylights-syntax-invalid-illegal-text)}.markdown-body .pl-c2{background-color:var(--color-prettylights-syntax-carriage-return-bg);color:var(--color-prettylights-syntax-carriage-return-text)}.markdown-body .pl-sr .pl-cce{color:var(--color-prettylights-syntax-string-regexp);font-weight:700}.markdown-body .pl-ml{color:var(--color-prettylights-syntax-markup-list)}.markdown-body .pl-mh,.markdown-body .pl-mh .pl-en,.markdown-body .pl-ms{color:var(--color-prettylights-syntax-markup-heading);font-weight:700}.markdown-body .pl-mi{color:var(--color-prettylights-syntax-markup-italic);font-style:italic}.markdown-body .pl-mb{color:var(--color-prettylights-syntax-markup-bold);font-weight:700}.markdown-body .pl-md{background-color:var(--color-prettylights-syntax-markup-deleted-bg);color:var(--color-prettylights-syntax-markup-deleted-text)}.markdown-body .pl-mi1{background-color:var(--color-prettylights-syntax-markup-inserted-bg);color:var(--color-prettylights-syntax-markup-inserted-text)}.markdown-body .pl-mc{background-color:var(--color-prettylights-syntax-markup-changed-bg);color:var(--color-prettylights-syntax-markup-changed-text)}.markdown-body .pl-mi2{background-color:var(--color-prettylights-syntax-markup-ignored-bg);color:var(--color-prettylights-syntax-markup-ignored-text)}.markdown-body .pl-mdr{color:var(--color-prettylights-syntax-meta-diff-range);font-weight:700}.markdown-body .pl-ba{color:var(--color-prettylights-syntax-brackethighlighter-angle)}.markdown-body .pl-sg{color:var(--color-prettylights-syntax-sublimelinter-gutter-mark)}.markdown-body .pl-corl{color:var(--color-prettylights-syntax-constant-other-reference-link);text-decoration:underline}.markdown-body [data-catalyst]{display:block}.markdown-body g-emoji{font-family:Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-size:1em;font-style:normal!important;font-weight:400;line-height:1;vertical-align:-.075em}.markdown-body g-emoji img{height:1em;width:1em}.markdown-body:after,.markdown-body:before{content:"";display:table}.markdown-body:after{clear:both}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body .absent{color:var(--color-danger-fg)}.markdown-body .anchor{float:left;line-height:1;margin-left:-20px;padding-right:4px}.markdown-body .anchor:focus{outline:none}.markdown-body blockquote,.markdown-body details,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-bottom:16px;margin-top:0}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body sup>a:before{content:"["}.markdown-body sup>a:after{content:"]"}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:var(--color-fg-default);vertical-align:middle;visibility:hidden}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}.markdown-body h1 code,.markdown-body h1 tt,.markdown-body h2 code,.markdown-body h2 tt,.markdown-body h3 code,.markdown-body h3 tt,.markdown-body h4 code,.markdown-body h4 tt,.markdown-body h5 code,.markdown-body h5 tt,.markdown-body h6 code,.markdown-body h6 tt{font-size:inherit;padding:0 .2em}.markdown-body ol.no-list,.markdown-body ul.no-list{list-style-type:none;padding:0}.markdown-body ol[type="1"]{list-style-type:decimal}.markdown-body ol[type=a]{list-style-type:lower-alpha}.markdown-body ol[type=i]{list-style-type:lower-roman}.markdown-body div>ol:not([type]){list-style-type:decimal}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-bottom:0;margin-top:0}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dl{padding:0}.markdown-body dl dt{font-size:1em;font-style:italic;font-weight:600;margin-top:16px;padding:0}.markdown-body dl dd{margin-bottom:16px;padding:0 16px}.markdown-body table th{font-weight:600}.markdown-body table td,.markdown-body table th{border:1px solid var(--color-border-default);padding:6px 13px}.markdown-body table tr{background-color:var(--color-canvas-default);border-top:1px solid var(--color-border-muted)}.markdown-body table tr:nth-child(2n){background-color:var(--color-canvas-subtle)}.markdown-body table img{background-color:transparent}.markdown-body img[align=right]{padding-left:20px}.markdown-body img[align=left]{padding-right:20px}.markdown-body .emoji{background-color:transparent;max-width:none;vertical-align:text-top}.markdown-body span.frame{display:block;overflow:hidden}.markdown-body span.frame>span{border:1px solid var(--color-border-default);display:block;float:left;margin:13px 0 0;overflow:hidden;padding:7px;width:auto}.markdown-body span.frame span img{display:block;float:left}.markdown-body span.frame span span{clear:both;color:var(--color-fg-default);display:block;padding:5px 0 0}.markdown-body span.align-center{clear:both;display:block;overflow:hidden}.markdown-body span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}.markdown-body span.align-center span img{margin:0 auto;text-align:center}.markdown-body span.align-right{clear:both;display:block;overflow:hidden}.markdown-body span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}.markdown-body span.align-right span img{margin:0;text-align:right}.markdown-body span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}.markdown-body span.float-left span{margin:13px 0 0}.markdown-body span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}.markdown-body span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}.markdown-body code,.markdown-body tt{background-color:var(--color-neutral-muted);border-radius:6px;font-size:85%;margin:0;padding:.2em .4em}.markdown-body code br,.markdown-body tt br{display:none}.markdown-body del code{text-decoration:inherit}.markdown-body pre code{font-size:100%}.markdown-body pre>code{background:transparent;border:0;margin:0;padding:0;white-space:pre;word-break:normal}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{background-color:var(--color-canvas-subtle);border-radius:6px;font-size:85%;line-height:1.45;overflow:auto;padding:16px}.markdown-body pre code,.markdown-body pre tt{word-wrap:normal;background-color:transparent;border:0;display:inline;line-height:inherit;margin:0;max-width:auto;overflow:visible;padding:0}.markdown-body .csv-data td,.markdown-body .csv-data th{font-size:12px;line-height:1;overflow:hidden;padding:5px;text-align:left;white-space:nowrap}.markdown-body .csv-data .blob-num{background:var(--color-canvas-default);border:0;padding:10px 8px 9px;text-align:right}.markdown-body .csv-data tr{border-top:0}.markdown-body .csv-data th{background:var(--color-canvas-subtle);border-top:0;font-weight:600}.markdown-body .footnotes{border-top:1px solid var(--color-border-default);color:var(--color-fg-muted);font-size:12px}.markdown-body .footnotes ol{padding-left:16px}.markdown-body .footnotes li{position:relative}.markdown-body .footnotes li:target:before{border:2px solid var(--color-accent-emphasis);border-radius:6px;bottom:-8px;content:"";left:-24px;pointer-events:none;position:absolute;right:-8px;top:-8px}.markdown-body .footnotes li:target{color:var(--color-fg-default)}.markdown-body .footnotes .data-footnote-backref g-emoji{font-family:monospace}.markdown-body .task-list-item{list-style-type:none}.markdown-body .task-list-item label{font-weight:400}.markdown-body .task-list-item.enabled label{cursor:pointer}.markdown-body .task-list-item+.task-list-item{margin-top:3px}.markdown-body .task-list-item .handle{display:none}.markdown-body .task-list-item-checkbox{margin:0 .2em .25em -1.6em;vertical-align:middle}.markdown-body .contains-task-list:dir(rtl) .task-list-item-checkbox{margin:0 -1.6em .25em .2em}.markdown-body ::-webkit-calendar-picker-indicator{-webkit-filter:invert(50%);filter:invert(50%)}@font-face{font-family:lab;src:url(/static/lab-b3a92fdc7ccdc8ebf471556b2e7b1018.woff2) format("woff2")}:root{--font-base:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;--layout-header-height:56px;--layout-footer-height:100px;--gg-border:hsla(0,0%,71%,.1)}*{box-sizing:border-box;transition:all .3s ease-out}html.dark{--theme-content-background-color:#232629;--theme-header-background-color:#232629;--theme-footer-background-color:#232629;--theme-text:#d8d8d8;--gg-logo:#d8d8d8;--gg-icon:#75757a}html.light{--theme-content-background-color:#fff;--theme-header-background-color:#fafafa;--theme-footer-background-color:#fefefe;--theme-text:#232629;--gg-logo:#232629;--gg-icon:#a5a5ac}body{font-family:var(--font-base);margin:0;padding:0}.icon-action{cursor:pointer;user-select:none}.page-title{align-items:center;display:flex;font-size:20px;font-weight:700;justify-content:center;margin-bottom:20px;text-align:center}.page-title .icon{margin-right:10px}.text-center{text-align:center}.gg-empty{color:hsla(0,0%,71%,.5);font-size:18px}.dark .markdown-body{--color-prettylights-syntax-comment:#8b949e;--color-prettylights-syntax-constant:#79c0ff;--color-prettylights-syntax-entity:#d2a8ff;--color-prettylights-syntax-storage-modifier-import:#c9d1d9;--color-prettylights-syntax-entity-tag:#7ee787;--color-prettylights-syntax-keyword:#ff7b72;--color-prettylights-syntax-string:#a5d6ff;--color-prettylights-syntax-variable:#ffa657;--color-prettylights-syntax-brackethighlighter-unmatched:#f85149;--color-prettylights-syntax-invalid-illegal-text:#f0f6fc;--color-prettylights-syntax-invalid-illegal-bg:#8e1519;--color-prettylights-syntax-carriage-return-text:#f0f6fc;--color-prettylights-syntax-carriage-return-bg:#b62324;--color-prettylights-syntax-string-regexp:#7ee787;--color-prettylights-syntax-markup-list:#f2cc60;--color-prettylights-syntax-markup-heading:#1f6feb;--color-prettylights-syntax-markup-italic:#c9d1d9;--color-prettylights-syntax-markup-bold:#c9d1d9;--color-prettylights-syntax-markup-deleted-text:#ffdcd7;--color-prettylights-syntax-markup-deleted-bg:#67060c;--color-prettylights-syntax-markup-inserted-text:#aff5b4;--color-prettylights-syntax-markup-inserted-bg:#033a16;--color-prettylights-syntax-markup-changed-text:#ffdfb6;--color-prettylights-syntax-markup-changed-bg:#5a1e02;--color-prettylights-syntax-markup-ignored-text:#c9d1d9;--color-prettylights-syntax-markup-ignored-bg:#1158c7;--color-prettylights-syntax-meta-diff-range:#d2a8ff;--color-prettylights-syntax-brackethighlighter-angle:#8b949e;--color-prettylights-syntax-sublimelinter-gutter-mark:#484f58;--color-prettylights-syntax-constant-other-reference-link:#a5d6ff;--color-fg-default:#c9d1d9;--color-fg-muted:#8b949e;--color-fg-subtle:#484f58;--color-canvas-default:#232629;--color-canvas-subtle:#161b22;--color-border-default:#30363d;--color-border-muted:#21262d;--color-neutral-muted:hsla(215,8%,47%,.4);--color-accent-fg:#58a6ff;--color-accent-emphasis:#1f6feb;--color-attention-subtle:rgba(187,128,9,.15);--color-danger-fg:#f85149;color-scheme:dark}.light .markdown-body{--color-prettylights-syntax-comment:#6e7781;--color-prettylights-syntax-constant:#0550ae;--color-prettylights-syntax-entity:#8250df;--color-prettylights-syntax-storage-modifier-import:#24292f;--color-prettylights-syntax-entity-tag:#116329;--color-prettylights-syntax-keyword:#cf222e;--color-prettylights-syntax-string:#0a3069;--color-prettylights-syntax-variable:#953800;--color-prettylights-syntax-brackethighlighter-unmatched:#82071e;--color-prettylights-syntax-invalid-illegal-text:#f6f8fa;--color-prettylights-syntax-invalid-illegal-bg:#82071e;--color-prettylights-syntax-carriage-return-text:#f6f8fa;--color-prettylights-syntax-carriage-return-bg:#cf222e;--color-prettylights-syntax-string-regexp:#116329;--color-prettylights-syntax-markup-list:#3b2300;--color-prettylights-syntax-markup-heading:#0550ae;--color-prettylights-syntax-markup-italic:#24292f;--color-prettylights-syntax-markup-bold:#24292f;--color-prettylights-syntax-markup-deleted-text:#82071e;--color-prettylights-syntax-markup-deleted-bg:#ffebe9;--color-prettylights-syntax-markup-inserted-text:#116329;--color-prettylights-syntax-markup-inserted-bg:#dafbe1;--color-prettylights-syntax-markup-changed-text:#953800;--color-prettylights-syntax-markup-changed-bg:#ffd8b5;--color-prettylights-syntax-markup-ignored-text:#eaeef2;--color-prettylights-syntax-markup-ignored-bg:#0550ae;--color-prettylights-syntax-meta-diff-range:#8250df;--color-prettylights-syntax-brackethighlighter-angle:#57606a;--color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;--color-prettylights-syntax-constant-other-reference-link:#0a3069;--color-fg-default:#24292f;--color-fg-muted:#57606a;--color-fg-subtle:#6e7781;--color-canvas-default:#fff;--color-canvas-subtle:#f6f8fa;--color-border-default:#d0d7de;--color-border-muted:#d8dee4;--color-neutral-muted:rgba(175,184,193,.2);--color-accent-fg:#0969da;--color-accent-emphasis:#0969da;--color-attention-subtle:#fff8c5;--color-danger-fg:#cf222e;color-scheme:light}.markdown-body{margin:0 auto;max-width:720px;padding:0 20px 20px}h1{border-bottom:none!important}.gg-logo{text-rendering:optimizelegibility;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;line-height:0;outline:none;text-align:center;text-transform:none;vertical-align:-.125em}.gg-logo,.gg-theme-toggle{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.gg-nav{height:var(--layout-header-height)}.gg-nav *{transition:none}.gg-nav .icons,.gg-nav .nav-screen nav li{align-items:center;display:flex}.gg-nav .nav-screen nav li{color:var(--gg-icon);cursor:pointer;font-weight:700;list-style:none}@media screen and (max-width:720px){.gg-nav{align-items:center;display:flex}.gg-nav .nav-icon{cursor:pointer;height:24px;overflow:hidden;width:24px}.gg-nav .nav-icon span{background:#999;display:block;height:3px;margin:4px 0;transition:all .3s ease;width:24px}.gg-nav .nav-icon .top{-webkit-transform:translateX(6px);transform:translateX(6px)}.gg-nav .nav-icon .bottom{-webkit-transform:translateX(8px);transform:translateX(8px)}.gg-nav .nav-icon.active .top{-webkit-transform:rotate(225deg) translateY(-5px) translateX(-5px);transform:rotate(225deg) translateY(-5px) translateX(-5px)}.gg-nav .nav-icon.active .middle{-webkit-transform:translateX(24px);transform:translateX(24px)}.gg-nav .nav-icon.active .bottom{-webkit-transform:rotate(135deg) translateY(5px) translateX(-5px);transform:rotate(135deg) translateY(5px) translateX(-5px)}.nav-icon{display:block}.nav-screen{background-color:var(--theme-header-background-color);height:0;left:0;overflow:hidden;position:fixed;top:var(--layout-header-height);transition:height .15s ease-out;width:100%;z-index:1000}.nav-screen>div{padding:20px}.nav-screen.open{height:calc(100vh - var(--layout-header-height))}.nav-screen nav{font-size:16px;text-align:center}.nav-screen nav svg{font-size:24px;margin-right:10px}.nav-screen nav li{justify-content:center;padding:8px 0}.nav-screen .icons{justify-content:center;margin-top:40px}.nav-screen .icons .icon-action{margin:0 10px}}@media screen and (min-width:721px){.nav-icon{display:none}.nav-screen{height:100%;justify-content:space-between}.nav-screen,.nav-screen>div{display:flex}.nav-screen .icons .icon-action{margin:0 5px}.nav-screen nav{margin-right:20px}.nav-screen nav svg{margin-right:4px}.nav-screen nav li{float:left;font-size:14px;height:100%;margin-right:20px}}#gg-backtop{align-items:center;border-radius:50%;bottom:20px;box-shadow:inset 0 0 5px hsla(0,0%,59%,.5);cursor:pointer;display:flex;height:42px;justify-content:center;position:fixed;right:20px;transition:all .5s ease;-webkit-user-select:none;-ms-user-select:none;user-select:none;width:42px}@media screen and (max-width:767px){#gg-backtop{height:36px;width:36px}}#gg-backtop svg{width:50%}#gg-backtop.hide{opacity:0;-webkit-transform:scale(0);transform:scale(0)}#gg-backtop.show{opacity:1;-webkit-transform:scale(1);transform:scale(1)}.gg-container{display:flex;flex-direction:column;min-height:100vh}.gg-container header{align-items:center;background-color:#fff;background-color:var(--theme-header-background-color);border-bottom:1px solid hsla(0,0%,47%,.2);box-shadow:0 1px 2px rgba(0,0,0,.05),0 1px 4px rgba(0,0,0,.05),0 2px 8px rgba(0,0,0,.05);display:flex;height:var(--layout-header-height);justify-content:space-between;padding:0 16px;position:fixed;top:0;width:100%;z-index:999}.gg-container header .imglogo{border:1px solid var(--gg-border);border-radius:8px;cursor:pointer;width:32px}.gg-container main{background-color:var(--theme-content-background-color);min-height:calc(100vh - var(--layout-footer-height));padding-top:80px}.gg-container footer{align-items:center;background-color:var(--theme-footer-background-color);color:#838c95;display:flex;font-size:14px;height:var(--layout-footer-height);justify-content:center;padding:0 10px;position:relative;text-align:center;width:100%}.gg-container footer:after{background:radial-gradient(hsla(0,0%,59%,.6),transparent 80%);content:"";display:block;height:1px;position:absolute;top:0;width:100%}.gg-container footer img{vertical-align:middle}.gg-container footer .owner{color:#3486e2;cursor:pointer;margin-left:5px;text-decoration:none}.gg-container footer .copyright{margin-left:10px}.gg-container footer .powered{margin-left:5px}@media screen and (max-width:720px){.gg-container footer{flex-direction:column}.gg-container footer .copyright,.gg-container footer .powered{margin-left:0;margin-top:5px}}.issues-page h1{text-align:center}.author-info{margin-bottom:3px}.author-info .author{cursor:pointer}.author-info .author .name{font-weight:500}.author-info .author img{border-radius:50%;margin-right:5px;vertical-align:middle;width:30px}.author-info i,.author-info span{font-size:14px}.author-info .date{margin-left:10px;opacity:.4}.author-info .number{float:right;line-height:26px;opacity:.3}.gg-category{background:hsla(0,0%,71%,.3)!important;border-radius:4px;display:inline-block;font-size:10px;font-weight:700;height:18px;line-height:18px;margin-right:10px;padding:0 5px;text-decoration:none!important;vertical-align:middle}.gg-category,.issues-num{color:var(--color-fg-default)!important;cursor:pointer}.issues-num{font-family:lab;font-style:italic;font-variation-settings:"size" 30,"quad" 40,"bevl" 20,"oval" 30;opacity:.6}.home-page .issues-list{max-width:unset}.home-page .issues-list>div{display:flex;flex-wrap:wrap;margin:0 auto;max-width:960px}.home-page .issues-list .author-info{margin-bottom:3px}.home-page .issues-list .author-info .author img{width:24px}.home-page .issues-list .author-info i,.home-page .issues-list .author-info span{font-size:12px}.home-page .issues-list .author-info .number{float:right;line-height:26px;opacity:.3}.home-page .issues-list .post-info .title{font-size:15px;font-weight:700;text-decoration:none;vertical-align:middle}@media screen and (min-width:721px){.home-page .issues-list .item{border:1px solid var(--gg-border);border-radius:5px;margin:0 10px 20px;max-width:100%;min-width:200px;overflow:hidden;width:calc(50% - 20px)}.home-page .issues-list .item .author-info{background-color:var(--gg-border);padding:3px 5px}.home-page .issues-list .item .post-info{padding:5px}}@media screen and (max-width:720px){.home-page .issues-list .item{border-bottom:1px solid hsla(0,0%,59%,.2);padding:15px 0 12px;width:100%}.home-page .issues-list .item .author-info{margin-bottom:5px}}.gg-label{border-radius:4px;border-style:solid;border-width:1px;cursor:pointer;display:inline-block;font-size:12px;height:18px;line-height:17px;overflow:hidden;vertical-align:middle}.gg-label b{color:#fff;padding:0 3px 0 2px}.gg-label b,.gg-label em{display:inline-block;height:100%}.gg-label em{border-bottom-right-radius:3px;border-top-right-radius:3px;color:var(--theme-text);padding:0 3px}.gg-issues-prev-next{align-items:stretch;border:1px solid hsla(0,0%,59%,.3);border-radius:5px;display:flex;margin:30px 0}.gg-issues-prev-next:after{clear:both;content:"";display:block}.gg-issues-prev-next a{flex:1 1;padding:15px 10px;width:50%}.gg-issues-prev-next a>span{align-items:center;display:flex;height:100%}.gg-issues-prev-next a .icon-action{min-width:20px}.gg-issues-prev-next .prev{text-align:left}.gg-issues-prev-next .prev>span{float:left}.gg-issues-prev-next .prev .icon-action{margin-right:5px}.gg-issues-prev-next .next{text-align:right}.gg-issues-prev-next .next>span{float:right}.gg-issues-prev-next .next .icon-action{margin-left:5px}@media screen and (max-width:720px){.gg-issues-prev-next{font-size:14px}}.issues-page h1{font-size:24px}.issues-page h1>span{background:linear-gradient(180deg,transparent 50%,hsla(0,0%,71%,.5) 0);padding:0 5px}.issues-page h1 .issues-num{font-size:18px;margin-right:10px}.issues-page .widget{margin-bottom:20px;text-align:center}.issues-page .gg-label{margin:2px 4px}.issues-page .ques-content{display:flex;margin-top:5px;min-height:120px}.issues-page .ques-content .quesicon{margin-right:3px}.issues-page .ques-content .quescontent{width:100%}.issues-page .vote{align-items:center;display:flex;flex-direction:column;font-style:normal}.issues-page .answer-content .answericon{background-color:hsla(0,0%,71%,.3);border-radius:5px;margin-bottom:20px;padding:5px 0 0;text-align:center}.issues-page .comments-item{border-left:1px solid hsla(0,0%,71%,.3);padding-bottom:1px;padding-left:3px}.issues-page .comments-item-content{margin-left:20px}.labels-category-page .gg-label-category-head{margin-bottom:20px;position:-webkit-sticky;position:sticky;top:56px}.labels-category-page .category-group{display:flex;width:100%}.labels-category-page .category-group .label-category{color:#fff;cursor:pointer;display:inline-block;font-weight:700;height:36px;line-height:36px;padding:0 10px;text-shadow:0 1px 1px rgba(80,80,80,.5)}.labels-category-page .category-group .label-category.active{color:#000}.labels-category-page .level-group .label-level{background-color:#000;color:#fff;cursor:pointer;display:inline-block;font-size:16px;font-size:14px;height:24px;line-height:24px;margin-right:1px;opacity:.5;padding:0 10px}.labels-category-page .level-group .label-level.active{opacity:1}.labels-category-page .level-group .label-level.level1{background-color:#3c3c3c}.labels-category-page .level-group .label-level.level2{background-color:#555}.labels-category-page .level-group .label-level.level3{background-color:#6f6f6f}.labels-category-page .level-group .label-level.level4{background-color:#888}.labels-category-page .level-group .label-level.level5{background-color:#a2a2a2}.labels-category-page .issues-list .item{background-color:var(--gg-border);border-radius:5px;margin-bottom:10px;padding:10px}.labels-category-page .issues-list .item .label-issue{margin-right:10px}.labels-category-page .issues-list .labels-list{font-size:12px;margin-top:4px}.labels-category-page .issues-list .labels-list .gg-label{margin-bottom:4px;margin-right:4px}.labels-category-page .issues-list .post-info{font-weight:700;margin-top:5px}.issues-list .issues-item{align-items:baseline;display:flex;margin-bottom:10px;text-align:left}.issues-list .issues-item .issues-num{font-size:12px;margin-right:10px}.issues-list .issues-item .title{font-weight:700}.labels-page{text-align:center}.labels-page .markdown-body{display:inline-block}.labels-page .labels-head{border-radius:5px;color:#fff;cursor:pointer;display:block;font-weight:700;margin-bottom:20px;padding:5px 10px;text-shadow:0 1px 2px #000}.labels-page .labels-head:hover{text-decoration:none!important}.labels-page .label-desc{font-weight:700;opacity:.5}.nav-category-page .gg-category{font-size:14px;font-weight:700;height:36px;line-height:36px;margin:10px;padding:0 12px}.nav-labels-page .gg-label{font-size:16px;font-weight:700;height:30px;line-height:29px;margin:5px}.nav-labels-page .gg-label b,.nav-labels-page .gg-label em{padding:0 10px}</style><link rel="icon" href="/favicon-32x32.png?v=fdd225e9135e951b972a3dc20604182e" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=fdd225e9135e951b972a3dc20604182e"/><link as="script" rel="preload" href="/webpack-runtime-4fee7405b8a071e8c34e.js"/><link as="script" rel="preload" href="/framework-86c8a5417e68dc3cefff.js"/><link as="script" rel="preload" href="/app-7383f855f15f63329e5f.js"/><link as="script" rel="preload" href="/fc369a2ef6459b03f38591687cef4a587495c716-f468df31cbdaf6ffa970.js"/><link as="script" rel="preload" href="/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js"/><link as="fetch" rel="preload" href="/page-data/issues/322/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/151096407.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2861350382.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/><script>
+(function() {
+  window.__onThemeChange = function() {};
+  function setTheme(newTheme) {
+    window.__theme = newTheme;
+    preferredTheme = newTheme;
+    document.querySelector('html').className = newTheme;
+    window.__onThemeChange(newTheme);
+  }
+  var preferredTheme;
+  try {
+    preferredTheme = localStorage.getItem('theme');
+  } catch (err) { }
+  window.__setPreferredTheme = function(newTheme) {
+    setTheme(newTheme);
+    try {
+      localStorage.setItem('theme', newTheme);
+    } catch (err) {}
+  }
+  var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  darkQuery.addListener(function(e) {
+    window.__setPreferredTheme(e.matches ? 'dark' : 'light')
+  });
+
+  setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
+})()</script></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="gg-container issues-page"><header><img class="imglogo" src="/static/logo-fe174465633f84724b37eea28a42c520.png" alt="logo"/><div class="gg-nav"><span class="nav-icon"><span class="top"></span><span class="middle"></span><span class="bottom"></span></span><div class="nav-screen"><div><nav><li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 9A1.5 1.5 0 0 0 7 7.5A1.5 1.5 0 0 0 5.5 6A1.5 1.5 0 0 0 4 7.5A1.5 1.5 0 0 0 5.5 9m11.91 2.58c.36.36.59.86.59 1.42c0 .55-.22 1.05-.59 1.41l-5 5a1.996 1.996 0 0 1-2.83 0l-6.99-6.99C2.22 12.05 2 11.55 2 11V6c0-1.11.89-2 2-2h5c.55 0 1.05.22 1.41.58l7 7m-3.87-5.87l1-1l6.87 6.87c.37.36.59.87.59 1.42c0 .55-.22 1.05-.58 1.41l-5.38 5.38l-1-1L20.75 13l-7.21-7.29Z"/></svg>Labels</li><li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M3 3h18v4H3V3m1 5h16v13H4V8m5.5 3a.5.5 0 0 0-.5.5V13h6v-1.5a.5.5 0 0 0-.5-.5h-5Z"/></svg>Archives</li></nav><div class="icons"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="gg-theme-toggle icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="m3.55 18.54l1.41 1.41l1.8-1.79l-1.42-1.42M11 22.45h2V19.5h-2m1-14a6 6 0 0 0-6 6a6 6 0 0 0 6 6a6 6 0 0 0 6-6c0-3.32-2.69-6-6-6m8 7h3v-2h-3m-2.76 7.66l1.8 1.79l1.41-1.41l-1.79-1.8m1.79-12.28l-1.41-1.41l-1.8 1.79l1.42 1.42M13 .55h-2V3.5h2m-9 7H1v2h3m2.76-7.66l-1.8-1.79l-1.41 1.41l1.79 1.8l1.42-1.42Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg></div></div></div></div></header><main><div class="content"><div class="markdown-body"><h1><span><a class="number issues-num" href="https://github.com/awesome-ops/awesome-ops.github.io/issues/322" target="_blank">#322</a><span>caicloud/kube-ladder: 文档旨在为广大从业者提供一个 Kubernetes 学习路径，为大家提供一定的指引</span></span></h1><div class="widget"><a class="gg-label" style="border-color:#25B472" href="/labels/更多"><b style="background:#25B472">#</b><em>更多</em></a><a class="gg-label" style="border-color:#604862" href="/labels/文档"><b style="background:#604862">#</b><em>文档</em></a><a class="gg-label" style="border-color:#62c8e3" href="/labels/caicloud"><b style="background:#62c8e3">#</b><em>caicloud</em></a></div><div><div class="author-info"><span class="author" title="https://github.com/eryajf"><img src="https://avatars.githubusercontent.com/u/33259379?u=e4a4090a38ac2473aaed4ef9945233636776c6c3&amp;v=4" alt="eryajf"/><span>eryajf</span></span><i class="date">2025/05/21</i></div><div class="ques-content"><div class="quescontent"><div align="center" dir="auto">
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966"><img src="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966" width="100%" height="3" data-animated-image="" data-canonical-src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" style="max-width: 100%; height: auto; max-height: 3px;"></a><br><br></p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th align="right">Repos</th>
+<th align="left"><a href="https://github.com/caicloud/kube-ladder">caicloud/kube-ladder</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right"><strong>Views</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/5afe1bf98215ae84d71ba4ebc9e11b8b2e18ffd2fb27a6f2e4fc2beb94dbcd0e/68747470733a2f2f76696577732e77686174696c656172656e65642e746f6461792f76696577732f6769746875622f636169636c6f75642f6b7562652d6c61646465722e737667" alt="views" data-canonical-src="https://views.whatilearened.today/views/github/caicloud/kube-ladder.svg" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>Stars</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/91236c60a6c35329bf131ef8bee0b537c60670be808a62459a1eccbe49a32fd2/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f636169636c6f75642f6b7562652d6c61646465723f636f6c6f723d663266303864266c6f676f3d556e64657274616c65266c6f676f436f6c6f723d656234363330" alt="stars" data-canonical-src="https://img.shields.io/github/stars/caicloud/kube-ladder?color=f2f08d&amp;logo=Undertale&amp;logoColor=eb4630" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>Forks</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/f6b6445ac595f17dd532fd7f524efd45cce396d4badb236ef8ce6b59ad2d8d44/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f636169636c6f75642f6b7562652d6c61646465723f636f6c6f723d626138366562266c6f676f3d48616e647368616b65266c6f676f436f6c6f723d656136616136" alt="forks" data-canonical-src="https://img.shields.io/github/forks/caicloud/kube-ladder?color=ba86eb&amp;logo=Handshake&amp;logoColor=ea6aa6" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>License</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/923a4f20954daf98bb3d01e1c60902dc72d8b93b5b1076db43f5c95461536052/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f636169636c6f75642f6b7562652d6c61646465723f6c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e53556845556741414144414141414177434159414141425841766d48414141414358424957584d41414173544141414c457745416d70775941414144336b6c45515652346e4f335953557a5555426748384a726f57567255474a66456d3773584e63534446784d544c327069347348456778654e526f77586770455742445552522532424e414e4f4b4f4b36366f6f4b4a4742586545475263574163455646475152484677516d483525324630774861655748493944554455354c356b6e6568644f62377a66652532423139636e434a47495243516945596c514237594a4979474c38616f73756c565a36695246516a69474b6b7564576735614c6c704f70704e586e665071773555304459524a6d56786a4367464633424c755a476d416f5655694b4541726d583744375553677351706f72674761336748664b34483663754262435644334771683141352532424c6745253242467749656e514d306a6f446f66714c6f48564e7742796d384370546e416d327a51713073676478624964515a556c416b7150415a3664676a303541446f59526f6f66792532466f5869726f376b3551586a4c6f70677a4b69514e6c4c4461716f4967754577426a7a7150355066446a45394479495879493633464d547751464d43567271774e61763451666f52673538514625324266724d485172454b3844546f434d714e4179574e4866786d54526f4c4f726d5352566747744466714345715a4f4851727a6f34706243557341333431365169364551394b476a6345465267484f724f4b6e5536574162396247455459656b4b7843766a546167394534706a653534446b3551503862624d4859762532464333756541654a6b50304f4778422532424a70426e4172595238455951516e6f4e31414e4661426e5050356c385372736559514c303641646b30464a5938484f5761424d6c6541486a683068506f73497a6c6f3876304125324633345a694f6548726130714b52504d5653493774762532423932747725324676687855654252713456454c674d376642714b354770526d6f514c584e7075625475367a6f4e52706754386e5051627138347764253246494375767978694b4871694e41664933774d367549684271476b4c696977414f734b44714f68743749747239567938536a52424557667941627225324668523142667056514664484a42253246423268683778376a36517077435665655951326b72554235436c636a3641326d3067576a25324244306d4c34397a573563517943484c4e37726a6c6d6d6174457958582532464372547a412532466f51785a6b576c39474a5443566f25324279546a3837253242346769504b6376307149486f344156344430565a727251493334706e70524d36357875652532467a417265453425324654253246536f676c664542794d7369517441546c4c3352414a355948725378365a44665337307337754d486842705225324659423573305057366f455270316236253246667252684b3353444c35546965364f515548516c5133735644752532427a50636b397657453973747225324236496a533967486d5750616861444a25324277434b364e494242587348423948796b587378774470686c436d416476706c6162554a4e6e5a504239342532464e7436784f6538587a4562503257684d335741673147756236744825324233513150673337365239713475716c6e6f36676448476a444f5139306562303141484d3672596975554a314f713472344656756a35765239427a4d3957674e764f7977446869495951467667626366774166774d764863615067425041253246447948476a50624e394138616d6562636477416444354e6633373574787165774e5552656f797677424958594c645170576c6877465771745061435044334173467541535636717171496c62304a766b564331464c39576b4c55556c55574b337a585a4c46432532423125324642726f46746f364f7358497545594a5034447a7a5732594656316f4a614141414141456c46546b5375516d4343" alt="license" data-canonical-src="https://img.shields.io/github/license/caicloud/kube-ladder?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD3klEQVR4nO3YSUzUUBgH8JroWVrUGJfEm7sXNcSDFxMTL2pi4sHEgxeNRowXgpEWBDURR%2BNANOKOK66ooKJGBXeEGRcWAcEVFGQRHFwQmH5%2F0wHaeWHI9DUDU5L5knehdOb7zfe%2B19cnCJGIRCQiEYlQB7YJIyGL8aosulVZ6iRFQjiGKkudWg5aLlpOppNXnfPqw5U0DYRJmVxjCgFF3BLuZGmAoVUiKEArmX7D7USgsQporgGa3gHfK4H6cuBbCVD3Gqh1A5%2BLgE%2BFwIenQM0joDofqLoHVNwBym8CpTnAm2zQq0sgdxbIdQZUlAkqPAZ6dgj05ADoYRoofy%2FoXiro7k5QXjLopgzKiQNlLDaqoIguEwBjzqP5PfDjE9DyIXyI63FMTwQFMCVrqwNav4QfoRg58QF%2BfrMHQrEK8DToCMqNAyWNHfxmTRoLOrmSRVgGtDfqCEqZOHQrzo4pbCUsA3416Qi6EQ9KGjcEFRgHOrOKnU6WAb9bGETYekKxCvjTag9E4pje54Dk5QP8bbMHYv%2FC3ueAeJkP0OGxB%2BJpBnArYR8EYQQnoN1ANFaBnPP5l8SrseYQL06Adk0FJY8HOWaBMleAHjh0hPosIzlo8v0A%2F34ZiOeHra0qKRPMVSI7tv%2B92tw%2FvhxUeBRq4VELgM7fBqK5GpRmoQLXNpubTu6zoNRpgT8nPQbq84wd%2FICuvyxiKHqiNAfI3wM6uIhBqGkLiiwAOsKDqOht7Itr9Vy8SjRBEWfyAbr%2FhR1BfpVQFdHJB%2FB2hh7x7j6QpwCVeeYQ2krUB5Clcj6A2m0gWj%2BD0mL49zW5cQyCHLN7rjlmmatEyXX%2FCrTzA%2FoQxZkWl9GJTCVo%2ByTj87%2B4giPKcv0qIHo4AV4D0VZrrQI34pnpRM65xue%2FzAreE4%2FT%2FSoglfEByMsiQtATlL3RAJ5YHrSx6ZDfS70s7uMHhBpR%2FYB5s0PW6oERp1b6%2FfrRhK3SDL5Tie6OQUHQlQ3sVDu%2BzPck9vWE9str%2B6IjS9gHmWPahaDJ%2BwCK6NIBBXsHB9HykXsxwDphlCmAdvplabUJNnZPB94%2FNt6xOe8XzEbP2WhM3WAg1Gub6tH%2B3Q1Pg376R9q4uqlno6gdHGjDOQ90eb01AHM6rYiuUJ1Oq4r4FVuj5vR9BzM9WgNvOywDhiIYQFvgbcfwAfwMvHcaPgBPA%2FDyHGjPbN9A8amebcdwAdD5Nf375txqewNUReoyvwBIXYLdQpWlhwFWqtPaCPD3AsFuASV6qqqIlb0JvkVC1FL9WkLUUlUWK3zXZLFC%2B1%2FBroFto6OsXIuEYJP4DzzW2YFV1oJaAAAAAElFTkSuQmCC" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>UpdatedAt</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/c5058ce33e36bd8c6521fbef0f677c243431ce38edf25ee5a554cc968af14e09/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f636169636c6f75642f6b7562652d6c61646465723f646973706c61795f74696d657374616d703d636f6d6d6974746572266c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e5355684555674141414234414141416543415941414141374d4b3669414141414358424957584d41414173544141414c457745416d7077594141414648556c45515652346e4c5658375539615678776d3236646c582532466468627825324232253246516e626b7655627264554151674a4a496655444e574454546d4f76314651554661504a346b7573725630314a7431734e70637453327533626f745a746d786439744a5346536f714b71494635625944464c436f76436c656673747a4a387758524c445a4c7a6e6b634f343535376e3364332532466e655a3472454f515a74315771462532423858467234253242664f4c4565326a6f59307a776638546f795a50766a45676b4c592532426b306d6d72584f36644b696e787a476b30666a5430782532425279723055716e6359637a4d317263347451253242497270324c4758646f344e4334567657715453373277716c632532427231334f527269364b6458646e624f484c6c776c7a4a70524b6e3657342532424b36706f4f434e6e494166486a253246253242776168495a4234764b6e715a6630714a704e49716c2532467638545530634e6c3572627963337730516e54703379324c54614a374d314e617844723266526e315370504736476961323174664533345463614f617931694d55564f5146624659714957536f31573854694156616e43306576584f4542375770313448466232327a453566714c4f433545524c515769644e614e49347545636339693768634a6c644868324e57725135674464624f6c7061756d49754c62326174415144506e7a3062384e6257636d785656524a33486d7870536377777a4f4a6d4b44524765384c6c435a444c4739673754496e5631516c376462586256316533675430574b697243466f6d6b5079767758466c5a474a4f6a563625324253743634757564445a4f55354555636f782532464d455144567674364d62634e3237593341797a687633737061557242365a3971724a534f3139657a6a387032704c426b4a792532426343484a7857493567573574636652527a31645531394766476b6f7539505a4f34736d52396a4746777065783444793362766e6d4b79706f74625531335669646a71595a68726a343972764d457425324625324659714c7a396430304e6a57253246637a67796f394f35317a7336614e6c6f354644747530445a675146686c47584a30644241446f4e6864367576703657686f617967374e394c564748386d443462253246486e667455516f4e4734764c51306769784d716c5725324234714f6a744e48446733723166365969525347785279375576714c62395534716b716e78504f4e7661356c447048723125324279794b524e4b57425a793565644d554842326d3572792532422532424551772532427a6766347a6f39253246306f634e3357527a4c4277344a2532424a7950574372716d4967475974554f735744346f785a46516f50556a4770564871493425324661666b51504336665a5165654d31253242764c7549516e6a754257514444437363726d485039656f4e5041744271664f6e5875614b25324268364a45624772732532427076764d6d78654962683836336162565065597953456f39464a48704e4d464a59253242503563575a6b6667374f3174537759436553514c54593345385130392532464256504a556c78516a7368543142736343593032723955445542667643484236367063665041336c794165336e6772332532463437584467614a7a736c7937787741364e5a746c555550437541487161536a5549502532427375653842525741432532464e6651374a5a505a35397330476a3756747049537a34685125324243706658474d4b685a63764c70554b7866574d386f68766637702532464f446a4842666356463849736b383267314648796b63564645253242555a414158343761452532464d6c34504f3530506e75683025324678346e6d637957507364774468427836436d6b4c562532466746446a594b784f4a4f4674623077517949684c39527943774b33414f664947703159464542686e4d4a634c525745624b644b516f55366e63545a6b494544696341792532463831645675454d3552775066657934784f7830496b25324649324e6e466b692532425761664f6f464959466367595a43797864376543556a626334416d46363566742532466b4d686b336f25324235686337734d4a79716a4a45477659466151464972375930775077384246415925324236253242766d6b3377367a7a5275444d6d5a5652736668385274413075455453443775434254364459514e36697665553066706b594c6a453671725672744f78654e4b553954484c5a4a396b4255324a427342685635416976422532466f4b61514e4b675043427744596149665a4334616454684f71463457454e56694c4a77566f586f62664c424b56773637414f6154734c6336355461564b32317651344c613939654b6359673576627873624f627a5451394e37554b4467554f3177446a6944494942736868357a746733396e514d4c535a4248344f7a424f55444551586d323036643366634c67737762585141345068634b336e6873775531427a3877765130395248472532466f597933656a6677424e6d746f59714c4130586741414141424a52553545726b4a676767253344253344266c6162656c3d557064617465644174" alt="last-commit" data-canonical-src="https://img.shields.io/github/last-commit/caicloud/kube-ladder?display_timestamp=committer&amp;logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHUlEQVR4nLVX7U9aVxwm26dlX%2Fdhbx%2B2%2FQnbkvUbrdUAQgJJIfUDNWDTTmOv1FQUFaPJ4kusrV01Jt1sNpctS2u3botZtmxd9tJSFSoqKqIF5bYDFLCovClefstzJ8wXRLDZLznkcO4557n3d3%2FneZ4rEOQZt1WqF%2B8XFr4%2BfOLEe2joY0zwf8ToyZPvjEgkLY%2Bk0mmrXO6dKinxzGk0fjT0x%2BRyr0UqncYczM1rc4tQ%2BIrp2LGXdo4NC4VvWqTS72wqlc%2Br13ORri6KdXdnbOHLlwlzJpRKn6W4%2BK6poOCNnIAfHj%2F%2BwahIZB4vKnqZf0qJpNIql%2Fv8TU0cNl5rbyc3w0QnTp3y2LTaJ7M1NaxDr2fRn1SpPG6Gia21tfE34TcaOay1iMUVOQFbFYqIWSo1W8TiAVanC0evXOEB7Wp14HFb22zE5fqLOC5ERLQWidNaNI4uEcc9i7hcJldHh2NWrQ5gDdbOlpaumIuLb2atAQDPnz0b8NbWcmxVVRJ3HmxpScwwzOJmKDRGe8LlCZDLG9g7TInV1Ql7dbXbV1e3gT0WKirCFomkPyvwXFlZGJOjV6%2BSt64uudDZOU5EUcox%2FMEQDVvt6MbcN27Y3Ayzhv3spaUrB6Z9qrJSO19ezj8p2pLBkJy%2BcCHJxWI5gW5tcfRRz1dU19GfGkou9PZO4smR9jGFwpex4Dy3bvnmKypotbU13VidjqYZhrj49rvMEt%2F%2FYqLz9d00NjW%2Fczgyo9O51zs6aNlo5FDtu0DZgQFhlGXJ0dBADoNhd6uvp6Whoayg7N9LVGH8mD4b%2FHnftUQoNG4vLQ0gixMqlW%2B4qOjtNHDg3r1f6YiRSGxRy7UvqLb9U4qkqnxPONva5lDpHr1%2ByyKRNKWBZy5edMUHB2m5ry%2B%2BEQw%2Bzgf4zo9%2F0ocN3WRzLBw4J%2BJyPWCrqmIgGYtUOsWD4oxZFQoPUjGpVHqI4%2FafkQPC6fZQeeM1%2BvLuIQnjuBWQDDCscrmHP9eoNPAtBqfOnXuaK%2Bh6JEbGrs%2BpvvMmxeIbh863abVPeYySEo9FJHpNMFJY%2BP5cWZkfg7O1tSwYCeSQLTY3E8Q09%2FBVPJUlxQjshT1BscCY02r9UDUBfvCHB66pcfPA3lyAe3ngr3%2F47XDgaJzsly7xwA6NZtlUUPCuAHqaSjUIP%2Bsue8BRWAC%2FNfQ7JZPZ59s0Gj7VtpISz4hQ%2BCpfXGMKhZcvLpUKxfWM8ohvf7p%2FODjHBfcVF8Isk82g1FHykcVFE%2BUZAAX47aE%2FMl4PO50Pnuh0%2Fx4nmcyWPsdwDhBx6CmkLV%2FgFDjYKxOJOFtb0wQyIhL9RyCwK3AOfIGp1YFEBhnMJcLRWEbKdKQoU6ncTZkIEDicAy%2F81dVuEM5RwPfey4xOx0Ik%2FI2NnFki%2BWafOoFIYFcgYZCyxd7eCUjbc4AmF65ft%2FkMhk3o%2B5hc7sMJyqjJEGvYFaQFIr7Y0wPw8BFAY%2B6%2Bvmk3w6zzRuDMmZVRsfh8RtA0uETSD7uCBT6DYQN6iveU0fpkYLjE6qrVrtOxeNKU9THLZJ9kBU2JBsBhV5AivB%2FoKaQNKgPCBwDYaIfZC4adThOqF4WENViLJwVoXobfLBKVw67AOaTsLc65TaVK21vQ4La99eKcYg5vbxsbObzTQ9N7UKDgUO1wDjiDIIBshh5ztg39nQMLSZBH4OzBOUDEQXm206d3fcLgswbXQA4PhcK3nhswU1Bz8wvQ09RHG%2FoYy3ejfwBNmtoYqLA0XgAAAABJRU5ErkJggg%3D%3D&amp;label=UpdatedAt" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>CreatedAt</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/1d6f903ac1896df5cc0745682e5993f2dc35c4ccd5eaa610c9773c49baede5d5/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f637265617465642d61742f636169636c6f75642f6b7562652d6c61646465723f6c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e5355684555674141414234414141416543415941414141374d4b3669414141414358424957584d41414173544141414c457745416d7077594141414648556c45515652346e4c5658375539615678776d3236646c582532466468627825324232253246516e626b7655627264554151674a4a496655444e574454546d4f76314651554661504a346b7573725630314a7431734e70637453327533626f745a746d786439744a5346536f714b71494635625944464c436f76436c656673747a4a387758524c445a4c7a6e6b634f343535376e3364332532466e655a3472454f515a74315771462532423858467234253242664f4c4565326a6f59307a776638546f795a50766a45676b4c592532426b306d6d72584f36644b696e787a476b30666a5430782532425279723055716e6359637a4d317263347451253242497270324c4758646f344e4334567657715453373277716c632532427231334f527269364b6458646e624f484c6c776c7a4a70524b6e3657342532424b36706f4f434e6e494166486a253246253242776168495a4234764b6e715a6630714a704e49716c2532467638545530634e6c3572627963337730516e54703379324c54614a374d314e617844723266526e315370504736476961323174664533345463614f617931694d55564f5146624659714957536f31573854694156616e43306576584f4542375770313448466232327a453566714c4f433545524c515769644e614e49347545636339693768634a6c644868324e57725135674464624f6c7061756d49754c62326174415144506e7a3062384e6257636d785656524a33486d7870536377777a4f4a6d4b44524765384c6c435a444c4739673754496e5631516c376462586256316533675430574b697243466f6d6b5079767758466c5a474a4f6a563625324253743634757564445a4f55354555636f782532464d455144567674364d62634e3237593341797a687633737061557242365a3971724a534f3139657a6a387032704c426b4a792532426343484a7857493567573574636652527a31645531394766476b6f7539505a4f34736d52396a4746777065783444793362766e6d4b79706f74625531335669646a71595a68726a343972764d457425324625324659714c7a396430304e6a57253246637a67796f394f35317a7336614e6c6f354644747530445a675146686c47584a30644241446f4e6864367576703657686f617967374e394c564748386d443462253246486e667455516f4e4734764c51306769784d716c5725324234714f6a744e48446733723166365969525347785279375576714c62395534716b716e78504f4e7661356c447048723125324279794b524e4b57425a793565644d554842326d3572792532422532424551772532427a6766347a6f39253246306f634e3357527a4c4277344a2532424a7950574372716d4967475974554f735744346f785a46516f50556a4770564871493425324661666b51504336665a5165654d31253242764c7549516e6a754257514444437363726d485039656f4e5041744271664f6e5875614b25324268364a45624772732532427076764d6d78654962683836336162565065597953456f39464a48704e4d464a59253242503563575a6b6667374f3174537759436553514c54593345385130392532464256504a556c78516a7368543142736343593032723955445542667643484236367063665041336c794165336e6772332532463437584467614a7a736c7937787741364e5a746c555550437541487161536a5549502532427375653842525741432532464e6651374a5a505a35397330476a3756747049537a34685125324243706658474d4b685a63764c70554b7866574d386f68766637702532464f446a4842666356463849736b383267314648796b63564645253242555a414158343761452532464d6c34504f3530506e75683025324678346e6d637957507364774468427836436d6b4c562532466746446a594b784f4a4f4674623077517949684c39527943774b33414f664947703159464542686e4d4a634c525745624b644b516f55366e63545a6b494544696341792532463831645675454d3552775066657934784f7830496b25324649324e6e466b692532425761664f6f464959466367595a43797864376543556a626334416d46363566742532466b4d686b336f25324235686337734d4a79716a4a45477659466151464972375930775077384246415925324236253242766d6b3377367a7a5275444d6d5a5652736668385274413075455453443775434254364459514e36697665553066706b594c6a453671725672744f78654e4b553954484c5a4a396b4255324a427342685635416976422532466f4b61514e4b675043427744596149665a4334616454684f71463457454e56694c4a77566f586f62664c424b56773637414f6154734c6336355461564b32317651344c613939654b6359673576627873624f627a5451394e37554b4467554f3177446a6944494942736868357a746733396e514d4c535a4248344f7a424f55444551586d323036643366634c67737762585141345068634b336e6873775531427a3877765130395248472532466f597933656a6677424e6d746f59714c4130586741414141424a52553545726b4a676767253344253344266c6162656c3d437265617465644174" alt="create-at" data-canonical-src="https://img.shields.io/github/created-at/caicloud/kube-ladder?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHUlEQVR4nLVX7U9aVxwm26dlX%2Fdhbx%2B2%2FQnbkvUbrdUAQgJJIfUDNWDTTmOv1FQUFaPJ4kusrV01Jt1sNpctS2u3botZtmxd9tJSFSoqKqIF5bYDFLCovClefstzJ8wXRLDZLznkcO4557n3d3%2FneZ4rEOQZt1WqF%2B8XFr4%2BfOLEe2joY0zwf8ToyZPvjEgkLY%2Bk0mmrXO6dKinxzGk0fjT0x%2BRyr0UqncYczM1rc4tQ%2BIrp2LGXdo4NC4VvWqTS72wqlc%2Br13ORri6KdXdnbOHLlwlzJpRKn6W4%2BK6poOCNnIAfHj%2F%2BwahIZB4vKnqZf0qJpNIql%2Fv8TU0cNl5rbyc3w0QnTp3y2LTaJ7M1NaxDr2fRn1SpPG6Gia21tfE34TcaOay1iMUVOQFbFYqIWSo1W8TiAVanC0evXOEB7Wp14HFb22zE5fqLOC5ERLQWidNaNI4uEcc9i7hcJldHh2NWrQ5gDdbOlpaumIuLb2atAQDPnz0b8NbWcmxVVRJ3HmxpScwwzOJmKDRGe8LlCZDLG9g7TInV1Ql7dbXbV1e3gT0WKirCFomkPyvwXFlZGJOjV6%2BSt64uudDZOU5EUcox%2FMEQDVvt6MbcN27Y3Ayzhv3spaUrB6Z9qrJSO19ezj8p2pLBkJy%2BcCHJxWI5gW5tcfRRz1dU19GfGkou9PZO4smR9jGFwpex4Dy3bvnmKypotbU13VidjqYZhrj49rvMEt%2F%2FYqLz9d00NjW%2Fczgyo9O51zs6aNlo5FDtu0DZgQFhlGXJ0dBADoNhd6uvp6Whoayg7N9LVGH8mD4b%2FHnftUQoNG4vLQ0gixMqlW%2B4qOjtNHDg3r1f6YiRSGxRy7UvqLb9U4qkqnxPONva5lDpHr1%2ByyKRNKWBZy5edMUHB2m5ry%2B%2BEQw%2Bzgf4zo9%2F0ocN3WRzLBw4J%2BJyPWCrqmIgGYtUOsWD4oxZFQoPUjGpVHqI4%2FafkQPC6fZQeeM1%2BvLuIQnjuBWQDDCscrmHP9eoNPAtBqfOnXuaK%2Bh6JEbGrs%2BpvvMmxeIbh863abVPeYySEo9FJHpNMFJY%2BP5cWZkfg7O1tSwYCeSQLTY3E8Q09%2FBVPJUlxQjshT1BscCY02r9UDUBfvCHB66pcfPA3lyAe3ngr3%2F47XDgaJzsly7xwA6NZtlUUPCuAHqaSjUIP%2Bsue8BRWAC%2FNfQ7JZPZ59s0Gj7VtpISz4hQ%2BCpfXGMKhZcvLpUKxfWM8ohvf7p%2FODjHBfcVF8Isk82g1FHykcVFE%2BUZAAX47aE%2FMl4PO50Pnuh0%2Fx4nmcyWPsdwDhBx6CmkLV%2FgFDjYKxOJOFtb0wQyIhL9RyCwK3AOfIGp1YFEBhnMJcLRWEbKdKQoU6ncTZkIEDicAy%2F81dVuEM5RwPfey4xOx0Ik%2FI2NnFki%2BWafOoFIYFcgYZCyxd7eCUjbc4AmF65ft%2FkMhk3o%2B5hc7sMJyqjJEGvYFaQFIr7Y0wPw8BFAY%2B6%2Bvmk3w6zzRuDMmZVRsfh8RtA0uETSD7uCBT6DYQN6iveU0fpkYLjE6qrVrtOxeNKU9THLZJ9kBU2JBsBhV5AivB%2FoKaQNKgPCBwDYaIfZC4adThOqF4WENViLJwVoXobfLBKVw67AOaTsLc65TaVK21vQ4La99eKcYg5vbxsbObzTQ9N7UKDgUO1wDjiDIIBshh5ztg39nQMLSZBH4OzBOUDEQXm206d3fcLgswbXQA4PhcK3nhswU1Bz8wvQ09RHG%2FoYy3ejfwBNmtoYqLA0XgAAAABJRU5ErkJggg%3D%3D&amp;label=CreatedAt" style="max-width: 100%;"></a></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<a href="https://github.com/opsre/awesome-ops">
+</a><p dir="auto"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/b964a36ea4078c39f603d46a29436371c7541a2f26e0228d7b21b9d9805b43d3/68747470733a2f2f736f6369616c6966792e6769742e63692f6f707372652f617765736f6d652d6f70732f696d6167653f6465736372697074696f6e3d3126666f6e743d42697474657226666f726b733d31266973737565733d31266c616e67756167653d31266c6f676f3d6874747073253341253246253246617661746172732e67697468756275736572636f6e74656e742e636f6d25324675253246313838353638303230266e616d653d31266f776e65723d31267061747465726e3d436972637569742b426f6172642670756c6c733d31267374617267617a6572733d31267468656d653d4c69676874" alt="" data-canonical-src="https://socialify.git.ci/opsre/awesome-ops/image?description=1&amp;font=Bitter&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F188568020&amp;name=1&amp;owner=1&amp;pattern=Circuit+Board&amp;pulls=1&amp;stargazers=1&amp;theme=Light" style="max-width: 100%;"></a></p>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966"><img src="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966" width="100%" height="3" data-animated-image="" data-canonical-src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" style="max-width: 100%; height: auto; max-height: 3px;"></a>
+</div>
+
+
+<p dir="auto"><strong>Table of Contents</strong>  <em>generated with <a href="https://github.com/thlorenz/doctoc">DocToc</a></em></p>
+<ul dir="auto">
+<li><a href="#kubernetes-%E5%AD%A6%E4%B9%A0%E8%B7%AF%E5%BE%84">Kubernetes 学习路径</a>
+<ul dir="auto">
+<li><a href="#%E8%83%8C%E6%99%AF">背景</a></li>
+<li><a href="#%E5%AD%A6%E4%B9%A0%E8%B7%AF%E5%BE%84">学习路径</a>
+<ul dir="auto">
+<li><a href="#%E7%AC%AC%E4%B8%80%E9%98%B6%E6%AE%B5-%E7%82%BC%E6%B0%94%E6%9C%9F2-4-%E5%91%A8%E6%AF%8F%E5%91%A8-3-5-%E5%B0%8F%E6%97%B6">第一阶段 炼气期（2-4 周，每周 3-5 小时）</a>
+<ul dir="auto">
+<li><a href="#%E7%9B%AE%E6%A0%87">目标</a></li>
+<li><a href="#%E8%B7%AF%E5%BE%84">路径</a></li>
+<li><a href="#%E5%BF%83%E6%B3%95">心法</a></li>
+</ul>
+</li>
+<li><a href="#%E7%AC%AC%E4%BA%8C%E9%98%B6%E6%AE%B5-%E7%AD%91%E5%9F%BA%E6%9C%9F4-6-%E5%91%A8%E6%AF%8F%E5%91%A8-8-10-%E5%B0%8F%E6%97%B6">第二阶段 筑基期（4-6 周，每周 8-10 小时）</a>
+<ul dir="auto">
+<li><a href="#%E7%9B%AE%E6%A0%87-1">目标</a></li>
+<li><a href="#%E8%B7%AF%E5%BE%84-1">路径</a></li>
+<li><a href="#%E5%BF%83%E6%B3%95-1">心法</a></li>
+</ul>
+</li>
+<li><a href="#%E7%AC%AC%E4%B8%89%E9%98%B6%E6%AE%B5-%E9%87%91%E4%B8%B9%E6%9C%9F2-4-%E5%91%A8%E6%AF%8F%E5%91%A8-3-5-%E5%B0%8F%E6%97%B6">第三阶段 金丹期（2-4 周，每周 3-5 小时）</a>
+<ul dir="auto">
+<li><a href="#%E7%9B%AE%E6%A0%87-2">目标</a></li>
+<li><a href="#%E8%B7%AF%E5%BE%84-2">路径</a></li>
+<li><a href="#%E5%BF%83%E6%B3%95-2">心法</a></li>
+</ul>
+</li>
+<li><a href="#%E7%AC%AC%E5%9B%9B%E9%98%B6%E6%AE%B5-%E5%85%83%E5%A9%B4%E6%9C%9F4-6-%E5%91%A8%E6%AF%8F%E5%91%A8-8-10-%E5%B0%8F%E6%97%B6">第四阶段 元婴期（4-6 周，每周 8-10 小时）</a>
+<ul dir="auto">
+<li><a href="#%E7%9B%AE%E6%A0%87-3">目标</a></li>
+<li><a href="#%E8%B7%AF%E5%BE%84-3">路径</a></li>
+<li><a href="#%E5%BF%83%E6%B3%95-3">心法</a></li>
+</ul>
+</li>
+<li><a href="#%E7%AC%AC%E4%BA%94%E9%98%B6%E6%AE%B5-%E5%8C%96%E7%A5%9E%E6%9C%9F3-5-%E5%91%A8%E6%AF%8F%E5%91%A8-6-8-%E5%B0%8F%E6%97%B6">第五阶段 化神期（3-5 周，每周 6-8 小时）</a>
+<ul dir="auto">
+<li><a href="#%E7%9B%AE%E6%A0%87-4">目标</a></li>
+<li><a href="#%E8%B7%AF%E5%BE%84-4">路径</a></li>
+<li><a href="#%E5%BF%83%E6%B3%95-4">心法</a></li>
+</ul>
+</li>
+<li><a href="#%E7%AC%AC%E5%85%AD%E9%98%B6%E6%AE%B5-%E7%BB%83%E8%99%9A%E6%9C%9F4-6-%E5%91%A8%E6%AF%8F%E5%91%A8-8-10-%E5%B0%8F%E6%97%B6">第六阶段 练虚期（4-6 周，每周 8-10 小时）</a>
+<ul dir="auto">
+<li><a href="#%E7%9B%AE%E6%A0%87-5">目标</a></li>
+<li><a href="#%E8%B7%AF%E5%BE%84-5">路径</a></li>
+<li><a href="#%E5%BF%83%E6%B3%95-5">心法</a></li>
+</ul>
+</li>
+<li><a href="#%E7%AC%AC%E4%B8%83%E9%98%B6%E6%AE%B5-%E5%A4%A7%E4%B9%98%E6%9C%9F%E7%BB%88%E8%BA%AB%E5%AD%A6%E4%B9%A0">第七阶段 大乘期（终身学习）</a>
+<ul dir="auto">
+<li><a href="#%E7%9B%AE%E6%A0%87-6">目标</a></li>
+<li><a href="#%E8%B7%AF%E5%BE%84-6">路径</a></li>
+<li><a href="#%E5%BF%83%E6%B3%95-6">心法</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE">许可协议</a></li>
+</ul>
+</li>
+</ul>
+
+<h1 dir="auto">Kubernetes 学习路径</h1>
+<h2 dir="auto">背景</h2>
+<p dir="auto"><strong>本文由 <a href="https://caicloud.io/" rel="nofollow">才云科技（Caicloud）</a>  于 2019 年内部推出，现以开源的形式进行维护</strong></p>
+<p dir="auto">目前云计算行业对于 <a href="https://kubernetes.io/" rel="nofollow">Kubernetes</a> 学习的需求日益增加，但市面上关于 Kubernetes 的资源良莠不齐，存在几个问题：</p>
+<ul dir="auto">
+<li>官方文档缺少明确的"梯度"，信息错综复杂</li>
+<li>资料较为分散，查找信息费时费力</li>
+<li>Kubernetes 发展很快，书籍或者网上教程容易过时</li>
+</ul>
+<p dir="auto">本文档旨在为广大从业者提供一个 Kubernetes 学习路径，为大家提供一定的指引。我们最终的目标是让所有人剥茧抽丝般地了解 Kubernetes，不仅仅知道怎么用 Kubernetes，还知道 Kubernetes 各个功能是如何设计的。在学习路径后期，我们还可以很"自然"的联想到正确的设计思路。</p>
+<h2 dir="auto">学习路径</h2>
+<p dir="auto"><strong>注意</strong>：</p>
+<ul dir="auto">
+<li>术语来自才云科技工程师 <a href="https://github.com/gaocegege">gaocegege</a> 所著《<a href="https://github.com/caicloud/mlsys-ladder">适合系统工程师的"机器学习"学习路径</a>》</li>
+<li>注意这是学习路径，不是一个教程！</li>
+<li>大多数概念都会给出官方链接，如果需要深入了解请自行查找！</li>
+</ul>
+<h3 dir="auto">第一阶段 炼气期（2-4 周，每周 3-5 小时）</h3>
+<h4 dir="auto">目标</h4>
+<ul dir="auto">
+<li>Kubernetes 的背景</li>
+<li>安装 Kubernetes 环境</li>
+<li>Kubernetes 基本概念和使用方法</li>
+</ul>
+<h4 dir="auto">路径</h4>
+<p dir="auto">学习任何系统的之前，了解其出现的背景和意义都是必不可少的，为什么会出现 Kubernetes？它解决了什么问题？有没有其他类似的系统？这里推荐阅读才云科技 CEO 张鑫在 2017 年文章《<a href="https://mp.weixin.qq.com/s/hrgXzt7YKVf6ZCFzJ-WTFA" rel="nofollow">从风口浪尖到十字路口，写在 Kubernetes 两周年之际</a>》。</p>
+<p dir="auto">接下来，在了解 Kubernetes 系统本质之前，我们需要对 Kubernetes 有一个较为"感性"的认识，打消对 Kubernetes 的畏难情绪。这里，我们推荐使用 <a href="https://github.com/kubernetes/minikube">minikube</a> 或 <a href="https://github.com/kubernetes-sigs/kind">kind</a> 部署一个本地环境，然后开始部署一个"真实"的应用（minikube 安装需要使用科学上网，或使用<a href="https://yq.aliyun.com/articles/221687" rel="nofollow">“国内版” minikube</a>）。如果想一开始就挑战更高难度的安装方式（不推荐），可以使用 <a href="https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm/" rel="nofollow">kubeadm</a> 或者手动部署所有组件。关于安装，可以参考文档 <a href="https://github.com/caicloud/kube-ladder/blob/master/tutorials/lab1-installation.md">lab1-installation</a>。</p>
+<p dir="auto">在安装好环境之后，可以开始动手实践最基本的 Kubernetes 概念。在第一阶段，我们推荐熟练使用以下常用资源和概念：Pod、Node、Label、Event、Service、Configmap &amp; Secret、Deployment、Namespace。相关学习可以参考文档 <a href="https://github.com/caicloud/kube-ladder/blob/master/tutorials/lab2-application-and-service.md">lab2-application-and-service</a>。</p>
+<p dir="auto">（可选）仅完成上述内容可能还不足以让我们非常熟悉 Kubernetes 的基本概念，下面列出其他可以参考的资料，大家也可以按照自己的方式去搜索相关的资料：</p>
+<ul dir="auto">
+<li>官方 Tutorial：<a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/" rel="nofollow">Learn Kubernetes Basics</a></li>
+<li>官方 Guestbook 样例：<a href="https://kubernetes.io/docs/tutorials/stateless-application/guestbook/" rel="nofollow">Guestbook Example</a></li>
+<li><a href="https://spacelift.io/blog/kubernetes-tutorial" rel="nofollow">Kubernetes Tutorial for Beginners</a></li>
+</ul>
+<h4 dir="auto">心法</h4>
+<p align="center" dir="auto">🤨</p>
+<ul dir="auto">
+<li>请反复加深对上面资源的操作熟练度。如果你是第一次接触 Kubernetes，或者仅了解过一点 Kubernetes 的知识，那么基（ken）本（ding）是不明白 Kubernetes 底层到底发生了什么。请不要心急，姑且把它当成一个黑盒工具即可 🛠。</li>
+<li>你可能会在网上看到更多的概念，如 PVC、Ingress、Priority 等。炼气阶段，请不要尝试学习过多的资源类型。Kubernetes 有非常多的概念和类似的资源，我们这里熟悉最核心的概念即可，否则易走火入魔 👻，切记。当我们打通任督二脉之时，所有的新概念都不过尔尔。</li>
+</ul>
+<h3 dir="auto">第二阶段 筑基期（4-6 周，每周 8-10 小时）</h3>
+<h4 dir="auto">目标</h4>
+<ul dir="auto">
+<li>Kubernetes 的基本架构</li>
+<li>Kubernetes 容器调度的基本流程</li>
+</ul>
+<h4 dir="auto">路径</h4>
+<p dir="auto">短暂接触 Kubernetes 概念之后，我们需要知其然并且知其所以然，因此在第二阶段我们开始学习 Kubernetes 基本架构。学习 Kubernetes 基本架构至少需要了解以下内容：</p>
+<ul dir="auto">
+<li>Master &amp; Node
+<ul dir="auto">
+<li>知道什么是 Kubernetes Master，什么是 <a href="https://kubernetes.io/docs/concepts/architecture/nodes/" rel="nofollow">Node</a></li>
+<li>知道两者的关系，知道它们是如何通信的</li>
+</ul>
+</li>
+<li>Master 组件
+<ul dir="auto">
+<li>API Server。Kubernetes 如何接收请求，又是如何将结果返回至客户端。</li>
+<li><a href="https://etcd.io/docs" rel="nofollow">Etcd</a>。了解 Etcd 主要功能机制。</li>
+<li>Controller Manager。Kubernetes 控制器是其架构中最为核心的一环，我们需要了解控制器的原理，List-Watch 的基本原理，知道 Kubernetes 默认情况下大致包含哪些类型的控制器。</li>
+<li><a href="https://kubernetes.io/docs/concepts/scheduling/kube-scheduler/" rel="nofollow">Scheduler</a>。熟悉 Kubernetes 的调度流程是怎样的，调度器在整个调度流程中的角色。</li>
+</ul>
+</li>
+<li>Node 组件
+<ul dir="auto">
+<li>Kubelet。知道 Kubelet 是如何接受调度请求并启动容器的。</li>
+<li>Kube-proxy。了解 Kube-proxy 的作用，提供的能力是什么。</li>
+<li>Container Runtime。了解都有哪些 Container Runtime，主要了解 <a href="https://docs.docker.com/" rel="nofollow">Docker</a> 一些基本操作与实现原理。</li>
+</ul>
+</li>
+<li>核心 Addons &amp; Plugins
+<ul dir="auto">
+<li>DNS。DNS 为集群的服务发现提供的支持，Kubernetes 1.13 开始默认使用 <a href="https://coredns.io/" rel="nofollow">CoreDNS</a>。</li>
+<li>Network Plugin。Kubernetes 多节点环境需要部署网络插件才可以使用，默认情况下使用 <a href="https://github.com/coreos/flannel">flannel</a> 即可。</li>
+</ul>
+</li>
+</ul>
+<p dir="auto">首先可以阅读书籍或网上博客，推荐阅读：</p>
+<ul dir="auto">
+<li>官方文档：<a href="https://kubernetes.io/docs/concepts/overview/components/" rel="nofollow">Kubernetes Components</a></li>
+<li>feisky 的博客：<a href="https://kubernetes.feisky.xyz/concepts/index" rel="nofollow">Kubernetes 指南之核心原理</a></li>
+<li>kubectl run 的背后流程（难）：<a href="https://github.com/jamiehannaford/what-happens-when-k8s">What happens when I type kubectl run?</a></li>
+<li>kubectl run 的背后流程中文版：<a href="https://mp.weixin.qq.com/s/ctdvbasKE-vpLRxDJjwVMw" rel="nofollow">kubectl 创建 Pod 背后到底发生了什么？</a></li>
+</ul>
+<p dir="auto">接下来，推荐从 0 开始部署一个 Kubernetes 集群（不使用任何工具），来加深对各个组件的理解：解决部署中出现的各种问题，查看组件启动日志等等。如果时间有限，也可以尝试使用 kubeadm 等工具来部署集群。目前 Kubernetes 集群部署自动化已经做得比较完善，但出于学习目的，再次墙裂推荐手动安装。关于手动安装集群，可以参考文档 <a href="https://github.com/caicloud/kube-ladder/blob/master/tutorials/lab3-manual-installtion.md">lab3-manual-installtion</a>。</p>
+<p dir="auto">在本阶段修炼结束后，我们至少应该对以下问题了如指掌：Kubernetes 组件是如何交互，来启动容器，并对外提供服务的？</p>
+<h4 dir="auto">心法</h4>
+<p align="center" dir="auto">💪</p>
+<ul dir="auto">
+<li>请不要死记硬背 Kubernetes 架构，要开动大脑 🧠去理解其背后设计的原因。</li>
+<li>筑基期是比较困难的一个阶段，如果感觉一头雾水，请不要气馁，你不是一个人。当你感觉进入了瓶颈时，可以尝试寻找身边的战友，总结一些你的问题并寻求答案 🍻。</li>
+</ul>
+<h3 dir="auto">第三阶段 金丹期（2-4 周，每周 3-5 小时）</h3>
+<h4 dir="auto">目标</h4>
+<ul dir="auto">
+<li>Kubernetes API 结构</li>
+<li>熟悉 Kubernetes 各个子系统</li>
+<li>熟悉 Kubernetes 排错相关内容</li>
+</ul>
+<h4 dir="auto">路径</h4>
+<p dir="auto">当我们可以熟练使用 Kubernetes 的基本资源，并且对 Kubernetes 的基本架构有了充足了认识，接下来需要对 Kubernetes 的 API 结构和子系统要有一个比较全面的认识，同时也要开始更加系统的了解排查问题相关的内容。</p>
+<p dir="auto">要知道 <a href="https://kubernetes.io/docs/concepts/overview/kubernetes-api/" rel="nofollow">Kubernetes API</a> 是其最引以为傲的设计，掌握 API 的关键是需要了解：</p>
+<ul dir="auto">
+<li>Kubernetes 的 API 是如何控制版本的</li>
+<li>Kubernetes 的 API 是如何分组的</li>
+<li><a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/" rel="nofollow">Kubernetes 对象</a>的表示方法与设计理念</li>
+<li><a href="https://kubernetes.io/docs/reference/access-authn-authz/controlling-access/" rel="nofollow">Kubernetes API 的访问控制</a></li>
+</ul>
+<p dir="auto">我们可以通过浏览 <a href="https://github.com/kubernetes/api">Kubernetes API</a> 代码仓库来了解 Kubernetes API 组（Group）的信息。所有的资源定义代码都遵循 <code class="notranslate">&lt;group&gt;/&lt;version&gt;/types.go</code> 的规范，例如上述 Deployment 资源是定义在 <a href="https://github.com/kubernetes/api/tree/master/apps">apps group</a> 中。我们可以在 <a href="https://github.com/kubernetes/api/blob/master/apps/v1/types.go">apps/v1/types.go</a> 中查找到关于 Deployment 的定义。</p>
+<p dir="auto">接下来，我们可以通过浏览 <a href="https://github.com/kubernetes/community">Kubernetes/Community</a> 代码仓库来了解各个兴趣小组（SIG），"SIG" 是 Special Interest Group 的简称。Kubernetes 的演进都是通过 SIG 来推动的，因此了解 SIG 的分工对我们理解 Kubernetes 非常重要。一般来讲，一个 SIG 对应着一个 Kubernetes 子系统，例如，<a href="https://github.com/kubernetes/community/tree/master/sig-apps">sig-apps</a> 负责决定是否引入新的 API，或者现有 API 是否需要升级等等。我们通过查看 Community 中带有 "sig-" 前缀的目录来了解 SIG 的工作内容、会议纪要等等。这里简单列举 Kubernetes 重要的子系统：</p>
+<ul dir="auto">
+<li>架构 Architecture</li>
+<li>应用 Apps</li>
+<li>存储 Storage</li>
+<li>网络 Network</li>
+<li>权限 Auth</li>
+<li>节点 Node</li>
+<li>调度 Scheduling</li>
+<li>命令行 CLI</li>
+<li>多集群 MultiCluster</li>
+<li>云平台 CloudProvider</li>
+<li>扩展性 Scalability</li>
+<li>弹性伸缩 Autoscaling</li>
+<li>监控日志 Instrumentation</li>
+</ul>
+<p dir="auto">（可选）细心的你可能会发现以 "wg-" 开头的目录，例如 "wg-resource-management"。"wg" 是 working group 的简称，是针对需要涉及多个 SIG 之间合作而展开的一种工作组，独立于任何 SIG 。例如 resource management 会涉及到 Node、Storage、Scheduling 等 SIGs。</p>
+<p dir="auto">作为一个承上启下的阶段，我们需要总结一些 Kubernetes 排错的能力，推荐阅读：</p>
+<ul dir="auto">
+<li>官方文档：<a href="https://kubernetes.io/docs/tasks/debug-application-cluster/troubleshooting/" rel="nofollow">Kubernetes Troubleshooting</a></li>
+<li>feisky 的博客：<a href="https://feisky.gitbooks.io/kubernetes/troubleshooting/" rel="nofollow">Kubernetes 集群排错指南</a></li>
+</ul>
+<h4 dir="auto">心法</h4>
+<p align="center" dir="auto">🌱</p>
+<ul dir="auto">
+<li>本阶段的重点是"耳听六路 🙈 眼观八方 🙉"。前两个阶段接触到了很多 Kubernetes 的细节，本阶段需要对 Kubernetes 的全貌有个更加清晰的认识。很多内容可能看不太懂，但请在你的心中埋下一颗种子。</li>
+</ul>
+<h3 dir="auto">第四阶段 元婴期（4-6 周，每周 8-10 小时）</h3>
+<h4 dir="auto">目标</h4>
+<ul dir="auto">
+<li>加深对各个资源的理解</li>
+<li>学习更多 Kubernetes 概念和知识</li>
+</ul>
+<h4 dir="auto">路径</h4>
+<p dir="auto">不出意外，你现在对 Kubernetes 基本的资源已经很熟练了，对 Kubernetes 内部组件和它们的交互比较清晰，还对 Kubernetes 的 API 全貌和组织结构也有一定的了解。如果出了意外 🤔，请重新回顾你的学习过程。</p>
+<p dir="auto">本阶段，我们围绕几个关键方向来学习 Kubernetes，加深对其各个技术点的认识（这里只列出本阶段需要学习的核心能力，其他功能请量力而学）：</p>
+<ul dir="auto">
+<li>
+<p dir="auto">计算</p>
+<ul dir="auto">
+<li><a href="https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/" rel="nofollow">Pod Lifecycle &amp; Healthcheck &amp; RestartPolicy</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/workloads/pods/init-containers/" rel="nofollow">Pod Init-Container</a></li>
+<li><a href="https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/" rel="nofollow">Horizontal Pod Autoscaler (HPA)</a></li>
+<li>更多控制器：<a href="https://kubernetes.io/docs/concepts/workloads/controllers/jobs-run-to-completion/" rel="nofollow">Job</a>、<a href="https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/" rel="nofollow">CronJob</a>、<a href="https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/" rel="nofollow">Daemonset</a>、<a href="https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/" rel="nofollow">StatefulSet</a>、<a href="https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/" rel="nofollow">ReplicaSet</a></li>
+</ul>
+</li>
+<li>
+<p dir="auto">网络</p>
+<ul dir="auto">
+<li><a href="https://kubernetes.io/docs/concepts/services-networking/service/" rel="nofollow">Service</a> 实现，主要了解 <a href="https://linux.die.net/man/8/iptables" rel="nofollow">iptables</a> 的实现（可选：<a href="https://kubernetes.io/blog/2018/07/09/ipvs-based-in-cluster-load-balancing-deep-dive/" rel="nofollow">ipvs</a> 模式）</li>
+<li><a href="https://kubernetes.io/docs/concepts/services-networking/ingress/" rel="nofollow">Ingress</a> 原理和常用的 <a href="https://github.com/kubernetes/ingress-nginx">nginx ingress</a> 操作</li>
+<li><a href="https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/" rel="nofollow">DNS</a> 服务的原理，以及 <a href="https://coredns.io/" rel="nofollow">CoreDNS</a> 方案</li>
+</ul>
+</li>
+<li>
+<p dir="auto">存储</p>
+<ul dir="auto">
+<li><a href="https://kubernetes.io/docs/concepts/storage/volumes/" rel="nofollow">Volume</a> 以及底层存储类型</li>
+<li><a href="https://kubernetes.io/docs/concepts/storage/persistent-volumes/" rel="nofollow">PV/PVC</a>、<a href="https://kubernetes.io/docs/concepts/storage/storage-classes/" rel="nofollow">StorageClass</a></li>
+</ul>
+</li>
+<li>
+<p dir="auto">安全</p>
+<ul dir="auto">
+<li><a href="https://kubernetes.io/docs/reference/access-authn-authz/authentication/" rel="nofollow">AuthN</a>, <a href="https://kubernetes.io/docs/reference/access-authn-authz/authorization/" rel="nofollow">AuthZ</a> &amp; <a href="https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/" rel="nofollow">Admission Control</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/services-networking/network-policies/" rel="nofollow">NetworkPolicy</a></li>
+<li><a href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/" rel="nofollow">ServiceAccount</a></li>
+<li><a href="https://kubernetes.io/docs/tasks/configure-pod-container/security-context/" rel="nofollow">Pod/Container SecurityContext</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/policy/pod-security-policy/" rel="nofollow">Pod Security Policy (PSP)</a></li>
+</ul>
+</li>
+<li>
+<p dir="auto">调度</p>
+<ul dir="auto">
+<li><a href="https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#affinity-and-anti-affinity" rel="nofollow">Pod/Node Affinity &amp; Anti-affinity</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/" rel="nofollow">Taint &amp; Toleration</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/configuration/pod-priority-preemption/" rel="nofollow">Priority &amp; Preemption</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/workloads/pods/disruptions/" rel="nofollow">Pod Disruption Budget</a></li>
+</ul>
+</li>
+</ul>
+<p dir="auto">总结一下，1）本阶段我们接触到更多的资源，包括：HPA、Job、CronJob、DaemonSet、StatefulSet、Ingress、Volume、PV/PVC、StorageClass、NetworkPolicy、PSP。2）更加深入了解已学资源的使用，例如 Init-Container、SecurityContext、Affinity 等。这些能力最终都会体现在各个资源的 API 上，例如 Affinity 是 Pod API 结构的一个字段，Scheduler 通过解析这个字段来进行合理的调度。未来如果有更多的能力，我们都可以通过解读不同资源的 API 字段来一探究竟。</p>
+<p dir="auto">本阶段相关学习可以参考文档 <a href="https://github.com/caicloud/kube-ladder/blob/master/tutorials/lab4-concepts.md">lab4</a>。</p>
+<h4 dir="auto">心法</h4>
+<p align="center" dir="auto">🧘‍♂️🧘‍♀️</p>
+<ul dir="auto">
+<li>本阶段难度指数高，请合理调整你的心境。渡劫 🌋 成功后，你对 Kubernetes 的掌握将会进入一个新的台（tian）阶（keng）。</li>
+<li>学习相关功能时，可以回顾其所在 SIG，看看能不能发现有用的资源。</li>
+</ul>
+<h3 dir="auto">第五阶段 化神期（3-5 周，每周 6-8 小时）</h3>
+<h4 dir="auto">目标</h4>
+<ul dir="auto">
+<li>学习更多 Kubernetes 集群层面的功能</li>
+<li>更加深入学习 Kubernetes 架构和组件能力</li>
+</ul>
+<h4 dir="auto">路径</h4>
+<p dir="auto">当我们了解了 Kubernetes API 的设计理念，学习到了足够多的 API 资源及其使用方法之后，让我们再回顾一下 Kubernetes Master &amp; Node 架构，以及它们运行的组件。事实上，Kubernetes 的每个组件都有很强的可配置性和能力，我们可以围绕 Kubernetes 的每个组件，来学习 Kubernetes 较为“隐晦”的功能。</p>
+<p dir="auto">推荐通过 Kubernetes Command Line Reference 来了解这些组件的配置：</p>
+<ul dir="auto">
+<li><a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kube-apiserver/" rel="nofollow">kube-api-server</a></li>
+<li><a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kube-scheduler/" rel="nofollow">kube-scheduler</a></li>
+<li><a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kube-controller-manager/" rel="nofollow">kube-controller-manager</a></li>
+<li><a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kube-proxy/" rel="nofollow">kube-proxy</a></li>
+<li><a href="https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/" rel="nofollow">kubelet</a></li>
+<li><a href="https://kubernetes.io/docs/reference/kubectl/kubectl/" rel="nofollow">kubectl</a></li>
+</ul>
+<p dir="auto">同时，Kubernetes 提供了 <a href="https://kubernetes.io/docs/reference/command-line-tools-reference/feature-gates/" rel="nofollow">FeatureGate</a> 来控制不同的特性开关，我们可以通过 FeatureGate 来了解 Kubernetes 的新特性。此外，为了方便开发者和配置管理，Kubernetes 把所有配置都挪到了相对应的 GitHub 代码仓库中，即：</p>
+<ul dir="auto">
+<li><a href="https://github.com/kubernetes/kube-scheduler">https://github.com/kubernetes/kube-scheduler</a></li>
+<li><a href="https://github.com/kubernetes/kube-controller-manager">https://github.com/kubernetes/kube-controller-manager</a></li>
+<li><a href="https://github.com/kubernetes/kube-proxy">https://github.com/kubernetes/kube-proxy</a></li>
+<li><a href="https://github.com/kubernetes/kubelet">https://github.com/kubernetes/kubelet</a></li>
+<li><a href="https://github.com/kubernetes/kubectl">https://github.com/kubernetes/kubectl</a></li>
+</ul>
+<p dir="auto">当然，直接裸看配置有点硬核。为方便入手，下面我们简单总结部分功能（笼统的分为 Master 和 Node）：</p>
+<p dir="auto"><em>Master</em></p>
+<ul dir="auto">
+<li><a href="https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/" rel="nofollow">Dynamic Admission Control</a>
+<ul dir="auto">
+<li>动态准入控制（在练虚期阶段需要更加深入的了解）</li>
+<li>对应 API Server <code class="notranslate">--admission-control-config-file</code> 参数</li>
+</ul>
+</li>
+<li><a href="https://kubernetes.io/docs/tasks/debug-application-cluster/audit" rel="nofollow">Advanced Auditing</a>
+<ul dir="auto">
+<li>提供可动态配置的审计功能</li>
+<li>对应 API Server 带有 <code class="notranslate">--audit-</code> 前缀的参数</li>
+</ul>
+</li>
+<li><a href="https://github.com/etcd-io/etcd/blob/master/Documentation/op-guide/configuration.md">Etcd Configuration</a>
+<ul dir="auto">
+<li>提供各种与 Etcd 相关的配置，例如 Kubernetes event TTL</li>
+<li>对应 API Server 带有 <code class="notranslate">--etcd-</code> 前缀的参数</li>
+</ul>
+</li>
+<li><a href="https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/" rel="nofollow">All Admission Controllers</a>
+<ul dir="auto">
+<li>列举所有 Kubernetes 所支持的 Admission Controllers，每个 Admission 都与 Kubernetes 特定的功能相关联</li>
+<li>对应 API Server <code class="notranslate">--enable-admission-plugins</code> 参数，该参数注释列举了所有的默认 Admission Controllers</li>
+</ul>
+</li>
+<li><a href="https://kubernetes.io/docs/concepts/workloads/controllers/garbage-collection/" rel="nofollow">Garbage Collection</a>
+<ul dir="auto">
+<li>启用后，Kubernetes 会自动根据 <code class="notranslate">OwnerReferences</code> 来回收 API 资源</li>
+<li>对应 Controller-Manager <code class="notranslate">--enable-garbage-collector</code> 参数</li>
+</ul>
+</li>
+<li>Concurrent Sync Limiting
+<ul dir="auto">
+<li>避免过多的资源同步导致集群资源的消耗</li>
+<li>对应 Controller-Manager 带有 <code class="notranslate">--concurrent</code> 前缀的参数</li>
+</ul>
+</li>
+<li>All Controllers
+<ul dir="auto">
+<li>列举所有 Kubernetes 所支持的 Controllers，每个 Controller 都与 Kubernetes 特定的功能相关联</li>
+<li>对应 Controller-Manager <code class="notranslate">--controllers</code>，该参数注释列举了所有的默认 Controllers</li>
+</ul>
+</li>
+</ul>
+<p dir="auto">其它值得注意的参数包括：</p>
+<ul dir="auto">
+<li>API-Server <code class="notranslate">--max-requests-inflight</code>, <code class="notranslate">--min-request-timeout</code></li>
+<li>API-Server <code class="notranslate">--watch-cache</code>, <code class="notranslate">--watch-cache-sizes</code></li>
+<li>Controller-Manager <code class="notranslate">--node-eviction-rate</code></li>
+<li>Controller-Manager <code class="notranslate">--pod-eviction-timeout</code></li>
+<li>Controller-Manager <code class="notranslate">--terminated-pod-gc-threshold</code></li>
+<li>Controller-Manager <code class="notranslate">--pv-recycler-minimum-timeout-*</code></li>
+</ul>
+<p dir="auto"><em>Node</em></p>
+<ul dir="auto">
+<li><a href="https://kubernetes.io/docs/tasks/administer-cluster/out-of-resource/" rel="nofollow">Kubelet Eviction</a>
+<ul dir="auto">
+<li>当节点资源不足时，Kubernetes 通过驱逐 Pods 的方式确保节点的稳定性</li>
+<li>对应 Kubelet 带有 <code class="notranslate">--eviction-</code> 前缀的参数，例如 <code class="notranslate">--eviction-hard</code></li>
+</ul>
+</li>
+<li><a href="https://kubernetes.io/docs/concepts/cluster-administration/kubelet-garbage-collection/" rel="nofollow">Image GC</a>
+<ul dir="auto">
+<li>清理容器镜像占用的磁盘空间</li>
+<li>对应 Kubelet 带有 <code class="notranslate">--image-gc-</code> 前缀的参数，以及 <code class="notranslate">--minimum-image-ttl-duration</code> 等参数</li>
+</ul>
+</li>
+<li><a href="https://kubernetes.io/docs/tasks/administer-cluster/reserve-compute-resources/" rel="nofollow">Resource Reserve</a>
+<ul dir="auto">
+<li>为系统资源预留一定的资源，确保节点的稳定性</li>
+<li>对应 Kubelet <code class="notranslate">--kube-reserved</code>、<code class="notranslate">--kube-reserved-cgroup</code> 等参数</li>
+</ul>
+</li>
+<li><a href="https://kubernetes.io/docs/tasks/administer-cluster/cpu-management-policies/" rel="nofollow">CPU Manager</a>
+<ul dir="auto">
+<li>提供更多的 CPU 管理能力，例如静态 CPU 亲和性</li>
+<li>对应 Kubelet <code class="notranslate">--cpu-manager-*</code> 前缀的参数</li>
+</ul>
+</li>
+<li><a href="https://kubernetes.io/docs/concepts/storage/storage-limits" rel="nofollow">Storage Limit</a>
+<ul dir="auto">
+<li>避免节点过度挂载数据卷</li>
+<li>对应 FeatureGate <code class="notranslate">AttachVolumeLimit</code></li>
+</ul>
+</li>
+</ul>
+<p dir="auto">其它值得注意的参数包括：</p>
+<ul dir="auto">
+<li>Kubelet &amp; Kubeproxy <code class="notranslate">--hostname-override</code></li>
+<li>Kubelet <code class="notranslate">--cgroups-per-qos</code></li>
+<li>Kubelet <code class="notranslate">--fail-swap-on</code></li>
+<li>Kubelet <code class="notranslate">--host-*</code></li>
+<li>Kubelet <code class="notranslate">--max-pods</code>, <code class="notranslate">--pods-per-core</code></li>
+<li>Kubelet <code class="notranslate">--resolv-conf</code></li>
+<li>Kubeproxy <code class="notranslate">--nodeport-addresses</code></li>
+</ul>
+<h4 dir="auto">心法</h4>
+<p align="center" dir="auto">😇</p>
+<ul dir="auto">
+<li>通过组件配置学习 Kubernetes 功能是我们需要具备的一个常规能力，或许比较枯燥，但对我们的修炼大有裨益。</li>
+<li>如果你对 Kubernetes “无穷无尽”的功能感到有点迷茫，这是一个很正常的现象。除非是深度参与 Kubernetes 的开发，否则一定会有很多遗漏的地方。我们只要保持两个基本点不动摇：1. 懂 Kubernetes 架构和最核心的能力；2. 懂得怎么快速定位我们需要的能力。关于第二点，我们将在大乘期介绍，stay tuned！</li>
+</ul>
+<h3 dir="auto">第六阶段 练虚期（4-6 周，每周 8-10 小时）</h3>
+<h4 dir="auto">目标</h4>
+<ul dir="auto">
+<li>对 Kubernetes 的扩展机制了如指掌</li>
+<li>可以编写 Kubernetes 控制器，能够基于扩展机制灵活地二次开发</li>
+</ul>
+<h4 dir="auto">路径</h4>
+<p dir="auto">本阶段我们可以开始了解 Kubernetes <a href="https://kubernetes.io/docs/concepts/extend-kubernetes/extend-cluster/" rel="nofollow">各种扩展机制</a>。如果说 Kubernetes 的 API 和架构设计是其重要的基石，那么扩展机制使得 Kubernetes 在各个生态领域开花结果。下面我们尝试列举出所有的扩展方式，每一种扩展都有其优势和局限性，请自行思考。注意这里提到的扩展机制指的是架构上的扩展，而非功能层面的扩展，例如 Pod 支持各种 Probe 来进行健康检查，包括自定义，这里我们不归为扩展机制的能力。</p>
+<p dir="auto"><em>API 资源扩展能力</em></p>
+<ul dir="auto">
+<li><a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/" rel="nofollow">Annotation</a>：保存少量非结构化第三方数据</li>
+<li><a href="https://kubernetes.io/docs/tasks/access-kubernetes-api/custom-resources/custom-resource-definitions/#finalizers" rel="nofollow">Finalizer</a>：资源删除时，用户调用外部系统的钩子</li>
+<li><a href="https://kubernetes.io/docs/tasks/access-kubernetes-api/custom-resources/custom-resource-definitions/" rel="nofollow">CustomResourceDefinition</a>：自定义 Kubernetes API</li>
+<li><a href="https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/apiserver-aggregation/" rel="nofollow">API Aggregation</a>：多个 API Server 聚合，适用于较大量的 API 定制</li>
+</ul>
+<p dir="auto">学习 API 资源扩展的一个重要方式是创建一个扩展资源，或者编写一个自己的控制器。强烈推荐自行编写一个控制器，这里列出几个常见的工具：</p>
+<ul dir="auto">
+<li><a href="https://book.kubebuilder.io/" rel="nofollow">kubebuilder</a>：来自 Kubernetes 官方的 API 扩展项目</li>
+<li><a href="https://github.com/kubernetes/sample-controller">sample-controller</a>：来自 Kubernetes 官方的一个样例</li>
+<li><a href="https://github.com/operator-framework/operator-sdk">operator-sdk</a>：来自红帽的一个 operator 库</li>
+<li><a href="https://github.com/flant/shell-operator">shell-operator</a>：适合运维开发使用的 shell operator 库</li>
+<li><a href="https://metacontroller.app/" rel="nofollow">meta-controller</a>：来自 Google 的一个更加"傻瓜"式编写控制器的库</li>
+</ul>
+<p dir="auto"><em>API 访问扩展能力</em></p>
+<ul dir="auto">
+<li><a href="https://kubernetes.io/docs/reference/access-authn-authz/authentication/#webhook-token-authentication" rel="nofollow">认证 Webhook</a>：用户认证时，调用外部服务，仅支持静态配置</li>
+<li><a href="https://kubernetes.io/docs/reference/access-authn-authz/webhook/" rel="nofollow">鉴权 Webhook</a>：用户鉴权时，调用外部服务，仅支持静态配置</li>
+<li><a href="https://kubernetes.io/docs/reference/access-authn-authz/extensible-admission-controllers/" rel="nofollow">动态访问控制 Webhook</a>：请求访问控制时，调用外部服务，支持动态增加外部服务</li>
+</ul>
+<p dir="auto">Kubernetes API 访问扩展主要是通过 Webhook 来实现。注意只有访问控制支持动态增加外部服务，认证鉴权的外部服务在启动 API Server 的时候就注册完毕，无法在后续增加，主要原因是动态增加外部认证鉴权服务，带来的安全风险过大。</p>
+<p dir="auto"><em>调度器扩展能力</em></p>
+<ul dir="auto">
+<li><a href="https://github.com/kubernetes/community/blob/master/contributors/design-proposals/scheduling/scheduler_extender.md">扩展接口（Scheduler Extender）</a>：类似 Webhook，调用外部服务进行调度决策</li>
+<li><a href="https://kubernetes.io/docs/tasks/administer-cluster/configure-multiple-schedulers/" rel="nofollow">多调度器</a>：支持在 Kubernetes 运行多个调度器调度不同作业</li>
+<li><a href="https://kubernetes.io/docs/concepts/configuration/scheduling-framework/" rel="nofollow">调度器框架</a>：定义一套 Go API，使用户无需 fork Kubernetes Scheduler 代码即可完成“代码级”的定制</li>
+</ul>
+<p dir="auto">针对简单场景，我们可以直接使用 Scheduler Extender 即可，例如按 GPU 型号调度。复杂调度场景可以使用多调度器或调度器框架，例如基于流图的调度器 <a href="https://kubernetes.io/docs/concepts/extend-kubernetes/poseidon-firmament-alternate-scheduler/" rel="nofollow">poseidon</a>，批处理调取器 <a href="https://github.com/kubernetes-sigs/kube-batch">kube-batch</a> 等。一般而言，使用 Extender 即可满足大多数场景。</p>
+<p dir="auto"><em>网络扩展能力</em></p>
+<ul dir="auto">
+<li><a href="https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/network-plugins/" rel="nofollow">网络插件 CNI</a>：使用 CNI 插件，可以选择任何我们需要的<a href="https://kubernetes.io/docs/concepts/cluster-administration/networking/" rel="nofollow">网络方案</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/" rel="nofollow">自定义 Ingress 控制器</a>：Ingress 定义了一套 API 接口，我们可以选择任意实现</li>
+<li><a href="https://kubernetes.io/docs/concepts/services-networking/network-policies/" rel="nofollow">自定义 NetworkPolicy 控制器</a>：同上，可选实现包括 <a href="https://kubernetes.io/docs/tasks/administer-cluster/network-policy-provider/calico-network-policy/" rel="nofollow">Calico</a>、<a href="https://kubernetes.io/docs/tasks/administer-cluster/network-policy-provider/cilium-network-policy/" rel="nofollow">Cilium</a> 等</li>
+<li><a href="https://github.com/kubernetes/dns/blob/master/docs/specification.md">自定义 DNS 控制器</a>：Kubernetes 定义了一套 DNS 规范，我们可以选择任意实现</li>
+</ul>
+<p dir="auto">网络插件 CNI 是容器网络标准，Kubernetes 提供了良好的支持，常用插件包括 flannel、Calico 等等。对于 Ingress、NetworkPolicy、DNS，相信到目前为止大家应该可以理解，其本质上是 Kubernetes 定义的一套 API，底层实现可插拔，用户可以有自己的选择。</p>
+<p dir="auto"><em>存储扩展能力</em></p>
+<ul dir="auto">
+<li><a href="https://kubernetes.io/docs/concepts/storage/volumes/#flexVolume" rel="nofollow">FlexVolume</a>：Kubernetes 提供的一种动态对接存储方案，支持用户自定义存储后端</li>
+<li><a href="https://kubernetes-csi.github.io" rel="nofollow">存储插件 CSI</a>：使用 CSI 插件，可以选择任何我们需要的存储方案</li>
+</ul>
+<p dir="auto">FlexVolume 是 Kubernetes 自带的对接外部存储的方案，用户编写少量的代码即可加入自定义存储后端，适用于简单场景。存储插件 CSI 是容器网络标准，Kubernetes 提供了良好的支持，同时为方便第三方实现，还提供了一整套 SDK 解决方案。所有底层存储相关的能力都与 CSI 密切相关。</p>
+<p dir="auto"><em>运行时扩展能力</em></p>
+<ul dir="auto">
+<li><a href="https://kubernetes.io/docs/setup/production-environment/container-runtimes/" rel="nofollow">运行时接口 CRI</a>：使用 CRI 插件，可以选择任何我们需要的运行时方案</li>
+</ul>
+<p dir="auto">运行时接口 CRI 是 Kubernetes 提出，为解决支持多种运行时而提供的方案。任何运行时，只需实现 CRI 相关的接口，即可接入 Kubernetes 中，包括 Docker、Containerd、gVisor、Kata 等。</p>
+<p dir="auto"><em>特殊硬件或资源扩展能力</em></p>
+<ul dir="auto">
+<li><a href="https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/#extended-resources" rel="nofollow">扩展资源 Extended Resource</a>：通过 Kubernetes 原生 API 方式支持添加自定义资源</li>
+<li><a href="https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/device-plugins/" rel="nofollow">设备插件 Device Plugin</a>：使用 Device Plugin 插件，可以对接任何我们需要的硬件</li>
+</ul>
+<p dir="auto">对于简单场景，例如静态汇报资源数量，可以直接使用 Extended Resource 扩展 Kubernetes 所支持的硬件。Device Plugin 的核心是自动接入各种特殊硬件如 Nvidia、Infiniband、FPGA 等。在资源汇报层面 Device Plugin 目前也使用了 Extended Resource 的能力，但由于 Extended Resource 的局限性，Device Plugin 未来也可以与其他 API 对接。目前使用最多的 Device Plugin 主要是 Nvidia 的 <a href="https://github.com/NVIDIA/k8s-device-plugin">GPU device plugin</a>。</p>
+<p dir="auto"><em>监控扩展能力</em></p>
+<ul dir="auto">
+<li><a href="https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/#support-for-metrics-apis" rel="nofollow">自定义监控</a>：支持使用自定义监控组件如 Prometheus 提供监控指标</li>
+</ul>
+<p dir="auto">自定义监控包括 Custom Metrics 和 External Metrics，例如 <a href="https://github.com/DirectXMan12/k8s-prometheus-adapter">Prometheus adaptor</a>。</p>
+<p dir="auto"><em>云供应商扩展能力</em></p>
+<ul dir="auto">
+<li><a href="https://kubernetes.io/docs/concepts/architecture/cloud-controller/" rel="nofollow">云控制器 Cloud Controller Manager</a>：支持可插拔云服务提供商</li>
+</ul>
+<p dir="auto">云扩展能力的目标是使各个云供应商可以在不改变 Kubernetes 源码的情况下，接入其服务。每个云供应商都有<a href="https://github.com/kubernetes?utf8=%E2%9C%93&amp;q=cloud-provider&amp;type=&amp;language=">独立的项目</a>。</p>
+<p dir="auto"><em>命令行插件</em></p>
+<ul dir="auto">
+<li><a href="https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/" rel="nofollow">Kubectl Plugin</a>：kubectl plugin 支持扩展 kubectl 子命令，与 API 扩展能力结合可以提供近乎原生的使用方法。</li>
+</ul>
+<h4 dir="auto">心法</h4>
+<p align="center" dir="auto"><img class="emoji" title=":godmode:" alt=":godmode:" src="https://github.githubassets.com/images/icons/emoji/godmode.png" height="20" width="20" align="absmiddle"></p>
+<ul dir="auto">
+<li>推荐实现一个端到端的 Kubernetes 控制器，可以对整个 Kubernetes 的二次开发有更加深入的了解。此外，针对所有的扩展能力，建议先建立一个全面的认识，再根据需要深入某一项能力。</li>
+<li>我们除了通过用户手册来学习上面的技术，也可多参考 Kubernetes 的花式设计文档，主要是 <a href="https://github.com/kubernetes/community/tree/master/contributors/design-proposals">Design Proposals</a>、<a href="https://github.com/kubernetes/enhancements/tree/master/keps">KEPs</a>。</li>
+</ul>
+<h3 dir="auto">第七阶段 大乘期（终身学习）</h3>
+<h4 dir="auto">目标</h4>
+<ul dir="auto">
+<li>了解 Kubernetes 生态项目</li>
+<li>跟踪 Kubernetes 社区发展</li>
+<li>跟踪 CNCF 社区发展</li>
+</ul>
+<h4 dir="auto">路径</h4>
+<p dir="auto">目前为止，我们学习了很多 Kubernetes 的概念，但也只是其最重要的部分。在本阶段，我们需要专注以下几个问题：</p>
+<ul dir="auto">
+<li>如何跟进 Kubernetes 的新功能，以及现有功能的更多细节？</li>
+<li>如何了解 Kubernetes 整个生态环境的发展？</li>
+</ul>
+<p dir="auto">首先，让我们一起来学习几个重要的项目。围绕 Kubernetes 的生态环境建设是其成为容器标准的关键。</p>
+<ul dir="auto">
+<li><a href="https://github.com/helm/helm">Helm</a>：作为 Kubernetes 生态里的 brew、dnf、dpkg，Helm 为 Kubernetes 提供了包管理能力，方便用户快速部署安装各种服务。</li>
+<li><a href="https://github.com/goharbor/harbor">Harbor</a>：Harbor 与 Kubernetes 无直接关系，但作为云原生环境下最常用的镜像仓库解决方案，了解 Harbor 十分重要。</li>
+<li><a href="https://prometheus.io/" rel="nofollow">Prometheus</a>：Prometheus 是云原生环境下最重要的监控组件。</li>
+<li><a href="https://istio.io/" rel="nofollow">Istio</a>：Istio 是服务网格的关键项目，但较为复杂，可以尝试简单了解。</li>
+</ul>
+<p dir="auto">以上，我们仅列出了极少量的重要项目，Kubernetes 周边的项目十分之多，令人咂舌 😱。因此大乘期的你，需要开始持续跟踪 Kubernetes 及其生态的发展，甚至可以推动其发展，接下来我们列举一些靠谱资源：</p>
+<p dir="auto"><em>GitHub 仓库</em></p>
+<ul dir="auto">
+<li><a href="https://github.com/kubernetes/enhancements/">Kubernetes Enhancement</a>：关注新特性的讨论</li>
+<li><a href="https://github.com/kubernetes/community">Kubernetes Community</a>：关注社区组织情况</li>
+<li><a href="https://github.com/cncf/toc/">CNCF TOC</a>：关注 CNCF 进展，各种新项目讨论等</li>
+<li><a href="https://github.com/ramitsurana/awesome-kubernetes">Awesome Kubernetes</a>：Kubernetes 项目之学不动系列</li>
+</ul>
+<p dir="auto">关注 GitHub 仓库可以让你了解最一手的进展，但是信息量一般较大，讨论很多难度也比较大。不过对于大乘期的你来讲，应该不是问题 😉。另外，这里还包含很多 Kubernetes 系统内部的设计，例如调度器的优化方案、资源垃圾回收方案等，值得了解和学习。</p>
+<p dir="auto"><em>Twitter 账号</em></p>
+<p dir="auto">下面推荐几个 Kubernetes 项目的核心人员。大牛都喜欢用 Twitter 交（si）流（bi），可以关注一波。感兴趣的话题可以去交流，大牛都十分耐撕（nice。</p>
+<ul dir="auto">
+<li><a href="https://twitter.com/thockin" rel="nofollow">Tim Hockin</a></li>
+<li><a href="https://twitter.com/smarterclayton" rel="nofollow">Clayton Coleman</a></li>
+<li><a href="https://twitter.com/originalavalamp" rel="nofollow">Daniel Smith</a></li>
+<li><a href="https://twitter.com/bgrant0607" rel="nofollow">Brian Grant</a></li>
+<li><a href="https://twitter.com/vishnukanan" rel="nofollow">Vishnu Kannan</a></li>
+<li><a href="https://twitter.com/the_saad_ali" rel="nofollow">Saad Ali</a></li>
+<li><a href="https://twitter.com/kelseyhightower" rel="nofollow">Kelsey Hightower</a></li>
+<li><a href="https://twitter.com/jbeda" rel="nofollow">Joe Beda</a></li>
+<li><a href="https://twitter.com/brendandburns" rel="nofollow">Brendan Burns</a></li>
+<li><a href="https://twitter.com/michellenoorali" rel="nofollow">Michelle Noorali</a></li>
+</ul>
+<p dir="auto">除此之外，Twitter 上还有不少项目和其他 Weekly 性质的 Twitter，推荐几个账号关注：</p>
+<ul dir="auto">
+<li><a href="https://twitter.com/kubeweekly" rel="nofollow">Kube Weekly</a></li>
+<li><a href="https://twitter.com/readkubelist" rel="nofollow">Kube List</a></li>
+</ul>
+<p dir="auto">Twitter 会根据你的喜好推荐其他相关内容，接下来就自由发挥。</p>
+<p dir="auto"><em>Blog 账号</em></p>
+<ul dir="auto">
+<li><a href="https://kubernetes.io/blog/" rel="nofollow">Kubernetes Blog</a></li>
+<li><a href="https://www.cncf.io/category/blog/" rel="nofollow">CNCF Blog</a></li>
+<li><a href="https://caicloud.io/blog" rel="nofollow">Caicloud Blog</a></li>
+</ul>
+<p dir="auto">可以关注的优秀 Blog 很多，这里就不一一列举。</p>
+<h4 dir="auto">心法</h4>
+<p align="center" dir="auto">🐲</p>
+<p align="center" dir="auto">请坚持学习！送上一句黑鸡汤：</p>
+<p align="center" dir="auto">"The last thing you want is to look back on your life and wonder... if only."
+</p>
+<h2 dir="auto">许可协议</h2>
+<ul dir="auto">
+<li>本文遵守<a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/" rel="nofollow">创作共享 CC BY-NC-SA 3.0 协议</a></li>
+<li>商业目的转载，请联系 <a href="mailto:marketing@caicloud.io">marketing@caicloud.io</a></li>
+<li>如有任何版权问题，请联系 <a href="mailto:deyuan@caicloud.io">deyuan@caicloud.io</a> 和 <a href="mailto:baomengjiang@caicloud.io">baomengjiang@caicloud.io</a></li>
+</ul></div></div></div><div class="gg-issues-prev-next"><a class="prev" href="/issues/321"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M2 3h17a2 2 0 0 1 2 2v4h-2V5H2v14h17v-4h2v4a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m15 12v-2h7v-2h-7V9l-4 3l4 3M4 13h7v-2H4v2m0-4h7V7H4v2m0 8h4v-2H4v2Z"/></svg>aquasecurity/kube-hunter: 在 Kubernetes 集群中追踪安全弱点</span></a><a class="next" href="/issues/323"><span>noovertime7/kubemanage: 一个简单易用的 K8s 管理平台，前端使用 Vue3 ，后端使用 Gin+Gorm ，未来将支持多集群接入<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M22 3H5a2 2 0 0 0-2 2v4h2V5h17v14H5v-4H3v4a2 2 0 0 0 2 2h17a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2M7 15v-2H0v-2h7V9l4 3l-4 3m13-2h-7v-2h7v2m0-4h-7V7h7v2m-3 8h-4v-2h4v2Z"/></svg></span></a></div><div class="answer-content"><div class="comments"></div></div></div></div></main><footer><div class="license"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img style="width:60px;height:21px" src="/static/license-83d755bd405fbe51c87dc088baf26299.svg" alt="License"/></a></div><div class="copyright"><span>Copyright ©<!-- --> <!-- -->2025<!-- -->-present</span><a class="owner" href="https://github.com/awesome-ops/awesome-ops.github.io" target="_blank">awesome-ops/awesome-ops.github.io</a>.</div><span class="powered">Powered by<a class="owner" title="GG (Gatsby + GitHub) - A gatsby website builder based on github discussions" href="https://github.com/lencx/gg" target="_blank">gg</a></span></footer></div><div id="gg-backtop" class="hide"><svg viewBox="0 0 98 125" xmlns="http://www.w3.org/2000/svg"><path d="m.41627505 120.505813c.36557376-2.799314 38.38567845-112.09375627 40.40633855-116.52273479 2.0206601-4.42897853 7.0443939-6.06190829 10.0049342.20172081 1.9736935 4.17575274 17.3630227 42.22464148 46.1679874 114.14666598.3068629 1.030234.4237748 1.755017.3507358 2.174348-.4483666 2.574161-2.3292736 3.429521-4.6125739 2.516093-15.0683018-6.028033-36.2681037-23.1692513-43.8663627-23.1692513-7.5982589 0-27.0568176 12.9171643-43.18383202 23.1692513-.96511235.613531-1.91473089 1.069619-2.88840599 1.149501s-2.74439509-.86628-2.37882134-3.665594z" fill="var(--gg-icon)" fill-rule="evenodd"></path></svg></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/issues/322";window.___webpackCompilationHash="24ed58306e97f1c1f657";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-97dd130bca8800dece7d.js"],"app":["/app-7383f855f15f63329e5f.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-2d05d9e504a620062115.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-408674d1ce0d96365c3f.js"],"component---src-templates-archives-tsx":["/component---src-templates-archives-tsx-06d205e572129bb8618c.js"],"component---src-templates-issues-tsx":["/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js"],"component---src-templates-labels-category-tsx":["/component---src-templates-labels-category-tsx-5456164ce90934624119.js"],"component---src-templates-labels-tsx":["/component---src-templates-labels-tsx-ee7b95bd8aa06617f372.js"],"component---src-templates-nav-category-tsx":["/component---src-templates-nav-category-tsx-91c7d8cb3880e3e0fda2.js"],"component---src-templates-nav-labels-tsx":["/component---src-templates-nav-labels-tsx-ae07fd835c5a914973d3.js"]};/*]]>*/</script><script src="/polyfill-97dd130bca8800dece7d.js" nomodule=""></script><script src="/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js" async=""></script><script src="/fc369a2ef6459b03f38591687cef4a587495c716-f468df31cbdaf6ffa970.js" async=""></script><script src="/app-7383f855f15f63329e5f.js" async=""></script><script src="/framework-86c8a5417e68dc3cefff.js" async=""></script><script src="/webpack-runtime-4fee7405b8a071e8c34e.js" async=""></script></body></html>

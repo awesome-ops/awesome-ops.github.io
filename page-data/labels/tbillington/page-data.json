@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/tbillington",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"tbillington/kondo: 清理项目中的依赖关系和构建制品。","number":294}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7ZCgA","name":"tbillington","color":"d1ec45","description":null},"name":"tbillington","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

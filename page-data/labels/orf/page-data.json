@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/orf",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"orf/gping: 以图形化方式展示 ping 的延迟状态的命令行工具","number":208}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7XIlw","name":"orf","color":"38d38f","description":null},"name":"orf","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

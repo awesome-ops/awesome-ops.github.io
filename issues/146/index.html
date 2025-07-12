@@ -1,0 +1,678 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/><meta name="theme-color" content="#FFFFFF"/><meta name="generator" content="Gatsby 4.11.3"/><style data-href="/styles.3aaba633489943369223.css" data-identity="gatsby-global-css">@media (prefers-color-scheme:dark){.markdown-body{--color-prettylights-syntax-comment:#8b949e;--color-prettylights-syntax-constant:#79c0ff;--color-prettylights-syntax-entity:#d2a8ff;--color-prettylights-syntax-storage-modifier-import:#c9d1d9;--color-prettylights-syntax-entity-tag:#7ee787;--color-prettylights-syntax-keyword:#ff7b72;--color-prettylights-syntax-string:#a5d6ff;--color-prettylights-syntax-variable:#ffa657;--color-prettylights-syntax-brackethighlighter-unmatched:#f85149;--color-prettylights-syntax-invalid-illegal-text:#f0f6fc;--color-prettylights-syntax-invalid-illegal-bg:#8e1519;--color-prettylights-syntax-carriage-return-text:#f0f6fc;--color-prettylights-syntax-carriage-return-bg:#b62324;--color-prettylights-syntax-string-regexp:#7ee787;--color-prettylights-syntax-markup-list:#f2cc60;--color-prettylights-syntax-markup-heading:#1f6feb;--color-prettylights-syntax-markup-italic:#c9d1d9;--color-prettylights-syntax-markup-bold:#c9d1d9;--color-prettylights-syntax-markup-deleted-text:#ffdcd7;--color-prettylights-syntax-markup-deleted-bg:#67060c;--color-prettylights-syntax-markup-inserted-text:#aff5b4;--color-prettylights-syntax-markup-inserted-bg:#033a16;--color-prettylights-syntax-markup-changed-text:#ffdfb6;--color-prettylights-syntax-markup-changed-bg:#5a1e02;--color-prettylights-syntax-markup-ignored-text:#c9d1d9;--color-prettylights-syntax-markup-ignored-bg:#1158c7;--color-prettylights-syntax-meta-diff-range:#d2a8ff;--color-prettylights-syntax-brackethighlighter-angle:#8b949e;--color-prettylights-syntax-sublimelinter-gutter-mark:#484f58;--color-prettylights-syntax-constant-other-reference-link:#a5d6ff;--color-fg-default:#c9d1d9;--color-fg-muted:#8b949e;--color-fg-subtle:#484f58;--color-canvas-default:#0d1117;--color-canvas-subtle:#161b22;--color-border-default:#30363d;--color-border-muted:#21262d;--color-neutral-muted:hsla(215,8%,47%,.4);--color-accent-fg:#58a6ff;--color-accent-emphasis:#1f6feb;--color-attention-subtle:rgba(187,128,9,.15);--color-danger-fg:#f85149;color-scheme:dark}}@media (prefers-color-scheme:light){.markdown-body{--color-prettylights-syntax-comment:#6e7781;--color-prettylights-syntax-constant:#0550ae;--color-prettylights-syntax-entity:#8250df;--color-prettylights-syntax-storage-modifier-import:#24292f;--color-prettylights-syntax-entity-tag:#116329;--color-prettylights-syntax-keyword:#cf222e;--color-prettylights-syntax-string:#0a3069;--color-prettylights-syntax-variable:#953800;--color-prettylights-syntax-brackethighlighter-unmatched:#82071e;--color-prettylights-syntax-invalid-illegal-text:#f6f8fa;--color-prettylights-syntax-invalid-illegal-bg:#82071e;--color-prettylights-syntax-carriage-return-text:#f6f8fa;--color-prettylights-syntax-carriage-return-bg:#cf222e;--color-prettylights-syntax-string-regexp:#116329;--color-prettylights-syntax-markup-list:#3b2300;--color-prettylights-syntax-markup-heading:#0550ae;--color-prettylights-syntax-markup-italic:#24292f;--color-prettylights-syntax-markup-bold:#24292f;--color-prettylights-syntax-markup-deleted-text:#82071e;--color-prettylights-syntax-markup-deleted-bg:#ffebe9;--color-prettylights-syntax-markup-inserted-text:#116329;--color-prettylights-syntax-markup-inserted-bg:#dafbe1;--color-prettylights-syntax-markup-changed-text:#953800;--color-prettylights-syntax-markup-changed-bg:#ffd8b5;--color-prettylights-syntax-markup-ignored-text:#eaeef2;--color-prettylights-syntax-markup-ignored-bg:#0550ae;--color-prettylights-syntax-meta-diff-range:#8250df;--color-prettylights-syntax-brackethighlighter-angle:#57606a;--color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;--color-prettylights-syntax-constant-other-reference-link:#0a3069;--color-fg-default:#24292f;--color-fg-muted:#57606a;--color-fg-subtle:#6e7781;--color-canvas-default:#fff;--color-canvas-subtle:#f6f8fa;--color-border-default:#d0d7de;--color-border-muted:#d8dee4;--color-neutral-muted:rgba(175,184,193,.2);--color-accent-fg:#0969da;--color-accent-emphasis:#0969da;--color-attention-subtle:#fff8c5;--color-danger-fg:#cf222e;color-scheme:light}}.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;word-wrap:break-word;background-color:var(--color-canvas-default);color:var(--color-fg-default);font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:16px;line-height:1.5;margin:0}.markdown-body h1:hover .anchor .octicon-link:before,.markdown-body h2:hover .anchor .octicon-link:before,.markdown-body h3:hover .anchor .octicon-link:before,.markdown-body h4:hover .anchor .octicon-link:before,.markdown-body h5:hover .anchor .octicon-link:before,.markdown-body h6:hover .anchor .octicon-link:before{background-color:currentColor;content:" ";display:inline-block;height:16px;-webkit-mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');width:16px}.markdown-body details,.markdown-body figcaption,.markdown-body figure{display:block}.markdown-body summary{display:list-item}.markdown-body [hidden]{display:none!important}.markdown-body a{background-color:transparent;color:var(--color-accent-fg);text-decoration:none}.markdown-body a:active,.markdown-body a:hover{outline-width:0}.markdown-body abbr[title]{border-bottom:none;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}.markdown-body b,.markdown-body strong{font-weight:600}.markdown-body dfn{font-style:italic}.markdown-body h1{border-bottom:1px solid var(--color-border-muted);font-size:2em;font-weight:600;margin:.67em 0;padding-bottom:.3em}.markdown-body mark{background-color:var(--color-attention-subtle);color:var(--color-text-primary)}.markdown-body small{font-size:90%}.markdown-body sub,.markdown-body sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}.markdown-body sub{bottom:-.25em}.markdown-body sup{top:-.5em}.markdown-body img{background-color:var(--color-canvas-default);border-style:none;box-sizing:content-box;max-width:100%}.markdown-body code,.markdown-body kbd,.markdown-body pre,.markdown-body samp{font-family:monospace,monospace;font-size:1em}.markdown-body figure{margin:1em 40px}.markdown-body hr{background:transparent;background-color:var(--color-border-default);border:0;box-sizing:content-box;height:.25em;margin:24px 0;overflow:hidden;padding:0}.markdown-body input{font:inherit;font-family:inherit;font-size:inherit;line-height:inherit;margin:0;overflow:visible}.markdown-body [type=button],.markdown-body [type=reset],.markdown-body [type=submit]{-webkit-appearance:button}.markdown-body [type=button]::-moz-focus-inner,.markdown-body [type=reset]::-moz-focus-inner,.markdown-body [type=submit]::-moz-focus-inner{border-style:none;padding:0}.markdown-body [type=button]:-moz-focusring,.markdown-body [type=reset]:-moz-focusring,.markdown-body [type=submit]:-moz-focusring{outline:1px dotted ButtonText}.markdown-body [type=checkbox],.markdown-body [type=radio]{box-sizing:border-box;padding:0}.markdown-body [type=number]::-webkit-inner-spin-button,.markdown-body [type=number]::-webkit-outer-spin-button{height:auto}.markdown-body [type=search]{-webkit-appearance:textfield;outline-offset:-2px}.markdown-body [type=search]::-webkit-search-cancel-button,.markdown-body [type=search]::-webkit-search-decoration{-webkit-appearance:none}.markdown-body ::-webkit-input-placeholder{color:inherit;opacity:.54}.markdown-body ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}.markdown-body a:hover{text-decoration:underline}.markdown-body hr:after,.markdown-body hr:before{content:"";display:table}.markdown-body hr:after{clear:both}.markdown-body table{border-collapse:collapse;border-spacing:0;display:block;max-width:100%;overflow:auto;width:-webkit-max-content;width:max-content}.markdown-body td,.markdown-body th{padding:0}.markdown-body details summary{cursor:pointer}.markdown-body details:not([open])>:not(summary){display:none!important}.markdown-body kbd{background-color:var(--color-canvas-subtle);border-bottom-color:var(--color-neutral-muted);border:1px solid var(--color-neutral-muted);border-radius:6px;box-shadow:inset 0 -1px 0 var(--color-neutral-muted);color:var(--color-fg-default);display:inline-block;font:11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;line-height:10px;padding:3px 5px;vertical-align:middle}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{font-weight:600;line-height:1.25;margin-bottom:16px;margin-top:24px}.markdown-body h2{border-bottom:1px solid var(--color-border-muted);font-size:1.5em;font-weight:600;padding-bottom:.3em}.markdown-body h3{font-size:1.25em;font-weight:600}.markdown-body h4{font-size:1em;font-weight:600}.markdown-body h5{font-size:.875em;font-weight:600}.markdown-body h6{color:var(--color-fg-muted);font-size:.85em;font-weight:600}.markdown-body p{margin-bottom:10px;margin-top:0}.markdown-body blockquote{border-left:.25em solid var(--color-border-default);color:var(--color-fg-muted);margin:0;padding:0 1em}.markdown-body ol,.markdown-body ul{margin-bottom:0;margin-top:0;padding-left:2em}.markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}.markdown-body ol ol ol,.markdown-body ol ul ol,.markdown-body ul ol ol,.markdown-body ul ul ol{list-style-type:lower-alpha}.markdown-body dd{margin-left:0}.markdown-body code,.markdown-body pre,.markdown-body tt{font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;font-size:12px}.markdown-body pre{word-wrap:normal;margin-bottom:0;margin-top:0}.markdown-body .octicon{fill:currentColor;display:inline-block;overflow:visible!important;vertical-align:text-bottom}.markdown-body ::-webkit-input-placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body :-ms-input-placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body ::placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body input::-webkit-inner-spin-button,.markdown-body input::-webkit-outer-spin-button{-webkit-appearance:none;appearance:none;margin:0}.markdown-body .pl-c{color:var(--color-prettylights-syntax-comment)}.markdown-body .pl-c1,.markdown-body .pl-s .pl-v{color:var(--color-prettylights-syntax-constant)}.markdown-body .pl-e,.markdown-body .pl-en{color:var(--color-prettylights-syntax-entity)}.markdown-body .pl-s .pl-s1,.markdown-body .pl-smi{color:var(--color-prettylights-syntax-storage-modifier-import)}.markdown-body .pl-ent{color:var(--color-prettylights-syntax-entity-tag)}.markdown-body .pl-k{color:var(--color-prettylights-syntax-keyword)}.markdown-body .pl-pds,.markdown-body .pl-s,.markdown-body .pl-s .pl-pse .pl-s1,.markdown-body .pl-sr,.markdown-body .pl-sr .pl-cce,.markdown-body .pl-sr .pl-sra,.markdown-body .pl-sr .pl-sre{color:var(--color-prettylights-syntax-string)}.markdown-body .pl-smw,.markdown-body .pl-v{color:var(--color-prettylights-syntax-variable)}.markdown-body .pl-bu{color:var(--color-prettylights-syntax-brackethighlighter-unmatched)}.markdown-body .pl-ii{background-color:var(--color-prettylights-syntax-invalid-illegal-bg);color:var(--color-prettylights-syntax-invalid-illegal-text)}.markdown-body .pl-c2{background-color:var(--color-prettylights-syntax-carriage-return-bg);color:var(--color-prettylights-syntax-carriage-return-text)}.markdown-body .pl-sr .pl-cce{color:var(--color-prettylights-syntax-string-regexp);font-weight:700}.markdown-body .pl-ml{color:var(--color-prettylights-syntax-markup-list)}.markdown-body .pl-mh,.markdown-body .pl-mh .pl-en,.markdown-body .pl-ms{color:var(--color-prettylights-syntax-markup-heading);font-weight:700}.markdown-body .pl-mi{color:var(--color-prettylights-syntax-markup-italic);font-style:italic}.markdown-body .pl-mb{color:var(--color-prettylights-syntax-markup-bold);font-weight:700}.markdown-body .pl-md{background-color:var(--color-prettylights-syntax-markup-deleted-bg);color:var(--color-prettylights-syntax-markup-deleted-text)}.markdown-body .pl-mi1{background-color:var(--color-prettylights-syntax-markup-inserted-bg);color:var(--color-prettylights-syntax-markup-inserted-text)}.markdown-body .pl-mc{background-color:var(--color-prettylights-syntax-markup-changed-bg);color:var(--color-prettylights-syntax-markup-changed-text)}.markdown-body .pl-mi2{background-color:var(--color-prettylights-syntax-markup-ignored-bg);color:var(--color-prettylights-syntax-markup-ignored-text)}.markdown-body .pl-mdr{color:var(--color-prettylights-syntax-meta-diff-range);font-weight:700}.markdown-body .pl-ba{color:var(--color-prettylights-syntax-brackethighlighter-angle)}.markdown-body .pl-sg{color:var(--color-prettylights-syntax-sublimelinter-gutter-mark)}.markdown-body .pl-corl{color:var(--color-prettylights-syntax-constant-other-reference-link);text-decoration:underline}.markdown-body [data-catalyst]{display:block}.markdown-body g-emoji{font-family:Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-size:1em;font-style:normal!important;font-weight:400;line-height:1;vertical-align:-.075em}.markdown-body g-emoji img{height:1em;width:1em}.markdown-body:after,.markdown-body:before{content:"";display:table}.markdown-body:after{clear:both}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body .absent{color:var(--color-danger-fg)}.markdown-body .anchor{float:left;line-height:1;margin-left:-20px;padding-right:4px}.markdown-body .anchor:focus{outline:none}.markdown-body blockquote,.markdown-body details,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-bottom:16px;margin-top:0}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body sup>a:before{content:"["}.markdown-body sup>a:after{content:"]"}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:var(--color-fg-default);vertical-align:middle;visibility:hidden}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}.markdown-body h1 code,.markdown-body h1 tt,.markdown-body h2 code,.markdown-body h2 tt,.markdown-body h3 code,.markdown-body h3 tt,.markdown-body h4 code,.markdown-body h4 tt,.markdown-body h5 code,.markdown-body h5 tt,.markdown-body h6 code,.markdown-body h6 tt{font-size:inherit;padding:0 .2em}.markdown-body ol.no-list,.markdown-body ul.no-list{list-style-type:none;padding:0}.markdown-body ol[type="1"]{list-style-type:decimal}.markdown-body ol[type=a]{list-style-type:lower-alpha}.markdown-body ol[type=i]{list-style-type:lower-roman}.markdown-body div>ol:not([type]){list-style-type:decimal}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-bottom:0;margin-top:0}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dl{padding:0}.markdown-body dl dt{font-size:1em;font-style:italic;font-weight:600;margin-top:16px;padding:0}.markdown-body dl dd{margin-bottom:16px;padding:0 16px}.markdown-body table th{font-weight:600}.markdown-body table td,.markdown-body table th{border:1px solid var(--color-border-default);padding:6px 13px}.markdown-body table tr{background-color:var(--color-canvas-default);border-top:1px solid var(--color-border-muted)}.markdown-body table tr:nth-child(2n){background-color:var(--color-canvas-subtle)}.markdown-body table img{background-color:transparent}.markdown-body img[align=right]{padding-left:20px}.markdown-body img[align=left]{padding-right:20px}.markdown-body .emoji{background-color:transparent;max-width:none;vertical-align:text-top}.markdown-body span.frame{display:block;overflow:hidden}.markdown-body span.frame>span{border:1px solid var(--color-border-default);display:block;float:left;margin:13px 0 0;overflow:hidden;padding:7px;width:auto}.markdown-body span.frame span img{display:block;float:left}.markdown-body span.frame span span{clear:both;color:var(--color-fg-default);display:block;padding:5px 0 0}.markdown-body span.align-center{clear:both;display:block;overflow:hidden}.markdown-body span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}.markdown-body span.align-center span img{margin:0 auto;text-align:center}.markdown-body span.align-right{clear:both;display:block;overflow:hidden}.markdown-body span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}.markdown-body span.align-right span img{margin:0;text-align:right}.markdown-body span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}.markdown-body span.float-left span{margin:13px 0 0}.markdown-body span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}.markdown-body span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}.markdown-body code,.markdown-body tt{background-color:var(--color-neutral-muted);border-radius:6px;font-size:85%;margin:0;padding:.2em .4em}.markdown-body code br,.markdown-body tt br{display:none}.markdown-body del code{text-decoration:inherit}.markdown-body pre code{font-size:100%}.markdown-body pre>code{background:transparent;border:0;margin:0;padding:0;white-space:pre;word-break:normal}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{background-color:var(--color-canvas-subtle);border-radius:6px;font-size:85%;line-height:1.45;overflow:auto;padding:16px}.markdown-body pre code,.markdown-body pre tt{word-wrap:normal;background-color:transparent;border:0;display:inline;line-height:inherit;margin:0;max-width:auto;overflow:visible;padding:0}.markdown-body .csv-data td,.markdown-body .csv-data th{font-size:12px;line-height:1;overflow:hidden;padding:5px;text-align:left;white-space:nowrap}.markdown-body .csv-data .blob-num{background:var(--color-canvas-default);border:0;padding:10px 8px 9px;text-align:right}.markdown-body .csv-data tr{border-top:0}.markdown-body .csv-data th{background:var(--color-canvas-subtle);border-top:0;font-weight:600}.markdown-body .footnotes{border-top:1px solid var(--color-border-default);color:var(--color-fg-muted);font-size:12px}.markdown-body .footnotes ol{padding-left:16px}.markdown-body .footnotes li{position:relative}.markdown-body .footnotes li:target:before{border:2px solid var(--color-accent-emphasis);border-radius:6px;bottom:-8px;content:"";left:-24px;pointer-events:none;position:absolute;right:-8px;top:-8px}.markdown-body .footnotes li:target{color:var(--color-fg-default)}.markdown-body .footnotes .data-footnote-backref g-emoji{font-family:monospace}.markdown-body .task-list-item{list-style-type:none}.markdown-body .task-list-item label{font-weight:400}.markdown-body .task-list-item.enabled label{cursor:pointer}.markdown-body .task-list-item+.task-list-item{margin-top:3px}.markdown-body .task-list-item .handle{display:none}.markdown-body .task-list-item-checkbox{margin:0 .2em .25em -1.6em;vertical-align:middle}.markdown-body .contains-task-list:dir(rtl) .task-list-item-checkbox{margin:0 -1.6em .25em .2em}.markdown-body ::-webkit-calendar-picker-indicator{-webkit-filter:invert(50%);filter:invert(50%)}@font-face{font-family:lab;src:url(/static/lab-b3a92fdc7ccdc8ebf471556b2e7b1018.woff2) format("woff2")}:root{--font-base:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;--layout-header-height:56px;--layout-footer-height:100px;--gg-border:hsla(0,0%,71%,.1)}*{box-sizing:border-box;transition:all .3s ease-out}html.dark{--theme-content-background-color:#232629;--theme-header-background-color:#232629;--theme-footer-background-color:#232629;--theme-text:#d8d8d8;--gg-logo:#d8d8d8;--gg-icon:#75757a}html.light{--theme-content-background-color:#fff;--theme-header-background-color:#fafafa;--theme-footer-background-color:#fefefe;--theme-text:#232629;--gg-logo:#232629;--gg-icon:#a5a5ac}body{font-family:var(--font-base);margin:0;padding:0}.icon-action{cursor:pointer;user-select:none}.page-title{align-items:center;display:flex;font-size:20px;font-weight:700;justify-content:center;margin-bottom:20px;text-align:center}.page-title .icon{margin-right:10px}.text-center{text-align:center}.gg-empty{color:hsla(0,0%,71%,.5);font-size:18px}.dark .markdown-body{--color-prettylights-syntax-comment:#8b949e;--color-prettylights-syntax-constant:#79c0ff;--color-prettylights-syntax-entity:#d2a8ff;--color-prettylights-syntax-storage-modifier-import:#c9d1d9;--color-prettylights-syntax-entity-tag:#7ee787;--color-prettylights-syntax-keyword:#ff7b72;--color-prettylights-syntax-string:#a5d6ff;--color-prettylights-syntax-variable:#ffa657;--color-prettylights-syntax-brackethighlighter-unmatched:#f85149;--color-prettylights-syntax-invalid-illegal-text:#f0f6fc;--color-prettylights-syntax-invalid-illegal-bg:#8e1519;--color-prettylights-syntax-carriage-return-text:#f0f6fc;--color-prettylights-syntax-carriage-return-bg:#b62324;--color-prettylights-syntax-string-regexp:#7ee787;--color-prettylights-syntax-markup-list:#f2cc60;--color-prettylights-syntax-markup-heading:#1f6feb;--color-prettylights-syntax-markup-italic:#c9d1d9;--color-prettylights-syntax-markup-bold:#c9d1d9;--color-prettylights-syntax-markup-deleted-text:#ffdcd7;--color-prettylights-syntax-markup-deleted-bg:#67060c;--color-prettylights-syntax-markup-inserted-text:#aff5b4;--color-prettylights-syntax-markup-inserted-bg:#033a16;--color-prettylights-syntax-markup-changed-text:#ffdfb6;--color-prettylights-syntax-markup-changed-bg:#5a1e02;--color-prettylights-syntax-markup-ignored-text:#c9d1d9;--color-prettylights-syntax-markup-ignored-bg:#1158c7;--color-prettylights-syntax-meta-diff-range:#d2a8ff;--color-prettylights-syntax-brackethighlighter-angle:#8b949e;--color-prettylights-syntax-sublimelinter-gutter-mark:#484f58;--color-prettylights-syntax-constant-other-reference-link:#a5d6ff;--color-fg-default:#c9d1d9;--color-fg-muted:#8b949e;--color-fg-subtle:#484f58;--color-canvas-default:#232629;--color-canvas-subtle:#161b22;--color-border-default:#30363d;--color-border-muted:#21262d;--color-neutral-muted:hsla(215,8%,47%,.4);--color-accent-fg:#58a6ff;--color-accent-emphasis:#1f6feb;--color-attention-subtle:rgba(187,128,9,.15);--color-danger-fg:#f85149;color-scheme:dark}.light .markdown-body{--color-prettylights-syntax-comment:#6e7781;--color-prettylights-syntax-constant:#0550ae;--color-prettylights-syntax-entity:#8250df;--color-prettylights-syntax-storage-modifier-import:#24292f;--color-prettylights-syntax-entity-tag:#116329;--color-prettylights-syntax-keyword:#cf222e;--color-prettylights-syntax-string:#0a3069;--color-prettylights-syntax-variable:#953800;--color-prettylights-syntax-brackethighlighter-unmatched:#82071e;--color-prettylights-syntax-invalid-illegal-text:#f6f8fa;--color-prettylights-syntax-invalid-illegal-bg:#82071e;--color-prettylights-syntax-carriage-return-text:#f6f8fa;--color-prettylights-syntax-carriage-return-bg:#cf222e;--color-prettylights-syntax-string-regexp:#116329;--color-prettylights-syntax-markup-list:#3b2300;--color-prettylights-syntax-markup-heading:#0550ae;--color-prettylights-syntax-markup-italic:#24292f;--color-prettylights-syntax-markup-bold:#24292f;--color-prettylights-syntax-markup-deleted-text:#82071e;--color-prettylights-syntax-markup-deleted-bg:#ffebe9;--color-prettylights-syntax-markup-inserted-text:#116329;--color-prettylights-syntax-markup-inserted-bg:#dafbe1;--color-prettylights-syntax-markup-changed-text:#953800;--color-prettylights-syntax-markup-changed-bg:#ffd8b5;--color-prettylights-syntax-markup-ignored-text:#eaeef2;--color-prettylights-syntax-markup-ignored-bg:#0550ae;--color-prettylights-syntax-meta-diff-range:#8250df;--color-prettylights-syntax-brackethighlighter-angle:#57606a;--color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;--color-prettylights-syntax-constant-other-reference-link:#0a3069;--color-fg-default:#24292f;--color-fg-muted:#57606a;--color-fg-subtle:#6e7781;--color-canvas-default:#fff;--color-canvas-subtle:#f6f8fa;--color-border-default:#d0d7de;--color-border-muted:#d8dee4;--color-neutral-muted:rgba(175,184,193,.2);--color-accent-fg:#0969da;--color-accent-emphasis:#0969da;--color-attention-subtle:#fff8c5;--color-danger-fg:#cf222e;color-scheme:light}.markdown-body{margin:0 auto;max-width:720px;padding:0 20px 20px}h1{border-bottom:none!important}.gg-logo{text-rendering:optimizelegibility;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;line-height:0;outline:none;text-align:center;text-transform:none;vertical-align:-.125em}.gg-logo,.gg-theme-toggle{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.gg-nav{height:var(--layout-header-height)}.gg-nav *{transition:none}.gg-nav .icons,.gg-nav .nav-screen nav li{align-items:center;display:flex}.gg-nav .nav-screen nav li{color:var(--gg-icon);cursor:pointer;font-weight:700;list-style:none}@media screen and (max-width:720px){.gg-nav{align-items:center;display:flex}.gg-nav .nav-icon{cursor:pointer;height:24px;overflow:hidden;width:24px}.gg-nav .nav-icon span{background:#999;display:block;height:3px;margin:4px 0;transition:all .3s ease;width:24px}.gg-nav .nav-icon .top{-webkit-transform:translateX(6px);transform:translateX(6px)}.gg-nav .nav-icon .bottom{-webkit-transform:translateX(8px);transform:translateX(8px)}.gg-nav .nav-icon.active .top{-webkit-transform:rotate(225deg) translateY(-5px) translateX(-5px);transform:rotate(225deg) translateY(-5px) translateX(-5px)}.gg-nav .nav-icon.active .middle{-webkit-transform:translateX(24px);transform:translateX(24px)}.gg-nav .nav-icon.active .bottom{-webkit-transform:rotate(135deg) translateY(5px) translateX(-5px);transform:rotate(135deg) translateY(5px) translateX(-5px)}.nav-icon{display:block}.nav-screen{background-color:var(--theme-header-background-color);height:0;left:0;overflow:hidden;position:fixed;top:var(--layout-header-height);transition:height .15s ease-out;width:100%;z-index:1000}.nav-screen>div{padding:20px}.nav-screen.open{height:calc(100vh - var(--layout-header-height))}.nav-screen nav{font-size:16px;text-align:center}.nav-screen nav svg{font-size:24px;margin-right:10px}.nav-screen nav li{justify-content:center;padding:8px 0}.nav-screen .icons{justify-content:center;margin-top:40px}.nav-screen .icons .icon-action{margin:0 10px}}@media screen and (min-width:721px){.nav-icon{display:none}.nav-screen{height:100%;justify-content:space-between}.nav-screen,.nav-screen>div{display:flex}.nav-screen .icons .icon-action{margin:0 5px}.nav-screen nav{margin-right:20px}.nav-screen nav svg{margin-right:4px}.nav-screen nav li{float:left;font-size:14px;height:100%;margin-right:20px}}#gg-backtop{align-items:center;border-radius:50%;bottom:20px;box-shadow:inset 0 0 5px hsla(0,0%,59%,.5);cursor:pointer;display:flex;height:42px;justify-content:center;position:fixed;right:20px;transition:all .5s ease;-webkit-user-select:none;-ms-user-select:none;user-select:none;width:42px}@media screen and (max-width:767px){#gg-backtop{height:36px;width:36px}}#gg-backtop svg{width:50%}#gg-backtop.hide{opacity:0;-webkit-transform:scale(0);transform:scale(0)}#gg-backtop.show{opacity:1;-webkit-transform:scale(1);transform:scale(1)}.gg-container{display:flex;flex-direction:column;min-height:100vh}.gg-container header{align-items:center;background-color:#fff;background-color:var(--theme-header-background-color);border-bottom:1px solid hsla(0,0%,47%,.2);box-shadow:0 1px 2px rgba(0,0,0,.05),0 1px 4px rgba(0,0,0,.05),0 2px 8px rgba(0,0,0,.05);display:flex;height:var(--layout-header-height);justify-content:space-between;padding:0 16px;position:fixed;top:0;width:100%;z-index:999}.gg-container header .imglogo{border:1px solid var(--gg-border);border-radius:8px;cursor:pointer;width:32px}.gg-container main{background-color:var(--theme-content-background-color);min-height:calc(100vh - var(--layout-footer-height));padding-top:80px}.gg-container footer{align-items:center;background-color:var(--theme-footer-background-color);color:#838c95;display:flex;font-size:14px;height:var(--layout-footer-height);justify-content:center;padding:0 10px;position:relative;text-align:center;width:100%}.gg-container footer:after{background:radial-gradient(hsla(0,0%,59%,.6),transparent 80%);content:"";display:block;height:1px;position:absolute;top:0;width:100%}.gg-container footer img{vertical-align:middle}.gg-container footer .owner{color:#3486e2;cursor:pointer;margin-left:5px;text-decoration:none}.gg-container footer .copyright{margin-left:10px}.gg-container footer .powered{margin-left:5px}@media screen and (max-width:720px){.gg-container footer{flex-direction:column}.gg-container footer .copyright,.gg-container footer .powered{margin-left:0;margin-top:5px}}.issues-page h1{text-align:center}.author-info{margin-bottom:3px}.author-info .author{cursor:pointer}.author-info .author .name{font-weight:500}.author-info .author img{border-radius:50%;margin-right:5px;vertical-align:middle;width:30px}.author-info i,.author-info span{font-size:14px}.author-info .date{margin-left:10px;opacity:.4}.author-info .number{float:right;line-height:26px;opacity:.3}.gg-category{background:hsla(0,0%,71%,.3)!important;border-radius:4px;display:inline-block;font-size:10px;font-weight:700;height:18px;line-height:18px;margin-right:10px;padding:0 5px;text-decoration:none!important;vertical-align:middle}.gg-category,.issues-num{color:var(--color-fg-default)!important;cursor:pointer}.issues-num{font-family:lab;font-style:italic;font-variation-settings:"size" 30,"quad" 40,"bevl" 20,"oval" 30;opacity:.6}.home-page .issues-list{max-width:unset}.home-page .issues-list>div{display:flex;flex-wrap:wrap;margin:0 auto;max-width:960px}.home-page .issues-list .author-info{margin-bottom:3px}.home-page .issues-list .author-info .author img{width:24px}.home-page .issues-list .author-info i,.home-page .issues-list .author-info span{font-size:12px}.home-page .issues-list .author-info .number{float:right;line-height:26px;opacity:.3}.home-page .issues-list .post-info .title{font-size:15px;font-weight:700;text-decoration:none;vertical-align:middle}@media screen and (min-width:721px){.home-page .issues-list .item{border:1px solid var(--gg-border);border-radius:5px;margin:0 10px 20px;max-width:100%;min-width:200px;overflow:hidden;width:calc(50% - 20px)}.home-page .issues-list .item .author-info{background-color:var(--gg-border);padding:3px 5px}.home-page .issues-list .item .post-info{padding:5px}}@media screen and (max-width:720px){.home-page .issues-list .item{border-bottom:1px solid hsla(0,0%,59%,.2);padding:15px 0 12px;width:100%}.home-page .issues-list .item .author-info{margin-bottom:5px}}.gg-label{border-radius:4px;border-style:solid;border-width:1px;cursor:pointer;display:inline-block;font-size:12px;height:18px;line-height:17px;overflow:hidden;vertical-align:middle}.gg-label b{color:#fff;padding:0 3px 0 2px}.gg-label b,.gg-label em{display:inline-block;height:100%}.gg-label em{border-bottom-right-radius:3px;border-top-right-radius:3px;color:var(--theme-text);padding:0 3px}.gg-issues-prev-next{align-items:stretch;border:1px solid hsla(0,0%,59%,.3);border-radius:5px;display:flex;margin:30px 0}.gg-issues-prev-next:after{clear:both;content:"";display:block}.gg-issues-prev-next a{flex:1 1;padding:15px 10px;width:50%}.gg-issues-prev-next a>span{align-items:center;display:flex;height:100%}.gg-issues-prev-next a .icon-action{min-width:20px}.gg-issues-prev-next .prev{text-align:left}.gg-issues-prev-next .prev>span{float:left}.gg-issues-prev-next .prev .icon-action{margin-right:5px}.gg-issues-prev-next .next{text-align:right}.gg-issues-prev-next .next>span{float:right}.gg-issues-prev-next .next .icon-action{margin-left:5px}@media screen and (max-width:720px){.gg-issues-prev-next{font-size:14px}}.issues-page h1{font-size:24px}.issues-page h1>span{background:linear-gradient(180deg,transparent 50%,hsla(0,0%,71%,.5) 0);padding:0 5px}.issues-page h1 .issues-num{font-size:18px;margin-right:10px}.issues-page .widget{margin-bottom:20px;text-align:center}.issues-page .gg-label{margin:2px 4px}.issues-page .ques-content{display:flex;margin-top:5px;min-height:120px}.issues-page .ques-content .quesicon{margin-right:3px}.issues-page .ques-content .quescontent{width:100%}.issues-page .vote{align-items:center;display:flex;flex-direction:column;font-style:normal}.issues-page .answer-content .answericon{background-color:hsla(0,0%,71%,.3);border-radius:5px;margin-bottom:20px;padding:5px 0 0;text-align:center}.issues-page .comments-item{border-left:1px solid hsla(0,0%,71%,.3);padding-bottom:1px;padding-left:3px}.issues-page .comments-item-content{margin-left:20px}.labels-category-page .gg-label-category-head{margin-bottom:20px;position:-webkit-sticky;position:sticky;top:56px}.labels-category-page .category-group{display:flex;width:100%}.labels-category-page .category-group .label-category{color:#fff;cursor:pointer;display:inline-block;font-weight:700;height:36px;line-height:36px;padding:0 10px;text-shadow:0 1px 1px rgba(80,80,80,.5)}.labels-category-page .category-group .label-category.active{color:#000}.labels-category-page .level-group .label-level{background-color:#000;color:#fff;cursor:pointer;display:inline-block;font-size:16px;font-size:14px;height:24px;line-height:24px;margin-right:1px;opacity:.5;padding:0 10px}.labels-category-page .level-group .label-level.active{opacity:1}.labels-category-page .level-group .label-level.level1{background-color:#3c3c3c}.labels-category-page .level-group .label-level.level2{background-color:#555}.labels-category-page .level-group .label-level.level3{background-color:#6f6f6f}.labels-category-page .level-group .label-level.level4{background-color:#888}.labels-category-page .level-group .label-level.level5{background-color:#a2a2a2}.labels-category-page .issues-list .item{background-color:var(--gg-border);border-radius:5px;margin-bottom:10px;padding:10px}.labels-category-page .issues-list .item .label-issue{margin-right:10px}.labels-category-page .issues-list .labels-list{font-size:12px;margin-top:4px}.labels-category-page .issues-list .labels-list .gg-label{margin-bottom:4px;margin-right:4px}.labels-category-page .issues-list .post-info{font-weight:700;margin-top:5px}.issues-list .issues-item{align-items:baseline;display:flex;margin-bottom:10px;text-align:left}.issues-list .issues-item .issues-num{font-size:12px;margin-right:10px}.issues-list .issues-item .title{font-weight:700}.labels-page{text-align:center}.labels-page .markdown-body{display:inline-block}.labels-page .labels-head{border-radius:5px;color:#fff;cursor:pointer;display:block;font-weight:700;margin-bottom:20px;padding:5px 10px;text-shadow:0 1px 2px #000}.labels-page .labels-head:hover{text-decoration:none!important}.labels-page .label-desc{font-weight:700;opacity:.5}.nav-category-page .gg-category{font-size:14px;font-weight:700;height:36px;line-height:36px;margin:10px;padding:0 12px}.nav-labels-page .gg-label{font-size:16px;font-weight:700;height:30px;line-height:29px;margin:5px}.nav-labels-page .gg-label b,.nav-labels-page .gg-label em{padding:0 10px}</style><link rel="icon" href="/favicon-32x32.png?v=fdd225e9135e951b972a3dc20604182e" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=fdd225e9135e951b972a3dc20604182e"/><link as="script" rel="preload" href="/webpack-runtime-4fee7405b8a071e8c34e.js"/><link as="script" rel="preload" href="/framework-86c8a5417e68dc3cefff.js"/><link as="script" rel="preload" href="/app-7383f855f15f63329e5f.js"/><link as="script" rel="preload" href="/fc369a2ef6459b03f38591687cef4a587495c716-f468df31cbdaf6ffa970.js"/><link as="script" rel="preload" href="/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js"/><link as="fetch" rel="preload" href="/page-data/issues/146/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/151096407.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2861350382.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/><script>
+(function() {
+  window.__onThemeChange = function() {};
+  function setTheme(newTheme) {
+    window.__theme = newTheme;
+    preferredTheme = newTheme;
+    document.querySelector('html').className = newTheme;
+    window.__onThemeChange(newTheme);
+  }
+  var preferredTheme;
+  try {
+    preferredTheme = localStorage.getItem('theme');
+  } catch (err) { }
+  window.__setPreferredTheme = function(newTheme) {
+    setTheme(newTheme);
+    try {
+      localStorage.setItem('theme', newTheme);
+    } catch (err) {}
+  }
+  var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  darkQuery.addListener(function(e) {
+    window.__setPreferredTheme(e.matches ? 'dark' : 'light')
+  });
+
+  setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
+})()</script></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="gg-container issues-page"><header><img class="imglogo" src="/static/logo-fe174465633f84724b37eea28a42c520.png" alt="logo"/><div class="gg-nav"><span class="nav-icon"><span class="top"></span><span class="middle"></span><span class="bottom"></span></span><div class="nav-screen"><div><nav><li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 9A1.5 1.5 0 0 0 7 7.5A1.5 1.5 0 0 0 5.5 6A1.5 1.5 0 0 0 4 7.5A1.5 1.5 0 0 0 5.5 9m11.91 2.58c.36.36.59.86.59 1.42c0 .55-.22 1.05-.59 1.41l-5 5a1.996 1.996 0 0 1-2.83 0l-6.99-6.99C2.22 12.05 2 11.55 2 11V6c0-1.11.89-2 2-2h5c.55 0 1.05.22 1.41.58l7 7m-3.87-5.87l1-1l6.87 6.87c.37.36.59.87.59 1.42c0 .55-.22 1.05-.58 1.41l-5.38 5.38l-1-1L20.75 13l-7.21-7.29Z"/></svg>Labels</li><li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M3 3h18v4H3V3m1 5h16v13H4V8m5.5 3a.5.5 0 0 0-.5.5V13h6v-1.5a.5.5 0 0 0-.5-.5h-5Z"/></svg>Archives</li></nav><div class="icons"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="gg-theme-toggle icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="m3.55 18.54l1.41 1.41l1.8-1.79l-1.42-1.42M11 22.45h2V19.5h-2m1-14a6 6 0 0 0-6 6a6 6 0 0 0 6 6a6 6 0 0 0 6-6c0-3.32-2.69-6-6-6m8 7h3v-2h-3m-2.76 7.66l1.8 1.79l1.41-1.41l-1.79-1.8m1.79-12.28l-1.41-1.41l-1.8 1.79l1.42 1.42M13 .55h-2V3.5h2m-9 7H1v2h3m2.76-7.66l-1.8-1.79l-1.41 1.41l1.79 1.8l1.42-1.42Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg></div></div></div></div></header><main><div class="content"><div class="markdown-body"><h1><span><a class="number issues-num" href="https://github.com/awesome-ops/awesome-ops.github.io/issues/146" target="_blank">#146</a><span>Ealenn/Echo-Server: 一个简便的请求调试工具。通过请求参数，配置返回的内容。</span></span></h1><div class="widget"><a class="gg-label" style="border-color:#25B472" href="/labels/更多"><b style="background:#25B472">#</b><em>更多</em></a><a class="gg-label" style="border-color:#48310b" href="/labels/dev-tools"><b style="background:#48310b">#</b><em>Dev-Tools</em></a><a class="gg-label" style="border-color:#f6380c" href="/labels/ealenn"><b style="background:#f6380c">#</b><em>Ealenn</em></a></div><div><div class="author-info"><span class="author" title="https://github.com/eryajf"><img src="https://avatars.githubusercontent.com/u/33259379?u=e4a4090a38ac2473aaed4ef9945233636776c6c3&amp;v=4" alt="eryajf"/><span>eryajf</span></span><i class="date">2025/05/21</i></div><div class="ques-content"><div class="quescontent"><div align="center" dir="auto">
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966"><img src="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966" width="100%" height="3" data-animated-image="" data-canonical-src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" style="max-width: 100%; height: auto; max-height: 3px;"></a><br><br></p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th align="right">Repos</th>
+<th align="left"><a href="https://github.com/Ealenn/Echo-Server">Ealenn/Echo-Server</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right"><strong>Views</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/05248d18c5dd9a00f06ec0d6a96c892bd16634f0895566e507c8e37fa90101b6/68747470733a2f2f76696577732e77686174696c656172656e65642e746f6461792f76696577732f6769746875622f45616c656e6e2f4563686f2d5365727665722e737667" alt="views" data-canonical-src="https://views.whatilearened.today/views/github/Ealenn/Echo-Server.svg" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>Stars</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/83da21a174083bf7c8079c82194119623f0aeac4722f785cd8b526b4254e62b3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f45616c656e6e2f4563686f2d5365727665723f636f6c6f723d663266303864266c6f676f3d556e64657274616c65266c6f676f436f6c6f723d656234363330" alt="stars" data-canonical-src="https://img.shields.io/github/stars/Ealenn/Echo-Server?color=f2f08d&amp;logo=Undertale&amp;logoColor=eb4630" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>Forks</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/822ee4def32b229705a0f94a1e30438c16793fd454c279cc709284db01a96397/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f45616c656e6e2f4563686f2d5365727665723f636f6c6f723d626138366562266c6f676f3d48616e647368616b65266c6f676f436f6c6f723d656136616136" alt="forks" data-canonical-src="https://img.shields.io/github/forks/Ealenn/Echo-Server?color=ba86eb&amp;logo=Handshake&amp;logoColor=ea6aa6" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>License</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/742460365c6087cd4f855a53072e7ca084305b775e0841235ff58d25a5ac523b/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f45616c656e6e2f4563686f2d5365727665723f6c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e53556845556741414144414141414177434159414141425841766d48414141414358424957584d41414173544141414c457745416d70775941414144336b6c45515652346e4f335953557a5555426748384a726f57567255474a66456d3773584e63534446784d544c327069347348456778654e526f77586770455742445552522532424e414e4f4b4f4b36366f6f4b4a4742586545475263574163455646475152484677516d483525324630774861655748493944554455354c356b6e6568644f62377a66652532423139636e434a47495243516945596c514237594a4979474c38616f73756c565a36695246516a69474b6b7564576735614c6c704f70704e586e665071773555304459524a6d56786a4367464633424c755a476d416f5655694b4541726d583744375553677351706f72674761336748664b34483663754262435644334771683141352532424c6745253242467749656e514d306a6f446f66714c6f48564e7742796d384370546e416d327a51713073676478624964515a556c416b7150415a3664676a303541446f59526f6f66792532466f5869726f376b3551586a4c6f70677a4b69514e6c4c4461716f4967754577426a7a7150355066446a45394479495879493633464d547751464d43567271774e61763451666f52673538514625324266724d485172454b3844546f434d714e4179574e4866786d54526f4c4f726d5352566747744466714345715a4f4851727a6f34706243557341333431365169364551394b476a6345465267484f724f4b6e5536574162396247455459656b4b7843766a546167394534706a653534446b3551503862624d4859762532464333756541654a6b50304f4778422532424a70426e4172595238455951516e6f4e31414e4661426e5050356c385372736559514c303641646b30464a5938484f5761424d6c6541486a683068506f73497a6c6f3876304125324633345a694f6548726130714b52504d5653493774762532423932747725324676687855654252713456454c674d376642714b354770526d6f514c584e7075625475367a6f4e52706754386e5051627138347764253246494375767978694b4871694e41664933774d367549684271476b4c696977414f734b44714f68743749747239567938536a52424557667941627225324668523142667056514664484a42253246423268683778376a36517077435665655951326b72554235436c636a3641326d3067576a25324244306d4c34397a573563517943484c4e37726a6c6d6d6174457958582532464372547a412532466f51785a6b576c39474a5443566f25324279546a3837253242346769504b6376307149486f344156344430565a727251493334706e70524d36357875652532467a417265453425324654253246536f676c664542794d7369517441546c4c3352414a355948725378365a44665337307337754d486842705225324659423573305057366f455270316236253246667252684b3353444c35546965364f515548516c5133735644752532427a50636b397657453973747225324236496a533967486d5750616861444a25324277434b364e494242587348423948796b587378774470686c436d416476706c6162554a4e6e5a504239342532464e7436784f6538587a4562503257684d335741673147756236744825324233513150673337365239713475716c6e6f36676448476a444f5139306562303141484d3672596975554a314f713472344656756a35765239427a4d3957674e764f7977446869495951467667626366774166774d764863615067425041253246447948476a50624e394138616d6562636477416444354e6633373574787165774e5552656f797677424958594c645170576c6877465771745061435044334173467541535636717171496c62304a766b564331464c39576b4c55556c55574b337a585a4c46432532423125324642726f46746f364f7358497545594a5034447a7a5732594656316f4a614141414141456c46546b5375516d4343" alt="license" data-canonical-src="https://img.shields.io/github/license/Ealenn/Echo-Server?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD3klEQVR4nO3YSUzUUBgH8JroWVrUGJfEm7sXNcSDFxMTL2pi4sHEgxeNRowXgpEWBDURR%2BNANOKOK66ooKJGBXeEGRcWAcEVFGQRHFwQmH5%2F0wHaeWHI9DUDU5L5knehdOb7zfe%2B19cnCJGIRCQiEYlQB7YJIyGL8aosulVZ6iRFQjiGKkudWg5aLlpOppNXnfPqw5U0DYRJmVxjCgFF3BLuZGmAoVUiKEArmX7D7USgsQporgGa3gHfK4H6cuBbCVD3Gqh1A5%2BLgE%2BFwIenQM0joDofqLoHVNwBym8CpTnAm2zQq0sgdxbIdQZUlAkqPAZ6dgj05ADoYRoofy%2FoXiro7k5QXjLopgzKiQNlLDaqoIguEwBjzqP5PfDjE9DyIXyI63FMTwQFMCVrqwNav4QfoRg58QF%2BfrMHQrEK8DToCMqNAyWNHfxmTRoLOrmSRVgGtDfqCEqZOHQrzo4pbCUsA3416Qi6EQ9KGjcEFRgHOrOKnU6WAb9bGETYekKxCvjTag9E4pje54Dk5QP8bbMHYv%2FC3ueAeJkP0OGxB%2BJpBnArYR8EYQQnoN1ANFaBnPP5l8SrseYQL06Adk0FJY8HOWaBMleAHjh0hPosIzlo8v0A%2F34ZiOeHra0qKRPMVSI7tv%2B92tw%2FvhxUeBRq4VELgM7fBqK5GpRmoQLXNpubTu6zoNRpgT8nPQbq84wd%2FICuvyxiKHqiNAfI3wM6uIhBqGkLiiwAOsKDqOht7Itr9Vy8SjRBEWfyAbr%2FhR1BfpVQFdHJB%2FB2hh7x7j6QpwCVeeYQ2krUB5Clcj6A2m0gWj%2BD0mL49zW5cQyCHLN7rjlmmatEyXX%2FCrTzA%2FoQxZkWl9GJTCVo%2ByTj87%2B4giPKcv0qIHo4AV4D0VZrrQI34pnpRM65xue%2FzAreE4%2FT%2FSoglfEByMsiQtATlL3RAJ5YHrSx6ZDfS70s7uMHhBpR%2FYB5s0PW6oERp1b6%2FfrRhK3SDL5Tie6OQUHQlQ3sVDu%2BzPck9vWE9str%2B6IjS9gHmWPahaDJ%2BwCK6NIBBXsHB9HykXsxwDphlCmAdvplabUJNnZPB94%2FNt6xOe8XzEbP2WhM3WAg1Gub6tH%2B3Q1Pg376R9q4uqlno6gdHGjDOQ90eb01AHM6rYiuUJ1Oq4r4FVuj5vR9BzM9WgNvOywDhiIYQFvgbcfwAfwMvHcaPgBPA%2FDyHGjPbN9A8amebcdwAdD5Nf375txqewNUReoyvwBIXYLdQpWlhwFWqtPaCPD3AsFuASV6qqqIlb0JvkVC1FL9WkLUUlUWK3zXZLFC%2B1%2FBroFto6OsXIuEYJP4DzzW2YFV1oJaAAAAAElFTkSuQmCC" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>UpdatedAt</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/7ab979531831a0e03438efec0f676786ba395d1f20f7e8600b7d3a1fca82ddd1/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f45616c656e6e2f4563686f2d5365727665723f646973706c61795f74696d657374616d703d636f6d6d6974746572266c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e5355684555674141414234414141416543415941414141374d4b3669414141414358424957584d41414173544141414c457745416d7077594141414648556c45515652346e4c5658375539615678776d3236646c582532466468627825324232253246516e626b7655627264554151674a4a496655444e574454546d4f76314651554661504a346b7573725630314a7431734e70637453327533626f745a746d786439744a5346536f714b71494635625944464c436f76436c656673747a4a387758524c445a4c7a6e6b634f343535376e3364332532466e655a3472454f515a74315771462532423858467234253242664f4c4565326a6f59307a776638546f795a50766a45676b4c592532426b306d6d72584f36644b696e787a476b30666a5430782532425279723055716e6359637a4d317263347451253242497270324c4758646f344e4334567657715453373277716c632532427231334f527269364b6458646e624f484c6c776c7a4a70524b6e3657342532424b36706f4f434e6e494166486a253246253242776168495a4234764b6e715a6630714a704e49716c2532467638545530634e6c3572627963337730516e54703379324c54614a374d314e617844723266526e315370504736476961323174664533345463614f617931694d55564f5146624659714957536f31573854694156616e43306576584f4542375770313448466232327a453566714c4f433545524c515769644e614e49347545636339693768634a6c644868324e57725135674464624f6c7061756d49754c62326174415144506e7a3062384e6257636d785656524a33486d7870536377777a4f4a6d4b44524765384c6c435a444c4739673754496e5631516c376462586256316533675430574b697243466f6d6b5079767758466c5a474a4f6a563625324253743634757564445a4f55354555636f782532464d455144567674364d62634e3237593341797a687633737061557242365a3971724a534f3139657a6a387032704c426b4a792532426343484a7857493567573574636652527a31645531394766476b6f7539505a4f34736d52396a4746777065783444793362766e6d4b79706f74625531335669646a71595a68726a343972764d457425324625324659714c7a396430304e6a57253246637a67796f394f35317a7336614e6c6f354644747530445a675146686c47584a30644241446f4e6864367576703657686f617967374e394c564748386d443462253246486e667455516f4e4734764c51306769784d716c5725324234714f6a744e48446733723166365969525347785279375576714c62395534716b716e78504f4e7661356c447048723125324279794b524e4b57425a793565644d554842326d3572792532422532424551772532427a6766347a6f39253246306f634e3357527a4c4277344a2532424a7950574372716d4967475974554f735744346f785a46516f50556a4770564871493425324661666b51504336665a5165654d31253242764c7549516e6a754257514444437363726d485039656f4e5041744271664f6e5875614b25324268364a45624772732532427076764d6d78654962683836336162565065597953456f39464a48704e4d464a59253242503563575a6b6667374f3174537759436553514c54593345385130392532464256504a556c78516a7368543142736343593032723955445542667643484236367063665041336c794165336e6772332532463437584467614a7a736c7937787741364e5a746c555550437541487161536a5549502532427375653842525741432532464e6651374a5a505a35397330476a3756747049537a34685125324243706658474d4b685a63764c70554b7866574d386f68766637702532464f446a4842666356463849736b383267314648796b63564645253242555a414158343761452532464d6c34504f3530506e75683025324678346e6d637957507364774468427836436d6b4c562532466746446a594b784f4a4f4674623077517949684c39527943774b33414f664947703159464542686e4d4a634c525745624b644b516f55366e63545a6b494544696341792532463831645675454d3552775066657934784f7830496b25324649324e6e466b692532425761664f6f464959466367595a43797864376543556a626334416d46363566742532466b4d686b336f25324235686337734d4a79716a4a45477659466151464972375930775077384246415925324236253242766d6b3377367a7a5275444d6d5a5652736668385274413075455453443775434254364459514e36697665553066706b594c6a453671725672744f78654e4b553954484c5a4a396b4255324a427342685635416976422532466f4b61514e4b675043427744596149665a4334616454684f71463457454e56694c4a77566f586f62664c424b56773637414f6154734c6336355461564b32317651344c613939654b6359673576627873624f627a5451394e37554b4467554f3177446a6944494942736868357a746733396e514d4c535a4248344f7a424f55444551586d323036643366634c67737762585141345068634b336e6873775531427a3877765130395248472532466f597933656a6677424e6d746f59714c4130586741414141424a52553545726b4a676767253344253344266c6162656c3d557064617465644174" alt="last-commit" data-canonical-src="https://img.shields.io/github/last-commit/Ealenn/Echo-Server?display_timestamp=committer&amp;logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHUlEQVR4nLVX7U9aVxwm26dlX%2Fdhbx%2B2%2FQnbkvUbrdUAQgJJIfUDNWDTTmOv1FQUFaPJ4kusrV01Jt1sNpctS2u3botZtmxd9tJSFSoqKqIF5bYDFLCovClefstzJ8wXRLDZLznkcO4557n3d3%2FneZ4rEOQZt1WqF%2B8XFr4%2BfOLEe2joY0zwf8ToyZPvjEgkLY%2Bk0mmrXO6dKinxzGk0fjT0x%2BRyr0UqncYczM1rc4tQ%2BIrp2LGXdo4NC4VvWqTS72wqlc%2Br13ORri6KdXdnbOHLlwlzJpRKn6W4%2BK6poOCNnIAfHj%2F%2BwahIZB4vKnqZf0qJpNIql%2Fv8TU0cNl5rbyc3w0QnTp3y2LTaJ7M1NaxDr2fRn1SpPG6Gia21tfE34TcaOay1iMUVOQFbFYqIWSo1W8TiAVanC0evXOEB7Wp14HFb22zE5fqLOC5ERLQWidNaNI4uEcc9i7hcJldHh2NWrQ5gDdbOlpaumIuLb2atAQDPnz0b8NbWcmxVVRJ3HmxpScwwzOJmKDRGe8LlCZDLG9g7TInV1Ql7dbXbV1e3gT0WKirCFomkPyvwXFlZGJOjV6%2BSt64uudDZOU5EUcox%2FMEQDVvt6MbcN27Y3Ayzhv3spaUrB6Z9qrJSO19ezj8p2pLBkJy%2BcCHJxWI5gW5tcfRRz1dU19GfGkou9PZO4smR9jGFwpex4Dy3bvnmKypotbU13VidjqYZhrj49rvMEt%2F%2FYqLz9d00NjW%2Fczgyo9O51zs6aNlo5FDtu0DZgQFhlGXJ0dBADoNhd6uvp6Whoayg7N9LVGH8mD4b%2FHnftUQoNG4vLQ0gixMqlW%2B4qOjtNHDg3r1f6YiRSGxRy7UvqLb9U4qkqnxPONva5lDpHr1%2ByyKRNKWBZy5edMUHB2m5ry%2B%2BEQw%2Bzgf4zo9%2F0ocN3WRzLBw4J%2BJyPWCrqmIgGYtUOsWD4oxZFQoPUjGpVHqI4%2FafkQPC6fZQeeM1%2BvLuIQnjuBWQDDCscrmHP9eoNPAtBqfOnXuaK%2Bh6JEbGrs%2BpvvMmxeIbh863abVPeYySEo9FJHpNMFJY%2BP5cWZkfg7O1tSwYCeSQLTY3E8Q09%2FBVPJUlxQjshT1BscCY02r9UDUBfvCHB66pcfPA3lyAe3ngr3%2F47XDgaJzsly7xwA6NZtlUUPCuAHqaSjUIP%2Bsue8BRWAC%2FNfQ7JZPZ59s0Gj7VtpISz4hQ%2BCpfXGMKhZcvLpUKxfWM8ohvf7p%2FODjHBfcVF8Isk82g1FHykcVFE%2BUZAAX47aE%2FMl4PO50Pnuh0%2Fx4nmcyWPsdwDhBx6CmkLV%2FgFDjYKxOJOFtb0wQyIhL9RyCwK3AOfIGp1YFEBhnMJcLRWEbKdKQoU6ncTZkIEDicAy%2F81dVuEM5RwPfey4xOx0Ik%2FI2NnFki%2BWafOoFIYFcgYZCyxd7eCUjbc4AmF65ft%2FkMhk3o%2B5hc7sMJyqjJEGvYFaQFIr7Y0wPw8BFAY%2B6%2Bvmk3w6zzRuDMmZVRsfh8RtA0uETSD7uCBT6DYQN6iveU0fpkYLjE6qrVrtOxeNKU9THLZJ9kBU2JBsBhV5AivB%2FoKaQNKgPCBwDYaIfZC4adThOqF4WENViLJwVoXobfLBKVw67AOaTsLc65TaVK21vQ4La99eKcYg5vbxsbObzTQ9N7UKDgUO1wDjiDIIBshh5ztg39nQMLSZBH4OzBOUDEQXm206d3fcLgswbXQA4PhcK3nhswU1Bz8wvQ09RHG%2FoYy3ejfwBNmtoYqLA0XgAAAABJRU5ErkJggg%3D%3D&amp;label=UpdatedAt" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>CreatedAt</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/0a7aa52d1c2ad2779a70e2ab0945eb0e327ac8954555fdb6e172ea6fc5fe8e73/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f637265617465642d61742f45616c656e6e2f4563686f2d5365727665723f6c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e5355684555674141414234414141416543415941414141374d4b3669414141414358424957584d41414173544141414c457745416d7077594141414648556c45515652346e4c5658375539615678776d3236646c582532466468627825324232253246516e626b7655627264554151674a4a496655444e574454546d4f76314651554661504a346b7573725630314a7431734e70637453327533626f745a746d786439744a5346536f714b71494635625944464c436f76436c656673747a4a387758524c445a4c7a6e6b634f343535376e3364332532466e655a3472454f515a74315771462532423858467234253242664f4c4565326a6f59307a776638546f795a50766a45676b4c592532426b306d6d72584f36644b696e787a476b30666a5430782532425279723055716e6359637a4d317263347451253242497270324c4758646f344e4334567657715453373277716c632532427231334f527269364b6458646e624f484c6c776c7a4a70524b6e3657342532424b36706f4f434e6e494166486a253246253242776168495a4234764b6e715a6630714a704e49716c2532467638545530634e6c3572627963337730516e54703379324c54614a374d314e617844723266526e315370504736476961323174664533345463614f617931694d55564f5146624659714957536f31573854694156616e43306576584f4542375770313448466232327a453566714c4f433545524c515769644e614e49347545636339693768634a6c644868324e57725135674464624f6c7061756d49754c62326174415144506e7a3062384e6257636d785656524a33486d7870536377777a4f4a6d4b44524765384c6c435a444c4739673754496e5631516c376462586256316533675430574b697243466f6d6b5079767758466c5a474a4f6a563625324253743634757564445a4f55354555636f782532464d455144567674364d62634e3237593341797a687633737061557242365a3971724a534f3139657a6a387032704c426b4a792532426343484a7857493567573574636652527a31645531394766476b6f7539505a4f34736d52396a4746777065783444793362766e6d4b79706f74625531335669646a71595a68726a343972764d457425324625324659714c7a396430304e6a57253246637a67796f394f35317a7336614e6c6f354644747530445a675146686c47584a30644241446f4e6864367576703657686f617967374e394c564748386d443462253246486e667455516f4e4734764c51306769784d716c5725324234714f6a744e48446733723166365969525347785279375576714c62395534716b716e78504f4e7661356c447048723125324279794b524e4b57425a793565644d554842326d3572792532422532424551772532427a6766347a6f39253246306f634e3357527a4c4277344a2532424a7950574372716d4967475974554f735744346f785a46516f50556a4770564871493425324661666b51504336665a5165654d31253242764c7549516e6a754257514444437363726d485039656f4e5041744271664f6e5875614b25324268364a45624772732532427076764d6d78654962683836336162565065597953456f39464a48704e4d464a59253242503563575a6b6667374f3174537759436553514c54593345385130392532464256504a556c78516a7368543142736343593032723955445542667643484236367063665041336c794165336e6772332532463437584467614a7a736c7937787741364e5a746c555550437541487161536a5549502532427375653842525741432532464e6651374a5a505a35397330476a3756747049537a34685125324243706658474d4b685a63764c70554b7866574d386f68766637702532464f446a4842666356463849736b383267314648796b63564645253242555a414158343761452532464d6c34504f3530506e75683025324678346e6d637957507364774468427836436d6b4c562532466746446a594b784f4a4f4674623077517949684c39527943774b33414f664947703159464542686e4d4a634c525745624b644b516f55366e63545a6b494544696341792532463831645675454d3552775066657934784f7830496b25324649324e6e466b692532425761664f6f464959466367595a43797864376543556a626334416d46363566742532466b4d686b336f25324235686337734d4a79716a4a45477659466151464972375930775077384246415925324236253242766d6b3377367a7a5275444d6d5a5652736668385274413075455453443775434254364459514e36697665553066706b594c6a453671725672744f78654e4b553954484c5a4a396b4255324a427342685635416976422532466f4b61514e4b675043427744596149665a4334616454684f71463457454e56694c4a77566f586f62664c424b56773637414f6154734c6336355461564b32317651344c613939654b6359673576627873624f627a5451394e37554b4467554f3177446a6944494942736868357a746733396e514d4c535a4248344f7a424f55444551586d323036643366634c67737762585141345068634b336e6873775531427a3877765130395248472532466f597933656a6677424e6d746f59714c4130586741414141424a52553545726b4a676767253344253344266c6162656c3d437265617465644174" alt="create-at" data-canonical-src="https://img.shields.io/github/created-at/Ealenn/Echo-Server?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHUlEQVR4nLVX7U9aVxwm26dlX%2Fdhbx%2B2%2FQnbkvUbrdUAQgJJIfUDNWDTTmOv1FQUFaPJ4kusrV01Jt1sNpctS2u3botZtmxd9tJSFSoqKqIF5bYDFLCovClefstzJ8wXRLDZLznkcO4557n3d3%2FneZ4rEOQZt1WqF%2B8XFr4%2BfOLEe2joY0zwf8ToyZPvjEgkLY%2Bk0mmrXO6dKinxzGk0fjT0x%2BRyr0UqncYczM1rc4tQ%2BIrp2LGXdo4NC4VvWqTS72wqlc%2Br13ORri6KdXdnbOHLlwlzJpRKn6W4%2BK6poOCNnIAfHj%2F%2BwahIZB4vKnqZf0qJpNIql%2Fv8TU0cNl5rbyc3w0QnTp3y2LTaJ7M1NaxDr2fRn1SpPG6Gia21tfE34TcaOay1iMUVOQFbFYqIWSo1W8TiAVanC0evXOEB7Wp14HFb22zE5fqLOC5ERLQWidNaNI4uEcc9i7hcJldHh2NWrQ5gDdbOlpaumIuLb2atAQDPnz0b8NbWcmxVVRJ3HmxpScwwzOJmKDRGe8LlCZDLG9g7TInV1Ql7dbXbV1e3gT0WKirCFomkPyvwXFlZGJOjV6%2BSt64uudDZOU5EUcox%2FMEQDVvt6MbcN27Y3Ayzhv3spaUrB6Z9qrJSO19ezj8p2pLBkJy%2BcCHJxWI5gW5tcfRRz1dU19GfGkou9PZO4smR9jGFwpex4Dy3bvnmKypotbU13VidjqYZhrj49rvMEt%2F%2FYqLz9d00NjW%2Fczgyo9O51zs6aNlo5FDtu0DZgQFhlGXJ0dBADoNhd6uvp6Whoayg7N9LVGH8mD4b%2FHnftUQoNG4vLQ0gixMqlW%2B4qOjtNHDg3r1f6YiRSGxRy7UvqLb9U4qkqnxPONva5lDpHr1%2ByyKRNKWBZy5edMUHB2m5ry%2B%2BEQw%2Bzgf4zo9%2F0ocN3WRzLBw4J%2BJyPWCrqmIgGYtUOsWD4oxZFQoPUjGpVHqI4%2FafkQPC6fZQeeM1%2BvLuIQnjuBWQDDCscrmHP9eoNPAtBqfOnXuaK%2Bh6JEbGrs%2BpvvMmxeIbh863abVPeYySEo9FJHpNMFJY%2BP5cWZkfg7O1tSwYCeSQLTY3E8Q09%2FBVPJUlxQjshT1BscCY02r9UDUBfvCHB66pcfPA3lyAe3ngr3%2F47XDgaJzsly7xwA6NZtlUUPCuAHqaSjUIP%2Bsue8BRWAC%2FNfQ7JZPZ59s0Gj7VtpISz4hQ%2BCpfXGMKhZcvLpUKxfWM8ohvf7p%2FODjHBfcVF8Isk82g1FHykcVFE%2BUZAAX47aE%2FMl4PO50Pnuh0%2Fx4nmcyWPsdwDhBx6CmkLV%2FgFDjYKxOJOFtb0wQyIhL9RyCwK3AOfIGp1YFEBhnMJcLRWEbKdKQoU6ncTZkIEDicAy%2F81dVuEM5RwPfey4xOx0Ik%2FI2NnFki%2BWafOoFIYFcgYZCyxd7eCUjbc4AmF65ft%2FkMhk3o%2B5hc7sMJyqjJEGvYFaQFIr7Y0wPw8BFAY%2B6%2Bvmk3w6zzRuDMmZVRsfh8RtA0uETSD7uCBT6DYQN6iveU0fpkYLjE6qrVrtOxeNKU9THLZJ9kBU2JBsBhV5AivB%2FoKaQNKgPCBwDYaIfZC4adThOqF4WENViLJwVoXobfLBKVw67AOaTsLc65TaVK21vQ4La99eKcYg5vbxsbObzTQ9N7UKDgUO1wDjiDIIBshh5ztg39nQMLSZBH4OzBOUDEQXm206d3fcLgswbXQA4PhcK3nhswU1Bz8wvQ09RHG%2FoYy3ejfwBNmtoYqLA0XgAAAABJRU5ErkJggg%3D%3D&amp;label=CreatedAt" style="max-width: 100%;"></a></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<a href="https://github.com/opsre/awesome-ops">
+</a><p dir="auto"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/b964a36ea4078c39f603d46a29436371c7541a2f26e0228d7b21b9d9805b43d3/68747470733a2f2f736f6369616c6966792e6769742e63692f6f707372652f617765736f6d652d6f70732f696d6167653f6465736372697074696f6e3d3126666f6e743d42697474657226666f726b733d31266973737565733d31266c616e67756167653d31266c6f676f3d6874747073253341253246253246617661746172732e67697468756275736572636f6e74656e742e636f6d25324675253246313838353638303230266e616d653d31266f776e65723d31267061747465726e3d436972637569742b426f6172642670756c6c733d31267374617267617a6572733d31267468656d653d4c69676874" alt="" data-canonical-src="https://socialify.git.ci/opsre/awesome-ops/image?description=1&amp;font=Bitter&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F188568020&amp;name=1&amp;owner=1&amp;pattern=Circuit+Board&amp;pulls=1&amp;stargazers=1&amp;theme=Light" style="max-width: 100%;"></a></p>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966"><img src="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966" width="100%" height="3" data-animated-image="" data-canonical-src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" style="max-width: 100%; height: auto; max-height: 3px;"></a>
+</div>
+<h1 dir="auto">Echo-Server / Docker / Kubernetes / Helm</h1>
+<p dir="auto"><a href="https://codecov.io/gh/Ealenn/Echo-Server" rel="nofollow"><img src="https://camo.githubusercontent.com/61436a86bfa7e700c0f0b6a33534dfc2b82908e08090df60bb542865732e0f6e/68747470733a2f2f696d672e736869656c64732e696f2f636f6465636f762f632f6769746875622f65616c656e6e2f6563686f2d7365727665723f7374796c653d666f722d7468652d6261646765266c6f676f3d636f6465636f76" alt="Codecov" data-canonical-src="https://img.shields.io/codecov/c/github/ealenn/echo-server?style=for-the-badge&amp;logo=codecov" style="max-width: 100%;"></a><br>
+<a href="https://www.codefactor.io/repository/github/ealenn/echo-server" rel="nofollow"><img src="https://camo.githubusercontent.com/559f617eeba9025c52b9915bfdcd5b4a3a064a15a4d13db9efde7de9d1415087/68747470733a2f2f696d672e736869656c64732e696f2f636f6465666163746f722f67726164652f6769746875622f65616c656e6e2f6563686f2d7365727665723f7374796c653d666f722d7468652d6261646765" alt="CodeFactor Grade" data-canonical-src="https://img.shields.io/codefactor/grade/github/ealenn/echo-server?style=for-the-badge" style="max-width: 100%;"></a><br>
+<a href="https://github.com/Ealenn/Echo-Server/stargazers"><img src="https://camo.githubusercontent.com/099948a22e0c11cf61df97e900df874357621588e9a9dae2a97e59688d44ec16/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f45616c656e6e2f4563686f2d5365727665723f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562" alt="GitHub stars" data-canonical-src="https://img.shields.io/github/stars/Ealenn/Echo-Server?style=for-the-badge&amp;logo=github" style="max-width: 100%;"></a><br>
+<a href="https://github.com/Ealenn/Echo-Server/issues"><img src="https://camo.githubusercontent.com/58f7e4ce80666cbbc688c7b9cbae34c1ea4d3b954e251b0744dbaa009c9daca3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f45616c656e6e2f4563686f2d5365727665723f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562" alt="GitHub issues" data-canonical-src="https://img.shields.io/github/issues/Ealenn/Echo-Server?style=for-the-badge&amp;logo=github" style="max-width: 100%;"></a><br>
+<a href="https://hub.docker.com/repository/docker/ealen/echo-server" rel="nofollow"><img src="https://camo.githubusercontent.com/5606b26969e5cf8d3ef73ba11b76c7a41cec6203dc58acb60632c9d2c9ac65a4/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f70756c6c732f65616c656e2f6563686f2d7365727665722e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d646f636b6572" alt="DockerHub" data-canonical-src="https://img.shields.io/docker/pulls/ealen/echo-server.svg?style=for-the-badge&amp;logo=docker" style="max-width: 100%;"></a><br>
+<a href="https://hub.docker.com/repository/docker/ealen/echo-server" rel="nofollow"><img src="https://camo.githubusercontent.com/80849f66022886c317a3904f07c00207d49adca02c01210a5a6f3cb74c01fbc9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f53495a452d25334325323033302532304d422d3134383843363f7374796c653d666f722d7468652d6261646765266c6f676f3d646f636b6572" alt="DockerHub" data-canonical-src="https://img.shields.io/badge/SIZE-%3C%2030%20MB-1488C6?style=for-the-badge&amp;logo=docker" style="max-width: 100%;"></a></p>
+<blockquote>
+<p dir="auto">Read the docs : <a href="https://ealenn.github.io/Echo-Server" rel="nofollow">https://ealenn.github.io/Echo-Server</a></p>
+</blockquote>
+<p dir="auto">An echo server is a server that replicates the request sent by the client and sends it back.</p>
+<p dir="auto">Available:</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a60a8edd212f1ec2734cf443a36c7f324c3a1c1670cb2f0cc9b4d4a6560aeae5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c696e75782d616d6436342d626c75653f7374796c653d666c61742d737175617265266c6f676f3d646f636b6572"><img src="https://camo.githubusercontent.com/a60a8edd212f1ec2734cf443a36c7f324c3a1c1670cb2f0cc9b4d4a6560aeae5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c696e75782d616d6436342d626c75653f7374796c653d666c61742d737175617265266c6f676f3d646f636b6572" alt="" data-canonical-src="https://img.shields.io/badge/linux-amd64-blue?style=flat-square&amp;logo=docker" style="max-width: 100%;"></a><br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/3bc4bfb6dbf921cd92ebe26239227b496b717c44a5837a0612a324f81eaf0c76/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c696e75782d61726d2f76362d626c75653f7374796c653d666c61742d737175617265266c6f676f3d646f636b6572"><img src="https://camo.githubusercontent.com/3bc4bfb6dbf921cd92ebe26239227b496b717c44a5837a0612a324f81eaf0c76/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c696e75782d61726d2f76362d626c75653f7374796c653d666c61742d737175617265266c6f676f3d646f636b6572" alt="" data-canonical-src="https://img.shields.io/badge/linux-arm/v6-blue?style=flat-square&amp;logo=docker" style="max-width: 100%;"></a><br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/cc82551c3f16b231686557960928e6dbf0f025029e8671885aa458001027248f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c696e75782d61726d2f76372d626c75653f7374796c653d666c61742d737175617265266c6f676f3d646f636b6572"><img src="https://camo.githubusercontent.com/cc82551c3f16b231686557960928e6dbf0f025029e8671885aa458001027248f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c696e75782d61726d2f76372d626c75653f7374796c653d666c61742d737175617265266c6f676f3d646f636b6572" alt="" data-canonical-src="https://img.shields.io/badge/linux-arm/v7-blue?style=flat-square&amp;logo=docker" style="max-width: 100%;"></a><br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/fa7a627cbc65a69fe35ffbff317282e0dd24c94cd6aa700d9eed97f043e8dcd4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c696e75782d61726d36342f76382d626c75653f7374796c653d666c61742d737175617265266c6f676f3d646f636b6572"><img src="https://camo.githubusercontent.com/fa7a627cbc65a69fe35ffbff317282e0dd24c94cd6aa700d9eed97f043e8dcd4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c696e75782d61726d36342f76382d626c75653f7374796c653d666c61742d737175617265266c6f676f3d646f636b6572" alt="" data-canonical-src="https://img.shields.io/badge/linux-arm64/v8-blue?style=flat-square&amp;logo=docker" style="max-width: 100%;"></a><br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/594cda1addedc26e3d09cff8667b1ad62b81ee95ae4349d2a7f044f5124984d5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c696e75782d70706336346c652d626c75653f7374796c653d666c61742d737175617265266c6f676f3d646f636b6572"><img src="https://camo.githubusercontent.com/594cda1addedc26e3d09cff8667b1ad62b81ee95ae4349d2a7f044f5124984d5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c696e75782d70706336346c652d626c75653f7374796c653d666c61742d737175617265266c6f676f3d646f636b6572" alt="" data-canonical-src="https://img.shields.io/badge/linux-ppc64le-blue?style=flat-square&amp;logo=docker" style="max-width: 100%;"></a><br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/2efe3739e0c13d8d4d1f29e769f02eb63e9222388f0ae599f299788fbd1180d3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c696e75782d73333930782d626c75653f7374796c653d666c61742d737175617265266c6f676f3d646f636b6572"><img src="https://camo.githubusercontent.com/2efe3739e0c13d8d4d1f29e769f02eb63e9222388f0ae599f299788fbd1180d3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c696e75782d73333930782d626c75653f7374796c653d666c61742d737175617265266c6f676f3d646f636b6572" alt="" data-canonical-src="https://img.shields.io/badge/linux-s390x-blue?style=flat-square&amp;logo=docker" style="max-width: 100%;"></a></p>
+<ul dir="auto">
+<li>GET / POST / PUT / PATCH / DELETE</li>
+<li>Request (Query, Body, IPs, Host, Urls...)</li>
+<li>Request Headers / Response Headers</li>
+<li>Environment variables</li>
+<li>Control via Headers/Query</li>
+<li>Folders and Files</li>
+<li>Monitoring</li>
+</ul>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/6358d57bdd9fa1207a8957bdfaeaf86c7249925ac5d657d69e4b164ca727e1ea/68747470733a2f2f65616c656e6e2e6769746875622e696f2f4563686f2d5365727665722f6173736574732f696d616765732f646f636b65722e706e67"><img src="https://camo.githubusercontent.com/6358d57bdd9fa1207a8957bdfaeaf86c7249925ac5d657d69e4b164ca727e1ea/68747470733a2f2f65616c656e6e2e6769746875622e696f2f4563686f2d5365727665722f6173736574732f696d616765732f646f636b65722e706e67" alt="docker" data-canonical-src="https://ealenn.github.io/Echo-Server/assets/images/docker.png" style="max-width: 100%;"></a></p>
+<h2 dir="auto"><a name="user-content-tableofcontents"></a>Table of contents</h2>
+
+<ul dir="auto">
+<li><a href="#echo-server--docker--kubernetes--helm">Echo-Server / Docker / Kubernetes / Helm</a>
+<ul dir="auto">
+<li><a href="#table-of-contents"></a><a name="user-content-tableofcontents"></a>Table of contents</li>
+<li><a href="#configuration"></a><a name="user-content-configuration"></a>Configuration</li>
+<li><a href="#use-echo-server"></a><a name="user-content-useecho-server"></a>Use Echo-Server
+<ul dir="auto">
+<li><a href="#custom-responses"></a><a name="user-content-customresponses"></a>Custom responses
+<ul dir="auto">
+<li><a href="#custom-http-status-code"></a><a name="user-content-customhttpstatuscode"></a>Custom HTTP Status Code</li>
+<li><a href="#custom-body"></a><a name="user-content-custombody"></a>Custom Body</li>
+<li><a href="#custom-body-with-environment-variable-value"></a><a name="user-content-custombodywithenvironmentvariablevalue"></a>Custom Body with Environment variable value</li>
+<li><a href="#custom-headers"></a><a name="user-content-customheaders"></a>Custom Headers</li>
+<li><a href="#custom-response-latency"></a><a name="user-content-customresponselatency"></a>Custom response latency</li>
+<li><a href="#filefolder-explorer"></a><a name="user-content-filefolderexplorer"></a>File/Folder explorer</li>
+<li><a href="#combine-custom-actions"></a><a name="user-content-combinecustomactions"></a>Combine custom actions</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#change-default-queriesrequest-commands"></a><a name="user-content-changedefaultqueriesrequestcommands"></a>Change default Queries/Request commands</li>
+<li><a href="#loggers"></a><a name="user-content-loggers"></a>Loggers
+<ul dir="auto">
+<li><a href="#format"></a><a name="user-content-format"></a>Format</li>
+<li><a href="#seq"></a><a name="user-content-seq"></a>Seq</li>
+<li><a href="#elk"></a><a name="user-content-elk"></a>ELK</li>
+</ul>
+</li>
+<li><a href="#setting-up"></a><a name="user-content-settingup"></a>Setting up
+<ul dir="auto">
+<li><a href="#docker"></a><a name="user-content-docker"></a>Docker</li>
+<li><a href="#docker-compose"></a><a name="user-content-docker-compose"></a>Docker-Compose</li>
+<li><a href="#kubernetes"></a><a name="user-content-kubernetes"></a>Kubernetes</li>
+<li><a href="#kubernetes-with-helm"></a><a name="user-content-kuberneteswithhelm"></a>Kubernetes with Helm</li>
+<li><a href="#nodejs"></a><a name="user-content-nodejs"></a>NodeJS</li>
+</ul>
+</li>
+<li><a href="#contributing"></a><a name="user-content-contributing"></a>Contributing</li>
+<li><a href="#versioning"></a><a name="user-content-versioning"></a>Versioning</li>
+<li><a href="#license"></a><a name="user-content-license"></a>License</li>
+<li><a href="#development"></a><a name="user-content-development"></a>Development
+<ul dir="auto">
+<li><a href="#documentation"></a><a name="user-content-documentation"></a>Documentation</li>
+<li><a href="#tests"></a><a name="user-content-tests"></a>Tests</li>
+<li><a href="#release-notes"></a><a name="user-content-releasenotes"></a>Release notes</li>
+<li><a href="#update-helm-chart"></a><a name="user-content-updatehelmchart"></a>Update Helm Chart</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+
+<h2 dir="auto"><a name="user-content-configuration"></a>Configuration</h2>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>Environment</th>
+<th>Helm</th>
+<th>CLI</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PORT</td>
+<td>service.port</td>
+<td>--port</td>
+<td><code class="notranslate">80</code></td>
+</tr>
+<tr>
+<td>LOGS__IGNORE__PING</td>
+<td>application.logs.ignore.ping</td>
+<td>--logs:ignore:ping</td>
+<td><code class="notranslate">false</code></td>
+</tr>
+<tr>
+<td>ENABLE__HOST</td>
+<td>application.enable.host</td>
+<td>--enable:host</td>
+<td><code class="notranslate">true</code></td>
+</tr>
+<tr>
+<td>ENABLE__HTTP</td>
+<td>application.enable.http</td>
+<td>--enable:http</td>
+<td><code class="notranslate">true</code></td>
+</tr>
+<tr>
+<td>ENABLE__REQUEST</td>
+<td>application.enable.request</td>
+<td>--enable:request</td>
+<td><code class="notranslate">true</code></td>
+</tr>
+<tr>
+<td>ENABLE__COOKIES</td>
+<td>application.enable.cookies</td>
+<td>--enable:cookies</td>
+<td><code class="notranslate">true</code></td>
+</tr>
+<tr>
+<td>ENABLE__HEADER</td>
+<td>application.enable.header</td>
+<td>--enable:header</td>
+<td><code class="notranslate">true</code></td>
+</tr>
+<tr>
+<td>ENABLE__ENVIRONMENT</td>
+<td>application.enable.environment</td>
+<td>--enable:environment</td>
+<td><code class="notranslate">true</code></td>
+</tr>
+<tr>
+<td>ENABLE__FILE</td>
+<td>application.enable.file</td>
+<td>--enable:file</td>
+<td><code class="notranslate">true</code></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<h2 dir="auto"><a name="user-content-useecho-server"></a>Use Echo-Server</h2>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/662672eabe970ae6a200ff3e21544d6bfde168562abfade39b71b7dd09321935/68747470733a2f2f65616c656e6e2e6769746875622e696f2f4563686f2d5365727665722f6173736574732f696d616765732f6375726c2e706e67"><img src="https://camo.githubusercontent.com/662672eabe970ae6a200ff3e21544d6bfde168562abfade39b71b7dd09321935/68747470733a2f2f65616c656e6e2e6769746875622e696f2f4563686f2d5365727665722f6173736574732f696d616765732f6375726c2e706e67" alt="curl" data-canonical-src="https://ealenn.github.io/Echo-Server/assets/images/curl.png" style="max-width: 100%;"></a></p>
+<p dir="auto">I use <a href="https://stedolan.github.io/jq" rel="nofollow">jq</a> for nice <code class="notranslate">curl</code> results ;)</p>
+<h3 dir="auto"><a name="user-content-customresponses"></a>Custom responses</h3>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>Query</th>
+<th>Header</th>
+<th>Content</th>
+<th>Conditions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>?echo_code=</td>
+<td>X-ECHO-CODE</td>
+<td>HTTP code <code class="notranslate">200</code>, <code class="notranslate">404</code></td>
+<td>200 &lt;= <code class="notranslate">CODE</code> &lt;= 599</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><code class="notranslate">404-401</code> or <code class="notranslate">200-500-301</code></td>
+<td></td>
+</tr>
+<tr>
+<td>?echo_body=</td>
+<td>X-ECHO-BODY</td>
+<td>Body message</td>
+<td></td>
+</tr>
+<tr>
+<td>?echo_env_body=</td>
+<td>X-ECHO-ENV-BODY</td>
+<td>The key of environment variable</td>
+<td>Enable environment <code class="notranslate">true</code></td>
+</tr>
+<tr>
+<td>?echo_header=</td>
+<td>X-ECHO-HEADER</td>
+<td>Response Header <code class="notranslate">Lang: en-US</code></td>
+<td>Enable header <code class="notranslate">true</code></td>
+</tr>
+<tr>
+<td>?echo_time=</td>
+<td>X-ECHO-TIME</td>
+<td>Wait time in <code class="notranslate">ms</code></td>
+<td>0 &lt;= <code class="notranslate">TIME</code> &lt;= 30.000</td>
+</tr>
+<tr>
+<td>?echo_file=</td>
+<td>X-ECHO-FILE</td>
+<td>Path of Directory or File</td>
+<td>Enable file <code class="notranslate">true</code></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<h4 dir="auto"><a name="user-content-customhttpstatuscode"></a>Custom HTTP Status Code</h4>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="➜ curl -I --header 'X-ECHO-CODE: 404' localhost:8080
+➜ curl -I localhost:8080/?echo_code=404
+
+HTTP/1.1 404 Not Found"><pre class="notranslate">➜ curl -I --header <span class="pl-s"><span class="pl-pds">'</span>X-ECHO-CODE: 404<span class="pl-pds">'</span></span> localhost:8080
+➜ curl -I localhost:8080/<span class="pl-k">?</span>echo_code=404
+
+HTTP/1.1 404 Not Found</pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="➜ curl -I --header 'X-ECHO-CODE: 404-300' localhost:8080
+➜ curl -I localhost:8080/?echo_code=404-300
+
+HTTP/1.1 404 Not Found
+HTTP/1.1 300 Multiple Choices"><pre class="notranslate">➜ curl -I --header <span class="pl-s"><span class="pl-pds">'</span>X-ECHO-CODE: 404-300<span class="pl-pds">'</span></span> localhost:8080
+➜ curl -I localhost:8080/<span class="pl-k">?</span>echo_code=404-300
+
+HTTP/1.1 404 Not Found
+HTTP/1.1 300 Multiple Choices</pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="➜ for i in {1..10}
+➜ do
+➜    curl -I localhost:8080/?echo_code=200-400-500
+➜ done
+
+HTTP/1.1 500 Internal Server Error
+HTTP/1.1 400 Bad Request
+HTTP/1.1 200 OK
+HTTP/1.1 500 Internal Server Error
+HTTP/1.1 200 OK
+HTTP/1.1 500 Internal Server Error"><pre class="notranslate">➜ <span class="pl-k">for</span> <span class="pl-smi">i</span> <span class="pl-k">in</span> {1..10}
+➜ <span class="pl-k">do</span>
+➜    curl -I localhost:8080/<span class="pl-k">?</span>echo_code=200-400-500
+➜ <span class="pl-k">done</span>
+
+HTTP/1.1 500 Internal Server Error
+HTTP/1.1 400 Bad Request
+HTTP/1.1 200 OK
+HTTP/1.1 500 Internal Server Error
+HTTP/1.1 200 OK
+HTTP/1.1 500 Internal Server Error</pre></div>
+<h4 dir="auto"><a name="user-content-custombody"></a>Custom Body</h4>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="➜ curl --header 'X-ECHO-BODY: amazing' localhost:8080
+➜ curl localhost:8080/?echo_body=amazing
+
+&quot;amazing&quot;"><pre class="notranslate">➜ curl --header <span class="pl-s"><span class="pl-pds">'</span>X-ECHO-BODY: amazing<span class="pl-pds">'</span></span> localhost:8080
+➜ curl localhost:8080/<span class="pl-k">?</span>echo_body=amazing
+
+<span class="pl-s"><span class="pl-pds">"</span>amazing<span class="pl-pds">"</span></span></pre></div>
+<h4 dir="auto"><a name="user-content-custombodywithenvironmentvariablevalue"></a>Custom Body with Environment variable value</h4>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="➜ curl --header 'X-ECHO-ENV-BODY: HOSTNAME' localhost:8080
+➜ curl localhost:8080/?echo_env_body=HOSTNAME
+
+&quot;c53a9ed79fa2&quot;"><pre class="notranslate">➜ curl --header <span class="pl-s"><span class="pl-pds">'</span>X-ECHO-ENV-BODY: HOSTNAME<span class="pl-pds">'</span></span> localhost:8080
+➜ curl localhost:8080/<span class="pl-k">?</span>echo_env_body=HOSTNAME
+
+<span class="pl-s"><span class="pl-pds">"</span>c53a9ed79fa2<span class="pl-pds">"</span></span></pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="➜ for i in {1..10}
+➜ do
+➜    curl localhost:8080/?echo_env_body=HOSTNAME
+➜ done
+
+&quot;c53a9ed79fa2&quot;
+&quot;f10c3af61e40&quot;
+&quot;c53a9ed79fa2&quot;
+&quot;f10c3af61e40&quot;
+&quot;c53a9ed79fa2&quot;"><pre class="notranslate">➜ <span class="pl-k">for</span> <span class="pl-smi">i</span> <span class="pl-k">in</span> {1..10}
+➜ <span class="pl-k">do</span>
+➜    curl localhost:8080/<span class="pl-k">?</span>echo_env_body=HOSTNAME
+➜ <span class="pl-k">done</span>
+
+<span class="pl-s"><span class="pl-pds">"</span>c53a9ed79fa2<span class="pl-pds">"</span></span>
+<span class="pl-s"><span class="pl-pds">"</span>f10c3af61e40<span class="pl-pds">"</span></span>
+<span class="pl-s"><span class="pl-pds">"</span>c53a9ed79fa2<span class="pl-pds">"</span></span>
+<span class="pl-s"><span class="pl-pds">"</span>f10c3af61e40<span class="pl-pds">"</span></span>
+<span class="pl-s"><span class="pl-pds">"</span>c53a9ed79fa2<span class="pl-pds">"</span></span></pre></div>
+<h4 dir="auto"><a name="user-content-customheaders"></a>Custom Headers</h4>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="➜ curl --header 'X-ECHO-HEADER: One:1' localhost:8080
+➜ curl localhost:8080/?echo_header=One:1
+
+HTTP/1.1 200 OK
+One: 1"><pre class="notranslate">➜ curl --header <span class="pl-s"><span class="pl-pds">'</span>X-ECHO-HEADER: One:1<span class="pl-pds">'</span></span> localhost:8080
+➜ curl localhost:8080/<span class="pl-k">?</span>echo_header=One:1
+
+HTTP/1.1 200 OK
+One: 1</pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="➜ curl --header 'X-ECHO-HEADER: One:1, Two:2' localhost:8080
+➜ curl &quot;localhost:8080/?echo_header=One:1,%20Two:2&quot;
+
+HTTP/1.1 200 OK
+One: 1
+Two: 2"><pre class="notranslate">➜ curl --header <span class="pl-s"><span class="pl-pds">'</span>X-ECHO-HEADER: One:1, Two:2<span class="pl-pds">'</span></span> localhost:8080
+➜ curl <span class="pl-s"><span class="pl-pds">"</span>localhost:8080/?echo_header=One:1,%20Two:2<span class="pl-pds">"</span></span>
+
+HTTP/1.1 200 OK
+One: 1
+Two: 2</pre></div>
+<h4 dir="auto"><a name="user-content-customresponselatency"></a>Custom response latency</h4>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="➜ curl --header 'X-ECHO-TIME: 5000' localhost:8080
+➜ curl &quot;localhost:8080/?echo_time=5000&quot;
+
+⏳... 5000 ms"><pre class="notranslate">➜ curl --header <span class="pl-s"><span class="pl-pds">'</span>X-ECHO-TIME: 5000<span class="pl-pds">'</span></span> localhost:8080
+➜ curl <span class="pl-s"><span class="pl-pds">"</span>localhost:8080/?echo_time=5000<span class="pl-pds">"</span></span>
+
+⏳... 5000 ms</pre></div>
+<p dir="auto">You can change default validations with</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>ENVIRONMENT</th>
+<th>CLI</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CONTROLS__TIMES__MIN</td>
+<td>--controls:times:min</td>
+<td><code class="notranslate">0</code></td>
+</tr>
+<tr>
+<td>CONTROLS__TIMES__MAX</td>
+<td>--controls:times:max</td>
+<td><code class="notranslate">60000</code></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p dir="auto"><em>(Latency is defined in milliseconds)</em></p>
+<h4 dir="auto"><a name="user-content-filefolderexplorer"></a>File/Folder explorer</h4>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="➜ curl --header 'X-ECHO-FILE: /' localhost:8080
+➜ curl &quot;localhost:8080/?echo_file=/&quot;
+
+[&quot;app&quot;, &quot;bin&quot;, &quot;etc&quot;, &quot;usr&quot;, &quot;var&quot;]"><pre class="notranslate">➜ curl --header <span class="pl-s"><span class="pl-pds">'</span>X-ECHO-FILE: /<span class="pl-pds">'</span></span> localhost:8080
+➜ curl <span class="pl-s"><span class="pl-pds">"</span>localhost:8080/?echo_file=/<span class="pl-pds">"</span></span>
+
+[<span class="pl-s"><span class="pl-pds">"</span>app<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>bin<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>etc<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>usr<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>var<span class="pl-pds">"</span></span>]</pre></div>
+<h4 dir="auto"><a name="user-content-combinecustomactions"></a>Combine custom actions</h4>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="➜ curl --header 'X-ECHO-CODE: 401' --header 'X-ECHO-BODY: Oups' localhost:8080
+➜ curl &quot;localhost:8080/?echo_body=Oups&amp;echo_code=401&quot;
+
+HTTP/1.1 401 Unauthorized
+&quot;Oups&quot;"><pre class="notranslate">➜ curl --header <span class="pl-s"><span class="pl-pds">'</span>X-ECHO-CODE: 401<span class="pl-pds">'</span></span> --header <span class="pl-s"><span class="pl-pds">'</span>X-ECHO-BODY: Oups<span class="pl-pds">'</span></span> localhost:8080
+➜ curl <span class="pl-s"><span class="pl-pds">"</span>localhost:8080/?echo_body=Oups&amp;echo_code=401<span class="pl-pds">"</span></span>
+
+HTTP/1.1 401 Unauthorized
+<span class="pl-s"><span class="pl-pds">"</span>Oups<span class="pl-pds">"</span></span></pre></div>
+<h2 dir="auto"><a name="user-content-changedefaultqueriesrequestcommands"></a>Change default Queries/Request commands</h2>
+<p dir="auto"><a href="https://ealenn.github.io/Echo-Server/pages/configuration/commands.html" rel="nofollow">Read the docs</a></p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>Environment</th>
+<th>CLI</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>COMMANDS__HTTPBODY__QUERY</td>
+<td>--commands:httpBody:query</td>
+<td><code class="notranslate">echo_body</code></td>
+</tr>
+<tr>
+<td>COMMANDS__HTTPBODY__HEADER</td>
+<td>--commands:httpBody:header</td>
+<td><code class="notranslate">x-echo-body</code></td>
+</tr>
+<tr>
+<td>COMMANDS__HTTPENVBODY__QUERY</td>
+<td>--commands:httpEnvBody:query</td>
+<td><code class="notranslate">echo_env_body</code></td>
+</tr>
+<tr>
+<td>COMMANDS__HTTPENVBODY__HEADER</td>
+<td>--commands:httpEnvBody:header</td>
+<td><code class="notranslate">x-echo-env-body</code></td>
+</tr>
+<tr>
+<td>COMMANDS__HTTPCODE__QUERY</td>
+<td>--commands:httpCode:query</td>
+<td><code class="notranslate">echo_code</code></td>
+</tr>
+<tr>
+<td>COMMANDS__HTTPCODE__HEADER</td>
+<td>--commands:httpCode:header</td>
+<td><code class="notranslate">x-echo-code</code></td>
+</tr>
+<tr>
+<td>COMMANDS__HTTPHEADERS__QUERY</td>
+<td>--commands:httpHeaders:query</td>
+<td><code class="notranslate">echo_header</code></td>
+</tr>
+<tr>
+<td>COMMANDS__HTTPHEADERS__HEADER</td>
+<td>--commands:httpHeaders:header</td>
+<td><code class="notranslate">x-echo-header</code></td>
+</tr>
+<tr>
+<td>COMMANDS__TIME__QUERY</td>
+<td>--commands:time:query</td>
+<td><code class="notranslate">echo_time</code></td>
+</tr>
+<tr>
+<td>COMMANDS__TIME__HEADER</td>
+<td>--commands:time:header</td>
+<td><code class="notranslate">x-echo-time</code></td>
+</tr>
+<tr>
+<td>COMMANDS__FILE__QUERY</td>
+<td>--commands:file:query</td>
+<td><code class="notranslate">echo_file</code></td>
+</tr>
+<tr>
+<td>COMMANDS__FILE__HEADER</td>
+<td>--commands:file:header</td>
+<td><code class="notranslate">x-echo-file</code></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<h2 dir="auto"><a name="user-content-loggers"></a>Loggers</h2>
+<p dir="auto"><a href="https://ealenn.github.io/Echo-Server/pages/configuration/loggers.html" rel="nofollow">Read the docs</a></p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>Environment</th>
+<th>CLI</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LOGS__APP</td>
+<td>--logs:app</td>
+<td><code class="notranslate">echo-server</code></td>
+</tr>
+<tr>
+<td>LOGS__LEVEL</td>
+<td>--logs:level</td>
+<td><code class="notranslate">debug</code></td>
+</tr>
+<tr>
+<td>LOGS__FORMAT</td>
+<td>--logs:format</td>
+<td><code class="notranslate">default</code></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<h3 dir="auto"><a name="user-content-format"></a>Format</h3>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>LOG FORMAT</th>
+<th>DESCRIPTION</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>default</td>
+<td>Combine <code class="notranslate">line</code> &amp; <code class="notranslate">object</code></td>
+</tr>
+<tr>
+<td>line</td>
+<td>Simple `Fri, 22 Jan 2021 10:45:20 GMT</td>
+</tr>
+<tr>
+<td>object</td>
+<td>JSON <code class="notranslate">{ "host": {}, http: {}, request: {}}</code></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<h3 dir="auto"><a name="user-content-seq"></a>Seq</h3>
+<p dir="auto"><a href="https://github.com/Ealenn/Echo-Server/tree/master/docker-compose">Full example</a> - <a href="https://ealenn.github.io/Echo-Server/pages/quick-start/docker-compose.html" rel="nofollow">Documentation</a></p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>Environment</th>
+<th>CLI</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LOGS__SEQ__ENABLED</td>
+<td>--logs:seq:enabled</td>
+<td><code class="notranslate">false</code></td>
+</tr>
+<tr>
+<td>LOGS__SEQ__SERVER</td>
+<td>--logs:seq:server</td>
+<td><code class="notranslate"> </code></td>
+</tr>
+<tr>
+<td>LOGS__SEQ__KEY</td>
+<td>--logs:seq:key</td>
+<td><code class="notranslate"> </code></td>
+</tr>
+<tr>
+<td>LOGS__SEQ__LEVEL</td>
+<td>--logs:seq:level</td>
+<td><code class="notranslate">info</code></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<h3 dir="auto"><a name="user-content-elk"></a>ELK</h3>
+<p dir="auto"><a href="https://github.com/Ealenn/Echo-Server/tree/master/docker-compose">Full example</a> - <a href="https://ealenn.github.io/Echo-Server/pages/quick-start/docker-compose.html" rel="nofollow">Documentation</a></p>
+<h2 dir="auto"><a name="user-content-settingup"></a>Setting up</h2>
+<h3 dir="auto"><a name="user-content-docker"></a>Docker</h3>
+<p dir="auto"><a href="https://ealenn.github.io/Echo-Server/pages/quick-start/docker.html" rel="nofollow">Read the docs</a></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="docker run -p 8080:80 ealen/echo-server"><pre class="notranslate">docker run -p 8080:80 ealen/echo-server</pre></div>
+<h3 dir="auto"><a name="user-content-docker-compose"></a>Docker-Compose</h3>
+<p dir="auto"><a href="https://ealenn.github.io/Echo-Server/pages/quick-start/docker-compose.html" rel="nofollow">Read the docs</a></p>
+<p dir="auto"><strong>Sample</strong></p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="version: &quot;3&quot;
+services:
+  echo-server:
+    image: ealen/echo-server
+    ports:
+      - 8080:80"><pre class="notranslate"><span class="pl-ent">version</span>: <span class="pl-s"><span class="pl-pds">"</span>3<span class="pl-pds">"</span></span>
+<span class="pl-ent">services</span>:
+  <span class="pl-ent">echo-server</span>:
+    <span class="pl-ent">image</span>: <span class="pl-s">ealen/echo-server</span>
+    <span class="pl-ent">ports</span>:
+      - <span class="pl-c1">8080:80</span></pre></div>
+<p dir="auto"><strong>With Seq</strong></p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="version: &quot;3&quot;
+services:
+  echo:
+    image: ealen/echo-server
+    environment: 
+      PORT: 80
+      LOGS__SEQ__ENABLED: &quot;true&quot;
+      LOGS__SEQ__SERVER: &quot;http://seq:5341&quot;
+    ports: 
+      - 8080:80
+
+  seq:
+    image: datalust/seq
+    environment: 
+      ACCEPT_EULA: &quot;Y&quot;
+    ports:
+      - 3010:80"><pre class="notranslate"><span class="pl-ent">version</span>: <span class="pl-s"><span class="pl-pds">"</span>3<span class="pl-pds">"</span></span>
+<span class="pl-ent">services</span>:
+  <span class="pl-ent">echo</span>:
+    <span class="pl-ent">image</span>: <span class="pl-s">ealen/echo-server</span>
+    <span class="pl-ent">environment</span>: 
+      <span class="pl-ent">PORT</span>: <span class="pl-c1">80</span>
+      <span class="pl-ent">LOGS__SEQ__ENABLED</span>: <span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span>
+      <span class="pl-ent">LOGS__SEQ__SERVER</span>: <span class="pl-s"><span class="pl-pds">"</span>http://seq:5341<span class="pl-pds">"</span></span>
+    <span class="pl-ent">ports</span>: 
+      - <span class="pl-c1">8080:80</span>
+
+  <span class="pl-ent">seq</span>:
+    <span class="pl-ent">image</span>: <span class="pl-s">datalust/seq</span>
+    <span class="pl-ent">environment</span>: 
+      <span class="pl-ent">ACCEPT_EULA</span>: <span class="pl-s"><span class="pl-pds">"</span>Y<span class="pl-pds">"</span></span>
+    <span class="pl-ent">ports</span>:
+      - <span class="pl-c1">3010:80</span></pre></div>
+<h3 dir="auto"><a name="user-content-kubernetes"></a>Kubernetes</h3>
+<p dir="auto"><a href="https://ealenn.github.io/Echo-Server/pages/quick-start/kubernetes.html" rel="nofollow">Read the docs</a></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="curl -sL https://raw.githubusercontent.com/Ealenn/Echo-Server/master/docs/examples/echo.kube.yaml | kubectl apply -f -"><pre class="notranslate">curl -sL https://raw.githubusercontent.com/Ealenn/Echo-Server/master/docs/examples/echo.kube.yaml <span class="pl-k">|</span> kubectl apply -f -</pre></div>
+<h3 dir="auto"><a name="user-content-kuberneteswithhelm"></a>Kubernetes with Helm</h3>
+<p dir="auto"><a href="https://ealenn.github.io/Echo-Server/pages/quick-start/helm.html" rel="nofollow">Read the docs</a> - <a href="https://artifacthub.io/packages/helm/ealenn/echo-server" rel="nofollow">Artifact Hub</a></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="helm repo add ealenn https://ealenn.github.io/charts
+helm repo update
+helm install --set ingress.enable=true --name echoserver ealenn/echo-server"><pre class="notranslate">helm repo add ealenn https://ealenn.github.io/charts
+helm repo update
+helm install --set ingress.enable=true --name echoserver ealenn/echo-server</pre></div>
+<h3 dir="auto"><a name="user-content-nodejs"></a>NodeJS</h3>
+<p dir="auto"><a href="https://ealenn.github.io/Echo-Server/pages/quick-start/nodejs" rel="nofollow">Read the docs</a></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# Dependencies
+npm ci
+# Run with node
+node ./src/webserver --port 8080
+# Run with npm script
+PORT=8080 npm run start"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> Dependencies</span>
+npm ci
+<span class="pl-c"><span class="pl-c">#</span> Run with node</span>
+node ./src/webserver --port 8080
+<span class="pl-c"><span class="pl-c">#</span> Run with npm script</span>
+PORT=8080 npm run start</pre></div>
+<hr>
+<h2 dir="auto"><a name="user-content-contributing"></a>Contributing</h2>
+<p dir="auto">Please read <a href="CONTRIBUTING.md">CONTRIBUTING.md</a> for details on our code of conduct, and the process for submitting pull requests to us.</p>
+<h2 dir="auto"><a name="user-content-versioning"></a>Versioning</h2>
+<p dir="auto">We use <a href="http://semver.org/" rel="nofollow">SemVer</a> for versioning.<br>
+For the versions available, see the <a href="https://github.com/Ealenn/Echo-Server/releases">tags on this repository</a>.</p>
+<h2 dir="auto"><a name="user-content-license"></a>License</h2>
+<p dir="auto">This project is licensed under the GNU Lesser General Public License - see the <a href="https://github.com/Ealenn/Echo-Server/blob/master/LICENSE.txt">LICENSE.txt</a> file for details.</p>
+<hr>
+<h2 dir="auto"><a name="user-content-development"></a>Development</h2>
+<h3 dir="auto"><a name="user-content-documentation"></a>Documentation</h3>
+<p dir="auto">Docker-Compose is available on <code class="notranslate">./docs</code> folder.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="docker compose up -d"><pre class="notranslate">docker compose up -d</pre></div>
+<p dir="auto">The documentation is here <a href="http://localhost:4000" rel="nofollow">localhost:4000</a></p>
+<h3 dir="auto"><a name="user-content-tests"></a>Tests</h3>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="npm ci
+# Without code coverage
+npm run test
+# With code coverage
+npm run test-with-coverage"><pre class="notranslate">npm ci
+<span class="pl-c"><span class="pl-c">#</span> Without code coverage</span>
+npm run <span class="pl-c1">test</span>
+<span class="pl-c"><span class="pl-c">#</span> With code coverage</span>
+npm run test-with-coverage</pre></div>
+<h3 dir="auto"><a name="user-content-releasenotes"></a>Release notes</h3>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="git log --pretty=oneline"><pre class="notranslate">git log --pretty=oneline</pre></div>
+<h3 dir="auto"><a name="user-content-updatehelmchart"></a>Update Helm Chart</h3>
+<p dir="auto">=&gt; <a href="https://github.com/Ealenn/charts/tree/master/charts/echo-server">https://github.com/Ealenn/charts/tree/master/charts/echo-server</a></p></div></div></div><div class="gg-issues-prev-next"><a class="prev" href="/issues/145"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M2 3h17a2 2 0 0 1 2 2v4h-2V5H2v14h17v-4h2v4a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m15 12v-2h7v-2h-7V9l-4 3l4 3M4 13h7v-2H4v2m0-4h7V7H4v2m0 8h4v-2H4v2Z"/></svg>danger-dream/ebpf-firewall: 基于 eBPF 技术的高性能网络防火墙系统，具有实时入站流量监控、规则过滤和黑名单管理等功能。</span></a><a class="next" href="/issues/147"><span>Duke1616/ecmdb: 一个现代化思路开发的 CMDB 和工单系统，功能还在早期开发中。<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M22 3H5a2 2 0 0 0-2 2v4h2V5h17v14H5v-4H3v4a2 2 0 0 0 2 2h17a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2M7 15v-2H0v-2h7V9l4 3l-4 3m13-2h-7v-2h7v2m0-4h-7V7h7v2m-3 8h-4v-2h4v2Z"/></svg></span></a></div><div class="answer-content"><div class="comments"></div></div></div></div></main><footer><div class="license"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img style="width:60px;height:21px" src="/static/license-83d755bd405fbe51c87dc088baf26299.svg" alt="License"/></a></div><div class="copyright"><span>Copyright ©<!-- --> <!-- -->2025<!-- -->-present</span><a class="owner" href="https://github.com/awesome-ops/awesome-ops.github.io" target="_blank">awesome-ops/awesome-ops.github.io</a>.</div><span class="powered">Powered by<a class="owner" title="GG (Gatsby + GitHub) - A gatsby website builder based on github discussions" href="https://github.com/lencx/gg" target="_blank">gg</a></span></footer></div><div id="gg-backtop" class="hide"><svg viewBox="0 0 98 125" xmlns="http://www.w3.org/2000/svg"><path d="m.41627505 120.505813c.36557376-2.799314 38.38567845-112.09375627 40.40633855-116.52273479 2.0206601-4.42897853 7.0443939-6.06190829 10.0049342.20172081 1.9736935 4.17575274 17.3630227 42.22464148 46.1679874 114.14666598.3068629 1.030234.4237748 1.755017.3507358 2.174348-.4483666 2.574161-2.3292736 3.429521-4.6125739 2.516093-15.0683018-6.028033-36.2681037-23.1692513-43.8663627-23.1692513-7.5982589 0-27.0568176 12.9171643-43.18383202 23.1692513-.96511235.613531-1.91473089 1.069619-2.88840599 1.149501s-2.74439509-.86628-2.37882134-3.665594z" fill="var(--gg-icon)" fill-rule="evenodd"></path></svg></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/issues/146";window.___webpackCompilationHash="24ed58306e97f1c1f657";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-97dd130bca8800dece7d.js"],"app":["/app-7383f855f15f63329e5f.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-2d05d9e504a620062115.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-408674d1ce0d96365c3f.js"],"component---src-templates-archives-tsx":["/component---src-templates-archives-tsx-06d205e572129bb8618c.js"],"component---src-templates-issues-tsx":["/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js"],"component---src-templates-labels-category-tsx":["/component---src-templates-labels-category-tsx-5456164ce90934624119.js"],"component---src-templates-labels-tsx":["/component---src-templates-labels-tsx-ee7b95bd8aa06617f372.js"],"component---src-templates-nav-category-tsx":["/component---src-templates-nav-category-tsx-91c7d8cb3880e3e0fda2.js"],"component---src-templates-nav-labels-tsx":["/component---src-templates-nav-labels-tsx-ae07fd835c5a914973d3.js"]};/*]]>*/</script><script src="/polyfill-97dd130bca8800dece7d.js" nomodule=""></script><script src="/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js" async=""></script><script src="/fc369a2ef6459b03f38591687cef4a587495c716-f468df31cbdaf6ffa970.js" async=""></script><script src="/app-7383f855f15f63329e5f.js" async=""></script><script src="/framework-86c8a5417e68dc3cefff.js" async=""></script><script src="/webpack-runtime-4fee7405b8a071e8c34e.js" async=""></script></body></html>

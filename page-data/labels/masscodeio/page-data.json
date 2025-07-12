@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/masscodeio",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"massCodeIO/massCode: 一款开源的本地代码片段管理工具","number":365}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7aibg","name":"massCodeIO","color":"471974","description":null},"name":"massCodeIO","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

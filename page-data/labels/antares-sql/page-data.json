@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/antares-sql",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"antares-sql/antares: 支持 MySQL/MariaDB、PostgreSQL、SQLite 和 Firebird SQL, 支持多平台","number":24}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TZ9A","name":"antares-sql","color":"c5cd29","description":null},"name":"antares-sql","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

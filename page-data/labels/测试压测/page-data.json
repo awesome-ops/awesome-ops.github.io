@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/测试压测",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"link1st/go-stress-testing: Golang 实现的压测工具","number":206}},{"node":{"title":"rakyll/hey: hey 是一个向网络应用程序的压测工具，go语言编写。","number":226}},{"node":{"title":"grafana/k6: 一款现代化的负载测试工具，使用 Go 和 JavaScript 实现","number":259}},{"node":{"title":"seagull1985/LuckyFrameWeb: 一款免费开源的测试平台，最大的特点是全纬度覆盖了接口自动化、 WEB UI自动化、 APP自动化，并且支持分布式测试，测试关键字驱动也很大程度上解决了测试同学代码基础弱的问题。","number":360}},{"node":{"title":"metersphere/metersphere:  一站式开源持续测试平台，涵盖测试跟踪、接口测试、UI 测试和性能测试等功能，全面兼容 JMeter、Selenium 等主流开源标准 ","number":372}},{"node":{"title":"Runner-Go-Team/runnerGo: 一款全栈式测试平台，可以进行接口测试、场景自动化测试、性能压测等一系列功能","number":492}},{"node":{"title":"JoeDog/siege: Siege 是一款用于 http 负载测试和基准测试的工具","number":511}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7XGFQ","name":"测试压测","color":"3fbd86","description":null},"name":"测试压测","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

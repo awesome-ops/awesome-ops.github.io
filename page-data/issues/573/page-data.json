@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/573",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":573,"previous":{"title":"traefik/traefik: 一种现代 HTTP 反向代理和负载均衡器，可以轻松部署微服务","number":572},"next":{"title":"trickstercache/trickster: HTTP 反向代理/缓存，用于时间序列数据库的仪表板查询加速器","number":574}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

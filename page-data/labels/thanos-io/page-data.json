@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/thanos-io",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"thanos-io/thanos: 为 Prometheus 提供进行长期存储能力和高可用性","number":561}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9iEWw","name":"thanos-io","color":"39f4fd","description":null},"name":"thanos-io","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

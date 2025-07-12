@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/287",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":287,"previous":{"title":"kekingcn/kkFileView: 文档在线预览项目解决方案，使用流行的 Spring Boot 框架构建，可轻松设置和部署。","number":286},"next":{"title":"didi/KnowSearch: 面向 Elasticsearch 研发与运维人员，围绕集群、索引构建的零侵入、多租户的 Elasticsearch GUI 管控平台","number":288}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

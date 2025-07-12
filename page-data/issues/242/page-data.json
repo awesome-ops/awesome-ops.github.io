@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/242",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":242,"previous":{"title":"lifei6671/interview-go: Golang 常见面试题目搜集","number":241},"next":{"title":"pretty66/iptables-web: 一个轻量级的 iptables Web 管理界面程序，支持二进制文件直接运行及 Docker 快速部署安装","number":243}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/hellager",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"Hellager/mission-backup: 简单好用的备份软件","number":4}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7RKHA","name":"Hellager","color":"0485de","description":null},"name":"Hellager","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

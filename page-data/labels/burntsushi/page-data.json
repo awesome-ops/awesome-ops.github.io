@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/burntsushi",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"BurntSushi/ripgrep: 一个面向行的搜索工具，它递归地搜索当前目录中的正则表达式模式。默认情况下，ripgrep 将遵守 gitignore 规则并自动跳过隐藏文件/目录和二进制文件。","number":484}},{"node":{"title":"BurntSushi/xsv: 一个用于索引、切片、分析、分割和连接 CSV 文件的命令行程序。","number":617}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7dE4A","name":"BurntSushi","color":"f7e2a8","description":null},"name":"BurntSushi","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

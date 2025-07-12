@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/153",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":153,"previous":{"title":"1340691923/ElasticView: 一个简单好用的 ElasticSearch 可视化客户端，支持连接6，7，8版本的ES","number":152},"next":{"title":"acidvegas/elastop: 一个基于终端的仪表板，用于实时监控 Elasticsearch 集群。","number":154}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

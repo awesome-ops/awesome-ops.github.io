@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/ymfe",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"YMFE/yapi: 高效、易用、功能强大的 API 管理平台，旨在为开发、产品、测试人员提供优雅的接口管理服务","number":620}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9iqeg","name":"YMFE","color":"e382cb","description":null},"name":"YMFE","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

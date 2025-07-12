@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/abdenasser",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"Abdenasser/neohtop: 基于 Svelte、Rust 和 Tauri 构建的现代跨平台系统监视器。","number":389}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7bCwA","name":"Abdenasser","color":"1ee092","description":null},"name":"Abdenasser","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/usual2970",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"usual2970/certimate: 开源的SSL证书管理工具，可以帮助你自动申请、部署SSL证书，并在证书即将过期时自动续期。","number":72}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UWsw","name":"usual2970","color":"bf2d78","description":null},"name":"usual2970","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/signoz",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"SigNoz/signoz: SigNoz 是 OpenTelemetry 原生的开源可观察性平台，在单个应用程序中提供日志、跟踪和指标。DataDog、NewRelic 等的开源替代品。开源应用程序性能监控（APM）和可观察性工具","number":514}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9hn3A","name":"SigNoz","color":"d0da8f","description":null},"name":"SigNoz","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/prometheus",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"prometheus/blackbox_exporter: 用于对外部服务进行探测的 Exporter，支持 HTTP、HTTPS、DNS、TCP、ICMP 等协议","number":53}},{"node":{"title":"prometheus/node_exporter: 用于机器指标的 Exporter","number":400}},{"node":{"title":"prometheus/prometheus: Prometheus 是一个监控系统和时序数据库，在被广泛应用于云原生的监控","number":457}},{"node":{"title":"prometheus/snmp_exporter: SNMP 指标的 Prometheus Exporter","number":526}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7T-ZA","name":"prometheus","color":"3d4dd6","description":null},"name":"prometheus","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/557",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":557,"previous":{"title":"TermoraDev/termora: 一个终端模拟器和 SSH 客户端，支持 Windows，macOS 和 Linux。","number":556},"next":{"title":"kbst/terraform-kubestack: Kubestack 是一个面向 Kubernetes 平台工程团队的框架，它允许在一个 Terraform 代码库中定义完整的云原生技术栈，并通过 GitOps 实现平台的安全持续发展。","number":558}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

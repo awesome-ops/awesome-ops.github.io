@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/gui-sql",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"antares-sql/antares: 支持 MySQL/MariaDB、PostgreSQL、SQLite 和 Firebird SQL, 支持多平台","number":24}},{"node":{"title":"beekeeper-studio/beekeeper-studio: 适用于 MySQL、Postgres、SQLite、SQL Server 等的现代且易于使用的 SQL 客户端, 支持多平台, 颜值高","number":48}},{"node":{"title":"Sequel-Ace/Sequel-Ace: Mac 平台下的 MySQL 客户端","number":508}},{"node":{"title":"yy0931/sqlite3-editor: 一款 vscode 插件，用于管理 sqlite，它的特色能力是不仅能够浏览数据，还能够编辑数据，且完全免费。","number":533}},{"node":{"title":"sqlitebrowser/sqlitebrowser: 一个高质量、可视化、开源工具，用于创建、设计和编辑与 SQLite 兼容的数据库文件。","number":534}},{"node":{"title":"lana-k/sqliteviz: 一个单页离线优先 PWA，用于 SQLite 数据库或 CSV 文件的完全客户端可视化。","number":535}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TZjg","name":"GUI-SQL","color":"3e73fd","description":null},"name":"GUI-SQL","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

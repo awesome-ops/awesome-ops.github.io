@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/mirrorx-desktop",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"MirrorX-Desktop/MirrorX: 基于 Rust 构建的远程桌面控制软件","number":375}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7aw4w","name":"MirrorX-Desktop","color":"551f6c","description":null},"name":"MirrorX-Desktop","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

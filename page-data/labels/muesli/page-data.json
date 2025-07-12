@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/muesli",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"muesli/duf: 比 du 更好看的磁盘空间占用查看工具","number":140}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VtsQ","name":"muesli","color":"fb4491","description":null},"name":"muesli","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

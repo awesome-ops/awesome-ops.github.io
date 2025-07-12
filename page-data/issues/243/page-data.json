@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/243",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":243,"previous":{"title":"xiaodingding/iotfast: 基于 Goframe2.0 + Vue3.x 开发的物联网平台，支持跨语言，跨平台接入","number":242},"next":{"title":"istio/istio: Istio 是一个开源服务网格，它透明地分层到现有的分布式应用程序上。","number":244}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

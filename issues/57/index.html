@@ -1,0 +1,1760 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/><meta name="theme-color" content="#FFFFFF"/><meta name="generator" content="Gatsby 4.11.3"/><style data-href="/styles.3aaba633489943369223.css" data-identity="gatsby-global-css">@media (prefers-color-scheme:dark){.markdown-body{--color-prettylights-syntax-comment:#8b949e;--color-prettylights-syntax-constant:#79c0ff;--color-prettylights-syntax-entity:#d2a8ff;--color-prettylights-syntax-storage-modifier-import:#c9d1d9;--color-prettylights-syntax-entity-tag:#7ee787;--color-prettylights-syntax-keyword:#ff7b72;--color-prettylights-syntax-string:#a5d6ff;--color-prettylights-syntax-variable:#ffa657;--color-prettylights-syntax-brackethighlighter-unmatched:#f85149;--color-prettylights-syntax-invalid-illegal-text:#f0f6fc;--color-prettylights-syntax-invalid-illegal-bg:#8e1519;--color-prettylights-syntax-carriage-return-text:#f0f6fc;--color-prettylights-syntax-carriage-return-bg:#b62324;--color-prettylights-syntax-string-regexp:#7ee787;--color-prettylights-syntax-markup-list:#f2cc60;--color-prettylights-syntax-markup-heading:#1f6feb;--color-prettylights-syntax-markup-italic:#c9d1d9;--color-prettylights-syntax-markup-bold:#c9d1d9;--color-prettylights-syntax-markup-deleted-text:#ffdcd7;--color-prettylights-syntax-markup-deleted-bg:#67060c;--color-prettylights-syntax-markup-inserted-text:#aff5b4;--color-prettylights-syntax-markup-inserted-bg:#033a16;--color-prettylights-syntax-markup-changed-text:#ffdfb6;--color-prettylights-syntax-markup-changed-bg:#5a1e02;--color-prettylights-syntax-markup-ignored-text:#c9d1d9;--color-prettylights-syntax-markup-ignored-bg:#1158c7;--color-prettylights-syntax-meta-diff-range:#d2a8ff;--color-prettylights-syntax-brackethighlighter-angle:#8b949e;--color-prettylights-syntax-sublimelinter-gutter-mark:#484f58;--color-prettylights-syntax-constant-other-reference-link:#a5d6ff;--color-fg-default:#c9d1d9;--color-fg-muted:#8b949e;--color-fg-subtle:#484f58;--color-canvas-default:#0d1117;--color-canvas-subtle:#161b22;--color-border-default:#30363d;--color-border-muted:#21262d;--color-neutral-muted:hsla(215,8%,47%,.4);--color-accent-fg:#58a6ff;--color-accent-emphasis:#1f6feb;--color-attention-subtle:rgba(187,128,9,.15);--color-danger-fg:#f85149;color-scheme:dark}}@media (prefers-color-scheme:light){.markdown-body{--color-prettylights-syntax-comment:#6e7781;--color-prettylights-syntax-constant:#0550ae;--color-prettylights-syntax-entity:#8250df;--color-prettylights-syntax-storage-modifier-import:#24292f;--color-prettylights-syntax-entity-tag:#116329;--color-prettylights-syntax-keyword:#cf222e;--color-prettylights-syntax-string:#0a3069;--color-prettylights-syntax-variable:#953800;--color-prettylights-syntax-brackethighlighter-unmatched:#82071e;--color-prettylights-syntax-invalid-illegal-text:#f6f8fa;--color-prettylights-syntax-invalid-illegal-bg:#82071e;--color-prettylights-syntax-carriage-return-text:#f6f8fa;--color-prettylights-syntax-carriage-return-bg:#cf222e;--color-prettylights-syntax-string-regexp:#116329;--color-prettylights-syntax-markup-list:#3b2300;--color-prettylights-syntax-markup-heading:#0550ae;--color-prettylights-syntax-markup-italic:#24292f;--color-prettylights-syntax-markup-bold:#24292f;--color-prettylights-syntax-markup-deleted-text:#82071e;--color-prettylights-syntax-markup-deleted-bg:#ffebe9;--color-prettylights-syntax-markup-inserted-text:#116329;--color-prettylights-syntax-markup-inserted-bg:#dafbe1;--color-prettylights-syntax-markup-changed-text:#953800;--color-prettylights-syntax-markup-changed-bg:#ffd8b5;--color-prettylights-syntax-markup-ignored-text:#eaeef2;--color-prettylights-syntax-markup-ignored-bg:#0550ae;--color-prettylights-syntax-meta-diff-range:#8250df;--color-prettylights-syntax-brackethighlighter-angle:#57606a;--color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;--color-prettylights-syntax-constant-other-reference-link:#0a3069;--color-fg-default:#24292f;--color-fg-muted:#57606a;--color-fg-subtle:#6e7781;--color-canvas-default:#fff;--color-canvas-subtle:#f6f8fa;--color-border-default:#d0d7de;--color-border-muted:#d8dee4;--color-neutral-muted:rgba(175,184,193,.2);--color-accent-fg:#0969da;--color-accent-emphasis:#0969da;--color-attention-subtle:#fff8c5;--color-danger-fg:#cf222e;color-scheme:light}}.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;word-wrap:break-word;background-color:var(--color-canvas-default);color:var(--color-fg-default);font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:16px;line-height:1.5;margin:0}.markdown-body h1:hover .anchor .octicon-link:before,.markdown-body h2:hover .anchor .octicon-link:before,.markdown-body h3:hover .anchor .octicon-link:before,.markdown-body h4:hover .anchor .octicon-link:before,.markdown-body h5:hover .anchor .octicon-link:before,.markdown-body h6:hover .anchor .octicon-link:before{background-color:currentColor;content:" ";display:inline-block;height:16px;-webkit-mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');width:16px}.markdown-body details,.markdown-body figcaption,.markdown-body figure{display:block}.markdown-body summary{display:list-item}.markdown-body [hidden]{display:none!important}.markdown-body a{background-color:transparent;color:var(--color-accent-fg);text-decoration:none}.markdown-body a:active,.markdown-body a:hover{outline-width:0}.markdown-body abbr[title]{border-bottom:none;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}.markdown-body b,.markdown-body strong{font-weight:600}.markdown-body dfn{font-style:italic}.markdown-body h1{border-bottom:1px solid var(--color-border-muted);font-size:2em;font-weight:600;margin:.67em 0;padding-bottom:.3em}.markdown-body mark{background-color:var(--color-attention-subtle);color:var(--color-text-primary)}.markdown-body small{font-size:90%}.markdown-body sub,.markdown-body sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}.markdown-body sub{bottom:-.25em}.markdown-body sup{top:-.5em}.markdown-body img{background-color:var(--color-canvas-default);border-style:none;box-sizing:content-box;max-width:100%}.markdown-body code,.markdown-body kbd,.markdown-body pre,.markdown-body samp{font-family:monospace,monospace;font-size:1em}.markdown-body figure{margin:1em 40px}.markdown-body hr{background:transparent;background-color:var(--color-border-default);border:0;box-sizing:content-box;height:.25em;margin:24px 0;overflow:hidden;padding:0}.markdown-body input{font:inherit;font-family:inherit;font-size:inherit;line-height:inherit;margin:0;overflow:visible}.markdown-body [type=button],.markdown-body [type=reset],.markdown-body [type=submit]{-webkit-appearance:button}.markdown-body [type=button]::-moz-focus-inner,.markdown-body [type=reset]::-moz-focus-inner,.markdown-body [type=submit]::-moz-focus-inner{border-style:none;padding:0}.markdown-body [type=button]:-moz-focusring,.markdown-body [type=reset]:-moz-focusring,.markdown-body [type=submit]:-moz-focusring{outline:1px dotted ButtonText}.markdown-body [type=checkbox],.markdown-body [type=radio]{box-sizing:border-box;padding:0}.markdown-body [type=number]::-webkit-inner-spin-button,.markdown-body [type=number]::-webkit-outer-spin-button{height:auto}.markdown-body [type=search]{-webkit-appearance:textfield;outline-offset:-2px}.markdown-body [type=search]::-webkit-search-cancel-button,.markdown-body [type=search]::-webkit-search-decoration{-webkit-appearance:none}.markdown-body ::-webkit-input-placeholder{color:inherit;opacity:.54}.markdown-body ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}.markdown-body a:hover{text-decoration:underline}.markdown-body hr:after,.markdown-body hr:before{content:"";display:table}.markdown-body hr:after{clear:both}.markdown-body table{border-collapse:collapse;border-spacing:0;display:block;max-width:100%;overflow:auto;width:-webkit-max-content;width:max-content}.markdown-body td,.markdown-body th{padding:0}.markdown-body details summary{cursor:pointer}.markdown-body details:not([open])>:not(summary){display:none!important}.markdown-body kbd{background-color:var(--color-canvas-subtle);border-bottom-color:var(--color-neutral-muted);border:1px solid var(--color-neutral-muted);border-radius:6px;box-shadow:inset 0 -1px 0 var(--color-neutral-muted);color:var(--color-fg-default);display:inline-block;font:11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;line-height:10px;padding:3px 5px;vertical-align:middle}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{font-weight:600;line-height:1.25;margin-bottom:16px;margin-top:24px}.markdown-body h2{border-bottom:1px solid var(--color-border-muted);font-size:1.5em;font-weight:600;padding-bottom:.3em}.markdown-body h3{font-size:1.25em;font-weight:600}.markdown-body h4{font-size:1em;font-weight:600}.markdown-body h5{font-size:.875em;font-weight:600}.markdown-body h6{color:var(--color-fg-muted);font-size:.85em;font-weight:600}.markdown-body p{margin-bottom:10px;margin-top:0}.markdown-body blockquote{border-left:.25em solid var(--color-border-default);color:var(--color-fg-muted);margin:0;padding:0 1em}.markdown-body ol,.markdown-body ul{margin-bottom:0;margin-top:0;padding-left:2em}.markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}.markdown-body ol ol ol,.markdown-body ol ul ol,.markdown-body ul ol ol,.markdown-body ul ul ol{list-style-type:lower-alpha}.markdown-body dd{margin-left:0}.markdown-body code,.markdown-body pre,.markdown-body tt{font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;font-size:12px}.markdown-body pre{word-wrap:normal;margin-bottom:0;margin-top:0}.markdown-body .octicon{fill:currentColor;display:inline-block;overflow:visible!important;vertical-align:text-bottom}.markdown-body ::-webkit-input-placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body :-ms-input-placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body ::placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body input::-webkit-inner-spin-button,.markdown-body input::-webkit-outer-spin-button{-webkit-appearance:none;appearance:none;margin:0}.markdown-body .pl-c{color:var(--color-prettylights-syntax-comment)}.markdown-body .pl-c1,.markdown-body .pl-s .pl-v{color:var(--color-prettylights-syntax-constant)}.markdown-body .pl-e,.markdown-body .pl-en{color:var(--color-prettylights-syntax-entity)}.markdown-body .pl-s .pl-s1,.markdown-body .pl-smi{color:var(--color-prettylights-syntax-storage-modifier-import)}.markdown-body .pl-ent{color:var(--color-prettylights-syntax-entity-tag)}.markdown-body .pl-k{color:var(--color-prettylights-syntax-keyword)}.markdown-body .pl-pds,.markdown-body .pl-s,.markdown-body .pl-s .pl-pse .pl-s1,.markdown-body .pl-sr,.markdown-body .pl-sr .pl-cce,.markdown-body .pl-sr .pl-sra,.markdown-body .pl-sr .pl-sre{color:var(--color-prettylights-syntax-string)}.markdown-body .pl-smw,.markdown-body .pl-v{color:var(--color-prettylights-syntax-variable)}.markdown-body .pl-bu{color:var(--color-prettylights-syntax-brackethighlighter-unmatched)}.markdown-body .pl-ii{background-color:var(--color-prettylights-syntax-invalid-illegal-bg);color:var(--color-prettylights-syntax-invalid-illegal-text)}.markdown-body .pl-c2{background-color:var(--color-prettylights-syntax-carriage-return-bg);color:var(--color-prettylights-syntax-carriage-return-text)}.markdown-body .pl-sr .pl-cce{color:var(--color-prettylights-syntax-string-regexp);font-weight:700}.markdown-body .pl-ml{color:var(--color-prettylights-syntax-markup-list)}.markdown-body .pl-mh,.markdown-body .pl-mh .pl-en,.markdown-body .pl-ms{color:var(--color-prettylights-syntax-markup-heading);font-weight:700}.markdown-body .pl-mi{color:var(--color-prettylights-syntax-markup-italic);font-style:italic}.markdown-body .pl-mb{color:var(--color-prettylights-syntax-markup-bold);font-weight:700}.markdown-body .pl-md{background-color:var(--color-prettylights-syntax-markup-deleted-bg);color:var(--color-prettylights-syntax-markup-deleted-text)}.markdown-body .pl-mi1{background-color:var(--color-prettylights-syntax-markup-inserted-bg);color:var(--color-prettylights-syntax-markup-inserted-text)}.markdown-body .pl-mc{background-color:var(--color-prettylights-syntax-markup-changed-bg);color:var(--color-prettylights-syntax-markup-changed-text)}.markdown-body .pl-mi2{background-color:var(--color-prettylights-syntax-markup-ignored-bg);color:var(--color-prettylights-syntax-markup-ignored-text)}.markdown-body .pl-mdr{color:var(--color-prettylights-syntax-meta-diff-range);font-weight:700}.markdown-body .pl-ba{color:var(--color-prettylights-syntax-brackethighlighter-angle)}.markdown-body .pl-sg{color:var(--color-prettylights-syntax-sublimelinter-gutter-mark)}.markdown-body .pl-corl{color:var(--color-prettylights-syntax-constant-other-reference-link);text-decoration:underline}.markdown-body [data-catalyst]{display:block}.markdown-body g-emoji{font-family:Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-size:1em;font-style:normal!important;font-weight:400;line-height:1;vertical-align:-.075em}.markdown-body g-emoji img{height:1em;width:1em}.markdown-body:after,.markdown-body:before{content:"";display:table}.markdown-body:after{clear:both}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body .absent{color:var(--color-danger-fg)}.markdown-body .anchor{float:left;line-height:1;margin-left:-20px;padding-right:4px}.markdown-body .anchor:focus{outline:none}.markdown-body blockquote,.markdown-body details,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-bottom:16px;margin-top:0}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body sup>a:before{content:"["}.markdown-body sup>a:after{content:"]"}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:var(--color-fg-default);vertical-align:middle;visibility:hidden}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}.markdown-body h1 code,.markdown-body h1 tt,.markdown-body h2 code,.markdown-body h2 tt,.markdown-body h3 code,.markdown-body h3 tt,.markdown-body h4 code,.markdown-body h4 tt,.markdown-body h5 code,.markdown-body h5 tt,.markdown-body h6 code,.markdown-body h6 tt{font-size:inherit;padding:0 .2em}.markdown-body ol.no-list,.markdown-body ul.no-list{list-style-type:none;padding:0}.markdown-body ol[type="1"]{list-style-type:decimal}.markdown-body ol[type=a]{list-style-type:lower-alpha}.markdown-body ol[type=i]{list-style-type:lower-roman}.markdown-body div>ol:not([type]){list-style-type:decimal}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-bottom:0;margin-top:0}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dl{padding:0}.markdown-body dl dt{font-size:1em;font-style:italic;font-weight:600;margin-top:16px;padding:0}.markdown-body dl dd{margin-bottom:16px;padding:0 16px}.markdown-body table th{font-weight:600}.markdown-body table td,.markdown-body table th{border:1px solid var(--color-border-default);padding:6px 13px}.markdown-body table tr{background-color:var(--color-canvas-default);border-top:1px solid var(--color-border-muted)}.markdown-body table tr:nth-child(2n){background-color:var(--color-canvas-subtle)}.markdown-body table img{background-color:transparent}.markdown-body img[align=right]{padding-left:20px}.markdown-body img[align=left]{padding-right:20px}.markdown-body .emoji{background-color:transparent;max-width:none;vertical-align:text-top}.markdown-body span.frame{display:block;overflow:hidden}.markdown-body span.frame>span{border:1px solid var(--color-border-default);display:block;float:left;margin:13px 0 0;overflow:hidden;padding:7px;width:auto}.markdown-body span.frame span img{display:block;float:left}.markdown-body span.frame span span{clear:both;color:var(--color-fg-default);display:block;padding:5px 0 0}.markdown-body span.align-center{clear:both;display:block;overflow:hidden}.markdown-body span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}.markdown-body span.align-center span img{margin:0 auto;text-align:center}.markdown-body span.align-right{clear:both;display:block;overflow:hidden}.markdown-body span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}.markdown-body span.align-right span img{margin:0;text-align:right}.markdown-body span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}.markdown-body span.float-left span{margin:13px 0 0}.markdown-body span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}.markdown-body span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}.markdown-body code,.markdown-body tt{background-color:var(--color-neutral-muted);border-radius:6px;font-size:85%;margin:0;padding:.2em .4em}.markdown-body code br,.markdown-body tt br{display:none}.markdown-body del code{text-decoration:inherit}.markdown-body pre code{font-size:100%}.markdown-body pre>code{background:transparent;border:0;margin:0;padding:0;white-space:pre;word-break:normal}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{background-color:var(--color-canvas-subtle);border-radius:6px;font-size:85%;line-height:1.45;overflow:auto;padding:16px}.markdown-body pre code,.markdown-body pre tt{word-wrap:normal;background-color:transparent;border:0;display:inline;line-height:inherit;margin:0;max-width:auto;overflow:visible;padding:0}.markdown-body .csv-data td,.markdown-body .csv-data th{font-size:12px;line-height:1;overflow:hidden;padding:5px;text-align:left;white-space:nowrap}.markdown-body .csv-data .blob-num{background:var(--color-canvas-default);border:0;padding:10px 8px 9px;text-align:right}.markdown-body .csv-data tr{border-top:0}.markdown-body .csv-data th{background:var(--color-canvas-subtle);border-top:0;font-weight:600}.markdown-body .footnotes{border-top:1px solid var(--color-border-default);color:var(--color-fg-muted);font-size:12px}.markdown-body .footnotes ol{padding-left:16px}.markdown-body .footnotes li{position:relative}.markdown-body .footnotes li:target:before{border:2px solid var(--color-accent-emphasis);border-radius:6px;bottom:-8px;content:"";left:-24px;pointer-events:none;position:absolute;right:-8px;top:-8px}.markdown-body .footnotes li:target{color:var(--color-fg-default)}.markdown-body .footnotes .data-footnote-backref g-emoji{font-family:monospace}.markdown-body .task-list-item{list-style-type:none}.markdown-body .task-list-item label{font-weight:400}.markdown-body .task-list-item.enabled label{cursor:pointer}.markdown-body .task-list-item+.task-list-item{margin-top:3px}.markdown-body .task-list-item .handle{display:none}.markdown-body .task-list-item-checkbox{margin:0 .2em .25em -1.6em;vertical-align:middle}.markdown-body .contains-task-list:dir(rtl) .task-list-item-checkbox{margin:0 -1.6em .25em .2em}.markdown-body ::-webkit-calendar-picker-indicator{-webkit-filter:invert(50%);filter:invert(50%)}@font-face{font-family:lab;src:url(/static/lab-b3a92fdc7ccdc8ebf471556b2e7b1018.woff2) format("woff2")}:root{--font-base:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;--layout-header-height:56px;--layout-footer-height:100px;--gg-border:hsla(0,0%,71%,.1)}*{box-sizing:border-box;transition:all .3s ease-out}html.dark{--theme-content-background-color:#232629;--theme-header-background-color:#232629;--theme-footer-background-color:#232629;--theme-text:#d8d8d8;--gg-logo:#d8d8d8;--gg-icon:#75757a}html.light{--theme-content-background-color:#fff;--theme-header-background-color:#fafafa;--theme-footer-background-color:#fefefe;--theme-text:#232629;--gg-logo:#232629;--gg-icon:#a5a5ac}body{font-family:var(--font-base);margin:0;padding:0}.icon-action{cursor:pointer;user-select:none}.page-title{align-items:center;display:flex;font-size:20px;font-weight:700;justify-content:center;margin-bottom:20px;text-align:center}.page-title .icon{margin-right:10px}.text-center{text-align:center}.gg-empty{color:hsla(0,0%,71%,.5);font-size:18px}.dark .markdown-body{--color-prettylights-syntax-comment:#8b949e;--color-prettylights-syntax-constant:#79c0ff;--color-prettylights-syntax-entity:#d2a8ff;--color-prettylights-syntax-storage-modifier-import:#c9d1d9;--color-prettylights-syntax-entity-tag:#7ee787;--color-prettylights-syntax-keyword:#ff7b72;--color-prettylights-syntax-string:#a5d6ff;--color-prettylights-syntax-variable:#ffa657;--color-prettylights-syntax-brackethighlighter-unmatched:#f85149;--color-prettylights-syntax-invalid-illegal-text:#f0f6fc;--color-prettylights-syntax-invalid-illegal-bg:#8e1519;--color-prettylights-syntax-carriage-return-text:#f0f6fc;--color-prettylights-syntax-carriage-return-bg:#b62324;--color-prettylights-syntax-string-regexp:#7ee787;--color-prettylights-syntax-markup-list:#f2cc60;--color-prettylights-syntax-markup-heading:#1f6feb;--color-prettylights-syntax-markup-italic:#c9d1d9;--color-prettylights-syntax-markup-bold:#c9d1d9;--color-prettylights-syntax-markup-deleted-text:#ffdcd7;--color-prettylights-syntax-markup-deleted-bg:#67060c;--color-prettylights-syntax-markup-inserted-text:#aff5b4;--color-prettylights-syntax-markup-inserted-bg:#033a16;--color-prettylights-syntax-markup-changed-text:#ffdfb6;--color-prettylights-syntax-markup-changed-bg:#5a1e02;--color-prettylights-syntax-markup-ignored-text:#c9d1d9;--color-prettylights-syntax-markup-ignored-bg:#1158c7;--color-prettylights-syntax-meta-diff-range:#d2a8ff;--color-prettylights-syntax-brackethighlighter-angle:#8b949e;--color-prettylights-syntax-sublimelinter-gutter-mark:#484f58;--color-prettylights-syntax-constant-other-reference-link:#a5d6ff;--color-fg-default:#c9d1d9;--color-fg-muted:#8b949e;--color-fg-subtle:#484f58;--color-canvas-default:#232629;--color-canvas-subtle:#161b22;--color-border-default:#30363d;--color-border-muted:#21262d;--color-neutral-muted:hsla(215,8%,47%,.4);--color-accent-fg:#58a6ff;--color-accent-emphasis:#1f6feb;--color-attention-subtle:rgba(187,128,9,.15);--color-danger-fg:#f85149;color-scheme:dark}.light .markdown-body{--color-prettylights-syntax-comment:#6e7781;--color-prettylights-syntax-constant:#0550ae;--color-prettylights-syntax-entity:#8250df;--color-prettylights-syntax-storage-modifier-import:#24292f;--color-prettylights-syntax-entity-tag:#116329;--color-prettylights-syntax-keyword:#cf222e;--color-prettylights-syntax-string:#0a3069;--color-prettylights-syntax-variable:#953800;--color-prettylights-syntax-brackethighlighter-unmatched:#82071e;--color-prettylights-syntax-invalid-illegal-text:#f6f8fa;--color-prettylights-syntax-invalid-illegal-bg:#82071e;--color-prettylights-syntax-carriage-return-text:#f6f8fa;--color-prettylights-syntax-carriage-return-bg:#cf222e;--color-prettylights-syntax-string-regexp:#116329;--color-prettylights-syntax-markup-list:#3b2300;--color-prettylights-syntax-markup-heading:#0550ae;--color-prettylights-syntax-markup-italic:#24292f;--color-prettylights-syntax-markup-bold:#24292f;--color-prettylights-syntax-markup-deleted-text:#82071e;--color-prettylights-syntax-markup-deleted-bg:#ffebe9;--color-prettylights-syntax-markup-inserted-text:#116329;--color-prettylights-syntax-markup-inserted-bg:#dafbe1;--color-prettylights-syntax-markup-changed-text:#953800;--color-prettylights-syntax-markup-changed-bg:#ffd8b5;--color-prettylights-syntax-markup-ignored-text:#eaeef2;--color-prettylights-syntax-markup-ignored-bg:#0550ae;--color-prettylights-syntax-meta-diff-range:#8250df;--color-prettylights-syntax-brackethighlighter-angle:#57606a;--color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;--color-prettylights-syntax-constant-other-reference-link:#0a3069;--color-fg-default:#24292f;--color-fg-muted:#57606a;--color-fg-subtle:#6e7781;--color-canvas-default:#fff;--color-canvas-subtle:#f6f8fa;--color-border-default:#d0d7de;--color-border-muted:#d8dee4;--color-neutral-muted:rgba(175,184,193,.2);--color-accent-fg:#0969da;--color-accent-emphasis:#0969da;--color-attention-subtle:#fff8c5;--color-danger-fg:#cf222e;color-scheme:light}.markdown-body{margin:0 auto;max-width:720px;padding:0 20px 20px}h1{border-bottom:none!important}.gg-logo{text-rendering:optimizelegibility;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;line-height:0;outline:none;text-align:center;text-transform:none;vertical-align:-.125em}.gg-logo,.gg-theme-toggle{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.gg-nav{height:var(--layout-header-height)}.gg-nav *{transition:none}.gg-nav .icons,.gg-nav .nav-screen nav li{align-items:center;display:flex}.gg-nav .nav-screen nav li{color:var(--gg-icon);cursor:pointer;font-weight:700;list-style:none}@media screen and (max-width:720px){.gg-nav{align-items:center;display:flex}.gg-nav .nav-icon{cursor:pointer;height:24px;overflow:hidden;width:24px}.gg-nav .nav-icon span{background:#999;display:block;height:3px;margin:4px 0;transition:all .3s ease;width:24px}.gg-nav .nav-icon .top{-webkit-transform:translateX(6px);transform:translateX(6px)}.gg-nav .nav-icon .bottom{-webkit-transform:translateX(8px);transform:translateX(8px)}.gg-nav .nav-icon.active .top{-webkit-transform:rotate(225deg) translateY(-5px) translateX(-5px);transform:rotate(225deg) translateY(-5px) translateX(-5px)}.gg-nav .nav-icon.active .middle{-webkit-transform:translateX(24px);transform:translateX(24px)}.gg-nav .nav-icon.active .bottom{-webkit-transform:rotate(135deg) translateY(5px) translateX(-5px);transform:rotate(135deg) translateY(5px) translateX(-5px)}.nav-icon{display:block}.nav-screen{background-color:var(--theme-header-background-color);height:0;left:0;overflow:hidden;position:fixed;top:var(--layout-header-height);transition:height .15s ease-out;width:100%;z-index:1000}.nav-screen>div{padding:20px}.nav-screen.open{height:calc(100vh - var(--layout-header-height))}.nav-screen nav{font-size:16px;text-align:center}.nav-screen nav svg{font-size:24px;margin-right:10px}.nav-screen nav li{justify-content:center;padding:8px 0}.nav-screen .icons{justify-content:center;margin-top:40px}.nav-screen .icons .icon-action{margin:0 10px}}@media screen and (min-width:721px){.nav-icon{display:none}.nav-screen{height:100%;justify-content:space-between}.nav-screen,.nav-screen>div{display:flex}.nav-screen .icons .icon-action{margin:0 5px}.nav-screen nav{margin-right:20px}.nav-screen nav svg{margin-right:4px}.nav-screen nav li{float:left;font-size:14px;height:100%;margin-right:20px}}#gg-backtop{align-items:center;border-radius:50%;bottom:20px;box-shadow:inset 0 0 5px hsla(0,0%,59%,.5);cursor:pointer;display:flex;height:42px;justify-content:center;position:fixed;right:20px;transition:all .5s ease;-webkit-user-select:none;-ms-user-select:none;user-select:none;width:42px}@media screen and (max-width:767px){#gg-backtop{height:36px;width:36px}}#gg-backtop svg{width:50%}#gg-backtop.hide{opacity:0;-webkit-transform:scale(0);transform:scale(0)}#gg-backtop.show{opacity:1;-webkit-transform:scale(1);transform:scale(1)}.gg-container{display:flex;flex-direction:column;min-height:100vh}.gg-container header{align-items:center;background-color:#fff;background-color:var(--theme-header-background-color);border-bottom:1px solid hsla(0,0%,47%,.2);box-shadow:0 1px 2px rgba(0,0,0,.05),0 1px 4px rgba(0,0,0,.05),0 2px 8px rgba(0,0,0,.05);display:flex;height:var(--layout-header-height);justify-content:space-between;padding:0 16px;position:fixed;top:0;width:100%;z-index:999}.gg-container header .imglogo{border:1px solid var(--gg-border);border-radius:8px;cursor:pointer;width:32px}.gg-container main{background-color:var(--theme-content-background-color);min-height:calc(100vh - var(--layout-footer-height));padding-top:80px}.gg-container footer{align-items:center;background-color:var(--theme-footer-background-color);color:#838c95;display:flex;font-size:14px;height:var(--layout-footer-height);justify-content:center;padding:0 10px;position:relative;text-align:center;width:100%}.gg-container footer:after{background:radial-gradient(hsla(0,0%,59%,.6),transparent 80%);content:"";display:block;height:1px;position:absolute;top:0;width:100%}.gg-container footer img{vertical-align:middle}.gg-container footer .owner{color:#3486e2;cursor:pointer;margin-left:5px;text-decoration:none}.gg-container footer .copyright{margin-left:10px}.gg-container footer .powered{margin-left:5px}@media screen and (max-width:720px){.gg-container footer{flex-direction:column}.gg-container footer .copyright,.gg-container footer .powered{margin-left:0;margin-top:5px}}.issues-page h1{text-align:center}.author-info{margin-bottom:3px}.author-info .author{cursor:pointer}.author-info .author .name{font-weight:500}.author-info .author img{border-radius:50%;margin-right:5px;vertical-align:middle;width:30px}.author-info i,.author-info span{font-size:14px}.author-info .date{margin-left:10px;opacity:.4}.author-info .number{float:right;line-height:26px;opacity:.3}.gg-category{background:hsla(0,0%,71%,.3)!important;border-radius:4px;display:inline-block;font-size:10px;font-weight:700;height:18px;line-height:18px;margin-right:10px;padding:0 5px;text-decoration:none!important;vertical-align:middle}.gg-category,.issues-num{color:var(--color-fg-default)!important;cursor:pointer}.issues-num{font-family:lab;font-style:italic;font-variation-settings:"size" 30,"quad" 40,"bevl" 20,"oval" 30;opacity:.6}.home-page .issues-list{max-width:unset}.home-page .issues-list>div{display:flex;flex-wrap:wrap;margin:0 auto;max-width:960px}.home-page .issues-list .author-info{margin-bottom:3px}.home-page .issues-list .author-info .author img{width:24px}.home-page .issues-list .author-info i,.home-page .issues-list .author-info span{font-size:12px}.home-page .issues-list .author-info .number{float:right;line-height:26px;opacity:.3}.home-page .issues-list .post-info .title{font-size:15px;font-weight:700;text-decoration:none;vertical-align:middle}@media screen and (min-width:721px){.home-page .issues-list .item{border:1px solid var(--gg-border);border-radius:5px;margin:0 10px 20px;max-width:100%;min-width:200px;overflow:hidden;width:calc(50% - 20px)}.home-page .issues-list .item .author-info{background-color:var(--gg-border);padding:3px 5px}.home-page .issues-list .item .post-info{padding:5px}}@media screen and (max-width:720px){.home-page .issues-list .item{border-bottom:1px solid hsla(0,0%,59%,.2);padding:15px 0 12px;width:100%}.home-page .issues-list .item .author-info{margin-bottom:5px}}.gg-label{border-radius:4px;border-style:solid;border-width:1px;cursor:pointer;display:inline-block;font-size:12px;height:18px;line-height:17px;overflow:hidden;vertical-align:middle}.gg-label b{color:#fff;padding:0 3px 0 2px}.gg-label b,.gg-label em{display:inline-block;height:100%}.gg-label em{border-bottom-right-radius:3px;border-top-right-radius:3px;color:var(--theme-text);padding:0 3px}.gg-issues-prev-next{align-items:stretch;border:1px solid hsla(0,0%,59%,.3);border-radius:5px;display:flex;margin:30px 0}.gg-issues-prev-next:after{clear:both;content:"";display:block}.gg-issues-prev-next a{flex:1 1;padding:15px 10px;width:50%}.gg-issues-prev-next a>span{align-items:center;display:flex;height:100%}.gg-issues-prev-next a .icon-action{min-width:20px}.gg-issues-prev-next .prev{text-align:left}.gg-issues-prev-next .prev>span{float:left}.gg-issues-prev-next .prev .icon-action{margin-right:5px}.gg-issues-prev-next .next{text-align:right}.gg-issues-prev-next .next>span{float:right}.gg-issues-prev-next .next .icon-action{margin-left:5px}@media screen and (max-width:720px){.gg-issues-prev-next{font-size:14px}}.issues-page h1{font-size:24px}.issues-page h1>span{background:linear-gradient(180deg,transparent 50%,hsla(0,0%,71%,.5) 0);padding:0 5px}.issues-page h1 .issues-num{font-size:18px;margin-right:10px}.issues-page .widget{margin-bottom:20px;text-align:center}.issues-page .gg-label{margin:2px 4px}.issues-page .ques-content{display:flex;margin-top:5px;min-height:120px}.issues-page .ques-content .quesicon{margin-right:3px}.issues-page .ques-content .quescontent{width:100%}.issues-page .vote{align-items:center;display:flex;flex-direction:column;font-style:normal}.issues-page .answer-content .answericon{background-color:hsla(0,0%,71%,.3);border-radius:5px;margin-bottom:20px;padding:5px 0 0;text-align:center}.issues-page .comments-item{border-left:1px solid hsla(0,0%,71%,.3);padding-bottom:1px;padding-left:3px}.issues-page .comments-item-content{margin-left:20px}.labels-category-page .gg-label-category-head{margin-bottom:20px;position:-webkit-sticky;position:sticky;top:56px}.labels-category-page .category-group{display:flex;width:100%}.labels-category-page .category-group .label-category{color:#fff;cursor:pointer;display:inline-block;font-weight:700;height:36px;line-height:36px;padding:0 10px;text-shadow:0 1px 1px rgba(80,80,80,.5)}.labels-category-page .category-group .label-category.active{color:#000}.labels-category-page .level-group .label-level{background-color:#000;color:#fff;cursor:pointer;display:inline-block;font-size:16px;font-size:14px;height:24px;line-height:24px;margin-right:1px;opacity:.5;padding:0 10px}.labels-category-page .level-group .label-level.active{opacity:1}.labels-category-page .level-group .label-level.level1{background-color:#3c3c3c}.labels-category-page .level-group .label-level.level2{background-color:#555}.labels-category-page .level-group .label-level.level3{background-color:#6f6f6f}.labels-category-page .level-group .label-level.level4{background-color:#888}.labels-category-page .level-group .label-level.level5{background-color:#a2a2a2}.labels-category-page .issues-list .item{background-color:var(--gg-border);border-radius:5px;margin-bottom:10px;padding:10px}.labels-category-page .issues-list .item .label-issue{margin-right:10px}.labels-category-page .issues-list .labels-list{font-size:12px;margin-top:4px}.labels-category-page .issues-list .labels-list .gg-label{margin-bottom:4px;margin-right:4px}.labels-category-page .issues-list .post-info{font-weight:700;margin-top:5px}.issues-list .issues-item{align-items:baseline;display:flex;margin-bottom:10px;text-align:left}.issues-list .issues-item .issues-num{font-size:12px;margin-right:10px}.issues-list .issues-item .title{font-weight:700}.labels-page{text-align:center}.labels-page .markdown-body{display:inline-block}.labels-page .labels-head{border-radius:5px;color:#fff;cursor:pointer;display:block;font-weight:700;margin-bottom:20px;padding:5px 10px;text-shadow:0 1px 2px #000}.labels-page .labels-head:hover{text-decoration:none!important}.labels-page .label-desc{font-weight:700;opacity:.5}.nav-category-page .gg-category{font-size:14px;font-weight:700;height:36px;line-height:36px;margin:10px;padding:0 12px}.nav-labels-page .gg-label{font-size:16px;font-weight:700;height:30px;line-height:29px;margin:5px}.nav-labels-page .gg-label b,.nav-labels-page .gg-label em{padding:0 10px}</style><link rel="icon" href="/favicon-32x32.png?v=fdd225e9135e951b972a3dc20604182e" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=fdd225e9135e951b972a3dc20604182e"/><link as="script" rel="preload" href="/webpack-runtime-4fee7405b8a071e8c34e.js"/><link as="script" rel="preload" href="/framework-86c8a5417e68dc3cefff.js"/><link as="script" rel="preload" href="/app-7383f855f15f63329e5f.js"/><link as="script" rel="preload" href="/fc369a2ef6459b03f38591687cef4a587495c716-f468df31cbdaf6ffa970.js"/><link as="script" rel="preload" href="/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js"/><link as="fetch" rel="preload" href="/page-data/issues/57/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/151096407.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2861350382.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/><script>
+(function() {
+  window.__onThemeChange = function() {};
+  function setTheme(newTheme) {
+    window.__theme = newTheme;
+    preferredTheme = newTheme;
+    document.querySelector('html').className = newTheme;
+    window.__onThemeChange(newTheme);
+  }
+  var preferredTheme;
+  try {
+    preferredTheme = localStorage.getItem('theme');
+  } catch (err) { }
+  window.__setPreferredTheme = function(newTheme) {
+    setTheme(newTheme);
+    try {
+      localStorage.setItem('theme', newTheme);
+    } catch (err) {}
+  }
+  var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  darkQuery.addListener(function(e) {
+    window.__setPreferredTheme(e.matches ? 'dark' : 'light')
+  });
+
+  setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
+})()</script></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="gg-container issues-page"><header><img class="imglogo" src="/static/logo-fe174465633f84724b37eea28a42c520.png" alt="logo"/><div class="gg-nav"><span class="nav-icon"><span class="top"></span><span class="middle"></span><span class="bottom"></span></span><div class="nav-screen"><div><nav><li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 9A1.5 1.5 0 0 0 7 7.5A1.5 1.5 0 0 0 5.5 6A1.5 1.5 0 0 0 4 7.5A1.5 1.5 0 0 0 5.5 9m11.91 2.58c.36.36.59.86.59 1.42c0 .55-.22 1.05-.59 1.41l-5 5a1.996 1.996 0 0 1-2.83 0l-6.99-6.99C2.22 12.05 2 11.55 2 11V6c0-1.11.89-2 2-2h5c.55 0 1.05.22 1.41.58l7 7m-3.87-5.87l1-1l6.87 6.87c.37.36.59.87.59 1.42c0 .55-.22 1.05-.58 1.41l-5.38 5.38l-1-1L20.75 13l-7.21-7.29Z"/></svg>Labels</li><li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M3 3h18v4H3V3m1 5h16v13H4V8m5.5 3a.5.5 0 0 0-.5.5V13h6v-1.5a.5.5 0 0 0-.5-.5h-5Z"/></svg>Archives</li></nav><div class="icons"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="gg-theme-toggle icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="m3.55 18.54l1.41 1.41l1.8-1.79l-1.42-1.42M11 22.45h2V19.5h-2m1-14a6 6 0 0 0-6 6a6 6 0 0 0 6 6a6 6 0 0 0 6-6c0-3.32-2.69-6-6-6m8 7h3v-2h-3m-2.76 7.66l1.8 1.79l1.41-1.41l-1.79-1.8m1.79-12.28l-1.41-1.41l-1.8 1.79l1.42 1.42M13 .55h-2V3.5h2m-9 7H1v2h3m2.76-7.66l-1.8-1.79l-1.41 1.41l1.79 1.8l1.42-1.42Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg></div></div></div></div></header><main><div class="content"><div class="markdown-body"><h1><span><a class="number issues-num" href="https://github.com/awesome-ops/awesome-ops.github.io/issues/57" target="_blank">#57</a><span>aristocratos/btop: 系统资源监视器显示处理器、内存、磁盘、网络和进程的使用情况和统计​​信息</span></span></h1><div class="widget"><a class="gg-label" style="border-color:#25B472" href="/labels/更多"><b style="background:#25B472">#</b><em>更多</em></a><a class="gg-label" style="border-color:#e05879" href="/labels/命令行工具"><b style="background:#e05879">#</b><em>命令行工具</em></a><a class="gg-label" style="border-color:#c9dec1" href="/labels/aristocratos"><b style="background:#c9dec1">#</b><em>aristocratos</em></a></div><div><div class="author-info"><span class="author" title="https://github.com/eryajf"><img src="https://avatars.githubusercontent.com/u/33259379?u=e4a4090a38ac2473aaed4ef9945233636776c6c3&amp;v=4" alt="eryajf"/><span>eryajf</span></span><i class="date">2025/05/21</i></div><div class="ques-content"><div class="quescontent"><div align="center" dir="auto">
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966"><img src="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966" width="100%" height="3" data-animated-image="" data-canonical-src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" style="max-width: 100%; height: auto; max-height: 3px;"></a><br><br></p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th align="right">Repos</th>
+<th align="left"><a href="https://github.com/aristocratos/btop">aristocratos/btop</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right"><strong>Views</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/4e268fcc821ae13620b2d34bded3fa6b1cc5b7dd2833823c2ba4eac404942cc0/68747470733a2f2f76696577732e77686174696c656172656e65642e746f6461792f76696577732f6769746875622f61726973746f637261746f732f62746f702e737667" alt="views" data-canonical-src="https://views.whatilearened.today/views/github/aristocratos/btop.svg" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>Stars</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/e27db9f0330f6bf9ba492d447d4ec27dd19c762a26a26265a97c6b182d35a63d/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f61726973746f637261746f732f62746f703f636f6c6f723d663266303864266c6f676f3d556e64657274616c65266c6f676f436f6c6f723d656234363330" alt="stars" data-canonical-src="https://img.shields.io/github/stars/aristocratos/btop?color=f2f08d&amp;logo=Undertale&amp;logoColor=eb4630" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>Forks</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/e4475692417dcb599c0dccd9a0d39c012d0c12eb22a4c1b3c568fa2cd9fcdec2/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f61726973746f637261746f732f62746f703f636f6c6f723d626138366562266c6f676f3d48616e647368616b65266c6f676f436f6c6f723d656136616136" alt="forks" data-canonical-src="https://img.shields.io/github/forks/aristocratos/btop?color=ba86eb&amp;logo=Handshake&amp;logoColor=ea6aa6" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>License</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/a28562c793dd32093d596237b9ab3c54c9eae49fcef8e4b5365bded5d69d69b3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f61726973746f637261746f732f62746f703f6c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e53556845556741414144414141414177434159414141425841766d48414141414358424957584d41414173544141414c457745416d70775941414144336b6c45515652346e4f335953557a5555426748384a726f57567255474a66456d3773584e63534446784d544c327069347348456778654e526f77586770455742445552522532424e414e4f4b4f4b36366f6f4b4a4742586545475263574163455646475152484677516d483525324630774861655748493944554455354c356b6e6568644f62377a66652532423139636e434a47495243516945596c514237594a4979474c38616f73756c565a36695246516a69474b6b7564576735614c6c704f70704e586e665071773555304459524a6d56786a4367464633424c755a476d416f5655694b4541726d583744375553677351706f72674761336748664b34483663754262435644334771683141352532424c6745253242467749656e514d306a6f446f66714c6f48564e7742796d384370546e416d327a51713073676478624964515a556c416b7150415a3664676a303541446f59526f6f66792532466f5869726f376b3551586a4c6f70677a4b69514e6c4c4461716f4967754577426a7a7150355066446a45394479495879493633464d547751464d43567271774e61763451666f52673538514625324266724d485172454b3844546f434d714e4179574e4866786d54526f4c4f726d5352566747744466714345715a4f4851727a6f34706243557341333431365169364551394b476a6345465267484f724f4b6e5536574162396247455459656b4b7843766a546167394534706a653534446b3551503862624d4859762532464333756541654a6b50304f4778422532424a70426e4172595238455951516e6f4e31414e4661426e5050356c385372736559514c303641646b30464a5938484f5761424d6c6541486a683068506f73497a6c6f3876304125324633345a694f6548726130714b52504d5653493774762532423932747725324676687855654252713456454c674d376642714b354770526d6f514c584e7075625475367a6f4e52706754386e5051627138347764253246494375767978694b4871694e41664933774d367549684271476b4c696977414f734b44714f68743749747239567938536a52424557667941627225324668523142667056514664484a42253246423268683778376a36517077435665655951326b72554235436c636a3641326d3067576a25324244306d4c34397a573563517943484c4e37726a6c6d6d6174457958582532464372547a412532466f51785a6b576c39474a5443566f25324279546a3837253242346769504b6376307149486f344156344430565a727251493334706e70524d36357875652532467a417265453425324654253246536f676c664542794d7369517441546c4c3352414a355948725378365a44665337307337754d486842705225324659423573305057366f455270316236253246667252684b3353444c35546965364f515548516c5133735644752532427a50636b397657453973747225324236496a533967486d5750616861444a25324277434b364e494242587348423948796b587378774470686c436d416476706c6162554a4e6e5a504239342532464e7436784f6538587a4562503257684d335741673147756236744825324233513150673337365239713475716c6e6f36676448476a444f5139306562303141484d3672596975554a314f713472344656756a35765239427a4d3957674e764f7977446869495951467667626366774166774d764863615067425041253246447948476a50624e394138616d6562636477416444354e6633373574787165774e5552656f797677424958594c645170576c6877465771745061435044334173467541535636717171496c62304a766b564331464c39576b4c55556c55574b337a585a4c46432532423125324642726f46746f364f7358497545594a5034447a7a5732594656316f4a614141414141456c46546b5375516d4343" alt="license" data-canonical-src="https://img.shields.io/github/license/aristocratos/btop?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD3klEQVR4nO3YSUzUUBgH8JroWVrUGJfEm7sXNcSDFxMTL2pi4sHEgxeNRowXgpEWBDURR%2BNANOKOK66ooKJGBXeEGRcWAcEVFGQRHFwQmH5%2F0wHaeWHI9DUDU5L5knehdOb7zfe%2B19cnCJGIRCQiEYlQB7YJIyGL8aosulVZ6iRFQjiGKkudWg5aLlpOppNXnfPqw5U0DYRJmVxjCgFF3BLuZGmAoVUiKEArmX7D7USgsQporgGa3gHfK4H6cuBbCVD3Gqh1A5%2BLgE%2BFwIenQM0joDofqLoHVNwBym8CpTnAm2zQq0sgdxbIdQZUlAkqPAZ6dgj05ADoYRoofy%2FoXiro7k5QXjLopgzKiQNlLDaqoIguEwBjzqP5PfDjE9DyIXyI63FMTwQFMCVrqwNav4QfoRg58QF%2BfrMHQrEK8DToCMqNAyWNHfxmTRoLOrmSRVgGtDfqCEqZOHQrzo4pbCUsA3416Qi6EQ9KGjcEFRgHOrOKnU6WAb9bGETYekKxCvjTag9E4pje54Dk5QP8bbMHYv%2FC3ueAeJkP0OGxB%2BJpBnArYR8EYQQnoN1ANFaBnPP5l8SrseYQL06Adk0FJY8HOWaBMleAHjh0hPosIzlo8v0A%2F34ZiOeHra0qKRPMVSI7tv%2B92tw%2FvhxUeBRq4VELgM7fBqK5GpRmoQLXNpubTu6zoNRpgT8nPQbq84wd%2FICuvyxiKHqiNAfI3wM6uIhBqGkLiiwAOsKDqOht7Itr9Vy8SjRBEWfyAbr%2FhR1BfpVQFdHJB%2FB2hh7x7j6QpwCVeeYQ2krUB5Clcj6A2m0gWj%2BD0mL49zW5cQyCHLN7rjlmmatEyXX%2FCrTzA%2FoQxZkWl9GJTCVo%2ByTj87%2B4giPKcv0qIHo4AV4D0VZrrQI34pnpRM65xue%2FzAreE4%2FT%2FSoglfEByMsiQtATlL3RAJ5YHrSx6ZDfS70s7uMHhBpR%2FYB5s0PW6oERp1b6%2FfrRhK3SDL5Tie6OQUHQlQ3sVDu%2BzPck9vWE9str%2B6IjS9gHmWPahaDJ%2BwCK6NIBBXsHB9HykXsxwDphlCmAdvplabUJNnZPB94%2FNt6xOe8XzEbP2WhM3WAg1Gub6tH%2B3Q1Pg376R9q4uqlno6gdHGjDOQ90eb01AHM6rYiuUJ1Oq4r4FVuj5vR9BzM9WgNvOywDhiIYQFvgbcfwAfwMvHcaPgBPA%2FDyHGjPbN9A8amebcdwAdD5Nf375txqewNUReoyvwBIXYLdQpWlhwFWqtPaCPD3AsFuASV6qqqIlb0JvkVC1FL9WkLUUlUWK3zXZLFC%2B1%2FBroFto6OsXIuEYJP4DzzW2YFV1oJaAAAAAElFTkSuQmCC" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>UpdatedAt</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/b5fa134a6b6d3ac6e4027ca23d903390169511187527718a03280a9ae2a2ee87/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f61726973746f637261746f732f62746f703f646973706c61795f74696d657374616d703d636f6d6d6974746572266c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e5355684555674141414234414141416543415941414141374d4b3669414141414358424957584d41414173544141414c457745416d7077594141414648556c45515652346e4c5658375539615678776d3236646c582532466468627825324232253246516e626b7655627264554151674a4a496655444e574454546d4f76314651554661504a346b7573725630314a7431734e70637453327533626f745a746d786439744a5346536f714b71494635625944464c436f76436c656673747a4a387758524c445a4c7a6e6b634f343535376e3364332532466e655a3472454f515a74315771462532423858467234253242664f4c4565326a6f59307a776638546f795a50766a45676b4c592532426b306d6d72584f36644b696e787a476b30666a5430782532425279723055716e6359637a4d317263347451253242497270324c4758646f344e4334567657715453373277716c632532427231334f527269364b6458646e624f484c6c776c7a4a70524b6e3657342532424b36706f4f434e6e494166486a253246253242776168495a4234764b6e715a6630714a704e49716c2532467638545530634e6c3572627963337730516e54703379324c54614a374d314e617844723266526e315370504736476961323174664533345463614f617931694d55564f5146624659714957536f31573854694156616e43306576584f4542375770313448466232327a453566714c4f433545524c515769644e614e49347545636339693768634a6c644868324e57725135674464624f6c7061756d49754c62326174415144506e7a3062384e6257636d785656524a33486d7870536377777a4f4a6d4b44524765384c6c435a444c4739673754496e5631516c376462586256316533675430574b697243466f6d6b5079767758466c5a474a4f6a563625324253743634757564445a4f55354555636f782532464d455144567674364d62634e3237593341797a687633737061557242365a3971724a534f3139657a6a387032704c426b4a792532426343484a7857493567573574636652527a31645531394766476b6f7539505a4f34736d52396a4746777065783444793362766e6d4b79706f74625531335669646a71595a68726a343972764d457425324625324659714c7a396430304e6a57253246637a67796f394f35317a7336614e6c6f354644747530445a675146686c47584a30644241446f4e6864367576703657686f617967374e394c564748386d443462253246486e667455516f4e4734764c51306769784d716c5725324234714f6a744e48446733723166365969525347785279375576714c62395534716b716e78504f4e7661356c447048723125324279794b524e4b57425a793565644d554842326d3572792532422532424551772532427a6766347a6f39253246306f634e3357527a4c4277344a2532424a7950574372716d4967475974554f735744346f785a46516f50556a4770564871493425324661666b51504336665a5165654d31253242764c7549516e6a754257514444437363726d485039656f4e5041744271664f6e5875614b25324268364a45624772732532427076764d6d78654962683836336162565065597953456f39464a48704e4d464a59253242503563575a6b6667374f3174537759436553514c54593345385130392532464256504a556c78516a7368543142736343593032723955445542667643484236367063665041336c794165336e6772332532463437584467614a7a736c7937787741364e5a746c555550437541487161536a5549502532427375653842525741432532464e6651374a5a505a35397330476a3756747049537a34685125324243706658474d4b685a63764c70554b7866574d386f68766637702532464f446a4842666356463849736b383267314648796b63564645253242555a414158343761452532464d6c34504f3530506e75683025324678346e6d637957507364774468427836436d6b4c562532466746446a594b784f4a4f4674623077517949684c39527943774b33414f664947703159464542686e4d4a634c525745624b644b516f55366e63545a6b494544696341792532463831645675454d3552775066657934784f7830496b25324649324e6e466b692532425761664f6f464959466367595a43797864376543556a626334416d46363566742532466b4d686b336f25324235686337734d4a79716a4a45477659466151464972375930775077384246415925324236253242766d6b3377367a7a5275444d6d5a5652736668385274413075455453443775434254364459514e36697665553066706b594c6a453671725672744f78654e4b553954484c5a4a396b4255324a427342685635416976422532466f4b61514e4b675043427744596149665a4334616454684f71463457454e56694c4a77566f586f62664c424b56773637414f6154734c6336355461564b32317651344c613939654b6359673576627873624f627a5451394e37554b4467554f3177446a6944494942736868357a746733396e514d4c535a4248344f7a424f55444551586d323036643366634c67737762585141345068634b336e6873775531427a3877765130395248472532466f597933656a6677424e6d746f59714c4130586741414141424a52553545726b4a676767253344253344266c6162656c3d557064617465644174" alt="last-commit" data-canonical-src="https://img.shields.io/github/last-commit/aristocratos/btop?display_timestamp=committer&amp;logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHUlEQVR4nLVX7U9aVxwm26dlX%2Fdhbx%2B2%2FQnbkvUbrdUAQgJJIfUDNWDTTmOv1FQUFaPJ4kusrV01Jt1sNpctS2u3botZtmxd9tJSFSoqKqIF5bYDFLCovClefstzJ8wXRLDZLznkcO4557n3d3%2FneZ4rEOQZt1WqF%2B8XFr4%2BfOLEe2joY0zwf8ToyZPvjEgkLY%2Bk0mmrXO6dKinxzGk0fjT0x%2BRyr0UqncYczM1rc4tQ%2BIrp2LGXdo4NC4VvWqTS72wqlc%2Br13ORri6KdXdnbOHLlwlzJpRKn6W4%2BK6poOCNnIAfHj%2F%2BwahIZB4vKnqZf0qJpNIql%2Fv8TU0cNl5rbyc3w0QnTp3y2LTaJ7M1NaxDr2fRn1SpPG6Gia21tfE34TcaOay1iMUVOQFbFYqIWSo1W8TiAVanC0evXOEB7Wp14HFb22zE5fqLOC5ERLQWidNaNI4uEcc9i7hcJldHh2NWrQ5gDdbOlpaumIuLb2atAQDPnz0b8NbWcmxVVRJ3HmxpScwwzOJmKDRGe8LlCZDLG9g7TInV1Ql7dbXbV1e3gT0WKirCFomkPyvwXFlZGJOjV6%2BSt64uudDZOU5EUcox%2FMEQDVvt6MbcN27Y3Ayzhv3spaUrB6Z9qrJSO19ezj8p2pLBkJy%2BcCHJxWI5gW5tcfRRz1dU19GfGkou9PZO4smR9jGFwpex4Dy3bvnmKypotbU13VidjqYZhrj49rvMEt%2F%2FYqLz9d00NjW%2Fczgyo9O51zs6aNlo5FDtu0DZgQFhlGXJ0dBADoNhd6uvp6Whoayg7N9LVGH8mD4b%2FHnftUQoNG4vLQ0gixMqlW%2B4qOjtNHDg3r1f6YiRSGxRy7UvqLb9U4qkqnxPONva5lDpHr1%2ByyKRNKWBZy5edMUHB2m5ry%2B%2BEQw%2Bzgf4zo9%2F0ocN3WRzLBw4J%2BJyPWCrqmIgGYtUOsWD4oxZFQoPUjGpVHqI4%2FafkQPC6fZQeeM1%2BvLuIQnjuBWQDDCscrmHP9eoNPAtBqfOnXuaK%2Bh6JEbGrs%2BpvvMmxeIbh863abVPeYySEo9FJHpNMFJY%2BP5cWZkfg7O1tSwYCeSQLTY3E8Q09%2FBVPJUlxQjshT1BscCY02r9UDUBfvCHB66pcfPA3lyAe3ngr3%2F47XDgaJzsly7xwA6NZtlUUPCuAHqaSjUIP%2Bsue8BRWAC%2FNfQ7JZPZ59s0Gj7VtpISz4hQ%2BCpfXGMKhZcvLpUKxfWM8ohvf7p%2FODjHBfcVF8Isk82g1FHykcVFE%2BUZAAX47aE%2FMl4PO50Pnuh0%2Fx4nmcyWPsdwDhBx6CmkLV%2FgFDjYKxOJOFtb0wQyIhL9RyCwK3AOfIGp1YFEBhnMJcLRWEbKdKQoU6ncTZkIEDicAy%2F81dVuEM5RwPfey4xOx0Ik%2FI2NnFki%2BWafOoFIYFcgYZCyxd7eCUjbc4AmF65ft%2FkMhk3o%2B5hc7sMJyqjJEGvYFaQFIr7Y0wPw8BFAY%2B6%2Bvmk3w6zzRuDMmZVRsfh8RtA0uETSD7uCBT6DYQN6iveU0fpkYLjE6qrVrtOxeNKU9THLZJ9kBU2JBsBhV5AivB%2FoKaQNKgPCBwDYaIfZC4adThOqF4WENViLJwVoXobfLBKVw67AOaTsLc65TaVK21vQ4La99eKcYg5vbxsbObzTQ9N7UKDgUO1wDjiDIIBshh5ztg39nQMLSZBH4OzBOUDEQXm206d3fcLgswbXQA4PhcK3nhswU1Bz8wvQ09RHG%2FoYy3ejfwBNmtoYqLA0XgAAAABJRU5ErkJggg%3D%3D&amp;label=UpdatedAt" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>CreatedAt</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/13e99b54468fd9cc1fcfe92cbaac0feee7fec54a2fe1e69c16666c1009d0db23/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f637265617465642d61742f61726973746f637261746f732f62746f703f6c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e5355684555674141414234414141416543415941414141374d4b3669414141414358424957584d41414173544141414c457745416d7077594141414648556c45515652346e4c5658375539615678776d3236646c582532466468627825324232253246516e626b7655627264554151674a4a496655444e574454546d4f76314651554661504a346b7573725630314a7431734e70637453327533626f745a746d786439744a5346536f714b71494635625944464c436f76436c656673747a4a387758524c445a4c7a6e6b634f343535376e3364332532466e655a3472454f515a74315771462532423858467234253242664f4c4565326a6f59307a776638546f795a50766a45676b4c592532426b306d6d72584f36644b696e787a476b30666a5430782532425279723055716e6359637a4d317263347451253242497270324c4758646f344e4334567657715453373277716c632532427231334f527269364b6458646e624f484c6c776c7a4a70524b6e3657342532424b36706f4f434e6e494166486a253246253242776168495a4234764b6e715a6630714a704e49716c2532467638545530634e6c3572627963337730516e54703379324c54614a374d314e617844723266526e315370504736476961323174664533345463614f617931694d55564f5146624659714957536f31573854694156616e43306576584f4542375770313448466232327a453566714c4f433545524c515769644e614e49347545636339693768634a6c644868324e57725135674464624f6c7061756d49754c62326174415144506e7a3062384e6257636d785656524a33486d7870536377777a4f4a6d4b44524765384c6c435a444c4739673754496e5631516c376462586256316533675430574b697243466f6d6b5079767758466c5a474a4f6a563625324253743634757564445a4f55354555636f782532464d455144567674364d62634e3237593341797a687633737061557242365a3971724a534f3139657a6a387032704c426b4a792532426343484a7857493567573574636652527a31645531394766476b6f7539505a4f34736d52396a4746777065783444793362766e6d4b79706f74625531335669646a71595a68726a343972764d457425324625324659714c7a396430304e6a57253246637a67796f394f35317a7336614e6c6f354644747530445a675146686c47584a30644241446f4e6864367576703657686f617967374e394c564748386d443462253246486e667455516f4e4734764c51306769784d716c5725324234714f6a744e48446733723166365969525347785279375576714c62395534716b716e78504f4e7661356c447048723125324279794b524e4b57425a793565644d554842326d3572792532422532424551772532427a6766347a6f39253246306f634e3357527a4c4277344a2532424a7950574372716d4967475974554f735744346f785a46516f50556a4770564871493425324661666b51504336665a5165654d31253242764c7549516e6a754257514444437363726d485039656f4e5041744271664f6e5875614b25324268364a45624772732532427076764d6d78654962683836336162565065597953456f39464a48704e4d464a59253242503563575a6b6667374f3174537759436553514c54593345385130392532464256504a556c78516a7368543142736343593032723955445542667643484236367063665041336c794165336e6772332532463437584467614a7a736c7937787741364e5a746c555550437541487161536a5549502532427375653842525741432532464e6651374a5a505a35397330476a3756747049537a34685125324243706658474d4b685a63764c70554b7866574d386f68766637702532464f446a4842666356463849736b383267314648796b63564645253242555a414158343761452532464d6c34504f3530506e75683025324678346e6d637957507364774468427836436d6b4c562532466746446a594b784f4a4f4674623077517949684c39527943774b33414f664947703159464542686e4d4a634c525745624b644b516f55366e63545a6b494544696341792532463831645675454d3552775066657934784f7830496b25324649324e6e466b692532425761664f6f464959466367595a43797864376543556a626334416d46363566742532466b4d686b336f25324235686337734d4a79716a4a45477659466151464972375930775077384246415925324236253242766d6b3377367a7a5275444d6d5a5652736668385274413075455453443775434254364459514e36697665553066706b594c6a453671725672744f78654e4b553954484c5a4a396b4255324a427342685635416976422532466f4b61514e4b675043427744596149665a4334616454684f71463457454e56694c4a77566f586f62664c424b56773637414f6154734c6336355461564b32317651344c613939654b6359673576627873624f627a5451394e37554b4467554f3177446a6944494942736868357a746733396e514d4c535a4248344f7a424f55444551586d323036643366634c67737762585141345068634b336e6873775531427a3877765130395248472532466f597933656a6677424e6d746f59714c4130586741414141424a52553545726b4a676767253344253344266c6162656c3d437265617465644174" alt="create-at" data-canonical-src="https://img.shields.io/github/created-at/aristocratos/btop?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHUlEQVR4nLVX7U9aVxwm26dlX%2Fdhbx%2B2%2FQnbkvUbrdUAQgJJIfUDNWDTTmOv1FQUFaPJ4kusrV01Jt1sNpctS2u3botZtmxd9tJSFSoqKqIF5bYDFLCovClefstzJ8wXRLDZLznkcO4557n3d3%2FneZ4rEOQZt1WqF%2B8XFr4%2BfOLEe2joY0zwf8ToyZPvjEgkLY%2Bk0mmrXO6dKinxzGk0fjT0x%2BRyr0UqncYczM1rc4tQ%2BIrp2LGXdo4NC4VvWqTS72wqlc%2Br13ORri6KdXdnbOHLlwlzJpRKn6W4%2BK6poOCNnIAfHj%2F%2BwahIZB4vKnqZf0qJpNIql%2Fv8TU0cNl5rbyc3w0QnTp3y2LTaJ7M1NaxDr2fRn1SpPG6Gia21tfE34TcaOay1iMUVOQFbFYqIWSo1W8TiAVanC0evXOEB7Wp14HFb22zE5fqLOC5ERLQWidNaNI4uEcc9i7hcJldHh2NWrQ5gDdbOlpaumIuLb2atAQDPnz0b8NbWcmxVVRJ3HmxpScwwzOJmKDRGe8LlCZDLG9g7TInV1Ql7dbXbV1e3gT0WKirCFomkPyvwXFlZGJOjV6%2BSt64uudDZOU5EUcox%2FMEQDVvt6MbcN27Y3Ayzhv3spaUrB6Z9qrJSO19ezj8p2pLBkJy%2BcCHJxWI5gW5tcfRRz1dU19GfGkou9PZO4smR9jGFwpex4Dy3bvnmKypotbU13VidjqYZhrj49rvMEt%2F%2FYqLz9d00NjW%2Fczgyo9O51zs6aNlo5FDtu0DZgQFhlGXJ0dBADoNhd6uvp6Whoayg7N9LVGH8mD4b%2FHnftUQoNG4vLQ0gixMqlW%2B4qOjtNHDg3r1f6YiRSGxRy7UvqLb9U4qkqnxPONva5lDpHr1%2ByyKRNKWBZy5edMUHB2m5ry%2B%2BEQw%2Bzgf4zo9%2F0ocN3WRzLBw4J%2BJyPWCrqmIgGYtUOsWD4oxZFQoPUjGpVHqI4%2FafkQPC6fZQeeM1%2BvLuIQnjuBWQDDCscrmHP9eoNPAtBqfOnXuaK%2Bh6JEbGrs%2BpvvMmxeIbh863abVPeYySEo9FJHpNMFJY%2BP5cWZkfg7O1tSwYCeSQLTY3E8Q09%2FBVPJUlxQjshT1BscCY02r9UDUBfvCHB66pcfPA3lyAe3ngr3%2F47XDgaJzsly7xwA6NZtlUUPCuAHqaSjUIP%2Bsue8BRWAC%2FNfQ7JZPZ59s0Gj7VtpISz4hQ%2BCpfXGMKhZcvLpUKxfWM8ohvf7p%2FODjHBfcVF8Isk82g1FHykcVFE%2BUZAAX47aE%2FMl4PO50Pnuh0%2Fx4nmcyWPsdwDhBx6CmkLV%2FgFDjYKxOJOFtb0wQyIhL9RyCwK3AOfIGp1YFEBhnMJcLRWEbKdKQoU6ncTZkIEDicAy%2F81dVuEM5RwPfey4xOx0Ik%2FI2NnFki%2BWafOoFIYFcgYZCyxd7eCUjbc4AmF65ft%2FkMhk3o%2B5hc7sMJyqjJEGvYFaQFIr7Y0wPw8BFAY%2B6%2Bvmk3w6zzRuDMmZVRsfh8RtA0uETSD7uCBT6DYQN6iveU0fpkYLjE6qrVrtOxeNKU9THLZJ9kBU2JBsBhV5AivB%2FoKaQNKgPCBwDYaIfZC4adThOqF4WENViLJwVoXobfLBKVw67AOaTsLc65TaVK21vQ4La99eKcYg5vbxsbObzTQ9N7UKDgUO1wDjiDIIBshh5ztg39nQMLSZBH4OzBOUDEQXm206d3fcLgswbXQA4PhcK3nhswU1Bz8wvQ09RHG%2FoYy3ejfwBNmtoYqLA0XgAAAABJRU5ErkJggg%3D%3D&amp;label=CreatedAt" style="max-width: 100%;"></a></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<a href="https://github.com/opsre/awesome-ops">
+</a><p dir="auto"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/b964a36ea4078c39f603d46a29436371c7541a2f26e0228d7b21b9d9805b43d3/68747470733a2f2f736f6369616c6966792e6769742e63692f6f707372652f617765736f6d652d6f70732f696d6167653f6465736372697074696f6e3d3126666f6e743d42697474657226666f726b733d31266973737565733d31266c616e67756167653d31266c6f676f3d6874747073253341253246253246617661746172732e67697468756275736572636f6e74656e742e636f6d25324675253246313838353638303230266e616d653d31266f776e65723d31267061747465726e3d436972637569742b426f6172642670756c6c733d31267374617267617a6572733d31267468656d653d4c69676874" alt="" data-canonical-src="https://socialify.git.ci/opsre/awesome-ops/image?description=1&amp;font=Bitter&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F188568020&amp;name=1&amp;owner=1&amp;pattern=Circuit+Board&amp;pulls=1&amp;stargazers=1&amp;theme=Light" style="max-width: 100%;"></a></p>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966"><img src="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966" width="100%" height="3" data-animated-image="" data-canonical-src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" style="max-width: 100%; height: auto; max-height: 3px;"></a>
+</div>
+<h1 dir="auto"><a target="_blank" rel="noopener noreferrer" href="Img/logo.png"><img src="Img/logo.png" alt="btop++" style="max-width: 100%;"></a></h1>
+<a href="https://repology.org/project/btop/versions" rel="nofollow">
+    <img src="https://camo.githubusercontent.com/c57e0fdf96fd53aea79dc450bd157cb48dec08206b098afda43f67e014048269/68747470733a2f2f7265706f6c6f67792e6f72672f62616467652f766572746963616c2d616c6c7265706f732f62746f702e737667" alt="Packaging status" align="right" data-canonical-src="https://repology.org/badge/vertical-allrepos/btop.svg" style="max-width: 100%;">
+</a>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/e6d28433c0c1041770537fc7f5af3110f9d9cb0b8e8aded756769aebdba81135/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4c696e75782d677265793f6c6f676f3d6c696e7578"><img src="https://camo.githubusercontent.com/e6d28433c0c1041770537fc7f5af3110f9d9cb0b8e8aded756769aebdba81135/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4c696e75782d677265793f6c6f676f3d6c696e7578" alt="Linux" data-canonical-src="https://img.shields.io/badge/-Linux-grey?logo=linux" style="max-width: 100%;"></a><br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/e3f5cc40287954bd7669e0fa45d81273536e73fc77f349d757d8532bb2d4e029/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4f53582d626c61636b3f6c6f676f3d6170706c65"><img src="https://camo.githubusercontent.com/e3f5cc40287954bd7669e0fa45d81273536e73fc77f349d757d8532bb2d4e029/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4f53582d626c61636b3f6c6f676f3d6170706c65" alt="macOS" data-canonical-src="https://img.shields.io/badge/-OSX-black?logo=apple" style="max-width: 100%;"></a><br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/6b625780cbbd1b58f58dd748a8386586ca8fdb7bc4fd1dbc95e65e9e2958e88c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d467265654253442d7265643f6c6f676f3d66726565627364"><img src="https://camo.githubusercontent.com/6b625780cbbd1b58f58dd748a8386586ca8fdb7bc4fd1dbc95e65e9e2958e88c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d467265654253442d7265643f6c6f676f3d66726565627364" alt="FreeBSD" data-canonical-src="https://img.shields.io/badge/-FreeBSD-red?logo=freebsd" style="max-width: 100%;"></a><br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/93230f052fdc9b66bb24e448898d39312bc1b26727d4f6361449d5157b46db0f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4e65744253442d626c61636b3f6c6f676f3d6e6574627364"><img src="https://camo.githubusercontent.com/93230f052fdc9b66bb24e448898d39312bc1b26727d4f6361449d5157b46db0f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4e65744253442d626c61636b3f6c6f676f3d6e6574627364" alt="NetBSD" data-canonical-src="https://img.shields.io/badge/-NetBSD-black?logo=netbsd" style="max-width: 100%;"></a><br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/25ec9c2cc90e56027fc5dce88e9b5ca620828d62fdf55c36c3d56e1cc0550422/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4f70656e4253442d626c61636b3f6c6f676f3d6f70656e627364"><img src="https://camo.githubusercontent.com/25ec9c2cc90e56027fc5dce88e9b5ca620828d62fdf55c36c3d56e1cc0550422/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4f70656e4253442d626c61636b3f6c6f676f3d6f70656e627364" alt="OpenBSD" data-canonical-src="https://img.shields.io/badge/-OpenBSD-black?logo=openbsd" style="max-width: 100%;"></a><br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/780da9df012c6bde7f45b4c359d9fc1cfb78164253f9a4d8b374f77e4f60f1ef/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f55736167652d53797374656d2532307265736f757263652532306d6f6e69746f722d79656c6c6f77"><img src="https://camo.githubusercontent.com/780da9df012c6bde7f45b4c359d9fc1cfb78164253f9a4d8b374f77e4f60f1ef/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f55736167652d53797374656d2532307265736f757263652532306d6f6e69746f722d79656c6c6f77" alt="Usage" data-canonical-src="https://img.shields.io/badge/Usage-System%20resource%20monitor-yellow" style="max-width: 100%;"></a><br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/be05e99cc6d45a95a9517c4a53042a902a4186c1627c7de1a7643df4a8414f6c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6370702d6325324225324232302d677265656e"><img src="https://camo.githubusercontent.com/be05e99cc6d45a95a9517c4a53042a902a4186c1627c7de1a7643df4a8414f6c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6370702d6325324225324232302d677265656e" alt="c++20" data-canonical-src="https://img.shields.io/badge/cpp-c%2B%2B20-green" style="max-width: 100%;"></a><br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/039d03e2c08f32fa7cf11931df21def697fc1e02986f36792b7b92ed7cc2265b/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f7461672f61726973746f637261746f732f62746f703f6c6162656c3d72656c65617365"><img src="https://camo.githubusercontent.com/039d03e2c08f32fa7cf11931df21def697fc1e02986f36792b7b92ed7cc2265b/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f7461672f61726973746f637261746f732f62746f703f6c6162656c3d72656c65617365" alt="latest_release" data-canonical-src="https://img.shields.io/github/v/tag/aristocratos/btop?label=release" style="max-width: 100%;"></a><br>
+<a href="https://paypal.me/aristocratos" rel="nofollow"><img src="https://camo.githubusercontent.com/c54890188ab5353a1415d5e9520fd2bed44d3d6abc009d67d5c2116dd25c9d43/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d446f6e6174652d79656c6c6f773f6c6f676f3d70617970616c" alt="Donate" data-canonical-src="https://img.shields.io/badge/-Donate-yellow?logo=paypal" style="max-width: 100%;"></a><br>
+<a href="https://github.com/sponsors/aristocratos"><img src="https://camo.githubusercontent.com/cd8550cfa8c7a0b4cf626d76089623a2d74e4f25eeb888b85cb48a7ff0fb45f3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d53706f6e736f722d7265643f6c6f676f3d676974687562" alt="Sponsor" data-canonical-src="https://img.shields.io/badge/-Sponsor-red?logo=github" style="max-width: 100%;"></a><br>
+<a href="https://ko-fi.com/aristocratos" rel="nofollow"><img src="https://camo.githubusercontent.com/a895a4ef87779e34e10a19eb1f2660fb8bfe197abe5a9c4e8cc2bf51ab1a5390/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4275792532306d6525323061253230436f666665652d677265793f6c6f676f3d4b6f2d6669" alt="Coffee" data-canonical-src="https://img.shields.io/badge/-Buy%20me%20a%20Coffee-grey?logo=Ko-fi" style="max-width: 100%;"></a><br>
+<a href="https://snapcraft.io/btop" rel="nofollow"><img src="https://camo.githubusercontent.com/b88772a4b6b7c82ffd182bd49512ffeef0fb622f14abe0c2f10c555230cec3a5/68747470733a2f2f736e617063726166742e696f2f62746f702f62616467652e737667" alt="btop" data-canonical-src="https://snapcraft.io/btop/badge.svg" style="max-width: 100%;"></a><br>
+<a href="https://github.com/aristocratos/btop/actions/workflows/continuous-build-linux.yml"><img src="https://github.com/aristocratos/btop/actions/workflows/continuous-build-linux.yml/badge.svg" alt="Continuous Build Linux" style="max-width: 100%;"></a><br>
+<a href="https://github.com/aristocratos/btop/actions/workflows/continuous-build-macos.yml"><img src="https://github.com/aristocratos/btop/actions/workflows/continuous-build-macos.yml/badge.svg" alt="Continuous Build macOS" style="max-width: 100%;"></a><br>
+<a href="https://github.com/aristocratos/btop/actions/workflows/continuous-build-freebsd.yml"><img src="https://github.com/aristocratos/btop/actions/workflows/continuous-build-freebsd.yml/badge.svg" alt="Continuous Build FreeBSD" style="max-width: 100%;"></a><br>
+<a href="https://github.com/aristocratos/btop/actions/workflows/continuous-build-netbsd.yml"><img src="https://github.com/aristocratos/btop/actions/workflows/continuous-build-netbsd.yml/badge.svg" alt="Continuous Build NetBSD" style="max-width: 100%;"></a><br>
+<a href="https://github.com/aristocratos/btop/actions/workflows/continuous-build-openbsd.yml"><img src="https://github.com/aristocratos/btop/actions/workflows/continuous-build-openbsd.yml/badge.svg" alt="Continuous Build OpenBSD" style="max-width: 100%;"></a></p>
+<h2 dir="auto">Index</h2>
+<ul dir="auto">
+<li><a href="#news">News</a></li>
+<li><a href="#documents">Documents</a></li>
+<li><a href="#description">Description</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#themes">Themes</a></li>
+<li><a href="#support-and-funding">Support and funding</a></li>
+<li><a href="#prerequisites">Prerequisites</a> (Read this if you are having issues!)</li>
+<li><a href="#screenshots">Screenshots</a></li>
+<li><a href="#help-menu">Keybindings</a></li>
+<li><a href="#installation">Installation Linux/macOS</a></li>
+<li><a href="#compilation-linux">Compilation Linux</a></li>
+<li><a href="#compilation-macos-osx">Compilation macOS</a></li>
+<li><a href="#compilation-freebsd">Compilation FreeBSD</a></li>
+<li><a href="#compilation-netbsd">Compilation NetBSD</a></li>
+<li><a href="#compilation-openbsd">Compilation OpenBSD</a></li>
+<li><a href="#gpu-compatibility">GPU compatibility</a></li>
+<li><a href="#installing-the-snap">Installing the snap</a></li>
+<li><a href="#configurability">Configurability</a></li>
+<li><a href="#license">License</a></li>
+</ul>
+<h2 dir="auto">News</h2>
+<h5 dir="auto">22 September 2024</h5>
+<p dir="auto">Btop release v1.4.0</p>
+<p dir="auto">Intel GPU support added, note that only GPU utilization, power usage and clock speed available to monitor. Thanks to <a href="https://github.com/bjia56">@bjia56</a> for contributions.</p>
+<p dir="auto">NetBSD support added. Thanks to <a href="https://github.com/fraggerfox">@fraggerfox</a> for contributions.</p>
+<p dir="auto">See <a href="CHANGELOG.md">CHANGELOG.md</a> and latest <a href="https://github.com/aristocratos/btop/releases/latest">release</a> for detailed list of new features, bug fixes and new themes.</p>
+<h5 dir="auto">7 January 2024</h5>
+<p dir="auto">Btop release v1.3.0</p>
+<p dir="auto">Big release with GPU support added for Linux and platform support for OpenBSD. Big thanks to <a href="https://github.com/romner-set">@romner-set</a> (GPU support) and <a href="https://github.com/joske">@joske</a> (OpenBSD support) for contributions.<br>
+And a multitude of bugfixes and small changes, see <a href="CHANGELOG.md">CHANGELOG.md</a> and latest <a href="https://github.com/aristocratos/btop/releases/latest">release</a> for detailed list and attributions.</p>
+<p dir="auto">See news entry below for more information regarding GPU support.</p>
+<h5 dir="auto">25 November 2023</h5>
+<p dir="auto">GPU monitoring added for Linux!</p>
+<p dir="auto">Compile from git main to try it out.</p>
+<p dir="auto">Use keys <code class="notranslate">5</code>, <code class="notranslate">6</code>, <code class="notranslate">7</code> and <code class="notranslate">0</code> to show/hide the gpu monitoring boxes. <code class="notranslate">5</code> = Gpu 1, <code class="notranslate">6</code> = Gpu 2, etc.</p>
+<p dir="auto">Gpu stats/graphs can also be displayed in the "Cpu box" (not as verbose), see the cpu options menu for info and configuration.</p>
+<p dir="auto">Note that the binaries provided on the release page (when released) and the continuous builds will not have gpu support enabled.</p>
+<p dir="auto">Because the GPU support relies on loading of dynamic gpu libraries, gpu support will not work when also static linking.</p>
+<p dir="auto">See <a href="#compilation-linux">Compilation Linux</a> for more info on how to compile with gpu monitoring support.</p>
+<p dir="auto">Many thanks to <a href="https://github.com/romner-set">@romner-set</a> who wrote the vast majority of the implementation for GPU support.</p>
+<p dir="auto">Big update with version bump to 1.3 coming soon.</p>
+<h5 dir="auto">28 August 2022</h5>
+<p dir="auto"><a href="https://github.com/aristocratos/btop4win"><img src="https://github.com/aristocratos/btop4win/raw/master/Img/logo.png" alt="btop4win" style="max-width: 100%;"></a></p>
+<p dir="auto">First release of btop4win available at <a href="https://github.com/aristocratos/btop4win">https://github.com/aristocratos/btop4win</a></p>
+<details>
+<summary>More...</summary>
+<h5 dir="auto">16 January 2022</h5>
+<p dir="auto">Release v1.2.0 with FreeBSD support. No release binaries for FreeBSD provided as of yet.</p>
+<p dir="auto">Again a big thanks to <a href="https://github.com/joske">@joske</a> for his porting efforts!</p>
+<p dir="auto">Since compatibility with Linux, macOS and FreeBSD are done, the focus going forward will be on new features like GPU monitoring.</p>
+<h5 dir="auto">13 November 2021</h5>
+<p dir="auto">Release v1.1.0 with macOS support. Binaries in <a href="https://github.com/aristocratos/btop/actions/workflows/continuous-build-macos.yml">continuous-build-macos</a> are only x86 for now.<br>
+macOS binaries + installer are included for both x86 and ARM64 (Apple Silicon) in the releases.</p>
+<p dir="auto">Big thank you to <a href="https://github.com/joske">@joske</a> who wrote the vast majority of the implementation!</p>
+<h5 dir="auto">30 October 2021</h5>
+<p dir="auto">Work on the OSX [macOS] and FreeBSD branches, both initiated and mostly worked on by <a href="https://github.com/joske">@joske</a>, will likely be completed in the coming weeks.<br>
+The OSX [macOS] branch has some memory leaks that needs to be sorted out and both have some issues with the processes cpu usage calculation and other smaller issues that needs fixing.</p>
+<p dir="auto">If you want to help out, test for bugs/fix bugs or just try out the branches:</p>
+<p dir="auto"><strong>macOS / OSX</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# Install and use Homebrew or MacPorts package managers for easy dependency installation
+brew install coreutils make gcc@11 lowdown
+git clone https://github.com/aristocratos/btop.git
+cd btop
+git checkout OSX
+gmake"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> Install and use Homebrew or MacPorts package managers for easy dependency installation</span>
+brew install coreutils make gcc@11 lowdown
+git clone https://github.com/aristocratos/btop.git
+<span class="pl-c1">cd</span> btop
+git checkout OSX
+gmake</pre></div>
+<p dir="auto"><strong>FreeBSD</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo pkg install gmake gcc11 coreutils git lowdown
+git clone https://github.com/aristocratos/btop.git
+cd btop
+git checkout freebsd
+gmake"><pre class="notranslate">sudo pkg install gmake gcc11 coreutils git lowdown
+git clone https://github.com/aristocratos/btop.git
+<span class="pl-c1">cd</span> btop
+git checkout freebsd
+gmake</pre></div>
+<p dir="auto">Note that GNU make (<code class="notranslate">gmake</code>) is recommended but not required for macOS/OSX but it is required on FreeBSD.</p>
+<h5 dir="auto">6 October 2021</h5>
+<p dir="auto">macOS development have been started by <a href="https://github.com/joske">@joske</a>, big thanks :)<br>
+See branch <a href="https://github.com/aristocratos/btop/tree/OSX">OSX</a> for current progress.</p>
+<h5 dir="auto">18 September 2021</h5>
+<p dir="auto">The Linux version of btop++ is complete. Released as version 1.0.0</p>
+<p dir="auto">I will be providing statically compiled binaries for a range of architectures in every release for those having problems compiling.</p>
+<p dir="auto">For compilation GCC 11 is required.</p>
+<p dir="auto">Please report any bugs to the <a href="https://github.com/aristocratos/btop/issues/new?assignees=aristocratos&amp;labels=bug&amp;template=bug_report.md&amp;title=%5BBUG%5D">Issues</a> page.</p>
+<p dir="auto">The development plan right now:</p>
+<ul dir="auto">
+<li>1.1.0 macOS [OSX] support</li>
+<li>1.2.0 FreeBSD support</li>
+<li>1.3.0 Support for GPU monitoring</li>
+<li>1.X.0 Other platforms and features...</li>
+</ul>
+<p dir="auto">Windows support is not in the plans as of now, but if anyone else wants to take it on, I will try to help.</p>
+<h5 dir="auto">5 May 2021</h5>
+<p dir="auto">This project is gonna take some time until it has complete feature parity with bpytop, since all system information gathering will have to be written from scratch without any external libraries.<br>
+And will need some help in the form of code contributions to get complete support for BSD and macOS/OSX.</p>
+</details>
+<h2 dir="auto">Documents</h2>
+<p dir="auto"><strong><a href="CHANGELOG.md">CHANGELOG.md</a></strong></p>
+<p dir="auto"><strong><a href="CONTRIBUTING.md">CONTRIBUTING.md</a></strong></p>
+<p dir="auto"><strong><a href="CODE_OF_CONDUCT.md">CODE_OF_CONDUCT.md</a></strong></p>
+<h2 dir="auto">Description</h2>
+<p dir="auto">Resource monitor that shows usage and stats for processor, memory, disks, network and processes.</p>
+<p dir="auto">C++ version and continuation of <a href="https://github.com/aristocratos/bashtop">bashtop</a> and <a href="https://github.com/aristocratos/bpytop">bpytop</a>.</p>
+<h2 dir="auto">Features</h2>
+<ul dir="auto">
+<li>Easy to use, with a game inspired menu system.</li>
+<li>Full mouse support, all buttons with a highlighted key is clickable and mouse scroll works in process list and menu boxes.</li>
+<li>Fast and responsive UI with UP, DOWN keys process selection.</li>
+<li>Function for showing detailed stats for selected process.</li>
+<li>Ability to filter processes.</li>
+<li>Easy switching between sorting options.</li>
+<li>Tree view of processes.</li>
+<li>Send any signal to selected process.</li>
+<li>UI menu for changing all config file options.</li>
+<li>Auto scaling graph for network usage.</li>
+<li>Shows IO activity and speeds for disks.</li>
+<li>Battery meter</li>
+<li>Selectable symbols for the graphs.</li>
+<li>Custom presets</li>
+<li>And more...</li>
+</ul>
+<h2 dir="auto">Themes</h2>
+<p dir="auto">Btop++ uses the same theme files as bpytop and bashtop (some color values missing in bashtop themes) .</p>
+<p dir="auto">See <a href="https://github.com/aristocratos/btop/tree/main/themes">themes</a> folder for available themes.</p>
+<p dir="auto">The <code class="notranslate">make install</code> command places the default themes in <code class="notranslate">[$PREFIX or /usr/local]/share/btop/themes</code>.<br>
+User created themes should be placed in <code class="notranslate">$XDG_CONFIG_HOME/btop/themes</code> or <code class="notranslate">$HOME/.config/btop/themes</code>.</p>
+<p dir="auto">Let me know if you want to contribute with new themes.</p>
+<h2 dir="auto">Support and funding</h2>
+<p dir="auto">You can sponsor this project through github, see <a href="https://github.com/sponsors/aristocratos">my sponsors page</a> for options.</p>
+<p dir="auto">Or donate through <a href="https://paypal.me/aristocratos" rel="nofollow">paypal</a> or <a href="https://ko-fi.com/aristocratos" rel="nofollow">ko-fi</a>.</p>
+<p dir="auto">Any support is greatly appreciated!</p>
+<h2 dir="auto">Prerequisites</h2>
+<p dir="auto">For best experience, a terminal with support for:</p>
+<ul dir="auto">
+<li>24-bit truecolor (<a href="https://github.com/termstandard/colors">See list of terminals with truecolor support</a>)</li>
+<li>256-color terminals are supported through 24-bit to 256-color conversion when setting "truecolor" to False in the options or with "-lc/--low-color" arguments.</li>
+<li>16 color TTY mode will be activated if a real tty device is detected. Can be forced with "-t/--tty_on" arguments.</li>
+<li>Wide characters (Are sometimes problematic in web-based terminals)</li>
+</ul>
+<p dir="auto">Also needs a UTF8 locale and a font that covers:</p>
+<ul dir="auto">
+<li>Unicode Block “Braille Patterns” U+2800 - U+28FF (Not needed in TTY mode or with graphs set to type: block or tty.)</li>
+<li>Unicode Block “Geometric Shapes” U+25A0 - U+25FF</li>
+<li>Unicode Block "Box Drawing" and "Block Elements" U+2500 - U+259F</li>
+</ul>
+<h3 dir="auto"><strong>Optional Dependencies (Needed for GPU monitoring) (Only Linux)</strong></h3>
+<p dir="auto">GPU monitoring also requires a btop binary built with GPU support (<code class="notranslate">GPU_SUPPORT=true</code> flag).</p>
+<p dir="auto">See <a href="#gpu-compatibility">GPU compatibility</a> section for more about compiling with GPU support.</p>
+<ul dir="auto">
+<li><strong>NVIDIA</strong></li>
+</ul>
+<p dir="auto">If you have an NVIDIA GPU you must use an official NVIDIA driver, both the closed-source and open-source ones have been verified to work.</p>
+<p dir="auto">In addition to that you must also have the nvidia-ml dynamic library installed, which should be included with the driver package of your distribution.</p>
+<ul dir="auto">
+<li><strong>AMD</strong></li>
+</ul>
+<p dir="auto">If you have an AMD GPU <code class="notranslate">rocm_smi_lib</code> is required, which may or may not be packaged for your distribution.</p>
+<ul dir="auto">
+<li><strong>INTEL</strong></li>
+</ul>
+<p dir="auto">Requires a working C compiler if compiling from source - tested with GCC12 and Clang16.</p>
+<p dir="auto">Also requires the user to have permission to read from SYSFS.</p>
+<p dir="auto">Can be set with <code class="notranslate">make setcap</code> (preferred) or <code class="notranslate">make setuid</code> or by running btop with <code class="notranslate">sudo</code> or equivalent.</p>
+<h3 dir="auto"><strong>Notice (Text rendering issues)</strong></h3>
+<ul dir="auto">
+<li>
+<p dir="auto">If you are having problems with the characters in the graphs not looking like they do in the screenshots, it's likely a problem with your systems configured fallback font not having support for braille characters.</p>
+</li>
+<li>
+<p dir="auto">See <a href="https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Terminus/TerminessNerdFontMono-Regular.ttf">Terminess Powerline</a> for an example of a font that includes the braille symbols.</p>
+</li>
+<li>
+<p dir="auto">See comments by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/sgleizes/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/sgleizes">@sgleizes</a> <a href="https://github.com/aristocratos/bpytop/issues/100#issuecomment-684036827" data-hovercard-type="issue" data-hovercard-url="/aristocratos/bpytop/issues/100/hovercard">link</a> and <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/XenHat/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/XenHat">@XenHat</a> <a href="https://github.com/aristocratos/bpytop/issues/100#issuecomment-691585587" data-hovercard-type="issue" data-hovercard-url="/aristocratos/bpytop/issues/100/hovercard">link</a> in issue <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3080724253" data-permission-text="Title is private" data-url="https://github.com/awesome-ops/awesome-ops.github.io/issues/100" data-hovercard-type="issue" data-hovercard-url="/awesome-ops/awesome-ops.github.io/issues/100/hovercard" href="https://github.com/awesome-ops/awesome-ops.github.io/issues/100">#100</a> for possible solutions.</p>
+</li>
+<li>
+<p dir="auto">If text is misaligned and you use Konsole or Yakuake, turning off "Bi-Directional text rendering" is a possible fix.</p>
+</li>
+<li>
+<p dir="auto">Characters clipping into each other or text/border misalignments are not bugs caused by btop, but most likely a fontconfig or terminal problem where the braille characters making up the graphs aren't rendered correctly.</p>
+</li>
+<li>
+<p dir="auto">Look to the creators of the terminal emulator you use to fix these issues if the previously mentioned fixes don't work for you.</p>
+</li>
+</ul>
+<h2 dir="auto">Screenshots</h2>
+<h4 dir="auto">Main UI showing details for a selected process</h4>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="Img/normal.png"><img src="Img/normal.png" alt="Screenshot 1" style="max-width: 100%;"></a></p>
+<h4 dir="auto">Main UI in TTY mode</h4>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="Img/tty.png"><img src="Img/tty.png" alt="Screenshot 2" style="max-width: 100%;"></a></p>
+<h4 dir="auto">Main UI with custom options</h4>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="Img/alt.png"><img src="Img/alt.png" alt="Screenshot 3" style="max-width: 100%;"></a></p>
+<h4 dir="auto">Main-menu</h4>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="Img/main-menu.png"><img src="Img/main-menu.png" alt="Screenshot 3" style="max-width: 100%;"></a></p>
+<h4 dir="auto">Options-menu</h4>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="Img/options-menu.png"><img src="Img/options-menu.png" alt="Screenshot 4" style="max-width: 100%;"></a></p>
+<h4 dir="auto">Help-menu</h4>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="Img/help-menu.png"><img src="Img/help-menu.png" alt="Screenshot 5" style="max-width: 100%;"></a></p>
+<h2 dir="auto">Installation</h2>
+<p dir="auto"><strong>Binaries for Linux are statically compiled with musl and works on kernel 2.6.39 and newer</strong></p>
+<ol dir="auto">
+<li>
+<p dir="auto"><strong>Download btop-(VERSION)-(ARCH)-(PLATFORM).tbz from <a href="https://github.com/aristocratos/btop/releases/latest">latest release</a> and unpack to a new folder</strong></p>
+<p dir="auto"><strong>Notice! Use x86_64 for 64-bit x86 systems, i486 and i686 are 32-bit!</strong></p>
+</li>
+<li>
+<p dir="auto"><strong>Install (from created folder)</strong></p>
+<ul dir="auto">
+<li><strong>Run:</strong></li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# use &quot;make install PREFIX=/target/dir&quot; to set target, default: /usr/local
+# only use &quot;sudo&quot; when installing to a NON user owned directory
+sudo make install"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> use "make install PREFIX=/target/dir" to set target, default: /usr/local</span>
+<span class="pl-c"><span class="pl-c">#</span> only use "sudo" when installing to a NON user owned directory</span>
+sudo make install</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>(Optional/Required for Intel GPU) Set extended capabilities or suid bit to btop</strong></p>
+<p dir="auto">Enables signal sending to any process without starting with <code class="notranslate">sudo</code> and can prevent /proc read permissions problems on some systems.</p>
+<p dir="auto">Is required for Intel GPU support.</p>
+<ul dir="auto">
+<li><strong>Run:</strong></li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# run after make install and use same PREFIX if any was used at install
+sudo make setcap"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> run after make install and use same PREFIX if any was used at install</span>
+sudo make setcap</pre></div>
+<ul dir="auto">
+<li><strong>or</strong></li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# run after make install and use same PREFIX if any was used at install
+# set SU_USER and SU_GROUP to select user and group, default is root:root
+sudo make setuid"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> run after make install and use same PREFIX if any was used at install</span>
+<span class="pl-c"><span class="pl-c">#</span> set SU_USER and SU_GROUP to select user and group, default is root:root</span>
+sudo make setuid</pre></div>
+</li>
+</ol>
+<ul dir="auto">
+<li>
+<p dir="auto"><strong>Uninstall</strong></p>
+<ul dir="auto">
+<li><strong>Run:</strong></li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo make uninstall"><pre class="notranslate">sudo make uninstall</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Show help</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="make help"><pre class="notranslate">make <span class="pl-c1">help</span></pre></div>
+</li>
+</ul>
+<p dir="auto"><strong>Binary release (from native os repo)</strong></p>
+<ul dir="auto">
+<li><strong>openSUSE</strong>
+<ul dir="auto">
+<li><strong>Tumbleweed:</strong>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo zypper in btop"><pre class="notranslate">sudo zypper <span class="pl-k">in</span> btop</pre></div>
+</li>
+<li>For all other versions, see <a href="https://software.opensuse.org/package/btop" rel="nofollow">openSUSE Software: btop</a></li>
+</ul>
+</li>
+<li><strong>Fedora</strong>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo dnf install btop"><pre class="notranslate">sudo dnf install btop</pre></div>
+</li>
+<li><strong>RHEL/AlmaLinux 8+</strong>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo dnf install epel-release
+sudo dnf install btop"><pre class="notranslate">sudo dnf install epel-release
+sudo dnf install btop</pre></div>
+</li>
+<li><strong>FreeBSD</strong>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content=" pkg install btop"><pre class="notranslate"> pkg install btop</pre></div>
+</li>
+<li><strong>NetBSD</strong>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content=" pkg_add btop"><pre class="notranslate"> pkg_add btop</pre></div>
+</li>
+</ul>
+<p dir="auto"><strong>Binary release on Homebrew (macOS (x86_64 &amp; ARM64) / Linux (x86_64))</strong></p>
+<ul dir="auto">
+<li><strong><a href="https://formulae.brew.sh/formula/btop" rel="nofollow">Homebrew</a></strong>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="brew install btop"><pre class="notranslate">brew install btop</pre></div>
+</li>
+</ul>
+<h2 dir="auto">Compilation Linux</h2>
+<p dir="auto">Requires at least GCC 11 or Clang 16.</p>
+<p dir="auto">The makefile also needs GNU coreutils and <code class="notranslate">sed</code> (should already be installed on any modern distribution).</p>
+<h3 dir="auto">GPU compatibility</h3>
+<p dir="auto">Btop++ supports Nvidia and AMD GPUs and Intel IGPUs out of the box on Linux x86_64, provided you have the correct drivers and libraries.</p>
+<p dir="auto">Gpu support for Nvidia or AMD will not work when static linking glibc (or musl, etc.)!</p>
+<p dir="auto">For x86_64 Linux the flag <code class="notranslate">GPU_SUPPORT</code> is automatically set to <code class="notranslate">true</code>, to manually disable gpu support set the flag to false, like:</p>
+<p dir="auto"><code class="notranslate">make GPU_SUPPORT=false</code> (or <code class="notranslate">cmake -DBTOP_GPU=false</code> with CMake)</p>
+<ul dir="auto">
+<li>
+<p dir="auto"><strong>NVIDIA</strong></p>
+<p dir="auto">You must use an official NVIDIA driver, both the closed-source and <a href="https://github.com/NVIDIA/open-gpu-kernel-modules">open-source</a> ones have been verified to work.</p>
+<p dir="auto">In addition to that you must also have the <code class="notranslate">nvidia-ml</code> dynamic library installed, which should be included with the driver package of your distribution.</p>
+</li>
+<li>
+<p dir="auto"><strong>AMD</strong></p>
+<p dir="auto">AMDGPU data is queried using the <a href="https://github.com/rocm/rocm_smi_lib">ROCm SMI</a> library, which may or may not be packaged for your distribution. If your distribution doesn't provide a package, btop++ is statically linked to ROCm SMI with the <code class="notranslate">RSMI_STATIC=true</code> make flag.</p>
+<p dir="auto">This flag expects the ROCm SMI source code in <code class="notranslate">lib/rocm_smi_lib</code>, and compilation will fail if it's not there. The latest tested version is 5.6.x, which can be obtained with the following command:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="git clone https://github.com/rocm/rocm_smi_lib.git --depth 1 -b rocm-5.6.x lib/rocm_smi_lib"><pre class="notranslate">git clone https://github.com/rocm/rocm_smi_lib.git --depth 1 -b rocm-5.6.x lib/rocm_smi_lib</pre></div>
+</li>
+</ul>
+<details>
+<summary>
+<h3 dir="auto">With Make</h3>
+</summary>
+<ol dir="auto">
+<li>
+<p dir="auto"><strong>Install dependencies (example for Ubuntu 21.04 Hirsute)</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo apt install coreutils sed git build-essential gcc-11 g++-11 lowdown"><pre class="notranslate">sudo apt install coreutils sed git build-essential gcc-11 g++-11 lowdown</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Clone repository</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="git clone https://github.com/aristocratos/btop.git
+cd btop"><pre class="notranslate">git clone https://github.com/aristocratos/btop.git
+<span class="pl-c1">cd</span> btop</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Compile</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="make"><pre class="notranslate">make</pre></div>
+<p dir="auto">Options for make:</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>Flag</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code class="notranslate">VERBOSE=true</code></td>
+<td>To display full compiler/linker commands</td>
+</tr>
+<tr>
+<td><code class="notranslate">STATIC=true</code></td>
+<td>For static compilation</td>
+</tr>
+<tr>
+<td><code class="notranslate">QUIET=true</code></td>
+<td>For less verbose output</td>
+</tr>
+<tr>
+<td><code class="notranslate">STRIP=true</code></td>
+<td>To force stripping of debug symbols (adds <code class="notranslate">-s</code> linker flag)</td>
+</tr>
+<tr>
+<td><code class="notranslate">DEBUG=true</code></td>
+<td>Sets OPTFLAGS to <code class="notranslate">-O0 -g</code> and enables more verbose debug logging</td>
+</tr>
+<tr>
+<td><code class="notranslate">ARCH=&lt;architecture&gt;</code></td>
+<td>To manually set the target architecture</td>
+</tr>
+<tr>
+<td><code class="notranslate">GPU_SUPPORT=&lt;true|false&gt;</code></td>
+<td>Enable/disable GPU support (Enabled by default on X86_64 Linux)</td>
+</tr>
+<tr>
+<td><code class="notranslate">RSMI_STATIC=true</code></td>
+<td>To statically link the ROCm SMI library used for querying AMDGPU</td>
+</tr>
+<tr>
+<td><code class="notranslate">ADDFLAGS=&lt;flags&gt;</code></td>
+<td>For appending flags to both compiler and linker</td>
+</tr>
+<tr>
+<td><code class="notranslate">CXX=&lt;compiler&gt;</code></td>
+<td>Manually set which compiler to use</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p dir="auto">Example: <code class="notranslate">make ADDFLAGS=-march=native</code> might give a performance boost if compiling only for your own system.</p>
+<p dir="auto">Notice! If using LDAP Authentication, usernames will show as UID number for LDAP users if compiling statically with glibc.</p>
+</li>
+<li>
+<p dir="auto"><strong>Install</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo make install"><pre class="notranslate">sudo make install</pre></div>
+<p dir="auto">Append <code class="notranslate">PREFIX=/target/dir</code> to set target, default: <code class="notranslate">/usr/local</code></p>
+<p dir="auto">Notice! Only use "sudo" when installing to a NON user owned directory.</p>
+</li>
+<li>
+<p dir="auto"><strong>(Optional/Required for Intel GPU support) Set extended capabilities or suid bit to btop</strong></p>
+<p dir="auto">No need for <code class="notranslate">sudo</code> to enable signal sending to any process and to prevent /proc read permissions problems on some systems.</p>
+<p dir="auto">Also required for Intel GPU monitoring.</p>
+<p dir="auto">Run after make install and use same PREFIX if any was used at install.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo make setcap"><pre class="notranslate">sudo make setcap</pre></div>
+<p dir="auto">or</p>
+<p dir="auto">Set <code class="notranslate">SU_USER</code> and <code class="notranslate">SU_GROUP</code> to select user and group, default is <code class="notranslate">root</code> and <code class="notranslate">root</code></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo make setuid"><pre class="notranslate">sudo make setuid</pre></div>
+</li>
+</ol>
+<ul dir="auto">
+<li>
+<p dir="auto"><strong>Uninstall</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo make uninstall"><pre class="notranslate">sudo make uninstall</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Remove any object files from source dir</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="make clean"><pre class="notranslate">make clean</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Remove all object files, binaries and created directories in source dir</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="make distclean"><pre class="notranslate">make distclean</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Show help</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="make help"><pre class="notranslate">make <span class="pl-c1">help</span></pre></div>
+</li>
+</ul>
+</details>
+<details>
+<summary>
+<h3 dir="auto">With CMake (Community maintained)</h3>
+</summary>
+<ol dir="auto">
+<li>
+<p dir="auto"><strong>Install build dependencies</strong></p>
+<p dir="auto">Requires Clang / GCC, CMake, Ninja, Lowdown and Git</p>
+<p dir="auto">For example, with Debian Bookworm:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo apt install cmake git g++ ninja-build lowdown"><pre class="notranslate">sudo apt install cmake git g++ ninja-build lowdown</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Clone the repository</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="git clone https://github.com/aristocratos/btop.git &amp;&amp; cd btop"><pre class="notranslate">git clone https://github.com/aristocratos/btop.git <span class="pl-k">&amp;&amp;</span> <span class="pl-c1">cd</span> btop</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Compile</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# Configure
+cmake -B build -G Ninja
+# Build
+cmake --build build"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> Configure</span>
+cmake -B build -G Ninja
+<span class="pl-c"><span class="pl-c">#</span> Build</span>
+cmake --build build</pre></div>
+<p dir="auto">This will automatically build a release version of btop.</p>
+<p dir="auto">Some useful options to pass to the configure step:</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>Configure flag</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code class="notranslate">-DBTOP_STATIC=&lt;ON|OFF&gt;</code></td>
+<td>Enables static linking (OFF by default)</td>
+</tr>
+<tr>
+<td><code class="notranslate">-DBTOP_LTO=&lt;ON|OFF&gt;</code></td>
+<td>Enables link time optimization (ON by default)</td>
+</tr>
+<tr>
+<td><code class="notranslate">-DBTOP_PEDANTIC=&lt;ON|OFF&gt;</code></td>
+<td>Compile with additional warnings (OFF by default)</td>
+</tr>
+<tr>
+<td><code class="notranslate">-DBTOP_WERROR=&lt;ON|OFF&gt;</code></td>
+<td>Compile with warnings as errors (OFF by default)</td>
+</tr>
+<tr>
+<td><code class="notranslate">-DBTOP_GPU=&lt;ON|OFF&gt;</code></td>
+<td>Enable GPU support (ON by default)</td>
+</tr>
+<tr>
+<td><code class="notranslate">-DBTOP_RSMI_STATIC=&lt;ON|OFF&gt;</code></td>
+<td>Build and link the ROCm SMI library statically (OFF by default)</td>
+</tr>
+<tr>
+<td><code class="notranslate">-DCMAKE_INSTALL_PREFIX=&lt;path&gt;</code></td>
+<td>The installation prefix ('/usr/local' by default)</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p dir="auto">To force any other compiler, run <code class="notranslate">CXX=&lt;compiler&gt; cmake -B build -G Ninja</code></p>
+</li>
+<li>
+<p dir="auto"><strong>Install</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="cmake --install build"><pre class="notranslate">cmake --install build</pre></div>
+<p dir="auto">May require root privileges</p>
+</li>
+<li>
+<p dir="auto"><strong>Uninstall</strong></p>
+<p dir="auto">CMake doesn't generate an uninstall target by default. To remove installed files, run</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="cat build/install_manifest.txt | xargs rm -irv"><pre class="notranslate"><code class="notranslate">cat build/install_manifest.txt | xargs rm -irv
+</code></pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Cleanup build directory</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="cmake --build build -t clean"><pre class="notranslate">cmake --build build -t clean</pre></div>
+</li>
+</ol>
+</details>
+<h2 dir="auto">Compilation macOS OSX</h2>
+<p dir="auto">Requires at least GCC 12 or Clang 16.</p>
+<p dir="auto">With GCC, version 12 (or better) is needed for macOS Ventura. If you get linker errors on Ventura you'll need to upgrade your command line tools (Version 14.0) is bugged.</p>
+<p dir="auto">The makefile also needs GNU coreutils and <code class="notranslate">sed</code>.</p>
+<p dir="auto">Install and use Homebrew or MacPorts package managers for easy dependency installation</p>
+<details>
+<summary>
+<h3 dir="auto">With Make</h3>
+</summary>
+<ol dir="auto">
+<li>
+<p dir="auto"><strong>Install dependencies (example for Homebrew)</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="brew install coreutils make gcc@12 lowdown"><pre class="notranslate">brew install coreutils make gcc@12 lowdown</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Clone repository</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="git clone https://github.com/aristocratos/btop.git
+cd btop"><pre class="notranslate">git clone https://github.com/aristocratos/btop.git
+<span class="pl-c1">cd</span> btop</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Compile</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="gmake"><pre class="notranslate">gmake</pre></div>
+<p dir="auto">Options for make:</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>Flag</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code class="notranslate">VERBOSE=true</code></td>
+<td>To display full compiler/linker commands</td>
+</tr>
+<tr>
+<td><code class="notranslate">STATIC=true</code></td>
+<td>For static compilation (only libgcc and libstdc++)</td>
+</tr>
+<tr>
+<td><code class="notranslate">QUIET=true</code></td>
+<td>For less verbose output</td>
+</tr>
+<tr>
+<td><code class="notranslate">STRIP=true</code></td>
+<td>To force stripping of debug symbols (adds <code class="notranslate">-s</code> linker flag)</td>
+</tr>
+<tr>
+<td><code class="notranslate">DEBUG=true</code></td>
+<td>Sets OPTFLAGS to <code class="notranslate">-O0 -g</code> and enables more verbose debug logging</td>
+</tr>
+<tr>
+<td><code class="notranslate">ARCH=&lt;architecture&gt;</code></td>
+<td>To manually set the target architecture</td>
+</tr>
+<tr>
+<td><code class="notranslate">ADDFLAGS=&lt;flags&gt;</code></td>
+<td>For appending flags to both compiler and linker</td>
+</tr>
+<tr>
+<td><code class="notranslate">CXX=&lt;compiler&gt;</code></td>
+<td>Manually set which compiler to use</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p dir="auto">Example: <code class="notranslate">gmake ADDFLAGS=-march=native</code> might give a performance boost if compiling only for your own system.</p>
+</li>
+<li>
+<p dir="auto"><strong>Install</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo gmake install"><pre class="notranslate">sudo gmake install</pre></div>
+<p dir="auto">Append <code class="notranslate">PREFIX=/target/dir</code> to set target, default: <code class="notranslate">/usr/local</code></p>
+<p dir="auto">Notice! Only use "sudo" when installing to a NON user owned directory.</p>
+</li>
+<li>
+<p dir="auto"><strong>(Recommended) Set suid bit to make btop always run as root (or other user)</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo gmake setuid"><pre class="notranslate">sudo gmake setuid</pre></div>
+<p dir="auto">No need for <code class="notranslate">sudo</code> to see information for non user owned processes and to enable signal sending to any process.</p>
+<p dir="auto">Run after make install and use same PREFIX if any was used at install.</p>
+<p dir="auto">Set <code class="notranslate">SU_USER</code> and <code class="notranslate">SU_GROUP</code> to select user and group, default is <code class="notranslate">root</code> and <code class="notranslate">wheel</code></p>
+</li>
+</ol>
+<ul dir="auto">
+<li>
+<p dir="auto"><strong>Uninstall</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo gmake uninstall"><pre class="notranslate">sudo gmake uninstall</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Remove any object files from source dir</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="gmake clean"><pre class="notranslate">gmake clean</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Remove all object files, binaries and created directories in source dir</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="gmake distclean"><pre class="notranslate">gmake distclean</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Show help</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="gmake help"><pre class="notranslate">gmake <span class="pl-c1">help</span></pre></div>
+</li>
+</ul>
+</details>
+<details>
+<summary>
+<h3 dir="auto">With CMake (Community maintained)</h3>
+</summary>
+<ol dir="auto">
+<li>
+<p dir="auto"><strong>Install build dependencies</strong></p>
+<p dir="auto">Requires Clang, CMake, Ninja, Lowdown and Git</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="brew update --quiet
+brew install cmake git llvm ninja lowdown"><pre class="notranslate">brew update --quiet
+brew install cmake git llvm ninja lowdown</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Clone the repository</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="git clone https://github.com/aristocratos/btop.git &amp;&amp; cd btop"><pre class="notranslate">git clone https://github.com/aristocratos/btop.git <span class="pl-k">&amp;&amp;</span> <span class="pl-c1">cd</span> btop</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Compile</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# Configure
+export LLVM_PREFIX=&quot;$(brew --prefix llvm)&quot;
+export CXX=&quot;$LLVM_PREFIX/bin/clang++&quot;
+export CPPFLAGS=&quot;-I$LLVM_PREFIX/include&quot;
+export LDFLAGS=&quot;-L$LLVM_PREFIX/lib -L$LLVM_PREFIX/lib/c++ -Wl,-rpath,$LLVM_PREFIX/lib/c++ -fuse-ld=$LLVM_PREFIX/bin/ld64.lld&quot;
+cmake -B build -G Ninja
+# Build
+cmake --build build"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> Configure</span>
+<span class="pl-k">export</span> LLVM_PREFIX=<span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>brew --prefix llvm<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span>
+<span class="pl-k">export</span> CXX=<span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$LLVM_PREFIX</span>/bin/clang++<span class="pl-pds">"</span></span>
+<span class="pl-k">export</span> CPPFLAGS=<span class="pl-s"><span class="pl-pds">"</span>-I<span class="pl-smi">$LLVM_PREFIX</span>/include<span class="pl-pds">"</span></span>
+<span class="pl-k">export</span> LDFLAGS=<span class="pl-s"><span class="pl-pds">"</span>-L<span class="pl-smi">$LLVM_PREFIX</span>/lib -L<span class="pl-smi">$LLVM_PREFIX</span>/lib/c++ -Wl,-rpath,<span class="pl-smi">$LLVM_PREFIX</span>/lib/c++ -fuse-ld=<span class="pl-smi">$LLVM_PREFIX</span>/bin/ld64.lld<span class="pl-pds">"</span></span>
+cmake -B build -G Ninja
+<span class="pl-c"><span class="pl-c">#</span> Build</span>
+cmake --build build</pre></div>
+<p dir="auto"><em><strong>Note:</strong> btop uses lots of C++ 20 features, so it's necessary to be specific about the compiler and the standard library. If you get a compile with Apple-Clang or GCC, feel free to add the instructions here.</em></p>
+<p dir="auto">This will automatically build a release version of btop.</p>
+<p dir="auto">Some useful options to pass to the configure step:</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>Configure flag</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code class="notranslate">-DBTOP_LTO=&lt;ON|OFF&gt;</code></td>
+<td>Enables link time optimization (ON by default)</td>
+</tr>
+<tr>
+<td><code class="notranslate">-DBTOP_PEDANTIC=&lt;ON|OFF&gt;</code></td>
+<td>Compile with additional warnings (OFF by default)</td>
+</tr>
+<tr>
+<td><code class="notranslate">-DBTOP_WERROR=&lt;ON|OFF&gt;</code></td>
+<td>Compile with warnings as errors (OFF by default)</td>
+</tr>
+<tr>
+<td><code class="notranslate">-DCMAKE_INSTALL_PREFIX=&lt;path&gt;</code></td>
+<td>The installation prefix ('/usr/local' by default)</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p dir="auto">To force any specific compiler, run <code class="notranslate">CXX=&lt;compiler&gt; cmake -B build -G Ninja</code></p>
+</li>
+<li>
+<p dir="auto"><strong>Install</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="cmake --install build"><pre class="notranslate">cmake --install build</pre></div>
+<p dir="auto">May require root privileges</p>
+</li>
+<li>
+<p dir="auto"><strong>Uninstall</strong></p>
+<p dir="auto">CMake doesn't generate an uninstall target by default. To remove installed files, run</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="cat build/install_manifest.txt | xargs rm -irv"><pre class="notranslate"><code class="notranslate">cat build/install_manifest.txt | xargs rm -irv
+</code></pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Cleanup build directory</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="cmake --build build -t clean"><pre class="notranslate">cmake --build build -t clean</pre></div>
+</li>
+</ol>
+</details>
+<h2 dir="auto">Compilation FreeBSD</h2>
+<p dir="auto">Requires at least GCC 11 or Clang 16.</p>
+<p dir="auto">Note that GNU make (<code class="notranslate">gmake</code>) is required to compile on FreeBSD.</p>
+<details>
+<summary>
+<h3 dir="auto">With gmake</h3>
+</summary>
+<ol dir="auto">
+<li>
+<p dir="auto"><strong>Install dependencies</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo pkg install gmake gcc11 coreutils git lowdown"><pre class="notranslate">sudo pkg install gmake gcc11 coreutils git lowdown</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Clone repository</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="git clone https://github.com/aristocratos/btop.git
+cd btop"><pre class="notranslate">git clone https://github.com/aristocratos/btop.git
+<span class="pl-c1">cd</span> btop</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Compile</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="gmake"><pre class="notranslate">gmake</pre></div>
+<p dir="auto">Options for make:</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>Flag</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code class="notranslate">VERBOSE=true</code></td>
+<td>To display full compiler/linker commands</td>
+</tr>
+<tr>
+<td><code class="notranslate">STATIC=true</code></td>
+<td>For static compilation (only libgcc and libstdc++)</td>
+</tr>
+<tr>
+<td><code class="notranslate">QUIET=true</code></td>
+<td>For less verbose output</td>
+</tr>
+<tr>
+<td><code class="notranslate">STRIP=true</code></td>
+<td>To force stripping of debug symbols (adds <code class="notranslate">-s</code> linker flag)</td>
+</tr>
+<tr>
+<td><code class="notranslate">DEBUG=true</code></td>
+<td>Sets OPTFLAGS to <code class="notranslate">-O0 -g</code> and enables more verbose debug logging</td>
+</tr>
+<tr>
+<td><code class="notranslate">ARCH=&lt;architecture&gt;</code></td>
+<td>To manually set the target architecture</td>
+</tr>
+<tr>
+<td><code class="notranslate">ADDFLAGS=&lt;flags&gt;</code></td>
+<td>For appending flags to both compiler and linker</td>
+</tr>
+<tr>
+<td><code class="notranslate">CXX=&lt;compiler&gt;</code></td>
+<td>Manually set which compiler to use</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p dir="auto">Example: <code class="notranslate">gmake ADDFLAGS=-march=native</code> might give a performance boost if compiling only for your own system.</p>
+</li>
+<li>
+<p dir="auto"><strong>Install</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo gmake install"><pre class="notranslate">sudo gmake install</pre></div>
+<p dir="auto">Append <code class="notranslate">PREFIX=/target/dir</code> to set target, default: <code class="notranslate">/usr/local</code></p>
+<p dir="auto">Notice! Only use "sudo" when installing to a NON user owned directory.</p>
+</li>
+<li>
+<p dir="auto"><strong>(Recommended) Set suid bit to make btop always run as root (or other user)</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo gmake setuid"><pre class="notranslate">sudo gmake setuid</pre></div>
+<p dir="auto">No need for <code class="notranslate">sudo</code> to see information for non user owned processes and to enable signal sending to any process.</p>
+<p dir="auto">Run after make install and use same PREFIX if any was used at install.</p>
+<p dir="auto">Set <code class="notranslate">SU_USER</code> and <code class="notranslate">SU_GROUP</code> to select user and group, default is <code class="notranslate">root</code> and <code class="notranslate">wheel</code></p>
+</li>
+</ol>
+<ul dir="auto">
+<li>
+<p dir="auto"><strong>Uninstall</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo gmake uninstall"><pre class="notranslate">sudo gmake uninstall</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Remove any object files from source dir</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="gmake clean"><pre class="notranslate">gmake clean</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Remove all object files, binaries and created directories in source dir</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="gmake distclean"><pre class="notranslate">gmake distclean</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Show help</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="gmake help"><pre class="notranslate">gmake <span class="pl-c1">help</span></pre></div>
+</li>
+</ul>
+</details>
+<details>
+<summary>
+<h3 dir="auto">With CMake (Community maintained)</h3>
+</summary>
+<ol dir="auto">
+<li>
+<p dir="auto"><strong>Install build dependencies</strong></p>
+<p dir="auto">Requires Clang / GCC, CMake, Ninja, Lowdown and Git</p>
+<p dir="auto"><em><strong>Note:</strong> LLVM's libc++ shipped with FreeBSD 13 is too old and cannot compile btop.</em></p>
+<p dir="auto">FreeBSD 14 and later:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="pkg install cmake ninja lowdown"><pre class="notranslate">pkg install cmake ninja lowdown</pre></div>
+<p dir="auto">FreeBSD 13:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="pkg install cmake gcc13 ninja lowdown"><pre class="notranslate">pkg install cmake gcc13 ninja lowdown</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Clone the repository</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="git clone https://github.com/aristocratos/btop.git &amp;&amp; cd btop"><pre class="notranslate">git clone https://github.com/aristocratos/btop.git <span class="pl-k">&amp;&amp;</span> <span class="pl-c1">cd</span> btop</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Compile</strong></p>
+<p dir="auto">FreeBSD 14 and later:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# Configure
+cmake -B build -G Ninja
+# Build
+cmake --build build"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> Configure</span>
+cmake -B build -G Ninja
+<span class="pl-c"><span class="pl-c">#</span> Build</span>
+cmake --build build</pre></div>
+<p dir="auto">FreeBSD 13:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# Configure
+CXX=g++13 cmake -B build -G Ninja
+# Build
+cmake --build build"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> Configure</span>
+CXX=g++13 cmake -B build -G Ninja
+<span class="pl-c"><span class="pl-c">#</span> Build</span>
+cmake --build build</pre></div>
+<p dir="auto">This will automatically build a release version of btop.</p>
+<p dir="auto">Some useful options to pass to the configure step:</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>Configure flag</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code class="notranslate">-DBTOP_STATIC=&lt;ON|OFF&gt;</code></td>
+<td>Enables static linking (OFF by default)</td>
+</tr>
+<tr>
+<td><code class="notranslate">-DBTOP_LTO=&lt;ON|OFF&gt;</code></td>
+<td>Enables link time optimization (ON by default)</td>
+</tr>
+<tr>
+<td><code class="notranslate">-DBTOP_PEDANTIC=&lt;ON|OFF&gt;</code></td>
+<td>Compile with additional warnings (OFF by default)</td>
+</tr>
+<tr>
+<td><code class="notranslate">-DBTOP_WERROR=&lt;ON|OFF&gt;</code></td>
+<td>Compile with warnings as errors (OFF by default)</td>
+</tr>
+<tr>
+<td><code class="notranslate">-DCMAKE_INSTALL_PREFIX=&lt;path&gt;</code></td>
+<td>The installation prefix ('/usr/local' by default)</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p dir="auto"><em><strong>Note:</strong> Static linking does not work with GCC.</em></p>
+<p dir="auto">To force any other compiler, run <code class="notranslate">CXX=&lt;compiler&gt; cmake -B build -G Ninja</code></p>
+</li>
+<li>
+<p dir="auto"><strong>Install</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="cmake --install build"><pre class="notranslate">cmake --install build</pre></div>
+<p dir="auto">May require root privileges</p>
+</li>
+<li>
+<p dir="auto"><strong>Uninstall</strong></p>
+<p dir="auto">CMake doesn't generate an uninstall target by default. To remove installed files, run</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="cat build/install_manifest.txt | xargs rm -irv"><pre class="notranslate"><code class="notranslate">cat build/install_manifest.txt | xargs rm -irv
+</code></pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Cleanup build directory</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="cmake --build build -t clean"><pre class="notranslate">cmake --build build -t clean</pre></div>
+</li>
+</ol>
+</details>
+<h2 dir="auto">Compilation NetBSD</h2>
+<p dir="auto">Requires at least GCC 11.</p>
+<p dir="auto">Note that GNU make (<code class="notranslate">gmake</code>) is required to compile on NetBSD.</p>
+<details>
+<summary>
+<h3 dir="auto">With gmake</h3>
+</summary>
+<ol dir="auto">
+<li>
+<p dir="auto"><strong>Install dependencies</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="pkg_add gmake gcc11 coreutils git"><pre class="notranslate">pkg_add gmake gcc11 coreutils git</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Clone repository</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="git clone https://github.com/aristocratos/btop.git
+cd btop"><pre class="notranslate">git clone https://github.com/aristocratos/btop.git
+<span class="pl-c1">cd</span> btop</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Compile</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="gmake CXXFLAGS=&quot;-DNDEBUG&quot;"><pre class="notranslate">gmake CXXFLAGS=<span class="pl-s"><span class="pl-pds">"</span>-DNDEBUG<span class="pl-pds">"</span></span></pre></div>
+<p dir="auto">Options for make:</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>Flag</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code class="notranslate">VERBOSE=true</code></td>
+<td>To display full compiler/linker commands</td>
+</tr>
+<tr>
+<td><code class="notranslate">STATIC=true</code></td>
+<td>For static compilation (only libgcc and libstdc++)</td>
+</tr>
+<tr>
+<td><code class="notranslate">QUIET=true</code></td>
+<td>For less verbose output</td>
+</tr>
+<tr>
+<td><code class="notranslate">STRIP=true</code></td>
+<td>To force stripping of debug symbols (adds <code class="notranslate">-s</code> linker flag)</td>
+</tr>
+<tr>
+<td><code class="notranslate">DEBUG=true</code></td>
+<td>Sets OPTFLAGS to <code class="notranslate">-O0 -g</code> and enables more verbose debug logging</td>
+</tr>
+<tr>
+<td><code class="notranslate">ARCH=&lt;architecture&gt;</code></td>
+<td>To manually set the target architecture</td>
+</tr>
+<tr>
+<td><code class="notranslate">ADDFLAGS=&lt;flags&gt;</code></td>
+<td>For appending flags to both compiler and linker</td>
+</tr>
+<tr>
+<td><code class="notranslate">CXX=&lt;compiler&gt;</code></td>
+<td>Manually set which compiler to use</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p dir="auto">Example: <code class="notranslate">gmake ADDFLAGS=-march=native</code> might give a performance boost if compiling only for your own system.</p>
+</li>
+<li>
+<p dir="auto"><strong>Install</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo gmake install"><pre class="notranslate">sudo gmake install</pre></div>
+<p dir="auto">Append <code class="notranslate">PREFIX=/target/dir</code> to set target, default: <code class="notranslate">/usr/local</code></p>
+<p dir="auto">Notice! Only use "sudo" when installing to a NON user owned directory.</p>
+</li>
+<li>
+<p dir="auto"><strong>(Recommended) Set suid bit to make btop always run as root (or other user)</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo gmake setuid"><pre class="notranslate">sudo gmake setuid</pre></div>
+<p dir="auto">No need for <code class="notranslate">sudo</code> to see information for non user owned processes and to enable signal sending to any process.</p>
+<p dir="auto">Run after make install and use same PREFIX if any was used at install.</p>
+<p dir="auto">Set <code class="notranslate">SU_USER</code> and <code class="notranslate">SU_GROUP</code> to select user and group, default is <code class="notranslate">root</code> and <code class="notranslate">wheel</code></p>
+</li>
+</ol>
+<ul dir="auto">
+<li>
+<p dir="auto"><strong>Uninstall</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo gmake uninstall"><pre class="notranslate">sudo gmake uninstall</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Remove any object files from source dir</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="gmake clean"><pre class="notranslate">gmake clean</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Remove all object files, binaries and created directories in source dir</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="gmake distclean"><pre class="notranslate">gmake distclean</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Show help</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="gmake help"><pre class="notranslate">gmake <span class="pl-c1">help</span></pre></div>
+</li>
+</ul>
+</details>
+<details>
+<summary>
+<h3 dir="auto">With CMake (Community maintained)</h3>
+</summary>
+<ol dir="auto">
+<li>
+<p dir="auto"><strong>Install build dependencies</strong></p>
+<p dir="auto">Requires GCC, CMake, Ninja and Git</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="pkg_add cmake ninja-build gcc11 coreutils git"><pre class="notranslate">pkg_add cmake ninja-build gcc11 coreutils git</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Clone the repository</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="git clone https://github.com/aristocratos/btop.git &amp;&amp; cd btop"><pre class="notranslate">git clone https://github.com/aristocratos/btop.git <span class="pl-k">&amp;&amp;</span> <span class="pl-c1">cd</span> btop</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Compile</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# Configure
+cmake -DCMAKE_CXX_COMPILER=&quot;/usr/pkg/gcc11/bin/g++&quot; -B build -G Ninja
+# Build
+cmake --build build"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> Configure</span>
+cmake -DCMAKE_CXX_COMPILER=<span class="pl-s"><span class="pl-pds">"</span>/usr/pkg/gcc11/bin/g++<span class="pl-pds">"</span></span> -B build -G Ninja
+<span class="pl-c"><span class="pl-c">#</span> Build</span>
+cmake --build build</pre></div>
+<p dir="auto">This will automatically build a release version of btop.</p>
+<p dir="auto">Some useful options to pass to the configure step:</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>Configure flag</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code class="notranslate">-DBTOP_LTO=&lt;ON|OFF&gt;</code></td>
+<td>Enables link time optimization (ON by default)</td>
+</tr>
+<tr>
+<td><code class="notranslate">-DBTOP_PEDANTIC=&lt;ON|OFF&gt;</code></td>
+<td>Compile with additional warnings (OFF by default)</td>
+</tr>
+<tr>
+<td><code class="notranslate">-DBTOP_WERROR=&lt;ON|OFF&gt;</code></td>
+<td>Compile with warnings as errors (OFF by default)</td>
+</tr>
+<tr>
+<td><code class="notranslate">-DCMAKE_INSTALL_PREFIX=&lt;path&gt;</code></td>
+<td>The installation prefix ('/usr/local' by default)</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p dir="auto">To force any other compiler, run <code class="notranslate">CXX=&lt;compiler&gt; cmake -B build -G Ninja</code></p>
+</li>
+<li>
+<p dir="auto"><strong>Install</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="cmake --install build"><pre class="notranslate">cmake --install build</pre></div>
+<p dir="auto">May require root privileges</p>
+</li>
+<li>
+<p dir="auto"><strong>Uninstall</strong></p>
+<p dir="auto">CMake doesn't generate an uninstall target by default. To remove installed files, run</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="cat build/install_manifest.txt | xargs rm -irv"><pre class="notranslate"><code class="notranslate">cat build/install_manifest.txt | xargs rm -irv
+</code></pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Cleanup build directory</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="cmake --build build -t clean"><pre class="notranslate">cmake --build build -t clean</pre></div>
+</li>
+</ol>
+</details>
+<h2 dir="auto">Compilation OpenBSD</h2>
+<p dir="auto">Requires at least GCC 11.</p>
+<p dir="auto">Note that GNU make (<code class="notranslate">gmake</code>) is required to compile on OpenBSD.</p>
+<details>
+<summary>
+<h3 dir="auto">With gmake</h3>
+</summary>
+<ol dir="auto">
+<li>
+<p dir="auto"><strong>Install dependencies</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="pkg_add gmake gcc%11 g++%11 coreutils git lowdown"><pre class="notranslate">pkg_add gmake gcc%11 g++%11 coreutils git lowdown</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Clone repository</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="git clone https://github.com/aristocratos/btop.git
+cd btop"><pre class="notranslate">git clone https://github.com/aristocratos/btop.git
+<span class="pl-c1">cd</span> btop</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Compile</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="gmake CXX=eg++"><pre class="notranslate">gmake CXX=eg++</pre></div>
+<p dir="auto">Options for make:</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>Flag</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code class="notranslate">VERBOSE=true</code></td>
+<td>To display full compiler/linker commands</td>
+</tr>
+<tr>
+<td><code class="notranslate">STATIC=true</code></td>
+<td>For static compilation (only libgcc and libstdc++)</td>
+</tr>
+<tr>
+<td><code class="notranslate">QUIET=true</code></td>
+<td>For less verbose output</td>
+</tr>
+<tr>
+<td><code class="notranslate">STRIP=true</code></td>
+<td>To force stripping of debug symbols (adds <code class="notranslate">-s</code> linker flag)</td>
+</tr>
+<tr>
+<td><code class="notranslate">DEBUG=true</code></td>
+<td>Sets OPTFLAGS to <code class="notranslate">-O0 -g</code> and enables more verbose debug logging</td>
+</tr>
+<tr>
+<td><code class="notranslate">ARCH=&lt;architecture&gt;</code></td>
+<td>To manually set the target architecture</td>
+</tr>
+<tr>
+<td><code class="notranslate">ADDFLAGS=&lt;flags&gt;</code></td>
+<td>For appending flags to both compiler and linker</td>
+</tr>
+<tr>
+<td><code class="notranslate">CXX=&lt;compiler&gt;</code></td>
+<td>Manually set which compiler to use</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p dir="auto">Example: <code class="notranslate">gmake ADDFLAGS=-march=native</code> might give a performance boost if compiling only for your own system.</p>
+</li>
+<li>
+<p dir="auto"><strong>Install</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo gmake install"><pre class="notranslate">sudo gmake install</pre></div>
+<p dir="auto">Append <code class="notranslate">PREFIX=/target/dir</code> to set target, default: <code class="notranslate">/usr/local</code></p>
+<p dir="auto">Notice! Only use "sudo" when installing to a NON user owned directory.</p>
+</li>
+<li>
+<p dir="auto"><strong>(Recommended) Set suid bit to make btop always run as root (or other user)</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo gmake setuid"><pre class="notranslate">sudo gmake setuid</pre></div>
+<p dir="auto">No need for <code class="notranslate">sudo</code> to see information for non user owned processes and to enable signal sending to any process.</p>
+<p dir="auto">Run after make install and use same PREFIX if any was used at install.</p>
+<p dir="auto">Set <code class="notranslate">SU_USER</code> and <code class="notranslate">SU_GROUP</code> to select user and group, default is <code class="notranslate">root</code> and <code class="notranslate">wheel</code></p>
+</li>
+</ol>
+<ul dir="auto">
+<li>
+<p dir="auto"><strong>Uninstall</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo gmake uninstall"><pre class="notranslate">sudo gmake uninstall</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Remove any object files from source dir</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="gmake clean"><pre class="notranslate">gmake clean</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Remove all object files, binaries and created directories in source dir</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="gmake distclean"><pre class="notranslate">gmake distclean</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Show help</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="gmake help"><pre class="notranslate">gmake <span class="pl-c1">help</span></pre></div>
+</li>
+</ul>
+</details>
+<details>
+<summary>
+<h3 dir="auto">With CMake (Community maintained)</h3>
+</summary>
+<ol dir="auto">
+<li>
+<p dir="auto"><strong>Install build dependencies</strong></p>
+<p dir="auto">Requires GCC, CMake, Ninja, Lowdown and Git</p>
+<p dir="auto"><em><strong>Note:</strong> LLVM's libc++ shipped with OpenBSD 7.4 is too old and cannot compile btop.</em></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="pkg_add cmake g++%11 git ninja lowdown"><pre class="notranslate">pkg_add cmake g++%11 git ninja lowdown</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Clone the repository</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="git clone https://github.com/aristocratos/btop.git &amp;&amp; cd btop"><pre class="notranslate">git clone https://github.com/aristocratos/btop.git <span class="pl-k">&amp;&amp;</span> <span class="pl-c1">cd</span> btop</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Compile</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# Configure
+CXX=eg++ cmake -B build -G Ninja
+# Build
+cmake --build build"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> Configure</span>
+CXX=eg++ cmake -B build -G Ninja
+<span class="pl-c"><span class="pl-c">#</span> Build</span>
+cmake --build build</pre></div>
+<p dir="auto">This will automatically build a release version of btop.</p>
+<p dir="auto">Some useful options to pass to the configure step:</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>Configure flag</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code class="notranslate">-DBTOP_LTO=&lt;ON|OFF&gt;</code></td>
+<td>Enables link time optimization (ON by default)</td>
+</tr>
+<tr>
+<td><code class="notranslate">-DBTOP_PEDANTIC=&lt;ON|OFF&gt;</code></td>
+<td>Compile with additional warnings (OFF by default)</td>
+</tr>
+<tr>
+<td><code class="notranslate">-DBTOP_WERROR=&lt;ON|OFF&gt;</code></td>
+<td>Compile with warnings as errors (OFF by default)</td>
+</tr>
+<tr>
+<td><code class="notranslate">-DCMAKE_INSTALL_PREFIX=&lt;path&gt;</code></td>
+<td>The installation prefix ('/usr/local' by default)</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p dir="auto">To force any other compiler, run <code class="notranslate">CXX=&lt;compiler&gt; cmake -B build -G Ninja</code></p>
+</li>
+<li>
+<p dir="auto"><strong>Install</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="cmake --install build"><pre class="notranslate">cmake --install build</pre></div>
+<p dir="auto">May require root privileges</p>
+</li>
+<li>
+<p dir="auto"><strong>Uninstall</strong></p>
+<p dir="auto">CMake doesn't generate an uninstall target by default. To remove installed files, run</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="cat build/install_manifest.txt | xargs rm -irv"><pre class="notranslate"><code class="notranslate">cat build/install_manifest.txt | xargs rm -irv
+</code></pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Cleanup build directory</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="cmake --build build -t clean"><pre class="notranslate">cmake --build build -t clean</pre></div>
+</li>
+</ol>
+</details>
+<h2 dir="auto">Installing the snap</h2>
+<p dir="auto"><a href="https://snapcraft.io/btop" rel="nofollow"><img src="https://camo.githubusercontent.com/b88772a4b6b7c82ffd182bd49512ffeef0fb622f14abe0c2f10c555230cec3a5/68747470733a2f2f736e617063726166742e696f2f62746f702f62616467652e737667" alt="btop" data-canonical-src="https://snapcraft.io/btop/badge.svg" style="max-width: 100%;"></a></p>
+<h3 dir="auto">Note: there are now two snaps available: <code class="notranslate">btop</code> and <code class="notranslate">btop-desktop</code>. The desktop version is much larger and includes the desktop entries needed to allow for launching <code class="notranslate">btop</code> with a click.</h3>
+<ul dir="auto">
+<li>
+<p dir="auto"><strong>Install the snap</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo snap install btop
+or
+sudo snap install btop-desktop"><pre class="notranslate">sudo snap install btop
+or
+sudo snap install btop-desktop</pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Install the latest snap from the edge channel</strong></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="sudo snap install btop --edge
+or
+sudo snap install btop-desktop --edge"><pre class="notranslate"><code class="notranslate">sudo snap install btop --edge
+or
+sudo snap install btop-desktop --edge
+</code></pre></div>
+</li>
+<li>
+<p dir="auto"><strong>Connect the interface</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo snap connect btop:removable-media
+or
+sudo snap connect btop-desktop:removable-media"><pre class="notranslate">sudo snap connect btop:removable-media
+or
+sudo snap connect btop-desktop:removable-media</pre></div>
+</li>
+</ul>
+<h2 dir="auto">Configurability</h2>
+<p dir="auto">All options changeable from within UI.<br>
+Config and log files stored in <code class="notranslate">$XDG_CONFIG_HOME/btop</code> or <code class="notranslate">$HOME/.config/btop</code> folder</p>
+<h4 dir="auto">btop.conf: (auto generated if not found)</h4>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="#? Config file for btop v. 1.2.2
+
+#* Name of a btop++/bpytop/bashtop formatted &quot;.theme&quot; file, &quot;Default&quot; and &quot;TTY&quot; for builtin themes.
+#* Themes should be placed in &quot;../share/btop/themes&quot; relative to binary or &quot;$HOME/.config/btop/themes&quot;
+color_theme = &quot;Default&quot;
+
+#* If the theme set background should be shown, set to False if you want terminal background transparency.
+theme_background = True
+
+#* Sets if 24-bit truecolor should be used, will convert 24-bit colors to 256 color (6x6x6 color cube) if false.
+truecolor = True
+
+#* Set to true to force tty mode regardless if a real tty has been detected or not.
+#* Will force 16-color mode and TTY theme, set all graph symbols to &quot;tty&quot; and swap out other non tty friendly symbols.
+force_tty = False
+
+#* Define presets for the layout of the boxes. Preset 0 is always all boxes shown with default settings. Max 9 presets.
+#* Format: &quot;box_name:P:G,box_name:P:G&quot; P=(0 or 1) for alternate positions, G=graph symbol to use for box.
+#* Use whitespace &quot; &quot; as separator between different presets.
+#* Example: &quot;cpu:0:default,mem:0:tty,proc:1:default cpu:0:braille,proc:0:tty&quot;
+presets = &quot;cpu:1:default,proc:0:default cpu:0:default,mem:0:default,net:0:default cpu:0:block,net:0:tty&quot;
+
+#* Set to True to enable &quot;h,j,k,l,g,G&quot; keys for directional control in lists.
+#* Conflicting keys for h:&quot;help&quot; and k:&quot;kill&quot; is accessible while holding shift.
+vim_keys = False
+
+#* Rounded corners on boxes, is ignored if TTY mode is ON.
+rounded_corners = True
+
+#* Default symbols to use for graph creation, &quot;braille&quot;, &quot;block&quot; or &quot;tty&quot;.
+#* &quot;braille&quot; offers the highest resolution but might not be included in all fonts.
+#* &quot;block&quot; has half the resolution of braille but uses more common characters.
+#* &quot;tty&quot; uses only 3 different symbols but will work with most fonts and should work in a real TTY.
+#* Note that &quot;tty&quot; only has half the horizontal resolution of the other two, so will show a shorter historical view.
+graph_symbol = &quot;braille&quot;
+
+# Graph symbol to use for graphs in cpu box, &quot;default&quot;, &quot;braille&quot;, &quot;block&quot; or &quot;tty&quot;.
+graph_symbol_cpu = &quot;default&quot;
+
+# Graph symbol to use for graphs in cpu box, &quot;default&quot;, &quot;braille&quot;, &quot;block&quot; or &quot;tty&quot;.
+graph_symbol_mem = &quot;default&quot;
+
+# Graph symbol to use for graphs in cpu box, &quot;default&quot;, &quot;braille&quot;, &quot;block&quot; or &quot;tty&quot;.
+graph_symbol_net = &quot;default&quot;
+
+# Graph symbol to use for graphs in cpu box, &quot;default&quot;, &quot;braille&quot;, &quot;block&quot; or &quot;tty&quot;.
+graph_symbol_proc = &quot;default&quot;
+
+#* Manually set which boxes to show. Available values are &quot;cpu mem net proc&quot; and &quot;gpu0&quot; through &quot;gpu5&quot;, separate values with whitespace.
+shown_boxes = &quot;proc cpu mem net&quot;
+
+#* Update time in milliseconds, recommended 2000 ms or above for better sample times for graphs.
+update_ms = 1500
+
+#* Processes sorting, &quot;pid&quot; &quot;program&quot; &quot;arguments&quot; &quot;threads&quot; &quot;user&quot; &quot;memory&quot; &quot;cpu lazy&quot; &quot;cpu responsive&quot;,
+#* &quot;cpu lazy&quot; sorts top process over time (easier to follow), &quot;cpu responsive&quot; updates top process directly.
+proc_sorting = &quot;cpu lazy&quot;
+
+#* Reverse sorting order, True or False.
+proc_reversed = False
+
+#* Show processes as a tree.
+proc_tree = False
+
+#* Use the cpu graph colors in the process list.
+proc_colors = True
+
+#* Use a darkening gradient in the process list.
+proc_gradient = True
+
+#* If process cpu usage should be of the core it's running on or usage of the total available cpu power.
+proc_per_core = True
+
+#* Show process memory as bytes instead of percent.
+proc_mem_bytes = True
+
+#* Use /proc/[pid]/smaps for memory information in the process info box (very slow but more accurate)
+proc_info_smaps = False
+
+#* Show proc box on left side of screen instead of right.
+proc_left = False
+
+#* Sets the CPU stat shown in upper half of the CPU graph, &quot;total&quot; is always available.
+#* Select from a list of detected attributes from the options menu.
+cpu_graph_upper = &quot;total&quot;
+
+#* Sets the CPU stat shown in lower half of the CPU graph, &quot;total&quot; is always available.
+#* Select from a list of detected attributes from the options menu.
+cpu_graph_lower = &quot;total&quot;
+
+#* Toggles if the lower CPU graph should be inverted.
+cpu_invert_lower = True
+
+#* Set to True to completely disable the lower CPU graph.
+cpu_single_graph = False
+
+#* Show cpu box at bottom of screen instead of top.
+cpu_bottom = False
+
+#* Shows the system uptime in the CPU box.
+show_uptime = True
+
+#* Show cpu temperature.
+check_temp = True
+
+#* Which sensor to use for cpu temperature, use options menu to select from list of available sensors.
+cpu_sensor = &quot;Auto&quot;
+
+#* Show temperatures for cpu cores also if check_temp is True and sensors has been found.
+show_coretemp = True
+
+#* Set a custom mapping between core and coretemp, can be needed on certain cpus to get correct temperature for correct core.
+#* Use lm-sensors or similar to see which cores are reporting temperatures on your machine.
+#* Format &quot;x:y&quot; x=core with wrong temp, y=core with correct temp, use space as separator between multiple entries.
+#* Example: &quot;4:0 5:1 6:3&quot;
+cpu_core_map = &quot;&quot;
+
+#* Which temperature scale to use, available values: &quot;celsius&quot;, &quot;fahrenheit&quot;, &quot;kelvin&quot; and &quot;rankine&quot;.
+temp_scale = &quot;celsius&quot;
+
+#* Use base 10 for bits/bytes sizes, KB = 1000 instead of KiB = 1024.
+base_10_sizes = False
+
+#* Show CPU frequency.
+show_cpu_freq = True
+
+#* Draw a clock at top of screen, formatting according to strftime, empty string to disable.
+#* Special formatting: /host = hostname | /user = username | /uptime = system uptime
+clock_format = &quot;%H:%M&quot;
+
+#* Update main ui in background when menus are showing, set this to false if the menus is flickering too much for comfort.
+background_update = True
+
+#* Custom cpu model name, empty string to disable.
+custom_cpu_name = &quot;&quot;
+
+#* Optional filter for shown disks, should be full path of a mountpoint, separate multiple values with whitespace &quot; &quot;.
+#* Begin line with &quot;exclude=&quot; to change to exclude filter, otherwise defaults to &quot;most include&quot; filter. Example: disks_filter=&quot;exclude=/boot /home/user&quot;.
+disks_filter = &quot;exclude=/boot&quot;
+
+#* Show graphs instead of meters for memory values.
+mem_graphs = True
+
+#* Show mem box below net box instead of above.
+mem_below_net = False
+
+#* Count ZFS ARC in cached and available memory.
+zfs_arc_cached = True
+
+#* If swap memory should be shown in memory box.
+show_swap = True
+
+#* Show swap as a disk, ignores show_swap value above, inserts itself after first disk.
+swap_disk = True
+
+#* If mem box should be split to also show disks info.
+show_disks = True
+
+#* Filter out non physical disks. Set this to False to include network disks, RAM disks and similar.
+only_physical = True
+
+#* Read disks list from /etc/fstab. This also disables only_physical.
+use_fstab = False
+
+#* Set to true to show available disk space for privileged users.
+disk_free_priv = False
+
+#* Toggles if io activity % (disk busy time) should be shown in regular disk usage view.
+show_io_stat = True
+
+#* Toggles io mode for disks, showing big graphs for disk read/write speeds.
+io_mode = False
+
+#* Set to True to show combined read/write io graphs in io mode.
+io_graph_combined = False
+
+#* Set the top speed for the io graphs in MiB/s (100 by default), use format &quot;mountpoint:speed&quot; separate disks with whitespace &quot; &quot;.
+#* Example: &quot;/mnt/media:100 /:20 /boot:1&quot;.
+io_graph_speeds = &quot;&quot;
+
+#* Set fixed values for network graphs in Mebibits. Is only used if net_auto is also set to False.
+net_download = 100
+
+net_upload = 100
+
+#* Use network graphs auto rescaling mode, ignores any values set above and rescales down to 10 Kibibytes at the lowest.
+net_auto = True
+
+#* Sync the auto scaling for download and upload to whichever currently has the highest scale.
+net_sync = False
+
+#* Starts with the Network Interface specified here.
+net_iface = &quot;br0&quot;
+
+#* Show battery stats in top right if battery is present.
+show_battery = True
+
+#* Which battery to use if multiple are present. &quot;Auto&quot; for auto detection.
+selected_battery = &quot;Auto&quot;
+
+#* Set loglevel for &quot;~/.config/btop/btop.log&quot; levels are: &quot;ERROR&quot; &quot;WARNING&quot; &quot;INFO&quot; &quot;DEBUG&quot;.
+#* The level set includes all lower levels, i.e. &quot;DEBUG&quot; will show all logging info.
+log_level = &quot;DEBUG&quot;"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span>? Config file for btop v. 1.2.2</span>
+
+<span class="pl-c"><span class="pl-c">#</span>* Name of a btop++/bpytop/bashtop formatted ".theme" file, "Default" and "TTY" for builtin themes.</span>
+<span class="pl-c"><span class="pl-c">#</span>* Themes should be placed in "../share/btop/themes" relative to binary or "$HOME/.config/btop/themes"</span>
+color_theme = <span class="pl-s"><span class="pl-pds">"</span>Default<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span>* If the theme set background should be shown, set to False if you want terminal background transparency.</span>
+theme_background = True
+
+<span class="pl-c"><span class="pl-c">#</span>* Sets if 24-bit truecolor should be used, will convert 24-bit colors to 256 color (6x6x6 color cube) if false.</span>
+truecolor = True
+
+<span class="pl-c"><span class="pl-c">#</span>* Set to true to force tty mode regardless if a real tty has been detected or not.</span>
+<span class="pl-c"><span class="pl-c">#</span>* Will force 16-color mode and TTY theme, set all graph symbols to "tty" and swap out other non tty friendly symbols.</span>
+force_tty = False
+
+<span class="pl-c"><span class="pl-c">#</span>* Define presets for the layout of the boxes. Preset 0 is always all boxes shown with default settings. Max 9 presets.</span>
+<span class="pl-c"><span class="pl-c">#</span>* Format: "box_name:P:G,box_name:P:G" P=(0 or 1) for alternate positions, G=graph symbol to use for box.</span>
+<span class="pl-c"><span class="pl-c">#</span>* Use whitespace " " as separator between different presets.</span>
+<span class="pl-c"><span class="pl-c">#</span>* Example: "cpu:0:default,mem:0:tty,proc:1:default cpu:0:braille,proc:0:tty"</span>
+presets = <span class="pl-s"><span class="pl-pds">"</span>cpu:1:default,proc:0:default cpu:0:default,mem:0:default,net:0:default cpu:0:block,net:0:tty<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span>* Set to True to enable "h,j,k,l,g,G" keys for directional control in lists.</span>
+<span class="pl-c"><span class="pl-c">#</span>* Conflicting keys for h:"help" and k:"kill" is accessible while holding shift.</span>
+vim_keys = False
+
+<span class="pl-c"><span class="pl-c">#</span>* Rounded corners on boxes, is ignored if TTY mode is ON.</span>
+rounded_corners = True
+
+<span class="pl-c"><span class="pl-c">#</span>* Default symbols to use for graph creation, "braille", "block" or "tty".</span>
+<span class="pl-c"><span class="pl-c">#</span>* "braille" offers the highest resolution but might not be included in all fonts.</span>
+<span class="pl-c"><span class="pl-c">#</span>* "block" has half the resolution of braille but uses more common characters.</span>
+<span class="pl-c"><span class="pl-c">#</span>* "tty" uses only 3 different symbols but will work with most fonts and should work in a real TTY.</span>
+<span class="pl-c"><span class="pl-c">#</span>* Note that "tty" only has half the horizontal resolution of the other two, so will show a shorter historical view.</span>
+graph_symbol = <span class="pl-s"><span class="pl-pds">"</span>braille<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span> Graph symbol to use for graphs in cpu box, "default", "braille", "block" or "tty".</span>
+graph_symbol_cpu = <span class="pl-s"><span class="pl-pds">"</span>default<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span> Graph symbol to use for graphs in cpu box, "default", "braille", "block" or "tty".</span>
+graph_symbol_mem = <span class="pl-s"><span class="pl-pds">"</span>default<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span> Graph symbol to use for graphs in cpu box, "default", "braille", "block" or "tty".</span>
+graph_symbol_net = <span class="pl-s"><span class="pl-pds">"</span>default<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span> Graph symbol to use for graphs in cpu box, "default", "braille", "block" or "tty".</span>
+graph_symbol_proc = <span class="pl-s"><span class="pl-pds">"</span>default<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span>* Manually set which boxes to show. Available values are "cpu mem net proc" and "gpu0" through "gpu5", separate values with whitespace.</span>
+shown_boxes = <span class="pl-s"><span class="pl-pds">"</span>proc cpu mem net<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span>* Update time in milliseconds, recommended 2000 ms or above for better sample times for graphs.</span>
+update_ms = 1500
+
+<span class="pl-c"><span class="pl-c">#</span>* Processes sorting, "pid" "program" "arguments" "threads" "user" "memory" "cpu lazy" "cpu responsive",</span>
+<span class="pl-c"><span class="pl-c">#</span>* "cpu lazy" sorts top process over time (easier to follow), "cpu responsive" updates top process directly.</span>
+proc_sorting = <span class="pl-s"><span class="pl-pds">"</span>cpu lazy<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span>* Reverse sorting order, True or False.</span>
+proc_reversed = False
+
+<span class="pl-c"><span class="pl-c">#</span>* Show processes as a tree.</span>
+proc_tree = False
+
+<span class="pl-c"><span class="pl-c">#</span>* Use the cpu graph colors in the process list.</span>
+proc_colors = True
+
+<span class="pl-c"><span class="pl-c">#</span>* Use a darkening gradient in the process list.</span>
+proc_gradient = True
+
+<span class="pl-c"><span class="pl-c">#</span>* If process cpu usage should be of the core it's running on or usage of the total available cpu power.</span>
+proc_per_core = True
+
+<span class="pl-c"><span class="pl-c">#</span>* Show process memory as bytes instead of percent.</span>
+proc_mem_bytes = True
+
+<span class="pl-c"><span class="pl-c">#</span>* Use /proc/[pid]/smaps for memory information in the process info box (very slow but more accurate)</span>
+proc_info_smaps = False
+
+<span class="pl-c"><span class="pl-c">#</span>* Show proc box on left side of screen instead of right.</span>
+proc_left = False
+
+<span class="pl-c"><span class="pl-c">#</span>* Sets the CPU stat shown in upper half of the CPU graph, "total" is always available.</span>
+<span class="pl-c"><span class="pl-c">#</span>* Select from a list of detected attributes from the options menu.</span>
+cpu_graph_upper = <span class="pl-s"><span class="pl-pds">"</span>total<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span>* Sets the CPU stat shown in lower half of the CPU graph, "total" is always available.</span>
+<span class="pl-c"><span class="pl-c">#</span>* Select from a list of detected attributes from the options menu.</span>
+cpu_graph_lower = <span class="pl-s"><span class="pl-pds">"</span>total<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span>* Toggles if the lower CPU graph should be inverted.</span>
+cpu_invert_lower = True
+
+<span class="pl-c"><span class="pl-c">#</span>* Set to True to completely disable the lower CPU graph.</span>
+cpu_single_graph = False
+
+<span class="pl-c"><span class="pl-c">#</span>* Show cpu box at bottom of screen instead of top.</span>
+cpu_bottom = False
+
+<span class="pl-c"><span class="pl-c">#</span>* Shows the system uptime in the CPU box.</span>
+show_uptime = True
+
+<span class="pl-c"><span class="pl-c">#</span>* Show cpu temperature.</span>
+check_temp = True
+
+<span class="pl-c"><span class="pl-c">#</span>* Which sensor to use for cpu temperature, use options menu to select from list of available sensors.</span>
+cpu_sensor = <span class="pl-s"><span class="pl-pds">"</span>Auto<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span>* Show temperatures for cpu cores also if check_temp is True and sensors has been found.</span>
+show_coretemp = True
+
+<span class="pl-c"><span class="pl-c">#</span>* Set a custom mapping between core and coretemp, can be needed on certain cpus to get correct temperature for correct core.</span>
+<span class="pl-c"><span class="pl-c">#</span>* Use lm-sensors or similar to see which cores are reporting temperatures on your machine.</span>
+<span class="pl-c"><span class="pl-c">#</span>* Format "x:y" x=core with wrong temp, y=core with correct temp, use space as separator between multiple entries.</span>
+<span class="pl-c"><span class="pl-c">#</span>* Example: "4:0 5:1 6:3"</span>
+cpu_core_map = <span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span>* Which temperature scale to use, available values: "celsius", "fahrenheit", "kelvin" and "rankine".</span>
+temp_scale = <span class="pl-s"><span class="pl-pds">"</span>celsius<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span>* Use base 10 for bits/bytes sizes, KB = 1000 instead of KiB = 1024.</span>
+base_10_sizes = False
+
+<span class="pl-c"><span class="pl-c">#</span>* Show CPU frequency.</span>
+show_cpu_freq = True
+
+<span class="pl-c"><span class="pl-c">#</span>* Draw a clock at top of screen, formatting according to strftime, empty string to disable.</span>
+<span class="pl-c"><span class="pl-c">#</span>* Special formatting: /host = hostname | /user = username | /uptime = system uptime</span>
+clock_format = <span class="pl-s"><span class="pl-pds">"</span>%H:%M<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span>* Update main ui in background when menus are showing, set this to false if the menus is flickering too much for comfort.</span>
+background_update = True
+
+<span class="pl-c"><span class="pl-c">#</span>* Custom cpu model name, empty string to disable.</span>
+custom_cpu_name = <span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span>* Optional filter for shown disks, should be full path of a mountpoint, separate multiple values with whitespace " ".</span>
+<span class="pl-c"><span class="pl-c">#</span>* Begin line with "exclude=" to change to exclude filter, otherwise defaults to "most include" filter. Example: disks_filter="exclude=/boot /home/user".</span>
+disks_filter = <span class="pl-s"><span class="pl-pds">"</span>exclude=/boot<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span>* Show graphs instead of meters for memory values.</span>
+mem_graphs = True
+
+<span class="pl-c"><span class="pl-c">#</span>* Show mem box below net box instead of above.</span>
+mem_below_net = False
+
+<span class="pl-c"><span class="pl-c">#</span>* Count ZFS ARC in cached and available memory.</span>
+zfs_arc_cached = True
+
+<span class="pl-c"><span class="pl-c">#</span>* If swap memory should be shown in memory box.</span>
+show_swap = True
+
+<span class="pl-c"><span class="pl-c">#</span>* Show swap as a disk, ignores show_swap value above, inserts itself after first disk.</span>
+swap_disk = True
+
+<span class="pl-c"><span class="pl-c">#</span>* If mem box should be split to also show disks info.</span>
+show_disks = True
+
+<span class="pl-c"><span class="pl-c">#</span>* Filter out non physical disks. Set this to False to include network disks, RAM disks and similar.</span>
+only_physical = True
+
+<span class="pl-c"><span class="pl-c">#</span>* Read disks list from /etc/fstab. This also disables only_physical.</span>
+use_fstab = False
+
+<span class="pl-c"><span class="pl-c">#</span>* Set to true to show available disk space for privileged users.</span>
+disk_free_priv = False
+
+<span class="pl-c"><span class="pl-c">#</span>* Toggles if io activity % (disk busy time) should be shown in regular disk usage view.</span>
+show_io_stat = True
+
+<span class="pl-c"><span class="pl-c">#</span>* Toggles io mode for disks, showing big graphs for disk read/write speeds.</span>
+io_mode = False
+
+<span class="pl-c"><span class="pl-c">#</span>* Set to True to show combined read/write io graphs in io mode.</span>
+io_graph_combined = False
+
+<span class="pl-c"><span class="pl-c">#</span>* Set the top speed for the io graphs in MiB/s (100 by default), use format "mountpoint:speed" separate disks with whitespace " ".</span>
+<span class="pl-c"><span class="pl-c">#</span>* Example: "/mnt/media:100 /:20 /boot:1".</span>
+io_graph_speeds = <span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span>* Set fixed values for network graphs in Mebibits. Is only used if net_auto is also set to False.</span>
+net_download = 100
+
+net_upload = 100
+
+<span class="pl-c"><span class="pl-c">#</span>* Use network graphs auto rescaling mode, ignores any values set above and rescales down to 10 Kibibytes at the lowest.</span>
+net_auto = True
+
+<span class="pl-c"><span class="pl-c">#</span>* Sync the auto scaling for download and upload to whichever currently has the highest scale.</span>
+net_sync = False
+
+<span class="pl-c"><span class="pl-c">#</span>* Starts with the Network Interface specified here.</span>
+net_iface = <span class="pl-s"><span class="pl-pds">"</span>br0<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span>* Show battery stats in top right if battery is present.</span>
+show_battery = True
+
+<span class="pl-c"><span class="pl-c">#</span>* Which battery to use if multiple are present. "Auto" for auto detection.</span>
+selected_battery = <span class="pl-s"><span class="pl-pds">"</span>Auto<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span>* Set loglevel for "~/.config/btop/btop.log" levels are: "ERROR" "WARNING" "INFO" "DEBUG".</span>
+<span class="pl-c"><span class="pl-c">#</span>* The level set includes all lower levels, i.e. "DEBUG" will show all logging info.</span>
+log_level = <span class="pl-s"><span class="pl-pds">"</span>DEBUG<span class="pl-pds">"</span></span></pre></div>
+<h4 dir="auto">Command line options</h4>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="Usage: btop [OPTIONS]
+
+Options:
+  -c, --config &lt;file&gt;  Path to a config file
+  -d, --debug          Start in debug mode with additional logs and metrics
+      --force-utf      Override automatic UTF locale detection
+  -l, --low-color      Disable true color, 256 colors only
+  -p, --preset &lt;id&gt;    Start with a preset (0-9)
+  -t, --tty            Force tty mode with ANSI graph symbols and 16 colors only
+      --no-tty         Force disable tty mode
+  -u, --update &lt;ms&gt;    Set an initial update rate in milliseconds
+  -h, --help           Show this help message and exit
+  -V, --version        Show a version message and exit (more with --version)"><pre lang="text" class="notranslate"><code class="notranslate">Usage: btop [OPTIONS]
+
+Options:
+  -c, --config &lt;file&gt;  Path to a config file
+  -d, --debug          Start in debug mode with additional logs and metrics
+      --force-utf      Override automatic UTF locale detection
+  -l, --low-color      Disable true color, 256 colors only
+  -p, --preset &lt;id&gt;    Start with a preset (0-9)
+  -t, --tty            Force tty mode with ANSI graph symbols and 16 colors only
+      --no-tty         Force disable tty mode
+  -u, --update &lt;ms&gt;    Set an initial update rate in milliseconds
+  -h, --help           Show this help message and exit
+  -V, --version        Show a version message and exit (more with --version)
+</code></pre></div>
+<h2 dir="auto">LICENSE</h2>
+<p dir="auto"><a href="LICENSE">Apache License 2.0</a></p></div></div></div><div class="gg-issues-prev-next"><a class="prev" href="/issues/56"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M2 3h17a2 2 0 0 1 2 2v4h-2V5H2v14h17v-4h2v4a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m15 12v-2h7v-2h-7V9l-4 3l4 3M4 13h7v-2H4v2m0-4h7V7H4v2m0 8h4v-2H4v2Z"/></svg>Canop/broot: 获取目录的概览，即使是一个大目录也能快速浏览</span></a><a class="next" href="/issues/58"><span>moby/buildkit: 增强 Docker build 的功能，支持并行构建、缓存、镜像导出等功能<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M22 3H5a2 2 0 0 0-2 2v4h2V5h17v14H5v-4H3v4a2 2 0 0 0 2 2h17a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2M7 15v-2H0v-2h7V9l4 3l-4 3m13-2h-7v-2h7v2m0-4h-7V7h7v2m-3 8h-4v-2h4v2Z"/></svg></span></a></div><div class="answer-content"><div class="comments"></div></div></div></div></main><footer><div class="license"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img style="width:60px;height:21px" src="/static/license-83d755bd405fbe51c87dc088baf26299.svg" alt="License"/></a></div><div class="copyright"><span>Copyright ©<!-- --> <!-- -->2025<!-- -->-present</span><a class="owner" href="https://github.com/awesome-ops/awesome-ops.github.io" target="_blank">awesome-ops/awesome-ops.github.io</a>.</div><span class="powered">Powered by<a class="owner" title="GG (Gatsby + GitHub) - A gatsby website builder based on github discussions" href="https://github.com/lencx/gg" target="_blank">gg</a></span></footer></div><div id="gg-backtop" class="hide"><svg viewBox="0 0 98 125" xmlns="http://www.w3.org/2000/svg"><path d="m.41627505 120.505813c.36557376-2.799314 38.38567845-112.09375627 40.40633855-116.52273479 2.0206601-4.42897853 7.0443939-6.06190829 10.0049342.20172081 1.9736935 4.17575274 17.3630227 42.22464148 46.1679874 114.14666598.3068629 1.030234.4237748 1.755017.3507358 2.174348-.4483666 2.574161-2.3292736 3.429521-4.6125739 2.516093-15.0683018-6.028033-36.2681037-23.1692513-43.8663627-23.1692513-7.5982589 0-27.0568176 12.9171643-43.18383202 23.1692513-.96511235.613531-1.91473089 1.069619-2.88840599 1.149501s-2.74439509-.86628-2.37882134-3.665594z" fill="var(--gg-icon)" fill-rule="evenodd"></path></svg></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/issues/57";window.___webpackCompilationHash="24ed58306e97f1c1f657";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-97dd130bca8800dece7d.js"],"app":["/app-7383f855f15f63329e5f.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-2d05d9e504a620062115.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-408674d1ce0d96365c3f.js"],"component---src-templates-archives-tsx":["/component---src-templates-archives-tsx-06d205e572129bb8618c.js"],"component---src-templates-issues-tsx":["/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js"],"component---src-templates-labels-category-tsx":["/component---src-templates-labels-category-tsx-5456164ce90934624119.js"],"component---src-templates-labels-tsx":["/component---src-templates-labels-tsx-ee7b95bd8aa06617f372.js"],"component---src-templates-nav-category-tsx":["/component---src-templates-nav-category-tsx-91c7d8cb3880e3e0fda2.js"],"component---src-templates-nav-labels-tsx":["/component---src-templates-nav-labels-tsx-ae07fd835c5a914973d3.js"]};/*]]>*/</script><script src="/polyfill-97dd130bca8800dece7d.js" nomodule=""></script><script src="/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js" async=""></script><script src="/fc369a2ef6459b03f38591687cef4a587495c716-f468df31cbdaf6ffa970.js" async=""></script><script src="/app-7383f855f15f63329e5f.js" async=""></script><script src="/framework-86c8a5417e68dc3cefff.js" async=""></script><script src="/webpack-runtime-4fee7405b8a071e8c34e.js" async=""></script></body></html>

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/joedog",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"JoeDog/siege: Siege 是一款用于 http 负载测试和基准测试的工具","number":511}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9hmFA","name":"JoeDog","color":"1a4859","description":null},"name":"JoeDog","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}
