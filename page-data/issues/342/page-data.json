@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/342",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":342,"previous":{"title":"robusta-dev/kubewatch: 监控 k8s 事件并触发相应的处理器","number":341},"next":{"title":"huichen/kunlun: 基于 Golang 实现的 Git 仓库代码搜索引擎，只支持检索本地代码仓库","number":343}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

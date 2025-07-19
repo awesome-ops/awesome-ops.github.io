@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/340",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":340,"previous":{"title":"benc-uk/kubeview: Kubernetes 集群可视化器和图形浏览器","number":339},"next":{"title":"robusta-dev/kubewatch: 监控 k8s 事件并触发相应的处理器","number":341}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

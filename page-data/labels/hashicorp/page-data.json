@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/hashicorp",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"hashicorp/consul: 一种分布式、高可用性和数据中心感知的解决方案，用于跨动态分布式基础设施连接和配置应用程序。","number":97}},{"node":{"title":"hashicorp/packer: 一个支持基于配置文件构建机器镜像的工具","number":426}},{"node":{"title":"hashicorp/terraform: Terraform 让您能够安全且可预测地创建、更改和改进基础设施。","number":559}},{"node":{"title":"hashicorp/vault: 一个用于密钥管理、加密服务和访问权限管理的工具","number":587}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7U2IQ","name":"hashicorp","color":"5ab310","description":null},"name":"hashicorp","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

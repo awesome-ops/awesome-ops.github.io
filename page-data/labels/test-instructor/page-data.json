@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/test-instructor",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"test-instructor/yangfan: 一款高效、可靠的自动化测试平台，旨在帮助团队提升测试效率、降低测试成本","number":619}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9ip3A","name":"test-instructor","color":"e95091","description":null},"name":"test-instructor","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

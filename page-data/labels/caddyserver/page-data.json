@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/caddyserver",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"caddyserver/caddy: Caddy是一款基于Go语言编写的强大且可扩展的平台，可以给你的站点、服务和应用程序提供服务。","number":63}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UMVg","name":"caddyserver","color":"cd3adc","description":null},"name":"caddyserver","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

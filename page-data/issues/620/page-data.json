@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/620",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":620,"previous":{"title":"test-instructor/yangfan: 一款高效、可靠的自动化测试平台，旨在帮助团队提升测试效率、降低测试成本","number":619},"next":{"title":"cookieY/Yearning: 简单, 高效的 MySQL 审计平台","number":621}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

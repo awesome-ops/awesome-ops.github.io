@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/186",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":186,"previous":{"title":"AkashRajpurohit/git-sync: 一款命令行工具，旨在帮助您备份 Git 仓库。","number":185},"next":{"title":"nicolargo/glances: 一款开源的跨平台系统监控工具。它可以实时监控系统的各个方面，例如 CPU、内存、磁盘、网络使用情况等。","number":187}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

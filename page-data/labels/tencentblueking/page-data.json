@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/tencentblueking",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"TencentBlueKing/bk-cmdb: 腾讯蓝鲸配置平台是一个面向资产及应用的企业级配置管理平台","number":52}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7T9KA","name":"TencentBlueKing","color":"03a685","description":null},"name":"TencentBlueKing","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

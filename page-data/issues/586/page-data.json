@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/586",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":586,"previous":{"title":"Safe3/uuWAF: 一款工业级免费、高性能、高扩展，支持AI和语义引擎的Web应用和API安全防护产品。","number":585},"next":{"title":"hashicorp/vault: 一个用于密钥管理、加密服务和访问权限管理的工具","number":587}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

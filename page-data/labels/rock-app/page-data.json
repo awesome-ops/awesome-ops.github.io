@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/rock-app",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"rock-app/fabu.love: 应用发布平台类似 fir.im/蒲公英, 支持检查更新, 灰度发布等","number":166}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WPsA","name":"rock-app","color":"f4e15a","description":null},"name":"rock-app","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,583 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/><meta name="theme-color" content="#FFFFFF"/><meta name="generator" content="Gatsby 4.11.3"/><style data-href="/styles.3aaba633489943369223.css" data-identity="gatsby-global-css">@media (prefers-color-scheme:dark){.markdown-body{--color-prettylights-syntax-comment:#8b949e;--color-prettylights-syntax-constant:#79c0ff;--color-prettylights-syntax-entity:#d2a8ff;--color-prettylights-syntax-storage-modifier-import:#c9d1d9;--color-prettylights-syntax-entity-tag:#7ee787;--color-prettylights-syntax-keyword:#ff7b72;--color-prettylights-syntax-string:#a5d6ff;--color-prettylights-syntax-variable:#ffa657;--color-prettylights-syntax-brackethighlighter-unmatched:#f85149;--color-prettylights-syntax-invalid-illegal-text:#f0f6fc;--color-prettylights-syntax-invalid-illegal-bg:#8e1519;--color-prettylights-syntax-carriage-return-text:#f0f6fc;--color-prettylights-syntax-carriage-return-bg:#b62324;--color-prettylights-syntax-string-regexp:#7ee787;--color-prettylights-syntax-markup-list:#f2cc60;--color-prettylights-syntax-markup-heading:#1f6feb;--color-prettylights-syntax-markup-italic:#c9d1d9;--color-prettylights-syntax-markup-bold:#c9d1d9;--color-prettylights-syntax-markup-deleted-text:#ffdcd7;--color-prettylights-syntax-markup-deleted-bg:#67060c;--color-prettylights-syntax-markup-inserted-text:#aff5b4;--color-prettylights-syntax-markup-inserted-bg:#033a16;--color-prettylights-syntax-markup-changed-text:#ffdfb6;--color-prettylights-syntax-markup-changed-bg:#5a1e02;--color-prettylights-syntax-markup-ignored-text:#c9d1d9;--color-prettylights-syntax-markup-ignored-bg:#1158c7;--color-prettylights-syntax-meta-diff-range:#d2a8ff;--color-prettylights-syntax-brackethighlighter-angle:#8b949e;--color-prettylights-syntax-sublimelinter-gutter-mark:#484f58;--color-prettylights-syntax-constant-other-reference-link:#a5d6ff;--color-fg-default:#c9d1d9;--color-fg-muted:#8b949e;--color-fg-subtle:#484f58;--color-canvas-default:#0d1117;--color-canvas-subtle:#161b22;--color-border-default:#30363d;--color-border-muted:#21262d;--color-neutral-muted:hsla(215,8%,47%,.4);--color-accent-fg:#58a6ff;--color-accent-emphasis:#1f6feb;--color-attention-subtle:rgba(187,128,9,.15);--color-danger-fg:#f85149;color-scheme:dark}}@media (prefers-color-scheme:light){.markdown-body{--color-prettylights-syntax-comment:#6e7781;--color-prettylights-syntax-constant:#0550ae;--color-prettylights-syntax-entity:#8250df;--color-prettylights-syntax-storage-modifier-import:#24292f;--color-prettylights-syntax-entity-tag:#116329;--color-prettylights-syntax-keyword:#cf222e;--color-prettylights-syntax-string:#0a3069;--color-prettylights-syntax-variable:#953800;--color-prettylights-syntax-brackethighlighter-unmatched:#82071e;--color-prettylights-syntax-invalid-illegal-text:#f6f8fa;--color-prettylights-syntax-invalid-illegal-bg:#82071e;--color-prettylights-syntax-carriage-return-text:#f6f8fa;--color-prettylights-syntax-carriage-return-bg:#cf222e;--color-prettylights-syntax-string-regexp:#116329;--color-prettylights-syntax-markup-list:#3b2300;--color-prettylights-syntax-markup-heading:#0550ae;--color-prettylights-syntax-markup-italic:#24292f;--color-prettylights-syntax-markup-bold:#24292f;--color-prettylights-syntax-markup-deleted-text:#82071e;--color-prettylights-syntax-markup-deleted-bg:#ffebe9;--color-prettylights-syntax-markup-inserted-text:#116329;--color-prettylights-syntax-markup-inserted-bg:#dafbe1;--color-prettylights-syntax-markup-changed-text:#953800;--color-prettylights-syntax-markup-changed-bg:#ffd8b5;--color-prettylights-syntax-markup-ignored-text:#eaeef2;--color-prettylights-syntax-markup-ignored-bg:#0550ae;--color-prettylights-syntax-meta-diff-range:#8250df;--color-prettylights-syntax-brackethighlighter-angle:#57606a;--color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;--color-prettylights-syntax-constant-other-reference-link:#0a3069;--color-fg-default:#24292f;--color-fg-muted:#57606a;--color-fg-subtle:#6e7781;--color-canvas-default:#fff;--color-canvas-subtle:#f6f8fa;--color-border-default:#d0d7de;--color-border-muted:#d8dee4;--color-neutral-muted:rgba(175,184,193,.2);--color-accent-fg:#0969da;--color-accent-emphasis:#0969da;--color-attention-subtle:#fff8c5;--color-danger-fg:#cf222e;color-scheme:light}}.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;word-wrap:break-word;background-color:var(--color-canvas-default);color:var(--color-fg-default);font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:16px;line-height:1.5;margin:0}.markdown-body h1:hover .anchor .octicon-link:before,.markdown-body h2:hover .anchor .octicon-link:before,.markdown-body h3:hover .anchor .octicon-link:before,.markdown-body h4:hover .anchor .octicon-link:before,.markdown-body h5:hover .anchor .octicon-link:before,.markdown-body h6:hover .anchor .octicon-link:before{background-color:currentColor;content:" ";display:inline-block;height:16px;-webkit-mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');width:16px}.markdown-body details,.markdown-body figcaption,.markdown-body figure{display:block}.markdown-body summary{display:list-item}.markdown-body [hidden]{display:none!important}.markdown-body a{background-color:transparent;color:var(--color-accent-fg);text-decoration:none}.markdown-body a:active,.markdown-body a:hover{outline-width:0}.markdown-body abbr[title]{border-bottom:none;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}.markdown-body b,.markdown-body strong{font-weight:600}.markdown-body dfn{font-style:italic}.markdown-body h1{border-bottom:1px solid var(--color-border-muted);font-size:2em;font-weight:600;margin:.67em 0;padding-bottom:.3em}.markdown-body mark{background-color:var(--color-attention-subtle);color:var(--color-text-primary)}.markdown-body small{font-size:90%}.markdown-body sub,.markdown-body sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}.markdown-body sub{bottom:-.25em}.markdown-body sup{top:-.5em}.markdown-body img{background-color:var(--color-canvas-default);border-style:none;box-sizing:content-box;max-width:100%}.markdown-body code,.markdown-body kbd,.markdown-body pre,.markdown-body samp{font-family:monospace,monospace;font-size:1em}.markdown-body figure{margin:1em 40px}.markdown-body hr{background:transparent;background-color:var(--color-border-default);border:0;box-sizing:content-box;height:.25em;margin:24px 0;overflow:hidden;padding:0}.markdown-body input{font:inherit;font-family:inherit;font-size:inherit;line-height:inherit;margin:0;overflow:visible}.markdown-body [type=button],.markdown-body [type=reset],.markdown-body [type=submit]{-webkit-appearance:button}.markdown-body [type=button]::-moz-focus-inner,.markdown-body [type=reset]::-moz-focus-inner,.markdown-body [type=submit]::-moz-focus-inner{border-style:none;padding:0}.markdown-body [type=button]:-moz-focusring,.markdown-body [type=reset]:-moz-focusring,.markdown-body [type=submit]:-moz-focusring{outline:1px dotted ButtonText}.markdown-body [type=checkbox],.markdown-body [type=radio]{box-sizing:border-box;padding:0}.markdown-body [type=number]::-webkit-inner-spin-button,.markdown-body [type=number]::-webkit-outer-spin-button{height:auto}.markdown-body [type=search]{-webkit-appearance:textfield;outline-offset:-2px}.markdown-body [type=search]::-webkit-search-cancel-button,.markdown-body [type=search]::-webkit-search-decoration{-webkit-appearance:none}.markdown-body ::-webkit-input-placeholder{color:inherit;opacity:.54}.markdown-body ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}.markdown-body a:hover{text-decoration:underline}.markdown-body hr:after,.markdown-body hr:before{content:"";display:table}.markdown-body hr:after{clear:both}.markdown-body table{border-collapse:collapse;border-spacing:0;display:block;max-width:100%;overflow:auto;width:-webkit-max-content;width:max-content}.markdown-body td,.markdown-body th{padding:0}.markdown-body details summary{cursor:pointer}.markdown-body details:not([open])>:not(summary){display:none!important}.markdown-body kbd{background-color:var(--color-canvas-subtle);border-bottom-color:var(--color-neutral-muted);border:1px solid var(--color-neutral-muted);border-radius:6px;box-shadow:inset 0 -1px 0 var(--color-neutral-muted);color:var(--color-fg-default);display:inline-block;font:11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;line-height:10px;padding:3px 5px;vertical-align:middle}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{font-weight:600;line-height:1.25;margin-bottom:16px;margin-top:24px}.markdown-body h2{border-bottom:1px solid var(--color-border-muted);font-size:1.5em;font-weight:600;padding-bottom:.3em}.markdown-body h3{font-size:1.25em;font-weight:600}.markdown-body h4{font-size:1em;font-weight:600}.markdown-body h5{font-size:.875em;font-weight:600}.markdown-body h6{color:var(--color-fg-muted);font-size:.85em;font-weight:600}.markdown-body p{margin-bottom:10px;margin-top:0}.markdown-body blockquote{border-left:.25em solid var(--color-border-default);color:var(--color-fg-muted);margin:0;padding:0 1em}.markdown-body ol,.markdown-body ul{margin-bottom:0;margin-top:0;padding-left:2em}.markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}.markdown-body ol ol ol,.markdown-body ol ul ol,.markdown-body ul ol ol,.markdown-body ul ul ol{list-style-type:lower-alpha}.markdown-body dd{margin-left:0}.markdown-body code,.markdown-body pre,.markdown-body tt{font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;font-size:12px}.markdown-body pre{word-wrap:normal;margin-bottom:0;margin-top:0}.markdown-body .octicon{fill:currentColor;display:inline-block;overflow:visible!important;vertical-align:text-bottom}.markdown-body ::-webkit-input-placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body :-ms-input-placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body ::placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body input::-webkit-inner-spin-button,.markdown-body input::-webkit-outer-spin-button{-webkit-appearance:none;appearance:none;margin:0}.markdown-body .pl-c{color:var(--color-prettylights-syntax-comment)}.markdown-body .pl-c1,.markdown-body .pl-s .pl-v{color:var(--color-prettylights-syntax-constant)}.markdown-body .pl-e,.markdown-body .pl-en{color:var(--color-prettylights-syntax-entity)}.markdown-body .pl-s .pl-s1,.markdown-body .pl-smi{color:var(--color-prettylights-syntax-storage-modifier-import)}.markdown-body .pl-ent{color:var(--color-prettylights-syntax-entity-tag)}.markdown-body .pl-k{color:var(--color-prettylights-syntax-keyword)}.markdown-body .pl-pds,.markdown-body .pl-s,.markdown-body .pl-s .pl-pse .pl-s1,.markdown-body .pl-sr,.markdown-body .pl-sr .pl-cce,.markdown-body .pl-sr .pl-sra,.markdown-body .pl-sr .pl-sre{color:var(--color-prettylights-syntax-string)}.markdown-body .pl-smw,.markdown-body .pl-v{color:var(--color-prettylights-syntax-variable)}.markdown-body .pl-bu{color:var(--color-prettylights-syntax-brackethighlighter-unmatched)}.markdown-body .pl-ii{background-color:var(--color-prettylights-syntax-invalid-illegal-bg);color:var(--color-prettylights-syntax-invalid-illegal-text)}.markdown-body .pl-c2{background-color:var(--color-prettylights-syntax-carriage-return-bg);color:var(--color-prettylights-syntax-carriage-return-text)}.markdown-body .pl-sr .pl-cce{color:var(--color-prettylights-syntax-string-regexp);font-weight:700}.markdown-body .pl-ml{color:var(--color-prettylights-syntax-markup-list)}.markdown-body .pl-mh,.markdown-body .pl-mh .pl-en,.markdown-body .pl-ms{color:var(--color-prettylights-syntax-markup-heading);font-weight:700}.markdown-body .pl-mi{color:var(--color-prettylights-syntax-markup-italic);font-style:italic}.markdown-body .pl-mb{color:var(--color-prettylights-syntax-markup-bold);font-weight:700}.markdown-body .pl-md{background-color:var(--color-prettylights-syntax-markup-deleted-bg);color:var(--color-prettylights-syntax-markup-deleted-text)}.markdown-body .pl-mi1{background-color:var(--color-prettylights-syntax-markup-inserted-bg);color:var(--color-prettylights-syntax-markup-inserted-text)}.markdown-body .pl-mc{background-color:var(--color-prettylights-syntax-markup-changed-bg);color:var(--color-prettylights-syntax-markup-changed-text)}.markdown-body .pl-mi2{background-color:var(--color-prettylights-syntax-markup-ignored-bg);color:var(--color-prettylights-syntax-markup-ignored-text)}.markdown-body .pl-mdr{color:var(--color-prettylights-syntax-meta-diff-range);font-weight:700}.markdown-body .pl-ba{color:var(--color-prettylights-syntax-brackethighlighter-angle)}.markdown-body .pl-sg{color:var(--color-prettylights-syntax-sublimelinter-gutter-mark)}.markdown-body .pl-corl{color:var(--color-prettylights-syntax-constant-other-reference-link);text-decoration:underline}.markdown-body [data-catalyst]{display:block}.markdown-body g-emoji{font-family:Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-size:1em;font-style:normal!important;font-weight:400;line-height:1;vertical-align:-.075em}.markdown-body g-emoji img{height:1em;width:1em}.markdown-body:after,.markdown-body:before{content:"";display:table}.markdown-body:after{clear:both}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body .absent{color:var(--color-danger-fg)}.markdown-body .anchor{float:left;line-height:1;margin-left:-20px;padding-right:4px}.markdown-body .anchor:focus{outline:none}.markdown-body blockquote,.markdown-body details,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-bottom:16px;margin-top:0}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body sup>a:before{content:"["}.markdown-body sup>a:after{content:"]"}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:var(--color-fg-default);vertical-align:middle;visibility:hidden}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}.markdown-body h1 code,.markdown-body h1 tt,.markdown-body h2 code,.markdown-body h2 tt,.markdown-body h3 code,.markdown-body h3 tt,.markdown-body h4 code,.markdown-body h4 tt,.markdown-body h5 code,.markdown-body h5 tt,.markdown-body h6 code,.markdown-body h6 tt{font-size:inherit;padding:0 .2em}.markdown-body ol.no-list,.markdown-body ul.no-list{list-style-type:none;padding:0}.markdown-body ol[type="1"]{list-style-type:decimal}.markdown-body ol[type=a]{list-style-type:lower-alpha}.markdown-body ol[type=i]{list-style-type:lower-roman}.markdown-body div>ol:not([type]){list-style-type:decimal}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-bottom:0;margin-top:0}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dl{padding:0}.markdown-body dl dt{font-size:1em;font-style:italic;font-weight:600;margin-top:16px;padding:0}.markdown-body dl dd{margin-bottom:16px;padding:0 16px}.markdown-body table th{font-weight:600}.markdown-body table td,.markdown-body table th{border:1px solid var(--color-border-default);padding:6px 13px}.markdown-body table tr{background-color:var(--color-canvas-default);border-top:1px solid var(--color-border-muted)}.markdown-body table tr:nth-child(2n){background-color:var(--color-canvas-subtle)}.markdown-body table img{background-color:transparent}.markdown-body img[align=right]{padding-left:20px}.markdown-body img[align=left]{padding-right:20px}.markdown-body .emoji{background-color:transparent;max-width:none;vertical-align:text-top}.markdown-body span.frame{display:block;overflow:hidden}.markdown-body span.frame>span{border:1px solid var(--color-border-default);display:block;float:left;margin:13px 0 0;overflow:hidden;padding:7px;width:auto}.markdown-body span.frame span img{display:block;float:left}.markdown-body span.frame span span{clear:both;color:var(--color-fg-default);display:block;padding:5px 0 0}.markdown-body span.align-center{clear:both;display:block;overflow:hidden}.markdown-body span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}.markdown-body span.align-center span img{margin:0 auto;text-align:center}.markdown-body span.align-right{clear:both;display:block;overflow:hidden}.markdown-body span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}.markdown-body span.align-right span img{margin:0;text-align:right}.markdown-body span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}.markdown-body span.float-left span{margin:13px 0 0}.markdown-body span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}.markdown-body span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}.markdown-body code,.markdown-body tt{background-color:var(--color-neutral-muted);border-radius:6px;font-size:85%;margin:0;padding:.2em .4em}.markdown-body code br,.markdown-body tt br{display:none}.markdown-body del code{text-decoration:inherit}.markdown-body pre code{font-size:100%}.markdown-body pre>code{background:transparent;border:0;margin:0;padding:0;white-space:pre;word-break:normal}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{background-color:var(--color-canvas-subtle);border-radius:6px;font-size:85%;line-height:1.45;overflow:auto;padding:16px}.markdown-body pre code,.markdown-body pre tt{word-wrap:normal;background-color:transparent;border:0;display:inline;line-height:inherit;margin:0;max-width:auto;overflow:visible;padding:0}.markdown-body .csv-data td,.markdown-body .csv-data th{font-size:12px;line-height:1;overflow:hidden;padding:5px;text-align:left;white-space:nowrap}.markdown-body .csv-data .blob-num{background:var(--color-canvas-default);border:0;padding:10px 8px 9px;text-align:right}.markdown-body .csv-data tr{border-top:0}.markdown-body .csv-data th{background:var(--color-canvas-subtle);border-top:0;font-weight:600}.markdown-body .footnotes{border-top:1px solid var(--color-border-default);color:var(--color-fg-muted);font-size:12px}.markdown-body .footnotes ol{padding-left:16px}.markdown-body .footnotes li{position:relative}.markdown-body .footnotes li:target:before{border:2px solid var(--color-accent-emphasis);border-radius:6px;bottom:-8px;content:"";left:-24px;pointer-events:none;position:absolute;right:-8px;top:-8px}.markdown-body .footnotes li:target{color:var(--color-fg-default)}.markdown-body .footnotes .data-footnote-backref g-emoji{font-family:monospace}.markdown-body .task-list-item{list-style-type:none}.markdown-body .task-list-item label{font-weight:400}.markdown-body .task-list-item.enabled label{cursor:pointer}.markdown-body .task-list-item+.task-list-item{margin-top:3px}.markdown-body .task-list-item .handle{display:none}.markdown-body .task-list-item-checkbox{margin:0 .2em .25em -1.6em;vertical-align:middle}.markdown-body .contains-task-list:dir(rtl) .task-list-item-checkbox{margin:0 -1.6em .25em .2em}.markdown-body ::-webkit-calendar-picker-indicator{-webkit-filter:invert(50%);filter:invert(50%)}@font-face{font-family:lab;src:url(/static/lab-b3a92fdc7ccdc8ebf471556b2e7b1018.woff2) format("woff2")}:root{--font-base:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;--layout-header-height:56px;--layout-footer-height:100px;--gg-border:hsla(0,0%,71%,.1)}*{box-sizing:border-box;transition:all .3s ease-out}html.dark{--theme-content-background-color:#232629;--theme-header-background-color:#232629;--theme-footer-background-color:#232629;--theme-text:#d8d8d8;--gg-logo:#d8d8d8;--gg-icon:#75757a}html.light{--theme-content-background-color:#fff;--theme-header-background-color:#fafafa;--theme-footer-background-color:#fefefe;--theme-text:#232629;--gg-logo:#232629;--gg-icon:#a5a5ac}body{font-family:var(--font-base);margin:0;padding:0}.icon-action{cursor:pointer;user-select:none}.page-title{align-items:center;display:flex;font-size:20px;font-weight:700;justify-content:center;margin-bottom:20px;text-align:center}.page-title .icon{margin-right:10px}.text-center{text-align:center}.gg-empty{color:hsla(0,0%,71%,.5);font-size:18px}.dark .markdown-body{--color-prettylights-syntax-comment:#8b949e;--color-prettylights-syntax-constant:#79c0ff;--color-prettylights-syntax-entity:#d2a8ff;--color-prettylights-syntax-storage-modifier-import:#c9d1d9;--color-prettylights-syntax-entity-tag:#7ee787;--color-prettylights-syntax-keyword:#ff7b72;--color-prettylights-syntax-string:#a5d6ff;--color-prettylights-syntax-variable:#ffa657;--color-prettylights-syntax-brackethighlighter-unmatched:#f85149;--color-prettylights-syntax-invalid-illegal-text:#f0f6fc;--color-prettylights-syntax-invalid-illegal-bg:#8e1519;--color-prettylights-syntax-carriage-return-text:#f0f6fc;--color-prettylights-syntax-carriage-return-bg:#b62324;--color-prettylights-syntax-string-regexp:#7ee787;--color-prettylights-syntax-markup-list:#f2cc60;--color-prettylights-syntax-markup-heading:#1f6feb;--color-prettylights-syntax-markup-italic:#c9d1d9;--color-prettylights-syntax-markup-bold:#c9d1d9;--color-prettylights-syntax-markup-deleted-text:#ffdcd7;--color-prettylights-syntax-markup-deleted-bg:#67060c;--color-prettylights-syntax-markup-inserted-text:#aff5b4;--color-prettylights-syntax-markup-inserted-bg:#033a16;--color-prettylights-syntax-markup-changed-text:#ffdfb6;--color-prettylights-syntax-markup-changed-bg:#5a1e02;--color-prettylights-syntax-markup-ignored-text:#c9d1d9;--color-prettylights-syntax-markup-ignored-bg:#1158c7;--color-prettylights-syntax-meta-diff-range:#d2a8ff;--color-prettylights-syntax-brackethighlighter-angle:#8b949e;--color-prettylights-syntax-sublimelinter-gutter-mark:#484f58;--color-prettylights-syntax-constant-other-reference-link:#a5d6ff;--color-fg-default:#c9d1d9;--color-fg-muted:#8b949e;--color-fg-subtle:#484f58;--color-canvas-default:#232629;--color-canvas-subtle:#161b22;--color-border-default:#30363d;--color-border-muted:#21262d;--color-neutral-muted:hsla(215,8%,47%,.4);--color-accent-fg:#58a6ff;--color-accent-emphasis:#1f6feb;--color-attention-subtle:rgba(187,128,9,.15);--color-danger-fg:#f85149;color-scheme:dark}.light .markdown-body{--color-prettylights-syntax-comment:#6e7781;--color-prettylights-syntax-constant:#0550ae;--color-prettylights-syntax-entity:#8250df;--color-prettylights-syntax-storage-modifier-import:#24292f;--color-prettylights-syntax-entity-tag:#116329;--color-prettylights-syntax-keyword:#cf222e;--color-prettylights-syntax-string:#0a3069;--color-prettylights-syntax-variable:#953800;--color-prettylights-syntax-brackethighlighter-unmatched:#82071e;--color-prettylights-syntax-invalid-illegal-text:#f6f8fa;--color-prettylights-syntax-invalid-illegal-bg:#82071e;--color-prettylights-syntax-carriage-return-text:#f6f8fa;--color-prettylights-syntax-carriage-return-bg:#cf222e;--color-prettylights-syntax-string-regexp:#116329;--color-prettylights-syntax-markup-list:#3b2300;--color-prettylights-syntax-markup-heading:#0550ae;--color-prettylights-syntax-markup-italic:#24292f;--color-prettylights-syntax-markup-bold:#24292f;--color-prettylights-syntax-markup-deleted-text:#82071e;--color-prettylights-syntax-markup-deleted-bg:#ffebe9;--color-prettylights-syntax-markup-inserted-text:#116329;--color-prettylights-syntax-markup-inserted-bg:#dafbe1;--color-prettylights-syntax-markup-changed-text:#953800;--color-prettylights-syntax-markup-changed-bg:#ffd8b5;--color-prettylights-syntax-markup-ignored-text:#eaeef2;--color-prettylights-syntax-markup-ignored-bg:#0550ae;--color-prettylights-syntax-meta-diff-range:#8250df;--color-prettylights-syntax-brackethighlighter-angle:#57606a;--color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;--color-prettylights-syntax-constant-other-reference-link:#0a3069;--color-fg-default:#24292f;--color-fg-muted:#57606a;--color-fg-subtle:#6e7781;--color-canvas-default:#fff;--color-canvas-subtle:#f6f8fa;--color-border-default:#d0d7de;--color-border-muted:#d8dee4;--color-neutral-muted:rgba(175,184,193,.2);--color-accent-fg:#0969da;--color-accent-emphasis:#0969da;--color-attention-subtle:#fff8c5;--color-danger-fg:#cf222e;color-scheme:light}.markdown-body{margin:0 auto;max-width:720px;padding:0 20px 20px}h1{border-bottom:none!important}.gg-logo{text-rendering:optimizelegibility;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;line-height:0;outline:none;text-align:center;text-transform:none;vertical-align:-.125em}.gg-logo,.gg-theme-toggle{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.gg-nav{height:var(--layout-header-height)}.gg-nav *{transition:none}.gg-nav .icons,.gg-nav .nav-screen nav li{align-items:center;display:flex}.gg-nav .nav-screen nav li{color:var(--gg-icon);cursor:pointer;font-weight:700;list-style:none}@media screen and (max-width:720px){.gg-nav{align-items:center;display:flex}.gg-nav .nav-icon{cursor:pointer;height:24px;overflow:hidden;width:24px}.gg-nav .nav-icon span{background:#999;display:block;height:3px;margin:4px 0;transition:all .3s ease;width:24px}.gg-nav .nav-icon .top{-webkit-transform:translateX(6px);transform:translateX(6px)}.gg-nav .nav-icon .bottom{-webkit-transform:translateX(8px);transform:translateX(8px)}.gg-nav .nav-icon.active .top{-webkit-transform:rotate(225deg) translateY(-5px) translateX(-5px);transform:rotate(225deg) translateY(-5px) translateX(-5px)}.gg-nav .nav-icon.active .middle{-webkit-transform:translateX(24px);transform:translateX(24px)}.gg-nav .nav-icon.active .bottom{-webkit-transform:rotate(135deg) translateY(5px) translateX(-5px);transform:rotate(135deg) translateY(5px) translateX(-5px)}.nav-icon{display:block}.nav-screen{background-color:var(--theme-header-background-color);height:0;left:0;overflow:hidden;position:fixed;top:var(--layout-header-height);transition:height .15s ease-out;width:100%;z-index:1000}.nav-screen>div{padding:20px}.nav-screen.open{height:calc(100vh - var(--layout-header-height))}.nav-screen nav{font-size:16px;text-align:center}.nav-screen nav svg{font-size:24px;margin-right:10px}.nav-screen nav li{justify-content:center;padding:8px 0}.nav-screen .icons{justify-content:center;margin-top:40px}.nav-screen .icons .icon-action{margin:0 10px}}@media screen and (min-width:721px){.nav-icon{display:none}.nav-screen{height:100%;justify-content:space-between}.nav-screen,.nav-screen>div{display:flex}.nav-screen .icons .icon-action{margin:0 5px}.nav-screen nav{margin-right:20px}.nav-screen nav svg{margin-right:4px}.nav-screen nav li{float:left;font-size:14px;height:100%;margin-right:20px}}#gg-backtop{align-items:center;border-radius:50%;bottom:20px;box-shadow:inset 0 0 5px hsla(0,0%,59%,.5);cursor:pointer;display:flex;height:42px;justify-content:center;position:fixed;right:20px;transition:all .5s ease;-webkit-user-select:none;-ms-user-select:none;user-select:none;width:42px}@media screen and (max-width:767px){#gg-backtop{height:36px;width:36px}}#gg-backtop svg{width:50%}#gg-backtop.hide{opacity:0;-webkit-transform:scale(0);transform:scale(0)}#gg-backtop.show{opacity:1;-webkit-transform:scale(1);transform:scale(1)}.gg-container{display:flex;flex-direction:column;min-height:100vh}.gg-container header{align-items:center;background-color:#fff;background-color:var(--theme-header-background-color);border-bottom:1px solid hsla(0,0%,47%,.2);box-shadow:0 1px 2px rgba(0,0,0,.05),0 1px 4px rgba(0,0,0,.05),0 2px 8px rgba(0,0,0,.05);display:flex;height:var(--layout-header-height);justify-content:space-between;padding:0 16px;position:fixed;top:0;width:100%;z-index:999}.gg-container header .imglogo{border:1px solid var(--gg-border);border-radius:8px;cursor:pointer;width:32px}.gg-container main{background-color:var(--theme-content-background-color);min-height:calc(100vh - var(--layout-footer-height));padding-top:80px}.gg-container footer{align-items:center;background-color:var(--theme-footer-background-color);color:#838c95;display:flex;font-size:14px;height:var(--layout-footer-height);justify-content:center;padding:0 10px;position:relative;text-align:center;width:100%}.gg-container footer:after{background:radial-gradient(hsla(0,0%,59%,.6),transparent 80%);content:"";display:block;height:1px;position:absolute;top:0;width:100%}.gg-container footer img{vertical-align:middle}.gg-container footer .owner{color:#3486e2;cursor:pointer;margin-left:5px;text-decoration:none}.gg-container footer .copyright{margin-left:10px}.gg-container footer .powered{margin-left:5px}@media screen and (max-width:720px){.gg-container footer{flex-direction:column}.gg-container footer .copyright,.gg-container footer .powered{margin-left:0;margin-top:5px}}.issues-page h1{text-align:center}.author-info{margin-bottom:3px}.author-info .author{cursor:pointer}.author-info .author .name{font-weight:500}.author-info .author img{border-radius:50%;margin-right:5px;vertical-align:middle;width:30px}.author-info i,.author-info span{font-size:14px}.author-info .date{margin-left:10px;opacity:.4}.author-info .number{float:right;line-height:26px;opacity:.3}.gg-category{background:hsla(0,0%,71%,.3)!important;border-radius:4px;display:inline-block;font-size:10px;font-weight:700;height:18px;line-height:18px;margin-right:10px;padding:0 5px;text-decoration:none!important;vertical-align:middle}.gg-category,.issues-num{color:var(--color-fg-default)!important;cursor:pointer}.issues-num{font-family:lab;font-style:italic;font-variation-settings:"size" 30,"quad" 40,"bevl" 20,"oval" 30;opacity:.6}.home-page .issues-list{max-width:unset}.home-page .issues-list>div{display:flex;flex-wrap:wrap;margin:0 auto;max-width:960px}.home-page .issues-list .author-info{margin-bottom:3px}.home-page .issues-list .author-info .author img{width:24px}.home-page .issues-list .author-info i,.home-page .issues-list .author-info span{font-size:12px}.home-page .issues-list .author-info .number{float:right;line-height:26px;opacity:.3}.home-page .issues-list .post-info .title{font-size:15px;font-weight:700;text-decoration:none;vertical-align:middle}@media screen and (min-width:721px){.home-page .issues-list .item{border:1px solid var(--gg-border);border-radius:5px;margin:0 10px 20px;max-width:100%;min-width:200px;overflow:hidden;width:calc(50% - 20px)}.home-page .issues-list .item .author-info{background-color:var(--gg-border);padding:3px 5px}.home-page .issues-list .item .post-info{padding:5px}}@media screen and (max-width:720px){.home-page .issues-list .item{border-bottom:1px solid hsla(0,0%,59%,.2);padding:15px 0 12px;width:100%}.home-page .issues-list .item .author-info{margin-bottom:5px}}.gg-label{border-radius:4px;border-style:solid;border-width:1px;cursor:pointer;display:inline-block;font-size:12px;height:18px;line-height:17px;overflow:hidden;vertical-align:middle}.gg-label b{color:#fff;padding:0 3px 0 2px}.gg-label b,.gg-label em{display:inline-block;height:100%}.gg-label em{border-bottom-right-radius:3px;border-top-right-radius:3px;color:var(--theme-text);padding:0 3px}.gg-issues-prev-next{align-items:stretch;border:1px solid hsla(0,0%,59%,.3);border-radius:5px;display:flex;margin:30px 0}.gg-issues-prev-next:after{clear:both;content:"";display:block}.gg-issues-prev-next a{flex:1 1;padding:15px 10px;width:50%}.gg-issues-prev-next a>span{align-items:center;display:flex;height:100%}.gg-issues-prev-next a .icon-action{min-width:20px}.gg-issues-prev-next .prev{text-align:left}.gg-issues-prev-next .prev>span{float:left}.gg-issues-prev-next .prev .icon-action{margin-right:5px}.gg-issues-prev-next .next{text-align:right}.gg-issues-prev-next .next>span{float:right}.gg-issues-prev-next .next .icon-action{margin-left:5px}@media screen and (max-width:720px){.gg-issues-prev-next{font-size:14px}}.issues-page h1{font-size:24px}.issues-page h1>span{background:linear-gradient(180deg,transparent 50%,hsla(0,0%,71%,.5) 0);padding:0 5px}.issues-page h1 .issues-num{font-size:18px;margin-right:10px}.issues-page .widget{margin-bottom:20px;text-align:center}.issues-page .gg-label{margin:2px 4px}.issues-page .ques-content{display:flex;margin-top:5px;min-height:120px}.issues-page .ques-content .quesicon{margin-right:3px}.issues-page .ques-content .quescontent{width:100%}.issues-page .vote{align-items:center;display:flex;flex-direction:column;font-style:normal}.issues-page .answer-content .answericon{background-color:hsla(0,0%,71%,.3);border-radius:5px;margin-bottom:20px;padding:5px 0 0;text-align:center}.issues-page .comments-item{border-left:1px solid hsla(0,0%,71%,.3);padding-bottom:1px;padding-left:3px}.issues-page .comments-item-content{margin-left:20px}.labels-category-page .gg-label-category-head{margin-bottom:20px;position:-webkit-sticky;position:sticky;top:56px}.labels-category-page .category-group{display:flex;width:100%}.labels-category-page .category-group .label-category{color:#fff;cursor:pointer;display:inline-block;font-weight:700;height:36px;line-height:36px;padding:0 10px;text-shadow:0 1px 1px rgba(80,80,80,.5)}.labels-category-page .category-group .label-category.active{color:#000}.labels-category-page .level-group .label-level{background-color:#000;color:#fff;cursor:pointer;display:inline-block;font-size:16px;font-size:14px;height:24px;line-height:24px;margin-right:1px;opacity:.5;padding:0 10px}.labels-category-page .level-group .label-level.active{opacity:1}.labels-category-page .level-group .label-level.level1{background-color:#3c3c3c}.labels-category-page .level-group .label-level.level2{background-color:#555}.labels-category-page .level-group .label-level.level3{background-color:#6f6f6f}.labels-category-page .level-group .label-level.level4{background-color:#888}.labels-category-page .level-group .label-level.level5{background-color:#a2a2a2}.labels-category-page .issues-list .item{background-color:var(--gg-border);border-radius:5px;margin-bottom:10px;padding:10px}.labels-category-page .issues-list .item .label-issue{margin-right:10px}.labels-category-page .issues-list .labels-list{font-size:12px;margin-top:4px}.labels-category-page .issues-list .labels-list .gg-label{margin-bottom:4px;margin-right:4px}.labels-category-page .issues-list .post-info{font-weight:700;margin-top:5px}.issues-list .issues-item{align-items:baseline;display:flex;margin-bottom:10px;text-align:left}.issues-list .issues-item .issues-num{font-size:12px;margin-right:10px}.issues-list .issues-item .title{font-weight:700}.labels-page{text-align:center}.labels-page .markdown-body{display:inline-block}.labels-page .labels-head{border-radius:5px;color:#fff;cursor:pointer;display:block;font-weight:700;margin-bottom:20px;padding:5px 10px;text-shadow:0 1px 2px #000}.labels-page .labels-head:hover{text-decoration:none!important}.labels-page .label-desc{font-weight:700;opacity:.5}.nav-category-page .gg-category{font-size:14px;font-weight:700;height:36px;line-height:36px;margin:10px;padding:0 12px}.nav-labels-page .gg-label{font-size:16px;font-weight:700;height:30px;line-height:29px;margin:5px}.nav-labels-page .gg-label b,.nav-labels-page .gg-label em{padding:0 10px}</style><link rel="icon" href="/favicon-32x32.png?v=fdd225e9135e951b972a3dc20604182e" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=fdd225e9135e951b972a3dc20604182e"/><link as="script" rel="preload" href="/webpack-runtime-4fee7405b8a071e8c34e.js"/><link as="script" rel="preload" href="/framework-86c8a5417e68dc3cefff.js"/><link as="script" rel="preload" href="/app-7383f855f15f63329e5f.js"/><link as="script" rel="preload" href="/fc369a2ef6459b03f38591687cef4a587495c716-f468df31cbdaf6ffa970.js"/><link as="script" rel="preload" href="/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js"/><link as="fetch" rel="preload" href="/page-data/issues/590/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/151096407.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2861350382.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/><script>
+(function() {
+  window.__onThemeChange = function() {};
+  function setTheme(newTheme) {
+    window.__theme = newTheme;
+    preferredTheme = newTheme;
+    document.querySelector('html').className = newTheme;
+    window.__onThemeChange(newTheme);
+  }
+  var preferredTheme;
+  try {
+    preferredTheme = localStorage.getItem('theme');
+  } catch (err) { }
+  window.__setPreferredTheme = function(newTheme) {
+    setTheme(newTheme);
+    try {
+      localStorage.setItem('theme', newTheme);
+    } catch (err) {}
+  }
+  var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  darkQuery.addListener(function(e) {
+    window.__setPreferredTheme(e.matches ? 'dark' : 'light')
+  });
+
+  setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
+})()</script></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="gg-container issues-page"><header><img class="imglogo" src="/static/logo-fe174465633f84724b37eea28a42c520.png" alt="logo"/><div class="gg-nav"><span class="nav-icon"><span class="top"></span><span class="middle"></span><span class="bottom"></span></span><div class="nav-screen"><div><nav><li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 9A1.5 1.5 0 0 0 7 7.5A1.5 1.5 0 0 0 5.5 6A1.5 1.5 0 0 0 4 7.5A1.5 1.5 0 0 0 5.5 9m11.91 2.58c.36.36.59.86.59 1.42c0 .55-.22 1.05-.59 1.41l-5 5a1.996 1.996 0 0 1-2.83 0l-6.99-6.99C2.22 12.05 2 11.55 2 11V6c0-1.11.89-2 2-2h5c.55 0 1.05.22 1.41.58l7 7m-3.87-5.87l1-1l6.87 6.87c.37.36.59.87.59 1.42c0 .55-.22 1.05-.58 1.41l-5.38 5.38l-1-1L20.75 13l-7.21-7.29Z"/></svg>Labels</li><li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M3 3h18v4H3V3m1 5h16v13H4V8m5.5 3a.5.5 0 0 0-.5.5V13h6v-1.5a.5.5 0 0 0-.5-.5h-5Z"/></svg>Archives</li></nav><div class="icons"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="gg-theme-toggle icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="m3.55 18.54l1.41 1.41l1.8-1.79l-1.42-1.42M11 22.45h2V19.5h-2m1-14a6 6 0 0 0-6 6a6 6 0 0 0 6 6a6 6 0 0 0 6-6c0-3.32-2.69-6-6-6m8 7h3v-2h-3m-2.76 7.66l1.8 1.79l1.41-1.41l-1.79-1.8m1.79-12.28l-1.41-1.41l-1.8 1.79l1.42 1.42M13 .55h-2V3.5h2m-9 7H1v2h3m2.76-7.66l-1.8-1.79l-1.41 1.41l1.79 1.8l1.42-1.42Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg></div></div></div></div></header><main><div class="content"><div class="markdown-body"><h1><span><a class="number issues-num" href="https://github.com/awesome-ops/awesome-ops.github.io/issues/590" target="_blank">#590</a><span>verdaccio/verdaccio: 一个简单易用、无需配置的本地私有 npm 仓库。</span></span></h1><div class="widget"><a class="gg-label" style="border-color:#25B472" href="/labels/更多"><b style="background:#25B472">#</b><em>更多</em></a><a class="gg-label" style="border-color:#43e6e6" href="/labels/package-manage"><b style="background:#43e6e6">#</b><em>Package-Manage</em></a><a class="gg-label" style="border-color:#ced467" href="/labels/verdaccio"><b style="background:#ced467">#</b><em>verdaccio</em></a></div><div><div class="author-info"><span class="author" title="https://github.com/eryajf"><img src="https://avatars.githubusercontent.com/u/33259379?u=e4a4090a38ac2473aaed4ef9945233636776c6c3&amp;v=4" alt="eryajf"/><span>eryajf</span></span><i class="date">2025/05/22</i></div><div class="ques-content"><div class="quescontent"><div align="center" dir="auto">
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966"><img src="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966" width="100%" height="3" data-animated-image="" data-canonical-src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" style="max-width: 100%; height: auto; max-height: 3px;"></a><br><br></p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th align="right">Repos</th>
+<th align="left"><a href="https://github.com/verdaccio/verdaccio">verdaccio/verdaccio</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right"><strong>Views</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/c49c79cfb96cfd23d906915f4cf43d4572f1a4983cc32716396b9b779488cb1c/68747470733a2f2f76696577732e77686174696c656172656e65642e746f6461792f76696577732f6769746875622f76657264616363696f2f76657264616363696f2e737667" alt="views" data-canonical-src="https://views.whatilearened.today/views/github/verdaccio/verdaccio.svg" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>Stars</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/5766f2b4a599a88b631a4ecfe8a8c4e81231072293cee77088e0a7b947694d6b/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f76657264616363696f2f76657264616363696f3f636f6c6f723d663266303864266c6f676f3d556e64657274616c65266c6f676f436f6c6f723d656234363330" alt="stars" data-canonical-src="https://img.shields.io/github/stars/verdaccio/verdaccio?color=f2f08d&amp;logo=Undertale&amp;logoColor=eb4630" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>Forks</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/ab64f4d74b1af868f144fe8bca2ba3a855954203894c82a06529ed4525d30903/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f76657264616363696f2f76657264616363696f3f636f6c6f723d626138366562266c6f676f3d48616e647368616b65266c6f676f436f6c6f723d656136616136" alt="forks" data-canonical-src="https://img.shields.io/github/forks/verdaccio/verdaccio?color=ba86eb&amp;logo=Handshake&amp;logoColor=ea6aa6" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>License</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/7d007834f9751bce2c98754f392a6707e92596eff820ba319d0c1ce71302178c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f76657264616363696f2f76657264616363696f3f6c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e53556845556741414144414141414177434159414141425841766d48414141414358424957584d41414173544141414c457745416d70775941414144336b6c45515652346e4f335953557a5555426748384a726f57567255474a66456d3773584e63534446784d544c327069347348456778654e526f77586770455742445552522532424e414e4f4b4f4b36366f6f4b4a4742586545475263574163455646475152484677516d483525324630774861655748493944554455354c356b6e6568644f62377a66652532423139636e434a47495243516945596c514237594a4979474c38616f73756c565a36695246516a69474b6b7564576735614c6c704f70704e586e665071773555304459524a6d56786a4367464633424c755a476d416f5655694b4541726d583744375553677351706f72674761336748664b34483663754262435644334771683141352532424c6745253242467749656e514d306a6f446f66714c6f48564e7742796d384370546e416d327a51713073676478624964515a556c416b7150415a3664676a303541446f59526f6f66792532466f5869726f376b3551586a4c6f70677a4b69514e6c4c4461716f4967754577426a7a7150355066446a45394479495879493633464d547751464d43567271774e61763451666f52673538514625324266724d485172454b3844546f434d714e4179574e4866786d54526f4c4f726d5352566747744466714345715a4f4851727a6f34706243557341333431365169364551394b476a6345465267484f724f4b6e5536574162396247455459656b4b7843766a546167394534706a653534446b3551503862624d4859762532464333756541654a6b50304f4778422532424a70426e4172595238455951516e6f4e31414e4661426e5050356c385372736559514c303641646b30464a5938484f5761424d6c6541486a683068506f73497a6c6f3876304125324633345a694f6548726130714b52504d5653493774762532423932747725324676687855654252713456454c674d376642714b354770526d6f514c584e7075625475367a6f4e52706754386e5051627138347764253246494375767978694b4871694e41664933774d367549684271476b4c696977414f734b44714f68743749747239567938536a52424557667941627225324668523142667056514664484a42253246423268683778376a36517077435665655951326b72554235436c636a3641326d3067576a25324244306d4c34397a573563517943484c4e37726a6c6d6d6174457958582532464372547a412532466f51785a6b576c39474a5443566f25324279546a3837253242346769504b6376307149486f344156344430565a727251493334706e70524d36357875652532467a417265453425324654253246536f676c664542794d7369517441546c4c3352414a355948725378365a44665337307337754d486842705225324659423573305057366f455270316236253246667252684b3353444c35546965364f515548516c5133735644752532427a50636b397657453973747225324236496a533967486d5750616861444a25324277434b364e494242587348423948796b587378774470686c436d416476706c6162554a4e6e5a504239342532464e7436784f6538587a4562503257684d335741673147756236744825324233513150673337365239713475716c6e6f36676448476a444f5139306562303141484d3672596975554a314f713472344656756a35765239427a4d3957674e764f7977446869495951467667626366774166774d764863615067425041253246447948476a50624e394138616d6562636477416444354e6633373574787165774e5552656f797677424958594c645170576c6877465771745061435044334173467541535636717171496c62304a766b564331464c39576b4c55556c55574b337a585a4c46432532423125324642726f46746f364f7358497545594a5034447a7a5732594656316f4a614141414141456c46546b5375516d4343" alt="license" data-canonical-src="https://img.shields.io/github/license/verdaccio/verdaccio?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD3klEQVR4nO3YSUzUUBgH8JroWVrUGJfEm7sXNcSDFxMTL2pi4sHEgxeNRowXgpEWBDURR%2BNANOKOK66ooKJGBXeEGRcWAcEVFGQRHFwQmH5%2F0wHaeWHI9DUDU5L5knehdOb7zfe%2B19cnCJGIRCQiEYlQB7YJIyGL8aosulVZ6iRFQjiGKkudWg5aLlpOppNXnfPqw5U0DYRJmVxjCgFF3BLuZGmAoVUiKEArmX7D7USgsQporgGa3gHfK4H6cuBbCVD3Gqh1A5%2BLgE%2BFwIenQM0joDofqLoHVNwBym8CpTnAm2zQq0sgdxbIdQZUlAkqPAZ6dgj05ADoYRoofy%2FoXiro7k5QXjLopgzKiQNlLDaqoIguEwBjzqP5PfDjE9DyIXyI63FMTwQFMCVrqwNav4QfoRg58QF%2BfrMHQrEK8DToCMqNAyWNHfxmTRoLOrmSRVgGtDfqCEqZOHQrzo4pbCUsA3416Qi6EQ9KGjcEFRgHOrOKnU6WAb9bGETYekKxCvjTag9E4pje54Dk5QP8bbMHYv%2FC3ueAeJkP0OGxB%2BJpBnArYR8EYQQnoN1ANFaBnPP5l8SrseYQL06Adk0FJY8HOWaBMleAHjh0hPosIzlo8v0A%2F34ZiOeHra0qKRPMVSI7tv%2B92tw%2FvhxUeBRq4VELgM7fBqK5GpRmoQLXNpubTu6zoNRpgT8nPQbq84wd%2FICuvyxiKHqiNAfI3wM6uIhBqGkLiiwAOsKDqOht7Itr9Vy8SjRBEWfyAbr%2FhR1BfpVQFdHJB%2FB2hh7x7j6QpwCVeeYQ2krUB5Clcj6A2m0gWj%2BD0mL49zW5cQyCHLN7rjlmmatEyXX%2FCrTzA%2FoQxZkWl9GJTCVo%2ByTj87%2B4giPKcv0qIHo4AV4D0VZrrQI34pnpRM65xue%2FzAreE4%2FT%2FSoglfEByMsiQtATlL3RAJ5YHrSx6ZDfS70s7uMHhBpR%2FYB5s0PW6oERp1b6%2FfrRhK3SDL5Tie6OQUHQlQ3sVDu%2BzPck9vWE9str%2B6IjS9gHmWPahaDJ%2BwCK6NIBBXsHB9HykXsxwDphlCmAdvplabUJNnZPB94%2FNt6xOe8XzEbP2WhM3WAg1Gub6tH%2B3Q1Pg376R9q4uqlno6gdHGjDOQ90eb01AHM6rYiuUJ1Oq4r4FVuj5vR9BzM9WgNvOywDhiIYQFvgbcfwAfwMvHcaPgBPA%2FDyHGjPbN9A8amebcdwAdD5Nf375txqewNUReoyvwBIXYLdQpWlhwFWqtPaCPD3AsFuASV6qqqIlb0JvkVC1FL9WkLUUlUWK3zXZLFC%2B1%2FBroFto6OsXIuEYJP4DzzW2YFV1oJaAAAAAElFTkSuQmCC" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>UpdatedAt</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/d12f01e2335eba25ba73339a37b585f95047159f9cf2084a703dd8e7d7acab4d/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f76657264616363696f2f76657264616363696f3f646973706c61795f74696d657374616d703d636f6d6d6974746572266c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e5355684555674141414234414141416543415941414141374d4b3669414141414358424957584d41414173544141414c457745416d7077594141414648556c45515652346e4c5658375539615678776d3236646c582532466468627825324232253246516e626b7655627264554151674a4a496655444e574454546d4f76314651554661504a346b7573725630314a7431734e70637453327533626f745a746d786439744a5346536f714b71494635625944464c436f76436c656673747a4a387758524c445a4c7a6e6b634f343535376e3364332532466e655a3472454f515a74315771462532423858467234253242664f4c4565326a6f59307a776638546f795a50766a45676b4c592532426b306d6d72584f36644b696e787a476b30666a5430782532425279723055716e6359637a4d317263347451253242497270324c4758646f344e4334567657715453373277716c632532427231334f527269364b6458646e624f484c6c776c7a4a70524b6e3657342532424b36706f4f434e6e494166486a253246253242776168495a4234764b6e715a6630714a704e49716c2532467638545530634e6c3572627963337730516e54703379324c54614a374d314e617844723266526e315370504736476961323174664533345463614f617931694d55564f5146624659714957536f31573854694156616e43306576584f4542375770313448466232327a453566714c4f433545524c515769644e614e49347545636339693768634a6c644868324e57725135674464624f6c7061756d49754c62326174415144506e7a3062384e6257636d785656524a33486d7870536377777a4f4a6d4b44524765384c6c435a444c4739673754496e5631516c376462586256316533675430574b697243466f6d6b5079767758466c5a474a4f6a563625324253743634757564445a4f55354555636f782532464d455144567674364d62634e3237593341797a687633737061557242365a3971724a534f3139657a6a387032704c426b4a792532426343484a7857493567573574636652527a31645531394766476b6f7539505a4f34736d52396a4746777065783444793362766e6d4b79706f74625531335669646a71595a68726a343972764d457425324625324659714c7a396430304e6a57253246637a67796f394f35317a7336614e6c6f354644747530445a675146686c47584a30644241446f4e6864367576703657686f617967374e394c564748386d443462253246486e667455516f4e4734764c51306769784d716c5725324234714f6a744e48446733723166365969525347785279375576714c62395534716b716e78504f4e7661356c447048723125324279794b524e4b57425a793565644d554842326d3572792532422532424551772532427a6766347a6f39253246306f634e3357527a4c4277344a2532424a7950574372716d4967475974554f735744346f785a46516f50556a4770564871493425324661666b51504336665a5165654d31253242764c7549516e6a754257514444437363726d485039656f4e5041744271664f6e5875614b25324268364a45624772732532427076764d6d78654962683836336162565065597953456f39464a48704e4d464a59253242503563575a6b6667374f3174537759436553514c54593345385130392532464256504a556c78516a7368543142736343593032723955445542667643484236367063665041336c794165336e6772332532463437584467614a7a736c7937787741364e5a746c555550437541487161536a5549502532427375653842525741432532464e6651374a5a505a35397330476a3756747049537a34685125324243706658474d4b685a63764c70554b7866574d386f68766637702532464f446a4842666356463849736b383267314648796b63564645253242555a414158343761452532464d6c34504f3530506e75683025324678346e6d637957507364774468427836436d6b4c562532466746446a594b784f4a4f4674623077517949684c39527943774b33414f664947703159464542686e4d4a634c525745624b644b516f55366e63545a6b494544696341792532463831645675454d3552775066657934784f7830496b25324649324e6e466b692532425761664f6f464959466367595a43797864376543556a626334416d46363566742532466b4d686b336f25324235686337734d4a79716a4a45477659466151464972375930775077384246415925324236253242766d6b3377367a7a5275444d6d5a5652736668385274413075455453443775434254364459514e36697665553066706b594c6a453671725672744f78654e4b553954484c5a4a396b4255324a427342685635416976422532466f4b61514e4b675043427744596149665a4334616454684f71463457454e56694c4a77566f586f62664c424b56773637414f6154734c6336355461564b32317651344c613939654b6359673576627873624f627a5451394e37554b4467554f3177446a6944494942736868357a746733396e514d4c535a4248344f7a424f55444551586d323036643366634c67737762585141345068634b336e6873775531427a3877765130395248472532466f597933656a6677424e6d746f59714c4130586741414141424a52553545726b4a676767253344253344266c6162656c3d557064617465644174" alt="last-commit" data-canonical-src="https://img.shields.io/github/last-commit/verdaccio/verdaccio?display_timestamp=committer&amp;logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHUlEQVR4nLVX7U9aVxwm26dlX%2Fdhbx%2B2%2FQnbkvUbrdUAQgJJIfUDNWDTTmOv1FQUFaPJ4kusrV01Jt1sNpctS2u3botZtmxd9tJSFSoqKqIF5bYDFLCovClefstzJ8wXRLDZLznkcO4557n3d3%2FneZ4rEOQZt1WqF%2B8XFr4%2BfOLEe2joY0zwf8ToyZPvjEgkLY%2Bk0mmrXO6dKinxzGk0fjT0x%2BRyr0UqncYczM1rc4tQ%2BIrp2LGXdo4NC4VvWqTS72wqlc%2Br13ORri6KdXdnbOHLlwlzJpRKn6W4%2BK6poOCNnIAfHj%2F%2BwahIZB4vKnqZf0qJpNIql%2Fv8TU0cNl5rbyc3w0QnTp3y2LTaJ7M1NaxDr2fRn1SpPG6Gia21tfE34TcaOay1iMUVOQFbFYqIWSo1W8TiAVanC0evXOEB7Wp14HFb22zE5fqLOC5ERLQWidNaNI4uEcc9i7hcJldHh2NWrQ5gDdbOlpaumIuLb2atAQDPnz0b8NbWcmxVVRJ3HmxpScwwzOJmKDRGe8LlCZDLG9g7TInV1Ql7dbXbV1e3gT0WKirCFomkPyvwXFlZGJOjV6%2BSt64uudDZOU5EUcox%2FMEQDVvt6MbcN27Y3Ayzhv3spaUrB6Z9qrJSO19ezj8p2pLBkJy%2BcCHJxWI5gW5tcfRRz1dU19GfGkou9PZO4smR9jGFwpex4Dy3bvnmKypotbU13VidjqYZhrj49rvMEt%2F%2FYqLz9d00NjW%2Fczgyo9O51zs6aNlo5FDtu0DZgQFhlGXJ0dBADoNhd6uvp6Whoayg7N9LVGH8mD4b%2FHnftUQoNG4vLQ0gixMqlW%2B4qOjtNHDg3r1f6YiRSGxRy7UvqLb9U4qkqnxPONva5lDpHr1%2ByyKRNKWBZy5edMUHB2m5ry%2B%2BEQw%2Bzgf4zo9%2F0ocN3WRzLBw4J%2BJyPWCrqmIgGYtUOsWD4oxZFQoPUjGpVHqI4%2FafkQPC6fZQeeM1%2BvLuIQnjuBWQDDCscrmHP9eoNPAtBqfOnXuaK%2Bh6JEbGrs%2BpvvMmxeIbh863abVPeYySEo9FJHpNMFJY%2BP5cWZkfg7O1tSwYCeSQLTY3E8Q09%2FBVPJUlxQjshT1BscCY02r9UDUBfvCHB66pcfPA3lyAe3ngr3%2F47XDgaJzsly7xwA6NZtlUUPCuAHqaSjUIP%2Bsue8BRWAC%2FNfQ7JZPZ59s0Gj7VtpISz4hQ%2BCpfXGMKhZcvLpUKxfWM8ohvf7p%2FODjHBfcVF8Isk82g1FHykcVFE%2BUZAAX47aE%2FMl4PO50Pnuh0%2Fx4nmcyWPsdwDhBx6CmkLV%2FgFDjYKxOJOFtb0wQyIhL9RyCwK3AOfIGp1YFEBhnMJcLRWEbKdKQoU6ncTZkIEDicAy%2F81dVuEM5RwPfey4xOx0Ik%2FI2NnFki%2BWafOoFIYFcgYZCyxd7eCUjbc4AmF65ft%2FkMhk3o%2B5hc7sMJyqjJEGvYFaQFIr7Y0wPw8BFAY%2B6%2Bvmk3w6zzRuDMmZVRsfh8RtA0uETSD7uCBT6DYQN6iveU0fpkYLjE6qrVrtOxeNKU9THLZJ9kBU2JBsBhV5AivB%2FoKaQNKgPCBwDYaIfZC4adThOqF4WENViLJwVoXobfLBKVw67AOaTsLc65TaVK21vQ4La99eKcYg5vbxsbObzTQ9N7UKDgUO1wDjiDIIBshh5ztg39nQMLSZBH4OzBOUDEQXm206d3fcLgswbXQA4PhcK3nhswU1Bz8wvQ09RHG%2FoYy3ejfwBNmtoYqLA0XgAAAABJRU5ErkJggg%3D%3D&amp;label=UpdatedAt" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>CreatedAt</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/dab2a50f39d34995c8c0cf25765643765ae7ebec0b71a5df495641030774aa39/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f637265617465642d61742f76657264616363696f2f76657264616363696f3f6c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e5355684555674141414234414141416543415941414141374d4b3669414141414358424957584d41414173544141414c457745416d7077594141414648556c45515652346e4c5658375539615678776d3236646c582532466468627825324232253246516e626b7655627264554151674a4a496655444e574454546d4f76314651554661504a346b7573725630314a7431734e70637453327533626f745a746d786439744a5346536f714b71494635625944464c436f76436c656673747a4a387758524c445a4c7a6e6b634f343535376e3364332532466e655a3472454f515a74315771462532423858467234253242664f4c4565326a6f59307a776638546f795a50766a45676b4c592532426b306d6d72584f36644b696e787a476b30666a5430782532425279723055716e6359637a4d317263347451253242497270324c4758646f344e4334567657715453373277716c632532427231334f527269364b6458646e624f484c6c776c7a4a70524b6e3657342532424b36706f4f434e6e494166486a253246253242776168495a4234764b6e715a6630714a704e49716c2532467638545530634e6c3572627963337730516e54703379324c54614a374d314e617844723266526e315370504736476961323174664533345463614f617931694d55564f5146624659714957536f31573854694156616e43306576584f4542375770313448466232327a453566714c4f433545524c515769644e614e49347545636339693768634a6c644868324e57725135674464624f6c7061756d49754c62326174415144506e7a3062384e6257636d785656524a33486d7870536377777a4f4a6d4b44524765384c6c435a444c4739673754496e5631516c376462586256316533675430574b697243466f6d6b5079767758466c5a474a4f6a563625324253743634757564445a4f55354555636f782532464d455144567674364d62634e3237593341797a687633737061557242365a3971724a534f3139657a6a387032704c426b4a792532426343484a7857493567573574636652527a31645531394766476b6f7539505a4f34736d52396a4746777065783444793362766e6d4b79706f74625531335669646a71595a68726a343972764d457425324625324659714c7a396430304e6a57253246637a67796f394f35317a7336614e6c6f354644747530445a675146686c47584a30644241446f4e6864367576703657686f617967374e394c564748386d443462253246486e667455516f4e4734764c51306769784d716c5725324234714f6a744e48446733723166365969525347785279375576714c62395534716b716e78504f4e7661356c447048723125324279794b524e4b57425a793565644d554842326d3572792532422532424551772532427a6766347a6f39253246306f634e3357527a4c4277344a2532424a7950574372716d4967475974554f735744346f785a46516f50556a4770564871493425324661666b51504336665a5165654d31253242764c7549516e6a754257514444437363726d485039656f4e5041744271664f6e5875614b25324268364a45624772732532427076764d6d78654962683836336162565065597953456f39464a48704e4d464a59253242503563575a6b6667374f3174537759436553514c54593345385130392532464256504a556c78516a7368543142736343593032723955445542667643484236367063665041336c794165336e6772332532463437584467614a7a736c7937787741364e5a746c555550437541487161536a5549502532427375653842525741432532464e6651374a5a505a35397330476a3756747049537a34685125324243706658474d4b685a63764c70554b7866574d386f68766637702532464f446a4842666356463849736b383267314648796b63564645253242555a414158343761452532464d6c34504f3530506e75683025324678346e6d637957507364774468427836436d6b4c562532466746446a594b784f4a4f4674623077517949684c39527943774b33414f664947703159464542686e4d4a634c525745624b644b516f55366e63545a6b494544696341792532463831645675454d3552775066657934784f7830496b25324649324e6e466b692532425761664f6f464959466367595a43797864376543556a626334416d46363566742532466b4d686b336f25324235686337734d4a79716a4a45477659466151464972375930775077384246415925324236253242766d6b3377367a7a5275444d6d5a5652736668385274413075455453443775434254364459514e36697665553066706b594c6a453671725672744f78654e4b553954484c5a4a396b4255324a427342685635416976422532466f4b61514e4b675043427744596149665a4334616454684f71463457454e56694c4a77566f586f62664c424b56773637414f6154734c6336355461564b32317651344c613939654b6359673576627873624f627a5451394e37554b4467554f3177446a6944494942736868357a746733396e514d4c535a4248344f7a424f55444551586d323036643366634c67737762585141345068634b336e6873775531427a3877765130395248472532466f597933656a6677424e6d746f59714c4130586741414141424a52553545726b4a676767253344253344266c6162656c3d437265617465644174" alt="create-at" data-canonical-src="https://img.shields.io/github/created-at/verdaccio/verdaccio?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHUlEQVR4nLVX7U9aVxwm26dlX%2Fdhbx%2B2%2FQnbkvUbrdUAQgJJIfUDNWDTTmOv1FQUFaPJ4kusrV01Jt1sNpctS2u3botZtmxd9tJSFSoqKqIF5bYDFLCovClefstzJ8wXRLDZLznkcO4557n3d3%2FneZ4rEOQZt1WqF%2B8XFr4%2BfOLEe2joY0zwf8ToyZPvjEgkLY%2Bk0mmrXO6dKinxzGk0fjT0x%2BRyr0UqncYczM1rc4tQ%2BIrp2LGXdo4NC4VvWqTS72wqlc%2Br13ORri6KdXdnbOHLlwlzJpRKn6W4%2BK6poOCNnIAfHj%2F%2BwahIZB4vKnqZf0qJpNIql%2Fv8TU0cNl5rbyc3w0QnTp3y2LTaJ7M1NaxDr2fRn1SpPG6Gia21tfE34TcaOay1iMUVOQFbFYqIWSo1W8TiAVanC0evXOEB7Wp14HFb22zE5fqLOC5ERLQWidNaNI4uEcc9i7hcJldHh2NWrQ5gDdbOlpaumIuLb2atAQDPnz0b8NbWcmxVVRJ3HmxpScwwzOJmKDRGe8LlCZDLG9g7TInV1Ql7dbXbV1e3gT0WKirCFomkPyvwXFlZGJOjV6%2BSt64uudDZOU5EUcox%2FMEQDVvt6MbcN27Y3Ayzhv3spaUrB6Z9qrJSO19ezj8p2pLBkJy%2BcCHJxWI5gW5tcfRRz1dU19GfGkou9PZO4smR9jGFwpex4Dy3bvnmKypotbU13VidjqYZhrj49rvMEt%2F%2FYqLz9d00NjW%2Fczgyo9O51zs6aNlo5FDtu0DZgQFhlGXJ0dBADoNhd6uvp6Whoayg7N9LVGH8mD4b%2FHnftUQoNG4vLQ0gixMqlW%2B4qOjtNHDg3r1f6YiRSGxRy7UvqLb9U4qkqnxPONva5lDpHr1%2ByyKRNKWBZy5edMUHB2m5ry%2B%2BEQw%2Bzgf4zo9%2F0ocN3WRzLBw4J%2BJyPWCrqmIgGYtUOsWD4oxZFQoPUjGpVHqI4%2FafkQPC6fZQeeM1%2BvLuIQnjuBWQDDCscrmHP9eoNPAtBqfOnXuaK%2Bh6JEbGrs%2BpvvMmxeIbh863abVPeYySEo9FJHpNMFJY%2BP5cWZkfg7O1tSwYCeSQLTY3E8Q09%2FBVPJUlxQjshT1BscCY02r9UDUBfvCHB66pcfPA3lyAe3ngr3%2F47XDgaJzsly7xwA6NZtlUUPCuAHqaSjUIP%2Bsue8BRWAC%2FNfQ7JZPZ59s0Gj7VtpISz4hQ%2BCpfXGMKhZcvLpUKxfWM8ohvf7p%2FODjHBfcVF8Isk82g1FHykcVFE%2BUZAAX47aE%2FMl4PO50Pnuh0%2Fx4nmcyWPsdwDhBx6CmkLV%2FgFDjYKxOJOFtb0wQyIhL9RyCwK3AOfIGp1YFEBhnMJcLRWEbKdKQoU6ncTZkIEDicAy%2F81dVuEM5RwPfey4xOx0Ik%2FI2NnFki%2BWafOoFIYFcgYZCyxd7eCUjbc4AmF65ft%2FkMhk3o%2B5hc7sMJyqjJEGvYFaQFIr7Y0wPw8BFAY%2B6%2Bvmk3w6zzRuDMmZVRsfh8RtA0uETSD7uCBT6DYQN6iveU0fpkYLjE6qrVrtOxeNKU9THLZJ9kBU2JBsBhV5AivB%2FoKaQNKgPCBwDYaIfZC4adThOqF4WENViLJwVoXobfLBKVw67AOaTsLc65TaVK21vQ4La99eKcYg5vbxsbObzTQ9N7UKDgUO1wDjiDIIBshh5ztg39nQMLSZBH4OzBOUDEQXm206d3fcLgswbXQA4PhcK3nhswU1Bz8wvQ09RHG%2FoYy3ejfwBNmtoYqLA0XgAAAABJRU5ErkJggg%3D%3D&amp;label=CreatedAt" style="max-width: 100%;"></a></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<a href="https://github.com/opsre/awesome-ops">
+</a><p dir="auto"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/b964a36ea4078c39f603d46a29436371c7541a2f26e0228d7b21b9d9805b43d3/68747470733a2f2f736f6369616c6966792e6769742e63692f6f707372652f617765736f6d652d6f70732f696d6167653f6465736372697074696f6e3d3126666f6e743d42697474657226666f726b733d31266973737565733d31266c616e67756167653d31266c6f676f3d6874747073253341253246253246617661746172732e67697468756275736572636f6e74656e742e636f6d25324675253246313838353638303230266e616d653d31266f776e65723d31267061747465726e3d436972637569742b426f6172642670756c6c733d31267374617267617a6572733d31267468656d653d4c69676874" alt="" data-canonical-src="https://socialify.git.ci/opsre/awesome-ops/image?description=1&amp;font=Bitter&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F188568020&amp;name=1&amp;owner=1&amp;pattern=Circuit+Board&amp;pulls=1&amp;stargazers=1&amp;theme=Light" style="max-width: 100%;"></a></p>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966"><img src="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966" width="100%" height="3" data-animated-image="" data-canonical-src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" style="max-width: 100%; height: auto; max-height: 3px;"></a>
+</div>
+<p dir="auto"><a href="https://u24.gov.ua" rel="nofollow"><img src="https://camo.githubusercontent.com/141d3f3f3b2e30866c751f217e1282c75182828c2594da656a58362663de53f2/68747470733a2f2f63646e2e76657264616363696f2e6465762f726561646d652f62616e6e65722d756b2e737667" alt="BannerHelp" data-canonical-src="https://cdn.verdaccio.dev/readme/banner-uk.svg" style="max-width: 100%;"></a></p>
+<blockquote>
+<p dir="auto">Verdaccio stands for <strong>peace</strong>, stop the war, we will be yellow / blue 🇺🇦 until that happens.</p>
+</blockquote>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5c374d921ba8fbfd5ea226977eab572afea22cd50b8bbbce71ccf2000a66c1da/68747470733a2f2f63646e2e76657264616363696f2e6465762f726561646d652f76657264616363696f4032782e706e67"><img src="https://camo.githubusercontent.com/5c374d921ba8fbfd5ea226977eab572afea22cd50b8bbbce71ccf2000a66c1da/68747470733a2f2f63646e2e76657264616363696f2e6465762f726561646d652f76657264616363696f4032782e706e67" alt="verdaccio logo" data-canonical-src="https://cdn.verdaccio.dev/readme/verdaccio@2x.png" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/c57305e42bd8ebf744f0b1de4a2e2aa2dd6b92139b75c1baa9cfc478419d745e/68747470733a2f2f63646e2e76657264616363696f2e6465762f726561646d652f726561646d652d776562736974652e706e67"><img src="https://camo.githubusercontent.com/c57305e42bd8ebf744f0b1de4a2e2aa2dd6b92139b75c1baa9cfc478419d745e/68747470733a2f2f63646e2e76657264616363696f2e6465762f726561646d652f726561646d652d776562736974652e706e67" alt="verdaccio gif" data-canonical-src="https://cdn.verdaccio.dev/readme/readme-website.png" style="max-width: 100%;"></a></p>
+<h1 dir="auto">Version Next (Development Branch)</h1>
+<blockquote>
+<p dir="auto">Looking for Verdaccio version 5 or 6? Version 6 is the latest version and successor to version 5. Version 6 requires Node.js 18 or higher and is maintained in the <code class="notranslate">6.x</code> branch.</p>
+</blockquote>
+<blockquote>
+<p dir="auto">The plugins for versions 5 and 6 are located at the <a href="https://github.com/verdaccio/monorepo"><code class="notranslate">verdaccio/monorepo</code></a> repository. Plugins for the <code class="notranslate">next-8</code> version are hosted in this project under the <code class="notranslate">./packages/plugins</code> folder.</p>
+</blockquote>
+<blockquote>
+<p dir="auto">Note that contributing guidelines might be different based on the branch.</p>
+</blockquote>
+<p dir="auto"><a href="https://verdaccio.org/" rel="nofollow">Verdaccio</a> is a simple, <strong>zero-config-required local private npm registry</strong>.<br>
+No need for an entire database just to get started! Verdaccio comes out of the box with<br>
+<strong>its own tiny database</strong>, and the ability to proxy other registries (eg. npmjs.org),<br>
+caching the downloaded modules along the way.<br>
+For those looking to extend their storage capabilities, Verdaccio<br>
+<strong>supports various community-made plugins to hook into services such as Amazon's s3,<br>
+Google Cloud Storage</strong> or create your own plugin.</p>
+<p dir="auto"><a href="https://verdaccio.org" rel="nofollow"><img src="https://camo.githubusercontent.com/09a58c681382d8e0de9d5df1dfa3f00bddc36c4e8e5223f8c0e33ad2f68c79dd/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f486f6d65706167652d56657264616363696f2d3430353233363f7374796c653d666c6174" alt="Verdaccio Home" data-canonical-src="https://img.shields.io/badge/Homepage-Verdaccio-405236?style=flat" style="max-width: 100%;"></a><br>
+<a href="https://github.com/verdaccio/verdaccio/blob/master/LICENSE"><img src="https://camo.githubusercontent.com/e97edb4e3da5e28053d94b60e159837a3464829a7104c61ddba2cff7c3808fed/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f76657264616363696f2f76657264616363696f3f6c6162656c3d4c6963656e736526636f6c6f723d343035323336" alt="MIT License" data-canonical-src="https://img.shields.io/github/license/verdaccio/verdaccio?label=License&amp;color=405236" style="max-width: 100%;"></a><br>
+<a href="https://github.com/verdaccio/verdaccio"><img src="https://camo.githubusercontent.com/1f764f152ddd554271cdf65a97734f5d9e5e75a0c06dd12f77a6a9ea5b4dd3c6/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f76657264616363696f3f6c6162656c3d4c617465737425323056657273696f6e26636f6c6f723d343035323336" alt="Verdaccio Latest" data-canonical-src="https://img.shields.io/npm/v/verdaccio?label=Latest%20Version&amp;color=405236" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://verdaccio.org/docs" rel="nofollow"><img src="https://camo.githubusercontent.com/0a4599d180306f7a14411c7b7b6f4fc98f950c0c031aaed534903427732c84f4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f48656c702d56657264616363696f3f7374796c653d666c6174266c6f676f3d56657264616363696f266c6162656c3d56657264616363696f26636f6c6f723d636434303030" alt="Documentation" data-canonical-src="https://img.shields.io/badge/Help-Verdaccio?style=flat&amp;logo=Verdaccio&amp;label=Verdaccio&amp;color=cd4000" style="max-width: 100%;"></a><br>
+<a href="https://discord.com/channels/388674437219745793" rel="nofollow"><img src="https://camo.githubusercontent.com/7b874f91a46832f99fbc3f101fd2e5d79eb9426c583d6a267d4317d26fcb0b53/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f436861742d446973636f72643f7374796c653d666c6174266c6f676f3d446973636f7264266c6162656c3d446973636f726426636f6c6f723d636434303030" alt="Discord" data-canonical-src="https://img.shields.io/badge/Chat-Discord?style=flat&amp;logo=Discord&amp;label=Discord&amp;color=cd4000" style="max-width: 100%;"></a><br>
+<a href="https://bsky.app/profile/verdaccio.org" rel="nofollow"><img src="https://camo.githubusercontent.com/cf13e94229c94c265d6e49c6a75967525f76f43939e6507aac6e297d04c56188/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f466f6c6c6f772d426c7565736b793f7374796c653d666c6174266c6f676f3d426c7565736b79266c6162656c3d426c7565736b7926636f6c6f723d636434303030" alt="Bluesky" data-canonical-src="https://img.shields.io/badge/Follow-Bluesky?style=flat&amp;logo=Bluesky&amp;label=Bluesky&amp;color=cd4000" style="max-width: 100%;"></a><br>
+<a href="https://opencollective.com/verdaccio/contribute" rel="nofollow"><img src="https://camo.githubusercontent.com/8e0906cef6c62d3bd3a3f33b9149b1df900939dd80397da2d85ff8d3596f8c38/68747470733a2f2f696d672e736869656c64732e696f2f6f70656e636f6c6c6563746976652f6261636b6572732f76657264616363696f3f7374796c653d666c6174266c6f676f3d6f70656e636f6c6c656374697665266c6162656c3d4a6f696e2532304261636b65727326636f6c6f723d636434303030" alt="Backers" data-canonical-src="https://img.shields.io/opencollective/backers/verdaccio?style=flat&amp;logo=opencollective&amp;label=Join%20Backers&amp;color=cd4000" style="max-width: 100%;"></a><br>
+<a href="https://opencollective.com/verdaccio/contribute" rel="nofollow"><img src="https://camo.githubusercontent.com/2e359c152c8916b8f0c47e4fa6dabca7003f0ef9e8da527aded3aba2006a1d34/68747470733a2f2f696d672e736869656c64732e696f2f6f70656e636f6c6c6563746976652f73706f6e736f72732f76657264616363696f3f7374796c653d666c6174266c6f676f3d6f70656e636f6c6c656374697665266c6162656c3d53706f6e736f72253230557326636f6c6f723d636434303030" alt="Sponsors" data-canonical-src="https://img.shields.io/opencollective/sponsors/verdaccio?style=flat&amp;logo=opencollective&amp;label=Sponsor%20Us&amp;color=cd4000" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://www.npmjs.com/package/verdaccio" rel="nofollow"><img src="https://camo.githubusercontent.com/81ef0c1169aef968f3144bb0894c5f3dd1325bee8ce9f3688194e0cb1e2424d7/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f646d2f76657264616363696f3f7374796c653d666c6174266c6f676f3d6e706d266c6162656c3d4e706d253230446f776e6c6f61647326636f6c6f723d6c6967687467726579" alt="Verdaccio Downloads" data-canonical-src="https://img.shields.io/npm/dm/verdaccio?style=flat&amp;logo=npm&amp;label=Npm%20Downloads&amp;color=lightgrey" style="max-width: 100%;"></a><br>
+<a href="https://hub.docker.com/r/verdaccio/verdaccio" rel="nofollow"><img src="https://camo.githubusercontent.com/c8594ad217b6c47738026bfca5dbba45092580ee3611f8051d9c13f18fdab3ad/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f70756c6c732f76657264616363696f2f76657264616363696f3f7374796c653d666c6174266c6f676f3d646f636b6572266c6162656c3d446f636b657225323050756c6c7326636f6c6f723d6c6967687467726579" alt="Docker Pulls" data-canonical-src="https://img.shields.io/docker/pulls/verdaccio/verdaccio?style=flat&amp;logo=docker&amp;label=Docker%20Pulls&amp;color=lightgrey" style="max-width: 100%;"></a><br>
+<a href="https://github.com/verdaccio/verdaccio/stargazers"><img src="https://camo.githubusercontent.com/efafeff4bf57740f8af57049a43f56d9d1343248146efcbd2a044dc2e15762d6/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f76657264616363696f3f7374796c653d666c6174266c6f676f3d676974687562266c6162656c3d476974487562253230537461727325323025453225414425393026636f6c6f723d6c6967687467726579" alt="GitHub Stars" data-canonical-src="https://img.shields.io/github/stars/verdaccio?style=flat&amp;logo=github&amp;label=GitHub%20Stars%20%E2%AD%90&amp;color=lightgrey" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md"><img src="https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg" alt="StandWithUkraine" style="max-width: 100%;"></a></p>
+<h2 dir="auto">Versions</h2>
+<p dir="auto">You can find more details about the different versions of Verdaccio, minimum requirements, as well as links to associated npm packages and docker images in the <a href="VERSIONS.md">version history</a>.</p>
+<h2 dir="auto">Install</h2>
+<blockquote>
+<p dir="auto">Node.js v18 as minimum version required</p>
+</blockquote>
+<p dir="auto">Install with npm:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="npm install -g verdaccio@next-8"><pre class="notranslate">npm install -g verdaccio@next-8</pre></div>
+<p dir="auto">With <code class="notranslate">yarn</code></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="yarn global add verdaccio@next-8"><pre class="notranslate">yarn global add verdaccio@next-8</pre></div>
+<p dir="auto">With <code class="notranslate">pnpm</code></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="pnpm i -g verdaccio@next-8"><pre class="notranslate">pnpm i -g verdaccio@next-8</pre></div>
+<p dir="auto">or</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="docker pull verdaccio/verdaccio:nightly-master"><pre class="notranslate">docker pull verdaccio/verdaccio:nightly-master</pre></div>
+<p dir="auto">or with <em>helm</em> <a href="https://github.com/verdaccio/charts">official chart</a>.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="helm repo add verdaccio https://charts.verdaccio.org
+helm repo update
+helm install verdaccio/verdaccio"><pre class="notranslate">helm repo add verdaccio https://charts.verdaccio.org
+helm repo update
+helm install verdaccio/verdaccio</pre></div>
+<p dir="auto">Furthermore, you can read the <a href="https://github.com/verdaccio/verdaccio/wiki/Debugging-Verdaccio"><strong>Debugging Guidelines</strong></a> and the <a href="https://github.com/verdaccio/verdaccio/tree/master/docker-examples"><strong>Docker Examples</strong></a> for more advanced development.</p>
+<h2 dir="auto">Plugins</h2>
+<p dir="auto">You can develop your own <a href="https://verdaccio.org/docs/plugins" rel="nofollow">plugins</a> with the <a href="https://github.com/verdaccio/generator-verdaccio-plugin">verdaccio generator</a>. Installing <a href="https://yeoman.io/" rel="nofollow">Yeoman</a> is required.</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="npm install -g yo
+npm install -g generator-verdaccio-plugin"><pre class="notranslate"><code class="notranslate">npm install -g yo
+npm install -g generator-verdaccio-plugin
+</code></pre></div>
+<p dir="auto">Learn more <a href="https://verdaccio.org/docs/dev-plugins" rel="nofollow">here</a> how to develop plugins. Share your plugins with the community.</p>
+<h2 dir="auto">End to End Testing</h2>
+<p dir="auto">In our compatibility testing project, we're dedicated to ensuring that your favorite commands work seamlessly across different versions of npm, pnpm, and Yarn. From publishing packages to managing dependencies.<br>
+Our goal is to give you the confidence to use your preferred package manager without any issues. So dive in, check out our matrix, and see how your commands fare across the board!</p>
+<p dir="auto"><a href="https://github.com/verdaccio/verdaccio/tree/master/e2e/cli">Learn or contribute here</a></p>
+<h3 dir="auto">Commands</h3>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>cmd</th>
+<th>npm6</th>
+<th>npm7</th>
+<th>npm8</th>
+<th>npm9</th>
+<th>npm10</th>
+<th>npm11</th>
+<th>pnpm8</th>
+<th>pnpm9</th>
+<th>pnpm10</th>
+<th>yarn1</th>
+<th>yarn2</th>
+<th>yarn3</th>
+<th>yarn4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>publish</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>unpublish</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>❌</td>
+<td>❌</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>info</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>audit</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>install</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>deprecate</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>⛔</td>
+<td>⛔</td>
+<td>⛔</td>
+<td>⛔</td>
+</tr>
+<tr>
+<td>ping</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>⛔</td>
+<td>⛔</td>
+<td>⛔</td>
+<td>⛔</td>
+</tr>
+<tr>
+<td>search</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>⛔</td>
+<td>⛔</td>
+<td>⛔</td>
+<td>⛔</td>
+</tr>
+<tr>
+<td>star</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>⛔</td>
+<td>⛔</td>
+<td>⛔</td>
+<td>⛔</td>
+</tr>
+<tr>
+<td>stars</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>⛔</td>
+<td>⛔</td>
+<td>⛔</td>
+<td>⛔</td>
+</tr>
+<tr>
+<td>dist-tag</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>❌</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+
+<blockquote>
+<p dir="auto">notes:</p>
+<ul dir="auto">
+<li>yarn search cmd exist in <em>modern</em> but, it do not uses the search registry endpoint.</li>
+<li>yarn <em>modern</em> has two info commands, the one used here is <code class="notranslate">yarn npm info</code></li>
+</ul>
+</blockquote>
+<p dir="auto">❌ = no tested<br>
+✅ = tested<br>
+⛔ = no supported</p>
+<h2 dir="auto">Donations</h2>
+<p dir="auto">Verdaccio is run by <strong>volunteers</strong>; nobody is working full-time on it. If you find this project to be useful and would like to support its development, consider doing a long support donation - <strong>and your logo will be on this section of the readme.</strong></p>
+<p dir="auto"><strong><a href="https://github.com/sponsors/verdaccio">Donate</a></strong> 💵👍🏻 starting from <em>$1/month</em> or just one single contribution.</p>
+<h2 dir="auto">What does Verdaccio do for me?</h2>
+<h3 dir="auto">Use private packages</h3>
+<p dir="auto">If you want to use all benefits of npm package system in your company without sending all code to the public, and use your private packages just as easy as public ones.</p>
+<h3 dir="auto">Cache npmjs.org registry</h3>
+<p dir="auto">If you have more than one server you want to install packages on, you might want to use this to decrease latency<br>
+(presumably "slow" npmjs.org will be connected to only once per package/version) and provide limited failover (if npmjs.org is down, we might still find something useful in the cache) or avoid issues like <em><a href="https://www.theregister.co.uk/2016/03/23/npm_left_pad_chaos/" rel="nofollow">How one developer just broke Node, Babel and thousands of projects in 11 lines of JavaScript</a></em>, <em><a href="https://github.com/npm/registry-issue-archive/issues/255" data-hovercard-type="issue" data-hovercard-url="/npm/registry-issue-archive/issues/255/hovercard">Many packages suddenly disappeared</a></em> or <em><a href="https://github.com/npm/registry-issue-archive/issues/329" data-hovercard-type="issue" data-hovercard-url="/npm/registry-issue-archive/issues/329/hovercard">Registry returns 404 for a package I have installed before</a></em>.</p>
+<h3 dir="auto">Link multiple registries</h3>
+<p dir="auto">If you use multiples registries in your organization and need to fetch packages from multiple sources in one single project you might take advance of the uplinks feature with Verdaccio, chaining multiple registries and fetching from one single endpoint.</p>
+<h3 dir="auto">Override public packages</h3>
+<p dir="auto">If you want to use a modified version of some 3rd-party package (for example, you found a bug, but maintainer didn't accept pull request yet), you can publish your version locally under the same name. See in detail <a href="https://verdaccio.org/docs/en/best#override-public-packages" rel="nofollow">here</a>.</p>
+<h3 dir="auto">E2E Testing</h3>
+<p dir="auto">Verdaccio has proved to be a lightweight registry that can be<br>
+booted in a couple of seconds, fast enough for any CI. Many open source projects use Verdaccio for end to end testing, to mention some examples, <strong>create-react-app</strong>, <strong>mozilla neutrino</strong>, <strong>pnpm</strong>, <strong>storybook</strong>, <strong>babel.js</strong>, <strong>angular-cli</strong> or <strong>docusaurus</strong>. You can read more in <a href="https://verdaccio.org/docs/e2e" rel="nofollow">here</a>.</p>
+<p dir="auto">Furthermore, here few examples how to start:</p>
+<ul dir="auto">
+<li><a href="https://github.com/juanpicado/e2e-ci-example-gh-actions">e2e-ci-example-gh-actions</a></li>
+<li><a href="https://github.com/juanpicado/verdaccio-end-to-end-tests">verdaccio-end-to-end-tests</a></li>
+<li><a href="https://github.com/juanpicado/verdaccio-fork">verdaccio-fork</a></li>
+</ul>
+<h2 dir="auto">Watch our Videos</h2>
+<p dir="auto"><strong>Node 2022, February 2022, Online Free</strong></p>
+<div dir="auto">
+   <a href="https://portal.gitnation.org/contents/five-ways-of-taking-advantage-of-verdaccio-your-private-and-proxy-nodejs-registry" rel="nofollow">
+     <img src="https://camo.githubusercontent.com/7ad0d8cc9c43eca53e28fe943e1f0f6d1d3721420deabe5aba439bd28538bd9c/68747470733a2f2f63646e2e76657264616363696f2e6465762f726561646d652f6e6f64656a73636f6e6772657373323032322e6a7067" alt="nodejs" width="200" data-canonical-src="https://cdn.verdaccio.dev/readme/nodejscongress2022.jpg" style="max-width: 100%;">
+  </a>
+</div>
+<p dir="auto">You might want to check out as well our previous talks:</p>
+<ul dir="auto">
+<li><a href="https://www.youtube.com/watch?v=zRI0skF1f8I" rel="nofollow">Using Docker and Verdaccio to make Integration Testing Easy - <strong>Docker All Hands #4 December - 2021</strong></a></li>
+<li><a href="https://www.youtube.com/watch?v=bRKZbrlQqLY&amp;t=16s&amp;ab_channel=ReactFinland" rel="nofollow"><strong>Juan Picado</strong> – Testing the integrity of React components by publishing in a private registry - React Finland - 2021</a></li>
+<li><a href="https://www.youtube.com/watch?v=6SyjqBmS49Y&amp;ab_channel=BeerJSCba" rel="nofollow">BeerJS Cba Meetup No. 53 May 2021 - <strong>Juan Picado</strong></a></li>
+<li><a href="https://www.youtube.com/watch?v=qTRADSp3Hpo" rel="nofollow">Node.js Dependency Confusion Attacks - April 2021 - <strong>Juan Picado</strong></a></li>
+<li><a href="https://www.youtube.com/watch?v=oVCjDWeehAQ" rel="nofollow"><strong>OpenJS World 2020</strong> about *Cover your Projects with a Multi purpose Lightweight Node.js Registry - <strong>Juan Picado</strong></a></li>
+<li><a href="https://www.youtube.com/watch?v=hDIFKzmoCa" rel="nofollow">ViennaJS Meetup - Introduction to Verdaccio by <strong>Priscila Olivera</strong> and <strong>Juan Picado</strong></a></li>
+<li><a href="https://www.youtube.com/watch?v=A5CWxJC9xzc" rel="nofollow">Open Source? trivago - Verdaccio (<strong>Ayush</strong> and <strong>Juan Picado</strong>) January 2020</a></li>
+<li><a href="https://www.youtube.com/watch?v=gpjC8Qp9B9A" rel="nofollow">GitNation Open Source Stage - How we have built a Node.js Registry with React - <strong>Juan Picado</strong> December 2019</a></li>
+<li><a href="https://www.youtube.com/watch?reload=9&amp;v=P_hxy7W-IL4&amp;ab_channel=TheDestroDevShow" rel="nofollow">Verdaccio - A lightweight Private Proxy Registry built in Node.js | <strong>Juan Picado</strong> at The Destro Dev Show</a></li>
+</ul>
+<h2 dir="auto">Get Started</h2>
+<p dir="auto">Run in your terminal</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="verdaccio"><pre class="notranslate">verdaccio</pre></div>
+<p dir="auto">You would need set some npm configuration, this is optional.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="npm set registry http://localhost:4873/"><pre class="notranslate">npm <span class="pl-c1">set</span> registry http://localhost:4873/</pre></div>
+<p dir="auto">For one-off commands or to avoid setting the registry globally:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="NPM_CONFIG_REGISTRY=http://localhost:4873 npm i"><pre class="notranslate">NPM_CONFIG_REGISTRY=http://localhost:4873 npm i</pre></div>
+<p dir="auto">Now you can navigate to <a href="http://localhost:4873/" rel="nofollow">http://localhost:4873/</a> where your local packages will be listed and can be searched.</p>
+<blockquote>
+<p dir="auto">Warning: Verdaccio <a href="https://github.com/verdaccio/verdaccio/issues/1301#issuecomment-489302298" data-hovercard-type="issue" data-hovercard-url="/verdaccio/verdaccio/issues/1301/hovercard">does not currently support PM2's cluster mode</a>, running it with cluster mode may cause unknown behavior.</p>
+</blockquote>
+<h2 dir="auto">Publishing</h2>
+<h4 dir="auto">1. create a user and log in</h4>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="npm adduser --registry http://localhost:4873"><pre class="notranslate">npm adduser --registry http://localhost:4873</pre></div>
+<blockquote>
+<p dir="auto">if you use HTTPS, add an appropriate CA information ("null" means get CA list from OS)</p>
+</blockquote>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="npm set ca null"><pre class="notranslate">npm <span class="pl-c1">set</span> ca null</pre></div>
+<h4 dir="auto">2. publish your package</h4>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="npm publish --registry http://localhost:4873"><pre class="notranslate">npm publish --registry http://localhost:4873</pre></div>
+<p dir="auto">This will prompt you for user credentials which will be saved on the <code class="notranslate">verdaccio</code> server.</p>
+<h2 dir="auto">Docker</h2>
+<p dir="auto">Below are the most commonly needed information,<br>
+every aspect of Docker and verdaccio is <a href="https://www.verdaccio.org/docs/en/docker.html" rel="nofollow">documented separately</a></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="docker pull verdaccio/verdaccio:nightly-master"><pre class="notranslate"><code class="notranslate">docker pull verdaccio/verdaccio:nightly-master
+</code></pre></div>
+<p dir="auto">Available as <a href="https://hub.docker.com/r/verdaccio/verdaccio/tags/" rel="nofollow">tags</a>.</p>
+<h3 dir="auto">Running Verdaccio using Docker</h3>
+<p dir="auto">To run the docker container:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="docker run -it --rm --name verdaccio -p 4873:4873 verdaccio/verdaccio"><pre class="notranslate">docker run -it --rm --name verdaccio -p 4873:4873 verdaccio/verdaccio</pre></div>
+<p dir="auto">Docker examples are available <a href="https://github.com/verdaccio/verdaccio/tree/master/docker-examples">in this repository</a>.</p>
+<h2 dir="auto">Compatibility</h2>
+<p dir="auto">Verdaccio aims to support all features of a standard npm client that make sense to support in a private repository. Unfortunately, it isn't always possible.</p>
+<h3 dir="auto">Basic features</h3>
+<ul dir="auto">
+<li>Installing packages (<code class="notranslate">npm install</code>, <code class="notranslate">npm update</code>, etc.) - <strong>supported</strong></li>
+<li>Publishing packages (<code class="notranslate">npm publish</code>) - <strong>supported</strong></li>
+</ul>
+<h3 dir="auto">Advanced package control</h3>
+<ul dir="auto">
+<li>Unpublishing packages (<code class="notranslate">npm unpublish</code>) - <strong>supported</strong></li>
+<li>Tagging (<code class="notranslate">npm dist-tag</code>) - <strong>supported</strong></li>
+<li>Deprecation (<code class="notranslate">npm deprecate</code>) - <strong>supported</strong></li>
+</ul>
+<h3 dir="auto">User management</h3>
+<ul dir="auto">
+<li>Registering new users (<code class="notranslate">npm adduser {newuser}</code>) - <strong>supported</strong></li>
+<li>Change password (<code class="notranslate">npm profile set password</code>) - <strong>supported</strong></li>
+<li>Transferring ownership (<code class="notranslate">npm owner</code>) - <strong>supported</strong></li>
+<li>Token (<code class="notranslate">npm token</code>) - <strong>supported</strong></li>
+</ul>
+<h3 dir="auto">Miscellaneous</h3>
+<ul dir="auto">
+<li>Searching (<code class="notranslate">npm search</code>) - <strong>supported</strong> (cli / browser)</li>
+<li>Ping (<code class="notranslate">npm ping</code>) - <strong>supported</strong></li>
+<li>Starring (<code class="notranslate">npm star</code>, <code class="notranslate">npm unstar</code>, <code class="notranslate">npm stars</code>) - <strong>supported</strong></li>
+</ul>
+<h3 dir="auto">Security</h3>
+<ul dir="auto">
+<li>Audit (<code class="notranslate">npm/yarn audit</code>) - <strong>supported</strong></li>
+</ul>
+<h2 dir="auto">Report a vulnerability</h2>
+<p dir="auto">If you want to report a security vulnerability, please follow the steps which we have defined for you in our <a href="https://github.com/verdaccio/verdaccio/security/policy">security policy</a>.</p>
+<h2 dir="auto">Special Thanks</h2>
+<p dir="auto">Thanks to the following companies to help us to achieve our goals providing free open source licenses. Every company provides enough resources to move this project forward.</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>Company</th>
+<th>Logo</th>
+<th>License</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>JetBrains</td>
+<td><a href="https://www.jetbrains.com/" rel="nofollow"><img src="https://github.com/verdaccio/verdaccio/blob/master/assets/thanks/jetbrains/logo.png?raw=true" alt="jetbrain" style="max-width: 100%;"></a></td>
+<td>JetBrains provides licenses for products for active maintainers, renewable yearly</td>
+</tr>
+<tr>
+<td>Crowdin</td>
+<td><a href="https://crowdin.com/" rel="nofollow"><img src="https://github.com/verdaccio/verdaccio/blob/master/assets/thanks/crowdin/logo.png?raw=true" alt="crowdin" style="max-width: 100%;"></a></td>
+<td>Crowdin provides platform for translations</td>
+</tr>
+<tr>
+<td>BrowserStack</td>
+<td><a href="https://www.browserstack.com/" rel="nofollow"><img src="https://camo.githubusercontent.com/50d5f2abf39e63591a3ae37db0b9e95381c776d7364d204c3d71ad6f7e4a1036/68747470733a2f2f63646e2e76657264616363696f2e6465762f726561646d652f62726f77736572737461636b5f6c6f676f2e706e67" alt="browserstack" data-canonical-src="https://cdn.verdaccio.dev/readme/browserstack_logo.png" style="max-width: 100%;"></a></td>
+<td>BrowserStack provides plan to run End to End testing for the UI</td>
+</tr>
+<tr>
+<td>Netlify</td>
+<td><a href="https://www.netlify.com/" rel="nofollow"><img src="https://camo.githubusercontent.com/d76ee90039a2ff5d42bb6b061a5322a3333cc2e52505a016994bfc5fd62fde67/68747470733a2f2f7777772e6e65746c6966792e636f6d2f696d672f676c6f62616c2f6261646765732f6e65746c6966792d636f6c6f722d616363656e742e737667" alt="netlify" data-canonical-src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" style="max-width: 100%;"></a></td>
+<td>Netlify provides pro plan for website deployment</td>
+</tr>
+<tr>
+<td>Algolia</td>
+<td><a href="https://algolia.com/" rel="nofollow"><img src="https://camo.githubusercontent.com/db8335dc1912ef8c81d8a2162a196f4f9940ddc86b6ce76329fbfc713eaf54f3/68747470733a2f2f63646e2e76657264616363696f2e6465762f73706f6e736f722f6c6f676f2f616c676f6c69612f6c6f676f2e706e67" alt="algolia" data-canonical-src="https://cdn.verdaccio.dev/sponsor/logo/algolia/logo.png" style="max-width: 100%;"></a></td>
+<td>Algolia provides search services for the website</td>
+</tr>
+<tr>
+<td>Docker</td>
+<td><a href="https://www.docker.com/community/open-source/application" rel="nofollow"><img src="https://camo.githubusercontent.com/450d5e81c5934953a7b4037fcce00be6230833f713cebf042f04f2abfe51f428/68747470733a2f2f63646e2e76657264616363696f2e6465762f73706f6e736f722f6c6f676f2f646f636b65722f646f636b65722e706e67" alt="docker" data-canonical-src="https://cdn.verdaccio.dev/sponsor/logo/docker/docker.png" style="max-width: 100%;"></a></td>
+<td>Docker offers unlimited pulls and unlimited egress to any and all users</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<h2 dir="auto">Maintainers</h2>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th><a href="https://github.com/juanpicado">Juan Picado</a></th>
+<th><a href="https://github.com/ayusharma">Ayush Sharma</a></th>
+<th><a href="https://github.com/sergiohgz">Sergio Hg</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://avatars3.githubusercontent.com/u/558752?s=120&amp;v=4"><img src="https://avatars3.githubusercontent.com/u/558752?s=120&amp;v=4" alt="jotadeveloper" style="max-width: 100%;"></a></td>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://avatars2.githubusercontent.com/u/6918450?s=120&amp;v=4"><img src="https://avatars2.githubusercontent.com/u/6918450?s=120&amp;v=4" alt="ayusharma" style="max-width: 100%;"></a></td>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://avatars2.githubusercontent.com/u/14012309?s=120&amp;v=4"><img src="https://avatars2.githubusercontent.com/u/14012309?s=120&amp;v=4" alt="sergiohgz" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://twitter.com/ayusharma_" rel="nofollow">@ayusharma_</a></td>
+<td><a href="https://twitter.com/sergiohgz" rel="nofollow">@sergiohgz</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/priscilawebdev">Priscila Oliveria</a></td>
+<td><a href="https://github.com/DanielRuf">Daniel Ruf</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://avatars2.githubusercontent.com/u/29228205?s=120&amp;v=4"><img src="https://avatars2.githubusercontent.com/u/29228205?s=120&amp;v=4" alt="priscilawebdev" style="max-width: 100%;"></a></td>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://avatars3.githubusercontent.com/u/827205?s=120&amp;v=4"><img src="https://avatars3.githubusercontent.com/u/827205?s=120&amp;v=4" alt="DanielRuf" style="max-width: 100%;"></a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/priscilawebdev" rel="nofollow">@priscilawebdev</a></td>
+<td><a href="https://twitter.com/DanielRufde" rel="nofollow">@DanielRufde</a></td>
+<td></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p dir="auto">You can find and chat with them over Discord, click <a href="http://chat.verdaccio.org" rel="nofollow">here</a>.</p>
+<h2 dir="auto">Who is using Verdaccio?</h2>
+<ul dir="auto">
+<li><a href="https://github.com/facebook/create-react-app/blob/master/CONTRIBUTING.md#customizing-e2e-registry-configuration">create-react-app</a> <em>(+86.2k ⭐️)</em></li>
+<li><a href="https://github.com/grafana/grafana/search?q=verdaccio">Grafana</a> <em>(+54.9k ⭐️)</em></li>
+<li><a href="https://github.com/gatsbyjs/gatsby">Gatsby</a> <em>(+49.2k ⭐️)</em></li>
+<li><a href="https://github.com/babel/babel">Babel.js</a> <em>(+38.5k ⭐️)</em></li>
+<li><a href="https://github.com/facebook/docusaurus">Docusaurus</a> <em>(+34k ⭐️)</em></li>
+<li><a href="https://github.com/vuejs/vue-cli">Vue CLI</a> <em>(+27.4k ⭐️)</em></li>
+<li><a href="https://github.com/angular/angular-cli">Angular CLI</a> <em>(+24.3k ⭐️)</em></li>
+<li><a href="https://github.com/transloadit/uppy">Uppy</a> <em>(+23.8k ⭐️)</em></li>
+<li><a href="https://github.com/teambit/bit">bit</a> <em>(+13k ⭐️)</em></li>
+<li><a href="https://github.com/aurelia/framework">Aurelia Framework</a> <em>(+11.6k ⭐️)</em></li>
+<li><a href="https://github.com/pnpm/pnpm">pnpm</a> <em>(+10.1k ⭐️)</em></li>
+<li><a href="https://github.com/ethereum/web3.js">ethereum/web3.js</a> <em>(+9.8k ⭐️)</em></li>
+<li><a href="https://github.com/webiny/webiny-js">Webiny CMS</a> <em>(+6.6k ⭐️)</em></li>
+<li><a href="https://github.com/nrwl/nx">NX</a> <em>(+6.1k ⭐️)</em></li>
+<li><a href="https://github.com/neutrinojs/neutrino">Mozilla Neutrino</a> <em>(+3.7k ⭐️)</em></li>
+<li><a href="https://github.com/workshopper/how-to-npm">workshopper how to npm</a> <em>(+1k ⭐️)</em></li>
+<li><a href="https://github.com/aws/aws-sdk-js-v3">Amazon SDK v3</a></li>
+<li><a href="https://github.com/aws/aws-encryption-sdk-javascript">Amazon Encryption SDK for Javascript</a></li>
+</ul>
+<p dir="auto">🤓 Don't be shy, add yourself to this readme.</p>
+<h2 dir="auto">Open Collective Sponsors</h2>
+<p dir="auto">Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [<a href="https://opencollective.com/verdaccio/contribute" rel="nofollow">Become a sponsor</a>]</p>
+<p dir="auto"><a href="https://opencollective.com/verdaccio/sponsor/0/website" rel="nofollow"><img src="https://camo.githubusercontent.com/6c5e21de155df95f7a381e5afcb5fb5ed4e2e9a9f650c9450fa8ca466a736807/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f76657264616363696f2f73706f6e736f722f302f6176617461722e737667" alt="sponsor" data-canonical-src="https://opencollective.com/verdaccio/sponsor/0/avatar.svg" style="max-width: 100%;"></a><br>
+<a href="https://opencollective.com/verdaccio/sponsor/1/website" rel="nofollow"><img src="https://camo.githubusercontent.com/f4f1b5c89a9b7bc7788acafce774083b6d8662178afb66c26951003d95f39ef0/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f76657264616363696f2f73706f6e736f722f312f6176617461722e737667" alt="sponsor" data-canonical-src="https://opencollective.com/verdaccio/sponsor/1/avatar.svg" style="max-width: 100%;"></a><br>
+<a href="https://opencollective.com/verdaccio/sponsor/2/website" rel="nofollow"><img src="https://camo.githubusercontent.com/458329f49a1d75ba12c0a76505bba80304e4d9a814d3779a4dbf32f804394c14/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f76657264616363696f2f73706f6e736f722f322f6176617461722e737667" alt="sponsor" data-canonical-src="https://opencollective.com/verdaccio/sponsor/2/avatar.svg" style="max-width: 100%;"></a><br>
+<a href="https://opencollective.com/verdaccio/sponsor/3/website" rel="nofollow"><img src="https://camo.githubusercontent.com/4b905b216ace258b92319c45eec632691e8f3b2e7d49362c47a4bc938455671c/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f76657264616363696f2f73706f6e736f722f332f6176617461722e737667" alt="sponsor" data-canonical-src="https://opencollective.com/verdaccio/sponsor/3/avatar.svg" style="max-width: 100%;"></a><br>
+<a href="https://opencollective.com/verdaccio/sponsor/4/website" rel="nofollow"><img src="https://camo.githubusercontent.com/575507d3770c1a7a43c4580d8bd5d6482a5c2a093a9599aa30ab670c17bff3ea/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f76657264616363696f2f73706f6e736f722f342f6176617461722e737667" alt="sponsor" data-canonical-src="https://opencollective.com/verdaccio/sponsor/4/avatar.svg" style="max-width: 100%;"></a><br>
+<a href="https://opencollective.com/verdaccio/sponsor/5/website" rel="nofollow"><img src="https://camo.githubusercontent.com/cd655617f99e68980b0bbb9c83fba58a5ee708d89dbb1c61c73f552bb5844d31/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f76657264616363696f2f73706f6e736f722f352f6176617461722e737667" alt="sponsor" data-canonical-src="https://opencollective.com/verdaccio/sponsor/5/avatar.svg" style="max-width: 100%;"></a><br>
+<a href="https://opencollective.com/verdaccio/sponsor/6/website" rel="nofollow"><img src="https://camo.githubusercontent.com/3bf34cba4d96199b2888f7f98f1c7cacc4972a49bc585ab62f6d093843496e94/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f76657264616363696f2f73706f6e736f722f362f6176617461722e737667" alt="sponsor" data-canonical-src="https://opencollective.com/verdaccio/sponsor/6/avatar.svg" style="max-width: 100%;"></a><br>
+<a href="https://opencollective.com/verdaccio/sponsor/7/website" rel="nofollow"><img src="https://camo.githubusercontent.com/8f3ca4958efd6b143b280384889195eb286a1cb9694c4cf7cb9063aaf6234faf/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f76657264616363696f2f73706f6e736f722f372f6176617461722e737667" alt="sponsor" data-canonical-src="https://opencollective.com/verdaccio/sponsor/7/avatar.svg" style="max-width: 100%;"></a><br>
+<a href="https://opencollective.com/verdaccio/sponsor/8/website" rel="nofollow"><img src="https://camo.githubusercontent.com/62a0e334edca573df63317d48bc10e742378069547f529502c99e1c4413def1c/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f76657264616363696f2f73706f6e736f722f382f6176617461722e737667" alt="sponsor" data-canonical-src="https://opencollective.com/verdaccio/sponsor/8/avatar.svg" style="max-width: 100%;"></a><br>
+<a href="https://opencollective.com/verdaccio/sponsor/9/website" rel="nofollow"><img src="https://camo.githubusercontent.com/55eee173d1e2bb27988980c16bff533403a03da606b6d15f633fc3f01f5b8bba/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f76657264616363696f2f73706f6e736f722f392f6176617461722e737667" alt="sponsor" data-canonical-src="https://opencollective.com/verdaccio/sponsor/9/avatar.svg" style="max-width: 100%;"></a></p>
+<h2 dir="auto">Open Collective Backers</h2>
+<p dir="auto">Thank you to all our backers! 🙏 [<a href="https://opencollective.com/verdaccio/contribute" rel="nofollow">Become a backer</a>]</p>
+<p dir="auto"><a href="https://opencollective.com/verdaccio/contributes" rel="nofollow"><img src="https://camo.githubusercontent.com/97bc10a701cca8a373d20fac658438daef4990679cb40725e4b89672259ba805/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f76657264616363696f2f6261636b6572732e7376673f77696474683d383930" alt="backers" data-canonical-src="https://opencollective.com/verdaccio/backers.svg?width=890" style="max-width: 100%;"></a></p>
+<h2 dir="auto">Contributors</h2>
+<p dir="auto">This project exists thanks to all the people who contribute. [<a href="https://github.com/verdaccio/verdaccio/blob/master/CONTRIBUTING.md">Contribute</a>].</p>
+<p dir="auto"><a href="https://github.com/verdaccio/verdaccio/graphs/contributors"><img src="https://camo.githubusercontent.com/b4f71617db49465c413fc8094aad36aa5f9ca40786823e7ffe18089b18d05ae0/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f76657264616363696f2f636f6e7472696275746f72732e7376673f77696474683d38393026627574746f6e3d74727565" alt="contributors" data-canonical-src="https://opencollective.com/verdaccio/contributors.svg?width=890&amp;button=true" style="max-width: 100%;"></a></p>
+<h2 dir="auto">FAQ / Contact / Troubleshoot</h2>
+<p dir="auto">If you have any issue you can try the following options. Do no hesitate to ask or check our issues database. Perhaps someone has asked already what you are looking for.</p>
+<ul dir="auto">
+<li><a href="https://verdaccio.org/blog/" rel="nofollow">Blog</a></li>
+<li><a href="https://github.com/sponsors/verdaccio">Donations</a></li>
+<li><a href="https://github.com/verdaccio/verdaccio/issues/new/choose">Reporting an issue</a></li>
+<li><a href="https://github.com/orgs/verdaccio/discussions">Running discussions</a></li>
+<li><a href="https://discord.gg/7qWJxBf" rel="nofollow">Chat</a></li>
+<li><a href="https://verdaccio.org/docs/logo" rel="nofollow">Logos</a></li>
+<li><a href="https://github.com/verdaccio/verdaccio/tree/master/docker-examples">Docker Examples</a></li>
+<li><a href="https://github.com/verdaccio/verdaccio/discussions/categories/q-a">FAQ</a></li>
+</ul>
+<h2 dir="auto">License</h2>
+<p dir="auto">Verdaccio is <a href="https://github.com/verdaccio/verdaccio/blob/master/LICENSE">MIT licensed</a></p>
+<p dir="auto">The Verdaccio documentation and logos (excluding /thanks, e.g., .md, .png, .sketch files within the /assets folder) are<br>
+<a href="https://creativecommons.org/licenses/by/4.0/" rel="nofollow">Creative Commons licensed</a>.</p></div></div></div><div class="gg-issues-prev-next"><a class="prev" href="/issues/589"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M2 3h17a2 2 0 0 1 2 2v4h-2V5H2v14h17v-4h2v4a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m15 12v-2h7v-2h-7V9l-4 3l4 3M4 13h7v-2H4v2m0-4h7V7H4v2m0 8h4v-2H4v2Z"/></svg>chaitin/veinmind-tools: 容器安全工具集，支持容器恶意文件，弱口令，漏洞，后门等扫描能力</span></a><a class="next" href="/issues/591"><span>gvcgo/version-manager: 一款简单，跨平台，且经过良好设计的版本管理器，用于管理多种SDK以及其他工具。<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M22 3H5a2 2 0 0 0-2 2v4h2V5h17v14H5v-4H3v4a2 2 0 0 0 2 2h17a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2M7 15v-2H0v-2h7V9l4 3l-4 3m13-2h-7v-2h7v2m0-4h-7V7h7v2m-3 8h-4v-2h4v2Z"/></svg></span></a></div><div class="answer-content"><div class="comments"></div></div></div></div></main><footer><div class="license"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img style="width:60px;height:21px" src="/static/license-83d755bd405fbe51c87dc088baf26299.svg" alt="License"/></a></div><div class="copyright"><span>Copyright ©<!-- --> <!-- -->2025<!-- -->-present</span><a class="owner" href="https://github.com/awesome-ops/awesome-ops.github.io" target="_blank">awesome-ops/awesome-ops.github.io</a>.</div><span class="powered">Powered by<a class="owner" title="GG (Gatsby + GitHub) - A gatsby website builder based on github discussions" href="https://github.com/lencx/gg" target="_blank">gg</a></span></footer></div><div id="gg-backtop" class="hide"><svg viewBox="0 0 98 125" xmlns="http://www.w3.org/2000/svg"><path d="m.41627505 120.505813c.36557376-2.799314 38.38567845-112.09375627 40.40633855-116.52273479 2.0206601-4.42897853 7.0443939-6.06190829 10.0049342.20172081 1.9736935 4.17575274 17.3630227 42.22464148 46.1679874 114.14666598.3068629 1.030234.4237748 1.755017.3507358 2.174348-.4483666 2.574161-2.3292736 3.429521-4.6125739 2.516093-15.0683018-6.028033-36.2681037-23.1692513-43.8663627-23.1692513-7.5982589 0-27.0568176 12.9171643-43.18383202 23.1692513-.96511235.613531-1.91473089 1.069619-2.88840599 1.149501s-2.74439509-.86628-2.37882134-3.665594z" fill="var(--gg-icon)" fill-rule="evenodd"></path></svg></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/issues/590";window.___webpackCompilationHash="24ed58306e97f1c1f657";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-97dd130bca8800dece7d.js"],"app":["/app-7383f855f15f63329e5f.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-2d05d9e504a620062115.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-408674d1ce0d96365c3f.js"],"component---src-templates-archives-tsx":["/component---src-templates-archives-tsx-06d205e572129bb8618c.js"],"component---src-templates-issues-tsx":["/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js"],"component---src-templates-labels-category-tsx":["/component---src-templates-labels-category-tsx-5456164ce90934624119.js"],"component---src-templates-labels-tsx":["/component---src-templates-labels-tsx-ee7b95bd8aa06617f372.js"],"component---src-templates-nav-category-tsx":["/component---src-templates-nav-category-tsx-91c7d8cb3880e3e0fda2.js"],"component---src-templates-nav-labels-tsx":["/component---src-templates-nav-labels-tsx-ae07fd835c5a914973d3.js"]};/*]]>*/</script><script src="/polyfill-97dd130bca8800dece7d.js" nomodule=""></script><script src="/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js" async=""></script><script src="/fc369a2ef6459b03f38591687cef4a587495c716-f468df31cbdaf6ffa970.js" async=""></script><script src="/app-7383f855f15f63329e5f.js" async=""></script><script src="/framework-86c8a5417e68dc3cefff.js" async=""></script><script src="/webpack-runtime-4fee7405b8a071e8c34e.js" async=""></script></body></html>

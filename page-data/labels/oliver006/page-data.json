@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/oliver006",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"oliver006/redis_exporter: 用于 Redis 指标的 Prometheus Exporter。支持 Redis 2.x、3.x、4.x、5.x、6.x 和 7.x 版本","number":472}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7cvCw","name":"oliver006","color":"a6bc60","description":null},"name":"oliver006","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

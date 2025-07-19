@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/kubeshop",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"kubeshop/monokle: 通过可视化 UI 更好地创建、理解和部署 YAML 清单，该 UI 还提供策略验证和集群见解","number":381}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7a4Ww","name":"kubeshop","color":"607ca7","description":null},"name":"kubeshop","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

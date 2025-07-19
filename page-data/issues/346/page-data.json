@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/346",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":346,"previous":{"title":"kubernetes-sigs/kwok: 一个没有 Kubelet 的 Kubernetes， 你可以在笔记本电脑上在几秒钟内模拟数千个节点，而不会大量消耗 CPU 或内存资源。且兼容 K8S API","number":345},"next":{"title":"aceld/Lars: Lars是一个简单、易用、高性能的服务间远程调用管理、调度、负载均衡系统。","number":347}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

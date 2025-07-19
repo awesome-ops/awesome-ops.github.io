@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/164",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":164,"previous":{"title":"workpieces/etcdWp: 一款美观、易于 etcd 数据库管理应用程序，支持多平台","number":163},"next":{"title":"fabric/fabric: 一种简单、具有 Python 风格的远程执行和部署方法。","number":165}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

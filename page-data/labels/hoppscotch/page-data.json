@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/hoppscotch",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"hoppscotch/hoppscotch: 开源 API 开发生态系统，颜值非常高","number":229}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Xlrw","name":"hoppscotch","color":"492c93","description":null},"name":"hoppscotch","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

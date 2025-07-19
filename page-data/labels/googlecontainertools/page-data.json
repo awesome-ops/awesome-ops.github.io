@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/googlecontainertools",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"GoogleContainerTools/skaffold: 简单且可重复的 Kubernetes 开发工具","number":517}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7YlBQ","name":"GoogleContainerTools","color":"143e17","description":null},"name":"GoogleContainerTools","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

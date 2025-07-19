@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/composer",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"composer/composer: PHP 语言栈的私服程序","number":95}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Uzqw","name":"composer","color":"8c237a","description":null},"name":"composer","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

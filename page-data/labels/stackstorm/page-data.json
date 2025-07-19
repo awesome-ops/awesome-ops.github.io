@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/stackstorm",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"StackStorm/st2: StackStorm (俗称\"运维领域的 IFTTT\") 是一个事件驱动的自动化工具，用于自动修复、应对突发事件、故障排查、软件部署等多种运维任务，特别适用于 DevOps 和 SREs。","number":539}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9h1_w","name":"StackStorm","color":"66eaf0","description":null},"name":"StackStorm","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

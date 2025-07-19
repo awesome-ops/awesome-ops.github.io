@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/gcollazo",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"gcollazo/mongodbapp: 一个将 MongoDB 服务端封装为一个 MacOS APP 的开源项目，安装之后，运行会启动一个 MongoDB 服务。","number":379}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7a2Fw","name":"gcollazo","color":"3447b2","description":null},"name":"gcollazo","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

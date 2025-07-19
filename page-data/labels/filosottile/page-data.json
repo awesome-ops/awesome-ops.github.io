@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/filosottile",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"FiloSottile/mkcert: 一个简单的零配置工具，可以使用您想要的任何名称制作本地可信的开发证书","number":377}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7aznA","name":"FiloSottile","color":"7c8655","description":null},"name":"FiloSottile","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

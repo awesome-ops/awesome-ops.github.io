@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/go-sigma",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"go-sigma/sigma: Sigma是一个无痛自托管的一体化软件开发服务，它包括OCI构件管理器、垃圾回收、命名空间配额、多架构构件和OCI镜像构建。它类似于Harbor，但分发由其自身实现，所有服务都可以通过一个命令启动。","number":513}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9hnSw","name":"go-sigma","color":"50d0b6","description":null},"name":"go-sigma","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}
