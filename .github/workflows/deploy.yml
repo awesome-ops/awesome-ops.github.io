@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-  schedule:
-    - cron: '0 20 * * *'
   discussion:
     types: [created, edited, answered, deleted, transferred]
   workflow_dispatch:
