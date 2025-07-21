@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/mr-karan",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"mr-karan/doggo: 一个使用 go 语言编写的类似 dig 的查询 dns 信息的命令行工具。","number":127}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VdZQ","name":"mr-karan","color":"7a017f","description":null},"name":"mr-karan","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

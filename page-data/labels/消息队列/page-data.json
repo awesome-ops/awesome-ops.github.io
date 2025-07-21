@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/消息队列",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"sohutv/mqcloud:  集客户端 SDK，运维，监控，预警等功能的 RocketMQ 企业级一站式服务平台","number":382}},{"node":{"title":"changba/nsqproxy: NSQProxy 是 NSQ 和 Worker 之间的中间件，根据配置负责消息转发。然后通过 HTTP/FastCGI/CBNSQ 等协议转发给 Worker 机执行。","number":405}},{"node":{"title":"nsqio/nsq: 一个实时分布式消息传递平台，旨在大规模运行，每天处理数十亿条消息。","number":406}},{"node":{"title":"apache/pulsar: Pulsar 是一个分布式 pub-sub 消息传递平台，具有非常灵活的消息传递模型和直观的客户端 API。","number":460}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7a5lw","name":"消息队列","color":"4ca06a","description":null},"name":"消息队列","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

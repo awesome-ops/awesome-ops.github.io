@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/stepchowfun",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"stepchowfun/toast: 一个基于名为 toastfile 的 YAML 文件中定义任务，用于容器化工作流程的工具。","number":569}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9iJMQ","name":"stepchowfun","color":"a3bd31","description":null},"name":"stepchowfun","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

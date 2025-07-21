@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/megaease",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"megaease/easeprobe: 一个部署简单，易于配置，强大高效的服务健康检测告警工具，支持多种协议。","number":143}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VxlA","name":"megaease","color":"ce9988","description":null},"name":"megaease","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

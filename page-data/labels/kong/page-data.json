@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/kong",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"Kong/insomnia: 一个开源、跨平台 API 客户端，适用于 GraphQL、REST、WebSockets、服务器发送事件 (SSE)、gRPC 和任何其他 HTTP 兼容协议","number":239}},{"node":{"title":"Kong/kong: 一个云原生、与平台无关、可扩展的 API 网关，以其高性能和通过插件的可扩展性而闻名。","number":295}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7XzAw","name":"Kong","color":"1e51e5","description":null},"name":"Kong","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

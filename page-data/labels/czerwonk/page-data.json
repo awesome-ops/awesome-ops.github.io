@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/czerwonk",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"czerwonk/ping_exporter: Ping 指标的 Prometheus Exporter","number":438}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7cCig","name":"czerwonk","color":"1b9bcc","description":null},"name":"czerwonk","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

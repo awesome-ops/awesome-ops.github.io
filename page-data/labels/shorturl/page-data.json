@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/shorturl",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"jwma/jump-jump: 开箱即用，Golang 开发的一个功能完善的短链接系统","number":257}},{"node":{"title":"long2ice/longurl: 一个自托管的短链服务","number":359}},{"node":{"title":"barats/ohUrlShortener: 企业级短链接服务系统，支持短链接生产、查询及302转向，并自带点击量统计、独立 IP 数统计、访问日志","number":410}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7YK_Q","name":"ShortURL","color":"89cbc1","description":null},"name":"ShortURL","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/trickstercache",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"trickstercache/trickster: HTTP 反向代理/缓存，用于时间序列数据库的仪表板查询加速器","number":574}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9iMxA","name":"trickstercache","color":"ef9273","description":null},"name":"trickstercache","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

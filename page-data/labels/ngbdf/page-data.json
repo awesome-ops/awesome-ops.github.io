@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/ngbdf",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"ngbdf/redis-manager: Redis 一站式管理平台，支持集群的监控、安装、管理、告警以及基本的数据操作","number":477}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7c3vQ","name":"ngbdf","color":"057cb1","description":null},"name":"ngbdf","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

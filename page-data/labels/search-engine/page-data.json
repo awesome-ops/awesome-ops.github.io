@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/search-engine",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"meilisearch/meilisearch: ⚡ Rust 语言编写，快如闪电的搜索引擎，可轻松融入您的应用程序、网站和工作流程 🔍","number":369}},{"node":{"title":"openobserve/openobserve: 一个云原生可观察性平台，专为日志、指标、跟踪、分析、RUM（真实用户监控 - 性能、错误、会话重放）而构建，设计用于 PB 级工作","number":418}},{"node":{"title":"zincsearch/zincsearch: 一个进行全文索引的搜索引擎。它是 Elasticsearch 的轻量级替代品，运行时只使用一小部分资源。它使用蓝色作为底层索引库","number":629}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7an3w","name":"Search-Engine","color":"86a763","description":null},"name":"Search-Engine","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

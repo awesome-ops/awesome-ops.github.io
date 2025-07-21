@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/verdaccio",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"verdaccio/verdaccio: 一个简单易用、无需配置的本地私有 npm 仓库。","number":590}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9iXdA","name":"verdaccio","color":"ced467","description":null},"name":"verdaccio","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/lazzyfu",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"lazzyfu/goInsight: 一个基于Gin和Vue开发的前后端分离Web平台，支持MySQL/TiDB/ClickHouse数据库，提供工单管理和数据查询功能。","number":197}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7W3yA","name":"lazzyfu","color":"89f14d","description":null},"name":"lazzyfu","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

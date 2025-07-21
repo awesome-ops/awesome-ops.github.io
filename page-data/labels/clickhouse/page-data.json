@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/clickhouse",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"TongchengOpenSource/ckibana: CKibana是一款可以在原生kibana查询Clickhouse的服务","number":79}},{"node":{"title":"clickvisual/clickvisual: 一个轻量级的基于浏览器的日志分析和查询平台，底层数据存储采用 ClickHouse","number":80}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UesA","name":"ClickHouse","color":"480668","description":null},"name":"ClickHouse","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

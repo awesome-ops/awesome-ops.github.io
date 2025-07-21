@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/qdrant",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"qdrant/qdrant: Qdrant - 面向下一代人工智能的高性能、大规模向量数据库。","number":463}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7ckOg","name":"qdrant","color":"237b2c","description":null},"name":"qdrant","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

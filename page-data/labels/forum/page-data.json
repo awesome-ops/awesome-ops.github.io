@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/forum",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"casbin/casnode: 一个 V2EX 风格的论坛项目","number":66}},{"node":{"title":"flarum/framework: 一个简单的，优雅的论坛项目","number":174}},{"node":{"title":"linfaxin/MBBS: 轻量级全功能论坛、移动/PC 双端适配、无依赖一键启动、技术栈 Express + SQLite + React","number":368}},{"node":{"title":"rocboss/paopao-ce: 一个清新文艺的微社区，Gin+Zinc+Vue+TS开发","number":428}},{"node":{"title":"zhuchunshu/SForum: ✨ 一个功能丰富占内存少的组件化高性能论坛程序","number":509}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UPlw","name":"Forum","color":"02e877","description":null},"name":"Forum","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

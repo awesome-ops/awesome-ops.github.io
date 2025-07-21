@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/iaas",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"apache/cloudstack: Apache CloudStack是一个开源的基础设施即服务（IaaS）云计算平台。","number":86}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UnaQ","name":"IaaS","color":"b04662","description":null},"name":"IaaS","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

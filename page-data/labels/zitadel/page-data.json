@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/zitadel",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"zitadel/zitadel: 企业级统一身份认证管理系统","number":630}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9iwXg","name":"zitadel","color":"6e70da","description":null},"name":"zitadel","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

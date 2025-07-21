@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/dromara",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"dromara/cubic: 一站式问题定位平台，以 agent 的方式无侵入接入应用，提供各种指标，动态线程堆栈追踪，完整集成 arthas 功能模块，致力于应用级监控，帮助开发人员快速定位问题。","number":102}},{"node":{"title":"dromara/Jpom: 简而轻的低侵入式在线构建、自动部署、日常运维、项目监控软件","number":254}},{"node":{"title":"dromara/MaxKey: 业界领先的IAM-IDaas身份管理和认证产品, 支持OAuth 2.x/OpenID Connect、SAML 2.0、JWT、CAS、SCIM等标准协议，提供安全、标准和开放的用户身份管理(IDM)、身份认证(AM)、单点登录(SSO)、RBAC权限管理和资源管理等","number":366}},{"node":{"title":"dromara/mayfly-go: web 版 Linux(终端, 文件脚本, 进程, 计划任务)、数据库（MySQL, Postgres, 达梦）、Redis(单机, 哨兵, 集群)、MongoDB 统一管理操作平台","number":367}},{"node":{"title":"dromara/neutrino-proxy: 一个基于 Netty 的、开源的 Java 内网穿透项目。","number":392}},{"node":{"title":"dromara/orion-visor: 一款高颜值、现代化的智能运维&轻量堡垒机平台。","number":421}},{"node":{"title":"dromara/RedisFront: 一款开源免费的跨平台 Redis 桌面客户端工具,  支持单机模式,  集群模式,  哨兵模式以及 SSH 隧道连接，支持多平台","number":474}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7U89w","name":"dromara","color":"3a35a2","description":null},"name":"dromara","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

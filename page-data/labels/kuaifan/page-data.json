@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/kuaifan",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"kuaifan/dootask:  一款开源在线项目任务管理工具，提供各类文档协作工具、在线思维导图、在线流程图、项目管理、任务分发、即时IM，文件管理等工具","number":132}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VkIA","name":"kuaifan","color":"9f9f54","description":null},"name":"kuaifan","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/alist-org",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"alist-org/alist: 🗂️ 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs","number":19}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TUJw","name":"alist-org","color":"7a43bd","description":null},"name":"alist-org","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

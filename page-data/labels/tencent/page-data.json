@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/tencent",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"Tencent/Tendis: Tendis 是一个完全兼容Redis协议的高性能分布式存储系统。","number":553}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9h-Pw","name":"Tencent","color":"7d2603","description":null},"name":"Tencent","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

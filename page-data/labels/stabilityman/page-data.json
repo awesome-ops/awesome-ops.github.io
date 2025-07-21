@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/stabilityman",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"StabilityMan/StabilityGuide: 打造国内稳定性领域知识库，让无法解决的问题少一点点，让世界的确定性多一点点","number":540}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9h2eQ","name":"StabilityMan","color":"751369","description":null},"name":"StabilityMan","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/ansible",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"ansible/ansible: 一个极其简单的 IT 自动化平台，使您的应用程序和系统更易于部署和维护，基于 ssh，无需客户端","number":23}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TYiA","name":"ansible","color":"ad5e66","description":null},"name":"ansible","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

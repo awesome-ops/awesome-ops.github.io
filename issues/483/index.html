@@ -1,0 +1,1198 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/><meta name="theme-color" content="#FFFFFF"/><meta name="generator" content="Gatsby 4.11.3"/><style data-href="/styles.3aaba633489943369223.css" data-identity="gatsby-global-css">@media (prefers-color-scheme:dark){.markdown-body{--color-prettylights-syntax-comment:#8b949e;--color-prettylights-syntax-constant:#79c0ff;--color-prettylights-syntax-entity:#d2a8ff;--color-prettylights-syntax-storage-modifier-import:#c9d1d9;--color-prettylights-syntax-entity-tag:#7ee787;--color-prettylights-syntax-keyword:#ff7b72;--color-prettylights-syntax-string:#a5d6ff;--color-prettylights-syntax-variable:#ffa657;--color-prettylights-syntax-brackethighlighter-unmatched:#f85149;--color-prettylights-syntax-invalid-illegal-text:#f0f6fc;--color-prettylights-syntax-invalid-illegal-bg:#8e1519;--color-prettylights-syntax-carriage-return-text:#f0f6fc;--color-prettylights-syntax-carriage-return-bg:#b62324;--color-prettylights-syntax-string-regexp:#7ee787;--color-prettylights-syntax-markup-list:#f2cc60;--color-prettylights-syntax-markup-heading:#1f6feb;--color-prettylights-syntax-markup-italic:#c9d1d9;--color-prettylights-syntax-markup-bold:#c9d1d9;--color-prettylights-syntax-markup-deleted-text:#ffdcd7;--color-prettylights-syntax-markup-deleted-bg:#67060c;--color-prettylights-syntax-markup-inserted-text:#aff5b4;--color-prettylights-syntax-markup-inserted-bg:#033a16;--color-prettylights-syntax-markup-changed-text:#ffdfb6;--color-prettylights-syntax-markup-changed-bg:#5a1e02;--color-prettylights-syntax-markup-ignored-text:#c9d1d9;--color-prettylights-syntax-markup-ignored-bg:#1158c7;--color-prettylights-syntax-meta-diff-range:#d2a8ff;--color-prettylights-syntax-brackethighlighter-angle:#8b949e;--color-prettylights-syntax-sublimelinter-gutter-mark:#484f58;--color-prettylights-syntax-constant-other-reference-link:#a5d6ff;--color-fg-default:#c9d1d9;--color-fg-muted:#8b949e;--color-fg-subtle:#484f58;--color-canvas-default:#0d1117;--color-canvas-subtle:#161b22;--color-border-default:#30363d;--color-border-muted:#21262d;--color-neutral-muted:hsla(215,8%,47%,.4);--color-accent-fg:#58a6ff;--color-accent-emphasis:#1f6feb;--color-attention-subtle:rgba(187,128,9,.15);--color-danger-fg:#f85149;color-scheme:dark}}@media (prefers-color-scheme:light){.markdown-body{--color-prettylights-syntax-comment:#6e7781;--color-prettylights-syntax-constant:#0550ae;--color-prettylights-syntax-entity:#8250df;--color-prettylights-syntax-storage-modifier-import:#24292f;--color-prettylights-syntax-entity-tag:#116329;--color-prettylights-syntax-keyword:#cf222e;--color-prettylights-syntax-string:#0a3069;--color-prettylights-syntax-variable:#953800;--color-prettylights-syntax-brackethighlighter-unmatched:#82071e;--color-prettylights-syntax-invalid-illegal-text:#f6f8fa;--color-prettylights-syntax-invalid-illegal-bg:#82071e;--color-prettylights-syntax-carriage-return-text:#f6f8fa;--color-prettylights-syntax-carriage-return-bg:#cf222e;--color-prettylights-syntax-string-regexp:#116329;--color-prettylights-syntax-markup-list:#3b2300;--color-prettylights-syntax-markup-heading:#0550ae;--color-prettylights-syntax-markup-italic:#24292f;--color-prettylights-syntax-markup-bold:#24292f;--color-prettylights-syntax-markup-deleted-text:#82071e;--color-prettylights-syntax-markup-deleted-bg:#ffebe9;--color-prettylights-syntax-markup-inserted-text:#116329;--color-prettylights-syntax-markup-inserted-bg:#dafbe1;--color-prettylights-syntax-markup-changed-text:#953800;--color-prettylights-syntax-markup-changed-bg:#ffd8b5;--color-prettylights-syntax-markup-ignored-text:#eaeef2;--color-prettylights-syntax-markup-ignored-bg:#0550ae;--color-prettylights-syntax-meta-diff-range:#8250df;--color-prettylights-syntax-brackethighlighter-angle:#57606a;--color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;--color-prettylights-syntax-constant-other-reference-link:#0a3069;--color-fg-default:#24292f;--color-fg-muted:#57606a;--color-fg-subtle:#6e7781;--color-canvas-default:#fff;--color-canvas-subtle:#f6f8fa;--color-border-default:#d0d7de;--color-border-muted:#d8dee4;--color-neutral-muted:rgba(175,184,193,.2);--color-accent-fg:#0969da;--color-accent-emphasis:#0969da;--color-attention-subtle:#fff8c5;--color-danger-fg:#cf222e;color-scheme:light}}.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;word-wrap:break-word;background-color:var(--color-canvas-default);color:var(--color-fg-default);font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:16px;line-height:1.5;margin:0}.markdown-body h1:hover .anchor .octicon-link:before,.markdown-body h2:hover .anchor .octicon-link:before,.markdown-body h3:hover .anchor .octicon-link:before,.markdown-body h4:hover .anchor .octicon-link:before,.markdown-body h5:hover .anchor .octicon-link:before,.markdown-body h6:hover .anchor .octicon-link:before{background-color:currentColor;content:" ";display:inline-block;height:16px;-webkit-mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');width:16px}.markdown-body details,.markdown-body figcaption,.markdown-body figure{display:block}.markdown-body summary{display:list-item}.markdown-body [hidden]{display:none!important}.markdown-body a{background-color:transparent;color:var(--color-accent-fg);text-decoration:none}.markdown-body a:active,.markdown-body a:hover{outline-width:0}.markdown-body abbr[title]{border-bottom:none;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}.markdown-body b,.markdown-body strong{font-weight:600}.markdown-body dfn{font-style:italic}.markdown-body h1{border-bottom:1px solid var(--color-border-muted);font-size:2em;font-weight:600;margin:.67em 0;padding-bottom:.3em}.markdown-body mark{background-color:var(--color-attention-subtle);color:var(--color-text-primary)}.markdown-body small{font-size:90%}.markdown-body sub,.markdown-body sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}.markdown-body sub{bottom:-.25em}.markdown-body sup{top:-.5em}.markdown-body img{background-color:var(--color-canvas-default);border-style:none;box-sizing:content-box;max-width:100%}.markdown-body code,.markdown-body kbd,.markdown-body pre,.markdown-body samp{font-family:monospace,monospace;font-size:1em}.markdown-body figure{margin:1em 40px}.markdown-body hr{background:transparent;background-color:var(--color-border-default);border:0;box-sizing:content-box;height:.25em;margin:24px 0;overflow:hidden;padding:0}.markdown-body input{font:inherit;font-family:inherit;font-size:inherit;line-height:inherit;margin:0;overflow:visible}.markdown-body [type=button],.markdown-body [type=reset],.markdown-body [type=submit]{-webkit-appearance:button}.markdown-body [type=button]::-moz-focus-inner,.markdown-body [type=reset]::-moz-focus-inner,.markdown-body [type=submit]::-moz-focus-inner{border-style:none;padding:0}.markdown-body [type=button]:-moz-focusring,.markdown-body [type=reset]:-moz-focusring,.markdown-body [type=submit]:-moz-focusring{outline:1px dotted ButtonText}.markdown-body [type=checkbox],.markdown-body [type=radio]{box-sizing:border-box;padding:0}.markdown-body [type=number]::-webkit-inner-spin-button,.markdown-body [type=number]::-webkit-outer-spin-button{height:auto}.markdown-body [type=search]{-webkit-appearance:textfield;outline-offset:-2px}.markdown-body [type=search]::-webkit-search-cancel-button,.markdown-body [type=search]::-webkit-search-decoration{-webkit-appearance:none}.markdown-body ::-webkit-input-placeholder{color:inherit;opacity:.54}.markdown-body ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}.markdown-body a:hover{text-decoration:underline}.markdown-body hr:after,.markdown-body hr:before{content:"";display:table}.markdown-body hr:after{clear:both}.markdown-body table{border-collapse:collapse;border-spacing:0;display:block;max-width:100%;overflow:auto;width:-webkit-max-content;width:max-content}.markdown-body td,.markdown-body th{padding:0}.markdown-body details summary{cursor:pointer}.markdown-body details:not([open])>:not(summary){display:none!important}.markdown-body kbd{background-color:var(--color-canvas-subtle);border-bottom-color:var(--color-neutral-muted);border:1px solid var(--color-neutral-muted);border-radius:6px;box-shadow:inset 0 -1px 0 var(--color-neutral-muted);color:var(--color-fg-default);display:inline-block;font:11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;line-height:10px;padding:3px 5px;vertical-align:middle}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{font-weight:600;line-height:1.25;margin-bottom:16px;margin-top:24px}.markdown-body h2{border-bottom:1px solid var(--color-border-muted);font-size:1.5em;font-weight:600;padding-bottom:.3em}.markdown-body h3{font-size:1.25em;font-weight:600}.markdown-body h4{font-size:1em;font-weight:600}.markdown-body h5{font-size:.875em;font-weight:600}.markdown-body h6{color:var(--color-fg-muted);font-size:.85em;font-weight:600}.markdown-body p{margin-bottom:10px;margin-top:0}.markdown-body blockquote{border-left:.25em solid var(--color-border-default);color:var(--color-fg-muted);margin:0;padding:0 1em}.markdown-body ol,.markdown-body ul{margin-bottom:0;margin-top:0;padding-left:2em}.markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}.markdown-body ol ol ol,.markdown-body ol ul ol,.markdown-body ul ol ol,.markdown-body ul ul ol{list-style-type:lower-alpha}.markdown-body dd{margin-left:0}.markdown-body code,.markdown-body pre,.markdown-body tt{font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;font-size:12px}.markdown-body pre{word-wrap:normal;margin-bottom:0;margin-top:0}.markdown-body .octicon{fill:currentColor;display:inline-block;overflow:visible!important;vertical-align:text-bottom}.markdown-body ::-webkit-input-placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body :-ms-input-placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body ::placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body input::-webkit-inner-spin-button,.markdown-body input::-webkit-outer-spin-button{-webkit-appearance:none;appearance:none;margin:0}.markdown-body .pl-c{color:var(--color-prettylights-syntax-comment)}.markdown-body .pl-c1,.markdown-body .pl-s .pl-v{color:var(--color-prettylights-syntax-constant)}.markdown-body .pl-e,.markdown-body .pl-en{color:var(--color-prettylights-syntax-entity)}.markdown-body .pl-s .pl-s1,.markdown-body .pl-smi{color:var(--color-prettylights-syntax-storage-modifier-import)}.markdown-body .pl-ent{color:var(--color-prettylights-syntax-entity-tag)}.markdown-body .pl-k{color:var(--color-prettylights-syntax-keyword)}.markdown-body .pl-pds,.markdown-body .pl-s,.markdown-body .pl-s .pl-pse .pl-s1,.markdown-body .pl-sr,.markdown-body .pl-sr .pl-cce,.markdown-body .pl-sr .pl-sra,.markdown-body .pl-sr .pl-sre{color:var(--color-prettylights-syntax-string)}.markdown-body .pl-smw,.markdown-body .pl-v{color:var(--color-prettylights-syntax-variable)}.markdown-body .pl-bu{color:var(--color-prettylights-syntax-brackethighlighter-unmatched)}.markdown-body .pl-ii{background-color:var(--color-prettylights-syntax-invalid-illegal-bg);color:var(--color-prettylights-syntax-invalid-illegal-text)}.markdown-body .pl-c2{background-color:var(--color-prettylights-syntax-carriage-return-bg);color:var(--color-prettylights-syntax-carriage-return-text)}.markdown-body .pl-sr .pl-cce{color:var(--color-prettylights-syntax-string-regexp);font-weight:700}.markdown-body .pl-ml{color:var(--color-prettylights-syntax-markup-list)}.markdown-body .pl-mh,.markdown-body .pl-mh .pl-en,.markdown-body .pl-ms{color:var(--color-prettylights-syntax-markup-heading);font-weight:700}.markdown-body .pl-mi{color:var(--color-prettylights-syntax-markup-italic);font-style:italic}.markdown-body .pl-mb{color:var(--color-prettylights-syntax-markup-bold);font-weight:700}.markdown-body .pl-md{background-color:var(--color-prettylights-syntax-markup-deleted-bg);color:var(--color-prettylights-syntax-markup-deleted-text)}.markdown-body .pl-mi1{background-color:var(--color-prettylights-syntax-markup-inserted-bg);color:var(--color-prettylights-syntax-markup-inserted-text)}.markdown-body .pl-mc{background-color:var(--color-prettylights-syntax-markup-changed-bg);color:var(--color-prettylights-syntax-markup-changed-text)}.markdown-body .pl-mi2{background-color:var(--color-prettylights-syntax-markup-ignored-bg);color:var(--color-prettylights-syntax-markup-ignored-text)}.markdown-body .pl-mdr{color:var(--color-prettylights-syntax-meta-diff-range);font-weight:700}.markdown-body .pl-ba{color:var(--color-prettylights-syntax-brackethighlighter-angle)}.markdown-body .pl-sg{color:var(--color-prettylights-syntax-sublimelinter-gutter-mark)}.markdown-body .pl-corl{color:var(--color-prettylights-syntax-constant-other-reference-link);text-decoration:underline}.markdown-body [data-catalyst]{display:block}.markdown-body g-emoji{font-family:Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-size:1em;font-style:normal!important;font-weight:400;line-height:1;vertical-align:-.075em}.markdown-body g-emoji img{height:1em;width:1em}.markdown-body:after,.markdown-body:before{content:"";display:table}.markdown-body:after{clear:both}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body .absent{color:var(--color-danger-fg)}.markdown-body .anchor{float:left;line-height:1;margin-left:-20px;padding-right:4px}.markdown-body .anchor:focus{outline:none}.markdown-body blockquote,.markdown-body details,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-bottom:16px;margin-top:0}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body sup>a:before{content:"["}.markdown-body sup>a:after{content:"]"}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:var(--color-fg-default);vertical-align:middle;visibility:hidden}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}.markdown-body h1 code,.markdown-body h1 tt,.markdown-body h2 code,.markdown-body h2 tt,.markdown-body h3 code,.markdown-body h3 tt,.markdown-body h4 code,.markdown-body h4 tt,.markdown-body h5 code,.markdown-body h5 tt,.markdown-body h6 code,.markdown-body h6 tt{font-size:inherit;padding:0 .2em}.markdown-body ol.no-list,.markdown-body ul.no-list{list-style-type:none;padding:0}.markdown-body ol[type="1"]{list-style-type:decimal}.markdown-body ol[type=a]{list-style-type:lower-alpha}.markdown-body ol[type=i]{list-style-type:lower-roman}.markdown-body div>ol:not([type]){list-style-type:decimal}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-bottom:0;margin-top:0}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dl{padding:0}.markdown-body dl dt{font-size:1em;font-style:italic;font-weight:600;margin-top:16px;padding:0}.markdown-body dl dd{margin-bottom:16px;padding:0 16px}.markdown-body table th{font-weight:600}.markdown-body table td,.markdown-body table th{border:1px solid var(--color-border-default);padding:6px 13px}.markdown-body table tr{background-color:var(--color-canvas-default);border-top:1px solid var(--color-border-muted)}.markdown-body table tr:nth-child(2n){background-color:var(--color-canvas-subtle)}.markdown-body table img{background-color:transparent}.markdown-body img[align=right]{padding-left:20px}.markdown-body img[align=left]{padding-right:20px}.markdown-body .emoji{background-color:transparent;max-width:none;vertical-align:text-top}.markdown-body span.frame{display:block;overflow:hidden}.markdown-body span.frame>span{border:1px solid var(--color-border-default);display:block;float:left;margin:13px 0 0;overflow:hidden;padding:7px;width:auto}.markdown-body span.frame span img{display:block;float:left}.markdown-body span.frame span span{clear:both;color:var(--color-fg-default);display:block;padding:5px 0 0}.markdown-body span.align-center{clear:both;display:block;overflow:hidden}.markdown-body span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}.markdown-body span.align-center span img{margin:0 auto;text-align:center}.markdown-body span.align-right{clear:both;display:block;overflow:hidden}.markdown-body span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}.markdown-body span.align-right span img{margin:0;text-align:right}.markdown-body span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}.markdown-body span.float-left span{margin:13px 0 0}.markdown-body span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}.markdown-body span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}.markdown-body code,.markdown-body tt{background-color:var(--color-neutral-muted);border-radius:6px;font-size:85%;margin:0;padding:.2em .4em}.markdown-body code br,.markdown-body tt br{display:none}.markdown-body del code{text-decoration:inherit}.markdown-body pre code{font-size:100%}.markdown-body pre>code{background:transparent;border:0;margin:0;padding:0;white-space:pre;word-break:normal}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{background-color:var(--color-canvas-subtle);border-radius:6px;font-size:85%;line-height:1.45;overflow:auto;padding:16px}.markdown-body pre code,.markdown-body pre tt{word-wrap:normal;background-color:transparent;border:0;display:inline;line-height:inherit;margin:0;max-width:auto;overflow:visible;padding:0}.markdown-body .csv-data td,.markdown-body .csv-data th{font-size:12px;line-height:1;overflow:hidden;padding:5px;text-align:left;white-space:nowrap}.markdown-body .csv-data .blob-num{background:var(--color-canvas-default);border:0;padding:10px 8px 9px;text-align:right}.markdown-body .csv-data tr{border-top:0}.markdown-body .csv-data th{background:var(--color-canvas-subtle);border-top:0;font-weight:600}.markdown-body .footnotes{border-top:1px solid var(--color-border-default);color:var(--color-fg-muted);font-size:12px}.markdown-body .footnotes ol{padding-left:16px}.markdown-body .footnotes li{position:relative}.markdown-body .footnotes li:target:before{border:2px solid var(--color-accent-emphasis);border-radius:6px;bottom:-8px;content:"";left:-24px;pointer-events:none;position:absolute;right:-8px;top:-8px}.markdown-body .footnotes li:target{color:var(--color-fg-default)}.markdown-body .footnotes .data-footnote-backref g-emoji{font-family:monospace}.markdown-body .task-list-item{list-style-type:none}.markdown-body .task-list-item label{font-weight:400}.markdown-body .task-list-item.enabled label{cursor:pointer}.markdown-body .task-list-item+.task-list-item{margin-top:3px}.markdown-body .task-list-item .handle{display:none}.markdown-body .task-list-item-checkbox{margin:0 .2em .25em -1.6em;vertical-align:middle}.markdown-body .contains-task-list:dir(rtl) .task-list-item-checkbox{margin:0 -1.6em .25em .2em}.markdown-body ::-webkit-calendar-picker-indicator{-webkit-filter:invert(50%);filter:invert(50%)}@font-face{font-family:lab;src:url(/static/lab-b3a92fdc7ccdc8ebf471556b2e7b1018.woff2) format("woff2")}:root{--font-base:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;--layout-header-height:56px;--layout-footer-height:100px;--gg-border:hsla(0,0%,71%,.1)}*{box-sizing:border-box;transition:all .3s ease-out}html.dark{--theme-content-background-color:#232629;--theme-header-background-color:#232629;--theme-footer-background-color:#232629;--theme-text:#d8d8d8;--gg-logo:#d8d8d8;--gg-icon:#75757a}html.light{--theme-content-background-color:#fff;--theme-header-background-color:#fafafa;--theme-footer-background-color:#fefefe;--theme-text:#232629;--gg-logo:#232629;--gg-icon:#a5a5ac}body{font-family:var(--font-base);margin:0;padding:0}.icon-action{cursor:pointer;user-select:none}.page-title{align-items:center;display:flex;font-size:20px;font-weight:700;justify-content:center;margin-bottom:20px;text-align:center}.page-title .icon{margin-right:10px}.text-center{text-align:center}.gg-empty{color:hsla(0,0%,71%,.5);font-size:18px}.dark .markdown-body{--color-prettylights-syntax-comment:#8b949e;--color-prettylights-syntax-constant:#79c0ff;--color-prettylights-syntax-entity:#d2a8ff;--color-prettylights-syntax-storage-modifier-import:#c9d1d9;--color-prettylights-syntax-entity-tag:#7ee787;--color-prettylights-syntax-keyword:#ff7b72;--color-prettylights-syntax-string:#a5d6ff;--color-prettylights-syntax-variable:#ffa657;--color-prettylights-syntax-brackethighlighter-unmatched:#f85149;--color-prettylights-syntax-invalid-illegal-text:#f0f6fc;--color-prettylights-syntax-invalid-illegal-bg:#8e1519;--color-prettylights-syntax-carriage-return-text:#f0f6fc;--color-prettylights-syntax-carriage-return-bg:#b62324;--color-prettylights-syntax-string-regexp:#7ee787;--color-prettylights-syntax-markup-list:#f2cc60;--color-prettylights-syntax-markup-heading:#1f6feb;--color-prettylights-syntax-markup-italic:#c9d1d9;--color-prettylights-syntax-markup-bold:#c9d1d9;--color-prettylights-syntax-markup-deleted-text:#ffdcd7;--color-prettylights-syntax-markup-deleted-bg:#67060c;--color-prettylights-syntax-markup-inserted-text:#aff5b4;--color-prettylights-syntax-markup-inserted-bg:#033a16;--color-prettylights-syntax-markup-changed-text:#ffdfb6;--color-prettylights-syntax-markup-changed-bg:#5a1e02;--color-prettylights-syntax-markup-ignored-text:#c9d1d9;--color-prettylights-syntax-markup-ignored-bg:#1158c7;--color-prettylights-syntax-meta-diff-range:#d2a8ff;--color-prettylights-syntax-brackethighlighter-angle:#8b949e;--color-prettylights-syntax-sublimelinter-gutter-mark:#484f58;--color-prettylights-syntax-constant-other-reference-link:#a5d6ff;--color-fg-default:#c9d1d9;--color-fg-muted:#8b949e;--color-fg-subtle:#484f58;--color-canvas-default:#232629;--color-canvas-subtle:#161b22;--color-border-default:#30363d;--color-border-muted:#21262d;--color-neutral-muted:hsla(215,8%,47%,.4);--color-accent-fg:#58a6ff;--color-accent-emphasis:#1f6feb;--color-attention-subtle:rgba(187,128,9,.15);--color-danger-fg:#f85149;color-scheme:dark}.light .markdown-body{--color-prettylights-syntax-comment:#6e7781;--color-prettylights-syntax-constant:#0550ae;--color-prettylights-syntax-entity:#8250df;--color-prettylights-syntax-storage-modifier-import:#24292f;--color-prettylights-syntax-entity-tag:#116329;--color-prettylights-syntax-keyword:#cf222e;--color-prettylights-syntax-string:#0a3069;--color-prettylights-syntax-variable:#953800;--color-prettylights-syntax-brackethighlighter-unmatched:#82071e;--color-prettylights-syntax-invalid-illegal-text:#f6f8fa;--color-prettylights-syntax-invalid-illegal-bg:#82071e;--color-prettylights-syntax-carriage-return-text:#f6f8fa;--color-prettylights-syntax-carriage-return-bg:#cf222e;--color-prettylights-syntax-string-regexp:#116329;--color-prettylights-syntax-markup-list:#3b2300;--color-prettylights-syntax-markup-heading:#0550ae;--color-prettylights-syntax-markup-italic:#24292f;--color-prettylights-syntax-markup-bold:#24292f;--color-prettylights-syntax-markup-deleted-text:#82071e;--color-prettylights-syntax-markup-deleted-bg:#ffebe9;--color-prettylights-syntax-markup-inserted-text:#116329;--color-prettylights-syntax-markup-inserted-bg:#dafbe1;--color-prettylights-syntax-markup-changed-text:#953800;--color-prettylights-syntax-markup-changed-bg:#ffd8b5;--color-prettylights-syntax-markup-ignored-text:#eaeef2;--color-prettylights-syntax-markup-ignored-bg:#0550ae;--color-prettylights-syntax-meta-diff-range:#8250df;--color-prettylights-syntax-brackethighlighter-angle:#57606a;--color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;--color-prettylights-syntax-constant-other-reference-link:#0a3069;--color-fg-default:#24292f;--color-fg-muted:#57606a;--color-fg-subtle:#6e7781;--color-canvas-default:#fff;--color-canvas-subtle:#f6f8fa;--color-border-default:#d0d7de;--color-border-muted:#d8dee4;--color-neutral-muted:rgba(175,184,193,.2);--color-accent-fg:#0969da;--color-accent-emphasis:#0969da;--color-attention-subtle:#fff8c5;--color-danger-fg:#cf222e;color-scheme:light}.markdown-body{margin:0 auto;max-width:720px;padding:0 20px 20px}h1{border-bottom:none!important}.gg-logo{text-rendering:optimizelegibility;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;line-height:0;outline:none;text-align:center;text-transform:none;vertical-align:-.125em}.gg-logo,.gg-theme-toggle{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.gg-nav{height:var(--layout-header-height)}.gg-nav *{transition:none}.gg-nav .icons,.gg-nav .nav-screen nav li{align-items:center;display:flex}.gg-nav .nav-screen nav li{color:var(--gg-icon);cursor:pointer;font-weight:700;list-style:none}@media screen and (max-width:720px){.gg-nav{align-items:center;display:flex}.gg-nav .nav-icon{cursor:pointer;height:24px;overflow:hidden;width:24px}.gg-nav .nav-icon span{background:#999;display:block;height:3px;margin:4px 0;transition:all .3s ease;width:24px}.gg-nav .nav-icon .top{-webkit-transform:translateX(6px);transform:translateX(6px)}.gg-nav .nav-icon .bottom{-webkit-transform:translateX(8px);transform:translateX(8px)}.gg-nav .nav-icon.active .top{-webkit-transform:rotate(225deg) translateY(-5px) translateX(-5px);transform:rotate(225deg) translateY(-5px) translateX(-5px)}.gg-nav .nav-icon.active .middle{-webkit-transform:translateX(24px);transform:translateX(24px)}.gg-nav .nav-icon.active .bottom{-webkit-transform:rotate(135deg) translateY(5px) translateX(-5px);transform:rotate(135deg) translateY(5px) translateX(-5px)}.nav-icon{display:block}.nav-screen{background-color:var(--theme-header-background-color);height:0;left:0;overflow:hidden;position:fixed;top:var(--layout-header-height);transition:height .15s ease-out;width:100%;z-index:1000}.nav-screen>div{padding:20px}.nav-screen.open{height:calc(100vh - var(--layout-header-height))}.nav-screen nav{font-size:16px;text-align:center}.nav-screen nav svg{font-size:24px;margin-right:10px}.nav-screen nav li{justify-content:center;padding:8px 0}.nav-screen .icons{justify-content:center;margin-top:40px}.nav-screen .icons .icon-action{margin:0 10px}}@media screen and (min-width:721px){.nav-icon{display:none}.nav-screen{height:100%;justify-content:space-between}.nav-screen,.nav-screen>div{display:flex}.nav-screen .icons .icon-action{margin:0 5px}.nav-screen nav{margin-right:20px}.nav-screen nav svg{margin-right:4px}.nav-screen nav li{float:left;font-size:14px;height:100%;margin-right:20px}}#gg-backtop{align-items:center;border-radius:50%;bottom:20px;box-shadow:inset 0 0 5px hsla(0,0%,59%,.5);cursor:pointer;display:flex;height:42px;justify-content:center;position:fixed;right:20px;transition:all .5s ease;-webkit-user-select:none;-ms-user-select:none;user-select:none;width:42px}@media screen and (max-width:767px){#gg-backtop{height:36px;width:36px}}#gg-backtop svg{width:50%}#gg-backtop.hide{opacity:0;-webkit-transform:scale(0);transform:scale(0)}#gg-backtop.show{opacity:1;-webkit-transform:scale(1);transform:scale(1)}.gg-container{display:flex;flex-direction:column;min-height:100vh}.gg-container header{align-items:center;background-color:#fff;background-color:var(--theme-header-background-color);border-bottom:1px solid hsla(0,0%,47%,.2);box-shadow:0 1px 2px rgba(0,0,0,.05),0 1px 4px rgba(0,0,0,.05),0 2px 8px rgba(0,0,0,.05);display:flex;height:var(--layout-header-height);justify-content:space-between;padding:0 16px;position:fixed;top:0;width:100%;z-index:999}.gg-container header .imglogo{border:1px solid var(--gg-border);border-radius:8px;cursor:pointer;width:32px}.gg-container main{background-color:var(--theme-content-background-color);min-height:calc(100vh - var(--layout-footer-height));padding-top:80px}.gg-container footer{align-items:center;background-color:var(--theme-footer-background-color);color:#838c95;display:flex;font-size:14px;height:var(--layout-footer-height);justify-content:center;padding:0 10px;position:relative;text-align:center;width:100%}.gg-container footer:after{background:radial-gradient(hsla(0,0%,59%,.6),transparent 80%);content:"";display:block;height:1px;position:absolute;top:0;width:100%}.gg-container footer img{vertical-align:middle}.gg-container footer .owner{color:#3486e2;cursor:pointer;margin-left:5px;text-decoration:none}.gg-container footer .copyright{margin-left:10px}.gg-container footer .powered{margin-left:5px}@media screen and (max-width:720px){.gg-container footer{flex-direction:column}.gg-container footer .copyright,.gg-container footer .powered{margin-left:0;margin-top:5px}}.issues-page h1{text-align:center}.author-info{margin-bottom:3px}.author-info .author{cursor:pointer}.author-info .author .name{font-weight:500}.author-info .author img{border-radius:50%;margin-right:5px;vertical-align:middle;width:30px}.author-info i,.author-info span{font-size:14px}.author-info .date{margin-left:10px;opacity:.4}.author-info .number{float:right;line-height:26px;opacity:.3}.gg-category{background:hsla(0,0%,71%,.3)!important;border-radius:4px;display:inline-block;font-size:10px;font-weight:700;height:18px;line-height:18px;margin-right:10px;padding:0 5px;text-decoration:none!important;vertical-align:middle}.gg-category,.issues-num{color:var(--color-fg-default)!important;cursor:pointer}.issues-num{font-family:lab;font-style:italic;font-variation-settings:"size" 30,"quad" 40,"bevl" 20,"oval" 30;opacity:.6}.home-page .issues-list{max-width:unset}.home-page .issues-list>div{display:flex;flex-wrap:wrap;margin:0 auto;max-width:960px}.home-page .issues-list .author-info{margin-bottom:3px}.home-page .issues-list .author-info .author img{width:24px}.home-page .issues-list .author-info i,.home-page .issues-list .author-info span{font-size:12px}.home-page .issues-list .author-info .number{float:right;line-height:26px;opacity:.3}.home-page .issues-list .post-info .title{font-size:15px;font-weight:700;text-decoration:none;vertical-align:middle}@media screen and (min-width:721px){.home-page .issues-list .item{border:1px solid var(--gg-border);border-radius:5px;margin:0 10px 20px;max-width:100%;min-width:200px;overflow:hidden;width:calc(50% - 20px)}.home-page .issues-list .item .author-info{background-color:var(--gg-border);padding:3px 5px}.home-page .issues-list .item .post-info{padding:5px}}@media screen and (max-width:720px){.home-page .issues-list .item{border-bottom:1px solid hsla(0,0%,59%,.2);padding:15px 0 12px;width:100%}.home-page .issues-list .item .author-info{margin-bottom:5px}}.gg-label{border-radius:4px;border-style:solid;border-width:1px;cursor:pointer;display:inline-block;font-size:12px;height:18px;line-height:17px;overflow:hidden;vertical-align:middle}.gg-label b{color:#fff;padding:0 3px 0 2px}.gg-label b,.gg-label em{display:inline-block;height:100%}.gg-label em{border-bottom-right-radius:3px;border-top-right-radius:3px;color:var(--theme-text);padding:0 3px}.gg-issues-prev-next{align-items:stretch;border:1px solid hsla(0,0%,59%,.3);border-radius:5px;display:flex;margin:30px 0}.gg-issues-prev-next:after{clear:both;content:"";display:block}.gg-issues-prev-next a{flex:1 1;padding:15px 10px;width:50%}.gg-issues-prev-next a>span{align-items:center;display:flex;height:100%}.gg-issues-prev-next a .icon-action{min-width:20px}.gg-issues-prev-next .prev{text-align:left}.gg-issues-prev-next .prev>span{float:left}.gg-issues-prev-next .prev .icon-action{margin-right:5px}.gg-issues-prev-next .next{text-align:right}.gg-issues-prev-next .next>span{float:right}.gg-issues-prev-next .next .icon-action{margin-left:5px}@media screen and (max-width:720px){.gg-issues-prev-next{font-size:14px}}.issues-page h1{font-size:24px}.issues-page h1>span{background:linear-gradient(180deg,transparent 50%,hsla(0,0%,71%,.5) 0);padding:0 5px}.issues-page h1 .issues-num{font-size:18px;margin-right:10px}.issues-page .widget{margin-bottom:20px;text-align:center}.issues-page .gg-label{margin:2px 4px}.issues-page .ques-content{display:flex;margin-top:5px;min-height:120px}.issues-page .ques-content .quesicon{margin-right:3px}.issues-page .ques-content .quescontent{width:100%}.issues-page .vote{align-items:center;display:flex;flex-direction:column;font-style:normal}.issues-page .answer-content .answericon{background-color:hsla(0,0%,71%,.3);border-radius:5px;margin-bottom:20px;padding:5px 0 0;text-align:center}.issues-page .comments-item{border-left:1px solid hsla(0,0%,71%,.3);padding-bottom:1px;padding-left:3px}.issues-page .comments-item-content{margin-left:20px}.labels-category-page .gg-label-category-head{margin-bottom:20px;position:-webkit-sticky;position:sticky;top:56px}.labels-category-page .category-group{display:flex;width:100%}.labels-category-page .category-group .label-category{color:#fff;cursor:pointer;display:inline-block;font-weight:700;height:36px;line-height:36px;padding:0 10px;text-shadow:0 1px 1px rgba(80,80,80,.5)}.labels-category-page .category-group .label-category.active{color:#000}.labels-category-page .level-group .label-level{background-color:#000;color:#fff;cursor:pointer;display:inline-block;font-size:16px;font-size:14px;height:24px;line-height:24px;margin-right:1px;opacity:.5;padding:0 10px}.labels-category-page .level-group .label-level.active{opacity:1}.labels-category-page .level-group .label-level.level1{background-color:#3c3c3c}.labels-category-page .level-group .label-level.level2{background-color:#555}.labels-category-page .level-group .label-level.level3{background-color:#6f6f6f}.labels-category-page .level-group .label-level.level4{background-color:#888}.labels-category-page .level-group .label-level.level5{background-color:#a2a2a2}.labels-category-page .issues-list .item{background-color:var(--gg-border);border-radius:5px;margin-bottom:10px;padding:10px}.labels-category-page .issues-list .item .label-issue{margin-right:10px}.labels-category-page .issues-list .labels-list{font-size:12px;margin-top:4px}.labels-category-page .issues-list .labels-list .gg-label{margin-bottom:4px;margin-right:4px}.labels-category-page .issues-list .post-info{font-weight:700;margin-top:5px}.issues-list .issues-item{align-items:baseline;display:flex;margin-bottom:10px;text-align:left}.issues-list .issues-item .issues-num{font-size:12px;margin-right:10px}.issues-list .issues-item .title{font-weight:700}.labels-page{text-align:center}.labels-page .markdown-body{display:inline-block}.labels-page .labels-head{border-radius:5px;color:#fff;cursor:pointer;display:block;font-weight:700;margin-bottom:20px;padding:5px 10px;text-shadow:0 1px 2px #000}.labels-page .labels-head:hover{text-decoration:none!important}.labels-page .label-desc{font-weight:700;opacity:.5}.nav-category-page .gg-category{font-size:14px;font-weight:700;height:36px;line-height:36px;margin:10px;padding:0 12px}.nav-labels-page .gg-label{font-size:16px;font-weight:700;height:30px;line-height:29px;margin:5px}.nav-labels-page .gg-label b,.nav-labels-page .gg-label em{padding:0 10px}</style><link rel="icon" href="/favicon-32x32.png?v=fdd225e9135e951b972a3dc20604182e" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=fdd225e9135e951b972a3dc20604182e"/><link as="script" rel="preload" href="/webpack-runtime-4fee7405b8a071e8c34e.js"/><link as="script" rel="preload" href="/framework-86c8a5417e68dc3cefff.js"/><link as="script" rel="preload" href="/app-7383f855f15f63329e5f.js"/><link as="script" rel="preload" href="/fc369a2ef6459b03f38591687cef4a587495c716-f468df31cbdaf6ffa970.js"/><link as="script" rel="preload" href="/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js"/><link as="fetch" rel="preload" href="/page-data/issues/483/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/151096407.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2861350382.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/><script>
+(function() {
+  window.__onThemeChange = function() {};
+  function setTheme(newTheme) {
+    window.__theme = newTheme;
+    preferredTheme = newTheme;
+    document.querySelector('html').className = newTheme;
+    window.__onThemeChange(newTheme);
+  }
+  var preferredTheme;
+  try {
+    preferredTheme = localStorage.getItem('theme');
+  } catch (err) { }
+  window.__setPreferredTheme = function(newTheme) {
+    setTheme(newTheme);
+    try {
+      localStorage.setItem('theme', newTheme);
+    } catch (err) {}
+  }
+  var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  darkQuery.addListener(function(e) {
+    window.__setPreferredTheme(e.matches ? 'dark' : 'light')
+  });
+
+  setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
+})()</script></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="gg-container issues-page"><header><img class="imglogo" src="/static/logo-fe174465633f84724b37eea28a42c520.png" alt="logo"/><div class="gg-nav"><span class="nav-icon"><span class="top"></span><span class="middle"></span><span class="bottom"></span></span><div class="nav-screen"><div><nav><li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 9A1.5 1.5 0 0 0 7 7.5A1.5 1.5 0 0 0 5.5 6A1.5 1.5 0 0 0 4 7.5A1.5 1.5 0 0 0 5.5 9m11.91 2.58c.36.36.59.86.59 1.42c0 .55-.22 1.05-.59 1.41l-5 5a1.996 1.996 0 0 1-2.83 0l-6.99-6.99C2.22 12.05 2 11.55 2 11V6c0-1.11.89-2 2-2h5c.55 0 1.05.22 1.41.58l7 7m-3.87-5.87l1-1l6.87 6.87c.37.36.59.87.59 1.42c0 .55-.22 1.05-.58 1.41l-5.38 5.38l-1-1L20.75 13l-7.21-7.29Z"/></svg>Labels</li><li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M3 3h18v4H3V3m1 5h16v13H4V8m5.5 3a.5.5 0 0 0-.5.5V13h6v-1.5a.5.5 0 0 0-.5-.5h-5Z"/></svg>Archives</li></nav><div class="icons"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="gg-theme-toggle icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="m3.55 18.54l1.41 1.41l1.8-1.79l-1.42-1.42M11 22.45h2V19.5h-2m1-14a6 6 0 0 0-6 6a6 6 0 0 0 6 6a6 6 0 0 0 6-6c0-3.32-2.69-6-6-6m8 7h3v-2h-3m-2.76 7.66l1.8 1.79l1.41-1.41l-1.79-1.8m1.79-12.28l-1.41-1.41l-1.8 1.79l1.42 1.42M13 .55h-2V3.5h2m-9 7H1v2h3m2.76-7.66l-1.8-1.79l-1.41 1.41l1.79 1.8l1.42-1.42Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg></div></div></div></div></header><main><div class="content"><div class="markdown-body"><h1><span><a class="number issues-num" href="https://github.com/awesome-ops/awesome-ops.github.io/issues/483" target="_blank">#483</a><span>reviewdog/reviewdog: reviewdog 提供了一种通过轻松与任何 linter 工具集成来自动将审阅评论发布到代码托管服务（例如 GitHub）的方法。它使用 lint 工具的输出，并将其作为评论发布（如果发现的结果位于要审查的补丁的差异中）。</span></span></h1><div class="widget"><a class="gg-label" style="border-color:#25B472" href="/labels/更多"><b style="background:#25B472">#</b><em>更多</em></a><a class="gg-label" style="border-color:#bf5886" href="/labels/安全扫描"><b style="background:#bf5886">#</b><em>安全扫描</em></a><a class="gg-label" style="border-color:#acc832" href="/labels/reviewdog"><b style="background:#acc832">#</b><em>reviewdog</em></a></div><div><div class="author-info"><span class="author" title="https://github.com/eryajf"><img src="https://avatars.githubusercontent.com/u/33259379?u=e4a4090a38ac2473aaed4ef9945233636776c6c3&amp;v=4" alt="eryajf"/><span>eryajf</span></span><i class="date">2025/05/21</i></div><div class="ques-content"><div class="quescontent"><div align="center" dir="auto">
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966"><img src="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966" width="100%" height="3" data-animated-image="" data-canonical-src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" style="max-width: 100%; height: auto; max-height: 3px;"></a><br><br></p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th align="right">Repos</th>
+<th align="left"><a href="https://github.com/reviewdog/reviewdog">reviewdog/reviewdog</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right"><strong>Views</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/8fc907371008eed49e82f76bfe610e7369a6c69cb887387aa8f0f55f4b35894d/68747470733a2f2f76696577732e77686174696c656172656e65642e746f6461792f76696577732f6769746875622f726576696577646f672f726576696577646f672e737667" alt="views" data-canonical-src="https://views.whatilearened.today/views/github/reviewdog/reviewdog.svg" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>Stars</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/4a8f1cdfcff362a3c0f0ee56264935944b8403e5459fa648c97f0bb320f23c5c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f726576696577646f672f726576696577646f673f636f6c6f723d663266303864266c6f676f3d556e64657274616c65266c6f676f436f6c6f723d656234363330" alt="stars" data-canonical-src="https://img.shields.io/github/stars/reviewdog/reviewdog?color=f2f08d&amp;logo=Undertale&amp;logoColor=eb4630" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>Forks</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/89329e58e66d9aefd129608a50817872dd4baa1afe4e0f8a3425aa880d4e3eeb/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f726576696577646f672f726576696577646f673f636f6c6f723d626138366562266c6f676f3d48616e647368616b65266c6f676f436f6c6f723d656136616136" alt="forks" data-canonical-src="https://img.shields.io/github/forks/reviewdog/reviewdog?color=ba86eb&amp;logo=Handshake&amp;logoColor=ea6aa6" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>License</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/142ba41c1d079fe43e6a5baa6f17ac404229d0dcd9b6a9cdbd92feb589ab0585/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f726576696577646f672f726576696577646f673f6c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e53556845556741414144414141414177434159414141425841766d48414141414358424957584d41414173544141414c457745416d70775941414144336b6c45515652346e4f335953557a5555426748384a726f57567255474a66456d3773584e63534446784d544c327069347348456778654e526f77586770455742445552522532424e414e4f4b4f4b36366f6f4b4a4742586545475263574163455646475152484677516d483525324630774861655748493944554455354c356b6e6568644f62377a66652532423139636e434a47495243516945596c514237594a4979474c38616f73756c565a36695246516a69474b6b7564576735614c6c704f70704e586e665071773555304459524a6d56786a4367464633424c755a476d416f5655694b4541726d583744375553677351706f72674761336748664b34483663754262435644334771683141352532424c6745253242467749656e514d306a6f446f66714c6f48564e7742796d384370546e416d327a51713073676478624964515a556c416b7150415a3664676a303541446f59526f6f66792532466f5869726f376b3551586a4c6f70677a4b69514e6c4c4461716f4967754577426a7a7150355066446a45394479495879493633464d547751464d43567271774e61763451666f52673538514625324266724d485172454b3844546f434d714e4179574e4866786d54526f4c4f726d5352566747744466714345715a4f4851727a6f34706243557341333431365169364551394b476a6345465267484f724f4b6e5536574162396247455459656b4b7843766a546167394534706a653534446b3551503862624d4859762532464333756541654a6b50304f4778422532424a70426e4172595238455951516e6f4e31414e4661426e5050356c385372736559514c303641646b30464a5938484f5761424d6c6541486a683068506f73497a6c6f3876304125324633345a694f6548726130714b52504d5653493774762532423932747725324676687855654252713456454c674d376642714b354770526d6f514c584e7075625475367a6f4e52706754386e5051627138347764253246494375767978694b4871694e41664933774d367549684271476b4c696977414f734b44714f68743749747239567938536a52424557667941627225324668523142667056514664484a42253246423268683778376a36517077435665655951326b72554235436c636a3641326d3067576a25324244306d4c34397a573563517943484c4e37726a6c6d6d6174457958582532464372547a412532466f51785a6b576c39474a5443566f25324279546a3837253242346769504b6376307149486f344156344430565a727251493334706e70524d36357875652532467a417265453425324654253246536f676c664542794d7369517441546c4c3352414a355948725378365a44665337307337754d486842705225324659423573305057366f455270316236253246667252684b3353444c35546965364f515548516c5133735644752532427a50636b397657453973747225324236496a533967486d5750616861444a25324277434b364e494242587348423948796b587378774470686c436d416476706c6162554a4e6e5a504239342532464e7436784f6538587a4562503257684d335741673147756236744825324233513150673337365239713475716c6e6f36676448476a444f5139306562303141484d3672596975554a314f713472344656756a35765239427a4d3957674e764f7977446869495951467667626366774166774d764863615067425041253246447948476a50624e394138616d6562636477416444354e6633373574787165774e5552656f797677424958594c645170576c6877465771745061435044334173467541535636717171496c62304a766b564331464c39576b4c55556c55574b337a585a4c46432532423125324642726f46746f364f7358497545594a5034447a7a5732594656316f4a614141414141456c46546b5375516d4343" alt="license" data-canonical-src="https://img.shields.io/github/license/reviewdog/reviewdog?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD3klEQVR4nO3YSUzUUBgH8JroWVrUGJfEm7sXNcSDFxMTL2pi4sHEgxeNRowXgpEWBDURR%2BNANOKOK66ooKJGBXeEGRcWAcEVFGQRHFwQmH5%2F0wHaeWHI9DUDU5L5knehdOb7zfe%2B19cnCJGIRCQiEYlQB7YJIyGL8aosulVZ6iRFQjiGKkudWg5aLlpOppNXnfPqw5U0DYRJmVxjCgFF3BLuZGmAoVUiKEArmX7D7USgsQporgGa3gHfK4H6cuBbCVD3Gqh1A5%2BLgE%2BFwIenQM0joDofqLoHVNwBym8CpTnAm2zQq0sgdxbIdQZUlAkqPAZ6dgj05ADoYRoofy%2FoXiro7k5QXjLopgzKiQNlLDaqoIguEwBjzqP5PfDjE9DyIXyI63FMTwQFMCVrqwNav4QfoRg58QF%2BfrMHQrEK8DToCMqNAyWNHfxmTRoLOrmSRVgGtDfqCEqZOHQrzo4pbCUsA3416Qi6EQ9KGjcEFRgHOrOKnU6WAb9bGETYekKxCvjTag9E4pje54Dk5QP8bbMHYv%2FC3ueAeJkP0OGxB%2BJpBnArYR8EYQQnoN1ANFaBnPP5l8SrseYQL06Adk0FJY8HOWaBMleAHjh0hPosIzlo8v0A%2F34ZiOeHra0qKRPMVSI7tv%2B92tw%2FvhxUeBRq4VELgM7fBqK5GpRmoQLXNpubTu6zoNRpgT8nPQbq84wd%2FICuvyxiKHqiNAfI3wM6uIhBqGkLiiwAOsKDqOht7Itr9Vy8SjRBEWfyAbr%2FhR1BfpVQFdHJB%2FB2hh7x7j6QpwCVeeYQ2krUB5Clcj6A2m0gWj%2BD0mL49zW5cQyCHLN7rjlmmatEyXX%2FCrTzA%2FoQxZkWl9GJTCVo%2ByTj87%2B4giPKcv0qIHo4AV4D0VZrrQI34pnpRM65xue%2FzAreE4%2FT%2FSoglfEByMsiQtATlL3RAJ5YHrSx6ZDfS70s7uMHhBpR%2FYB5s0PW6oERp1b6%2FfrRhK3SDL5Tie6OQUHQlQ3sVDu%2BzPck9vWE9str%2B6IjS9gHmWPahaDJ%2BwCK6NIBBXsHB9HykXsxwDphlCmAdvplabUJNnZPB94%2FNt6xOe8XzEbP2WhM3WAg1Gub6tH%2B3Q1Pg376R9q4uqlno6gdHGjDOQ90eb01AHM6rYiuUJ1Oq4r4FVuj5vR9BzM9WgNvOywDhiIYQFvgbcfwAfwMvHcaPgBPA%2FDyHGjPbN9A8amebcdwAdD5Nf375txqewNUReoyvwBIXYLdQpWlhwFWqtPaCPD3AsFuASV6qqqIlb0JvkVC1FL9WkLUUlUWK3zXZLFC%2B1%2FBroFto6OsXIuEYJP4DzzW2YFV1oJaAAAAAElFTkSuQmCC" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>UpdatedAt</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/444e9665edf5b82acda016c90b75bd7674fb47229b61660be238689f5382a448/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f726576696577646f672f726576696577646f673f646973706c61795f74696d657374616d703d636f6d6d6974746572266c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e5355684555674141414234414141416543415941414141374d4b3669414141414358424957584d41414173544141414c457745416d7077594141414648556c45515652346e4c5658375539615678776d3236646c582532466468627825324232253246516e626b7655627264554151674a4a496655444e574454546d4f76314651554661504a346b7573725630314a7431734e70637453327533626f745a746d786439744a5346536f714b71494635625944464c436f76436c656673747a4a387758524c445a4c7a6e6b634f343535376e3364332532466e655a3472454f515a74315771462532423858467234253242664f4c4565326a6f59307a776638546f795a50766a45676b4c592532426b306d6d72584f36644b696e787a476b30666a5430782532425279723055716e6359637a4d317263347451253242497270324c4758646f344e4334567657715453373277716c632532427231334f527269364b6458646e624f484c6c776c7a4a70524b6e3657342532424b36706f4f434e6e494166486a253246253242776168495a4234764b6e715a6630714a704e49716c2532467638545530634e6c3572627963337730516e54703379324c54614a374d314e617844723266526e315370504736476961323174664533345463614f617931694d55564f5146624659714957536f31573854694156616e43306576584f4542375770313448466232327a453566714c4f433545524c515769644e614e49347545636339693768634a6c644868324e57725135674464624f6c7061756d49754c62326174415144506e7a3062384e6257636d785656524a33486d7870536377777a4f4a6d4b44524765384c6c435a444c4739673754496e5631516c376462586256316533675430574b697243466f6d6b5079767758466c5a474a4f6a563625324253743634757564445a4f55354555636f782532464d455144567674364d62634e3237593341797a687633737061557242365a3971724a534f3139657a6a387032704c426b4a792532426343484a7857493567573574636652527a31645531394766476b6f7539505a4f34736d52396a4746777065783444793362766e6d4b79706f74625531335669646a71595a68726a343972764d457425324625324659714c7a396430304e6a57253246637a67796f394f35317a7336614e6c6f354644747530445a675146686c47584a30644241446f4e6864367576703657686f617967374e394c564748386d443462253246486e667455516f4e4734764c51306769784d716c5725324234714f6a744e48446733723166365969525347785279375576714c62395534716b716e78504f4e7661356c447048723125324279794b524e4b57425a793565644d554842326d3572792532422532424551772532427a6766347a6f39253246306f634e3357527a4c4277344a2532424a7950574372716d4967475974554f735744346f785a46516f50556a4770564871493425324661666b51504336665a5165654d31253242764c7549516e6a754257514444437363726d485039656f4e5041744271664f6e5875614b25324268364a45624772732532427076764d6d78654962683836336162565065597953456f39464a48704e4d464a59253242503563575a6b6667374f3174537759436553514c54593345385130392532464256504a556c78516a7368543142736343593032723955445542667643484236367063665041336c794165336e6772332532463437584467614a7a736c7937787741364e5a746c555550437541487161536a5549502532427375653842525741432532464e6651374a5a505a35397330476a3756747049537a34685125324243706658474d4b685a63764c70554b7866574d386f68766637702532464f446a4842666356463849736b383267314648796b63564645253242555a414158343761452532464d6c34504f3530506e75683025324678346e6d637957507364774468427836436d6b4c562532466746446a594b784f4a4f4674623077517949684c39527943774b33414f664947703159464542686e4d4a634c525745624b644b516f55366e63545a6b494544696341792532463831645675454d3552775066657934784f7830496b25324649324e6e466b692532425761664f6f464959466367595a43797864376543556a626334416d46363566742532466b4d686b336f25324235686337734d4a79716a4a45477659466151464972375930775077384246415925324236253242766d6b3377367a7a5275444d6d5a5652736668385274413075455453443775434254364459514e36697665553066706b594c6a453671725672744f78654e4b553954484c5a4a396b4255324a427342685635416976422532466f4b61514e4b675043427744596149665a4334616454684f71463457454e56694c4a77566f586f62664c424b56773637414f6154734c6336355461564b32317651344c613939654b6359673576627873624f627a5451394e37554b4467554f3177446a6944494942736868357a746733396e514d4c535a4248344f7a424f55444551586d323036643366634c67737762585141345068634b336e6873775531427a3877765130395248472532466f597933656a6677424e6d746f59714c4130586741414141424a52553545726b4a676767253344253344266c6162656c3d557064617465644174" alt="last-commit" data-canonical-src="https://img.shields.io/github/last-commit/reviewdog/reviewdog?display_timestamp=committer&amp;logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHUlEQVR4nLVX7U9aVxwm26dlX%2Fdhbx%2B2%2FQnbkvUbrdUAQgJJIfUDNWDTTmOv1FQUFaPJ4kusrV01Jt1sNpctS2u3botZtmxd9tJSFSoqKqIF5bYDFLCovClefstzJ8wXRLDZLznkcO4557n3d3%2FneZ4rEOQZt1WqF%2B8XFr4%2BfOLEe2joY0zwf8ToyZPvjEgkLY%2Bk0mmrXO6dKinxzGk0fjT0x%2BRyr0UqncYczM1rc4tQ%2BIrp2LGXdo4NC4VvWqTS72wqlc%2Br13ORri6KdXdnbOHLlwlzJpRKn6W4%2BK6poOCNnIAfHj%2F%2BwahIZB4vKnqZf0qJpNIql%2Fv8TU0cNl5rbyc3w0QnTp3y2LTaJ7M1NaxDr2fRn1SpPG6Gia21tfE34TcaOay1iMUVOQFbFYqIWSo1W8TiAVanC0evXOEB7Wp14HFb22zE5fqLOC5ERLQWidNaNI4uEcc9i7hcJldHh2NWrQ5gDdbOlpaumIuLb2atAQDPnz0b8NbWcmxVVRJ3HmxpScwwzOJmKDRGe8LlCZDLG9g7TInV1Ql7dbXbV1e3gT0WKirCFomkPyvwXFlZGJOjV6%2BSt64uudDZOU5EUcox%2FMEQDVvt6MbcN27Y3Ayzhv3spaUrB6Z9qrJSO19ezj8p2pLBkJy%2BcCHJxWI5gW5tcfRRz1dU19GfGkou9PZO4smR9jGFwpex4Dy3bvnmKypotbU13VidjqYZhrj49rvMEt%2F%2FYqLz9d00NjW%2Fczgyo9O51zs6aNlo5FDtu0DZgQFhlGXJ0dBADoNhd6uvp6Whoayg7N9LVGH8mD4b%2FHnftUQoNG4vLQ0gixMqlW%2B4qOjtNHDg3r1f6YiRSGxRy7UvqLb9U4qkqnxPONva5lDpHr1%2ByyKRNKWBZy5edMUHB2m5ry%2B%2BEQw%2Bzgf4zo9%2F0ocN3WRzLBw4J%2BJyPWCrqmIgGYtUOsWD4oxZFQoPUjGpVHqI4%2FafkQPC6fZQeeM1%2BvLuIQnjuBWQDDCscrmHP9eoNPAtBqfOnXuaK%2Bh6JEbGrs%2BpvvMmxeIbh863abVPeYySEo9FJHpNMFJY%2BP5cWZkfg7O1tSwYCeSQLTY3E8Q09%2FBVPJUlxQjshT1BscCY02r9UDUBfvCHB66pcfPA3lyAe3ngr3%2F47XDgaJzsly7xwA6NZtlUUPCuAHqaSjUIP%2Bsue8BRWAC%2FNfQ7JZPZ59s0Gj7VtpISz4hQ%2BCpfXGMKhZcvLpUKxfWM8ohvf7p%2FODjHBfcVF8Isk82g1FHykcVFE%2BUZAAX47aE%2FMl4PO50Pnuh0%2Fx4nmcyWPsdwDhBx6CmkLV%2FgFDjYKxOJOFtb0wQyIhL9RyCwK3AOfIGp1YFEBhnMJcLRWEbKdKQoU6ncTZkIEDicAy%2F81dVuEM5RwPfey4xOx0Ik%2FI2NnFki%2BWafOoFIYFcgYZCyxd7eCUjbc4AmF65ft%2FkMhk3o%2B5hc7sMJyqjJEGvYFaQFIr7Y0wPw8BFAY%2B6%2Bvmk3w6zzRuDMmZVRsfh8RtA0uETSD7uCBT6DYQN6iveU0fpkYLjE6qrVrtOxeNKU9THLZJ9kBU2JBsBhV5AivB%2FoKaQNKgPCBwDYaIfZC4adThOqF4WENViLJwVoXobfLBKVw67AOaTsLc65TaVK21vQ4La99eKcYg5vbxsbObzTQ9N7UKDgUO1wDjiDIIBshh5ztg39nQMLSZBH4OzBOUDEQXm206d3fcLgswbXQA4PhcK3nhswU1Bz8wvQ09RHG%2FoYy3ejfwBNmtoYqLA0XgAAAABJRU5ErkJggg%3D%3D&amp;label=UpdatedAt" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>CreatedAt</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/8b8328791a119093f55740b48a6567fbe8308a4410c6fb881f349394f8bdec1a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f637265617465642d61742f726576696577646f672f726576696577646f673f6c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e5355684555674141414234414141416543415941414141374d4b3669414141414358424957584d41414173544141414c457745416d7077594141414648556c45515652346e4c5658375539615678776d3236646c582532466468627825324232253246516e626b7655627264554151674a4a496655444e574454546d4f76314651554661504a346b7573725630314a7431734e70637453327533626f745a746d786439744a5346536f714b71494635625944464c436f76436c656673747a4a387758524c445a4c7a6e6b634f343535376e3364332532466e655a3472454f515a74315771462532423858467234253242664f4c4565326a6f59307a776638546f795a50766a45676b4c592532426b306d6d72584f36644b696e787a476b30666a5430782532425279723055716e6359637a4d317263347451253242497270324c4758646f344e4334567657715453373277716c632532427231334f527269364b6458646e624f484c6c776c7a4a70524b6e3657342532424b36706f4f434e6e494166486a253246253242776168495a4234764b6e715a6630714a704e49716c2532467638545530634e6c3572627963337730516e54703379324c54614a374d314e617844723266526e315370504736476961323174664533345463614f617931694d55564f5146624659714957536f31573854694156616e43306576584f4542375770313448466232327a453566714c4f433545524c515769644e614e49347545636339693768634a6c644868324e57725135674464624f6c7061756d49754c62326174415144506e7a3062384e6257636d785656524a33486d7870536377777a4f4a6d4b44524765384c6c435a444c4739673754496e5631516c376462586256316533675430574b697243466f6d6b5079767758466c5a474a4f6a563625324253743634757564445a4f55354555636f782532464d455144567674364d62634e3237593341797a687633737061557242365a3971724a534f3139657a6a387032704c426b4a792532426343484a7857493567573574636652527a31645531394766476b6f7539505a4f34736d52396a4746777065783444793362766e6d4b79706f74625531335669646a71595a68726a343972764d457425324625324659714c7a396430304e6a57253246637a67796f394f35317a7336614e6c6f354644747530445a675146686c47584a30644241446f4e6864367576703657686f617967374e394c564748386d443462253246486e667455516f4e4734764c51306769784d716c5725324234714f6a744e48446733723166365969525347785279375576714c62395534716b716e78504f4e7661356c447048723125324279794b524e4b57425a793565644d554842326d3572792532422532424551772532427a6766347a6f39253246306f634e3357527a4c4277344a2532424a7950574372716d4967475974554f735744346f785a46516f50556a4770564871493425324661666b51504336665a5165654d31253242764c7549516e6a754257514444437363726d485039656f4e5041744271664f6e5875614b25324268364a45624772732532427076764d6d78654962683836336162565065597953456f39464a48704e4d464a59253242503563575a6b6667374f3174537759436553514c54593345385130392532464256504a556c78516a7368543142736343593032723955445542667643484236367063665041336c794165336e6772332532463437584467614a7a736c7937787741364e5a746c555550437541487161536a5549502532427375653842525741432532464e6651374a5a505a35397330476a3756747049537a34685125324243706658474d4b685a63764c70554b7866574d386f68766637702532464f446a4842666356463849736b383267314648796b63564645253242555a414158343761452532464d6c34504f3530506e75683025324678346e6d637957507364774468427836436d6b4c562532466746446a594b784f4a4f4674623077517949684c39527943774b33414f664947703159464542686e4d4a634c525745624b644b516f55366e63545a6b494544696341792532463831645675454d3552775066657934784f7830496b25324649324e6e466b692532425761664f6f464959466367595a43797864376543556a626334416d46363566742532466b4d686b336f25324235686337734d4a79716a4a45477659466151464972375930775077384246415925324236253242766d6b3377367a7a5275444d6d5a5652736668385274413075455453443775434254364459514e36697665553066706b594c6a453671725672744f78654e4b553954484c5a4a396b4255324a427342685635416976422532466f4b61514e4b675043427744596149665a4334616454684f71463457454e56694c4a77566f586f62664c424b56773637414f6154734c6336355461564b32317651344c613939654b6359673576627873624f627a5451394e37554b4467554f3177446a6944494942736868357a746733396e514d4c535a4248344f7a424f55444551586d323036643366634c67737762585141345068634b336e6873775531427a3877765130395248472532466f597933656a6677424e6d746f59714c4130586741414141424a52553545726b4a676767253344253344266c6162656c3d437265617465644174" alt="create-at" data-canonical-src="https://img.shields.io/github/created-at/reviewdog/reviewdog?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHUlEQVR4nLVX7U9aVxwm26dlX%2Fdhbx%2B2%2FQnbkvUbrdUAQgJJIfUDNWDTTmOv1FQUFaPJ4kusrV01Jt1sNpctS2u3botZtmxd9tJSFSoqKqIF5bYDFLCovClefstzJ8wXRLDZLznkcO4557n3d3%2FneZ4rEOQZt1WqF%2B8XFr4%2BfOLEe2joY0zwf8ToyZPvjEgkLY%2Bk0mmrXO6dKinxzGk0fjT0x%2BRyr0UqncYczM1rc4tQ%2BIrp2LGXdo4NC4VvWqTS72wqlc%2Br13ORri6KdXdnbOHLlwlzJpRKn6W4%2BK6poOCNnIAfHj%2F%2BwahIZB4vKnqZf0qJpNIql%2Fv8TU0cNl5rbyc3w0QnTp3y2LTaJ7M1NaxDr2fRn1SpPG6Gia21tfE34TcaOay1iMUVOQFbFYqIWSo1W8TiAVanC0evXOEB7Wp14HFb22zE5fqLOC5ERLQWidNaNI4uEcc9i7hcJldHh2NWrQ5gDdbOlpaumIuLb2atAQDPnz0b8NbWcmxVVRJ3HmxpScwwzOJmKDRGe8LlCZDLG9g7TInV1Ql7dbXbV1e3gT0WKirCFomkPyvwXFlZGJOjV6%2BSt64uudDZOU5EUcox%2FMEQDVvt6MbcN27Y3Ayzhv3spaUrB6Z9qrJSO19ezj8p2pLBkJy%2BcCHJxWI5gW5tcfRRz1dU19GfGkou9PZO4smR9jGFwpex4Dy3bvnmKypotbU13VidjqYZhrj49rvMEt%2F%2FYqLz9d00NjW%2Fczgyo9O51zs6aNlo5FDtu0DZgQFhlGXJ0dBADoNhd6uvp6Whoayg7N9LVGH8mD4b%2FHnftUQoNG4vLQ0gixMqlW%2B4qOjtNHDg3r1f6YiRSGxRy7UvqLb9U4qkqnxPONva5lDpHr1%2ByyKRNKWBZy5edMUHB2m5ry%2B%2BEQw%2Bzgf4zo9%2F0ocN3WRzLBw4J%2BJyPWCrqmIgGYtUOsWD4oxZFQoPUjGpVHqI4%2FafkQPC6fZQeeM1%2BvLuIQnjuBWQDDCscrmHP9eoNPAtBqfOnXuaK%2Bh6JEbGrs%2BpvvMmxeIbh863abVPeYySEo9FJHpNMFJY%2BP5cWZkfg7O1tSwYCeSQLTY3E8Q09%2FBVPJUlxQjshT1BscCY02r9UDUBfvCHB66pcfPA3lyAe3ngr3%2F47XDgaJzsly7xwA6NZtlUUPCuAHqaSjUIP%2Bsue8BRWAC%2FNfQ7JZPZ59s0Gj7VtpISz4hQ%2BCpfXGMKhZcvLpUKxfWM8ohvf7p%2FODjHBfcVF8Isk82g1FHykcVFE%2BUZAAX47aE%2FMl4PO50Pnuh0%2Fx4nmcyWPsdwDhBx6CmkLV%2FgFDjYKxOJOFtb0wQyIhL9RyCwK3AOfIGp1YFEBhnMJcLRWEbKdKQoU6ncTZkIEDicAy%2F81dVuEM5RwPfey4xOx0Ik%2FI2NnFki%2BWafOoFIYFcgYZCyxd7eCUjbc4AmF65ft%2FkMhk3o%2B5hc7sMJyqjJEGvYFaQFIr7Y0wPw8BFAY%2B6%2Bvmk3w6zzRuDMmZVRsfh8RtA0uETSD7uCBT6DYQN6iveU0fpkYLjE6qrVrtOxeNKU9THLZJ9kBU2JBsBhV5AivB%2FoKaQNKgPCBwDYaIfZC4adThOqF4WENViLJwVoXobfLBKVw67AOaTsLc65TaVK21vQ4La99eKcYg5vbxsbObzTQ9N7UKDgUO1wDjiDIIBshh5ztg39nQMLSZBH4OzBOUDEQXm206d3fcLgswbXQA4PhcK3nhswU1Bz8wvQ09RHG%2FoYy3ejfwBNmtoYqLA0XgAAAABJRU5ErkJggg%3D%3D&amp;label=CreatedAt" style="max-width: 100%;"></a></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<a href="https://github.com/opsre/awesome-ops">
+</a><p dir="auto"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/b964a36ea4078c39f603d46a29436371c7541a2f26e0228d7b21b9d9805b43d3/68747470733a2f2f736f6369616c6966792e6769742e63692f6f707372652f617765736f6d652d6f70732f696d6167653f6465736372697074696f6e3d3126666f6e743d42697474657226666f726b733d31266973737565733d31266c616e67756167653d31266c6f676f3d6874747073253341253246253246617661746172732e67697468756275736572636f6e74656e742e636f6d25324675253246313838353638303230266e616d653d31266f776e65723d31267061747465726e3d436972637569742b426f6172642670756c6c733d31267374617267617a6572733d31267468656d653d4c69676874" alt="" data-canonical-src="https://socialify.git.ci/opsre/awesome-ops/image?description=1&amp;font=Bitter&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F188568020&amp;name=1&amp;owner=1&amp;pattern=Circuit+Board&amp;pulls=1&amp;stargazers=1&amp;theme=Light" style="max-width: 100%;"></a></p>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966"><img src="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966" width="100%" height="3" data-animated-image="" data-canonical-src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" style="max-width: 100%; height: auto; max-height: 3px;"></a>
+</div>
+<div align="center" dir="auto">
+  <a href="https://github.com/reviewdog/reviewdog">
+    <img alt="reviewdog" src="https://raw.githubusercontent.com/haya14busa/i/d598ed7dc49fefb0018e422e4c43e5ab8f207a6b/reviewdog/reviewdog.logo.png" style="max-width: 100%;">
+  </a>
+</div>
+<h2 align="center" dir="auto">
+  reviewdog - A code review dog who keeps your codebase healthy.
+</h2>
+<div align="center" dir="auto">
+  <a href="./LICENSE">
+    <img alt="LICENSE" src="https://camo.githubusercontent.com/86d700726e1403d7d804087c57be85b58f7cf5350a2fef5e3a36f72f25ccb5e3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4d49542d626c75652e7376673f6d61784167653d3433323030" data-canonical-src="https://img.shields.io/badge/license-MIT-blue.svg?maxAge=43200" style="max-width: 100%;">
+  </a>
+  <a href="https://godoc.org/github.com/reviewdog/reviewdog" rel="nofollow">
+    <img alt="GoDoc" src="https://camo.githubusercontent.com/f9e302ceecbd841e8ff561a2b66d20dfff47256a88c8c12db792113ef54f3b47/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f676f646f632d7265666572656e63652d3446373342332e7376673f6c6162656c3d676f646f632e6f7267266d61784167653d3433323030266c6f676f3d676f" data-canonical-src="https://img.shields.io/badge/godoc-reference-4F73B3.svg?label=godoc.org&amp;maxAge=43200&amp;logo=go" style="max-width: 100%;">
+  </a>
+  <a href="./CHANGELOG.md">
+    <img alt="releases" src="https://camo.githubusercontent.com/0e26c37d8903e609aa4e640ba3b953f4fa15c4c2e0dab7f6ac2156e037dfcc27/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f72656c656173652f726576696577646f672f726576696577646f672e7376673f6c6f676f3d676974687562" data-canonical-src="https://img.shields.io/github/release/reviewdog/reviewdog.svg?logo=github" style="max-width: 100%;">
+  </a>
+  <a href="https://github.com/reviewdog/nightly">
+    <img alt="nightly releases" src="https://camo.githubusercontent.com/5527a8cf308466991a0397653eadf2753c7985a991ea6fe93a719e29234b012e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f726576696577646f672f6e696768746c792e7376673f6c6f676f3d676974687562" data-canonical-src="https://img.shields.io/github/v/release/reviewdog/nightly.svg?logo=github" style="max-width: 100%;">
+  </a>
+</div>
+<div align="center" dir="auto">
+  <a href="https://github.com/reviewdog/reviewdog/actions?query=workflow%3AGo+event%3Apush+branch%3Amaster">
+    <img alt="GitHub Actions" src="https://github.com/reviewdog/reviewdog/workflows/Go/badge.svg" style="max-width: 100%;">
+  </a>
+  <a href="https://github.com/reviewdog/reviewdog/actions?query=workflow%3Areviewdog+event%3Apush+branch%3Amaster">
+    <img alt="reviewdog" src="https://github.com/reviewdog/reviewdog/workflows/reviewdog/badge.svg?branch=master&amp;event=push" style="max-width: 100%;">
+  </a>
+  <a href="https://github.com/reviewdog/reviewdog/actions?query=workflow%3Arelease">
+    <img alt="release" src="https://github.com/reviewdog/reviewdog/workflows/release/badge.svg" style="max-width: 100%;">
+  </a>
+  <a href="https://circleci.com/gh/reviewdog/reviewdog" rel="nofollow"><img alt="CircleCI Status" src="https://camo.githubusercontent.com/c077625513f483032543e0c633fc15edc8b5f6b8fb68ee84a0b8734ef8f133cc/687474703a2f2f696d672e736869656c64732e696f2f636972636c6563692f6275696c642f6769746875622f726576696577646f672f726576696577646f672f6d61737465722e7376673f6c6162656c3d436972636c654349266c6f676f3d636972636c656369" data-canonical-src="http://img.shields.io/circleci/build/github/reviewdog/reviewdog/master.svg?label=CircleCI&amp;logo=circleci" style="max-width: 100%;"></a>
+  <a href="https://codecov.io/github/reviewdog/reviewdog" rel="nofollow"><img alt="Coverage Status" src="https://camo.githubusercontent.com/ccb43f9c67b5845e47f3843406bd3cf0e20e20236e649bce9b9f9789d6517d14/68747470733a2f2f696d672e736869656c64732e696f2f636f6465636f762f632f6769746875622f726576696577646f672f726576696577646f672f6d61737465722e7376673f6c6f676f3d636f6465636f76" data-canonical-src="https://img.shields.io/codecov/c/github/reviewdog/reviewdog/master.svg?logo=codecov" style="max-width: 100%;"></a>
+  <a href="https://github.com/haya14busa/github-used-by/tree/main/repo/reviewdog#reviewdog-"><img src="https://camo.githubusercontent.com/19fcde147ee90f1517d730e4ac16b7b83293b61eed09f183b8621f2580c6021a/68747470733a2f2f696d672e736869656c64732e696f2f656e64706f696e743f75726c3d68747470733a2f2f686179613134627573612e6769746875622e696f2f6769746875622d757365642d62792f646174612f726576696577646f672f736869656c6473696f2e6a736f6e" data-canonical-src="https://img.shields.io/endpoint?url=https://haya14busa.github.io/github-used-by/data/reviewdog/shieldsio.json" style="max-width: 100%;"></a>
+</div>
+<div align="center" dir="auto">
+  <a href="https://gitlab.com/reviewdog/reviewdog/pipelines" rel="nofollow">
+    <img alt="GitLab Supported" src="https://camo.githubusercontent.com/ea914662e9a2dd6887a2668c8eb4d7a5282cb526f8df16ca5092d3f5e81c7174/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769744c61622532302d537570706f727465642d6663366432363f6c6f676f3d6769746c6162" data-canonical-src="https://img.shields.io/badge/GitLab%20-Supported-fc6d26?logo=gitlab" style="max-width: 100%;">
+  </a>
+  <a href="https://github.com/haya14busa/action-bumpr">
+    <img alt="action-bumpr supported" src="https://camo.githubusercontent.com/75f65297b26104491df53fcbd5577e7edcd1984a480a186fb2fed4c724f369e9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f62756d70722d737570706f727465642d6666363962343f6c6f676f3d676974687562266c696e6b3d68747470733a2f2f6769746875622e636f6d2f686179613134627573612f616374696f6e2d62756d7072" data-canonical-src="https://img.shields.io/badge/bumpr-supported-ff69b4?logo=github&amp;link=https://github.com/haya14busa/action-bumpr" style="max-width: 100%;">
+  </a>
+  <a href="https://github.com/reviewdog/.github/blob/master/CODE_OF_CONDUCT.md">
+    <img alt="Contributor Covenant" src="https://camo.githubusercontent.com/b939bc6b6e2370a6266a694cc4f0a583fbb99d28a82d0e5088f21739c369d3c7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f436f6e7472696275746f72253230436f76656e616e742d76322e3025323061646f707465642d6666363962342e737667" data-canonical-src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg" style="max-width: 100%;">
+  </a>
+  <a href="https://haya14busa.github.io/github-release-stats/#reviewdog/reviewdog" rel="nofollow">
+    <img alt="GitHub Releases Stats" src="https://camo.githubusercontent.com/95173a8497a78dbaefe2644835d771458ec4d39669f57f4ae067d5f7e7969d54/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f726576696577646f672f726576696577646f672f746f74616c2e7376673f6c6f676f3d676974687562" data-canonical-src="https://img.shields.io/github/downloads/reviewdog/reviewdog/total.svg?logo=github" style="max-width: 100%;">
+  </a>
+  <a href="https://starchart.cc/reviewdog/reviewdog" rel="nofollow"><img alt="Stars" src="https://camo.githubusercontent.com/d51caeee2a76f3312eedfc3aa23223093f909b27dab99714223e6daf8e109c89/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f726576696577646f672f726576696577646f672e7376673f7374796c653d736f6369616c" data-canonical-src="https://img.shields.io/github/stars/reviewdog/reviewdog.svg?style=social" style="max-width: 100%;"></a>
+</div>
+<br>
+<p dir="auto">reviewdog provides a way to post review comments to code hosting services,<br>
+such as GitHub, automatically by integrating with any linter tools with ease.<br>
+It uses an output of lint tools and posts them as a comment if findings are in<br>
+the diff of patches to review.</p>
+<p dir="auto">reviewdog also supports running in the local environment to filter the output of lint tools<br>
+by diff.</p>
+<p dir="auto"><a href="https://docs.google.com/document/d/1mGOX19SSqRowWGbXieBfGPtLnM0BdTkIc9JelTiu6wA/edit?usp=sharing" rel="nofollow">design doc</a></p>
+<h2 dir="auto">Table of Contents</h2>
+<ul dir="auto">
+<li><a href="#installation">Installation</a></li>
+<li><a href="#input-format">Input Format</a>
+<ul dir="auto">
+<li><a href="#errorformat">'errorformat'</a></li>
+<li><a href="#available-pre-defined-errorformat">Available pre-defined 'errorformat'</a></li>
+<li><a href="#reviewdog-diagnostic-format-rdformat">Reviewdog Diagnostic Format (RDFormat)</a></li>
+<li><a href="#diff">Diff</a></li>
+<li><a href="#checkstyle-format">checkstyle format</a></li>
+<li><a href="#sarif-format">SARIF format</a></li>
+</ul>
+</li>
+<li><a href="#code-suggestions">Code Suggestions</a></li>
+<li><a href="#reviewdog-config-file">reviewdog config file</a></li>
+<li><a href="#reporters">Reporters</a>
+<ul dir="auto">
+<li><a href="#reporter-local--reporterlocal-default">Reporter: Local (-reporter=local) [default]</a></li>
+<li><a href="#reporter-github-pr-checks--reportergithub-pr-check">Reporter: GitHub PR Checks (-reporter=github-pr-check)</a></li>
+<li><a href="#reporter-github-checks--reportergithub-check">Reporter: GitHub Checks (-reporter=github-check)</a></li>
+<li><a href="#reporter-github-pullrequest-review-comment--reportergithub-pr-review">Reporter: GitHub PullRequest review comment (-reporter=github-pr-review)</a></li>
+<li><a href="#reporter-github-annotations--reportergithub-annotations">Reporter: GitHub Annotations (-reporter=github-annotations)</a></li>
+<li><a href="#reporter-github-pr-annotations--reportergithub-pr-annotations">Reporter: GitHub PR Annotations (-reporter=github-pr-annotations)</a></li>
+<li><a href="#reporter-gitlab-mergerequest-discussions--reportergitlab-mr-discussion">Reporter: GitLab MergeRequest discussions (-reporter=gitlab-mr-discussion)</a></li>
+<li><a href="#reporter-gitlab-mergerequest-commit--reportergitlab-mr-commit">Reporter: GitLab MergeRequest commit (-reporter=gitlab-mr-commit)</a></li>
+<li><a href="#reporter-bitbucket-code-insights-reports--reporterbitbucket-code-report">Reporter: Bitbucket Code Insights Reports (-reporter=bitbucket-code-report)</a></li>
+</ul>
+</li>
+<li><a href="#supported-ci-services">Supported CI services</a>
+<ul dir="auto">
+<li><a href="#github-actions">GitHub Actions</a></li>
+<li><a href="#travis-ci">Travis CI</a></li>
+<li><a href="#circle-ci">Circle CI</a></li>
+<li><a href="#gitlab-ci">GitLab CI</a></li>
+<li><a href="#bitbucket-pipelines">Bitbucket Pipelines</a></li>
+<li><a href="#common-jenkins-local-etc">Common (Jenkins, local, etc...)</a>
+<ul dir="auto">
+<li><a href="#jenkins-with-github-pull-request-builder-plugin">Jenkins with GitHub pull request builder plugin</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#exit-codes">Exit codes</a></li>
+<li><a href="#filter-mode">Filter mode</a></li>
+<li><a href="#articles">Articles</a></li>
+</ul>
+<p dir="auto"><a href="https://github.com/reviewdog/reviewdog/pull/131/checks"><img src="https://user-images.githubusercontent.com/3797062/40884858-6efd82a0-6756-11e8-9f1a-c6af4f920fb0.png" alt="github-pr-check sample" style="max-width: 100%;"></a><br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/3797062/40941822-1d775064-6887-11e8-98e9-4775d37d47f8.png"><img src="https://user-images.githubusercontent.com/3797062/40941822-1d775064-6887-11e8-98e9-4775d37d47f8.png" alt="comment in pull-request" style="max-width: 100%;"></a><br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/3797062/40941738-d62acb0a-6886-11e8-858d-7b97aded2a42.png"><img src="https://user-images.githubusercontent.com/3797062/40941738-d62acb0a-6886-11e8-858d-7b97aded2a42.png" alt="commit status" style="max-width: 100%;"></a><br>
+<a href="https://github.com/reviewdog/reviewdog/pull/24#discussion_r84599728" data-hovercard-type="pull_request" data-hovercard-url="/reviewdog/reviewdog/pull/24/hovercard"><img src="https://raw.githubusercontent.com/haya14busa/i/dc0ccb1e110515ea407c146d99b749018db05c45/reviewdog/sample-comment.png" alt="sample-comment.png" style="max-width: 100%;"></a><br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/haya14busa/i/dc0ccb1e110515ea407c146d99b749018db05c45/reviewdog/reviewdog-local-demo.gif"><img src="https://raw.githubusercontent.com/haya14busa/i/dc0ccb1e110515ea407c146d99b749018db05c45/reviewdog/reviewdog-local-demo.gif" alt="reviewdog-local-demo.gif" data-animated-image="" style="max-width: 100%;"></a></p>
+<h2 dir="auto">Installation</h2>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# Install the latest version. (Install it into ./bin/ by default).
+$ curl -sfL https://raw.githubusercontent.com/reviewdog/reviewdog/fd59714416d6d9a1c0692d872e38e7f8448df4fc/install.sh | sh -s
+
+# Specify installation directory ($(go env GOPATH)/bin/) and version.
+$ curl -sfL https://raw.githubusercontent.com/reviewdog/reviewdog/fd59714416d6d9a1c0692d872e38e7f8448df4fc/install.sh | sh -s -- -b $(go env GOPATH)/bin [vX.Y.Z]
+
+# In alpine linux (as it does not come with curl by default)
+$ wget -O - -q https://raw.githubusercontent.com/reviewdog/reviewdog/fd59714416d6d9a1c0692d872e38e7f8448df4fc/install.sh | sh -s [vX.Y.Z]"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> Install the latest version. (Install it into ./bin/ by default).</span>
+$ curl -sfL https://raw.githubusercontent.com/reviewdog/reviewdog/fd59714416d6d9a1c0692d872e38e7f8448df4fc/install.sh <span class="pl-k">|</span> sh -s
+
+<span class="pl-c"><span class="pl-c">#</span> Specify installation directory ($(go env GOPATH)/bin/) and version.</span>
+$ curl -sfL https://raw.githubusercontent.com/reviewdog/reviewdog/fd59714416d6d9a1c0692d872e38e7f8448df4fc/install.sh <span class="pl-k">|</span> sh -s -- -b <span class="pl-s"><span class="pl-pds">$(</span>go env GOPATH<span class="pl-pds">)</span></span>/bin [vX.Y.Z]
+
+<span class="pl-c"><span class="pl-c">#</span> In alpine linux (as it does not come with curl by default)</span>
+$ wget -O - -q https://raw.githubusercontent.com/reviewdog/reviewdog/fd59714416d6d9a1c0692d872e38e7f8448df4fc/install.sh <span class="pl-k">|</span> sh -s [vX.Y.Z]</pre></div>
+<h3 dir="auto">Nightly releases</h3>
+<p dir="auto">You can also use <a href="https://github.com/reviewdog/nightly">nightly reviewdog release</a><br>
+to try the latest reviewdog improvements every day!</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ curl -sfL https://raw.githubusercontent.com/reviewdog/nightly/30fccfe9f47f7e6fd8b3c38aa0da11a6c9f04de7/install.sh | sh -s -- -b $(go env GOPATH)/bin"><pre class="notranslate">$ curl -sfL https://raw.githubusercontent.com/reviewdog/nightly/30fccfe9f47f7e6fd8b3c38aa0da11a6c9f04de7/install.sh <span class="pl-k">|</span> sh -s -- -b <span class="pl-s"><span class="pl-pds">$(</span>go env GOPATH<span class="pl-pds">)</span></span>/bin</pre></div>
+<h3 dir="auto">GitHub Action: <a href="https://github.com/reviewdog/action-setup">reviewdog/action-setup</a></h3>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="steps:
+- uses: reviewdog/action-setup@e04ffabe3898a0af8d0fb1af00c188831c4b5893 # v1.3.2
+  with:
+    reviewdog_version: latest # Optional. [latest,nightly,v.X.Y.Z]"><pre class="notranslate"><span class="pl-ent">steps</span>:
+- <span class="pl-ent">uses</span>: <span class="pl-s">reviewdog/action-setup@e04ffabe3898a0af8d0fb1af00c188831c4b5893 </span><span class="pl-c"><span class="pl-c">#</span> v1.3.2</span>
+  <span class="pl-ent">with</span>:
+    <span class="pl-ent">reviewdog_version</span>: <span class="pl-s">latest </span><span class="pl-c"><span class="pl-c">#</span> Optional. [latest,nightly,v.X.Y.Z]</span></pre></div>
+<h3 dir="auto">homebrew / linuxbrew</h3>
+<p dir="auto">You can also install reviewdog using brew:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ brew install reviewdog/tap/reviewdog
+$ brew upgrade reviewdog/tap/reviewdog"><pre class="notranslate">$ brew install reviewdog/tap/reviewdog
+$ brew upgrade reviewdog/tap/reviewdog</pre></div>
+<h3 dir="auto"><a href="https://scoop.sh/" rel="nofollow">Scoop</a> on Windows</h3>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="&gt; scoop install reviewdog"><pre class="notranslate"><code class="notranslate">&gt; scoop install reviewdog
+</code></pre></div>
+<h3 dir="auto">Build with go install</h3>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ go install github.com/reviewdog/reviewdog/cmd/reviewdog@latest"><pre class="notranslate">$ go install github.com/reviewdog/reviewdog/cmd/reviewdog@latest</pre></div>
+<h2 dir="auto">Input Format</h2>
+<h3 dir="auto">'errorformat'</h3>
+<p dir="auto">reviewdog accepts any compiler or linter result from stdin and parses it with<br>
+scan-f like <a href="https://github.com/reviewdog/errorformat"><strong>'errorformat'</strong></a>,<br>
+which is the port of Vim's <a href="https://vim-jp.org/vimdoc-en/quickfix.html#error-file-format" rel="nofollow">errorformat</a><br>
+feature.</p>
+<p dir="auto">For example, if the result format is <code class="notranslate">{file}:{line number}:{column number}: {message}</code>,<br>
+errorformat should be <code class="notranslate">%f:%l:%c: %m</code> and you can pass it as <code class="notranslate">-efm</code> arguments.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ golint ./...
+comment_iowriter.go:11:6: exported type CommentWriter should have comment or be unexported
+$ golint ./... | reviewdog -efm=&quot;%f:%l:%c: %m&quot; -diff=&quot;git diff FETCH_HEAD&quot;"><pre class="notranslate">$ golint ./...
+comment_iowriter.go:11:6: exported <span class="pl-c1">type</span> CommentWriter should have comment or be unexported
+$ golint ./... <span class="pl-k">|</span> reviewdog -efm=<span class="pl-s"><span class="pl-pds">"</span>%f:%l:%c: %m<span class="pl-pds">"</span></span> -diff=<span class="pl-s"><span class="pl-pds">"</span>git diff FETCH_HEAD<span class="pl-pds">"</span></span></pre></div>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>name</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>%f</td>
+<td>file name</td>
+</tr>
+<tr>
+<td>%l</td>
+<td>line number</td>
+</tr>
+<tr>
+<td>%c</td>
+<td>column number</td>
+</tr>
+<tr>
+<td>%m</td>
+<td>error message</td>
+</tr>
+<tr>
+<td>%%</td>
+<td>the single '%' character</td>
+</tr>
+<tr>
+<td>...</td>
+<td>...</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p dir="auto">Please see <a href="https://github.com/reviewdog/errorformat">reviewdog/errorformat</a><br>
+and <a href="https://vim-jp.org/vimdoc-en/quickfix.html#error-file-format" rel="nofollow">:h errorformat</a><br>
+if you want to deal with a more complex output. 'errorformat' can handle more<br>
+complex output like a multi-line error message.</p>
+<p dir="auto">You can also try errorformat on <a href="https://reviewdog.github.io/errorformat-playground/" rel="nofollow">the Playground</a>!</p>
+<p dir="auto">With this 'errorformat' feature, reviewdog can support any tool output with ease.</p>
+<h3 dir="auto">Available pre-defined 'errorformat'</h3>
+<p dir="auto">But, you don't have to write 'errorformat' in many cases. reviewdog supports<br>
+pre-defined errorformat for major tools.</p>
+<p dir="auto">You can find available errorformat name by <code class="notranslate">reviewdog -list</code> and you can use it<br>
+with <code class="notranslate">-f={name}</code>.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ reviewdog -list
+golint          linter for Go source code                                       - https://github.com/golang/lint
+govet           Vet examines Go source code and reports suspicious problems     - https://golang.org/cmd/vet/
+sbt             the interactive build tool                                      - http://www.scala-sbt.org/
+..."><pre class="notranslate">$ reviewdog -list
+golint          linter <span class="pl-k">for</span> Go <span class="pl-c1">source</span> code                                       - https://github.com/golang/lint
+govet           Vet examines Go <span class="pl-c1">source</span> code and reports suspicious problems     - https://golang.org/cmd/vet/
+sbt             the interactive build tool                                      - http://www.scala-sbt.org/
+...</pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ golint ./... | reviewdog -f=golint -diff=&quot;git diff FETCH_HEAD&quot;"><pre class="notranslate">$ golint ./... <span class="pl-k">|</span> reviewdog -f=golint -diff=<span class="pl-s"><span class="pl-pds">"</span>git diff FETCH_HEAD<span class="pl-pds">"</span></span></pre></div>
+<p dir="auto">You can add supported pre-defined 'errorformat' by contributing to <a href="https://github.com/reviewdog/errorformat">reviewdog/errorformat</a></p>
+<h3 dir="auto">Reviewdog Diagnostic Format (RDFormat)</h3>
+<p dir="auto">reviewdog supports <a href="./proto/rdf/">Reviewdog Diagnostic Format (RDFormat)</a> as a<br>
+generic diagnostic format and it supports both <a href="./proto/rdf/#rdjson">rdjson</a> and<br>
+<a href="./proto/rdf/#rdjsonl">rdjsonl</a> formats.</p>
+<p dir="auto">This rdformat supports rich features like multiline ranged comments, severity,<br>
+rule code with URL, and <a href="#code-suggestions">code suggestions</a>.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ &lt;linter&gt; | &lt;convert-to-rdjson&gt; | reviewdog -f=rdjson -reporter=github-pr-review
+# or
+$ &lt;linter&gt; | &lt;convert-to-rdjsonl&gt; | reviewdog -f=rdjsonl -reporter=github-pr-review"><pre class="notranslate">$ <span class="pl-k">&lt;</span>linter<span class="pl-k">&gt;</span> <span class="pl-k">|</span> <span class="pl-k">&lt;</span>convert-to-rdjson<span class="pl-k">&gt;</span> <span class="pl-k">|</span> reviewdog -f=rdjson -reporter=github-pr-review
+<span class="pl-c"><span class="pl-c">#</span> or</span>
+$ <span class="pl-k">&lt;</span>linter<span class="pl-k">&gt;</span> <span class="pl-k">|</span> <span class="pl-k">&lt;</span>convert-to-rdjsonl<span class="pl-k">&gt;</span> <span class="pl-k">|</span> reviewdog -f=rdjsonl -reporter=github-pr-review</pre></div>
+<h4 dir="auto">Example: ESLint with RDFormat</h4>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/3797062/97085944-87233a80-165b-11eb-94a8-0a47d5e24905.png"><img src="https://user-images.githubusercontent.com/3797062/97085944-87233a80-165b-11eb-94a8-0a47d5e24905.png" alt="eslint reviewdog rdjson demo" style="max-width: 100%;"></a></p>
+<p dir="auto">You can use <a href="https://www.npmjs.com/package/eslint-formatter-rdjson" rel="nofollow">eslint-formatter-rdjson</a><br>
+to output <code class="notranslate">rdjson</code> as eslint output format.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ npm install --save-dev eslint-formatter-rdjson
+$ eslint -f rdjson . | reviewdog -f=rdjson -reporter=github-pr-review"><pre class="notranslate">$ npm install --save-dev eslint-formatter-rdjson
+$ eslint -f rdjson <span class="pl-c1">.</span> <span class="pl-k">|</span> reviewdog -f=rdjson -reporter=github-pr-review</pre></div>
+<p dir="auto">Or you can also use <a href="https://github.com/reviewdog/action-eslint">reviewdog/action-eslint</a> for GitHub Actions.</p>
+<h3 dir="auto">Diff</h3>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/3797062/89168305-a3ad5a80-d5b7-11ea-8939-be7ac1976d30.png"><img src="https://user-images.githubusercontent.com/3797062/89168305-a3ad5a80-d5b7-11ea-8939-be7ac1976d30.png" alt="reviewdog with gofmt example" style="max-width: 100%;"></a></p>
+<p dir="auto">reviewdog supports diff (unified format) as an input format especially useful<br>
+for <a href="#code-suggestions">code suggestions</a>.<br>
+reviewdog can integrate with any code suggestions tools or formatters to report suggestions.</p>
+<p dir="auto"><code class="notranslate">-f.diff.strip</code>: option for <code class="notranslate">-f=diff</code>: strip NUM leading components from diff file names (equivalent to 'patch -p') (default is 1 for git diff) (default 1)</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ &lt;any-code-fixer/formatter&gt; # e.g. eslint --fix, gofmt
+$ TMPFILE=$(mktemp)
+$ git diff &gt;&quot;${TMPFILE}&quot;
+$ git stash -u &amp;&amp; git stash drop
+$ reviewdog -f=diff -f.diff.strip=1 -reporter=github-pr-review &lt; &quot;${TMPFILE}&quot;"><pre class="notranslate">$ <span class="pl-k">&lt;</span>any-code-fixer/formatter<span class="pl-k">&gt;</span> <span class="pl-c"><span class="pl-c">#</span> e.g. eslint --fix, gofmt</span>
+$ TMPFILE=<span class="pl-s"><span class="pl-pds">$(</span>mktemp<span class="pl-pds">)</span></span>
+$ git diff <span class="pl-k">&gt;</span><span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">${TMPFILE}</span><span class="pl-pds">"</span></span>
+$ git stash -u <span class="pl-k">&amp;&amp;</span> git stash drop
+$ reviewdog -f=diff -f.diff.strip=1 -reporter=github-pr-review <span class="pl-k">&lt;</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">${TMPFILE}</span><span class="pl-pds">"</span></span></pre></div>
+<p dir="auto">Or you can also use <a href="https://github.com/reviewdog/action-suggester">reviewdog/action-suggester</a> for GitHub Actions.</p>
+<p dir="auto">If diagnostic tools support diff output format, you can pipe the diff directly.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ gofmt -s -d . | reviewdog -name=&quot;gofmt&quot; -f=diff -f.diff.strip=0 -reporter=github-pr-review
+$ shellcheck -f diff $(shfmt -f .) | reviewdog -f=diff"><pre class="notranslate">$ gofmt -s -d <span class="pl-c1">.</span> <span class="pl-k">|</span> reviewdog -name=<span class="pl-s"><span class="pl-pds">"</span>gofmt<span class="pl-pds">"</span></span> -f=diff -f.diff.strip=0 -reporter=github-pr-review
+$ shellcheck -f diff <span class="pl-s"><span class="pl-pds">$(</span>shfmt -f .<span class="pl-pds">)</span></span> <span class="pl-k">|</span> reviewdog -f=diff</pre></div>
+<h3 dir="auto">checkstyle format</h3>
+<p dir="auto">reviewdog also accepts <a href="http://checkstyle.sourceforge.net/" rel="nofollow">checkstyle XML format</a> as well.<br>
+If the linter supports checkstyle format as a report format, you can use<br>
+-f=checkstyle instead of using 'errorformat'.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# Local
+$ eslint -f checkstyle . | reviewdog -f=checkstyle -diff=&quot;git diff&quot;
+
+# CI (overwrite tool name which is shown in review comment by -name arg)
+$ eslint -f checkstyle . | reviewdog -f=checkstyle -name=&quot;eslint&quot; -reporter=github-check"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> Local</span>
+$ eslint -f checkstyle <span class="pl-c1">.</span> <span class="pl-k">|</span> reviewdog -f=checkstyle -diff=<span class="pl-s"><span class="pl-pds">"</span>git diff<span class="pl-pds">"</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span> CI (overwrite tool name which is shown in review comment by -name arg)</span>
+$ eslint -f checkstyle <span class="pl-c1">.</span> <span class="pl-k">|</span> reviewdog -f=checkstyle -name=<span class="pl-s"><span class="pl-pds">"</span>eslint<span class="pl-pds">"</span></span> -reporter=github-check</pre></div>
+<p dir="auto">Also, if you want to pass other Json/XML/etc... format to reviewdog, you can write a converter.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ &lt;linter&gt; | &lt;convert-to-checkstyle&gt; | reviewdog -f=checkstyle -name=&quot;&lt;linter&gt;&quot; -reporter=github-pr-check"><pre class="notranslate">$ <span class="pl-k">&lt;</span>linter<span class="pl-k">&gt;</span> <span class="pl-k">|</span> <span class="pl-k">&lt;</span>convert-to-checkstyle<span class="pl-k">&gt;</span> <span class="pl-k">|</span> reviewdog -f=checkstyle -name=<span class="pl-s"><span class="pl-pds">"</span>&lt;linter&gt;<span class="pl-pds">"</span></span> -reporter=github-pr-check</pre></div>
+<h3 dir="auto">SARIF format</h3>
+<p dir="auto">reviewdog supports <a href="https://sarifweb.azurewebsites.net/" rel="nofollow">SARIF 2.1.0 JSON format</a>.<br>
+You can use reviewdog with -f=sarif option.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# Local
+$ eslint -f @microsoft/eslint-formatter-sarif . | reviewdog -f=sarif -diff=&quot;git diff&quot;"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> Local</span>
+$ eslint -f @microsoft/eslint-formatter-sarif <span class="pl-c1">.</span> <span class="pl-k">|</span> reviewdog -f=sarif -diff=<span class="pl-s"><span class="pl-pds">"</span>git diff<span class="pl-pds">"</span></span></pre></div>
+<h2 dir="auto">Code Suggestions</h2>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/3797062/97085944-87233a80-165b-11eb-94a8-0a47d5e24905.png"><img src="https://user-images.githubusercontent.com/3797062/97085944-87233a80-165b-11eb-94a8-0a47d5e24905.png" alt="eslint reviewdog suggestion demo" style="max-width: 100%;"></a><br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/3797062/89168305-a3ad5a80-d5b7-11ea-8939-be7ac1976d30.png"><img src="https://user-images.githubusercontent.com/3797062/89168305-a3ad5a80-d5b7-11ea-8939-be7ac1976d30.png" alt="reviewdog with gofmt example" style="max-width: 100%;"></a></p>
+<p dir="auto">reviewdog supports <em>code suggestions</em> feature with <a href="#reviewdog-diagnostic-format-rdformat">rdformat</a> or <a href="#diff">diff</a> input.<br>
+You can also use <a href="https://github.com/reviewdog/action-suggester">reviewdog/action-suggester</a> for GitHub Actions.</p>
+<p dir="auto">reviewdog can suggest code changes along with diagnostic results if a diagnostic tool supports code suggestions data.<br>
+You can integrate reviewdog with any code fixing tools and any code formatter with <a href="#diff">diff</a> input as well.</p>
+<h3 dir="auto">Code Suggestions Support Table</h3>
+<p dir="auto">Note that not all reporters provide support for code suggestions.</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th><code class="notranslate">-reporter</code></th>
+<th>Suggestion support</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><code class="notranslate">local</code></strong></td>
+<td>NO [1]</td>
+</tr>
+<tr>
+<td><strong><code class="notranslate">github-check</code></strong></td>
+<td>NO [2]</td>
+</tr>
+<tr>
+<td><strong><code class="notranslate">github-pr-check</code></strong></td>
+<td>NO [2]</td>
+</tr>
+<tr>
+<td><strong><code class="notranslate">github-annotations</code></strong></td>
+<td>NO [2]</td>
+</tr>
+<tr>
+<td><strong><code class="notranslate">github-pr-annotations</code></strong></td>
+<td>NO [2]</td>
+</tr>
+<tr>
+<td><strong><code class="notranslate">github-pr-review</code></strong></td>
+<td>OK</td>
+</tr>
+<tr>
+<td><strong><code class="notranslate">gitlab-mr-discussion</code></strong></td>
+<td>OK</td>
+</tr>
+<tr>
+<td><strong><code class="notranslate">gitlab-mr-commit</code></strong></td>
+<td>NO [2]</td>
+</tr>
+<tr>
+<td><strong><code class="notranslate">gerrit-change-review</code></strong></td>
+<td>NO [1]</td>
+</tr>
+<tr>
+<td><strong><code class="notranslate">bitbucket-code-report</code></strong></td>
+<td>NO [2]</td>
+</tr>
+<tr>
+<td><strong><code class="notranslate">gitea-pr-review</code></strong></td>
+<td>NO [2]</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<ul dir="auto">
+<li>[1] The reporter service supports the code suggestion feature, but reviewdog does not support it yet. See <a href="https://github.com/reviewdog/reviewdog/issues/678" data-hovercard-type="issue" data-hovercard-url="/reviewdog/reviewdog/issues/678/hovercard">#678</a> for the status.</li>
+<li>[2] The reporter service itself doesn't support the code suggestion feature.</li>
+</ul>
+<h2 dir="auto">reviewdog config file</h2>
+<p dir="auto">reviewdog can also be controlled via the .reviewdog.yml configuration file instead of "-f" or "-efm" arguments.</p>
+<p dir="auto">With .reviewdog.yml, you can run the same commands for both CI service and local<br>
+environment including editor integration with ease.</p>
+<h4 dir="auto">.reviewdog.yml</h4>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="runner:
+  &lt;tool-name&gt;:
+    cmd: &lt;command&gt; # (required)
+    errorformat: # (optional if you use `format`)
+      - &lt;list of errorformat&gt;
+    format: &lt;format-name&gt; # (optional if you use `errorformat`. e.g. golint,rdjson,rdjsonl)
+    name: &lt;tool-name&gt; # (optional. you can overwrite &lt;tool-name&gt; defined by runner key)
+    level: &lt;level&gt; # (optional. same as -level flag. [info,warning,error])
+
+  # examples
+  golint:
+    cmd: golint ./...
+    errorformat:
+      - &quot;%f:%l:%c: %m&quot;
+    level: warning
+  govet:
+    cmd: go vet -all .
+    format: govet
+  your-awesome-linter:
+    cmd: awesome-linter run
+    format: rdjson
+    name: AwesomeLinter"><pre class="notranslate"><span class="pl-ent">runner</span>:
+  <span class="pl-ent">&lt;tool-name&gt;</span>:
+    <span class="pl-ent">cmd</span>: <span class="pl-s">&lt;command&gt; </span><span class="pl-c"><span class="pl-c">#</span> (required)</span>
+    <span class="pl-ent">errorformat</span>: <span class="pl-c"><span class="pl-c">#</span> (optional if you use `format`)</span>
+      - <span class="pl-s">&lt;list of errorformat&gt;</span>
+    <span class="pl-ent">format</span>: <span class="pl-s">&lt;format-name&gt; </span><span class="pl-c"><span class="pl-c">#</span> (optional if you use `errorformat`. e.g. golint,rdjson,rdjsonl)</span>
+    <span class="pl-ent">name</span>: <span class="pl-s">&lt;tool-name&gt; </span><span class="pl-c"><span class="pl-c">#</span> (optional. you can overwrite &lt;tool-name&gt; defined by runner key)</span>
+    <span class="pl-ent">level</span>: <span class="pl-s">&lt;level&gt; </span><span class="pl-c"><span class="pl-c">#</span> (optional. same as -level flag. [info,warning,error])</span>
+
+  <span class="pl-c"><span class="pl-c">#</span> examples</span>
+  <span class="pl-ent">golint</span>:
+    <span class="pl-ent">cmd</span>: <span class="pl-s">golint ./...</span>
+    <span class="pl-ent">errorformat</span>:
+      - <span class="pl-s"><span class="pl-pds">"</span>%f:%l:%c: %m<span class="pl-pds">"</span></span>
+    <span class="pl-ent">level</span>: <span class="pl-s">warning</span>
+  <span class="pl-ent">govet</span>:
+    <span class="pl-ent">cmd</span>: <span class="pl-s">go vet -all .</span>
+    <span class="pl-ent">format</span>: <span class="pl-s">govet</span>
+  <span class="pl-ent">your-awesome-linter</span>:
+    <span class="pl-ent">cmd</span>: <span class="pl-s">awesome-linter run</span>
+    <span class="pl-ent">format</span>: <span class="pl-s">rdjson</span>
+    <span class="pl-ent">name</span>: <span class="pl-s">AwesomeLinter</span></pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ reviewdog -diff=&quot;git diff FETCH_HEAD&quot;
+project/run_test.go:61:28: [golint] error strings should not end with punctuation
+project/run.go:57:18: [errcheck]        defer os.Setenv(name, os.Getenv(name))
+project/run.go:58:12: [errcheck]        os.Setenv(name, &quot;&quot;)
+# You can use -runners to run only specified runners.
+$ reviewdog -diff=&quot;git diff FETCH_HEAD&quot; -runners=golint,govet
+project/run_test.go:61:28: [golint] error strings should not end with punctuation
+# You can use -conf to specify config file path.
+$ reviewdog -conf=./.reviewdog.yml -reporter=github-pr-check"><pre class="notranslate">$ reviewdog -diff=<span class="pl-s"><span class="pl-pds">"</span>git diff FETCH_HEAD<span class="pl-pds">"</span></span>
+project/run_test.go:61:28: [golint] error strings should not end with punctuation
+project/run.go:57:18: [errcheck]        defer os.Setenv(name, os.Getenv(name))
+project/run.go:58:12: [errcheck]        os.Setenv(name, <span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>)
+<span class="pl-c"><span class="pl-c">#</span> You can use -runners to run only specified runners.</span>
+$ reviewdog -diff=<span class="pl-s"><span class="pl-pds">"</span>git diff FETCH_HEAD<span class="pl-pds">"</span></span> -runners=golint,govet
+project/run_test.go:61:28: [golint] error strings should not end with punctuation
+<span class="pl-c"><span class="pl-c">#</span> You can use -conf to specify config file path.</span>
+$ reviewdog -conf=./.reviewdog.yml -reporter=github-pr-check</pre></div>
+<p dir="auto">Output format for project config based run is one of the following formats.</p>
+<ul dir="auto">
+<li><code class="notranslate">&lt;file&gt;: [&lt;tool name&gt;] &lt;message&gt;</code></li>
+<li><code class="notranslate">&lt;file&gt;:&lt;lnum&gt;: [&lt;tool name&gt;] &lt;message&gt;</code></li>
+<li><code class="notranslate">&lt;file&gt;:&lt;lnum&gt;:&lt;col&gt;: [&lt;tool name&gt;] &lt;message&gt;</code></li>
+</ul>
+<h2 dir="auto">Reporters</h2>
+<p dir="auto">reviewdog can report results both in the local environment and review services as<br>
+continuous integration.</p>
+<h3 dir="auto">Reporter: Local (-reporter=local) [default]</h3>
+<p dir="auto">reviewdog can find newly introduced findings by filtering linter results<br>
+using diff. You can pass the diff command as <code class="notranslate">-diff</code> arg.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ golint ./... | reviewdog -f=golint -diff=&quot;git diff FETCH_HEAD&quot;"><pre class="notranslate">$ golint ./... <span class="pl-k">|</span> reviewdog -f=golint -diff=<span class="pl-s"><span class="pl-pds">"</span>git diff FETCH_HEAD<span class="pl-pds">"</span></span></pre></div>
+<h3 dir="auto">Reporter: GitHub PR Checks (-reporter=github-pr-check)</h3>
+<p dir="auto"><a href="https://github.com/reviewdog/reviewdog/pull/275/files#annotation_6177941961779419"><img src="https://user-images.githubusercontent.com/3797062/64875597-65016f80-d688-11e9-843f-4679fb666f0d.png" alt="github-pr-check sample annotation with option 1" style="max-width: 100%;"></a><br>
+<a href="https://github.com/reviewdog/reviewdog/pull/131/checks"><img src="https://user-images.githubusercontent.com/3797062/40884858-6efd82a0-6756-11e8-9f1a-c6af4f920fb0.png" alt="github-pr-check sample" style="max-width: 100%;"></a></p>
+<p dir="auto">github-pr-check reporter reports results to <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks">GitHub Checks</a>.</p>
+<p dir="auto">You can change the report level for this reporter by <code class="notranslate">level</code> field in <a href="#reviewdog-config-file">config<br>
+file</a> or <code class="notranslate">-level</code> flag. You can control GitHub status<br>
+check results with this feature. (default: error)</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>Level</th>
+<th>GitHub Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code class="notranslate">info</code></td>
+<td>neutral</td>
+</tr>
+<tr>
+<td><code class="notranslate">warning</code></td>
+<td>neutral</td>
+</tr>
+<tr>
+<td><code class="notranslate">error</code></td>
+<td>failure</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p dir="auto">There are two options to use this reporter.</p>
+<h4 dir="auto">Option 1) Run reviewdog from GitHub Actions w/ secrets.GITHUB_TOKEN</h4>
+<p dir="auto">Example: <a href=".github/workflows/reviewdog.yml">.github/workflows/reviewdog.yml</a></p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="- name: Run reviewdog
+  env:
+    REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  run: |
+    golint ./... | reviewdog -f=golint -reporter=github-pr-check"><pre class="notranslate">- <span class="pl-ent">name</span>: <span class="pl-s">Run reviewdog</span>
+  <span class="pl-ent">env</span>:
+    <span class="pl-ent">REVIEWDOG_GITHUB_API_TOKEN</span>: <span class="pl-s">${{ secrets.GITHUB_TOKEN }}</span>
+  <span class="pl-ent">run</span>: <span class="pl-s">|</span>
+<span class="pl-s">    golint ./... | reviewdog -f=golint -reporter=github-pr-check</span></pre></div>
+<p dir="auto">See <a href="#github-actions">GitHub Actions</a> section too. You can also use public<br>
+reviewdog GitHub Actions.</p>
+<h4 dir="auto">Option 2) Install reviewdog GitHub Apps</h4>
+<p dir="auto">reviewdog CLI sends a request to reviewdog GitHub App server and the server post<br>
+results as GitHub Checks, because Check API is only supported for GitHub App and<br>
+GitHub Actions.</p>
+<ol dir="auto">
+<li>Install reviewdog Apps. <a href="https://github.com/apps/reviewdog">https://github.com/apps/reviewdog</a></li>
+<li>Set <code class="notranslate">REVIEWDOG_TOKEN</code> or run reviewdog CLI in trusted CI providers.</li>
+</ol>
+<ul dir="auto">
+<li>Get token from <code class="notranslate">https://reviewdog.app/gh/{owner}/{repo-name}</code>.</li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ export REVIEWDOG_TOKEN=&quot;&lt;token&gt;&quot;
+$ reviewdog -reporter=github-pr-check"><pre class="notranslate">$ <span class="pl-k">export</span> REVIEWDOG_TOKEN=<span class="pl-s"><span class="pl-pds">"</span>&lt;token&gt;<span class="pl-pds">"</span></span>
+$ reviewdog -reporter=github-pr-check</pre></div>
+<p dir="auto">Note: Token is not required if you run reviewdog in Travis or AppVeyor.</p>
+<p dir="auto"><em>Caution</em></p>
+<p dir="auto">As described above, github-pr-check reporter with Option 2 depends on<br>
+reviewdog GitHub App server.<br>
+The server is running with haya14busa's pocket money for now and I may break<br>
+things, so I cannot ensure that the server is running 24h and 365 days.</p>
+<p dir="auto"><strong>UPDATE:</strong> Started getting support by <a href="https://opencollective.com/reviewdog" rel="nofollow">opencollective</a><br>
+and GitHub sponsor.<br>
+See <a href="#supporting-reviewdog">Supporting reviewdog</a></p>
+<p dir="auto">You can use github-pr-review reporter or use run reviewdog under GitHub Actions<br>
+if you don't want to depend on reviewdog server.</p>
+<h3 dir="auto">Reporter: GitHub Checks (-reporter=github-check)</h3>
+<p dir="auto">It's basically the same as <code class="notranslate">-reporter=github-pr-check</code> except it works not only for<br>
+Pull Request but also for commit.</p>
+<p dir="auto"><a href="https://github.com/reviewdog/reviewdog/pull/364/files"><img src="https://user-images.githubusercontent.com/3797062/69917921-e0680580-14ae-11ea-9a56-de9e3cbac005.png" alt="sample comment outside diff" style="max-width: 100%;"></a></p>
+<p dir="auto">You can create <a href="#reviewdog-badge-">reviewdog badge</a> for this reporter.</p>
+<h3 dir="auto">Reporter: GitHub PullRequest review comment (-reporter=github-pr-review)</h3>
+<p dir="auto"><a href="https://github.com/reviewdog/reviewdog/pull/24#discussion_r84599728" data-hovercard-type="pull_request" data-hovercard-url="/reviewdog/reviewdog/pull/24/hovercard"><img src="https://raw.githubusercontent.com/haya14busa/i/dc0ccb1e110515ea407c146d99b749018db05c45/reviewdog/sample-comment.png" alt="sample-comment.png" style="max-width: 100%;"></a></p>
+<p dir="auto">github-pr-review reporter reports results to GitHub PullRequest review comments<br>
+using GitHub Personal API Access Token.<br>
+<a href="https://github.com/enterprise">GitHub Enterprise</a> is supported too.</p>
+<ul dir="auto">
+<li>Go to <a href="https://github.com/settings/tokens">https://github.com/settings/tokens</a> and generate a new API token.</li>
+<li>Check <code class="notranslate">repo</code> for private repositories or <code class="notranslate">public_repo</code> for public repositories.</li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ export REVIEWDOG_GITHUB_API_TOKEN=&quot;&lt;token&gt;&quot;
+$ reviewdog -reporter=github-pr-review"><pre class="notranslate">$ <span class="pl-k">export</span> REVIEWDOG_GITHUB_API_TOKEN=<span class="pl-s"><span class="pl-pds">"</span>&lt;token&gt;<span class="pl-pds">"</span></span>
+$ reviewdog -reporter=github-pr-review</pre></div>
+<p dir="auto">For GitHub Enterprise, set the API endpoint by an environment variable.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ export GITHUB_API=&quot;https://example.githubenterprise.com/api/v3/&quot;
+$ export REVIEWDOG_INSECURE_SKIP_VERIFY=true # set this as you need to skip verifying SSL"><pre class="notranslate">$ <span class="pl-k">export</span> GITHUB_API=<span class="pl-s"><span class="pl-pds">"</span>https://example.githubenterprise.com/api/v3/<span class="pl-pds">"</span></span>
+$ <span class="pl-k">export</span> REVIEWDOG_INSECURE_SKIP_VERIFY=true <span class="pl-c"><span class="pl-c">#</span> set this as you need to skip verifying SSL</span></pre></div>
+<p dir="auto">See <a href="#github-actions">GitHub Actions</a> section too if you can use GitHub<br>
+Actions. You can also use public reviewdog GitHub Actions.</p>
+<h3 dir="auto">Reporter: GitHub Annotations (-reporter=github-annotations)</h3>
+<p dir="auto"><code class="notranslate">github-annotations</code> uses the GitHub Actions annotation format to output errors<br>
+and warnings to <code class="notranslate">stdout</code> e.g.</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="::error line=11,col=41,file=app/index.md::[vale] reported by reviewdog 🐶%0A[demo.Spelling] Did you really mean 'boobarbaz'?%0A%0ARaw Output:%0A{&quot;message&quot;: &quot;[demo.Spelling] Did you really mean 'boobarbaz'?&quot;, &quot;location&quot;: {&quot;path&quot;: &quot;app/index.md&quot;, &quot;range&quot;: {&quot;start&quot;: {&quot;line&quot;: 11, &quot;column&quot;: 41}}}, &quot;severity&quot;: &quot;ERROR&quot;}"><pre class="notranslate"><code class="notranslate">::error line=11,col=41,file=app/index.md::[vale] reported by reviewdog 🐶%0A[demo.Spelling] Did you really mean 'boobarbaz'?%0A%0ARaw Output:%0A{"message": "[demo.Spelling] Did you really mean 'boobarbaz'?", "location": {"path": "app/index.md", "range": {"start": {"line": 11, "column": 41}}}, "severity": "ERROR"}
+</code></pre></div>
+<p dir="auto">This reporter requires a valid GitHub API token to generate a diff, but will not<br>
+use the token to report errors.</p>
+<h3 dir="auto">Reporter: GitHub PR Annotations (-reporter=github-pr-annotations)</h3>
+<p dir="auto">Same as <code class="notranslate">github-annotations</code> but only works for Pull Requests.</p>
+<h3 dir="auto">Reporter: GitLab MergeRequest discussions (-reporter=gitlab-mr-discussion)</h3>
+<p dir="auto"><a href="https://gitlab.com/reviewdog/reviewdog/-/merge_requests/113#note_83411103" rel="nofollow"><img src="https://user-images.githubusercontent.com/3797062/41810718-f91bc540-773d-11e8-8598-fbc09ce9b1c7.png" alt="gitlab-mr-discussion sample" style="max-width: 100%;"></a></p>
+<p dir="auto">Required GitLab version: &gt;= v10.8.0</p>
+<p dir="auto">gitlab-mr-discussion reporter reports results to GitLab MergeRequest discussions using<br>
+GitLab Personal API Access token.<br>
+Get the token with <code class="notranslate">api</code> scope from <a href="https://gitlab.com/profile/personal_access_tokens" rel="nofollow">https://gitlab.com/profile/personal_access_tokens</a>.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ export REVIEWDOG_GITLAB_API_TOKEN=&quot;&lt;token&gt;&quot;
+$ reviewdog -reporter=gitlab-mr-discussion"><pre class="notranslate">$ <span class="pl-k">export</span> REVIEWDOG_GITLAB_API_TOKEN=<span class="pl-s"><span class="pl-pds">"</span>&lt;token&gt;<span class="pl-pds">"</span></span>
+$ reviewdog -reporter=gitlab-mr-discussion</pre></div>
+<p dir="auto">The <code class="notranslate">CI_API_V4_URL</code> environment variable, defined automatically by Gitlab CI (v11.7 onwards), will be used to find out the Gitlab API URL.</p>
+<p dir="auto">Alternatively, <code class="notranslate">GITLAB_API</code> can also be defined, in which case it will take precedence over <code class="notranslate">CI_API_V4_URL</code>.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ export GITLAB_API=&quot;https://example.gitlab.com/api/v4&quot;
+$ export REVIEWDOG_INSECURE_SKIP_VERIFY=true # set this as you need to skip verifying SSL"><pre class="notranslate">$ <span class="pl-k">export</span> GITLAB_API=<span class="pl-s"><span class="pl-pds">"</span>https://example.gitlab.com/api/v4<span class="pl-pds">"</span></span>
+$ <span class="pl-k">export</span> REVIEWDOG_INSECURE_SKIP_VERIFY=true <span class="pl-c"><span class="pl-c">#</span> set this as you need to skip verifying SSL</span></pre></div>
+<h3 dir="auto">Reporter: GitLab MergeRequest commit (-reporter=gitlab-mr-commit)</h3>
+<p dir="auto">gitlab-mr-commit is similar to <a href="#reporter-gitlab-mergerequest-discussions--reportergitlab-mr-discussion">gitlab-mr-discussion</a> reporter but reports results to each commit in GitLab MergeRequest.</p>
+<p dir="auto">gitlab-mr-discussion is recommended, but you can use gitlab-mr-commit reporter<br>
+if your GitLab version is under v10.8.0.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ export REVIEWDOG_GITLAB_API_TOKEN=&quot;&lt;token&gt;&quot;
+$ reviewdog -reporter=gitlab-mr-commit"><pre class="notranslate">$ <span class="pl-k">export</span> REVIEWDOG_GITLAB_API_TOKEN=<span class="pl-s"><span class="pl-pds">"</span>&lt;token&gt;<span class="pl-pds">"</span></span>
+$ reviewdog -reporter=gitlab-mr-commit</pre></div>
+<h3 dir="auto">Reporter: Gerrit Change review (-reporter=gerrit-change-review)</h3>
+<p dir="auto">gerrit-change-review reporter reports results to Gerrit Change using Gerrit Rest APIs.</p>
+<p dir="auto">The reporter supports Basic Authentication and Git-cookie based authentication for reporting results.</p>
+<p dir="auto">Set <code class="notranslate">GERRIT_USERNAME</code> and <code class="notranslate">GERRIT_PASSWORD</code> environment variables for basic authentication, and put <code class="notranslate">GIT_GITCOOKIE_PATH</code> for git cookie-based authentication.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ export GERRIT_CHANGE_ID=changeID
+$ export GERRIT_REVISION_ID=revisionID
+$ export GERRIT_BRANCH=master
+$ export GERRIT_ADDRESS=http://&lt;gerrit-host&gt;:&lt;gerrit-port&gt;
+$ reviewdog -reporter=gerrit-change-review"><pre class="notranslate">$ <span class="pl-k">export</span> GERRIT_CHANGE_ID=changeID
+$ <span class="pl-k">export</span> GERRIT_REVISION_ID=revisionID
+$ <span class="pl-k">export</span> GERRIT_BRANCH=master
+$ <span class="pl-k">export</span> GERRIT_ADDRESS=http://<span class="pl-k">&lt;</span>gerrit-host<span class="pl-k">&gt;</span>:<span class="pl-k">&lt;</span>gerrit-port<span class="pl-k">&gt;</span>
+$ reviewdog -reporter=gerrit-change-review</pre></div>
+<h3 dir="auto">Reporter: Bitbucket Code Insights Reports (-reporter=bitbucket-code-report)</h3>
+<p dir="auto"><a href="https://bitbucket.org/Trane9991/reviewdog-example/pull-requests/1" rel="nofollow"><img src="https://user-images.githubusercontent.com/9948629/96770123-c138d600-13e8-11eb-8e46-250b4bb393bd.png" alt="bitbucket-code-report" style="max-width: 100%;"></a><br>
+<a href="https://bitbucket.org/Trane9991/reviewdog-example/pull-requests/1" rel="nofollow"><img src="https://user-images.githubusercontent.com/9948629/97054896-5e813f00-158e-11eb-9ad7-f8d75489b8ba.png" alt="bitbucket-code-annotations" style="max-width: 100%;"></a></p>
+<p dir="auto">bitbucket-code-report generates the annotated<br>
+<a href="https://support.atlassian.com/bitbucket-cloud/docs/code-insights/" rel="nofollow">Bitbucket Code Insights</a> report.</p>
+<p dir="auto">For now, only the <code class="notranslate">no-filter</code> mode is supported, so the whole project is scanned on every run.<br>
+Reports are stored per commit and can be viewed per commit from Bitbucket Pipelines UI or<br>
+in Pull Request. In the Pull Request UI affected code lines will be annotated in the diff,<br>
+as well as you will be able to filter the annotations by <strong>This pull request</strong> or <strong>All</strong>.</p>
+<p dir="auto">If running from <a href="#bitbucket-pipelines">Bitbucket Pipelines</a>, no additional configuration is needed (even credentials).<br>
+If running locally or from some other CI system you would need to provide Bitbucket API credentials:</p>
+<ul dir="auto">
+<li>For Basic Auth you need to set the following env variables:<br>
+<code class="notranslate">BITBUCKET_USER</code> and <code class="notranslate">BITBUCKET_PASSWORD</code></li>
+<li>For AccessToken Auth you need to set <code class="notranslate">BITBUCKET_ACCESS_TOKEN</code></li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ export BITBUCKET_USER=&quot;my_user&quot;
+$ export BITBUCKET_PASSWORD=&quot;my_password&quot;
+$ reviewdog -reporter=bitbucket-code-report"><pre class="notranslate">$ <span class="pl-k">export</span> BITBUCKET_USER=<span class="pl-s"><span class="pl-pds">"</span>my_user<span class="pl-pds">"</span></span>
+$ <span class="pl-k">export</span> BITBUCKET_PASSWORD=<span class="pl-s"><span class="pl-pds">"</span>my_password<span class="pl-pds">"</span></span>
+$ reviewdog -reporter=bitbucket-code-report</pre></div>
+<p dir="auto">To post a report to the Bitbucket Server use <code class="notranslate">BITBUCKET_SERVER_URL</code> variable:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ export BITBUCKET_USER=&quot;my_user&quot;
+$ export BITBUCKET_PASSWORD=&quot;my_password&quot;
+$ export BITBUCKET_SERVER_URL=&quot;https://bitbucket.my-company.com&quot;
+$ reviewdog -reporter=bitbucket-code-report"><pre class="notranslate">$ <span class="pl-k">export</span> BITBUCKET_USER=<span class="pl-s"><span class="pl-pds">"</span>my_user<span class="pl-pds">"</span></span>
+$ <span class="pl-k">export</span> BITBUCKET_PASSWORD=<span class="pl-s"><span class="pl-pds">"</span>my_password<span class="pl-pds">"</span></span>
+$ <span class="pl-k">export</span> BITBUCKET_SERVER_URL=<span class="pl-s"><span class="pl-pds">"</span>https://bitbucket.my-company.com<span class="pl-pds">"</span></span>
+$ reviewdog -reporter=bitbucket-code-report</pre></div>
+<h2 dir="auto">Supported CI services</h2>
+<h3 dir="auto"><a href="https://github.com/features/actions">GitHub Actions</a></h3>
+<p dir="auto">Example: <a href=".github/workflows/reviewdog.yml">.github/workflows/reviewdog.yml</a></p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="name: reviewdog
+on: [pull_request]
+jobs:
+  reviewdog:
+    name: reviewdog
+    runs-on: ubuntu-latest
+    steps:
+      # ...
+      - uses: reviewdog/action-setup@e04ffabe3898a0af8d0fb1af00c188831c4b5893 # v1.3.2
+        with:
+          reviewdog_version: latest # Optional. [latest,nightly,v.X.Y.Z]
+      - name: Run reviewdog
+        env:
+          REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          reviewdog -reporter=github-pr-check -runners=golint,govet
+          # or
+          reviewdog -reporter=github-pr-review -runners=golint,govet"><pre class="notranslate"><span class="pl-ent">name</span>: <span class="pl-s">reviewdog</span>
+<span class="pl-ent">on</span>: <span class="pl-s">[pull_request]</span>
+<span class="pl-ent">jobs</span>:
+  <span class="pl-ent">reviewdog</span>:
+    <span class="pl-ent">name</span>: <span class="pl-s">reviewdog</span>
+    <span class="pl-ent">runs-on</span>: <span class="pl-s">ubuntu-latest</span>
+    <span class="pl-ent">steps</span>:
+      <span class="pl-c"><span class="pl-c">#</span> ...</span>
+      - <span class="pl-ent">uses</span>: <span class="pl-s">reviewdog/action-setup@e04ffabe3898a0af8d0fb1af00c188831c4b5893 </span><span class="pl-c"><span class="pl-c">#</span> v1.3.2</span>
+        <span class="pl-ent">with</span>:
+          <span class="pl-ent">reviewdog_version</span>: <span class="pl-s">latest </span><span class="pl-c"><span class="pl-c">#</span> Optional. [latest,nightly,v.X.Y.Z]</span>
+      - <span class="pl-ent">name</span>: <span class="pl-s">Run reviewdog</span>
+        <span class="pl-ent">env</span>:
+          <span class="pl-ent">REVIEWDOG_GITHUB_API_TOKEN</span>: <span class="pl-s">${{ secrets.GITHUB_TOKEN }}</span>
+        <span class="pl-ent">run</span>: <span class="pl-s">|</span>
+<span class="pl-s">          reviewdog -reporter=github-pr-check -runners=golint,govet</span>
+<span class="pl-s">          # or</span>
+<span class="pl-s">          reviewdog -reporter=github-pr-review -runners=golint,govet</span></pre></div>
+<details>
+<summary><strong>Example (github-check reporter):</strong></summary>
+<p dir="auto"><a href=".github/workflows/reviewdog.yml">.github/workflows/reviewdog</a></p>
+<p dir="auto">Only <code class="notranslate">github-check</code> reporter can run on the push event too.</p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="name: reviewdog (github-check)
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  reviewdog:
+    name: reviewdog
+    runs-on: ubuntu-latest
+    steps:
+      # ...
+      - name: Run reviewdog
+        env:
+          REVIEWDOG_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          reviewdog -reporter=github-check -runners=golint,govet"><pre class="notranslate"><span class="pl-ent">name</span>: <span class="pl-s">reviewdog (github-check)</span>
+<span class="pl-ent">on</span>:
+  <span class="pl-ent">push</span>:
+    <span class="pl-ent">branches</span>:
+      - <span class="pl-s">master</span>
+  <span class="pl-ent">pull_request</span>:
+
+<span class="pl-ent">jobs</span>:
+  <span class="pl-ent">reviewdog</span>:
+    <span class="pl-ent">name</span>: <span class="pl-s">reviewdog</span>
+    <span class="pl-ent">runs-on</span>: <span class="pl-s">ubuntu-latest</span>
+    <span class="pl-ent">steps</span>:
+      <span class="pl-c"><span class="pl-c">#</span> ...</span>
+      - <span class="pl-ent">name</span>: <span class="pl-s">Run reviewdog</span>
+        <span class="pl-ent">env</span>:
+          <span class="pl-ent">REVIEWDOG_GITHUB_API_TOKEN</span>: <span class="pl-s">${{ secrets.GITHUB_TOKEN }}</span>
+        <span class="pl-ent">run</span>: <span class="pl-s">|</span>
+<span class="pl-s">          reviewdog -reporter=github-check -runners=golint,govet</span></pre></div>
+</details>
+<h4 dir="auto">Public Reviewdog GitHub Actions</h4>
+<p dir="auto">You can use public GitHub Actions to start using reviewdog with ease! 🎉 <g-emoji class="g-emoji" alias="arrow_forward">▶️</g-emoji> 🎉</p>
+<ul dir="auto">
+<li>Common
+<ul dir="auto">
+<li><a href="https://github.com/reviewdog/action-misspell">reviewdog/action-misspell</a> - Run <a href="https://github.com/client9/misspell">misspell</a>.</li>
+<li><a href="https://github.com/EPMatt/reviewdog-action-prettier">EPMatt/reviewdog-action-prettier</a> - Run <a href="https://prettier.io/" rel="nofollow">Prettier</a>.</li>
+</ul>
+</li>
+<li>Text
+<ul dir="auto">
+<li><a href="https://github.com/reviewdog/action-alex">reviewdog/action-alex</a> - Run <a href="https://github.com/get-alex/alex">alex</a> which catches insensitive, inconsiderate writing. (e.g. master/slave)</li>
+<li><a href="https://github.com/reviewdog/action-languagetool">reviewdog/action-languagetool</a> - Run <a href="https://github.com/languagetool-org/languagetool">languagetool</a>.</li>
+<li><a href="https://github.com/tsuyoshicho/action-textlint">tsuyoshicho/action-textlint</a> - Run <a href="https://github.com/textlint/textlint">textlint</a></li>
+<li><a href="https://github.com/tsuyoshicho/action-redpen">tsuyoshicho/action-redpen</a> - Run <a href="https://github.com/redpen-cc/redpen">redpen</a></li>
+</ul>
+</li>
+<li>Markdown
+<ul dir="auto">
+<li><a href="https://github.com/reviewdog/action-markdownlint">reviewdog/action-markdownlint</a> - Run <a href="https://github.com/DavidAnson/markdownlint">markdownlint</a></li>
+</ul>
+</li>
+<li>Docker
+<ul dir="auto">
+<li><a href="https://github.com/reviewdog/action-hadolint">reviewdog/action-hadolint</a> - Run <a href="https://github.com/hadolint/hadolint">hadolint</a> to lint <code class="notranslate">Dockerfile</code>.</li>
+</ul>
+</li>
+<li>Env
+<ul dir="auto">
+<li><a href="https://github.com/dotenv-linter/action-dotenv-linter">dotenv-linter/action-dotenv-linter</a> - Run <a href="https://github.com/dotenv-linter/dotenv-linter">dotenv-linter</a> to lint <code class="notranslate">.env</code> files.</li>
+</ul>
+</li>
+<li>Shell script
+<ul dir="auto">
+<li><a href="https://github.com/reviewdog/action-shellcheck">reviewdog/action-shellcheck</a> - Run <a href="https://github.com/koalaman/shellcheck">shellcheck</a>.</li>
+<li><a href="https://github.com/reviewdog/action-shfmt">reviewdog/action-shfmt</a> - Run <a href="https://github.com/mvdan/sh">shfmt</a>.</li>
+</ul>
+</li>
+<li>Go
+<ul dir="auto">
+<li><a href="https://github.com/reviewdog/action-staticcheck">reviewdog/action-staticcheck</a> - Run <a href="https://staticcheck.io/" rel="nofollow">staticcheck</a>.</li>
+<li><a href="https://github.com/reviewdog/action-golangci-lint">reviewdog/action-golangci-lint</a> - Run <a href="https://github.com/golangci/golangci-lint">golangci-lint</a> and supported linters individually by golangci-lint.</li>
+</ul>
+</li>
+<li>JavaScript
+<ul dir="auto">
+<li><a href="https://github.com/reviewdog/action-eslint">reviewdog/action-eslint</a> - Run <a href="https://github.com/eslint/eslint">eslint</a>.</li>
+<li><a href="https://github.com/mongolyy/reviewdog-action-biome">mongolyy/reviewdog-action-biome</a> - Run <a href="https://biomejs.dev/" rel="nofollow">Biome</a>.</li>
+</ul>
+</li>
+<li>TypeScript
+<ul dir="auto">
+<li><a href="https://github.com/EPMatt/reviewdog-action-tsc">EPMatt/reviewdog-action-tsc</a> - Run <a href="https://www.typescriptlang.org/docs/handbook/compiler-options.html" rel="nofollow">tsc</a>.</li>
+</ul>
+</li>
+<li>CSS
+<ul dir="auto">
+<li><a href="https://github.com/reviewdog/action-stylelint">reviewdog/action-stylelint</a> - Run <a href="https://github.com/stylelint/stylelint">stylelint</a>.</li>
+</ul>
+</li>
+<li>Vim script
+<ul dir="auto">
+<li><a href="https://github.com/reviewdog/action-vint">reviewdog/action-vint</a> - Run <a href="https://github.com/Vimjas/vint">vint</a>.</li>
+<li><a href="https://github.com/tsuyoshicho/action-vimlint">tsuyoshicho/action-vimlint</a> - Run <a href="https://github.com/syngan/vim-vimlint">vim-vimlint</a></li>
+</ul>
+</li>
+<li>Terraform
+<ul dir="auto">
+<li><a href="https://github.com/reviewdog/action-tflint">reviewdog/action-tflint</a> - Run <a href="https://github.com/terraform-linters/tflint">tflint</a>.</li>
+<li><a href="https://github.com/reviewdog/action-terraform-validate">reviewdog/action-terraform-validate</a> - Run <a href="https://developer.hashicorp.com/terraform/cli/commands/validate" rel="nofollow">terraform validate</a>.</li>
+</ul>
+</li>
+<li>YAML
+<ul dir="auto">
+<li><a href="https://github.com/reviewdog/action-yamllint">reviewdog/action-yamllint</a> - Run <a href="https://github.com/adrienverge/yamllint">yamllint</a>.</li>
+</ul>
+</li>
+<li>Ruby
+<ul dir="auto">
+<li><a href="https://github.com/reviewdog/action-brakeman">reviewdog/action-brakeman</a> - Run <a href="https://github.com/presidentbeef/brakeman">brakeman</a>.</li>
+<li><a href="https://github.com/reviewdog/action-reek">reviewdog/action-reek</a> - Run <a href="https://github.com/troessner/reek">reek</a>.</li>
+<li><a href="https://github.com/reviewdog/action-rubocop">reviewdog/action-rubocop</a> - Run <a href="https://github.com/rubocop/rubocop">rubocop</a>.</li>
+<li><a href="https://github.com/vk26/action-fasterer">vk26/action-fasterer</a> - Run <a href="https://github.com/DamirSvrtan/fasterer">fasterer</a>.</li>
+<li><a href="https://github.com/PrintReleaf/action-standardrb">PrintReleaf/action-standardrb</a> - Run <a href="https://github.com/standardrb/standard">standardrb</a>.</li>
+<li><a href="https://github.com/tk0miya/action-erblint">tk0miya/action-erblint</a> - Run <a href="https://github.com/Shopify/erb-lint">erb-lint</a></li>
+<li><a href="https://github.com/tk0miya/action-steep">tk0miya/action-steep</a> - Run <a href="https://github.com/soutaro/steep">steep</a></li>
+<li><a href="https://github.com/blooper05/action-rails_best_practices">blooper05/action-rails_best_practices</a> - Run <a href="https://github.com/flyerhzm/rails_best_practices">rails_best_practices</a></li>
+<li><a href="https://github.com/tomferreira/action-bundler-audit">tomferreira/action-bundler-audit</a> - Run <a href="https://github.com/rubysec/bundler-audit">bundler-audit</a></li>
+</ul>
+</li>
+<li>Python
+<ul dir="auto">
+<li><a href="https://github.com/wemake-services/wemake-python-styleguide">wemake-python-styleguide</a> - Run wemake-python-styleguide</li>
+<li><a href="https://github.com/tsuyoshicho/action-mypy">tsuyoshicho/action-mypy</a> - Run <a href="https://pypi.org/project/mypy/" rel="nofollow">mypy</a></li>
+<li><a href="https://github.com/jordemort/action-pyright">jordemort/action-pyright</a> - Run <a href="https://github.com/Microsoft/pyright">pyright</a></li>
+<li><a href="https://github.com/dciborow/action-pylint">dciborow/action-pylint</a> - Run <a href="https://github.com/pylint-dev/pylint">pylint</a></li>
+<li><a href="https://github.com/reviewdog/action-black">reviewdog/action-black</a> - Run <a href="https://github.com/psf/black">black</a></li>
+</ul>
+</li>
+<li>Kotlin
+<ul dir="auto">
+<li><a href="https://github.com/ScaCap/action-ktlint">ScaCap/action-ktlint</a> - Run <a href="https://ktlint.github.io/" rel="nofollow">ktlint</a>.</li>
+</ul>
+</li>
+<li>Android Lint
+<ul dir="auto">
+<li><a href="https://github.com/DVDAndroid/action-android-lint">dvdandroid/action-android-lint</a> - Run <a href="https://developer.android.com/studio/write/lint" rel="nofollow">Android Lint</a></li>
+</ul>
+</li>
+<li>Ansible
+<ul dir="auto">
+<li><a href="https://github.com/reviewdog/action-ansiblelint">reviewdog/action-ansiblelint</a> - Run <a href="https://github.com/ansible/ansible-lint">ansible-lint</a></li>
+</ul>
+</li>
+<li>GitHub Actions
+<ul dir="auto">
+<li><a href="https://github.com/reviewdog/action-actionlint">reviewdog/action-actionlint</a> - Run <a href="https://github.com/rhysd/actionlint">actionlint</a></li>
+</ul>
+</li>
+<li>Protocol Buffers
+<ul dir="auto">
+<li><a href="https://github.com/yoheimuta/action-protolint">yoheimuta/action-protolint</a> - Run <a href="https://github.com/yoheimuta/protolint">protolint</a></li>
+</ul>
+</li>
+<li>Rego
+<ul dir="auto">
+<li><a href="https://github.com/reviewdog/action-regal">reviewdog/action-regal</a> - Run <a href="https://github.com/StyraInc/regal">Regal</a></li>
+</ul>
+</li>
+</ul>
+<p dir="auto">... and more on <a href="https://github.com/marketplace?utf8=%E2%9C%93&amp;type=actions&amp;query=reviewdog">GitHub Marketplace</a>.</p>
+<p dir="auto">Missing actions? Check out <a href="https://github.com/reviewdog/action-template">reviewdog/action-template</a> and create a new reviewdog action!</p>
+<p dir="auto">Please open a Pull Request to add your created reviewdog actions here ✨.<br>
+I can also put your repositories under reviewdog org and co-maintain the actions.<br>
+Example: <a href="https://github.com/reviewdog/reviewdog/issues/322" data-hovercard-type="issue" data-hovercard-url="/reviewdog/reviewdog/issues/322/hovercard">action-tflint</a>.</p>
+<h4 dir="auto">Graceful Degradation for Pull Requests from forked repositories</h4>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/3797062/71781334-e2266b00-3010-11ea-8a38-dee6e30c8162.png"><img src="https://user-images.githubusercontent.com/3797062/71781334-e2266b00-3010-11ea-8a38-dee6e30c8162.png" alt="Graceful Degradation example" style="max-width: 100%;"></a></p>
+<p dir="auto"><code class="notranslate">GITHUB_TOKEN</code> for Pull Requests from a forked repository doesn't have write<br>
+access to Check API nor Review API due to <a href="https://docs.github.com/en/actions/security-guides/automatic-token-authentication#permissions-for-the-github_token">GitHub Actions<br>
+restriction</a>.</p>
+<p dir="auto">Instead, reviewdog uses <a href="https://docs.github.com/en/actions/using-workflows/workflow-commands-for-github-actions#set-an-error-message-error">Logging commands of GitHub<br>
+Actions</a><br>
+to post results as<br>
+<a href="https://docs.github.com/en/rest/checks/runs#annotations-object">annotations</a><br>
+similar to <code class="notranslate">github-pr-check</code> reporter.</p>
+<p dir="auto">Note that there is a limitation for annotations created by logging commands,<br>
+such as <a href="https://github.com/reviewdog/reviewdog/issues/411#issuecomment-570893427" data-hovercard-type="issue" data-hovercard-url="/reviewdog/reviewdog/issues/411/hovercard">max # of annotations per run</a>.<br>
+You can check GitHub Actions log to see full results in such cases.</p>
+<h4 dir="auto">reviewdog badge <a href="https://github.com/reviewdog/reviewdog/actions?query=workflow%3Areviewdog+event%3Apush+branch%3Amaster"><img src="https://github.com/reviewdog/reviewdog/workflows/reviewdog/badge.svg?branch=master&amp;event=push" alt="reviewdog" style="max-width: 100%;"></a></h4>
+<p dir="auto">As <a href="#reporter-github-checks--reportergithub-pr-check"><code class="notranslate">github-check</code> reporter</a> support running on commit, we can create reviewdog<br>
+<a href="https://docs.github.com/en/actions/using-workflows#adding-a-workflow-status-badge-to-your-repository">GitHub Action badge</a><br>
+to check the result against master commit for example. 🎉</p>
+<p dir="auto">Example:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="&lt;!-- Replace &lt;OWNER&gt; and &lt;REPOSITORY&gt;. It assumes workflow name is &quot;reviewdog&quot; --&gt;
+[![reviewdog](https://github.com/&lt;OWNER&gt;/&lt;REPOSITORY&gt;/workflows/reviewdog/badge.svg?branch=master&amp;event=push)](https://github.com/&lt;OWNER&gt;/&lt;REPOSITORY&gt;/actions?query=workflow%3Areviewdog+event%3Apush+branch%3Amaster)"><pre class="notranslate"><code class="notranslate">&lt;!-- Replace &lt;OWNER&gt; and &lt;REPOSITORY&gt;. It assumes workflow name is "reviewdog" --&gt;
+[![reviewdog](https://github.com/&lt;OWNER&gt;/&lt;REPOSITORY&gt;/workflows/reviewdog/badge.svg?branch=master&amp;event=push)](https://github.com/&lt;OWNER&gt;/&lt;REPOSITORY&gt;/actions?query=workflow%3Areviewdog+event%3Apush+branch%3Amaster)
+</code></pre></div>
+<h3 dir="auto">Travis CI</h3>
+<h4 dir="auto">Travis CI (-reporter=github-pr-check)</h4>
+<p dir="auto">If you use -reporter=github-pr-check in Travis CI, you don't need to set <code class="notranslate">REVIEWDOG_TOKEN</code>.</p>
+<p dir="auto">Example:</p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="install:
+  - mkdir -p ~/bin/ &amp;&amp; export PATH=&quot;~/bin/:$PATH&quot;
+  - curl -sfL https://raw.githubusercontent.com/reviewdog/reviewdog/fd59714416d6d9a1c0692d872e38e7f8448df4fc/install.sh| sh -s -- -b ~/bin
+
+script:
+  - reviewdog -conf=.reviewdog.yml -reporter=github-pr-check"><pre class="notranslate"><span class="pl-ent">install</span>:
+  - <span class="pl-s">mkdir -p ~/bin/ &amp;&amp; export PATH="~/bin/:$PATH"</span>
+  - <span class="pl-s">curl -sfL https://raw.githubusercontent.com/reviewdog/reviewdog/fd59714416d6d9a1c0692d872e38e7f8448df4fc/install.sh| sh -s -- -b ~/bin</span>
+
+<span class="pl-ent">script</span>:
+  - <span class="pl-s">reviewdog -conf=.reviewdog.yml -reporter=github-pr-check</span></pre></div>
+<h4 dir="auto">Travis CI (-reporter=github-pr-review)</h4>
+<p dir="auto">Store GitHub API token by <a href="https://docs.travis-ci.com/user/encryption-keys/" rel="nofollow">travis encryption keys</a>.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ gem install travis
+$ travis encrypt REVIEWDOG_GITHUB_API_TOKEN=&lt;token&gt; --add env.global"><pre class="notranslate">$ gem install travis
+$ travis encrypt REVIEWDOG_GITHUB_API_TOKEN=<span class="pl-k">&lt;</span>token<span class="pl-k">&gt;</span> --add env.global</pre></div>
+<p dir="auto">Example:</p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="env:
+  global:
+    - secure: &lt;token&gt;
+
+install:
+  - mkdir -p ~/bin/ &amp;&amp; export PATH=&quot;~/bin/:$PATH&quot;
+  - curl -sfL https://raw.githubusercontent.com/reviewdog/reviewdog/fd59714416d6d9a1c0692d872e38e7f8448df4fc/install.sh| sh -s -- -b ~/bin
+
+script:
+  - &gt;-
+    golint ./... | reviewdog -f=golint -reporter=github-pr-review"><pre class="notranslate"><span class="pl-ent">env</span>:
+  <span class="pl-ent">global</span>:
+    - <span class="pl-ent">secure</span>: <span class="pl-s">&lt;token&gt;</span>
+
+<span class="pl-ent">install</span>:
+  - <span class="pl-s">mkdir -p ~/bin/ &amp;&amp; export PATH="~/bin/:$PATH"</span>
+  - <span class="pl-s">curl -sfL https://raw.githubusercontent.com/reviewdog/reviewdog/fd59714416d6d9a1c0692d872e38e7f8448df4fc/install.sh| sh -s -- -b ~/bin</span>
+
+<span class="pl-ent">script</span>:
+  - <span class="pl-s">&gt;-</span>
+<span class="pl-s">    golint ./... | reviewdog -f=golint -reporter=github-pr-review</span></pre></div>
+<p dir="auto">Examples</p>
+<ul dir="auto">
+<li><a href="https://github.com/azu/textlint-reviewdog-example">https://github.com/azu/textlint-reviewdog-example</a></li>
+</ul>
+<h3 dir="auto">Circle CI</h3>
+<p dir="auto">Store <code class="notranslate">REVIEWDOG_GITHUB_API_TOKEN</code> (or <code class="notranslate">REVIEWDOG_TOKEN</code> for github-pr-check) in<br>
+<a href="https://circleci.com/docs/environment-variables/#setting-environment-variables-for-all-commands-without-adding-them-to-git" rel="nofollow">Environment variables - CircleCI</a></p>
+<h4 dir="auto">.circleci/config.yml sample</h4>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="version: 2
+jobs:
+  build:
+    docker:
+      - image: golang:latest
+    steps:
+      - checkout
+      - run: curl -sfL https://raw.githubusercontent.com/reviewdog/reviewdog/fd59714416d6d9a1c0692d872e38e7f8448df4fc/install.sh| sh -s -- -b ./bin
+      - run: go vet ./... 2&gt;&amp;1 | ./bin/reviewdog -f=govet -reporter=github-pr-review
+
+      # Deprecated: prefer GitHub Actions to use github-pr-check reporter.
+      - run: go vet ./... 2&gt;&amp;1 | ./bin/reviewdog -f=govet -reporter=github-pr-check"><pre class="notranslate"><span class="pl-ent">version</span>: <span class="pl-c1">2</span>
+<span class="pl-ent">jobs</span>:
+  <span class="pl-ent">build</span>:
+    <span class="pl-ent">docker</span>:
+      - <span class="pl-ent">image</span>: <span class="pl-s">golang:latest</span>
+    <span class="pl-ent">steps</span>:
+      - <span class="pl-s">checkout</span>
+      - <span class="pl-ent">run</span>: <span class="pl-s">curl -sfL https://raw.githubusercontent.com/reviewdog/reviewdog/fd59714416d6d9a1c0692d872e38e7f8448df4fc/install.sh| sh -s -- -b ./bin</span>
+      - <span class="pl-ent">run</span>: <span class="pl-s">go vet ./... 2&gt;&amp;1 | ./bin/reviewdog -f=govet -reporter=github-pr-review</span>
+
+      <span class="pl-c"><span class="pl-c">#</span> Deprecated: prefer GitHub Actions to use github-pr-check reporter.</span>
+      - <span class="pl-ent">run</span>: <span class="pl-s">go vet ./... 2&gt;&amp;1 | ./bin/reviewdog -f=govet -reporter=github-pr-check</span></pre></div>
+<h3 dir="auto">GitLab CI</h3>
+<p dir="auto">Store <code class="notranslate">REVIEWDOG_GITLAB_API_TOKEN</code> in <a href="https://docs.gitlab.com/ee/ci/variables/#variables" rel="nofollow">GitLab CI variable</a>.</p>
+<h4 dir="auto">.gitlab-ci.yml sample</h4>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="reviewdog:
+  script:
+    - reviewdog -reporter=gitlab-mr-discussion
+    # Or
+    - reviewdog -reporter=gitlab-mr-commit"><pre class="notranslate"><span class="pl-ent">reviewdog</span>:
+  <span class="pl-ent">script</span>:
+    - <span class="pl-s">reviewdog -reporter=gitlab-mr-discussion</span>
+    <span class="pl-c"><span class="pl-c">#</span> Or</span>
+    - <span class="pl-s">reviewdog -reporter=gitlab-mr-commit</span></pre></div>
+<h3 dir="auto">Bitbucket Pipelines</h3>
+<p dir="auto">No additional configuration is needed.</p>
+<h4 dir="auto">bitbucket-pipelines.yml sample</h4>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="pipelines:
+  default:
+    - step:
+        name: Reviewdog
+        image: golangci/golangci-lint:v1.31-alpine
+        script:
+          - wget -O - -q https://raw.githubusercontent.com/reviewdog/reviewdog/fd59714416d6d9a1c0692d872e38e7f8448df4fc/install.sh | 
+              sh -s -- -b $(go env GOPATH)/bin
+          - golangci-lint run --out-format=line-number ./... | reviewdog -f=golangci-lint -reporter=bitbucket-code-report"><pre class="notranslate"><span class="pl-ent">pipelines</span>:
+  <span class="pl-ent">default</span>:
+    - <span class="pl-ent">step</span>:
+        <span class="pl-ent">name</span>: <span class="pl-s">Reviewdog</span>
+        <span class="pl-ent">image</span>: <span class="pl-s">golangci/golangci-lint:v1.31-alpine</span>
+        <span class="pl-ent">script</span>:
+          - <span class="pl-s">wget -O - -q https://raw.githubusercontent.com/reviewdog/reviewdog/fd59714416d6d9a1c0692d872e38e7f8448df4fc/install.sh | </span>
+              <span class="pl-s">sh -s -- -b $(go env GOPATH)/bin</span>
+          - <span class="pl-s">golangci-lint run --out-format=line-number ./... | reviewdog -f=golangci-lint -reporter=bitbucket-code-report</span></pre></div>
+<h3 dir="auto">Common (Jenkins, local, etc...)</h3>
+<p dir="auto">You can use reviewdog to post review comments from anywhere with following<br>
+environment variables.</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>name</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code class="notranslate">CI_PULL_REQUEST</code></td>
+<td>Pull Request number (e.g. 14)</td>
+</tr>
+<tr>
+<td><code class="notranslate">CI_COMMIT</code></td>
+<td>SHA1 for the current build</td>
+</tr>
+<tr>
+<td><code class="notranslate">CI_REPO_OWNER</code></td>
+<td>repository owner (e.g. "reviewdog" for <a href="https://github.com/reviewdog/errorformat">https://github.com/reviewdog/errorformat</a>)</td>
+</tr>
+<tr>
+<td><code class="notranslate">CI_REPO_NAME</code></td>
+<td>repository name (e.g. "errorformat" for <a href="https://github.com/reviewdog/errorformat">https://github.com/reviewdog/errorformat</a>)</td>
+</tr>
+<tr>
+<td><code class="notranslate">CI_BRANCH</code></td>
+<td>[optional] branch of the commit</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ export CI_PULL_REQUEST=14
+$ export CI_REPO_OWNER=haya14busa
+$ export CI_REPO_NAME=reviewdog
+$ export CI_COMMIT=$(git rev-parse HEAD)"><pre class="notranslate">$ <span class="pl-k">export</span> CI_PULL_REQUEST=14
+$ <span class="pl-k">export</span> CI_REPO_OWNER=haya14busa
+$ <span class="pl-k">export</span> CI_REPO_NAME=reviewdog
+$ <span class="pl-k">export</span> CI_COMMIT=<span class="pl-s"><span class="pl-pds">$(</span>git rev-parse HEAD<span class="pl-pds">)</span></span></pre></div>
+<p dir="auto">and set a token if required.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ REVIEWDOG_TOKEN=&quot;&lt;token&gt;&quot;
+$ REVIEWDOG_GITHUB_API_TOKEN=&quot;&lt;token&gt;&quot;
+$ REVIEWDOG_GITLAB_API_TOKEN=&quot;&lt;token&gt;&quot;"><pre class="notranslate">$ REVIEWDOG_TOKEN=<span class="pl-s"><span class="pl-pds">"</span>&lt;token&gt;<span class="pl-pds">"</span></span>
+$ REVIEWDOG_GITHUB_API_TOKEN=<span class="pl-s"><span class="pl-pds">"</span>&lt;token&gt;<span class="pl-pds">"</span></span>
+$ REVIEWDOG_GITLAB_API_TOKEN=<span class="pl-s"><span class="pl-pds">"</span>&lt;token&gt;<span class="pl-pds">"</span></span></pre></div>
+<p dir="auto">If a CI service doesn't provide information such as Pull Request ID - reviewdog can guess it by a branch name and commit SHA.<br>
+Just pass the flag <code class="notranslate">guess</code>:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ reviewdog -conf=.reviewdog.yml -reporter=github-pr-check -guess"><pre class="notranslate">$ reviewdog -conf=.reviewdog.yml -reporter=github-pr-check -guess</pre></div>
+<h4 dir="auto">Jenkins with GitHub pull request builder plugin</h4>
+<ul dir="auto">
+<li><a href="https://wiki.jenkins-ci.org/display/JENKINS/GitHub+pull+request+builder+plugin" rel="nofollow">GitHub pull request builder plugin - Jenkins - Jenkins Wiki</a></li>
+<li><a href="https://docs.cloudbees.com/docs/cloudbees-ci/latest/cloud-admin-guide/github-app-auth" rel="nofollow">Configuring a GitHub app account - Jenkins - CloudBees</a> - required to use github-pr-check formatter without reviewdog server or GitHub actions.</li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ export CI_PULL_REQUEST=${ghprbPullId}
+$ export CI_REPO_OWNER=haya14busa
+$ export CI_REPO_NAME=reviewdog
+$ export CI_COMMIT=${ghprbActualCommit}
+$ export REVIEWDOG_INSECURE_SKIP_VERIFY=true # set this as you need
+
+# To submit via reviewdog server using github-pr-check reporter
+$ REVIEWDOG_TOKEN=&quot;&lt;token&gt;&quot; reviewdog -reporter=github-pr-check
+# Or, to submit directly via API using github-pr-review reporter
+$ REVIEWDOG_GITHUB_API_TOKEN=&quot;&lt;token&gt;&quot; reviewdog -reporter=github-pr-review
+# Or, to submit directly via API using github-pr-check reporter (requires GitHub App Account configured)
+$ REVIEWDOG_SKIP_DOGHOUSE=true REVIEWDOG_GITHUB_API_TOKEN=&quot;&lt;token&gt;&quot; reviewdog -reporter=github-pr-check"><pre class="notranslate">$ <span class="pl-k">export</span> CI_PULL_REQUEST=<span class="pl-smi">${ghprbPullId}</span>
+$ <span class="pl-k">export</span> CI_REPO_OWNER=haya14busa
+$ <span class="pl-k">export</span> CI_REPO_NAME=reviewdog
+$ <span class="pl-k">export</span> CI_COMMIT=<span class="pl-smi">${ghprbActualCommit}</span>
+$ <span class="pl-k">export</span> REVIEWDOG_INSECURE_SKIP_VERIFY=true <span class="pl-c"><span class="pl-c">#</span> set this as you need</span>
+
+<span class="pl-c"><span class="pl-c">#</span> To submit via reviewdog server using github-pr-check reporter</span>
+$ REVIEWDOG_TOKEN=<span class="pl-s"><span class="pl-pds">"</span>&lt;token&gt;<span class="pl-pds">"</span></span> reviewdog -reporter=github-pr-check
+<span class="pl-c"><span class="pl-c">#</span> Or, to submit directly via API using github-pr-review reporter</span>
+$ REVIEWDOG_GITHUB_API_TOKEN=<span class="pl-s"><span class="pl-pds">"</span>&lt;token&gt;<span class="pl-pds">"</span></span> reviewdog -reporter=github-pr-review
+<span class="pl-c"><span class="pl-c">#</span> Or, to submit directly via API using github-pr-check reporter (requires GitHub App Account configured)</span>
+$ REVIEWDOG_SKIP_DOGHOUSE=true REVIEWDOG_GITHUB_API_TOKEN=<span class="pl-s"><span class="pl-pds">"</span>&lt;token&gt;<span class="pl-pds">"</span></span> reviewdog -reporter=github-pr-check</pre></div>
+<h2 dir="auto">Exit codes</h2>
+<p dir="auto">By default (<code class="notranslate">-fail-level=none</code>) reviewdog will return <code class="notranslate">0</code> as exit code even if it finds errors.<br>
+reviewdog will exit with code 1 with <code class="notranslate">-fail-level=[any,info,warning,error]</code> flag if it finds at least 1 issue with severity greater than or equal to the given level.<br>
+This can be helpful when you are using it as a step in your CI pipeline and want to mark the step failed if any error found by linter.</p>
+<p dir="auto">You can also use <code class="notranslate">-level</code> flag to configure default report revel.</p>
+<h2 dir="auto">Filter mode</h2>
+<p dir="auto">reviewdog filter results by diff and you can control how reviewdog filter results by <code class="notranslate">-filter-mode</code> flag.<br>
+Available filter modes are as below.</p>
+<h3 dir="auto"><code class="notranslate">added</code> (default)</h3>
+<p dir="auto">Filter results by added/modified lines.</p>
+<h3 dir="auto"><code class="notranslate">diff_context</code></h3>
+<p dir="auto">Filter results by diff context. i.e. changed lines +-N lines (N=3 for example).</p>
+<h3 dir="auto"><code class="notranslate">file</code></h3>
+<p dir="auto">Filter results by added/modified file. i.e. reviewdog will report results as long as they are in added/modified file even if the results are not in actual diff.</p>
+<h3 dir="auto"><code class="notranslate">nofilter</code></h3>
+<p dir="auto">Do not filter any results. Useful for posting results as comments as much as possible and check other results in console at the same time.</p>
+<p dir="auto"><code class="notranslate">-fail-on-error</code> also works with any filter-mode and can catch all results from any linters with <code class="notranslate">nofilter</code> mode.</p>
+<p dir="auto">Example:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ reviewdog -reporter=github-pr-review -filter-mode=nofilter -fail-on-error"><pre class="notranslate">$ reviewdog -reporter=github-pr-review -filter-mode=nofilter -fail-on-error</pre></div>
+<h3 dir="auto">Filter Mode Support Table</h3>
+<p dir="auto">Note that not all reporters provide full support for filter mode due to API limitation.<br>
+e.g. <code class="notranslate">github-pr-review</code> reporter uses <a href="https://docs.github.com/en/rest/pulls/reviews">GitHub Review<br>
+API</a> but this API don't support posting comments outside diff context,<br>
+so reviewdog will use <a href="https://docs.github.com/en/rest/checks/runs">Check annotation</a> as fallback to post those comments [1].</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th><code class="notranslate">-reporter</code> \ <code class="notranslate">-filter-mode</code></th>
+<th><code class="notranslate">added</code></th>
+<th><code class="notranslate">diff_context</code></th>
+<th><code class="notranslate">file</code></th>
+<th><code class="notranslate">nofilter</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><code class="notranslate">local</code></strong></td>
+<td>OK</td>
+<td>OK</td>
+<td>OK</td>
+<td>OK</td>
+</tr>
+<tr>
+<td><strong><code class="notranslate">github-check</code></strong></td>
+<td>OK</td>
+<td>OK</td>
+<td>OK</td>
+<td>OK</td>
+</tr>
+<tr>
+<td><strong><code class="notranslate">github-pr-check</code></strong></td>
+<td>OK</td>
+<td>OK</td>
+<td>OK</td>
+<td>OK</td>
+</tr>
+<tr>
+<td><strong><code class="notranslate">github-pr-review</code></strong></td>
+<td>OK</td>
+<td>OK</td>
+<td>Partially Supported [1]</td>
+<td>Partially Supported [1]</td>
+</tr>
+<tr>
+<td><strong><code class="notranslate">github-pr-annotations</code></strong></td>
+<td>OK</td>
+<td>OK</td>
+<td>OK</td>
+<td>OK</td>
+</tr>
+<tr>
+<td><strong><code class="notranslate">gitlab-mr-discussion</code></strong></td>
+<td>OK</td>
+<td>OK</td>
+<td>OK</td>
+<td>Partially Supported [2]</td>
+</tr>
+<tr>
+<td><strong><code class="notranslate">gitlab-mr-commit</code></strong></td>
+<td>OK</td>
+<td>Partially Supported [2]</td>
+<td>Partially Supported [2]</td>
+<td>Partially Supported [2]</td>
+</tr>
+<tr>
+<td><strong><code class="notranslate">gerrit-change-review</code></strong></td>
+<td>OK</td>
+<td>OK? [3]</td>
+<td>OK? [3]</td>
+<td>Partially Supported? [2][3]</td>
+</tr>
+<tr>
+<td><strong><code class="notranslate">bitbucket-code-report</code></strong></td>
+<td>NO [4]</td>
+<td>NO [4]</td>
+<td>NO [4]</td>
+<td>OK</td>
+</tr>
+<tr>
+<td><strong><code class="notranslate">gitea-pr-review</code></strong></td>
+<td>OK</td>
+<td>OK</td>
+<td>Partially Supported [2]</td>
+<td>Partially Supported [2]</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<ul dir="auto">
+<li>[1] Report results that are outside the diff file with Check annotation as fallback if it's running in GitHub actions instead of Review API (comments). All results will be reported to console as well.</li>
+<li>[2] Report results that are outside the diff file to console.</li>
+<li>[3] It should work, but not been verified yet.</li>
+<li>[4] Not implemented at the moment</li>
+</ul>
+<h2 dir="auto">Debugging</h2>
+<p dir="auto">Use the <code class="notranslate">-tee</code> flag to show debug info.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="reviewdog -filter-mode=nofilter -tee"><pre class="notranslate">reviewdog -filter-mode=nofilter -tee</pre></div>
+<h2 dir="auto">Articles</h2>
+<ul dir="auto">
+<li><a href="https://medium.com/@haya14busa/reviewdog-a-code-review-dog-who-keeps-your-codebase-healthy-d957c471938b" rel="nofollow">reviewdog — A code review dog who keeps your codebase healthy </a></li>
+<li><a href="https://medium.com/@haya14busa/reviewdog-github-check-improved-automated-review-experience-58f89e0c95f3" rel="nofollow">reviewdog ♡ GitHub Check — improved automated review experience</a></li>
+<li><a href="https://medium.com/@haya14busa/automated-code-review-on-github-actions-with-reviewdog-for-any-languages-tools-20285e04448e" rel="nofollow">Automated Code Review on GitHub Actions with reviewdog for any languages/tools</a></li>
+<li><a href="https://evrone.com/blog/github-actions" rel="nofollow">GitHub Actions to guard your workflow</a></li>
+</ul>
+<h2 dir="auto">🐦 Author</h2>
+<p dir="auto">haya14busa <a href="https://github.com/haya14busa"><img src="https://camo.githubusercontent.com/e8b3fa0c88ef39f37c50e3ac991ce117014456606df3b378c975590757c1e76d/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f6c6c6f776572732f686179613134627573612e7376673f7374796c653d736f6369616c266c6162656c3d466f6c6c6f77" alt="GitHub followers" data-canonical-src="https://img.shields.io/github/followers/haya14busa.svg?style=social&amp;label=Follow" style="max-width: 100%;"></a></p>
+<h2 dir="auto">Contributors</h2>
+<p dir="auto"><a href="https://github.com/reviewdog/reviewdog/graphs/contributors"><img src="https://camo.githubusercontent.com/b9a974c8eead8fc856b221505910661e0c57c7242df6d4bb1b355d87179136fb/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f726576696577646f672f636f6e7472696275746f72732e7376673f77696474683d383930" alt="Contributors" data-canonical-src="https://opencollective.com/reviewdog/contributors.svg?width=890" style="max-width: 100%;"></a></p>
+<h3 dir="auto">Supporting reviewdog</h3>
+<p dir="auto">Become GitHub Sponsor for <a href="https://github.com/reviewdog/reviewdog/graphs/contributors">each contributor</a><br>
+or become a backer or sponsor from <a href="https://opencollective.com/reviewdog" rel="nofollow">opencollective</a>.</p>
+<p dir="auto"><a href="https://opencollective.com/reviewdog#backers" rel="nofollow"><img src="https://camo.githubusercontent.com/44e27a5272898ef413cf1472d5e8c6ca20fc00d6f8770ee80510cf02841209b2/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f726576696577646f672f74696572732f6261636b65722e7376673f6176617461724865696768743d3634" alt="Become a backer" data-canonical-src="https://opencollective.com/reviewdog/tiers/backer.svg?avatarHeight=64" style="max-width: 100%;"></a></p></div></div></div><div class="gg-issues-prev-next"><a class="prev" href="/issues/482"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M2 3h17a2 2 0 0 1 2 2v4h-2V5H2v14h17v-4h2v4a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m15 12v-2h7v-2h-7V9l-4 3l4 3M4 13h7v-2H4v2m0-4h7V7H4v2m0 8h4v-2H4v2Z"/></svg>dzikoysk/reposilite: 轻量级且易于使用的存储库管理器，用于 JVM 生态系统中基于 Maven 的私服</span></a><a class="next" href="/issues/484"><span>BurntSushi/ripgrep: 一个面向行的搜索工具，它递归地搜索当前目录中的正则表达式模式。默认情况下，ripgrep 将遵守 gitignore 规则并自动跳过隐藏文件/目录和二进制文件。<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M22 3H5a2 2 0 0 0-2 2v4h2V5h17v14H5v-4H3v4a2 2 0 0 0 2 2h17a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2M7 15v-2H0v-2h7V9l4 3l-4 3m13-2h-7v-2h7v2m0-4h-7V7h7v2m-3 8h-4v-2h4v2Z"/></svg></span></a></div><div class="answer-content"><div class="comments"></div></div></div></div></main><footer><div class="license"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img style="width:60px;height:21px" src="/static/license-83d755bd405fbe51c87dc088baf26299.svg" alt="License"/></a></div><div class="copyright"><span>Copyright ©<!-- --> <!-- -->2025<!-- -->-present</span><a class="owner" href="https://github.com/awesome-ops/awesome-ops.github.io" target="_blank">awesome-ops/awesome-ops.github.io</a>.</div><span class="powered">Powered by<a class="owner" title="GG (Gatsby + GitHub) - A gatsby website builder based on github discussions" href="https://github.com/lencx/gg" target="_blank">gg</a></span></footer></div><div id="gg-backtop" class="hide"><svg viewBox="0 0 98 125" xmlns="http://www.w3.org/2000/svg"><path d="m.41627505 120.505813c.36557376-2.799314 38.38567845-112.09375627 40.40633855-116.52273479 2.0206601-4.42897853 7.0443939-6.06190829 10.0049342.20172081 1.9736935 4.17575274 17.3630227 42.22464148 46.1679874 114.14666598.3068629 1.030234.4237748 1.755017.3507358 2.174348-.4483666 2.574161-2.3292736 3.429521-4.6125739 2.516093-15.0683018-6.028033-36.2681037-23.1692513-43.8663627-23.1692513-7.5982589 0-27.0568176 12.9171643-43.18383202 23.1692513-.96511235.613531-1.91473089 1.069619-2.88840599 1.149501s-2.74439509-.86628-2.37882134-3.665594z" fill="var(--gg-icon)" fill-rule="evenodd"></path></svg></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/issues/483";window.___webpackCompilationHash="24ed58306e97f1c1f657";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-97dd130bca8800dece7d.js"],"app":["/app-7383f855f15f63329e5f.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-2d05d9e504a620062115.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-408674d1ce0d96365c3f.js"],"component---src-templates-archives-tsx":["/component---src-templates-archives-tsx-06d205e572129bb8618c.js"],"component---src-templates-issues-tsx":["/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js"],"component---src-templates-labels-category-tsx":["/component---src-templates-labels-category-tsx-5456164ce90934624119.js"],"component---src-templates-labels-tsx":["/component---src-templates-labels-tsx-ee7b95bd8aa06617f372.js"],"component---src-templates-nav-category-tsx":["/component---src-templates-nav-category-tsx-91c7d8cb3880e3e0fda2.js"],"component---src-templates-nav-labels-tsx":["/component---src-templates-nav-labels-tsx-ae07fd835c5a914973d3.js"]};/*]]>*/</script><script src="/polyfill-97dd130bca8800dece7d.js" nomodule=""></script><script src="/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js" async=""></script><script src="/fc369a2ef6459b03f38591687cef4a587495c716-f468df31cbdaf6ffa970.js" async=""></script><script src="/app-7383f855f15f63329e5f.js" async=""></script><script src="/framework-86c8a5417e68dc3cefff.js" async=""></script><script src="/webpack-runtime-4fee7405b8a071e8c34e.js" async=""></script></body></html>

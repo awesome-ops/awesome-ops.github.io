@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/teaoslab",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"TeaOSLab/EdgeAdmin: CDN & WAF集群管理系统","number":148}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7V4bw","name":"TeaOSLab","color":"c3ef2b","description":null},"name":"TeaOSLab","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

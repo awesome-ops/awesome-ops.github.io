@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/rakyll",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"rakyll/hey: hey 是一个向网络应用程序的压测工具，go语言编写。","number":226}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7XicA","name":"rakyll","color":"e5fae4","description":null},"name":"rakyll","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

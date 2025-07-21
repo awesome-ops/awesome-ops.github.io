@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/qdm12",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"qdm12/gluetun: VPN 客户端位于一个薄型 Docker 容器中，适用于多个 VPN 提供商，用 Go 编写，使用 OpenVPN 或 Wireguard、TLS 上的 DNS，并内置了一些代理服务器。","number":190}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WvbA","name":"qdm12","color":"c90d74","description":null},"name":"qdm12","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

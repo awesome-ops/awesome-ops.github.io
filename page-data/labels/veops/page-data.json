@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/veops",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"veops/cmdb: 简单、轻量、通用的运维配置管理数据库","number":88}},{"node":{"title":"veops/oneterm: 一款简单、轻量、灵活的企业级堡垒机产品，基于4A理念","number":414}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UqBw","name":"veops","color":"55c706","description":null},"name":"veops","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

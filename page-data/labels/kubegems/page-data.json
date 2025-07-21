@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/kubegems",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"kubegems/kubegems: 围绕 K8s 通过自研和集成云原生项目而构建的通用性开源 PaaS 云管理平台, 支持多集群多租户","number":320}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7ZoIw","name":"kubegems","color":"c060e8","description":null},"name":"kubegems","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/allinssl",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"allinssl/allinssl: 一个集证书申请、管理、部署和监控于一体的SSL证书全生命周期管理工具。","number":20}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TU-w","name":"allinssl","color":"c10578","description":null},"name":"allinssl","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

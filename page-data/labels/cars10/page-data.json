@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/cars10",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"cars10/elasticvue: 一个用于 elasticsearch 的免费开源 GUI，您可以使用它来管理集群中的数据。它完全支持 elasticsearch 版本 `8.x` 和 `7.x`. `6.8`。生态支持很丰富，支持桌面，浏览器插件，以及通过 docker 拉起等方式","number":153}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7V-8Q","name":"cars10","color":"5b8e56","description":null},"name":"cars10","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

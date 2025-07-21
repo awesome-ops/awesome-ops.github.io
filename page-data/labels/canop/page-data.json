@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/canop",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"Canop/broot: 获取目录的概览，即使是一个大目录也能快速浏览","number":56}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UCtw","name":"Canop","color":"9d2a17","description":null},"name":"Canop","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

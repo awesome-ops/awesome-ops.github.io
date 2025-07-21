@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/moovweb",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"moovweb/gvm: 一个简单的工具，用于多个 Golang 版本的管理与切换","number":216}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7XTlA","name":"moovweb","color":"89655b","description":null},"name":"moovweb","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

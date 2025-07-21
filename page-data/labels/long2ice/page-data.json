@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/long2ice",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"long2ice/longurl: 一个自托管的短链服务","number":359}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7aaGg","name":"long2ice","color":"302b4f","description":null},"name":"long2ice","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

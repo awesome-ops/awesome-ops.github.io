@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/knoxite",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"knoxite/knoxite: 一个安全的数据存储和备份系统。","number":290}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Y83w","name":"knoxite","color":"d03cf6","description":null},"name":"knoxite","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

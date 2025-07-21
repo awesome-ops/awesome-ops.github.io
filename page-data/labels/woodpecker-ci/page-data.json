@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/woodpecker-ci",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"woodpecker-ci/woodpecker: 一个简单而强大具有很强的可扩展性的 CI/CD 引擎","number":611}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9ilCg","name":"woodpecker-ci","color":"9f720a","description":null},"name":"woodpecker-ci","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

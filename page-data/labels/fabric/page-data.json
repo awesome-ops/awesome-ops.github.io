@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/fabric",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"fabric/fabric: 一种简单、具有 Python 风格的远程执行和部署方法。","number":165}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WOpw","name":"fabric","color":"d1e7e5","description":null},"name":"fabric","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

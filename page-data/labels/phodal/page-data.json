@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/phodal",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"phodal/ledge: DevOps、研发效能知识和工具平台，是我们基于在 ThoughtWorks 进行的一系列 DevOps 实践、敏捷实践、软件开发与测试、精益实践提炼出来的知识体系","number":350}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7aOjg","name":"phodal","color":"865eec","description":null},"name":"phodal","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

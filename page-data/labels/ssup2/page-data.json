@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/ssup2",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"ssup2/kpexec: 一个命令行工具，能够以root身份进入到集群的pod中，并且还提供了目标容器中缺少的调试工具。","number":298}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7ZJDg","name":"ssup2","color":"236615","description":null},"name":"ssup2","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

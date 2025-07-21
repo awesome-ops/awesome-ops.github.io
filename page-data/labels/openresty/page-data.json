@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/openresty",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"NginxProxyManager/nginx-proxy-manager: 该项目是一个预构建的Docker镜像，可以让您轻松地将您在家中或其他地方运行的网站转发出去，包括免费SSL，而无需对Nginx或Letsencrypt有太多了解。","number":397}},{"node":{"title":"0xJacky/nginx-ui: 一个基于 Web 的综合界​​面，旨在简化 Nginx 服务器的管理和配置","number":398}},{"node":{"title":"Safe3/openresty-manager: 简单易用、功能强大、漂亮的OpenResty管理器","number":419}},{"node":{"title":"tl-open-source/tl-ops-manage: 基于 OpenResty 的 API 网关，支持负载均衡，健康检查，服务熔断，服务限流，WAF 过滤，黑白名单，动态 SSL 证书，自定义插件，多级缓存，可视化管理，动态配置，动态插拔插件，数据统计，数据展示，集群部署","number":567}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7bMzw","name":"OpenResty","color":"987b8c","description":null},"name":"OpenResty","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

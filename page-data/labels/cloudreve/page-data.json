@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/cloudreve",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"Cloudreve/Cloudreve: 支持多家云存储驱动的公有云文件系统","number":85}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UmTQ","name":"Cloudreve","color":"0b51d7","description":null},"name":"Cloudreve","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

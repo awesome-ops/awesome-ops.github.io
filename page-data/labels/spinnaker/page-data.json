@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/spinnaker",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"spinnaker/spinnaker: Spinnaker 是一个开源、多云持续交付平台，用于高速、自信地发布软件变更。","number":529}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9hwpw","name":"spinnaker","color":"559f04","description":null},"name":"spinnaker","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

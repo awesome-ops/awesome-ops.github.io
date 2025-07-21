@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/withfig",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"withfig/autocomplete: 非常强大的终端命令参数自动补全工具","number":39}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TsdQ","name":"withfig","color":"fb8b12","description":null},"name":"withfig","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

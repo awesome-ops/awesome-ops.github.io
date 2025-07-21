@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/jesseduffield",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"jesseduffield/lazydocker: 适用于 docker 和 docker-compose 的简单终端 UI，使用Gocui库用 Go 编写。","number":348}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7aMEg","name":"jesseduffield","color":"64324d","description":null},"name":"jesseduffield","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

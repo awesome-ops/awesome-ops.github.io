@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/tongchengopensource",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"TongchengOpenSource/ckibana: CKibana是一款可以在原生kibana查询Clickhouse的服务","number":79}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Ue9g","name":"TongchengOpenSource","color":"152501","description":null},"name":"TongchengOpenSource","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

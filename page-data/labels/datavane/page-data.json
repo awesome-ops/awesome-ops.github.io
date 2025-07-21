@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/datavane",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"datavane/datasophon: 云原生大数据管家，致力于帮助用户快速构建起稳定、高效、可弹性伸缩的大数据云原生平台","number":106}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VCkw","name":"datavane","color":"35a999","description":null},"name":"datavane","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

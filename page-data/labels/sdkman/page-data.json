@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/sdkman",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"sdkman/sdkman-cli: 在任何基于 Unix 的系统上管理多个软件开发工具包的多个版本的工具","number":501}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9hfYQ","name":"sdkman","color":"04802b","description":null},"name":"sdkman","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

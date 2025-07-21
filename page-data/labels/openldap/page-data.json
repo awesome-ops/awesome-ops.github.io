@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/openldap",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"glauth/glauth: 基于 golang 实现的类 ldap 功能的系统，支持本地，S3，原有 ldap，以及 MySQL 等存储方式。使用习惯上与 ldap 略有差异","number":188}},{"node":{"title":"eryajf/go-ldap-admin: 🌉 基于 Golang+Vue 实现的 OpenLDAP 后台管理项目","number":200}},{"node":{"title":"intoolswetrust/ldap-server: 一个 Java 语言编写的简单的 ldap 服务端。","number":349}},{"node":{"title":"lldap/lldap: 一个基于 Rust 编写的轻量 ldap 服务端，提供了简单的 UI 界面，注意，它没有实现完整的 ldap。","number":353}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Ws6Q","name":"OpenLDAP","color":"508193","description":null},"name":"OpenLDAP","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

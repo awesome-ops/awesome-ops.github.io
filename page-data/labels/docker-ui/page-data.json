@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/docker-ui",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"ofkm/arcane: 使用 Typescript 和 SvelteKit 编写的简洁优雅的 Docker 管理 UI","number":32}},{"node":{"title":"louislam/dockge: 一个时髦、易于使用且响应迅速的自托管式 docker compose.yaml 管理器","number":122}},{"node":{"title":"amir20/dozzle:  Dozzle 是一个小型轻量级应用程序，具有基于 Web 的界面来监视 Docker 日志。它不存储任何日志文件。它仅用于实时监控您的容器日志。 ","number":133}},{"node":{"title":"donknap/dpanel: Docker 可视化面板系统，提供完善的 docker 管理功能。","number":134}},{"node":{"title":"portainer/portainer: 让 Docker 和 Kubernetes 的管理变得简单。","number":449}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TkOQ","name":"Docker-UI","color":"e47f94","description":null},"name":"Docker-UI","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

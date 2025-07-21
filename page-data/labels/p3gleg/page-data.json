@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/p3gleg",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"P3GLEG/Whaler: 能够查看在运行容器的 Dockerfile 的工具","number":606}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9iiHQ","name":"P3GLEG","color":"6430a5","description":null},"name":"P3GLEG","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

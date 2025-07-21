@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/kairyou",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"kairyou/jenkins-cli: 一个用 Rust 编写的强大高效的 Jenkins CLI 工具。通过命令行简化 Jenkins 的项目部署。","number":246}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7X8lw","name":"kairyou","color":"bbaf94","description":null},"name":"kairyou","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

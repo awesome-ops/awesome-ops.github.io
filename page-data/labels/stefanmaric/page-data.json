@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/stefanmaric",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"stefanmaric/g: 又又一个用于多个 Golang 版本的管理与切换，包基于二进制安装","number":541}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9h3NQ","name":"stefanmaric","color":"246796","description":null},"name":"stefanmaric","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

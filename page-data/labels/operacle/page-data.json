@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/operacle",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"operacle/checkcle: 提供实时服务器和服务正常运行时间监控、事件、多渠道告警能力。","number":75}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UaHg","name":"operacle","color":"8c6ef8","description":null},"name":"operacle","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

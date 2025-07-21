@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/resmoio",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"resmoio/kubernetes-event-exporter: 将 K8s 的事件同步到其他平台中，比如 ES，Kafka，file，Webhook 等","number":329}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7ZzTw","name":"resmoio","color":"90374f","description":null},"name":"resmoio","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

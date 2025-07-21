@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/lotabout",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"lotabout/skim: 一个类似 grep 命令的通用的模糊查找器，可以节省您的时间。","number":519}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9hqag","name":"lotabout","color":"3d8ae9","description":null},"name":"lotabout","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

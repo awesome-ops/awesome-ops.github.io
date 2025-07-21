@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/openatomfoundation",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"OpenAtomFoundation/pika: Pika 是一个以 RocksDB 为存储引擎的的大容量、高性能、多租户、数据可持久化的弹性 KV 数据存储系统，完全兼容 Redis 协议，支持其常用的数据结构。","number":437}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7cBPw","name":"OpenAtomFoundation","color":"75f715","description":null},"name":"OpenAtomFoundation","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

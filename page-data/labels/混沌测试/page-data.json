@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/混沌测试",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"chaosblade-io/chaosblade: 阿里巴巴开源的一款遵循混沌工程原理和混沌实验模型的实验注入工具，帮助企业提升分布式系统的容错能力，并且在企业上云或往云原生系统迁移过程中业务连续性保障","number":74}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UYng","name":"混沌测试","color":"083dcc","description":null},"name":"混沌测试","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

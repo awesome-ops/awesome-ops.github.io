@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/redisinsight",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"RedisInsight/RedisInsight: Redis 官方开源的一个可视化工具，提供设计、开发和优化 Redis 应用程序的功能。查询、分析您的 Redis 数据并与之交互。","number":476}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7c1nw","name":"RedisInsight","color":"126e2e","description":null},"name":"RedisInsight","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

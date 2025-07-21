@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/终端工具",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"electerm/electerm: 开源终端/ssh/telnet/serialport/RDP/VNC/sftp 客户端（linux、mac、win）。","number":155}},{"node":{"title":"zyyzyykk/kkTerminal: 一个 Web SSH 连接终端项目","number":287}},{"node":{"title":"gnmyt/Nexterm: 一个简易的堡垒机，支持 SSH、VNC 和 RDP 协议管理远程主机。同时支持 SFTP 管理功能，并且支持服务应用的简单管理。","number":393}},{"node":{"title":"TermoraDev/termora: 一个终端模拟器和 SSH 客户端，支持 Windows，macOS 和 Linux。","number":556}},{"node":{"title":"chenjiaxing6/TinySSH: 一个Electron开发的简洁ssh客户端","number":566}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WBTQ","name":"终端工具","color":"a23a50","description":null},"name":"终端工具","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/cmushroom",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"cmushroom/redis-pro: 一款 Redis 轻量客户端管理工具， 采用 SwiftUI 编写，仅支持 Mac 平台","number":478}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7c6JQ","name":"cmushroom","color":"89717c","description":null},"name":"cmushroom","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

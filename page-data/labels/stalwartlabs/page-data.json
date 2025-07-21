@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/stalwartlabs",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"stalwartlabs/mail-server: 一款开源邮件服务器解决方案，支持 JMAP、IMAP4、POP3 和 SMTP，并具有多种现代功能。","number":364}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7ag4g","name":"stalwartlabs","color":"b784e5","description":null},"name":"stalwartlabs","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

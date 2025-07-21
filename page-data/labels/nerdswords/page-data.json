@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/nerdswords",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"nerdswords/yet-another-cloudwatch-exporter: AWS CloudWatch 的 Prometheus 导出器 - 通过 AWS 标签发现服务，获取 CloudWatch 指标数据，并以 AWS 标签作为标签，将其作为 Prometheus 指标提供","number":622}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9irWg","name":"nerdswords","color":"6f2d1d","description":null},"name":"nerdswords","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/grokability",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"grokability/snipe-it: 一个开源的 IT 资产管理项目。基于 PHP 构建。","number":525}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9humA","name":"grokability","color":"86dd0b","description":null},"name":"grokability","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

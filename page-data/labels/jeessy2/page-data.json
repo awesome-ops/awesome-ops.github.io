@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/jeessy2",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"jeessy2/backup-x: 带Web界面的数据库/文件备份增强工具","number":2}},{"node":{"title":"jeessy2/ddns-go: 自动获得你的公网IP地址，并解析到对应的域名服务，支持阿里云, 腾讯云, DNSpod, Cloudflare, 华为云, Callback, 百度云, Porkbun, GoDaddy, Google, Domain, Namecheap, NameSilo","number":109}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA6_ujA","name":"jeessy2","color":"2C862A","description":""},"name":"jeessy2","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

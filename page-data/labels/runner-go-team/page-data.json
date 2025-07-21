@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/runner-go-team",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"Runner-Go-Team/runnerGo: 一款全栈式测试平台，可以进行接口测试、场景自动化测试、性能压测等一系列功能","number":492}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7dPqA","name":"Runner-Go-Team","color":"bb1fae","description":null},"name":"Runner-Go-Team","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

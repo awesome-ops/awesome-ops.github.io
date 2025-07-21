@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/dalance",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"dalance/procs: 用 Rust 编写的 ps 的现代替代品","number":454}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7cXRg","name":"dalance","color":"871baa","description":null},"name":"dalance","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

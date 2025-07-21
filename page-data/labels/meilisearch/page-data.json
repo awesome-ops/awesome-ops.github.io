@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/meilisearch",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"meilisearch/meilisearch: ⚡ Rust 语言编写，快如闪电的搜索引擎，可轻松融入您的应用程序、网站和工作流程 🔍","number":369}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7aoDA","name":"meilisearch","color":"f6e6f2","description":null},"name":"meilisearch","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

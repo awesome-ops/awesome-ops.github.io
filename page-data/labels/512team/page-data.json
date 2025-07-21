@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/512team",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"512team/dhorse: 一个轻量级、简单易用的云应用管理平台，具有多云和多环境管理、应用管理和部署、服务治理等功能","number":112}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VKmQ","name":"512team","color":"1508f3","description":null},"name":"512team","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

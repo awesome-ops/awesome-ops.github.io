@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/astefanutti",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"astefanutti/kubebox: K8s 终端版管理工具","number":307}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7ZXTw","name":"astefanutti","color":"a16717","description":null},"name":"astefanutti","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

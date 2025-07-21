@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/kubeclipper",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"kubeclipper/kubeclipper: KubeClipper 是一个轻量级的 Web 服务，为 Kubernetes 集群生命周期管理 提供友好的 Web 控制台 GUI、API 和 CLI 工具。","number":308}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7ZYIA","name":"kubeclipper","color":"a1c48a","description":null},"name":"kubeclipper","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

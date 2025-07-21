@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/facebook",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"facebook/docusaurus: 一个用于轻松构建、部署和维护开源项目网站的项目","number":126}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VcJQ","name":"facebook","color":"cf7e73","description":null},"name":"facebook","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

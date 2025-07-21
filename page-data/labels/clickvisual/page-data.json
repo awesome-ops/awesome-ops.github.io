@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/clickvisual",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"clickvisual/clickvisual: 一个轻量级的基于浏览器的日志分析和查询平台，底层数据存储采用 ClickHouse","number":80}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UgCQ","name":"clickvisual","color":"6ff037","description":null},"name":"clickvisual","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

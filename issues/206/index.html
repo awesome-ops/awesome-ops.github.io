@@ -1,0 +1,1412 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/><meta name="theme-color" content="#FFFFFF"/><meta name="generator" content="Gatsby 4.11.3"/><style data-href="/styles.3aaba633489943369223.css" data-identity="gatsby-global-css">@media (prefers-color-scheme:dark){.markdown-body{--color-prettylights-syntax-comment:#8b949e;--color-prettylights-syntax-constant:#79c0ff;--color-prettylights-syntax-entity:#d2a8ff;--color-prettylights-syntax-storage-modifier-import:#c9d1d9;--color-prettylights-syntax-entity-tag:#7ee787;--color-prettylights-syntax-keyword:#ff7b72;--color-prettylights-syntax-string:#a5d6ff;--color-prettylights-syntax-variable:#ffa657;--color-prettylights-syntax-brackethighlighter-unmatched:#f85149;--color-prettylights-syntax-invalid-illegal-text:#f0f6fc;--color-prettylights-syntax-invalid-illegal-bg:#8e1519;--color-prettylights-syntax-carriage-return-text:#f0f6fc;--color-prettylights-syntax-carriage-return-bg:#b62324;--color-prettylights-syntax-string-regexp:#7ee787;--color-prettylights-syntax-markup-list:#f2cc60;--color-prettylights-syntax-markup-heading:#1f6feb;--color-prettylights-syntax-markup-italic:#c9d1d9;--color-prettylights-syntax-markup-bold:#c9d1d9;--color-prettylights-syntax-markup-deleted-text:#ffdcd7;--color-prettylights-syntax-markup-deleted-bg:#67060c;--color-prettylights-syntax-markup-inserted-text:#aff5b4;--color-prettylights-syntax-markup-inserted-bg:#033a16;--color-prettylights-syntax-markup-changed-text:#ffdfb6;--color-prettylights-syntax-markup-changed-bg:#5a1e02;--color-prettylights-syntax-markup-ignored-text:#c9d1d9;--color-prettylights-syntax-markup-ignored-bg:#1158c7;--color-prettylights-syntax-meta-diff-range:#d2a8ff;--color-prettylights-syntax-brackethighlighter-angle:#8b949e;--color-prettylights-syntax-sublimelinter-gutter-mark:#484f58;--color-prettylights-syntax-constant-other-reference-link:#a5d6ff;--color-fg-default:#c9d1d9;--color-fg-muted:#8b949e;--color-fg-subtle:#484f58;--color-canvas-default:#0d1117;--color-canvas-subtle:#161b22;--color-border-default:#30363d;--color-border-muted:#21262d;--color-neutral-muted:hsla(215,8%,47%,.4);--color-accent-fg:#58a6ff;--color-accent-emphasis:#1f6feb;--color-attention-subtle:rgba(187,128,9,.15);--color-danger-fg:#f85149;color-scheme:dark}}@media (prefers-color-scheme:light){.markdown-body{--color-prettylights-syntax-comment:#6e7781;--color-prettylights-syntax-constant:#0550ae;--color-prettylights-syntax-entity:#8250df;--color-prettylights-syntax-storage-modifier-import:#24292f;--color-prettylights-syntax-entity-tag:#116329;--color-prettylights-syntax-keyword:#cf222e;--color-prettylights-syntax-string:#0a3069;--color-prettylights-syntax-variable:#953800;--color-prettylights-syntax-brackethighlighter-unmatched:#82071e;--color-prettylights-syntax-invalid-illegal-text:#f6f8fa;--color-prettylights-syntax-invalid-illegal-bg:#82071e;--color-prettylights-syntax-carriage-return-text:#f6f8fa;--color-prettylights-syntax-carriage-return-bg:#cf222e;--color-prettylights-syntax-string-regexp:#116329;--color-prettylights-syntax-markup-list:#3b2300;--color-prettylights-syntax-markup-heading:#0550ae;--color-prettylights-syntax-markup-italic:#24292f;--color-prettylights-syntax-markup-bold:#24292f;--color-prettylights-syntax-markup-deleted-text:#82071e;--color-prettylights-syntax-markup-deleted-bg:#ffebe9;--color-prettylights-syntax-markup-inserted-text:#116329;--color-prettylights-syntax-markup-inserted-bg:#dafbe1;--color-prettylights-syntax-markup-changed-text:#953800;--color-prettylights-syntax-markup-changed-bg:#ffd8b5;--color-prettylights-syntax-markup-ignored-text:#eaeef2;--color-prettylights-syntax-markup-ignored-bg:#0550ae;--color-prettylights-syntax-meta-diff-range:#8250df;--color-prettylights-syntax-brackethighlighter-angle:#57606a;--color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;--color-prettylights-syntax-constant-other-reference-link:#0a3069;--color-fg-default:#24292f;--color-fg-muted:#57606a;--color-fg-subtle:#6e7781;--color-canvas-default:#fff;--color-canvas-subtle:#f6f8fa;--color-border-default:#d0d7de;--color-border-muted:#d8dee4;--color-neutral-muted:rgba(175,184,193,.2);--color-accent-fg:#0969da;--color-accent-emphasis:#0969da;--color-attention-subtle:#fff8c5;--color-danger-fg:#cf222e;color-scheme:light}}.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;word-wrap:break-word;background-color:var(--color-canvas-default);color:var(--color-fg-default);font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:16px;line-height:1.5;margin:0}.markdown-body h1:hover .anchor .octicon-link:before,.markdown-body h2:hover .anchor .octicon-link:before,.markdown-body h3:hover .anchor .octicon-link:before,.markdown-body h4:hover .anchor .octicon-link:before,.markdown-body h5:hover .anchor .octicon-link:before,.markdown-body h6:hover .anchor .octicon-link:before{background-color:currentColor;content:" ";display:inline-block;height:16px;-webkit-mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');width:16px}.markdown-body details,.markdown-body figcaption,.markdown-body figure{display:block}.markdown-body summary{display:list-item}.markdown-body [hidden]{display:none!important}.markdown-body a{background-color:transparent;color:var(--color-accent-fg);text-decoration:none}.markdown-body a:active,.markdown-body a:hover{outline-width:0}.markdown-body abbr[title]{border-bottom:none;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}.markdown-body b,.markdown-body strong{font-weight:600}.markdown-body dfn{font-style:italic}.markdown-body h1{border-bottom:1px solid var(--color-border-muted);font-size:2em;font-weight:600;margin:.67em 0;padding-bottom:.3em}.markdown-body mark{background-color:var(--color-attention-subtle);color:var(--color-text-primary)}.markdown-body small{font-size:90%}.markdown-body sub,.markdown-body sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}.markdown-body sub{bottom:-.25em}.markdown-body sup{top:-.5em}.markdown-body img{background-color:var(--color-canvas-default);border-style:none;box-sizing:content-box;max-width:100%}.markdown-body code,.markdown-body kbd,.markdown-body pre,.markdown-body samp{font-family:monospace,monospace;font-size:1em}.markdown-body figure{margin:1em 40px}.markdown-body hr{background:transparent;background-color:var(--color-border-default);border:0;box-sizing:content-box;height:.25em;margin:24px 0;overflow:hidden;padding:0}.markdown-body input{font:inherit;font-family:inherit;font-size:inherit;line-height:inherit;margin:0;overflow:visible}.markdown-body [type=button],.markdown-body [type=reset],.markdown-body [type=submit]{-webkit-appearance:button}.markdown-body [type=button]::-moz-focus-inner,.markdown-body [type=reset]::-moz-focus-inner,.markdown-body [type=submit]::-moz-focus-inner{border-style:none;padding:0}.markdown-body [type=button]:-moz-focusring,.markdown-body [type=reset]:-moz-focusring,.markdown-body [type=submit]:-moz-focusring{outline:1px dotted ButtonText}.markdown-body [type=checkbox],.markdown-body [type=radio]{box-sizing:border-box;padding:0}.markdown-body [type=number]::-webkit-inner-spin-button,.markdown-body [type=number]::-webkit-outer-spin-button{height:auto}.markdown-body [type=search]{-webkit-appearance:textfield;outline-offset:-2px}.markdown-body [type=search]::-webkit-search-cancel-button,.markdown-body [type=search]::-webkit-search-decoration{-webkit-appearance:none}.markdown-body ::-webkit-input-placeholder{color:inherit;opacity:.54}.markdown-body ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}.markdown-body a:hover{text-decoration:underline}.markdown-body hr:after,.markdown-body hr:before{content:"";display:table}.markdown-body hr:after{clear:both}.markdown-body table{border-collapse:collapse;border-spacing:0;display:block;max-width:100%;overflow:auto;width:-webkit-max-content;width:max-content}.markdown-body td,.markdown-body th{padding:0}.markdown-body details summary{cursor:pointer}.markdown-body details:not([open])>:not(summary){display:none!important}.markdown-body kbd{background-color:var(--color-canvas-subtle);border-bottom-color:var(--color-neutral-muted);border:1px solid var(--color-neutral-muted);border-radius:6px;box-shadow:inset 0 -1px 0 var(--color-neutral-muted);color:var(--color-fg-default);display:inline-block;font:11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;line-height:10px;padding:3px 5px;vertical-align:middle}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{font-weight:600;line-height:1.25;margin-bottom:16px;margin-top:24px}.markdown-body h2{border-bottom:1px solid var(--color-border-muted);font-size:1.5em;font-weight:600;padding-bottom:.3em}.markdown-body h3{font-size:1.25em;font-weight:600}.markdown-body h4{font-size:1em;font-weight:600}.markdown-body h5{font-size:.875em;font-weight:600}.markdown-body h6{color:var(--color-fg-muted);font-size:.85em;font-weight:600}.markdown-body p{margin-bottom:10px;margin-top:0}.markdown-body blockquote{border-left:.25em solid var(--color-border-default);color:var(--color-fg-muted);margin:0;padding:0 1em}.markdown-body ol,.markdown-body ul{margin-bottom:0;margin-top:0;padding-left:2em}.markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}.markdown-body ol ol ol,.markdown-body ol ul ol,.markdown-body ul ol ol,.markdown-body ul ul ol{list-style-type:lower-alpha}.markdown-body dd{margin-left:0}.markdown-body code,.markdown-body pre,.markdown-body tt{font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;font-size:12px}.markdown-body pre{word-wrap:normal;margin-bottom:0;margin-top:0}.markdown-body .octicon{fill:currentColor;display:inline-block;overflow:visible!important;vertical-align:text-bottom}.markdown-body ::-webkit-input-placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body :-ms-input-placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body ::placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body input::-webkit-inner-spin-button,.markdown-body input::-webkit-outer-spin-button{-webkit-appearance:none;appearance:none;margin:0}.markdown-body .pl-c{color:var(--color-prettylights-syntax-comment)}.markdown-body .pl-c1,.markdown-body .pl-s .pl-v{color:var(--color-prettylights-syntax-constant)}.markdown-body .pl-e,.markdown-body .pl-en{color:var(--color-prettylights-syntax-entity)}.markdown-body .pl-s .pl-s1,.markdown-body .pl-smi{color:var(--color-prettylights-syntax-storage-modifier-import)}.markdown-body .pl-ent{color:var(--color-prettylights-syntax-entity-tag)}.markdown-body .pl-k{color:var(--color-prettylights-syntax-keyword)}.markdown-body .pl-pds,.markdown-body .pl-s,.markdown-body .pl-s .pl-pse .pl-s1,.markdown-body .pl-sr,.markdown-body .pl-sr .pl-cce,.markdown-body .pl-sr .pl-sra,.markdown-body .pl-sr .pl-sre{color:var(--color-prettylights-syntax-string)}.markdown-body .pl-smw,.markdown-body .pl-v{color:var(--color-prettylights-syntax-variable)}.markdown-body .pl-bu{color:var(--color-prettylights-syntax-brackethighlighter-unmatched)}.markdown-body .pl-ii{background-color:var(--color-prettylights-syntax-invalid-illegal-bg);color:var(--color-prettylights-syntax-invalid-illegal-text)}.markdown-body .pl-c2{background-color:var(--color-prettylights-syntax-carriage-return-bg);color:var(--color-prettylights-syntax-carriage-return-text)}.markdown-body .pl-sr .pl-cce{color:var(--color-prettylights-syntax-string-regexp);font-weight:700}.markdown-body .pl-ml{color:var(--color-prettylights-syntax-markup-list)}.markdown-body .pl-mh,.markdown-body .pl-mh .pl-en,.markdown-body .pl-ms{color:var(--color-prettylights-syntax-markup-heading);font-weight:700}.markdown-body .pl-mi{color:var(--color-prettylights-syntax-markup-italic);font-style:italic}.markdown-body .pl-mb{color:var(--color-prettylights-syntax-markup-bold);font-weight:700}.markdown-body .pl-md{background-color:var(--color-prettylights-syntax-markup-deleted-bg);color:var(--color-prettylights-syntax-markup-deleted-text)}.markdown-body .pl-mi1{background-color:var(--color-prettylights-syntax-markup-inserted-bg);color:var(--color-prettylights-syntax-markup-inserted-text)}.markdown-body .pl-mc{background-color:var(--color-prettylights-syntax-markup-changed-bg);color:var(--color-prettylights-syntax-markup-changed-text)}.markdown-body .pl-mi2{background-color:var(--color-prettylights-syntax-markup-ignored-bg);color:var(--color-prettylights-syntax-markup-ignored-text)}.markdown-body .pl-mdr{color:var(--color-prettylights-syntax-meta-diff-range);font-weight:700}.markdown-body .pl-ba{color:var(--color-prettylights-syntax-brackethighlighter-angle)}.markdown-body .pl-sg{color:var(--color-prettylights-syntax-sublimelinter-gutter-mark)}.markdown-body .pl-corl{color:var(--color-prettylights-syntax-constant-other-reference-link);text-decoration:underline}.markdown-body [data-catalyst]{display:block}.markdown-body g-emoji{font-family:Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-size:1em;font-style:normal!important;font-weight:400;line-height:1;vertical-align:-.075em}.markdown-body g-emoji img{height:1em;width:1em}.markdown-body:after,.markdown-body:before{content:"";display:table}.markdown-body:after{clear:both}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body .absent{color:var(--color-danger-fg)}.markdown-body .anchor{float:left;line-height:1;margin-left:-20px;padding-right:4px}.markdown-body .anchor:focus{outline:none}.markdown-body blockquote,.markdown-body details,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-bottom:16px;margin-top:0}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body sup>a:before{content:"["}.markdown-body sup>a:after{content:"]"}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:var(--color-fg-default);vertical-align:middle;visibility:hidden}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}.markdown-body h1 code,.markdown-body h1 tt,.markdown-body h2 code,.markdown-body h2 tt,.markdown-body h3 code,.markdown-body h3 tt,.markdown-body h4 code,.markdown-body h4 tt,.markdown-body h5 code,.markdown-body h5 tt,.markdown-body h6 code,.markdown-body h6 tt{font-size:inherit;padding:0 .2em}.markdown-body ol.no-list,.markdown-body ul.no-list{list-style-type:none;padding:0}.markdown-body ol[type="1"]{list-style-type:decimal}.markdown-body ol[type=a]{list-style-type:lower-alpha}.markdown-body ol[type=i]{list-style-type:lower-roman}.markdown-body div>ol:not([type]){list-style-type:decimal}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-bottom:0;margin-top:0}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dl{padding:0}.markdown-body dl dt{font-size:1em;font-style:italic;font-weight:600;margin-top:16px;padding:0}.markdown-body dl dd{margin-bottom:16px;padding:0 16px}.markdown-body table th{font-weight:600}.markdown-body table td,.markdown-body table th{border:1px solid var(--color-border-default);padding:6px 13px}.markdown-body table tr{background-color:var(--color-canvas-default);border-top:1px solid var(--color-border-muted)}.markdown-body table tr:nth-child(2n){background-color:var(--color-canvas-subtle)}.markdown-body table img{background-color:transparent}.markdown-body img[align=right]{padding-left:20px}.markdown-body img[align=left]{padding-right:20px}.markdown-body .emoji{background-color:transparent;max-width:none;vertical-align:text-top}.markdown-body span.frame{display:block;overflow:hidden}.markdown-body span.frame>span{border:1px solid var(--color-border-default);display:block;float:left;margin:13px 0 0;overflow:hidden;padding:7px;width:auto}.markdown-body span.frame span img{display:block;float:left}.markdown-body span.frame span span{clear:both;color:var(--color-fg-default);display:block;padding:5px 0 0}.markdown-body span.align-center{clear:both;display:block;overflow:hidden}.markdown-body span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}.markdown-body span.align-center span img{margin:0 auto;text-align:center}.markdown-body span.align-right{clear:both;display:block;overflow:hidden}.markdown-body span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}.markdown-body span.align-right span img{margin:0;text-align:right}.markdown-body span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}.markdown-body span.float-left span{margin:13px 0 0}.markdown-body span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}.markdown-body span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}.markdown-body code,.markdown-body tt{background-color:var(--color-neutral-muted);border-radius:6px;font-size:85%;margin:0;padding:.2em .4em}.markdown-body code br,.markdown-body tt br{display:none}.markdown-body del code{text-decoration:inherit}.markdown-body pre code{font-size:100%}.markdown-body pre>code{background:transparent;border:0;margin:0;padding:0;white-space:pre;word-break:normal}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{background-color:var(--color-canvas-subtle);border-radius:6px;font-size:85%;line-height:1.45;overflow:auto;padding:16px}.markdown-body pre code,.markdown-body pre tt{word-wrap:normal;background-color:transparent;border:0;display:inline;line-height:inherit;margin:0;max-width:auto;overflow:visible;padding:0}.markdown-body .csv-data td,.markdown-body .csv-data th{font-size:12px;line-height:1;overflow:hidden;padding:5px;text-align:left;white-space:nowrap}.markdown-body .csv-data .blob-num{background:var(--color-canvas-default);border:0;padding:10px 8px 9px;text-align:right}.markdown-body .csv-data tr{border-top:0}.markdown-body .csv-data th{background:var(--color-canvas-subtle);border-top:0;font-weight:600}.markdown-body .footnotes{border-top:1px solid var(--color-border-default);color:var(--color-fg-muted);font-size:12px}.markdown-body .footnotes ol{padding-left:16px}.markdown-body .footnotes li{position:relative}.markdown-body .footnotes li:target:before{border:2px solid var(--color-accent-emphasis);border-radius:6px;bottom:-8px;content:"";left:-24px;pointer-events:none;position:absolute;right:-8px;top:-8px}.markdown-body .footnotes li:target{color:var(--color-fg-default)}.markdown-body .footnotes .data-footnote-backref g-emoji{font-family:monospace}.markdown-body .task-list-item{list-style-type:none}.markdown-body .task-list-item label{font-weight:400}.markdown-body .task-list-item.enabled label{cursor:pointer}.markdown-body .task-list-item+.task-list-item{margin-top:3px}.markdown-body .task-list-item .handle{display:none}.markdown-body .task-list-item-checkbox{margin:0 .2em .25em -1.6em;vertical-align:middle}.markdown-body .contains-task-list:dir(rtl) .task-list-item-checkbox{margin:0 -1.6em .25em .2em}.markdown-body ::-webkit-calendar-picker-indicator{-webkit-filter:invert(50%);filter:invert(50%)}@font-face{font-family:lab;src:url(/static/lab-b3a92fdc7ccdc8ebf471556b2e7b1018.woff2) format("woff2")}:root{--font-base:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;--layout-header-height:56px;--layout-footer-height:100px;--gg-border:hsla(0,0%,71%,.1)}*{box-sizing:border-box;transition:all .3s ease-out}html.dark{--theme-content-background-color:#232629;--theme-header-background-color:#232629;--theme-footer-background-color:#232629;--theme-text:#d8d8d8;--gg-logo:#d8d8d8;--gg-icon:#75757a}html.light{--theme-content-background-color:#fff;--theme-header-background-color:#fafafa;--theme-footer-background-color:#fefefe;--theme-text:#232629;--gg-logo:#232629;--gg-icon:#a5a5ac}body{font-family:var(--font-base);margin:0;padding:0}.icon-action{cursor:pointer;user-select:none}.page-title{align-items:center;display:flex;font-size:20px;font-weight:700;justify-content:center;margin-bottom:20px;text-align:center}.page-title .icon{margin-right:10px}.text-center{text-align:center}.gg-empty{color:hsla(0,0%,71%,.5);font-size:18px}.dark .markdown-body{--color-prettylights-syntax-comment:#8b949e;--color-prettylights-syntax-constant:#79c0ff;--color-prettylights-syntax-entity:#d2a8ff;--color-prettylights-syntax-storage-modifier-import:#c9d1d9;--color-prettylights-syntax-entity-tag:#7ee787;--color-prettylights-syntax-keyword:#ff7b72;--color-prettylights-syntax-string:#a5d6ff;--color-prettylights-syntax-variable:#ffa657;--color-prettylights-syntax-brackethighlighter-unmatched:#f85149;--color-prettylights-syntax-invalid-illegal-text:#f0f6fc;--color-prettylights-syntax-invalid-illegal-bg:#8e1519;--color-prettylights-syntax-carriage-return-text:#f0f6fc;--color-prettylights-syntax-carriage-return-bg:#b62324;--color-prettylights-syntax-string-regexp:#7ee787;--color-prettylights-syntax-markup-list:#f2cc60;--color-prettylights-syntax-markup-heading:#1f6feb;--color-prettylights-syntax-markup-italic:#c9d1d9;--color-prettylights-syntax-markup-bold:#c9d1d9;--color-prettylights-syntax-markup-deleted-text:#ffdcd7;--color-prettylights-syntax-markup-deleted-bg:#67060c;--color-prettylights-syntax-markup-inserted-text:#aff5b4;--color-prettylights-syntax-markup-inserted-bg:#033a16;--color-prettylights-syntax-markup-changed-text:#ffdfb6;--color-prettylights-syntax-markup-changed-bg:#5a1e02;--color-prettylights-syntax-markup-ignored-text:#c9d1d9;--color-prettylights-syntax-markup-ignored-bg:#1158c7;--color-prettylights-syntax-meta-diff-range:#d2a8ff;--color-prettylights-syntax-brackethighlighter-angle:#8b949e;--color-prettylights-syntax-sublimelinter-gutter-mark:#484f58;--color-prettylights-syntax-constant-other-reference-link:#a5d6ff;--color-fg-default:#c9d1d9;--color-fg-muted:#8b949e;--color-fg-subtle:#484f58;--color-canvas-default:#232629;--color-canvas-subtle:#161b22;--color-border-default:#30363d;--color-border-muted:#21262d;--color-neutral-muted:hsla(215,8%,47%,.4);--color-accent-fg:#58a6ff;--color-accent-emphasis:#1f6feb;--color-attention-subtle:rgba(187,128,9,.15);--color-danger-fg:#f85149;color-scheme:dark}.light .markdown-body{--color-prettylights-syntax-comment:#6e7781;--color-prettylights-syntax-constant:#0550ae;--color-prettylights-syntax-entity:#8250df;--color-prettylights-syntax-storage-modifier-import:#24292f;--color-prettylights-syntax-entity-tag:#116329;--color-prettylights-syntax-keyword:#cf222e;--color-prettylights-syntax-string:#0a3069;--color-prettylights-syntax-variable:#953800;--color-prettylights-syntax-brackethighlighter-unmatched:#82071e;--color-prettylights-syntax-invalid-illegal-text:#f6f8fa;--color-prettylights-syntax-invalid-illegal-bg:#82071e;--color-prettylights-syntax-carriage-return-text:#f6f8fa;--color-prettylights-syntax-carriage-return-bg:#cf222e;--color-prettylights-syntax-string-regexp:#116329;--color-prettylights-syntax-markup-list:#3b2300;--color-prettylights-syntax-markup-heading:#0550ae;--color-prettylights-syntax-markup-italic:#24292f;--color-prettylights-syntax-markup-bold:#24292f;--color-prettylights-syntax-markup-deleted-text:#82071e;--color-prettylights-syntax-markup-deleted-bg:#ffebe9;--color-prettylights-syntax-markup-inserted-text:#116329;--color-prettylights-syntax-markup-inserted-bg:#dafbe1;--color-prettylights-syntax-markup-changed-text:#953800;--color-prettylights-syntax-markup-changed-bg:#ffd8b5;--color-prettylights-syntax-markup-ignored-text:#eaeef2;--color-prettylights-syntax-markup-ignored-bg:#0550ae;--color-prettylights-syntax-meta-diff-range:#8250df;--color-prettylights-syntax-brackethighlighter-angle:#57606a;--color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;--color-prettylights-syntax-constant-other-reference-link:#0a3069;--color-fg-default:#24292f;--color-fg-muted:#57606a;--color-fg-subtle:#6e7781;--color-canvas-default:#fff;--color-canvas-subtle:#f6f8fa;--color-border-default:#d0d7de;--color-border-muted:#d8dee4;--color-neutral-muted:rgba(175,184,193,.2);--color-accent-fg:#0969da;--color-accent-emphasis:#0969da;--color-attention-subtle:#fff8c5;--color-danger-fg:#cf222e;color-scheme:light}.markdown-body{margin:0 auto;max-width:720px;padding:0 20px 20px}h1{border-bottom:none!important}.gg-logo{text-rendering:optimizelegibility;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;line-height:0;outline:none;text-align:center;text-transform:none;vertical-align:-.125em}.gg-logo,.gg-theme-toggle{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.gg-nav{height:var(--layout-header-height)}.gg-nav *{transition:none}.gg-nav .icons,.gg-nav .nav-screen nav li{align-items:center;display:flex}.gg-nav .nav-screen nav li{color:var(--gg-icon);cursor:pointer;font-weight:700;list-style:none}@media screen and (max-width:720px){.gg-nav{align-items:center;display:flex}.gg-nav .nav-icon{cursor:pointer;height:24px;overflow:hidden;width:24px}.gg-nav .nav-icon span{background:#999;display:block;height:3px;margin:4px 0;transition:all .3s ease;width:24px}.gg-nav .nav-icon .top{-webkit-transform:translateX(6px);transform:translateX(6px)}.gg-nav .nav-icon .bottom{-webkit-transform:translateX(8px);transform:translateX(8px)}.gg-nav .nav-icon.active .top{-webkit-transform:rotate(225deg) translateY(-5px) translateX(-5px);transform:rotate(225deg) translateY(-5px) translateX(-5px)}.gg-nav .nav-icon.active .middle{-webkit-transform:translateX(24px);transform:translateX(24px)}.gg-nav .nav-icon.active .bottom{-webkit-transform:rotate(135deg) translateY(5px) translateX(-5px);transform:rotate(135deg) translateY(5px) translateX(-5px)}.nav-icon{display:block}.nav-screen{background-color:var(--theme-header-background-color);height:0;left:0;overflow:hidden;position:fixed;top:var(--layout-header-height);transition:height .15s ease-out;width:100%;z-index:1000}.nav-screen>div{padding:20px}.nav-screen.open{height:calc(100vh - var(--layout-header-height))}.nav-screen nav{font-size:16px;text-align:center}.nav-screen nav svg{font-size:24px;margin-right:10px}.nav-screen nav li{justify-content:center;padding:8px 0}.nav-screen .icons{justify-content:center;margin-top:40px}.nav-screen .icons .icon-action{margin:0 10px}}@media screen and (min-width:721px){.nav-icon{display:none}.nav-screen{height:100%;justify-content:space-between}.nav-screen,.nav-screen>div{display:flex}.nav-screen .icons .icon-action{margin:0 5px}.nav-screen nav{margin-right:20px}.nav-screen nav svg{margin-right:4px}.nav-screen nav li{float:left;font-size:14px;height:100%;margin-right:20px}}#gg-backtop{align-items:center;border-radius:50%;bottom:20px;box-shadow:inset 0 0 5px hsla(0,0%,59%,.5);cursor:pointer;display:flex;height:42px;justify-content:center;position:fixed;right:20px;transition:all .5s ease;-webkit-user-select:none;-ms-user-select:none;user-select:none;width:42px}@media screen and (max-width:767px){#gg-backtop{height:36px;width:36px}}#gg-backtop svg{width:50%}#gg-backtop.hide{opacity:0;-webkit-transform:scale(0);transform:scale(0)}#gg-backtop.show{opacity:1;-webkit-transform:scale(1);transform:scale(1)}.gg-container{display:flex;flex-direction:column;min-height:100vh}.gg-container header{align-items:center;background-color:#fff;background-color:var(--theme-header-background-color);border-bottom:1px solid hsla(0,0%,47%,.2);box-shadow:0 1px 2px rgba(0,0,0,.05),0 1px 4px rgba(0,0,0,.05),0 2px 8px rgba(0,0,0,.05);display:flex;height:var(--layout-header-height);justify-content:space-between;padding:0 16px;position:fixed;top:0;width:100%;z-index:999}.gg-container header .imglogo{border:1px solid var(--gg-border);border-radius:8px;cursor:pointer;width:32px}.gg-container main{background-color:var(--theme-content-background-color);min-height:calc(100vh - var(--layout-footer-height));padding-top:80px}.gg-container footer{align-items:center;background-color:var(--theme-footer-background-color);color:#838c95;display:flex;font-size:14px;height:var(--layout-footer-height);justify-content:center;padding:0 10px;position:relative;text-align:center;width:100%}.gg-container footer:after{background:radial-gradient(hsla(0,0%,59%,.6),transparent 80%);content:"";display:block;height:1px;position:absolute;top:0;width:100%}.gg-container footer img{vertical-align:middle}.gg-container footer .owner{color:#3486e2;cursor:pointer;margin-left:5px;text-decoration:none}.gg-container footer .copyright{margin-left:10px}.gg-container footer .powered{margin-left:5px}@media screen and (max-width:720px){.gg-container footer{flex-direction:column}.gg-container footer .copyright,.gg-container footer .powered{margin-left:0;margin-top:5px}}.issues-page h1{text-align:center}.author-info{margin-bottom:3px}.author-info .author{cursor:pointer}.author-info .author .name{font-weight:500}.author-info .author img{border-radius:50%;margin-right:5px;vertical-align:middle;width:30px}.author-info i,.author-info span{font-size:14px}.author-info .date{margin-left:10px;opacity:.4}.author-info .number{float:right;line-height:26px;opacity:.3}.gg-category{background:hsla(0,0%,71%,.3)!important;border-radius:4px;display:inline-block;font-size:10px;font-weight:700;height:18px;line-height:18px;margin-right:10px;padding:0 5px;text-decoration:none!important;vertical-align:middle}.gg-category,.issues-num{color:var(--color-fg-default)!important;cursor:pointer}.issues-num{font-family:lab;font-style:italic;font-variation-settings:"size" 30,"quad" 40,"bevl" 20,"oval" 30;opacity:.6}.home-page .issues-list{max-width:unset}.home-page .issues-list>div{display:flex;flex-wrap:wrap;margin:0 auto;max-width:960px}.home-page .issues-list .author-info{margin-bottom:3px}.home-page .issues-list .author-info .author img{width:24px}.home-page .issues-list .author-info i,.home-page .issues-list .author-info span{font-size:12px}.home-page .issues-list .author-info .number{float:right;line-height:26px;opacity:.3}.home-page .issues-list .post-info .title{font-size:15px;font-weight:700;text-decoration:none;vertical-align:middle}@media screen and (min-width:721px){.home-page .issues-list .item{border:1px solid var(--gg-border);border-radius:5px;margin:0 10px 20px;max-width:100%;min-width:200px;overflow:hidden;width:calc(50% - 20px)}.home-page .issues-list .item .author-info{background-color:var(--gg-border);padding:3px 5px}.home-page .issues-list .item .post-info{padding:5px}}@media screen and (max-width:720px){.home-page .issues-list .item{border-bottom:1px solid hsla(0,0%,59%,.2);padding:15px 0 12px;width:100%}.home-page .issues-list .item .author-info{margin-bottom:5px}}.gg-label{border-radius:4px;border-style:solid;border-width:1px;cursor:pointer;display:inline-block;font-size:12px;height:18px;line-height:17px;overflow:hidden;vertical-align:middle}.gg-label b{color:#fff;padding:0 3px 0 2px}.gg-label b,.gg-label em{display:inline-block;height:100%}.gg-label em{border-bottom-right-radius:3px;border-top-right-radius:3px;color:var(--theme-text);padding:0 3px}.gg-issues-prev-next{align-items:stretch;border:1px solid hsla(0,0%,59%,.3);border-radius:5px;display:flex;margin:30px 0}.gg-issues-prev-next:after{clear:both;content:"";display:block}.gg-issues-prev-next a{flex:1 1;padding:15px 10px;width:50%}.gg-issues-prev-next a>span{align-items:center;display:flex;height:100%}.gg-issues-prev-next a .icon-action{min-width:20px}.gg-issues-prev-next .prev{text-align:left}.gg-issues-prev-next .prev>span{float:left}.gg-issues-prev-next .prev .icon-action{margin-right:5px}.gg-issues-prev-next .next{text-align:right}.gg-issues-prev-next .next>span{float:right}.gg-issues-prev-next .next .icon-action{margin-left:5px}@media screen and (max-width:720px){.gg-issues-prev-next{font-size:14px}}.issues-page h1{font-size:24px}.issues-page h1>span{background:linear-gradient(180deg,transparent 50%,hsla(0,0%,71%,.5) 0);padding:0 5px}.issues-page h1 .issues-num{font-size:18px;margin-right:10px}.issues-page .widget{margin-bottom:20px;text-align:center}.issues-page .gg-label{margin:2px 4px}.issues-page .ques-content{display:flex;margin-top:5px;min-height:120px}.issues-page .ques-content .quesicon{margin-right:3px}.issues-page .ques-content .quescontent{width:100%}.issues-page .vote{align-items:center;display:flex;flex-direction:column;font-style:normal}.issues-page .answer-content .answericon{background-color:hsla(0,0%,71%,.3);border-radius:5px;margin-bottom:20px;padding:5px 0 0;text-align:center}.issues-page .comments-item{border-left:1px solid hsla(0,0%,71%,.3);padding-bottom:1px;padding-left:3px}.issues-page .comments-item-content{margin-left:20px}.labels-category-page .gg-label-category-head{margin-bottom:20px;position:-webkit-sticky;position:sticky;top:56px}.labels-category-page .category-group{display:flex;width:100%}.labels-category-page .category-group .label-category{color:#fff;cursor:pointer;display:inline-block;font-weight:700;height:36px;line-height:36px;padding:0 10px;text-shadow:0 1px 1px rgba(80,80,80,.5)}.labels-category-page .category-group .label-category.active{color:#000}.labels-category-page .level-group .label-level{background-color:#000;color:#fff;cursor:pointer;display:inline-block;font-size:16px;font-size:14px;height:24px;line-height:24px;margin-right:1px;opacity:.5;padding:0 10px}.labels-category-page .level-group .label-level.active{opacity:1}.labels-category-page .level-group .label-level.level1{background-color:#3c3c3c}.labels-category-page .level-group .label-level.level2{background-color:#555}.labels-category-page .level-group .label-level.level3{background-color:#6f6f6f}.labels-category-page .level-group .label-level.level4{background-color:#888}.labels-category-page .level-group .label-level.level5{background-color:#a2a2a2}.labels-category-page .issues-list .item{background-color:var(--gg-border);border-radius:5px;margin-bottom:10px;padding:10px}.labels-category-page .issues-list .item .label-issue{margin-right:10px}.labels-category-page .issues-list .labels-list{font-size:12px;margin-top:4px}.labels-category-page .issues-list .labels-list .gg-label{margin-bottom:4px;margin-right:4px}.labels-category-page .issues-list .post-info{font-weight:700;margin-top:5px}.issues-list .issues-item{align-items:baseline;display:flex;margin-bottom:10px;text-align:left}.issues-list .issues-item .issues-num{font-size:12px;margin-right:10px}.issues-list .issues-item .title{font-weight:700}.labels-page{text-align:center}.labels-page .markdown-body{display:inline-block}.labels-page .labels-head{border-radius:5px;color:#fff;cursor:pointer;display:block;font-weight:700;margin-bottom:20px;padding:5px 10px;text-shadow:0 1px 2px #000}.labels-page .labels-head:hover{text-decoration:none!important}.labels-page .label-desc{font-weight:700;opacity:.5}.nav-category-page .gg-category{font-size:14px;font-weight:700;height:36px;line-height:36px;margin:10px;padding:0 12px}.nav-labels-page .gg-label{font-size:16px;font-weight:700;height:30px;line-height:29px;margin:5px}.nav-labels-page .gg-label b,.nav-labels-page .gg-label em{padding:0 10px}</style><link rel="icon" href="/favicon-32x32.png?v=fdd225e9135e951b972a3dc20604182e" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=fdd225e9135e951b972a3dc20604182e"/><link as="script" rel="preload" href="/webpack-runtime-4fee7405b8a071e8c34e.js"/><link as="script" rel="preload" href="/framework-86c8a5417e68dc3cefff.js"/><link as="script" rel="preload" href="/app-7383f855f15f63329e5f.js"/><link as="script" rel="preload" href="/fc369a2ef6459b03f38591687cef4a587495c716-f468df31cbdaf6ffa970.js"/><link as="script" rel="preload" href="/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js"/><link as="fetch" rel="preload" href="/page-data/issues/206/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/151096407.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2861350382.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/><script>
+(function() {
+  window.__onThemeChange = function() {};
+  function setTheme(newTheme) {
+    window.__theme = newTheme;
+    preferredTheme = newTheme;
+    document.querySelector('html').className = newTheme;
+    window.__onThemeChange(newTheme);
+  }
+  var preferredTheme;
+  try {
+    preferredTheme = localStorage.getItem('theme');
+  } catch (err) { }
+  window.__setPreferredTheme = function(newTheme) {
+    setTheme(newTheme);
+    try {
+      localStorage.setItem('theme', newTheme);
+    } catch (err) {}
+  }
+  var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  darkQuery.addListener(function(e) {
+    window.__setPreferredTheme(e.matches ? 'dark' : 'light')
+  });
+
+  setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
+})()</script></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="gg-container issues-page"><header><img class="imglogo" src="/static/logo-fe174465633f84724b37eea28a42c520.png" alt="logo"/><div class="gg-nav"><span class="nav-icon"><span class="top"></span><span class="middle"></span><span class="bottom"></span></span><div class="nav-screen"><div><nav><li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 9A1.5 1.5 0 0 0 7 7.5A1.5 1.5 0 0 0 5.5 6A1.5 1.5 0 0 0 4 7.5A1.5 1.5 0 0 0 5.5 9m11.91 2.58c.36.36.59.86.59 1.42c0 .55-.22 1.05-.59 1.41l-5 5a1.996 1.996 0 0 1-2.83 0l-6.99-6.99C2.22 12.05 2 11.55 2 11V6c0-1.11.89-2 2-2h5c.55 0 1.05.22 1.41.58l7 7m-3.87-5.87l1-1l6.87 6.87c.37.36.59.87.59 1.42c0 .55-.22 1.05-.58 1.41l-5.38 5.38l-1-1L20.75 13l-7.21-7.29Z"/></svg>Labels</li><li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M3 3h18v4H3V3m1 5h16v13H4V8m5.5 3a.5.5 0 0 0-.5.5V13h6v-1.5a.5.5 0 0 0-.5-.5h-5Z"/></svg>Archives</li></nav><div class="icons"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="gg-theme-toggle icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="m3.55 18.54l1.41 1.41l1.8-1.79l-1.42-1.42M11 22.45h2V19.5h-2m1-14a6 6 0 0 0-6 6a6 6 0 0 0 6 6a6 6 0 0 0 6-6c0-3.32-2.69-6-6-6m8 7h3v-2h-3m-2.76 7.66l1.8 1.79l1.41-1.41l-1.79-1.8m1.79-12.28l-1.41-1.41l-1.8 1.79l1.42 1.42M13 .55h-2V3.5h2m-9 7H1v2h3m2.76-7.66l-1.8-1.79l-1.41 1.41l1.79 1.8l1.42-1.42Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg></div></div></div></div></header><main><div class="content"><div class="markdown-body"><h1><span><a class="number issues-num" href="https://github.com/awesome-ops/awesome-ops.github.io/issues/206" target="_blank">#206</a><span>link1st/go-stress-testing: Golang 实现的压测工具</span></span></h1><div class="widget"><a class="gg-label" style="border-color:#25B472" href="/labels/更多"><b style="background:#25B472">#</b><em>更多</em></a><a class="gg-label" style="border-color:#3fbd86" href="/labels/测试压测"><b style="background:#3fbd86">#</b><em>测试压测</em></a><a class="gg-label" style="border-color:#4c2299" href="/labels/link1st"><b style="background:#4c2299">#</b><em>link1st</em></a></div><div><div class="author-info"><span class="author" title="https://github.com/eryajf"><img src="https://avatars.githubusercontent.com/u/33259379?u=e4a4090a38ac2473aaed4ef9945233636776c6c3&amp;v=4" alt="eryajf"/><span>eryajf</span></span><i class="date">2025/05/21</i></div><div class="ques-content"><div class="quescontent"><div align="center" dir="auto">
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966"><img src="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966" width="100%" height="3" data-animated-image="" data-canonical-src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" style="max-width: 100%; height: auto; max-height: 3px;"></a><br><br></p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th align="right">Repos</th>
+<th align="left"><a href="https://github.com/link1st/go-stress-testing">link1st/go-stress-testing</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right"><strong>Views</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/8f8d709c7a325da659daaa1b94fba2399958a552a3468eff5c5cf46a76150d5c/68747470733a2f2f76696577732e77686174696c656172656e65642e746f6461792f76696577732f6769746875622f6c696e6b3173742f676f2d7374726573732d74657374696e672e737667" alt="views" data-canonical-src="https://views.whatilearened.today/views/github/link1st/go-stress-testing.svg" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>Stars</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/74249d7c9826728a222122ea8688a43048206b41c9069f0fc33e98d98b7c03a7/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6c696e6b3173742f676f2d7374726573732d74657374696e673f636f6c6f723d663266303864266c6f676f3d556e64657274616c65266c6f676f436f6c6f723d656234363330" alt="stars" data-canonical-src="https://img.shields.io/github/stars/link1st/go-stress-testing?color=f2f08d&amp;logo=Undertale&amp;logoColor=eb4630" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>Forks</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/4b2d8f693e51ffe1de53bee1fc9856c8da4e0ae19acdbe72bfb03b3682d0aed4/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f6c696e6b3173742f676f2d7374726573732d74657374696e673f636f6c6f723d626138366562266c6f676f3d48616e647368616b65266c6f676f436f6c6f723d656136616136" alt="forks" data-canonical-src="https://img.shields.io/github/forks/link1st/go-stress-testing?color=ba86eb&amp;logo=Handshake&amp;logoColor=ea6aa6" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>License</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/0c93ca71e73bb599dbfbd81eb5bbb82f63a427dc55ced5d8a7de2d4025f1f1c5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c2d4e4f4e452d626c75653f6c6f676f3d756e6c6963656e7365" alt="license" data-canonical-src="https://img.shields.io/badge/L-NONE-blue?logo=unlicense" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>UpdatedAt</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/41a02a93e7b739dca2eb8b70b69f3fd2603bb29753d982e126577c449077e5fc/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f6c696e6b3173742f676f2d7374726573732d74657374696e673f646973706c61795f74696d657374616d703d636f6d6d6974746572266c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e5355684555674141414234414141416543415941414141374d4b3669414141414358424957584d41414173544141414c457745416d7077594141414648556c45515652346e4c5658375539615678776d3236646c582532466468627825324232253246516e626b7655627264554151674a4a496655444e574454546d4f76314651554661504a346b7573725630314a7431734e70637453327533626f745a746d786439744a5346536f714b71494635625944464c436f76436c656673747a4a387758524c445a4c7a6e6b634f343535376e3364332532466e655a3472454f515a74315771462532423858467234253242664f4c4565326a6f59307a776638546f795a50766a45676b4c592532426b306d6d72584f36644b696e787a476b30666a5430782532425279723055716e6359637a4d317263347451253242497270324c4758646f344e4334567657715453373277716c632532427231334f527269364b6458646e624f484c6c776c7a4a70524b6e3657342532424b36706f4f434e6e494166486a253246253242776168495a4234764b6e715a6630714a704e49716c2532467638545530634e6c3572627963337730516e54703379324c54614a374d314e617844723266526e315370504736476961323174664533345463614f617931694d55564f5146624659714957536f31573854694156616e43306576584f4542375770313448466232327a453566714c4f433545524c515769644e614e49347545636339693768634a6c644868324e57725135674464624f6c7061756d49754c62326174415144506e7a3062384e6257636d785656524a33486d7870536377777a4f4a6d4b44524765384c6c435a444c4739673754496e5631516c376462586256316533675430574b697243466f6d6b5079767758466c5a474a4f6a563625324253743634757564445a4f55354555636f782532464d455144567674364d62634e3237593341797a687633737061557242365a3971724a534f3139657a6a387032704c426b4a792532426343484a7857493567573574636652527a31645531394766476b6f7539505a4f34736d52396a4746777065783444793362766e6d4b79706f74625531335669646a71595a68726a343972764d457425324625324659714c7a396430304e6a57253246637a67796f394f35317a7336614e6c6f354644747530445a675146686c47584a30644241446f4e6864367576703657686f617967374e394c564748386d443462253246486e667455516f4e4734764c51306769784d716c5725324234714f6a744e48446733723166365969525347785279375576714c62395534716b716e78504f4e7661356c447048723125324279794b524e4b57425a793565644d554842326d3572792532422532424551772532427a6766347a6f39253246306f634e3357527a4c4277344a2532424a7950574372716d4967475974554f735744346f785a46516f50556a4770564871493425324661666b51504336665a5165654d31253242764c7549516e6a754257514444437363726d485039656f4e5041744271664f6e5875614b25324268364a45624772732532427076764d6d78654962683836336162565065597953456f39464a48704e4d464a59253242503563575a6b6667374f3174537759436553514c54593345385130392532464256504a556c78516a7368543142736343593032723955445542667643484236367063665041336c794165336e6772332532463437584467614a7a736c7937787741364e5a746c555550437541487161536a5549502532427375653842525741432532464e6651374a5a505a35397330476a3756747049537a34685125324243706658474d4b685a63764c70554b7866574d386f68766637702532464f446a4842666356463849736b383267314648796b63564645253242555a414158343761452532464d6c34504f3530506e75683025324678346e6d637957507364774468427836436d6b4c562532466746446a594b784f4a4f4674623077517949684c39527943774b33414f664947703159464542686e4d4a634c525745624b644b516f55366e63545a6b494544696341792532463831645675454d3552775066657934784f7830496b25324649324e6e466b692532425761664f6f464959466367595a43797864376543556a626334416d46363566742532466b4d686b336f25324235686337734d4a79716a4a45477659466151464972375930775077384246415925324236253242766d6b3377367a7a5275444d6d5a5652736668385274413075455453443775434254364459514e36697665553066706b594c6a453671725672744f78654e4b553954484c5a4a396b4255324a427342685635416976422532466f4b61514e4b675043427744596149665a4334616454684f71463457454e56694c4a77566f586f62664c424b56773637414f6154734c6336355461564b32317651344c613939654b6359673576627873624f627a5451394e37554b4467554f3177446a6944494942736868357a746733396e514d4c535a4248344f7a424f55444551586d323036643366634c67737762585141345068634b336e6873775531427a3877765130395248472532466f597933656a6677424e6d746f59714c4130586741414141424a52553545726b4a676767253344253344266c6162656c3d557064617465644174" alt="last-commit" data-canonical-src="https://img.shields.io/github/last-commit/link1st/go-stress-testing?display_timestamp=committer&amp;logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHUlEQVR4nLVX7U9aVxwm26dlX%2Fdhbx%2B2%2FQnbkvUbrdUAQgJJIfUDNWDTTmOv1FQUFaPJ4kusrV01Jt1sNpctS2u3botZtmxd9tJSFSoqKqIF5bYDFLCovClefstzJ8wXRLDZLznkcO4557n3d3%2FneZ4rEOQZt1WqF%2B8XFr4%2BfOLEe2joY0zwf8ToyZPvjEgkLY%2Bk0mmrXO6dKinxzGk0fjT0x%2BRyr0UqncYczM1rc4tQ%2BIrp2LGXdo4NC4VvWqTS72wqlc%2Br13ORri6KdXdnbOHLlwlzJpRKn6W4%2BK6poOCNnIAfHj%2F%2BwahIZB4vKnqZf0qJpNIql%2Fv8TU0cNl5rbyc3w0QnTp3y2LTaJ7M1NaxDr2fRn1SpPG6Gia21tfE34TcaOay1iMUVOQFbFYqIWSo1W8TiAVanC0evXOEB7Wp14HFb22zE5fqLOC5ERLQWidNaNI4uEcc9i7hcJldHh2NWrQ5gDdbOlpaumIuLb2atAQDPnz0b8NbWcmxVVRJ3HmxpScwwzOJmKDRGe8LlCZDLG9g7TInV1Ql7dbXbV1e3gT0WKirCFomkPyvwXFlZGJOjV6%2BSt64uudDZOU5EUcox%2FMEQDVvt6MbcN27Y3Ayzhv3spaUrB6Z9qrJSO19ezj8p2pLBkJy%2BcCHJxWI5gW5tcfRRz1dU19GfGkou9PZO4smR9jGFwpex4Dy3bvnmKypotbU13VidjqYZhrj49rvMEt%2F%2FYqLz9d00NjW%2Fczgyo9O51zs6aNlo5FDtu0DZgQFhlGXJ0dBADoNhd6uvp6Whoayg7N9LVGH8mD4b%2FHnftUQoNG4vLQ0gixMqlW%2B4qOjtNHDg3r1f6YiRSGxRy7UvqLb9U4qkqnxPONva5lDpHr1%2ByyKRNKWBZy5edMUHB2m5ry%2B%2BEQw%2Bzgf4zo9%2F0ocN3WRzLBw4J%2BJyPWCrqmIgGYtUOsWD4oxZFQoPUjGpVHqI4%2FafkQPC6fZQeeM1%2BvLuIQnjuBWQDDCscrmHP9eoNPAtBqfOnXuaK%2Bh6JEbGrs%2BpvvMmxeIbh863abVPeYySEo9FJHpNMFJY%2BP5cWZkfg7O1tSwYCeSQLTY3E8Q09%2FBVPJUlxQjshT1BscCY02r9UDUBfvCHB66pcfPA3lyAe3ngr3%2F47XDgaJzsly7xwA6NZtlUUPCuAHqaSjUIP%2Bsue8BRWAC%2FNfQ7JZPZ59s0Gj7VtpISz4hQ%2BCpfXGMKhZcvLpUKxfWM8ohvf7p%2FODjHBfcVF8Isk82g1FHykcVFE%2BUZAAX47aE%2FMl4PO50Pnuh0%2Fx4nmcyWPsdwDhBx6CmkLV%2FgFDjYKxOJOFtb0wQyIhL9RyCwK3AOfIGp1YFEBhnMJcLRWEbKdKQoU6ncTZkIEDicAy%2F81dVuEM5RwPfey4xOx0Ik%2FI2NnFki%2BWafOoFIYFcgYZCyxd7eCUjbc4AmF65ft%2FkMhk3o%2B5hc7sMJyqjJEGvYFaQFIr7Y0wPw8BFAY%2B6%2Bvmk3w6zzRuDMmZVRsfh8RtA0uETSD7uCBT6DYQN6iveU0fpkYLjE6qrVrtOxeNKU9THLZJ9kBU2JBsBhV5AivB%2FoKaQNKgPCBwDYaIfZC4adThOqF4WENViLJwVoXobfLBKVw67AOaTsLc65TaVK21vQ4La99eKcYg5vbxsbObzTQ9N7UKDgUO1wDjiDIIBshh5ztg39nQMLSZBH4OzBOUDEQXm206d3fcLgswbXQA4PhcK3nhswU1Bz8wvQ09RHG%2FoYy3ejfwBNmtoYqLA0XgAAAABJRU5ErkJggg%3D%3D&amp;label=UpdatedAt" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>CreatedAt</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/566f590eab2b6518376598e9cfde93ab8ff8dd4b25954a07532ff74a3492d47a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f637265617465642d61742f6c696e6b3173742f676f2d7374726573732d74657374696e673f6c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e5355684555674141414234414141416543415941414141374d4b3669414141414358424957584d41414173544141414c457745416d7077594141414648556c45515652346e4c5658375539615678776d3236646c582532466468627825324232253246516e626b7655627264554151674a4a496655444e574454546d4f76314651554661504a346b7573725630314a7431734e70637453327533626f745a746d786439744a5346536f714b71494635625944464c436f76436c656673747a4a387758524c445a4c7a6e6b634f343535376e3364332532466e655a3472454f515a74315771462532423858467234253242664f4c4565326a6f59307a776638546f795a50766a45676b4c592532426b306d6d72584f36644b696e787a476b30666a5430782532425279723055716e6359637a4d317263347451253242497270324c4758646f344e4334567657715453373277716c632532427231334f527269364b6458646e624f484c6c776c7a4a70524b6e3657342532424b36706f4f434e6e494166486a253246253242776168495a4234764b6e715a6630714a704e49716c2532467638545530634e6c3572627963337730516e54703379324c54614a374d314e617844723266526e315370504736476961323174664533345463614f617931694d55564f5146624659714957536f31573854694156616e43306576584f4542375770313448466232327a453566714c4f433545524c515769644e614e49347545636339693768634a6c644868324e57725135674464624f6c7061756d49754c62326174415144506e7a3062384e6257636d785656524a33486d7870536377777a4f4a6d4b44524765384c6c435a444c4739673754496e5631516c376462586256316533675430574b697243466f6d6b5079767758466c5a474a4f6a563625324253743634757564445a4f55354555636f782532464d455144567674364d62634e3237593341797a687633737061557242365a3971724a534f3139657a6a387032704c426b4a792532426343484a7857493567573574636652527a31645531394766476b6f7539505a4f34736d52396a4746777065783444793362766e6d4b79706f74625531335669646a71595a68726a343972764d457425324625324659714c7a396430304e6a57253246637a67796f394f35317a7336614e6c6f354644747530445a675146686c47584a30644241446f4e6864367576703657686f617967374e394c564748386d443462253246486e667455516f4e4734764c51306769784d716c5725324234714f6a744e48446733723166365969525347785279375576714c62395534716b716e78504f4e7661356c447048723125324279794b524e4b57425a793565644d554842326d3572792532422532424551772532427a6766347a6f39253246306f634e3357527a4c4277344a2532424a7950574372716d4967475974554f735744346f785a46516f50556a4770564871493425324661666b51504336665a5165654d31253242764c7549516e6a754257514444437363726d485039656f4e5041744271664f6e5875614b25324268364a45624772732532427076764d6d78654962683836336162565065597953456f39464a48704e4d464a59253242503563575a6b6667374f3174537759436553514c54593345385130392532464256504a556c78516a7368543142736343593032723955445542667643484236367063665041336c794165336e6772332532463437584467614a7a736c7937787741364e5a746c555550437541487161536a5549502532427375653842525741432532464e6651374a5a505a35397330476a3756747049537a34685125324243706658474d4b685a63764c70554b7866574d386f68766637702532464f446a4842666356463849736b383267314648796b63564645253242555a414158343761452532464d6c34504f3530506e75683025324678346e6d637957507364774468427836436d6b4c562532466746446a594b784f4a4f4674623077517949684c39527943774b33414f664947703159464542686e4d4a634c525745624b644b516f55366e63545a6b494544696341792532463831645675454d3552775066657934784f7830496b25324649324e6e466b692532425761664f6f464959466367595a43797864376543556a626334416d46363566742532466b4d686b336f25324235686337734d4a79716a4a45477659466151464972375930775077384246415925324236253242766d6b3377367a7a5275444d6d5a5652736668385274413075455453443775434254364459514e36697665553066706b594c6a453671725672744f78654e4b553954484c5a4a396b4255324a427342685635416976422532466f4b61514e4b675043427744596149665a4334616454684f71463457454e56694c4a77566f586f62664c424b56773637414f6154734c6336355461564b32317651344c613939654b6359673576627873624f627a5451394e37554b4467554f3177446a6944494942736868357a746733396e514d4c535a4248344f7a424f55444551586d323036643366634c67737762585141345068634b336e6873775531427a3877765130395248472532466f597933656a6677424e6d746f59714c4130586741414141424a52553545726b4a676767253344253344266c6162656c3d437265617465644174" alt="create-at" data-canonical-src="https://img.shields.io/github/created-at/link1st/go-stress-testing?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHUlEQVR4nLVX7U9aVxwm26dlX%2Fdhbx%2B2%2FQnbkvUbrdUAQgJJIfUDNWDTTmOv1FQUFaPJ4kusrV01Jt1sNpctS2u3botZtmxd9tJSFSoqKqIF5bYDFLCovClefstzJ8wXRLDZLznkcO4557n3d3%2FneZ4rEOQZt1WqF%2B8XFr4%2BfOLEe2joY0zwf8ToyZPvjEgkLY%2Bk0mmrXO6dKinxzGk0fjT0x%2BRyr0UqncYczM1rc4tQ%2BIrp2LGXdo4NC4VvWqTS72wqlc%2Br13ORri6KdXdnbOHLlwlzJpRKn6W4%2BK6poOCNnIAfHj%2F%2BwahIZB4vKnqZf0qJpNIql%2Fv8TU0cNl5rbyc3w0QnTp3y2LTaJ7M1NaxDr2fRn1SpPG6Gia21tfE34TcaOay1iMUVOQFbFYqIWSo1W8TiAVanC0evXOEB7Wp14HFb22zE5fqLOC5ERLQWidNaNI4uEcc9i7hcJldHh2NWrQ5gDdbOlpaumIuLb2atAQDPnz0b8NbWcmxVVRJ3HmxpScwwzOJmKDRGe8LlCZDLG9g7TInV1Ql7dbXbV1e3gT0WKirCFomkPyvwXFlZGJOjV6%2BSt64uudDZOU5EUcox%2FMEQDVvt6MbcN27Y3Ayzhv3spaUrB6Z9qrJSO19ezj8p2pLBkJy%2BcCHJxWI5gW5tcfRRz1dU19GfGkou9PZO4smR9jGFwpex4Dy3bvnmKypotbU13VidjqYZhrj49rvMEt%2F%2FYqLz9d00NjW%2Fczgyo9O51zs6aNlo5FDtu0DZgQFhlGXJ0dBADoNhd6uvp6Whoayg7N9LVGH8mD4b%2FHnftUQoNG4vLQ0gixMqlW%2B4qOjtNHDg3r1f6YiRSGxRy7UvqLb9U4qkqnxPONva5lDpHr1%2ByyKRNKWBZy5edMUHB2m5ry%2B%2BEQw%2Bzgf4zo9%2F0ocN3WRzLBw4J%2BJyPWCrqmIgGYtUOsWD4oxZFQoPUjGpVHqI4%2FafkQPC6fZQeeM1%2BvLuIQnjuBWQDDCscrmHP9eoNPAtBqfOnXuaK%2Bh6JEbGrs%2BpvvMmxeIbh863abVPeYySEo9FJHpNMFJY%2BP5cWZkfg7O1tSwYCeSQLTY3E8Q09%2FBVPJUlxQjshT1BscCY02r9UDUBfvCHB66pcfPA3lyAe3ngr3%2F47XDgaJzsly7xwA6NZtlUUPCuAHqaSjUIP%2Bsue8BRWAC%2FNfQ7JZPZ59s0Gj7VtpISz4hQ%2BCpfXGMKhZcvLpUKxfWM8ohvf7p%2FODjHBfcVF8Isk82g1FHykcVFE%2BUZAAX47aE%2FMl4PO50Pnuh0%2Fx4nmcyWPsdwDhBx6CmkLV%2FgFDjYKxOJOFtb0wQyIhL9RyCwK3AOfIGp1YFEBhnMJcLRWEbKdKQoU6ncTZkIEDicAy%2F81dVuEM5RwPfey4xOx0Ik%2FI2NnFki%2BWafOoFIYFcgYZCyxd7eCUjbc4AmF65ft%2FkMhk3o%2B5hc7sMJyqjJEGvYFaQFIr7Y0wPw8BFAY%2B6%2Bvmk3w6zzRuDMmZVRsfh8RtA0uETSD7uCBT6DYQN6iveU0fpkYLjE6qrVrtOxeNKU9THLZJ9kBU2JBsBhV5AivB%2FoKaQNKgPCBwDYaIfZC4adThOqF4WENViLJwVoXobfLBKVw67AOaTsLc65TaVK21vQ4La99eKcYg5vbxsbObzTQ9N7UKDgUO1wDjiDIIBshh5ztg39nQMLSZBH4OzBOUDEQXm206d3fcLgswbXQA4PhcK3nhswU1Bz8wvQ09RHG%2FoYy3ejfwBNmtoYqLA0XgAAAABJRU5ErkJggg%3D%3D&amp;label=CreatedAt" style="max-width: 100%;"></a></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<a href="https://github.com/opsre/awesome-ops">
+</a><p dir="auto"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/b964a36ea4078c39f603d46a29436371c7541a2f26e0228d7b21b9d9805b43d3/68747470733a2f2f736f6369616c6966792e6769742e63692f6f707372652f617765736f6d652d6f70732f696d6167653f6465736372697074696f6e3d3126666f6e743d42697474657226666f726b733d31266973737565733d31266c616e67756167653d31266c6f676f3d6874747073253341253246253246617661746172732e67697468756275736572636f6e74656e742e636f6d25324675253246313838353638303230266e616d653d31266f776e65723d31267061747465726e3d436972637569742b426f6172642670756c6c733d31267374617267617a6572733d31267468656d653d4c69676874" alt="" data-canonical-src="https://socialify.git.ci/opsre/awesome-ops/image?description=1&amp;font=Bitter&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F188568020&amp;name=1&amp;owner=1&amp;pattern=Circuit+Board&amp;pulls=1&amp;stargazers=1&amp;theme=Light" style="max-width: 100%;"></a></p>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966"><img src="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966" width="100%" height="3" data-animated-image="" data-canonical-src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" style="max-width: 100%; height: auto; max-height: 3px;"></a>
+</div>
+<h1 dir="auto">go实现的压测工具【单台机器100w连接压测实战】</h1>
+<p dir="auto"><a href="https://pkg.go.dev/github.com/link1st/go-stress-testing" rel="nofollow"><img src="https://camo.githubusercontent.com/5c3856dc84fcf48069a388fc86e95f20ede45d9e8768091b10e281e1d658258c/68747470733a2f2f706b672e676f2e6465762f62616467652f6769746875622e636f6d2f6c696e6b3173742f676f2d7374726573732d74657374696e67" alt="PkgGoDev" data-canonical-src="https://pkg.go.dev/badge/github.com/link1st/go-stress-testing" style="max-width: 100%;"></a><br>
+<a href="https://github.com/link1st/go-stress-testing/releases"><img src="https://camo.githubusercontent.com/c8da2b04c8fe888fdeac229007dd5eca9bdc0dadf18cd205d0ff6817e69d2891/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f6c696e6b3173742f676f2d7374726573732d74657374696e67" alt="Release" data-canonical-src="https://img.shields.io/github/v/release/link1st/go-stress-testing" style="max-width: 100%;"></a><br>
+<a href="https://goreportcard.com/report/github.com/link1st/go-stress-testing" rel="nofollow"><img src="https://camo.githubusercontent.com/8c02c404c9983b190106f50f32ff122aecc65b698644f57c8fd675ee8fceaf09/68747470733a2f2f676f7265706f7274636172642e636f6d2f62616467652f6769746875622e636f6d2f6c696e6b3173742f676f2d7374726573732d74657374696e67" alt="Go Report Card" data-canonical-src="https://goreportcard.com/badge/github.com/link1st/go-stress-testing" style="max-width: 100%;"></a><br>
+<a href="https://github.com/link1st/go-stress-testing/issues"><img src="https://camo.githubusercontent.com/be9ff31bb1324b2ed1131e373a210f735849ff97c6f090cfd264a4ece5400247/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f6c696e6b3173742f676f2d7374726573732d74657374696e67" alt="OpenIssue" data-canonical-src="https://img.shields.io/github/issues/link1st/go-stress-testing" style="max-width: 100%;"></a><br>
+<a href="https://github.com/link1st/go-stress-testing/issues?q=is%3Aissue+is%3Aclosed"><img src="https://camo.githubusercontent.com/00feaa4481ac3d4d12fe5ec3d117395d76b5cf20b93b8d7297d3a1bb2e56c129/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d636c6f7365642f6c696e6b3173742f676f2d7374726573732d74657374696e67" alt="ClosedIssue" data-canonical-src="https://img.shields.io/github/issues-closed/link1st/go-stress-testing" style="max-width: 100%;"></a><br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/26295a64c801a3e500e34b3c833eed5437968cd37204c38d890bb6d2edb66073/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6c696e6b3173742f676f2d7374726573732d74657374696e67"><img src="https://camo.githubusercontent.com/26295a64c801a3e500e34b3c833eed5437968cd37204c38d890bb6d2edb66073/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6c696e6b3173742f676f2d7374726573732d74657374696e67" alt="Stars" data-canonical-src="https://img.shields.io/github/stars/link1st/go-stress-testing" style="max-width: 100%;"></a><br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/8d9b89fcec2180787aedec499c4b9f552c621a2163406ef55411ff75e08c91ba/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f6c696e6b3173742f676f2d7374726573732d74657374696e67"><img src="https://camo.githubusercontent.com/8d9b89fcec2180787aedec499c4b9f552c621a2163406ef55411ff75e08c91ba/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f6c696e6b3173742f676f2d7374726573732d74657374696e67" alt="Forks" data-canonical-src="https://img.shields.io/github/forks/link1st/go-stress-testing" style="max-width: 100%;"></a><br>
+<a href="https://starchart.cc/link1st/go-stress-testing" rel="nofollow"><img src="https://camo.githubusercontent.com/e8dc9042470c355cf82c804eadafd9baecc5d3caa22d9dca06f8615b7b2e40e7/68747470733a2f2f7374617263686172742e63632f6c696e6b3173742f676f2d7374726573732d74657374696e672e7376673f76617269616e743d6164617074697665" alt="Stargazers over time" data-canonical-src="https://starchart.cc/link1st/go-stress-testing.svg?variant=adaptive" style="max-width: 100%;"></a></p>
+<p dir="auto">本文介绍压测是什么，解释压测的专属名词，教大家如何压测。介绍市面上的常见压测工具(ab、locust、Jmeter、go实现的压测工具、云压测)，对比这些压测工具，教大家如何选择一款适合自己的压测工具，本文还有两个压测实战项目：</p>
+<ul dir="auto">
+<li>单台机器对 HTTP 短连接 QPS 1W+ 的压测实战</li>
+<li>单台机器 100W 长连接的压测实战</li>
+<li>对 grpc 接口进行压测</li>
+<li>支持 http1.1 和 2.0 长连接</li>
+</ul>
+<blockquote>
+<p dir="auto">简单扩展即可支持 私有协议</p>
+</blockquote>
+<h2 dir="auto">目录</h2>
+<ul dir="auto">
+<li><a href="#1%E9%A1%B9%E7%9B%AE%E8%AF%B4%E6%98%8E">1、项目说明</a>
+<ul dir="auto">
+<li><a href="#11-go-stress-testing">1.1 go-stress-testing</a></li>
+<li><a href="#12-%E9%A1%B9%E7%9B%AE%E4%BD%93%E9%AA%8C">1.2 项目体验</a></li>
+</ul>
+</li>
+<li><a href="#2%E5%8E%8B%E6%B5%8B">2、压测</a>
+<ul dir="auto">
+<li><a href="#21-%E5%8E%8B%E6%B5%8B%E6%98%AF%E4%BB%80%E4%B9%88">2.1 压测是什么</a></li>
+<li><a href="#22-%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%8E%8B%E6%B5%8B">2.2 为什么要压测</a></li>
+<li><a href="#23-%E5%8E%8B%E6%B5%8B%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A">2.3 压测名词解释</a>
+<ul dir="auto">
+<li><a href="#231-%E5%8E%8B%E6%B5%8B%E7%B1%BB%E5%9E%8B%E8%A7%A3%E9%87%8A">2.3.1 压测类型解释</a></li>
+<li><a href="#232-%E5%8E%8B%E6%B5%8B%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A">2.3.2 压测名词解释</a></li>
+<li><a href="#233-%E6%9C%BA%E5%99%A8%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87%E8%A7%A3%E9%87%8A">2.3.3 机器性能指标解释</a></li>
+<li><a href="#234-%E8%AE%BF%E9%97%AE%E6%8C%87%E6%A0%87%E8%A7%A3%E9%87%8A">2.3.4 访问指标解释</a></li>
+</ul>
+</li>
+<li><a href="#24-%E5%A6%82%E4%BD%95%E8%AE%A1%E7%AE%97%E5%8E%8B%E6%B5%8B%E6%8C%87%E6%A0%87">3.4 如何计算压测指标</a></li>
+</ul>
+</li>
+<li><a href="#3%E5%B8%B8%E8%A7%81%E7%9A%84%E5%8E%8B%E6%B5%8B%E5%B7%A5%E5%85%B7">3、常见的压测工具</a>
+<ul dir="auto">
+<li><a href="#31-ab">3.1 ab</a></li>
+<li><a href="#32-locust">3.2 locust</a></li>
+<li><a href="#33-JMeter">3.3 JMeter</a></li>
+<li><a href="#34-%E4%BA%91%E5%8E%8B%E6%B5%8B">3.4 云压测</a>
+<ul dir="auto">
+<li><a href="#341-%E4%BA%91%E5%8E%8B%E6%B5%8B%E4%BB%8B%E7%BB%8D">3.4.1 云压测介绍</a></li>
+<li><a href="#342-%E9%98%BF%E9%87%8C%E4%BA%91-%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95-PTS">3.4.2 阿里云 性能测试 PTS</a></li>
+<li><a href="#343-%E8%85%BE%E8%AE%AF%E4%BA%91-%E5%8E%8B%E6%B5%8B%E5%A4%A7%E5%B8%88-LM">3.4.3 腾讯云 压测大师 LM</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#4go-stress-testing-go%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%8E%B0%E7%9A%84%E5%8E%8B%E6%B5%8B%E5%B7%A5%E5%85%B7">4、go-stress-testing go语言实现的压测工具</a>
+<ul dir="auto">
+<li><a href="#41-%E4%BB%8B%E7%BB%8D">4.1 介绍</a></li>
+<li><a href="#42-%E7%94%A8%E6%B3%95">4.2 用法</a></li>
+<li><a href="#43-%E5%AE%9E%E7%8E%B0">4.3 实现</a></li>
+<li><a href="#44-go-stress-testing-%E5%AF%B9-golang-web-%E5%8E%8B%E6%B5%8B">4.4 go-stress-testing 对 Golang web 压测</a></li>
+<li><a href="#45-grpc%E5%8E%8B%E6%B5%8B">4.5 grpc压测</a></li>
+</ul>
+</li>
+<li><a href="#5%E5%8E%8B%E6%B5%8B%E5%B7%A5%E5%85%B7%E7%9A%84%E6%AF%94%E8%BE%83">5、压测工具的比较</a>
+<ul dir="auto">
+<li><a href="#51-%E6%AF%94%E8%BE%83">5.1 比较</a></li>
+<li><a href="#52-%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E5%8E%8B%E6%B5%8B%E5%B7%A5%E5%85%B7">5.2 如何选择压测工具</a></li>
+</ul>
+</li>
+<li><a href="#6%E5%8D%95%E5%8F%B0%E6%9C%BA%E5%99%A8100w%E8%BF%9E%E6%8E%A5%E5%8E%8B%E6%B5%8B%E5%AE%9E%E6%88%98">6、单台机器100w连接压测实战</a>
+<ul dir="auto">
+<li><a href="#61-%E8%AF%B4%E6%98%8E">6.1 说明</a></li>
+<li><a href="#62-%E5%86%85%E6%A0%B8%E4%BC%98%E5%8C%96">6.2 内核优化</a></li>
+<li><a href="#63-%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%85%8D%E7%BD%AE">6.3 客户端配置</a></li>
+<li><a href="#64-%E5%87%86%E5%A4%87">6.4 准备</a></li>
+<li><a href="#65-%E5%8E%8B%E6%B5%8B%E6%95%B0%E6%8D%AE">6.5 压测数据</a></li>
+</ul>
+</li>
+<li><a href="#7%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98">7、常见问题</a></li>
+<li><a href="#8%E6%80%BB%E7%BB%93">8、总结</a></li>
+<li><a href="#9%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE">9、参考文献</a></li>
+</ul>
+<h2 dir="auto">1、项目说明</h2>
+<h3 dir="auto">1.1 go-stress-testing</h3>
+<p dir="auto">go 实现的压测工具，每个用户用一个协程的方式模拟，最大限度的利用 CPU 资源</p>
+<h3 dir="auto">1.2 项目体验</h3>
+<ul dir="auto">
+<li>可以在 mac/linux/windows 不同平台下执行的命令</li>
+</ul>
+<blockquote>
+<p dir="auto"><a href="https://github.com/link1st/go-stress-testing/releases">go-stress-testing</a> 压测工具下载地址<br>
+查看帮助信息 <code class="notranslate">go-stress-testing-mac --help</code></p>
+</blockquote>
+<ul dir="auto">
+<li>有 go 环境安装</li>
+</ul>
+<blockquote>
+<p dir="auto">安装最新版本 <code class="notranslate">go install github.com/link1st/go-stress-testing@latest</code><br>
+安装路径在 <code class="notranslate">echo $GOBIN</code> 目录下，配置了 <code class="notranslate">export PATH=$PATH:$GOROOT/bin:$GOBIN</code> 可以在任意目录下执行<br>
+查看帮助信息 <code class="notranslate">go-stress-testing --help</code></p>
+</blockquote>
+<p dir="auto">参数说明:</p>
+<p dir="auto"><code class="notranslate">-c</code> 表示并发数</p>
+<p dir="auto"><code class="notranslate">-n</code> 每个并发执行请求的次数，总请求的次数 = 并发数 <code class="notranslate">*</code> 每个并发执行请求的次数</p>
+<p dir="auto"><code class="notranslate">-u</code> 需要压测的地址</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="
+# 运行以 mac 为示例
+./go-stress-testing-mac -c 1 -n 100 -u https://www.baidu.com/
+"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> 运行以 mac 为示例</span>
+./go-stress-testing-mac -c 1 -n 100 -u https://www.baidu.com/
+</pre></div>
+<ul dir="auto">
+<li>压测结果展示</li>
+</ul>
+<p dir="auto">执行以后，终端每秒钟都会输出一次结果，压测完成以后输出执行的压测结果</p>
+<p dir="auto">压测结果展示:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="
+─────┬───────┬───────┬───────┬────────┬────────┬────────┬────────┬────────
+ 耗时│ 并发数 │ 成功数│ 失败数 │   qps  │最长耗时 │最短耗时│平均耗时 │ 错误码
+─────┼───────┼───────┼───────┼────────┼────────┼────────┼────────┼────────
+   1s│      1│      8│      0│    8.09│  133.16│  110.98│  123.56│200:8
+   2s│      1│     15│      0│    8.02│  138.74│  110.98│  124.61│200:15
+   3s│      1│     23│      0│    7.80│  220.43│  110.98│  128.18│200:23
+   4s│      1│     31│      0│    7.83│  220.43│  110.23│  127.67│200:31
+   5s│      1│     39│      0│    7.81│  220.43│  110.23│  128.03│200:39
+   6s│      1│     46│      0│    7.72│  220.43│  110.23│  129.59│200:46
+   7s│      1│     54│      0│    7.79│  220.43│  110.23│  128.42│200:54
+   8s│      1│     62│      0│    7.81│  220.43│  110.23│  128.09│200:62
+   9s│      1│     70│      0│    7.79│  220.43│  110.23│  128.33│200:70
+  10s│      1│     78│      0│    7.82│  220.43│  106.47│  127.85│200:78
+  11s│      1│     84│      0│    7.64│  371.02│  106.47│  130.96│200:84
+  12s│      1│     91│      0│    7.63│  371.02│  106.47│  131.02│200:91
+  13s│      1│     99│      0│    7.66│  371.02│  106.47│  130.54│200:99
+  13s│      1│    100│      0│    7.66│  371.02│  106.47│  130.52│200:100
+
+
+*************************  结果 stat  ****************************
+处理协程数量: 1
+请求总数: 100 总请求时间: 13.055 秒 successNum: 100 failureNum: 0
+*************************  结果 end   ****************************
+"><pre class="notranslate"><code class="notranslate">
+─────┬───────┬───────┬───────┬────────┬────────┬────────┬────────┬────────
+ 耗时│ 并发数 │ 成功数│ 失败数 │   qps  │最长耗时 │最短耗时│平均耗时 │ 错误码
+─────┼───────┼───────┼───────┼────────┼────────┼────────┼────────┼────────
+   1s│      1│      8│      0│    8.09│  133.16│  110.98│  123.56│200:8
+   2s│      1│     15│      0│    8.02│  138.74│  110.98│  124.61│200:15
+   3s│      1│     23│      0│    7.80│  220.43│  110.98│  128.18│200:23
+   4s│      1│     31│      0│    7.83│  220.43│  110.23│  127.67│200:31
+   5s│      1│     39│      0│    7.81│  220.43│  110.23│  128.03│200:39
+   6s│      1│     46│      0│    7.72│  220.43│  110.23│  129.59│200:46
+   7s│      1│     54│      0│    7.79│  220.43│  110.23│  128.42│200:54
+   8s│      1│     62│      0│    7.81│  220.43│  110.23│  128.09│200:62
+   9s│      1│     70│      0│    7.79│  220.43│  110.23│  128.33│200:70
+  10s│      1│     78│      0│    7.82│  220.43│  106.47│  127.85│200:78
+  11s│      1│     84│      0│    7.64│  371.02│  106.47│  130.96│200:84
+  12s│      1│     91│      0│    7.63│  371.02│  106.47│  131.02│200:91
+  13s│      1│     99│      0│    7.66│  371.02│  106.47│  130.54│200:99
+  13s│      1│    100│      0│    7.66│  371.02│  106.47│  130.52│200:100
+
+
+*************************  结果 stat  ****************************
+处理协程数量: 1
+请求总数: 100 总请求时间: 13.055 秒 successNum: 100 failureNum: 0
+*************************  结果 end   ****************************
+
+</code></pre></div>
+<p dir="auto">参数解释:</p>
+<p dir="auto"><strong>耗时</strong>: 程序运行耗时。程序每秒钟输出一次压测结果</p>
+<p dir="auto"><strong>并发数</strong>: 并发数，启动的协程数</p>
+<p dir="auto"><strong>成功数</strong>: 压测中，请求成功的数量</p>
+<p dir="auto"><strong>失败数</strong>: 压测中，请求失败的数量</p>
+<p dir="auto"><strong>qps</strong>: 当前压测的 QPS (每秒钟处理请求数量)</p>
+<p dir="auto"><strong>最长耗时</strong>: 压测中，单个请求最长的响应时长</p>
+<p dir="auto"><strong>最短耗时</strong>: 压测中，单个请求最短的响应时长</p>
+<p dir="auto"><strong>平均耗时</strong>: 压测中，单个请求平均的响应时长</p>
+<p dir="auto"><strong>错误码</strong>: 压测中，接口返回的 code 码:返回次数的集合</p>
+<h2 dir="auto">2、压测</h2>
+<h3 dir="auto">2.1 压测是什么</h3>
+<p dir="auto">压测，即压力测试，是确立系统稳定性的一种测试方法，通常在系统正常运作范围之外进行，以考察其功能极限和隐患。</p>
+<p dir="auto">主要检测服务器的承受能力，包括用户承受能力（多少用户同时玩基本不影响质量）、流量承受等。</p>
+<h3 dir="auto">2.2 为什么要压测</h3>
+<ul dir="auto">
+<li>压测的目的就是通过压测(模拟真实用户的行为)，测算出机器的性能(单台机器的 QPS)，从而推算出系统在承受指定用户数(100W)时，需要多少机器能支撑得住</li>
+<li>压测是在上线前为了应对未来可能达到的用户数量的一次预估(提前演练)，压测以后通过优化程序的性能或准备充足的机器，来保证用户的体验。</li>
+</ul>
+<h3 dir="auto">2.3 压测名词解释</h3>
+<h4 dir="auto">2.3.1 压测类型解释</h4>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th align="left">压测类型</th>
+<th align="left">解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">压力测试(Stress Testing)</td>
+<td align="left">也称之为强度测试，测试一个系统的最大抗压能力，在强负载(大数据、高并发)的情况下，测试系统所能承受的最大压力，预估系统的瓶颈</td>
+</tr>
+<tr>
+<td align="left">并发测试(Concurrency Testing)</td>
+<td align="left">通过模拟很多用户同一时刻访问系统或对系统某一个功能进行操作，来测试系统的性能，从中发现问题(并发读写、线程控制、资源争抢)</td>
+</tr>
+<tr>
+<td align="left">耐久性测试(Configuration Testing)</td>
+<td align="left">通过对系统在大负荷的条件下长时间运行，测试系统、机器的长时间运行下的状况，从中发现问题(内存泄漏、数据库连接池不释放、资源不回收)</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<h4 dir="auto">2.3.2 压测名词解释</h4>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th align="left">压测名词</th>
+<th align="left">解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">并发(Concurrency)</td>
+<td align="left">指一个处理器同时处理多个任务的能力(逻辑上处理的能力)</td>
+</tr>
+<tr>
+<td align="left">并行(Parallel)</td>
+<td align="left">多个处理器或者是多核的处理器同时处理多个不同的任务(物理上同时执行)</td>
+</tr>
+<tr>
+<td align="left">QPS(每秒钟查询数量 Queries Per Second)</td>
+<td align="left">服务器每秒钟处理请求数量 (req/sec  请求数/秒  一段时间内总请求数/请求时间)</td>
+</tr>
+<tr>
+<td align="left">事务(Transactions)</td>
+<td align="left">是用户一次或者是几次请求的集合</td>
+</tr>
+<tr>
+<td align="left">TPS(每秒钟处理事务数量 Transaction Per Second)</td>
+<td align="left">服务器每秒钟处理事务数量(一个事务可能包括多个请求)</td>
+</tr>
+<tr>
+<td align="left">请求成功数(Request Success Number)</td>
+<td align="left">在一次压测中，请求成功的数量</td>
+</tr>
+<tr>
+<td align="left">请求失败数(Request Failures Number)</td>
+<td align="left">在一次压测中，请求失败的数量</td>
+</tr>
+<tr>
+<td align="left">错误率(Error Rate)</td>
+<td align="left">在压测中，请求成功的数量与请求失败数量的比率</td>
+</tr>
+<tr>
+<td align="left">最大响应时间(Max Response Time)</td>
+<td align="left">在一次压测中，从发出请求或指令系统做出的反映(响应)的最大时间</td>
+</tr>
+<tr>
+<td align="left">最少响应时间(Mininum Response Time)</td>
+<td align="left">在一次压测中，从发出请求或指令系统做出的反映(响应)的最少时间</td>
+</tr>
+<tr>
+<td align="left">平均响应时间(Average Response Time)</td>
+<td align="left">在一次压测中，从发出请求或指令系统做出的反映(响应)的平均时间</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<h4 dir="auto">2.3.3 机器性能指标解释</h4>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th align="left">机器性能</th>
+<th align="left">解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">CPU利用率(CPU Usage)</td>
+<td align="left">CPU 利用率分用户态、系统态和空闲态，CPU 利用率是指：CPU 执行非系统空闲进程的时间与 CPU 总执行时间的比率</td>
+</tr>
+<tr>
+<td align="left">内存使用率(Memory usage)</td>
+<td align="left">内存使用率指的是此进程所开销的内存</td>
+</tr>
+<tr>
+<td align="left">IO(Disk input/ output)</td>
+<td align="left">磁盘的读写包速率</td>
+</tr>
+<tr>
+<td align="left">网卡负载(Network Load)</td>
+<td align="left">网卡的进出带宽，包量</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<h4 dir="auto">2.3.4 访问指标解释</h4>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th align="left">访问</th>
+<th align="left">解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">PV(页面浏览量 Page Views)</td>
+<td align="left">一定时间范围内（时间范围可以是一天、一个月等自定义的时间段），用户每打开 1 个网站页面，记录 1 个 PV。用户多次打开同一页面，PV 值累计多次</td>
+</tr>
+<tr>
+<td align="left">UV(网站独立访客 Unique Visitors)</td>
+<td align="left">一定时间范围内（时间范围可以是一天、一个月等自定义的时间段），通过互联网访问、流量网站的自然人。相同访客多次访问网站，只计算为 1 个独立访客</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<h3 dir="auto">2.4 如何计算压测指标</h3>
+<ul dir="auto">
+<li>
+<p dir="auto">压测我们需要有目的性的压测，这次压测我们需要达到什么目标(如：单台机器的性能为 100 QPS ？网站能同时满足 100W 人同时在线)</p>
+</li>
+<li>
+<p dir="auto">可以通过以下计算方法来进行计算：</p>
+</li>
+<li>
+<p dir="auto">压测原则：每天 80% 的访问量集中在20%的时间里，这 20% 的时间就叫做峰值</p>
+</li>
+<li>
+<p dir="auto">公式：( 总PV数<code class="notranslate">*</code>80% ) / ( 每天的秒数<code class="notranslate">*</code>20% ) = 峰值时间每秒钟请求数(QPS)</p>
+</li>
+<li>
+<p dir="auto">机器：峰值时间每秒钟请求数(QPS) / 单台机器的QPS = 需要的机器的数量</p>
+</li>
+<li>
+<p dir="auto">假设：网站每天的用户数(100W)，每天的用户的访问量约为 3000W PV，这台机器的需要多少 QPS ？</p>
+</li>
+</ul>
+<blockquote>
+<p dir="auto">( 30000000*0.8 ) / (86400 * 0.2) ≈ 1389 (QPS)</p>
+</blockquote>
+<ul dir="auto">
+<li>假设：单台机器的的 QPS 是 69，需要需要多少台机器来支撑？</li>
+</ul>
+<blockquote>
+<p dir="auto">1389 / 69 ≈ 20</p>
+</blockquote>
+<h2 dir="auto">3、常见的压测工具</h2>
+<h3 dir="auto">3.1 ab</h3>
+<ul dir="auto">
+<li>简介</li>
+</ul>
+<p dir="auto">ApacheBench 是 Apache 服务器自带的一个web压力测试工具，简称 ab。ab 又是一个命令行工具，对发起负载的本机要求很低，根据 ab 命令可以创建很多的并发访问线程，模拟多个访问者同时对某一 URL 地址进行访问，因此可以用来测试目标服务器的负载压力。总的来说 ab 工具小巧简单，上手学习较快，可以提供需要的基本性能指标，但是没有图形化结果，不能监控。</p>
+<p dir="auto">ab 属于一个轻量级的压测工具，结果不会特别准确，可以用作参考。</p>
+<ul dir="auto">
+<li>安装</li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# 在linux环境安装
+sudo yum -y install httpd"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> 在linux环境安装</span>
+sudo yum -y install httpd</pre></div>
+<ul dir="auto">
+<li>用法</li>
+</ul>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="Usage: ab [options] [http[s]://]hostname[:port]/path
+用法：ab [选项] 地址
+
+选项：
+Options are:
+    -n requests      #执行的请求数，即一共发起多少请求。
+    -c concurrency   #请求并发数。
+    -s timeout       #指定每个请求的超时时间，默认是30秒。
+    -k               #启用HTTP KeepAlive功能，即在一个HTTP会话中执行多个请求。默认时，不启用KeepAlive功能。"><pre class="notranslate"><code class="notranslate">Usage: ab [options] [http[s]://]hostname[:port]/path
+用法：ab [选项] 地址
+
+选项：
+Options are:
+    -n requests      #执行的请求数，即一共发起多少请求。
+    -c concurrency   #请求并发数。
+    -s timeout       #指定每个请求的超时时间，默认是30秒。
+    -k               #启用HTTP KeepAlive功能，即在一个HTTP会话中执行多个请求。默认时，不启用KeepAlive功能。
+</code></pre></div>
+<ul dir="auto">
+<li>压测命令</li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# 使用ab压测工具，对百度的链接 请求100次，并发数1
+ab -n 100 -c 1 https://www.baidu.com/"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> 使用ab压测工具，对百度的链接 请求100次，并发数1</span>
+ab -n 100 -c 1 https://www.baidu.com/</pre></div>
+<p dir="auto">压测结果</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="~ &gt;ab -n 100 -c 1 https://www.baidu.com/
+This is ApacheBench, Version 2.3 &lt;$Revision: 1430300 $&gt;
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.baidu.com (be patient).....done
+
+
+Server Software:        BWS/1.1
+Server Hostname:        www.baidu.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+
+Document Path:          /
+Document Length:        227 bytes
+
+Concurrency Level:      1
+Time taken for tests:   9.430 seconds
+Complete requests:      100
+Failed requests:        0
+Write errors:           0
+Total transferred:      89300 bytes
+HTML transferred:       22700 bytes
+Requests per second:    10.60 [#/sec] (mean)
+Time per request:       94.301 [ms] (mean)
+Time per request:       94.301 [ms] (mean, across all concurrent requests)
+Transfer rate:          9.25 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       54   70  16.5     69     180
+Processing:    18   24  12.0     23     140
+Waiting:       18   24  12.0     23     139
+Total:         72   94  20.5     93     203
+
+Percentage of the requests served within a certain time (ms)
+  50%     93
+  66%     99
+  75%    101
+  80%    102
+  90%    108
+  95%    122
+  98%    196
+  99%    203
+ 100%    203 (longest request)"><pre class="notranslate"><code class="notranslate">~ &gt;ab -n 100 -c 1 https://www.baidu.com/
+This is ApacheBench, Version 2.3 &lt;$Revision: 1430300 $&gt;
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking www.baidu.com (be patient).....done
+
+
+Server Software:        BWS/1.1
+Server Hostname:        www.baidu.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1.2,ECDHE-RSA-AES128-GCM-SHA256,2048,128
+
+Document Path:          /
+Document Length:        227 bytes
+
+Concurrency Level:      1
+Time taken for tests:   9.430 seconds
+Complete requests:      100
+Failed requests:        0
+Write errors:           0
+Total transferred:      89300 bytes
+HTML transferred:       22700 bytes
+Requests per second:    10.60 [#/sec] (mean)
+Time per request:       94.301 [ms] (mean)
+Time per request:       94.301 [ms] (mean, across all concurrent requests)
+Transfer rate:          9.25 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       54   70  16.5     69     180
+Processing:    18   24  12.0     23     140
+Waiting:       18   24  12.0     23     139
+Total:         72   94  20.5     93     203
+
+Percentage of the requests served within a certain time (ms)
+  50%     93
+  66%     99
+  75%    101
+  80%    102
+  90%    108
+  95%    122
+  98%    196
+  99%    203
+ 100%    203 (longest request)
+</code></pre></div>
+<ul dir="auto">
+<li>
+<p dir="auto">主要关注的测试指标</p>
+</li>
+<li>
+<p dir="auto"><code class="notranslate">Concurrency Level</code> 并发请求数</p>
+</li>
+<li>
+<p dir="auto"><code class="notranslate">Time taken for tests</code> 整个测试时间</p>
+</li>
+<li>
+<p dir="auto"><code class="notranslate">Complete requests</code> 完成请求个数</p>
+</li>
+<li>
+<p dir="auto"><code class="notranslate">Failed requests</code> 失败个数</p>
+</li>
+<li>
+<p dir="auto"><code class="notranslate">Requests per second</code> 吞吐量，指的是某个并发用户下单位时间内处理的请求数。等效于 QPS，其实可以看作同一个统计方式，只是叫法不同而已。</p>
+</li>
+<li>
+<p dir="auto"><code class="notranslate">Time per request</code> 用户平均请求等待时间</p>
+</li>
+<li>
+<p dir="auto"><code class="notranslate">Time per request</code> 服务器处理时间</p>
+</li>
+</ul>
+<h3 dir="auto">3.2 Locust</h3>
+<ul dir="auto">
+<li>简介</li>
+</ul>
+<p dir="auto">是非常简单易用、分布式、python 开发的压力测试工具。有图形化界面，支持将压测数据导出。</p>
+<ul dir="auto">
+<li>安装</li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# pip3 安装locust
+pip3  install locust
+# 查看是否安装成功
+locust -h
+# 运行 Locust 分布在多个进程/机器库
+pip3 install pyzmq
+# webSocket 压测库
+pip3 install websocket-client"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> pip3 安装locust</span>
+pip3  install locust
+<span class="pl-c"><span class="pl-c">#</span> 查看是否安装成功</span>
+locust -h
+<span class="pl-c"><span class="pl-c">#</span> 运行 Locust 分布在多个进程/机器库</span>
+pip3 install pyzmq
+<span class="pl-c"><span class="pl-c">#</span> webSocket 压测库</span>
+pip3 install websocket-client</pre></div>
+<ul dir="auto">
+<li>用法</li>
+</ul>
+<p dir="auto">编写压测脚本 <strong>test.py</strong></p>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="from locust import HttpUser, TaskSet, task
+
+# 定义用户行为
+class UserBehavior(TaskSet):
+
+    @task
+    def baidu_index(self):
+        self.client.get(&quot;/&quot;)
+
+class WebsiteUser(HttpUser):
+    task = [UserBehavior] # 指向一个定义的用户行为类
+    min_wait = 3000 # 执行事务之间用户等待时间的下界（单位：毫秒）
+    max_wait = 6000 # 执行事务之间用户等待时间的上界（单位：毫秒）"><pre class="notranslate"><span class="pl-k">from</span> <span class="pl-s1">locust</span> <span class="pl-k">import</span> <span class="pl-v">HttpUser</span>, <span class="pl-v">TaskSet</span>, <span class="pl-s1">task</span>
+
+<span class="pl-c"># 定义用户行为</span>
+<span class="pl-k">class</span> <span class="pl-v">UserBehavior</span>(<span class="pl-v">TaskSet</span>):
+
+    <span class="pl-en">@<span class="pl-s1">task</span></span>
+    <span class="pl-k">def</span> <span class="pl-en">baidu_index</span>(<span class="pl-s1">self</span>):
+        <span class="pl-s1">self</span>.<span class="pl-c1">client</span>.<span class="pl-c1">get</span>(<span class="pl-s">"/"</span>)
+
+<span class="pl-k">class</span> <span class="pl-v">WebsiteUser</span>(<span class="pl-v">HttpUser</span>):
+    <span class="pl-s1">task</span> <span class="pl-c1">=</span> [<span class="pl-v">UserBehavior</span>] <span class="pl-c"># 指向一个定义的用户行为类</span>
+    <span class="pl-s1">min_wait</span> <span class="pl-c1">=</span> <span class="pl-c1">3000</span> <span class="pl-c"># 执行事务之间用户等待时间的下界（单位：毫秒）</span>
+    <span class="pl-s1">max_wait</span> <span class="pl-c1">=</span> <span class="pl-c1">6000</span> <span class="pl-c"># 执行事务之间用户等待时间的上界（单位：毫秒）</span></pre></div>
+<ul dir="auto">
+<li>启动压测</li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="locust -f  test.py --host=https://www.baidu.com"><pre class="notranslate">locust -f  test.py --host=https://www.baidu.com</pre></div>
+<p dir="auto">访问 <a href="http://localhost:8089" rel="nofollow">http://localhost:8089</a> 进入压测首页</p>
+<p dir="auto">Number of users to simulate 模拟用户数</p>
+<p dir="auto">Hatch rate (users spawned/second) 每秒钟增加用户数</p>
+<p dir="auto">点击 "Start swarming" 进入压测页面</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="img/locust%20%E9%A6%96%E9%A1%B5.png"><img src="img/locust%20%E9%A6%96%E9%A1%B5.png" alt="locust 首页" style="max-width: 100%;"></a></p>
+<p dir="auto">压测界面右上角有:被压测的地址、当前状态、RPS、失败率、开始或重启按钮</p>
+<p dir="auto">性能测试参数</p>
+<ul dir="auto">
+<li>
+<p dir="auto"><code class="notranslate">Type</code> 请求的类型，例如GET/POST</p>
+</li>
+<li>
+<p dir="auto"><code class="notranslate">Name</code> 请求的路径</p>
+</li>
+<li>
+<p dir="auto"><code class="notranslate">Request</code> 当前请求的数量</p>
+</li>
+<li>
+<p dir="auto"><code class="notranslate">Fails</code> 当前请求失败的数量</p>
+</li>
+<li>
+<p dir="auto"><code class="notranslate">Median</code> 中间值，单位毫秒，请求响应时间的中间值</p>
+</li>
+<li>
+<p dir="auto"><code class="notranslate">Average</code> 平均值，单位毫秒，请求的平均响应时间</p>
+</li>
+<li>
+<p dir="auto"><code class="notranslate">Min</code> 请求的最小服务器响应时间，单位毫秒</p>
+</li>
+<li>
+<p dir="auto"><code class="notranslate">Max</code> 请求的最大服务器响应时间，单位毫秒</p>
+</li>
+<li>
+<p dir="auto"><code class="notranslate">Average size</code> 单个请求的大小，单位字节</p>
+</li>
+<li>
+<p dir="auto"><code class="notranslate">Current RPS</code> 代表吞吐量(Requests Per Second的缩写)，指的是某个并发用户数下单位时间内处理的请求数。等效于QPS，其实可以看作同一个统计方式，只是叫法不同而已。</p>
+</li>
+</ul>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="img/locust%20%E5%8E%8B%E6%B5%8B%E9%A1%B5%E9%9D%A2.png"><img src="img/locust%20%E5%8E%8B%E6%B5%8B%E9%A1%B5%E9%9D%A2.png" alt="locust 压测页面" style="max-width: 100%;"></a></p>
+<h3 dir="auto">3.3 JMeter</h3>
+<ul dir="auto">
+<li>简介</li>
+</ul>
+<p dir="auto">Apache JMeter是Apache组织开发的基于Java的压力测试工具。用于对软件做压力测试，它最初被设计用于Web应用测试，但后来扩展到其他测试领域。<br>
+JMeter能够对应用程序做功能/回归测试，通过创建带有断言的脚本来验证你的程序返回了你期望的结果。</p>
+<ul dir="auto">
+<li>安装</li>
+</ul>
+<p dir="auto">访问 <a href="https://jmeter-plugins.org/install/Install/" rel="nofollow">https://jmeter-plugins.org/install/Install/</a> 下载解压以后即可使用</p>
+<ul dir="auto">
+<li>用法</li>
+</ul>
+<p dir="auto">JMeter的功能过于强大，这里暂时不介绍用法，可以查询相关文档使用(参考文献中有推荐的教程文档)</p>
+<h3 dir="auto">3.4 云压测</h3>
+<h4 dir="auto">3.4.1 云压测介绍</h4>
+<p dir="auto">顾名思义就是将压测脚本部署在云端，通过云端对对我们的应用进行全方位压测，只需要配置压测的参数，无需准备实体机，云端自动给我们分配需要压测的云主机，对被压测目标进行压测。</p>
+<p dir="auto">云压测的优势:</p>
+<ol dir="auto">
+<li>轻易的实现分布式部署</li>
+<li>能够模拟海量用户的访问</li>
+<li>流量可以从全国各地发起，更加真实的反映用户的体验</li>
+<li>全方位的监控压测指标</li>
+<li>文档比较完善</li>
+</ol>
+<p dir="auto">当然了云压测是一款商业产品，在使用的时候自然还是需要收费的，而且价格还是比较昂贵的~</p>
+<h4 dir="auto">3.4.2 阿里云 性能测试 PTS</h4>
+<p dir="auto">PTS（Performance Testing Service）是面向所有技术背景人员的云化测试工具。有别于传统工具的繁复，PTS以互联网化的交互，提供性能测试、API调试和监测等多种能力。自研和适配开源的功能都可以轻松模拟任意体量的用户访问业务的场景，任务随时发起，免去繁琐的搭建和维护成本。更是紧密结合监控、流控等兄弟产品提供一站式高可用能力，高效检验和管理业务性能。</p>
+<p dir="auto">阿里云同样还是支持渗透测试，通过模拟黑客对业务系统进行全面深入的安全测试。</p>
+<h4 dir="auto">3.4.3 腾讯云 压测大师 LM</h4>
+<p dir="auto">通过创建虚拟机器人模拟多用户的并发场景，提供一整套完整的服务器压测解决方案</p>
+<h2 dir="auto">4、go-stress-testing go语言实现的压测工具</h2>
+<h3 dir="auto">4.1 介绍</h3>
+<ul dir="auto">
+<li>
+<p dir="auto">go-stress-testing 是go语言实现的简单压测工具，源码开源、支持二次开发，可以压测http、webSocket请求、私有rpc调用，使用协程模拟单个用户，可以更高效的利用CPU资源。</p>
+</li>
+<li>
+<p dir="auto">项目地址 <a href="https://github.com/link1st/go-stress-testing">https://github.com/link1st/go-stress-testing</a></p>
+</li>
+</ul>
+<h3 dir="auto">4.2 用法</h3>
+<ul dir="auto">
+<li><a href="https://github.com/link1st/go-stress-testing/releases">go-stress-testing</a> 下载地址</li>
+<li>clone 项目源码运行的时候，需要将项目 clone 到 <strong>$GOPATH</strong> 目录下</li>
+<li>支持参数:</li>
+</ul>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="Usage of ./go-stress-testing-mac:
+  -c uint
+      并发数 (default 1)
+  -n uint
+      请求数(单个并发/协程) (default 1)
+  -u string
+      压测地址
+  -d string
+      调试模式 (default &quot;false&quot;)
+  -http2
+    	是否开http2.0
+  -k	是否开启长连接
+  -m int
+    	单个host最大连接数 (default 1)
+  -H value
+      自定义头信息传递给服务器 示例:-H 'Content-Type: application/json'
+  -data string
+      HTTP POST方式传送数据
+  -v string
+      验证方法 http 支持:statusCode、json webSocket支持:json
+  -p string
+      curl文件路径"><pre class="notranslate"><code class="notranslate">Usage of ./go-stress-testing-mac:
+  -c uint
+      并发数 (default 1)
+  -n uint
+      请求数(单个并发/协程) (default 1)
+  -u string
+      压测地址
+  -d string
+      调试模式 (default "false")
+  -http2
+    	是否开http2.0
+  -k	是否开启长连接
+  -m int
+    	单个host最大连接数 (default 1)
+  -H value
+      自定义头信息传递给服务器 示例:-H 'Content-Type: application/json'
+  -data string
+      HTTP POST方式传送数据
+  -v string
+      验证方法 http 支持:statusCode、json webSocket支持:json
+  -p string
+      curl文件路径
+</code></pre></div>
+<ul dir="auto">
+<li>
+<p dir="auto"><code class="notranslate">-n</code> 是单个用户请求的次数，请求总次数 = <code class="notranslate">-c</code>* <code class="notranslate">-n</code>， 这里考虑的是模拟用户行为，所以这个是每个用户请求的次数</p>
+</li>
+<li>
+<p dir="auto">下载以后执行下面命令即可压测</p>
+</li>
+<li>
+<p dir="auto">使用示例:</p>
+</li>
+</ul>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="# 查看用法
+./go-stress-testing-mac
+
+# 使用请求百度页面
+./go-stress-testing-mac -c 1 -n 100 -u https://www.baidu.com/
+
+# 使用debug模式请求百度页面
+./go-stress-testing-mac -c 1 -n 1 -d true -u https://www.baidu.com/
+
+# 使用 curl文件(文件在curl目录下) 的方式请求
+./go-stress-testing-mac -c 1 -n 1 -p curl/baidu.curl.txt
+
+# 压测webSocket连接
+./go-stress-testing-mac -c 10 -n 10 -u ws://127.0.0.1:8089/acc"><pre class="notranslate"><code class="notranslate"># 查看用法
+./go-stress-testing-mac
+
+# 使用请求百度页面
+./go-stress-testing-mac -c 1 -n 100 -u https://www.baidu.com/
+
+# 使用debug模式请求百度页面
+./go-stress-testing-mac -c 1 -n 1 -d true -u https://www.baidu.com/
+
+# 使用 curl文件(文件在curl目录下) 的方式请求
+./go-stress-testing-mac -c 1 -n 1 -p curl/baidu.curl.txt
+
+# 压测webSocket连接
+./go-stress-testing-mac -c 10 -n 10 -u ws://127.0.0.1:8089/acc
+</code></pre></div>
+<ul dir="auto">
+<li>完整压测命令示例</li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# 更多参数 支持 header、post body
+go run main.go -c 1 -n 1 -d true -u 'https://page.aliyun.com/delivery/plan/list' \
+  -H 'authority: page.aliyun.com' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -H 'origin: https://cn.aliyun.com' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://cn.aliyun.com/' \
+  -H 'accept-language: zh-CN,zh;q=0.9' \
+  -H 'cookie: aliyun_choice=CN; JSESSIONID=J8866281-CKCFJ4BUZ7GDO9V89YBW1-KJ3J5V9K-GYUW7; maliyun_temporary_console0=1AbLByOMHeZe3G41KYd5WWZvrM%2BGErkaLcWfBbgveKA9ifboArprPASvFUUfhwHtt44qsDwVqMk8Wkdr1F5LccYk2mPCZJiXb0q%2Bllj5u3SQGQurtyPqnG489y%2FkoA%2FEvOwsXJTvXTFQPK%2BGJD4FJg%3D%3D; cna=L3Q5F8cHDGgCAXL3r8fEZtdU; isg=BFNThsmSCcgX-sUcc5Jo2s2T4tF9COfKYi8g9wVwr3KphHMmjdh3GrHFvPTqJD_C; l=eBaceXLnQGBjstRJBOfwPurza77OSIRAguPzaNbMiT5POw1B5WAlWZbqyNY6C3GVh6lwR37EODnaBeYBc3K-nxvOu9eFfGMmn' \
+  -data 'adPlanQueryParam=%7B%22adZone%22%3A%7B%22positionList%22%3A%5B%7B%22positionId%22%3A83%7D%5D%7D%2C%22requestId%22%3A%2217958651-f205-44c7-ad5d-f8af92a6217a%22%7D'"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> 更多参数 支持 header、post body</span>
+go run main.go -c 1 -n 1 -d <span class="pl-c1">true</span> -u <span class="pl-s"><span class="pl-pds">'</span>https://page.aliyun.com/delivery/plan/list<span class="pl-pds">'</span></span> \
+  -H <span class="pl-s"><span class="pl-pds">'</span>authority: page.aliyun.com<span class="pl-pds">'</span></span> \
+  -H <span class="pl-s"><span class="pl-pds">'</span>accept: application/json, text/plain, */*<span class="pl-pds">'</span></span> \
+  -H <span class="pl-s"><span class="pl-pds">'</span>content-type: application/x-www-form-urlencoded<span class="pl-pds">'</span></span> \
+  -H <span class="pl-s"><span class="pl-pds">'</span>origin: https://cn.aliyun.com<span class="pl-pds">'</span></span> \
+  -H <span class="pl-s"><span class="pl-pds">'</span>sec-fetch-site: same-site<span class="pl-pds">'</span></span> \
+  -H <span class="pl-s"><span class="pl-pds">'</span>sec-fetch-mode: cors<span class="pl-pds">'</span></span> \
+  -H <span class="pl-s"><span class="pl-pds">'</span>sec-fetch-dest: empty<span class="pl-pds">'</span></span> \
+  -H <span class="pl-s"><span class="pl-pds">'</span>referer: https://cn.aliyun.com/<span class="pl-pds">'</span></span> \
+  -H <span class="pl-s"><span class="pl-pds">'</span>accept-language: zh-CN,zh;q=0.9<span class="pl-pds">'</span></span> \
+  -H <span class="pl-s"><span class="pl-pds">'</span>cookie: aliyun_choice=CN; JSESSIONID=J8866281-CKCFJ4BUZ7GDO9V89YBW1-KJ3J5V9K-GYUW7; maliyun_temporary_console0=1AbLByOMHeZe3G41KYd5WWZvrM%2BGErkaLcWfBbgveKA9ifboArprPASvFUUfhwHtt44qsDwVqMk8Wkdr1F5LccYk2mPCZJiXb0q%2Bllj5u3SQGQurtyPqnG489y%2FkoA%2FEvOwsXJTvXTFQPK%2BGJD4FJg%3D%3D; cna=L3Q5F8cHDGgCAXL3r8fEZtdU; isg=BFNThsmSCcgX-sUcc5Jo2s2T4tF9COfKYi8g9wVwr3KphHMmjdh3GrHFvPTqJD_C; l=eBaceXLnQGBjstRJBOfwPurza77OSIRAguPzaNbMiT5POw1B5WAlWZbqyNY6C3GVh6lwR37EODnaBeYBc3K-nxvOu9eFfGMmn<span class="pl-pds">'</span></span> \
+  -data <span class="pl-s"><span class="pl-pds">'</span>adPlanQueryParam=%7B%22adZone%22%3A%7B%22positionList%22%3A%5B%7B%22positionId%22%3A83%7D%5D%7D%2C%22requestId%22%3A%2217958651-f205-44c7-ad5d-f8af92a6217a%22%7D<span class="pl-pds">'</span></span></pre></div>
+<ul dir="auto">
+<li>使用 curl文件进行压测</li>
+</ul>
+<p dir="auto">curl是Linux在命令行下的工作的文件传输工具，是一款很强大的http命令行工具。</p>
+<p dir="auto">使用curl文件可以压测使用非GET的请求，支持设置http请求的 method、cookies、header、body等参数</p>
+<p dir="auto"><strong>I:</strong> chrome 浏览器生成 curl文件，打开开发者模式(快捷键F12)，如图所示，生成 curl 在终端执行命令<br>
+<a target="_blank" rel="noopener noreferrer" href="img/copy%20cURL.png"><img src="img/copy%20cURL.png" alt="chrome cURL" style="max-width: 100%;"></a></p>
+<p dir="auto"><strong>II:</strong> postman 生成 curl 命令<br>
+<a target="_blank" rel="noopener noreferrer" href="img/postman%20cURL.png"><img src="img/postman%20cURL.png" alt="postman cURL" style="max-width: 100%;"></a></p>
+<p dir="auto">生成内容粘贴到项目目录下的<strong>curl/baidu.curl.txt</strong>文件中，执行下面命令就可以从curl.txt文件中读取需要压测的内容进行压测了</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="# 使用 curl文件(文件在curl目录下) 的方式请求
+go run main.go -c 1 -n 1 -p curl/baidu.curl.txt"><pre class="notranslate"><code class="notranslate"># 使用 curl文件(文件在curl目录下) 的方式请求
+go run main.go -c 1 -n 1 -p curl/baidu.curl.txt
+</code></pre></div>
+<h3 dir="auto">4.3 实现</h3>
+<ul dir="auto">
+<li>
+<p dir="auto">具体需求可以查看项目源码</p>
+</li>
+<li>
+<p dir="auto">项目目录结构</p>
+</li>
+</ul>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="|____main.go                      // main函数，获取命令行参数
+|____server                       // 处理程序目录
+| |____dispose.go                 // 压测启动，注册验证器、启动统计函数、启动协程进行压测
+| |____statistics                 // 统计目录
+| | |____statistics.go            // 接收压测统计结果并处理
+| |____golink                     // 建立连接目录
+| | |____http_link.go             // http建立连接
+| | |____websocket_link.go        // webSocket建立连接
+| |____client                     // 请求数据客户端目录
+| | |____http_client.go           // http客户端
+| | |____websocket_client.go      // webSocket客户端
+| |____verify                     // 对返回数据校验目录
+| | |____http_verify.go           // http返回数据校验
+| | |____websokcet_verify.go      // webSocket返回数据校验
+|____heper                        // 通用函数目录
+| |____heper.go                   // 通用函数
+|____model                        // 模型目录
+| |____request_model.go           // 请求数据模型
+| |____curl_model.go              // curl文件解析
+|____vendor                       // 项目依赖目录"><pre class="notranslate"><code class="notranslate">|____main.go                      // main函数，获取命令行参数
+|____server                       // 处理程序目录
+| |____dispose.go                 // 压测启动，注册验证器、启动统计函数、启动协程进行压测
+| |____statistics                 // 统计目录
+| | |____statistics.go            // 接收压测统计结果并处理
+| |____golink                     // 建立连接目录
+| | |____http_link.go             // http建立连接
+| | |____websocket_link.go        // webSocket建立连接
+| |____client                     // 请求数据客户端目录
+| | |____http_client.go           // http客户端
+| | |____websocket_client.go      // webSocket客户端
+| |____verify                     // 对返回数据校验目录
+| | |____http_verify.go           // http返回数据校验
+| | |____websokcet_verify.go      // webSocket返回数据校验
+|____heper                        // 通用函数目录
+| |____heper.go                   // 通用函数
+|____model                        // 模型目录
+| |____request_model.go           // 请求数据模型
+| |____curl_model.go              // curl文件解析
+|____vendor                       // 项目依赖目录
+</code></pre></div>
+<h3 dir="auto">4.4 go-stress-testing 对 Golang web 压测</h3>
+<p dir="auto">这里使用go-stress-testing对go server进行压测(部署在同一台机器上)，并统计压测结果</p>
+<ul dir="auto">
+<li>申请的服务器配置</li>
+</ul>
+<p dir="auto">CPU: 4核 (Intel Xeon(Cascade Lake) Platinum 8269  2.5 GHz/3.2 GHz)</p>
+<p dir="auto">内存: 16G<br>
+硬盘: 20G SSD<br>
+系统: CentOS 7.6</p>
+<p dir="auto">go version: go1.12.9 linux/amd64</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="img/go-stress-testing01.png"><img src="img/go-stress-testing01.png" alt="go-stress-testing01" style="max-width: 100%;"></a></p>
+<ul dir="auto">
+<li>go server</li>
+</ul>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="
+import (
+    &quot;log&quot;
+    &quot;net/http&quot;
+    &quot;runtime&quot;
+)
+
+const (
+    httpPort = &quot;8088&quot;
+)
+
+func main() {
+
+    runtime.GOMAXPROCS(runtime.NumCPU() - 1)
+
+    hello := func(w http.ResponseWriter, req *http.Request) {
+        data := &quot;Hello, go-stress-testing! \n&quot;
+
+        w.Header().Add(&quot;Server&quot;, &quot;golang&quot;)
+        w.Write([]byte(data))
+
+        return
+    }
+
+    http.HandleFunc(&quot;/&quot;, hello)
+    err := http.ListenAndServe(&quot;:&quot;+httpPort, nil)
+
+    if err != nil {
+        log.Fatal(&quot;ListenAndServe: &quot;, err)
+    }
+}
+"><pre lang="golangpackage" class="notranslate"><code class="notranslate">
+import (
+    "log"
+    "net/http"
+    "runtime"
+)
+
+const (
+    httpPort = "8088"
+)
+
+func main() {
+
+    runtime.GOMAXPROCS(runtime.NumCPU() - 1)
+
+    hello := func(w http.ResponseWriter, req *http.Request) {
+        data := "Hello, go-stress-testing! \n"
+
+        w.Header().Add("Server", "golang")
+        w.Write([]byte(data))
+
+        return
+    }
+
+    http.HandleFunc("/", hello)
+    err := http.ListenAndServe(":"+httpPort, nil)
+
+    if err != nil {
+        log.Fatal("ListenAndServe: ", err)
+    }
+}
+
+</code></pre></div>
+<ul dir="auto">
+<li>go_stress_testing 压测命令</li>
+</ul>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="./go-stress-testing-linux -c 100 -n 10000 -u http://127.0.0.1:8088/"><pre class="notranslate"><code class="notranslate">./go-stress-testing-linux -c 100 -n 10000 -u http://127.0.0.1:8088/
+</code></pre></div>
+<ul dir="auto">
+<li>压测结果</li>
+<li><a href="https://github.com/link1st/go-stress-testing/issues/32" data-hovercard-type="issue" data-hovercard-url="/link1st/go-stress-testing/issues/32/hovercard">压测结果 示例</a></li>
+</ul>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th align="center">并发数</th>
+<th align="center">go_stress_testing QPS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="center">6394.86</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">16909.36</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">18456.81</td>
+</tr>
+<tr>
+<td align="center">20</td>
+<td align="center">19490.50</td>
+</tr>
+<tr>
+<td align="center">30</td>
+<td align="center">19947.47</td>
+</tr>
+<tr>
+<td align="center">50</td>
+<td align="center">19922.56</td>
+</tr>
+<tr>
+<td align="center">80</td>
+<td align="center">19155.33</td>
+</tr>
+<tr>
+<td align="center">100</td>
+<td align="center">18336.46</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p dir="auto">从压测的结果上看：效果还不错，压测QPS有接近2W</p>
+<h3 dir="auto">4.5 grpc压测</h3>
+<ul dir="auto">
+<li>介绍如何压测 grpc 接口</li>
+</ul>
+<blockquote>
+<p dir="auto"><a href="https://github.com/link1st/go-stress-testing/commit/2b4b14aaf026d08276531cf76f42de90efd3bc61">添加对 grpc 接口压测 commit</a></p>
+</blockquote>
+<ul dir="auto">
+<li>
+<ol dir="auto">
+<li>启动Server</li>
+</ol>
+</li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# 进入 grpc server 目录
+cd tests/grpc
+
+# 启动 grpc server
+go run main.go"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> 进入 grpc server 目录</span>
+<span class="pl-c1">cd</span> tests/grpc
+
+<span class="pl-c"><span class="pl-c">#</span> 启动 grpc server</span>
+go run main.go</pre></div>
+<ul dir="auto">
+<li>
+<ol start="2" dir="auto">
+<li>对 grpc server 协议进行压测</li>
+</ol>
+</li>
+</ul>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="# 回到项目根目录
+go run main.go -c 300 -n 1000 -u grpc://127.0.0.1:8099 -data world
+
+开始启动  并发数:300 请求数:1000 请求参数:
+request:
+ form:grpc
+ url:grpc://127.0.0.1:8099
+ method:POST
+ headers:map[Content-Type:application/x-www-form-urlencoded; charset=utf-8]
+ data:world
+ verify:
+ timeout:30s
+ debug:false
+
+─────┬───────┬───────┬───────┬────────┬────────┬────────┬────────┬────────┬────────┬────────
+ 耗时 │ 并发数 │ 成功数 │ 失败数 │   qps  │最长耗时  │最短耗时 │平均耗时  │下载字节 │字节每秒  │ 错误码
+─────┼───────┼───────┼───────┼────────┼────────┼────────┼────────┼────────┼────────┼────────
+   1s│    186│  14086│      0│34177.69│   22.40│    0.63│    8.78│        │        │200:14086
+   2s│    265│  30408│      0│26005.09│   32.68│    0.63│   11.54│        │        │200:30408
+   3s│    300│  46747│      0│21890.46│   40.84│    0.63│   13.70│        │        │200:46747
+   4s│    300│  62837│      0│20057.06│   45.81│    0.63│   14.96│        │        │200:62837
+   5s│    300│  79119│      0│19134.52│   45.81│    0.63│   15.68│        │        │200:79119"><pre class="notranslate"><code class="notranslate"># 回到项目根目录
+go run main.go -c 300 -n 1000 -u grpc://127.0.0.1:8099 -data world
+
+开始启动  并发数:300 请求数:1000 请求参数:
+request:
+ form:grpc
+ url:grpc://127.0.0.1:8099
+ method:POST
+ headers:map[Content-Type:application/x-www-form-urlencoded; charset=utf-8]
+ data:world
+ verify:
+ timeout:30s
+ debug:false
+
+─────┬───────┬───────┬───────┬────────┬────────┬────────┬────────┬────────┬────────┬────────
+ 耗时 │ 并发数 │ 成功数 │ 失败数 │   qps  │最长耗时  │最短耗时 │平均耗时  │下载字节 │字节每秒  │ 错误码
+─────┼───────┼───────┼───────┼────────┼────────┼────────┼────────┼────────┼────────┼────────
+   1s│    186│  14086│      0│34177.69│   22.40│    0.63│    8.78│        │        │200:14086
+   2s│    265│  30408│      0│26005.09│   32.68│    0.63│   11.54│        │        │200:30408
+   3s│    300│  46747│      0│21890.46│   40.84│    0.63│   13.70│        │        │200:46747
+   4s│    300│  62837│      0│20057.06│   45.81│    0.63│   14.96│        │        │200:62837
+   5s│    300│  79119│      0│19134.52│   45.81│    0.63│   15.68│        │        │200:79119
+</code></pre></div>
+<ul dir="auto">
+<li>如何扩展其它私有协议</li>
+</ul>
+<blockquote>
+<p dir="auto">由于私有协议、grpc 协议 都涉及到代码的书写，所以需要 编写go 的代码才能完成<br>
+参考 <a href="https://github.com/link1st/go-stress-testing/commit/2b4b14aaf026d08276531cf76f42de90efd3bc61">添加对 grpc 接口压测 commit</a></p>
+</blockquote>
+<h2 dir="auto">5、压测工具的比较</h2>
+<h3 dir="auto">5.1 比较</h3>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th align="left">-</th>
+<th align="left">ab</th>
+<th align="left">locust</th>
+<th align="left">Jmeter</th>
+<th align="left">go-stress-testing</th>
+<th align="left">云压测</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">实现语言</td>
+<td align="left">C</td>
+<td align="left">Python</td>
+<td align="left">Java</td>
+<td align="left">Golang</td>
+<td align="left">-</td>
+</tr>
+<tr>
+<td align="left">UI界面</td>
+<td align="left">无</td>
+<td align="left">有</td>
+<td align="left">有</td>
+<td align="left">无</td>
+<td align="left">无</td>
+</tr>
+<tr>
+<td align="left">优势</td>
+<td align="left">使用简单，上手简单</td>
+<td align="left">支持分布式、压测数据支持导出</td>
+<td align="left">插件丰富，支持生成HTML报告</td>
+<td align="left">项目开源，使用简单，没有依赖，支持webSocket压测</td>
+<td align="left">更加真实的模拟用户，支持更高的压测力度</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<h3 dir="auto">5.2 如何选择压测工具</h3>
+<p dir="auto">这个世界上<strong>没有最好的，只有最适合的</strong>，工具千千万，选择一款适合你的才是最重要的</p>
+<p dir="auto">在实际使用中有各种场景，选择工具的时候就需要考虑这些:</p>
+<ul dir="auto">
+<li>
+<p dir="auto">明确你的目的，需要做什么压测、压测的目标是什么？</p>
+</li>
+<li>
+<p dir="auto">使用的工具你是否熟悉，你愿意花多大的成本了解它？</p>
+</li>
+<li>
+<p dir="auto">你是为了测试还是想了解其中的原理？</p>
+</li>
+<li>
+<p dir="auto">工具是否能支持你需要压测的场景</p>
+</li>
+</ul>
+<h2 dir="auto">6、单台机器100w连接压测实战</h2>
+<h3 dir="auto">6.1 说明</h3>
+<p dir="auto">之前写了一篇文章，<a href="https://github.com/link1st/gowebsocket">基于websocket单台机器支持百万连接分布式聊天(IM)系统</a>(不了解这个项目可以查看上一篇或搜索一下文章)，这里我们要实现单台机器支持100W连接的压测</p>
+<p dir="auto">目标:</p>
+<ul dir="auto">
+<li>单台机器能保持100W个长连接</li>
+<li>机器的CPU、内存、网络、I/O 状态都正常</li>
+</ul>
+<p dir="auto">说明:</p>
+<p dir="auto">gowebsocket 分布式聊天(IM)系统:</p>
+<ul dir="auto">
+<li>之前用户连接以后有个全员广播，这里需要将用户连接、退出等事件关闭</li>
+</ul>
+<ul dir="auto">
+<li>服务器准备:</li>
+</ul>
+<blockquote>
+<p dir="auto">由于自己手上没有自己的服务器，所以需要临时购买的云服务器</p>
+</blockquote>
+<p dir="auto">压测服务器:</p>
+<p dir="auto">16台(稍后解释为什么需要16台机器)</p>
+<p dir="auto">CPU: 2核<br>
+内存: 8G<br>
+硬盘: 20G<br>
+系统: CentOS 7.6</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="img/webSocket%E5%8E%8B%E6%B5%8B%E6%9C%8D%E5%8A%A1%E5%99%A8.png"><img src="img/webSocket%E5%8E%8B%E6%B5%8B%E6%9C%8D%E5%8A%A1%E5%99%A8.png" alt="webSocket压测服务器" style="max-width: 100%;"></a></p>
+<p dir="auto">被压测服务:</p>
+<p dir="auto">1台</p>
+<p dir="auto">CPU: 4核<br>
+内存: 32G<br>
+硬盘: 20G SSD<br>
+系统: CentOS 7.6</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="img/webSocket%E8%A2%AB%E5%8E%8B%E6%B5%8B%E6%9C%8D%E5%8A%A1%E5%99%A8.png"><img src="img/webSocket%E8%A2%AB%E5%8E%8B%E6%B5%8B%E6%9C%8D%E5%8A%A1%E5%99%A8.png" alt="webSocket被压测服务器" style="max-width: 100%;"></a></p>
+<h3 dir="auto">6.2 内核优化</h3>
+<ul dir="auto">
+<li>修改程序最大打开文件数</li>
+</ul>
+<p dir="auto">被压测服务器需要保持100W长连接，客户和服务器端是通过socket通讯的，每个连接需要建立一个socket，程序需要保持100W长连接就需要单个程序能打开100W个文件句柄</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="# 查看系统默认的值
+ulimit -n
+# 设置最大打开文件数
+ulimit -n 1040000"><pre class="notranslate"><code class="notranslate"># 查看系统默认的值
+ulimit -n
+# 设置最大打开文件数
+ulimit -n 1040000
+</code></pre></div>
+<p dir="auto">这里设置的要超过100W，程序除了有100W连接还有其它资源连接(数据库、资源等连接)，这里设置为 104W</p>
+<p dir="auto">centOS 7.6 上述设置不生效，需要手动修改配置文件</p>
+<p dir="auto"><code class="notranslate">vim /etc/security/limits.conf</code></p>
+<p dir="auto">这里需要把硬限制和软限制、root用户和所有用户都设置为 1040000</p>
+<p dir="auto">core 是限制内核文件的大小，这里设置为 unlimited</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="# 添加以下参数
+root soft nofile 1040000
+root hard nofile 1040000
+root soft nproc 1040000
+root hard nproc 1040000
+
+* soft nofile 1040000
+* hard nofile 1040000
+* soft nproc 1040000
+* hard nproc 1040000
+
+root soft core unlimited
+root hard core unlimited
+
+* soft core unlimited
+* hard core unlimited"><pre class="notranslate"><code class="notranslate"># 添加以下参数
+root soft nofile 1040000
+root hard nofile 1040000
+root soft nproc 1040000
+root hard nproc 1040000
+
+* soft nofile 1040000
+* hard nofile 1040000
+* soft nproc 1040000
+* hard nproc 1040000
+
+root soft core unlimited
+root hard core unlimited
+
+* soft core unlimited
+* hard core unlimited
+</code></pre></div>
+<p dir="auto">注意:</p>
+<p dir="auto"><code class="notranslate">/proc/sys/fs/file-max</code> 表示系统级别的能够打开的文件句柄的数量，不能小于limits中设置的值</p>
+<p dir="auto">如果file-max的值小于limits设置的值会导致系统重启以后无法登录</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="# file-max 设置的值参考
+cat /proc/sys/fs/file-max
+12553500"><pre class="notranslate"><code class="notranslate"># file-max 设置的值参考
+cat /proc/sys/fs/file-max
+12553500
+</code></pre></div>
+<p dir="auto">修改以后重启服务器，<code class="notranslate">ulimit -n</code> 查看配置是否生效</p>
+<h3 dir="auto">6.3 客户端配置</h3>
+<p dir="auto">由于linux端口的范围是 <code class="notranslate">0~65535(2^16-1)</code>这个和操作系统无关，不管linux是32位的还是64位的</p>
+<p dir="auto">这个数字是由于tcp协议决定的，tcp协议头部表示端口只有16位，所以最大值只有65535(如果每台机器多几个虚拟ip就能突破这个限制)</p>
+<p dir="auto">1024以下是系统保留端口，所以能使用的1024到65535</p>
+<p dir="auto">如果需要100W长连接，每台机器有 65535-1024 个端口， 100W / (65535-1024) ≈ 15.5，所以这里需要16台服务器</p>
+<ul dir="auto">
+<li><code class="notranslate">vim /etc/sysctl.conf</code> 在文件末尾添加</li>
+</ul>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="net.ipv4.ip_local_port_range = 1024 65000
+net.ipv4.tcp_mem = 786432 2097152 3145728
+net.ipv4.tcp_rmem = 4096 4096 16777216
+net.ipv4.tcp_wmem = 4096 4096 16777216"><pre class="notranslate"><code class="notranslate">net.ipv4.ip_local_port_range = 1024 65000
+net.ipv4.tcp_mem = 786432 2097152 3145728
+net.ipv4.tcp_rmem = 4096 4096 16777216
+net.ipv4.tcp_wmem = 4096 4096 16777216
+</code></pre></div>
+<p dir="auto"><code class="notranslate">sysctl -p</code> 修改配置以后使得配置生效命令</p>
+<p dir="auto">配置解释:</p>
+<ul dir="auto">
+<li><code class="notranslate">ip_local_port_range</code> 表示TCP/UDP协议允许使用的本地端口号 范围:1024~65000</li>
+<li><code class="notranslate">tcp_mem</code> 确定TCP栈应该如何反映内存使用，每个值的单位都是内存页（通常是4KB）。第一个值是内存使用的下限；第二个值是内存压力模式开始对缓冲区使用应用压力的上限；第三个值是内存使用的上限。在这个层次上可以将报文丢弃，从而减少对内存的使用。对于较大的BDP可以增大这些值（注意，其单位是内存页而不是字节）</li>
+<li><code class="notranslate">tcp_rmem</code> 为自动调优定义socket使用的内存。第一个值是为socket接收缓冲区分配的最少字节数；第二个值是默认值（该值会被rmem_default覆盖），缓冲区在系统负载不重的情况下可以增长到这个值；第三个值是接收缓冲区空间的最大字节数（该值会被rmem_max覆盖）。</li>
+<li><code class="notranslate">tcp_wmem</code> 为自动调优定义socket使用的内存。第一个值是为socket发送缓冲区分配的最少字节数；第二个值是默认值（该值会被wmem_default覆盖），缓冲区在系统负载不重的情况下可以增长到这个值；第三个值是发送缓冲区空间的最大字节数（该值会被wmem_max覆盖）。</li>
+</ul>
+<h3 dir="auto">6.4 准备</h3>
+<ol dir="auto">
+<li>
+<p dir="auto">在被压测服务器上启动Server服务(gowebsocket)</p>
+</li>
+<li>
+<p dir="auto">查看被压测服务器的内网端口</p>
+</li>
+<li>
+<p dir="auto">登录上16台压测服务器，这里我提前把需要优化的系统做成了镜像，申请机器的时候就可以直接使用这个镜像(参数已经调好)</p>
+</li>
+</ol>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="img/%E5%8E%8B%E6%B5%8B%E6%9C%8D%E5%8A%A1%E5%99%A816%E5%8F%B0%E5%87%86%E5%A4%87.png"><img src="img/%E5%8E%8B%E6%B5%8B%E6%9C%8D%E5%8A%A1%E5%99%A816%E5%8F%B0%E5%87%86%E5%A4%87.png" alt="压测服务器16台准备" style="max-width: 100%;"></a></p>
+<ol start="4" dir="auto">
+<li>启动压测</li>
+</ol>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content=" ./go_stress_testing_linux -c 62500 -n 1  -u ws://192.168.0.74:443/acc"><pre class="notranslate"><code class="notranslate"> ./go_stress_testing_linux -c 62500 -n 1  -u ws://192.168.0.74:443/acc
+</code></pre></div>
+<p dir="auto"><code class="notranslate">62500*16 = 100W </code>正好可以达到我们的要求</p>
+<p dir="auto">建立连接以后，<code class="notranslate">-n 1</code>发送一个<strong>ping</strong>的消息给服务器，收到响应以后保持连接不中断</p>
+<ol start="5" dir="auto">
+<li>
+<p dir="auto">通过 gowebsocket服务器的http接口，实时查询连接数和项目启动的协程数</p>
+</li>
+<li>
+<p dir="auto">压测过程中查看系统状态</p>
+</li>
+</ol>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="# linux 命令
+ps      # 查看进程内存、CPU使用情况
+iostat  # 查看系统IO情况
+nload   # 查看网络流量情况
+/proc/pid/status # 查看进程状态"><pre class="notranslate"><code class="notranslate"># linux 命令
+ps      # 查看进程内存、CPU使用情况
+iostat  # 查看系统IO情况
+nload   # 查看网络流量情况
+/proc/pid/status # 查看进程状态
+</code></pre></div>
+<h3 dir="auto">6.5 压测数据</h3>
+<ul dir="auto">
+<li>
+<p dir="auto">压测以后，查看连接数到100W，然后保持10分钟观察系统是否正常</p>
+</li>
+<li>
+<p dir="auto">观察以后，系统运行正常、CPU、内存、I/O 都正常，打开页面都正常</p>
+</li>
+<li>
+<p dir="auto">压测完成以后的数据</p>
+</li>
+</ul>
+<p dir="auto">查看goWebSocket连接数统计，可以看到 <strong>clientsLen</strong>连接数为100W，<strong>goroutine</strong>数量2000008个，每个连接两个goroutine加上项目启动默认的8个。这里可以看到连接数满足了100W</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="img/%E6%9F%A5%E7%9C%8BgoWebSocket%E8%BF%9E%E6%8E%A5%E6%95%B0%E7%BB%9F%E8%AE%A1.png"><img src="img/%E6%9F%A5%E7%9C%8BgoWebSocket%E8%BF%9E%E6%8E%A5%E6%95%B0%E7%BB%9F%E8%AE%A1.png" alt="查看goWebSocket连接数统计" style="max-width: 100%;"></a></p>
+<p dir="auto">从压测服务上查看连接数是否达到了要求，压测完成的统计数据并发数为62500，是每个客户端连接的数量,总连接数： <code class="notranslate">62500*16=100W</code>，</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="img/%E5%8E%8B%E6%B5%8B%E6%9C%8D%E5%8A%A116%E5%8F%B0%20%E5%8E%8B%E6%B5%8B%E5%AE%8C%E6%88%90.png"><img src="img/%E5%8E%8B%E6%B5%8B%E6%9C%8D%E5%8A%A116%E5%8F%B0%20%E5%8E%8B%E6%B5%8B%E5%AE%8C%E6%88%90.png" alt="压测服务16台 压测完成" style="max-width: 100%;"></a></p>
+<ul dir="auto">
+<li>记录内存使用情况，分别记录了1W到100W连接数内存使用情况</li>
+</ul>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th align="center">连接数</th>
+<th align="center">内存</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">10000</td>
+<td align="center">281M</td>
+</tr>
+<tr>
+<td align="center">100000</td>
+<td align="center">2.7g</td>
+</tr>
+<tr>
+<td align="center">200000</td>
+<td align="center">5.4g</td>
+</tr>
+<tr>
+<td align="center">500000</td>
+<td align="center">13.1g</td>
+</tr>
+<tr>
+<td align="center">1000000</td>
+<td align="center">25.8g</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<p dir="auto">100W连接时的查看内存详细数据:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="cat /proc/pid/status
+VmSize: 27133804 kB"><pre class="notranslate"><code class="notranslate">cat /proc/pid/status
+VmSize: 27133804 kB
+</code></pre></div>
+<p dir="auto"><code class="notranslate">27133804/1000000≈27.1</code> 100W连接，占用了25.8g的内存，粗略计算了一下，一个连接占用了27.1Kb的内存，由于goWebSocket项目每个用户连接起了两个协程处理用户的读写事件，所以内存占用稍微多一点</p>
+<p dir="auto">如果需要如何减少内存使用可以参考 <strong>@Roy11568780</strong> 大佬给的解决方案</p>
+<blockquote>
+<p dir="auto">传统的golang中是采用的一个goroutine循环read的方法对应每一个socket。实际百万链路场景中这是巨大的资源浪费，优化的原理也不是什么新东西，golang中一样也可以使用epoll的，把fd拿到epoll中，检测到事件然后在协程池里面去读就行了，看情况读写分别10-20的协程goroutine池应该就足够了</p>
+</blockquote>
+<p dir="auto">至此，压测已经全部完成，单台机器支持100W连接已经满足~</p>
+<h2 dir="auto">7.常见问题</h2>
+<ul dir="auto">
+<li><strong>Q:</strong> 压测过程中会出现大量 <strong>TIME_WAIT</strong></li>
+</ul>
+<p dir="auto">A: 参考TCP四次挥手原理，主动关闭连接的一方会出现 <strong>TIME_WAIT</strong> 状态，等待的时长为 2MSL(约1分钟左右)</p>
+<p dir="auto">原因是：主动断开的一方回复 ACK 消息可能丢失，TCP 是可靠的传输协议，在没有收到 ACK 消息的另一端会重试，重新发送FIN消息，所以主动关闭的一方会等待 2MSL 时间，防止对方重试，这就出现了大量 <strong>TIME_WAIT</strong> 状态（参考: 四次挥手的最后两次）</p>
+<p dir="auto">TCP 握手：<br>
+<a target="_blank" rel="noopener noreferrer" href="img/TCP%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B.png"><img border="0" src="img/TCP%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B.png" width="830" style="max-width: 100%;"></a></p>
+<ul dir="auto">
+<li><strong>Q:</strong> 没有go环境无法使用最新功能</li>
+</ul>
+<p dir="auto">A： 可以使用Dockerfile构建一个容器镜像，假设容器镜像名称为gostress:1111，docker build -t gostress:1111 .<br>
+启动一个名称为go-stress的容器docker run -d --name=go-stress gostress:1111<br>
+开始压测 docker exec -it go-stress -c 10 -n 10 -u <a href="http://www.baidu.com" rel="nofollow">www.baidu.com</a></p>
+<h2 dir="auto">8、总结</h2>
+<p dir="auto">到这里压测总算完成，本次压测花费16元巨款。</p>
+<p dir="auto">单台机器支持100W连接是实测是满足的，但是实际业务比较复杂，还是需要持续优化~</p>
+<p dir="auto">本文通过介绍什么是压测，在什么情况下需要压测，通过单台机器100W长连接的压测实战了解Linux内核的参数的调优。如果觉得现有的压测工具不适用，可以自己实现或者是改造成属于自己的自己的工具。</p>
+<h2 dir="auto">9、参考文献</h2>
+<p dir="auto"><a href="https://testerhome.com/topics/17068" rel="nofollow">性能测试工具</a></p>
+<p dir="auto"><a href="https://blog.csdn.net/r455678/article/details/53063989" rel="nofollow">性能测试常见名词解释</a></p>
+<p dir="auto"><a href="https://codeigniter.org.cn/forums/blog-39678-2456.html" rel="nofollow">性能测试名词解释</a></p>
+<p dir="auto"><a href="https://www.zhihu.com/question/21556347" rel="nofollow">PV、TPS、QPS是怎么计算出来的？</a></p>
+<p dir="auto"><a href="https://www.jianshu.com/p/43d04d8baaf7" rel="nofollow">超实用压力测试工具－ab工具</a></p>
+<p dir="auto"><a href="http://www.testclass.net/locust/introduce" rel="nofollow">Locust 介绍</a></p>
+<p dir="auto"><a href="https://www.cnblogs.com/TankXiao/p/4045439.html" rel="nofollow">Jmeter性能测试 入门</a></p>
+<p dir="auto"><a href="https://github.com/link1st/gowebsocket">基于websocket单台机器支持百万连接分布式聊天(IM)系统</a></p>
+<p dir="auto"><a href="https://github.com/link1st/go-stress-testing">https://github.com/link1st/go-stress-testing</a></p>
+<p dir="auto">github 搜:link1st 查看项目 go-stress-testing</p>
+<h3 dir="auto">意见反馈</h3>
+<ul dir="auto">
+<li>在项目中遇到问题可以直接在这里找找答案或者提问 <a href="https://github.com/link1st/go-stress-testing/issues">issues</a></li>
+<li>也可以添加我的微信(申请信息填写:公司、姓名，我好备注下)，直接反馈给我<br>
+<br></li>
+</ul>
+<p align="center" dir="auto">
+     <a target="_blank" rel="noopener noreferrer" href="img/微信二维码.jpeg"><img border="0" src="img/微信二维码.jpeg" alt="添加link1st的微信" width="200" style="max-width: 100%;"></a>
+</p>
+<h3 dir="auto">赞助商</h3>
+<ul dir="auto">
+<li>感谢<a href="https://www.jetbrains.com/?from=gowebsocket" rel="nofollow">JetBrains</a>对本项目的支持！<br>
+<br></li>
+</ul>
+<p align="center" dir="auto">
+    <a href="https://www.jetbrains.com/?from=gowebsocket" rel="nofollow">
+        <img border="0" src="img/jetbrains_logo.png" width="200" style="max-width: 100%;">
+    </a>
+</p></div></div></div><div class="gg-issues-prev-next"><a class="prev" href="/issues/205"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M2 3h17a2 2 0 0 1 2 2v4h-2V5H2v14h17v-4h2v4a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m15 12v-2h7v-2h-7V9l-4 3l4 3M4 13h7v-2H4v2m0-4h7V7H4v2m0 8h4v-2H4v2Z"/></svg>TNK-Studio/gortal: 一个使用 Go 语言开发的，超级轻量的跳板机服务。</span></a><a class="next" href="/issues/207"><span>go-gost/gost: GO语言实现的安全隧道<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M22 3H5a2 2 0 0 0-2 2v4h2V5h17v14H5v-4H3v4a2 2 0 0 0 2 2h17a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2M7 15v-2H0v-2h7V9l4 3l-4 3m13-2h-7v-2h7v2m0-4h-7V7h7v2m-3 8h-4v-2h4v2Z"/></svg></span></a></div><div class="answer-content"><div class="comments"></div></div></div></div></main><footer><div class="license"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img style="width:60px;height:21px" src="/static/license-83d755bd405fbe51c87dc088baf26299.svg" alt="License"/></a></div><div class="copyright"><span>Copyright ©<!-- --> <!-- -->2025<!-- -->-present</span><a class="owner" href="https://github.com/awesome-ops/awesome-ops.github.io" target="_blank">awesome-ops/awesome-ops.github.io</a>.</div><span class="powered">Powered by<a class="owner" title="GG (Gatsby + GitHub) - A gatsby website builder based on github discussions" href="https://github.com/lencx/gg" target="_blank">gg</a></span></footer></div><div id="gg-backtop" class="hide"><svg viewBox="0 0 98 125" xmlns="http://www.w3.org/2000/svg"><path d="m.41627505 120.505813c.36557376-2.799314 38.38567845-112.09375627 40.40633855-116.52273479 2.0206601-4.42897853 7.0443939-6.06190829 10.0049342.20172081 1.9736935 4.17575274 17.3630227 42.22464148 46.1679874 114.14666598.3068629 1.030234.4237748 1.755017.3507358 2.174348-.4483666 2.574161-2.3292736 3.429521-4.6125739 2.516093-15.0683018-6.028033-36.2681037-23.1692513-43.8663627-23.1692513-7.5982589 0-27.0568176 12.9171643-43.18383202 23.1692513-.96511235.613531-1.91473089 1.069619-2.88840599 1.149501s-2.74439509-.86628-2.37882134-3.665594z" fill="var(--gg-icon)" fill-rule="evenodd"></path></svg></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/issues/206";window.___webpackCompilationHash="24ed58306e97f1c1f657";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-97dd130bca8800dece7d.js"],"app":["/app-7383f855f15f63329e5f.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-2d05d9e504a620062115.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-408674d1ce0d96365c3f.js"],"component---src-templates-archives-tsx":["/component---src-templates-archives-tsx-06d205e572129bb8618c.js"],"component---src-templates-issues-tsx":["/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js"],"component---src-templates-labels-category-tsx":["/component---src-templates-labels-category-tsx-5456164ce90934624119.js"],"component---src-templates-labels-tsx":["/component---src-templates-labels-tsx-ee7b95bd8aa06617f372.js"],"component---src-templates-nav-category-tsx":["/component---src-templates-nav-category-tsx-91c7d8cb3880e3e0fda2.js"],"component---src-templates-nav-labels-tsx":["/component---src-templates-nav-labels-tsx-ae07fd835c5a914973d3.js"]};/*]]>*/</script><script src="/polyfill-97dd130bca8800dece7d.js" nomodule=""></script><script src="/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js" async=""></script><script src="/fc369a2ef6459b03f38591687cef4a587495c716-f468df31cbdaf6ffa970.js" async=""></script><script src="/app-7383f855f15f63329e5f.js" async=""></script><script src="/framework-86c8a5417e68dc3cefff.js" async=""></script><script src="/webpack-runtime-4fee7405b8a071e8c34e.js" async=""></script></body></html>

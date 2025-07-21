@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/team-ide",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"team-ide/teamide: 集成 MySQL、Oracle、金仓、达梦、神通等数据库、SSH、FTP、Redis、Zookeeper、Kafka、Elasticsearch 等管理工具","number":548}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9h7bA","name":"team-ide","color":"8d95e7","description":null},"name":"team-ide","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

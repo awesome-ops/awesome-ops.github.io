@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/mtlynch",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"mtlynch/picoshare: 可建立文件共享服务，支持多种类型，部署简单，易于使用","number":436}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7b_PA","name":"mtlynch","color":"000506","description":null},"name":"mtlynch","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

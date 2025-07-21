@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/webankpartners",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"WeBankPartners/we-cmdb: 微众银行配置管理数据库系统","number":604}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9ihKw","name":"WeBankPartners","color":"bace69","description":null},"name":"WeBankPartners","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/hyperdxio",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"hyperdxio/hyperdx: 一个开源可观察性平台，统一会话重放、日志、指标、跟踪和错误","number":235}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7XufQ","name":"hyperdxio","color":"873e55","description":null},"name":"hyperdxio","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

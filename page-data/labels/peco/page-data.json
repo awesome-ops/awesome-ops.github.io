@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/peco",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"peco/peco: 简单的交互式过滤工具。","number":432}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7b6NQ","name":"peco","color":"40f4ef","description":null},"name":"peco","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

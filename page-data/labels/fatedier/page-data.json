@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/fatedier",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"fatedier/frp: 一个专注于内网穿透的高性能的反向代理应用，支持 TCP、UDP、HTTP、HTTPS 等多种协议。可以将内网服务以安全、便捷的方式通过具有公网 IP 节点的中转暴露到公网","number":176}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WcLQ","name":"fatedier","color":"d89566","description":null},"name":"fatedier","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/bronya0",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"Bronya0/ES-King: 一个现代、实用、轻量的ES GUI客户端，支持多平台。","number":158}},{"node":{"title":"Bronya0/Kafka-King: 一个现代、实用的kafka GUI客户端，支持多平台","number":270}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WFsQ","name":"Bronya0","color":"303711","description":null},"name":"Bronya0","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

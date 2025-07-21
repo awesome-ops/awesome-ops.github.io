@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/aylei",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"aylei/kubectl-debug: 能够便捷地进行 Kubernetes 上的 Pod 排障诊断工具","number":310}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7ZaiQ","name":"aylei","color":"de819e","description":null},"name":"aylei","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/glauth",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"glauth/glauth: 基于 golang 实现的类 ldap 功能的系统，支持本地，S3，原有 ldap，以及 MySQL 等存储方式。使用习惯上与 ldap 略有差异","number":188}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WtMA","name":"glauth","color":"28bdab","description":null},"name":"glauth","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

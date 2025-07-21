@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/moby",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"moby/buildkit: 增强 Docker build 的功能，支持并行构建、缓存、镜像导出等功能","number":58}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UGww","name":"moby","color":"0791ef","description":null},"name":"moby","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

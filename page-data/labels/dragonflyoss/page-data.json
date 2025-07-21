@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/dragonflyoss",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"dragonflyoss/Dragonfly2:  基于 p2p 技术提供高效、稳定、安全的文件分发和图像加速，成为云原生架构的最佳实践和标准解决方案。","number":135}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VncA","name":"dragonflyoss","color":"4f5ab1","description":null},"name":"dragonflyoss","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

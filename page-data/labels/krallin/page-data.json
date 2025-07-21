@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/krallin",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"krallin/tini: 一个最小化的 init 系统，运行在容器内部，用于启动一个子进程，并等待进程退出时清理僵尸和执行信号转发。","number":564}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9iGDg","name":"krallin","color":"c64af5","description":null},"name":"krallin","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/acmesh-official",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"acmesh-official/acme.sh: 实现了 acme 协议，可以从 ZeroSSL，Let's Encrypt 等 CA 生成免费的证书。","number":8}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TFdA","name":"acmesh-official","color":"5d8693","description":null},"name":"acmesh-official","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

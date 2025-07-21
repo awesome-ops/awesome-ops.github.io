@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/gtamas",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"gtamas/etcdmanager: Etcd 客户端，支持 Linux、Windows、MacOS","number":160}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WHcQ","name":"gtamas","color":"a08365","description":null},"name":"gtamas","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

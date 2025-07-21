@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/nanshaner",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"NaNShaner/repoll: 使用 django 框架编写的 redis 的管理平台，基于 redis3.x，支持单机、哨兵以及集群模式","number":481}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7dA7A","name":"NaNShaner","color":"a1c19f","description":null},"name":"NaNShaner","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

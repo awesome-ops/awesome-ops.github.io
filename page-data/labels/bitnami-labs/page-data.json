@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/bitnami-labs",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"bitnami-labs/sealed-secrets: 一款 Kubernetes 控制器並用于实现单向加密 Secrets 的工具","number":503}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9hgrw","name":"bitnami-labs","color":"4ae529","description":null},"name":"bitnami-labs","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

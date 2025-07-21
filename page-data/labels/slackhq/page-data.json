@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/slackhq",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"slackhq/nebula: 一款可扩展的覆盖网络工具，专注于性能、简便性和安全性。","number":388}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7bBnA","name":"slackhq","color":"6183d4","description":null},"name":"slackhq","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/cnpm",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"cnpm/cnpmcore: 前端 npm 包管理器","number":89}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UrLw","name":"cnpm","color":"92bef4","description":null},"name":"cnpm","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

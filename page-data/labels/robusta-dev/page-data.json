@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/robusta-dev",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"robusta-dev/kubewatch: 监控 k8s 事件并触发相应的处理器","number":341}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7aDRg","name":"robusta-dev","color":"48cd61","description":null},"name":"robusta-dev","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

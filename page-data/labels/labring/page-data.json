@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/labring",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"labring/sealos: 专为管理云原生应用程序而设计的云操作系统","number":504}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9hhPQ","name":"labring","color":"b244a6","description":null},"name":"labring","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/nginxinc",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"nginxinc/nginx-prometheus-exporter: 用于 NGINX 和 NGINX Plus 的 NGINX Prometheus Exporter","number":396}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7bLpQ","name":"nginxinc","color":"0234ae","description":null},"name":"nginxinc","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

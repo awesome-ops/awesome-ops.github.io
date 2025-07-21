@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-issues-tsx",
+    "path": "/issues/152",
+    "result": {"data":{"issuesJson":null},"pageContext":{"number":152,"previous":{"title":"elasticsearch-dump/elasticsearch-dump: Elasticsearch 和 OpenSearch 的索引数据导入和导出工具","number":151},"next":{"title":"cars10/elasticvue: 一个用于 elasticsearch 的免费开源 GUI，您可以使用它来管理集群中的数据。它完全支持 elasticsearch 版本 `8.x` 和 `7.x`. `6.8`。生态支持很丰富，支持桌面，浏览器插件，以及通过 docker 拉起等方式","number":153}}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/dnspod",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"DNSPod/dnspod-sr: 一个运行在 Linux 平台上的高性能的递归 DNS 服务器软件，具备高性能、高负载、易扩展的优势，非 BIND 等软件可以比拟。","number":118}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VSiQ","name":"DNSPod","color":"99ae9d","description":null},"name":"DNSPod","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

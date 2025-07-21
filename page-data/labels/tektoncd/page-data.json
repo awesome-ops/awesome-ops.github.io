@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/tektoncd",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"tektoncd/pipeline: Tekton是一个强大而灵活的开源框架，用于创建CI/CD系统，允许开发人员跨云提供商和本地系统构建、测试和部署。","number":549}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9h76Q","name":"tektoncd","color":"e635c0","description":null},"name":"tektoncd","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

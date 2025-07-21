@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/安全扫描",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"madneal/gshark: 根据关键字等规则，从 GitHub、GitLab 等扫描代码泄露、敏感信息泄露等安全问题","number":215}},{"node":{"title":"reviewdog/reviewdog: reviewdog 提供了一种通过轻松与任何 linter 工具集成来自动将审阅评论发布到代码托管服务（例如 GitHub）的方法。它使用 lint 工具的输出，并将其作为评论发布（如果发现的结果位于要审查的补丁的差异中）。","number":483}},{"node":{"title":"SonarSource/sonarqube: SonarQube 不仅能够显示应用程序的运行状况，还能够突出显示新引入的问题。有了质量门，您就可以实现干净的代码，从而系统地提高代码质量。","number":528}},{"node":{"title":"trufflesecurity/trufflehog: 一款用于扫描代码中是否包含密码，秘钥等敏感信息的工具，可以集成到你的流水线当中","number":575}},{"node":{"title":"chaitin/veinmind-tools: 容器安全工具集，支持容器恶意文件，弱口令，漏洞，后门等扫描能力","number":589}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7XR-A","name":"安全扫描","color":"bf5886","description":null},"name":"安全扫描","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

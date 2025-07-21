@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/kubesphere",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"kubesphere/kubeeye: KubeEye 是为 Kubernetes 设计的巡检工具，用于发现 Kubernetes 资源（使用 OPA ）、集群组件、集群节点（使用Node-Problem-Detector）等配置是否符合最佳实践，对于不符合最佳实践的，将给出修改建议。","number":318}},{"node":{"title":"kubesphere/kubesphere: 适用于 Kubernetes 多云、数据中心和边缘 管理的容器平台","number":332}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7ZlUQ","name":"kubesphere","color":"0afe13","description":null},"name":"kubesphere","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

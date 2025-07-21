@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/go-mysql-org",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"go-mysql-org/go-mysql-elasticsearch: 将 MySQL 数据自动同步到 ES 的工具。它首先用 mysqldump 获取原始数据，然后使用 binlog 增量同步数据","number":201}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7W_Hg","name":"go-mysql-org","color":"8a4930","description":null},"name":"go-mysql-org","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

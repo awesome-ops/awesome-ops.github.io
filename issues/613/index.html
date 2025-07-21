@@ -1,0 +1,876 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/><meta name="theme-color" content="#FFFFFF"/><meta name="generator" content="Gatsby 4.11.3"/><style data-href="/styles.3aaba633489943369223.css" data-identity="gatsby-global-css">@media (prefers-color-scheme:dark){.markdown-body{--color-prettylights-syntax-comment:#8b949e;--color-prettylights-syntax-constant:#79c0ff;--color-prettylights-syntax-entity:#d2a8ff;--color-prettylights-syntax-storage-modifier-import:#c9d1d9;--color-prettylights-syntax-entity-tag:#7ee787;--color-prettylights-syntax-keyword:#ff7b72;--color-prettylights-syntax-string:#a5d6ff;--color-prettylights-syntax-variable:#ffa657;--color-prettylights-syntax-brackethighlighter-unmatched:#f85149;--color-prettylights-syntax-invalid-illegal-text:#f0f6fc;--color-prettylights-syntax-invalid-illegal-bg:#8e1519;--color-prettylights-syntax-carriage-return-text:#f0f6fc;--color-prettylights-syntax-carriage-return-bg:#b62324;--color-prettylights-syntax-string-regexp:#7ee787;--color-prettylights-syntax-markup-list:#f2cc60;--color-prettylights-syntax-markup-heading:#1f6feb;--color-prettylights-syntax-markup-italic:#c9d1d9;--color-prettylights-syntax-markup-bold:#c9d1d9;--color-prettylights-syntax-markup-deleted-text:#ffdcd7;--color-prettylights-syntax-markup-deleted-bg:#67060c;--color-prettylights-syntax-markup-inserted-text:#aff5b4;--color-prettylights-syntax-markup-inserted-bg:#033a16;--color-prettylights-syntax-markup-changed-text:#ffdfb6;--color-prettylights-syntax-markup-changed-bg:#5a1e02;--color-prettylights-syntax-markup-ignored-text:#c9d1d9;--color-prettylights-syntax-markup-ignored-bg:#1158c7;--color-prettylights-syntax-meta-diff-range:#d2a8ff;--color-prettylights-syntax-brackethighlighter-angle:#8b949e;--color-prettylights-syntax-sublimelinter-gutter-mark:#484f58;--color-prettylights-syntax-constant-other-reference-link:#a5d6ff;--color-fg-default:#c9d1d9;--color-fg-muted:#8b949e;--color-fg-subtle:#484f58;--color-canvas-default:#0d1117;--color-canvas-subtle:#161b22;--color-border-default:#30363d;--color-border-muted:#21262d;--color-neutral-muted:hsla(215,8%,47%,.4);--color-accent-fg:#58a6ff;--color-accent-emphasis:#1f6feb;--color-attention-subtle:rgba(187,128,9,.15);--color-danger-fg:#f85149;color-scheme:dark}}@media (prefers-color-scheme:light){.markdown-body{--color-prettylights-syntax-comment:#6e7781;--color-prettylights-syntax-constant:#0550ae;--color-prettylights-syntax-entity:#8250df;--color-prettylights-syntax-storage-modifier-import:#24292f;--color-prettylights-syntax-entity-tag:#116329;--color-prettylights-syntax-keyword:#cf222e;--color-prettylights-syntax-string:#0a3069;--color-prettylights-syntax-variable:#953800;--color-prettylights-syntax-brackethighlighter-unmatched:#82071e;--color-prettylights-syntax-invalid-illegal-text:#f6f8fa;--color-prettylights-syntax-invalid-illegal-bg:#82071e;--color-prettylights-syntax-carriage-return-text:#f6f8fa;--color-prettylights-syntax-carriage-return-bg:#cf222e;--color-prettylights-syntax-string-regexp:#116329;--color-prettylights-syntax-markup-list:#3b2300;--color-prettylights-syntax-markup-heading:#0550ae;--color-prettylights-syntax-markup-italic:#24292f;--color-prettylights-syntax-markup-bold:#24292f;--color-prettylights-syntax-markup-deleted-text:#82071e;--color-prettylights-syntax-markup-deleted-bg:#ffebe9;--color-prettylights-syntax-markup-inserted-text:#116329;--color-prettylights-syntax-markup-inserted-bg:#dafbe1;--color-prettylights-syntax-markup-changed-text:#953800;--color-prettylights-syntax-markup-changed-bg:#ffd8b5;--color-prettylights-syntax-markup-ignored-text:#eaeef2;--color-prettylights-syntax-markup-ignored-bg:#0550ae;--color-prettylights-syntax-meta-diff-range:#8250df;--color-prettylights-syntax-brackethighlighter-angle:#57606a;--color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;--color-prettylights-syntax-constant-other-reference-link:#0a3069;--color-fg-default:#24292f;--color-fg-muted:#57606a;--color-fg-subtle:#6e7781;--color-canvas-default:#fff;--color-canvas-subtle:#f6f8fa;--color-border-default:#d0d7de;--color-border-muted:#d8dee4;--color-neutral-muted:rgba(175,184,193,.2);--color-accent-fg:#0969da;--color-accent-emphasis:#0969da;--color-attention-subtle:#fff8c5;--color-danger-fg:#cf222e;color-scheme:light}}.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;word-wrap:break-word;background-color:var(--color-canvas-default);color:var(--color-fg-default);font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:16px;line-height:1.5;margin:0}.markdown-body h1:hover .anchor .octicon-link:before,.markdown-body h2:hover .anchor .octicon-link:before,.markdown-body h3:hover .anchor .octicon-link:before,.markdown-body h4:hover .anchor .octicon-link:before,.markdown-body h5:hover .anchor .octicon-link:before,.markdown-body h6:hover .anchor .octicon-link:before{background-color:currentColor;content:" ";display:inline-block;height:16px;-webkit-mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');width:16px}.markdown-body details,.markdown-body figcaption,.markdown-body figure{display:block}.markdown-body summary{display:list-item}.markdown-body [hidden]{display:none!important}.markdown-body a{background-color:transparent;color:var(--color-accent-fg);text-decoration:none}.markdown-body a:active,.markdown-body a:hover{outline-width:0}.markdown-body abbr[title]{border-bottom:none;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}.markdown-body b,.markdown-body strong{font-weight:600}.markdown-body dfn{font-style:italic}.markdown-body h1{border-bottom:1px solid var(--color-border-muted);font-size:2em;font-weight:600;margin:.67em 0;padding-bottom:.3em}.markdown-body mark{background-color:var(--color-attention-subtle);color:var(--color-text-primary)}.markdown-body small{font-size:90%}.markdown-body sub,.markdown-body sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}.markdown-body sub{bottom:-.25em}.markdown-body sup{top:-.5em}.markdown-body img{background-color:var(--color-canvas-default);border-style:none;box-sizing:content-box;max-width:100%}.markdown-body code,.markdown-body kbd,.markdown-body pre,.markdown-body samp{font-family:monospace,monospace;font-size:1em}.markdown-body figure{margin:1em 40px}.markdown-body hr{background:transparent;background-color:var(--color-border-default);border:0;box-sizing:content-box;height:.25em;margin:24px 0;overflow:hidden;padding:0}.markdown-body input{font:inherit;font-family:inherit;font-size:inherit;line-height:inherit;margin:0;overflow:visible}.markdown-body [type=button],.markdown-body [type=reset],.markdown-body [type=submit]{-webkit-appearance:button}.markdown-body [type=button]::-moz-focus-inner,.markdown-body [type=reset]::-moz-focus-inner,.markdown-body [type=submit]::-moz-focus-inner{border-style:none;padding:0}.markdown-body [type=button]:-moz-focusring,.markdown-body [type=reset]:-moz-focusring,.markdown-body [type=submit]:-moz-focusring{outline:1px dotted ButtonText}.markdown-body [type=checkbox],.markdown-body [type=radio]{box-sizing:border-box;padding:0}.markdown-body [type=number]::-webkit-inner-spin-button,.markdown-body [type=number]::-webkit-outer-spin-button{height:auto}.markdown-body [type=search]{-webkit-appearance:textfield;outline-offset:-2px}.markdown-body [type=search]::-webkit-search-cancel-button,.markdown-body [type=search]::-webkit-search-decoration{-webkit-appearance:none}.markdown-body ::-webkit-input-placeholder{color:inherit;opacity:.54}.markdown-body ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}.markdown-body a:hover{text-decoration:underline}.markdown-body hr:after,.markdown-body hr:before{content:"";display:table}.markdown-body hr:after{clear:both}.markdown-body table{border-collapse:collapse;border-spacing:0;display:block;max-width:100%;overflow:auto;width:-webkit-max-content;width:max-content}.markdown-body td,.markdown-body th{padding:0}.markdown-body details summary{cursor:pointer}.markdown-body details:not([open])>:not(summary){display:none!important}.markdown-body kbd{background-color:var(--color-canvas-subtle);border-bottom-color:var(--color-neutral-muted);border:1px solid var(--color-neutral-muted);border-radius:6px;box-shadow:inset 0 -1px 0 var(--color-neutral-muted);color:var(--color-fg-default);display:inline-block;font:11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;line-height:10px;padding:3px 5px;vertical-align:middle}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{font-weight:600;line-height:1.25;margin-bottom:16px;margin-top:24px}.markdown-body h2{border-bottom:1px solid var(--color-border-muted);font-size:1.5em;font-weight:600;padding-bottom:.3em}.markdown-body h3{font-size:1.25em;font-weight:600}.markdown-body h4{font-size:1em;font-weight:600}.markdown-body h5{font-size:.875em;font-weight:600}.markdown-body h6{color:var(--color-fg-muted);font-size:.85em;font-weight:600}.markdown-body p{margin-bottom:10px;margin-top:0}.markdown-body blockquote{border-left:.25em solid var(--color-border-default);color:var(--color-fg-muted);margin:0;padding:0 1em}.markdown-body ol,.markdown-body ul{margin-bottom:0;margin-top:0;padding-left:2em}.markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}.markdown-body ol ol ol,.markdown-body ol ul ol,.markdown-body ul ol ol,.markdown-body ul ul ol{list-style-type:lower-alpha}.markdown-body dd{margin-left:0}.markdown-body code,.markdown-body pre,.markdown-body tt{font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;font-size:12px}.markdown-body pre{word-wrap:normal;margin-bottom:0;margin-top:0}.markdown-body .octicon{fill:currentColor;display:inline-block;overflow:visible!important;vertical-align:text-bottom}.markdown-body ::-webkit-input-placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body :-ms-input-placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body ::placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body input::-webkit-inner-spin-button,.markdown-body input::-webkit-outer-spin-button{-webkit-appearance:none;appearance:none;margin:0}.markdown-body .pl-c{color:var(--color-prettylights-syntax-comment)}.markdown-body .pl-c1,.markdown-body .pl-s .pl-v{color:var(--color-prettylights-syntax-constant)}.markdown-body .pl-e,.markdown-body .pl-en{color:var(--color-prettylights-syntax-entity)}.markdown-body .pl-s .pl-s1,.markdown-body .pl-smi{color:var(--color-prettylights-syntax-storage-modifier-import)}.markdown-body .pl-ent{color:var(--color-prettylights-syntax-entity-tag)}.markdown-body .pl-k{color:var(--color-prettylights-syntax-keyword)}.markdown-body .pl-pds,.markdown-body .pl-s,.markdown-body .pl-s .pl-pse .pl-s1,.markdown-body .pl-sr,.markdown-body .pl-sr .pl-cce,.markdown-body .pl-sr .pl-sra,.markdown-body .pl-sr .pl-sre{color:var(--color-prettylights-syntax-string)}.markdown-body .pl-smw,.markdown-body .pl-v{color:var(--color-prettylights-syntax-variable)}.markdown-body .pl-bu{color:var(--color-prettylights-syntax-brackethighlighter-unmatched)}.markdown-body .pl-ii{background-color:var(--color-prettylights-syntax-invalid-illegal-bg);color:var(--color-prettylights-syntax-invalid-illegal-text)}.markdown-body .pl-c2{background-color:var(--color-prettylights-syntax-carriage-return-bg);color:var(--color-prettylights-syntax-carriage-return-text)}.markdown-body .pl-sr .pl-cce{color:var(--color-prettylights-syntax-string-regexp);font-weight:700}.markdown-body .pl-ml{color:var(--color-prettylights-syntax-markup-list)}.markdown-body .pl-mh,.markdown-body .pl-mh .pl-en,.markdown-body .pl-ms{color:var(--color-prettylights-syntax-markup-heading);font-weight:700}.markdown-body .pl-mi{color:var(--color-prettylights-syntax-markup-italic);font-style:italic}.markdown-body .pl-mb{color:var(--color-prettylights-syntax-markup-bold);font-weight:700}.markdown-body .pl-md{background-color:var(--color-prettylights-syntax-markup-deleted-bg);color:var(--color-prettylights-syntax-markup-deleted-text)}.markdown-body .pl-mi1{background-color:var(--color-prettylights-syntax-markup-inserted-bg);color:var(--color-prettylights-syntax-markup-inserted-text)}.markdown-body .pl-mc{background-color:var(--color-prettylights-syntax-markup-changed-bg);color:var(--color-prettylights-syntax-markup-changed-text)}.markdown-body .pl-mi2{background-color:var(--color-prettylights-syntax-markup-ignored-bg);color:var(--color-prettylights-syntax-markup-ignored-text)}.markdown-body .pl-mdr{color:var(--color-prettylights-syntax-meta-diff-range);font-weight:700}.markdown-body .pl-ba{color:var(--color-prettylights-syntax-brackethighlighter-angle)}.markdown-body .pl-sg{color:var(--color-prettylights-syntax-sublimelinter-gutter-mark)}.markdown-body .pl-corl{color:var(--color-prettylights-syntax-constant-other-reference-link);text-decoration:underline}.markdown-body [data-catalyst]{display:block}.markdown-body g-emoji{font-family:Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-size:1em;font-style:normal!important;font-weight:400;line-height:1;vertical-align:-.075em}.markdown-body g-emoji img{height:1em;width:1em}.markdown-body:after,.markdown-body:before{content:"";display:table}.markdown-body:after{clear:both}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body .absent{color:var(--color-danger-fg)}.markdown-body .anchor{float:left;line-height:1;margin-left:-20px;padding-right:4px}.markdown-body .anchor:focus{outline:none}.markdown-body blockquote,.markdown-body details,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-bottom:16px;margin-top:0}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body sup>a:before{content:"["}.markdown-body sup>a:after{content:"]"}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:var(--color-fg-default);vertical-align:middle;visibility:hidden}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}.markdown-body h1 code,.markdown-body h1 tt,.markdown-body h2 code,.markdown-body h2 tt,.markdown-body h3 code,.markdown-body h3 tt,.markdown-body h4 code,.markdown-body h4 tt,.markdown-body h5 code,.markdown-body h5 tt,.markdown-body h6 code,.markdown-body h6 tt{font-size:inherit;padding:0 .2em}.markdown-body ol.no-list,.markdown-body ul.no-list{list-style-type:none;padding:0}.markdown-body ol[type="1"]{list-style-type:decimal}.markdown-body ol[type=a]{list-style-type:lower-alpha}.markdown-body ol[type=i]{list-style-type:lower-roman}.markdown-body div>ol:not([type]){list-style-type:decimal}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-bottom:0;margin-top:0}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dl{padding:0}.markdown-body dl dt{font-size:1em;font-style:italic;font-weight:600;margin-top:16px;padding:0}.markdown-body dl dd{margin-bottom:16px;padding:0 16px}.markdown-body table th{font-weight:600}.markdown-body table td,.markdown-body table th{border:1px solid var(--color-border-default);padding:6px 13px}.markdown-body table tr{background-color:var(--color-canvas-default);border-top:1px solid var(--color-border-muted)}.markdown-body table tr:nth-child(2n){background-color:var(--color-canvas-subtle)}.markdown-body table img{background-color:transparent}.markdown-body img[align=right]{padding-left:20px}.markdown-body img[align=left]{padding-right:20px}.markdown-body .emoji{background-color:transparent;max-width:none;vertical-align:text-top}.markdown-body span.frame{display:block;overflow:hidden}.markdown-body span.frame>span{border:1px solid var(--color-border-default);display:block;float:left;margin:13px 0 0;overflow:hidden;padding:7px;width:auto}.markdown-body span.frame span img{display:block;float:left}.markdown-body span.frame span span{clear:both;color:var(--color-fg-default);display:block;padding:5px 0 0}.markdown-body span.align-center{clear:both;display:block;overflow:hidden}.markdown-body span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}.markdown-body span.align-center span img{margin:0 auto;text-align:center}.markdown-body span.align-right{clear:both;display:block;overflow:hidden}.markdown-body span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}.markdown-body span.align-right span img{margin:0;text-align:right}.markdown-body span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}.markdown-body span.float-left span{margin:13px 0 0}.markdown-body span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}.markdown-body span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}.markdown-body code,.markdown-body tt{background-color:var(--color-neutral-muted);border-radius:6px;font-size:85%;margin:0;padding:.2em .4em}.markdown-body code br,.markdown-body tt br{display:none}.markdown-body del code{text-decoration:inherit}.markdown-body pre code{font-size:100%}.markdown-body pre>code{background:transparent;border:0;margin:0;padding:0;white-space:pre;word-break:normal}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{background-color:var(--color-canvas-subtle);border-radius:6px;font-size:85%;line-height:1.45;overflow:auto;padding:16px}.markdown-body pre code,.markdown-body pre tt{word-wrap:normal;background-color:transparent;border:0;display:inline;line-height:inherit;margin:0;max-width:auto;overflow:visible;padding:0}.markdown-body .csv-data td,.markdown-body .csv-data th{font-size:12px;line-height:1;overflow:hidden;padding:5px;text-align:left;white-space:nowrap}.markdown-body .csv-data .blob-num{background:var(--color-canvas-default);border:0;padding:10px 8px 9px;text-align:right}.markdown-body .csv-data tr{border-top:0}.markdown-body .csv-data th{background:var(--color-canvas-subtle);border-top:0;font-weight:600}.markdown-body .footnotes{border-top:1px solid var(--color-border-default);color:var(--color-fg-muted);font-size:12px}.markdown-body .footnotes ol{padding-left:16px}.markdown-body .footnotes li{position:relative}.markdown-body .footnotes li:target:before{border:2px solid var(--color-accent-emphasis);border-radius:6px;bottom:-8px;content:"";left:-24px;pointer-events:none;position:absolute;right:-8px;top:-8px}.markdown-body .footnotes li:target{color:var(--color-fg-default)}.markdown-body .footnotes .data-footnote-backref g-emoji{font-family:monospace}.markdown-body .task-list-item{list-style-type:none}.markdown-body .task-list-item label{font-weight:400}.markdown-body .task-list-item.enabled label{cursor:pointer}.markdown-body .task-list-item+.task-list-item{margin-top:3px}.markdown-body .task-list-item .handle{display:none}.markdown-body .task-list-item-checkbox{margin:0 .2em .25em -1.6em;vertical-align:middle}.markdown-body .contains-task-list:dir(rtl) .task-list-item-checkbox{margin:0 -1.6em .25em .2em}.markdown-body ::-webkit-calendar-picker-indicator{-webkit-filter:invert(50%);filter:invert(50%)}@font-face{font-family:lab;src:url(/static/lab-b3a92fdc7ccdc8ebf471556b2e7b1018.woff2) format("woff2")}:root{--font-base:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;--layout-header-height:56px;--layout-footer-height:100px;--gg-border:hsla(0,0%,71%,.1)}*{box-sizing:border-box;transition:all .3s ease-out}html.dark{--theme-content-background-color:#232629;--theme-header-background-color:#232629;--theme-footer-background-color:#232629;--theme-text:#d8d8d8;--gg-logo:#d8d8d8;--gg-icon:#75757a}html.light{--theme-content-background-color:#fff;--theme-header-background-color:#fafafa;--theme-footer-background-color:#fefefe;--theme-text:#232629;--gg-logo:#232629;--gg-icon:#a5a5ac}body{font-family:var(--font-base);margin:0;padding:0}.icon-action{cursor:pointer;user-select:none}.page-title{align-items:center;display:flex;font-size:20px;font-weight:700;justify-content:center;margin-bottom:20px;text-align:center}.page-title .icon{margin-right:10px}.text-center{text-align:center}.gg-empty{color:hsla(0,0%,71%,.5);font-size:18px}.dark .markdown-body{--color-prettylights-syntax-comment:#8b949e;--color-prettylights-syntax-constant:#79c0ff;--color-prettylights-syntax-entity:#d2a8ff;--color-prettylights-syntax-storage-modifier-import:#c9d1d9;--color-prettylights-syntax-entity-tag:#7ee787;--color-prettylights-syntax-keyword:#ff7b72;--color-prettylights-syntax-string:#a5d6ff;--color-prettylights-syntax-variable:#ffa657;--color-prettylights-syntax-brackethighlighter-unmatched:#f85149;--color-prettylights-syntax-invalid-illegal-text:#f0f6fc;--color-prettylights-syntax-invalid-illegal-bg:#8e1519;--color-prettylights-syntax-carriage-return-text:#f0f6fc;--color-prettylights-syntax-carriage-return-bg:#b62324;--color-prettylights-syntax-string-regexp:#7ee787;--color-prettylights-syntax-markup-list:#f2cc60;--color-prettylights-syntax-markup-heading:#1f6feb;--color-prettylights-syntax-markup-italic:#c9d1d9;--color-prettylights-syntax-markup-bold:#c9d1d9;--color-prettylights-syntax-markup-deleted-text:#ffdcd7;--color-prettylights-syntax-markup-deleted-bg:#67060c;--color-prettylights-syntax-markup-inserted-text:#aff5b4;--color-prettylights-syntax-markup-inserted-bg:#033a16;--color-prettylights-syntax-markup-changed-text:#ffdfb6;--color-prettylights-syntax-markup-changed-bg:#5a1e02;--color-prettylights-syntax-markup-ignored-text:#c9d1d9;--color-prettylights-syntax-markup-ignored-bg:#1158c7;--color-prettylights-syntax-meta-diff-range:#d2a8ff;--color-prettylights-syntax-brackethighlighter-angle:#8b949e;--color-prettylights-syntax-sublimelinter-gutter-mark:#484f58;--color-prettylights-syntax-constant-other-reference-link:#a5d6ff;--color-fg-default:#c9d1d9;--color-fg-muted:#8b949e;--color-fg-subtle:#484f58;--color-canvas-default:#232629;--color-canvas-subtle:#161b22;--color-border-default:#30363d;--color-border-muted:#21262d;--color-neutral-muted:hsla(215,8%,47%,.4);--color-accent-fg:#58a6ff;--color-accent-emphasis:#1f6feb;--color-attention-subtle:rgba(187,128,9,.15);--color-danger-fg:#f85149;color-scheme:dark}.light .markdown-body{--color-prettylights-syntax-comment:#6e7781;--color-prettylights-syntax-constant:#0550ae;--color-prettylights-syntax-entity:#8250df;--color-prettylights-syntax-storage-modifier-import:#24292f;--color-prettylights-syntax-entity-tag:#116329;--color-prettylights-syntax-keyword:#cf222e;--color-prettylights-syntax-string:#0a3069;--color-prettylights-syntax-variable:#953800;--color-prettylights-syntax-brackethighlighter-unmatched:#82071e;--color-prettylights-syntax-invalid-illegal-text:#f6f8fa;--color-prettylights-syntax-invalid-illegal-bg:#82071e;--color-prettylights-syntax-carriage-return-text:#f6f8fa;--color-prettylights-syntax-carriage-return-bg:#cf222e;--color-prettylights-syntax-string-regexp:#116329;--color-prettylights-syntax-markup-list:#3b2300;--color-prettylights-syntax-markup-heading:#0550ae;--color-prettylights-syntax-markup-italic:#24292f;--color-prettylights-syntax-markup-bold:#24292f;--color-prettylights-syntax-markup-deleted-text:#82071e;--color-prettylights-syntax-markup-deleted-bg:#ffebe9;--color-prettylights-syntax-markup-inserted-text:#116329;--color-prettylights-syntax-markup-inserted-bg:#dafbe1;--color-prettylights-syntax-markup-changed-text:#953800;--color-prettylights-syntax-markup-changed-bg:#ffd8b5;--color-prettylights-syntax-markup-ignored-text:#eaeef2;--color-prettylights-syntax-markup-ignored-bg:#0550ae;--color-prettylights-syntax-meta-diff-range:#8250df;--color-prettylights-syntax-brackethighlighter-angle:#57606a;--color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;--color-prettylights-syntax-constant-other-reference-link:#0a3069;--color-fg-default:#24292f;--color-fg-muted:#57606a;--color-fg-subtle:#6e7781;--color-canvas-default:#fff;--color-canvas-subtle:#f6f8fa;--color-border-default:#d0d7de;--color-border-muted:#d8dee4;--color-neutral-muted:rgba(175,184,193,.2);--color-accent-fg:#0969da;--color-accent-emphasis:#0969da;--color-attention-subtle:#fff8c5;--color-danger-fg:#cf222e;color-scheme:light}.markdown-body{margin:0 auto;max-width:720px;padding:0 20px 20px}h1{border-bottom:none!important}.gg-logo{text-rendering:optimizelegibility;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;line-height:0;outline:none;text-align:center;text-transform:none;vertical-align:-.125em}.gg-logo,.gg-theme-toggle{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.gg-nav{height:var(--layout-header-height)}.gg-nav *{transition:none}.gg-nav .icons,.gg-nav .nav-screen nav li{align-items:center;display:flex}.gg-nav .nav-screen nav li{color:var(--gg-icon);cursor:pointer;font-weight:700;list-style:none}@media screen and (max-width:720px){.gg-nav{align-items:center;display:flex}.gg-nav .nav-icon{cursor:pointer;height:24px;overflow:hidden;width:24px}.gg-nav .nav-icon span{background:#999;display:block;height:3px;margin:4px 0;transition:all .3s ease;width:24px}.gg-nav .nav-icon .top{-webkit-transform:translateX(6px);transform:translateX(6px)}.gg-nav .nav-icon .bottom{-webkit-transform:translateX(8px);transform:translateX(8px)}.gg-nav .nav-icon.active .top{-webkit-transform:rotate(225deg) translateY(-5px) translateX(-5px);transform:rotate(225deg) translateY(-5px) translateX(-5px)}.gg-nav .nav-icon.active .middle{-webkit-transform:translateX(24px);transform:translateX(24px)}.gg-nav .nav-icon.active .bottom{-webkit-transform:rotate(135deg) translateY(5px) translateX(-5px);transform:rotate(135deg) translateY(5px) translateX(-5px)}.nav-icon{display:block}.nav-screen{background-color:var(--theme-header-background-color);height:0;left:0;overflow:hidden;position:fixed;top:var(--layout-header-height);transition:height .15s ease-out;width:100%;z-index:1000}.nav-screen>div{padding:20px}.nav-screen.open{height:calc(100vh - var(--layout-header-height))}.nav-screen nav{font-size:16px;text-align:center}.nav-screen nav svg{font-size:24px;margin-right:10px}.nav-screen nav li{justify-content:center;padding:8px 0}.nav-screen .icons{justify-content:center;margin-top:40px}.nav-screen .icons .icon-action{margin:0 10px}}@media screen and (min-width:721px){.nav-icon{display:none}.nav-screen{height:100%;justify-content:space-between}.nav-screen,.nav-screen>div{display:flex}.nav-screen .icons .icon-action{margin:0 5px}.nav-screen nav{margin-right:20px}.nav-screen nav svg{margin-right:4px}.nav-screen nav li{float:left;font-size:14px;height:100%;margin-right:20px}}#gg-backtop{align-items:center;border-radius:50%;bottom:20px;box-shadow:inset 0 0 5px hsla(0,0%,59%,.5);cursor:pointer;display:flex;height:42px;justify-content:center;position:fixed;right:20px;transition:all .5s ease;-webkit-user-select:none;-ms-user-select:none;user-select:none;width:42px}@media screen and (max-width:767px){#gg-backtop{height:36px;width:36px}}#gg-backtop svg{width:50%}#gg-backtop.hide{opacity:0;-webkit-transform:scale(0);transform:scale(0)}#gg-backtop.show{opacity:1;-webkit-transform:scale(1);transform:scale(1)}.gg-container{display:flex;flex-direction:column;min-height:100vh}.gg-container header{align-items:center;background-color:#fff;background-color:var(--theme-header-background-color);border-bottom:1px solid hsla(0,0%,47%,.2);box-shadow:0 1px 2px rgba(0,0,0,.05),0 1px 4px rgba(0,0,0,.05),0 2px 8px rgba(0,0,0,.05);display:flex;height:var(--layout-header-height);justify-content:space-between;padding:0 16px;position:fixed;top:0;width:100%;z-index:999}.gg-container header .imglogo{border:1px solid var(--gg-border);border-radius:8px;cursor:pointer;width:32px}.gg-container main{background-color:var(--theme-content-background-color);min-height:calc(100vh - var(--layout-footer-height));padding-top:80px}.gg-container footer{align-items:center;background-color:var(--theme-footer-background-color);color:#838c95;display:flex;font-size:14px;height:var(--layout-footer-height);justify-content:center;padding:0 10px;position:relative;text-align:center;width:100%}.gg-container footer:after{background:radial-gradient(hsla(0,0%,59%,.6),transparent 80%);content:"";display:block;height:1px;position:absolute;top:0;width:100%}.gg-container footer img{vertical-align:middle}.gg-container footer .owner{color:#3486e2;cursor:pointer;margin-left:5px;text-decoration:none}.gg-container footer .copyright{margin-left:10px}.gg-container footer .powered{margin-left:5px}@media screen and (max-width:720px){.gg-container footer{flex-direction:column}.gg-container footer .copyright,.gg-container footer .powered{margin-left:0;margin-top:5px}}.issues-page h1{text-align:center}.author-info{margin-bottom:3px}.author-info .author{cursor:pointer}.author-info .author .name{font-weight:500}.author-info .author img{border-radius:50%;margin-right:5px;vertical-align:middle;width:30px}.author-info i,.author-info span{font-size:14px}.author-info .date{margin-left:10px;opacity:.4}.author-info .number{float:right;line-height:26px;opacity:.3}.gg-category{background:hsla(0,0%,71%,.3)!important;border-radius:4px;display:inline-block;font-size:10px;font-weight:700;height:18px;line-height:18px;margin-right:10px;padding:0 5px;text-decoration:none!important;vertical-align:middle}.gg-category,.issues-num{color:var(--color-fg-default)!important;cursor:pointer}.issues-num{font-family:lab;font-style:italic;font-variation-settings:"size" 30,"quad" 40,"bevl" 20,"oval" 30;opacity:.6}.home-page .issues-list{max-width:unset}.home-page .issues-list>div{display:flex;flex-wrap:wrap;margin:0 auto;max-width:960px}.home-page .issues-list .author-info{margin-bottom:3px}.home-page .issues-list .author-info .author img{width:24px}.home-page .issues-list .author-info i,.home-page .issues-list .author-info span{font-size:12px}.home-page .issues-list .author-info .number{float:right;line-height:26px;opacity:.3}.home-page .issues-list .post-info .title{font-size:15px;font-weight:700;text-decoration:none;vertical-align:middle}@media screen and (min-width:721px){.home-page .issues-list .item{border:1px solid var(--gg-border);border-radius:5px;margin:0 10px 20px;max-width:100%;min-width:200px;overflow:hidden;width:calc(50% - 20px)}.home-page .issues-list .item .author-info{background-color:var(--gg-border);padding:3px 5px}.home-page .issues-list .item .post-info{padding:5px}}@media screen and (max-width:720px){.home-page .issues-list .item{border-bottom:1px solid hsla(0,0%,59%,.2);padding:15px 0 12px;width:100%}.home-page .issues-list .item .author-info{margin-bottom:5px}}.gg-label{border-radius:4px;border-style:solid;border-width:1px;cursor:pointer;display:inline-block;font-size:12px;height:18px;line-height:17px;overflow:hidden;vertical-align:middle}.gg-label b{color:#fff;padding:0 3px 0 2px}.gg-label b,.gg-label em{display:inline-block;height:100%}.gg-label em{border-bottom-right-radius:3px;border-top-right-radius:3px;color:var(--theme-text);padding:0 3px}.gg-issues-prev-next{align-items:stretch;border:1px solid hsla(0,0%,59%,.3);border-radius:5px;display:flex;margin:30px 0}.gg-issues-prev-next:after{clear:both;content:"";display:block}.gg-issues-prev-next a{flex:1 1;padding:15px 10px;width:50%}.gg-issues-prev-next a>span{align-items:center;display:flex;height:100%}.gg-issues-prev-next a .icon-action{min-width:20px}.gg-issues-prev-next .prev{text-align:left}.gg-issues-prev-next .prev>span{float:left}.gg-issues-prev-next .prev .icon-action{margin-right:5px}.gg-issues-prev-next .next{text-align:right}.gg-issues-prev-next .next>span{float:right}.gg-issues-prev-next .next .icon-action{margin-left:5px}@media screen and (max-width:720px){.gg-issues-prev-next{font-size:14px}}.issues-page h1{font-size:24px}.issues-page h1>span{background:linear-gradient(180deg,transparent 50%,hsla(0,0%,71%,.5) 0);padding:0 5px}.issues-page h1 .issues-num{font-size:18px;margin-right:10px}.issues-page .widget{margin-bottom:20px;text-align:center}.issues-page .gg-label{margin:2px 4px}.issues-page .ques-content{display:flex;margin-top:5px;min-height:120px}.issues-page .ques-content .quesicon{margin-right:3px}.issues-page .ques-content .quescontent{width:100%}.issues-page .vote{align-items:center;display:flex;flex-direction:column;font-style:normal}.issues-page .answer-content .answericon{background-color:hsla(0,0%,71%,.3);border-radius:5px;margin-bottom:20px;padding:5px 0 0;text-align:center}.issues-page .comments-item{border-left:1px solid hsla(0,0%,71%,.3);padding-bottom:1px;padding-left:3px}.issues-page .comments-item-content{margin-left:20px}.labels-category-page .gg-label-category-head{margin-bottom:20px;position:-webkit-sticky;position:sticky;top:56px}.labels-category-page .category-group{display:flex;width:100%}.labels-category-page .category-group .label-category{color:#fff;cursor:pointer;display:inline-block;font-weight:700;height:36px;line-height:36px;padding:0 10px;text-shadow:0 1px 1px rgba(80,80,80,.5)}.labels-category-page .category-group .label-category.active{color:#000}.labels-category-page .level-group .label-level{background-color:#000;color:#fff;cursor:pointer;display:inline-block;font-size:16px;font-size:14px;height:24px;line-height:24px;margin-right:1px;opacity:.5;padding:0 10px}.labels-category-page .level-group .label-level.active{opacity:1}.labels-category-page .level-group .label-level.level1{background-color:#3c3c3c}.labels-category-page .level-group .label-level.level2{background-color:#555}.labels-category-page .level-group .label-level.level3{background-color:#6f6f6f}.labels-category-page .level-group .label-level.level4{background-color:#888}.labels-category-page .level-group .label-level.level5{background-color:#a2a2a2}.labels-category-page .issues-list .item{background-color:var(--gg-border);border-radius:5px;margin-bottom:10px;padding:10px}.labels-category-page .issues-list .item .label-issue{margin-right:10px}.labels-category-page .issues-list .labels-list{font-size:12px;margin-top:4px}.labels-category-page .issues-list .labels-list .gg-label{margin-bottom:4px;margin-right:4px}.labels-category-page .issues-list .post-info{font-weight:700;margin-top:5px}.issues-list .issues-item{align-items:baseline;display:flex;margin-bottom:10px;text-align:left}.issues-list .issues-item .issues-num{font-size:12px;margin-right:10px}.issues-list .issues-item .title{font-weight:700}.labels-page{text-align:center}.labels-page .markdown-body{display:inline-block}.labels-page .labels-head{border-radius:5px;color:#fff;cursor:pointer;display:block;font-weight:700;margin-bottom:20px;padding:5px 10px;text-shadow:0 1px 2px #000}.labels-page .labels-head:hover{text-decoration:none!important}.labels-page .label-desc{font-weight:700;opacity:.5}.nav-category-page .gg-category{font-size:14px;font-weight:700;height:36px;line-height:36px;margin:10px;padding:0 12px}.nav-labels-page .gg-label{font-size:16px;font-weight:700;height:30px;line-height:29px;margin:5px}.nav-labels-page .gg-label b,.nav-labels-page .gg-label em{padding:0 10px}</style><link rel="icon" href="/favicon-32x32.png?v=fdd225e9135e951b972a3dc20604182e" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=fdd225e9135e951b972a3dc20604182e"/><link as="script" rel="preload" href="/webpack-runtime-4fee7405b8a071e8c34e.js"/><link as="script" rel="preload" href="/framework-86c8a5417e68dc3cefff.js"/><link as="script" rel="preload" href="/app-7383f855f15f63329e5f.js"/><link as="script" rel="preload" href="/fc369a2ef6459b03f38591687cef4a587495c716-f468df31cbdaf6ffa970.js"/><link as="script" rel="preload" href="/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js"/><link as="fetch" rel="preload" href="/page-data/issues/613/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/151096407.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2861350382.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/><script>
+(function() {
+  window.__onThemeChange = function() {};
+  function setTheme(newTheme) {
+    window.__theme = newTheme;
+    preferredTheme = newTheme;
+    document.querySelector('html').className = newTheme;
+    window.__onThemeChange(newTheme);
+  }
+  var preferredTheme;
+  try {
+    preferredTheme = localStorage.getItem('theme');
+  } catch (err) { }
+  window.__setPreferredTheme = function(newTheme) {
+    setTheme(newTheme);
+    try {
+      localStorage.setItem('theme', newTheme);
+    } catch (err) {}
+  }
+  var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  darkQuery.addListener(function(e) {
+    window.__setPreferredTheme(e.matches ? 'dark' : 'light')
+  });
+
+  setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
+})()</script></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="gg-container issues-page"><header><img class="imglogo" src="/static/logo-fe174465633f84724b37eea28a42c520.png" alt="logo"/><div class="gg-nav"><span class="nav-icon"><span class="top"></span><span class="middle"></span><span class="bottom"></span></span><div class="nav-screen"><div><nav><li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 9A1.5 1.5 0 0 0 7 7.5A1.5 1.5 0 0 0 5.5 6A1.5 1.5 0 0 0 4 7.5A1.5 1.5 0 0 0 5.5 9m11.91 2.58c.36.36.59.86.59 1.42c0 .55-.22 1.05-.59 1.41l-5 5a1.996 1.996 0 0 1-2.83 0l-6.99-6.99C2.22 12.05 2 11.55 2 11V6c0-1.11.89-2 2-2h5c.55 0 1.05.22 1.41.58l7 7m-3.87-5.87l1-1l6.87 6.87c.37.36.59.87.59 1.42c0 .55-.22 1.05-.58 1.41l-5.38 5.38l-1-1L20.75 13l-7.21-7.29Z"/></svg>Labels</li><li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M3 3h18v4H3V3m1 5h16v13H4V8m5.5 3a.5.5 0 0 0-.5.5V13h6v-1.5a.5.5 0 0 0-.5-.5h-5Z"/></svg>Archives</li></nav><div class="icons"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="gg-theme-toggle icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="m3.55 18.54l1.41 1.41l1.8-1.79l-1.42-1.42M11 22.45h2V19.5h-2m1-14a6 6 0 0 0-6 6a6 6 0 0 0 6 6a6 6 0 0 0 6-6c0-3.32-2.69-6-6-6m8 7h3v-2h-3m-2.76 7.66l1.8 1.79l1.41-1.41l-1.79-1.8m1.79-12.28l-1.41-1.41l-1.8 1.79l1.42 1.42M13 .55h-2V3.5h2m-9 7H1v2h3m2.76-7.66l-1.8-1.79l-1.41 1.41l1.79 1.8l1.42-1.42Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg></div></div></div></div></header><main><div class="content"><div class="markdown-body"><h1><span><a class="number issues-num" href="https://github.com/awesome-ops/awesome-ops.github.io/issues/613" target="_blank">#613</a><span>chubin/wttr.in: 执行 curl wttr.in 在终端中显示天气预报</span></span></h1><div class="widget"><a class="gg-label" style="border-color:#25B472" href="/labels/更多"><b style="background:#25B472">#</b><em>更多</em></a><a class="gg-label" style="border-color:#e05879" href="/labels/命令行工具"><b style="background:#e05879">#</b><em>命令行工具</em></a><a class="gg-label" style="border-color:#73564b" href="/labels/chubin"><b style="background:#73564b">#</b><em>chubin</em></a></div><div><div class="author-info"><span class="author" title="https://github.com/eryajf"><img src="https://avatars.githubusercontent.com/u/33259379?u=e4a4090a38ac2473aaed4ef9945233636776c6c3&amp;v=4" alt="eryajf"/><span>eryajf</span></span><i class="date">2025/05/22</i></div><div class="ques-content"><div class="quescontent"><div align="center" dir="auto">
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966"><img src="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966" width="100%" height="3" data-animated-image="" data-canonical-src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" style="max-width: 100%; height: auto; max-height: 3px;"></a><br><br></p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th align="right">Repos</th>
+<th align="left"><a href="https://github.com/chubin/wttr.in">chubin/wttr.in</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right"><strong>Views</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/3ed2f3b872b485beb2e36b1093461ebb30e3f18655082650cad0e56f7b5fd996/68747470733a2f2f76696577732e77686174696c656172656e65642e746f6461792f76696577732f6769746875622f63687562696e2f777474722e696e2e737667" alt="views" data-canonical-src="https://views.whatilearened.today/views/github/chubin/wttr.in.svg" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>Stars</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/09cf3590d29bda469fd97087f8f148ee721355ecb4b6bb8bb21aa9762757ff05/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f63687562696e2f777474722e696e3f636f6c6f723d663266303864266c6f676f3d556e64657274616c65266c6f676f436f6c6f723d656234363330" alt="stars" data-canonical-src="https://img.shields.io/github/stars/chubin/wttr.in?color=f2f08d&amp;logo=Undertale&amp;logoColor=eb4630" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>Forks</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/9597771d4208cbdb6d96312cfdae97d0b6a1f8e6cf7e19eb749d855e6989c802/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f63687562696e2f777474722e696e3f636f6c6f723d626138366562266c6f676f3d48616e647368616b65266c6f676f436f6c6f723d656136616136" alt="forks" data-canonical-src="https://img.shields.io/github/forks/chubin/wttr.in?color=ba86eb&amp;logo=Handshake&amp;logoColor=ea6aa6" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>License</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/32da39df6df75fdf0cc32838961e075148c94dd39eb7706624974cc49374f539/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f63687562696e2f777474722e696e3f6c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e53556845556741414144414141414177434159414141425841766d48414141414358424957584d41414173544141414c457745416d70775941414144336b6c45515652346e4f335953557a5555426748384a726f57567255474a66456d3773584e63534446784d544c327069347348456778654e526f77586770455742445552522532424e414e4f4b4f4b36366f6f4b4a4742586545475263574163455646475152484677516d483525324630774861655748493944554455354c356b6e6568644f62377a66652532423139636e434a47495243516945596c514237594a4979474c38616f73756c565a36695246516a69474b6b7564576735614c6c704f70704e586e665071773555304459524a6d56786a4367464633424c755a476d416f5655694b4541726d583744375553677351706f72674761336748664b34483663754262435644334771683141352532424c6745253242467749656e514d306a6f446f66714c6f48564e7742796d384370546e416d327a51713073676478624964515a556c416b7150415a3664676a303541446f59526f6f66792532466f5869726f376b3551586a4c6f70677a4b69514e6c4c4461716f4967754577426a7a7150355066446a45394479495879493633464d547751464d43567271774e61763451666f52673538514625324266724d485172454b3844546f434d714e4179574e4866786d54526f4c4f726d5352566747744466714345715a4f4851727a6f34706243557341333431365169364551394b476a6345465267484f724f4b6e5536574162396247455459656b4b7843766a546167394534706a653534446b3551503862624d4859762532464333756541654a6b50304f4778422532424a70426e4172595238455951516e6f4e31414e4661426e5050356c385372736559514c303641646b30464a5938484f5761424d6c6541486a683068506f73497a6c6f3876304125324633345a694f6548726130714b52504d5653493774762532423932747725324676687855654252713456454c674d376642714b354770526d6f514c584e7075625475367a6f4e52706754386e5051627138347764253246494375767978694b4871694e41664933774d367549684271476b4c696977414f734b44714f68743749747239567938536a52424557667941627225324668523142667056514664484a42253246423268683778376a36517077435665655951326b72554235436c636a3641326d3067576a25324244306d4c34397a573563517943484c4e37726a6c6d6d6174457958582532464372547a412532466f51785a6b576c39474a5443566f25324279546a3837253242346769504b6376307149486f344156344430565a727251493334706e70524d36357875652532467a417265453425324654253246536f676c664542794d7369517441546c4c3352414a355948725378365a44665337307337754d486842705225324659423573305057366f455270316236253246667252684b3353444c35546965364f515548516c5133735644752532427a50636b397657453973747225324236496a533967486d5750616861444a25324277434b364e494242587348423948796b587378774470686c436d416476706c6162554a4e6e5a504239342532464e7436784f6538587a4562503257684d335741673147756236744825324233513150673337365239713475716c6e6f36676448476a444f5139306562303141484d3672596975554a314f713472344656756a35765239427a4d3957674e764f7977446869495951467667626366774166774d764863615067425041253246447948476a50624e394138616d6562636477416444354e6633373574787165774e5552656f797677424958594c645170576c6877465771745061435044334173467541535636717171496c62304a766b564331464c39576b4c55556c55574b337a585a4c46432532423125324642726f46746f364f7358497545594a5034447a7a5732594656316f4a614141414141456c46546b5375516d4343" alt="license" data-canonical-src="https://img.shields.io/github/license/chubin/wttr.in?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD3klEQVR4nO3YSUzUUBgH8JroWVrUGJfEm7sXNcSDFxMTL2pi4sHEgxeNRowXgpEWBDURR%2BNANOKOK66ooKJGBXeEGRcWAcEVFGQRHFwQmH5%2F0wHaeWHI9DUDU5L5knehdOb7zfe%2B19cnCJGIRCQiEYlQB7YJIyGL8aosulVZ6iRFQjiGKkudWg5aLlpOppNXnfPqw5U0DYRJmVxjCgFF3BLuZGmAoVUiKEArmX7D7USgsQporgGa3gHfK4H6cuBbCVD3Gqh1A5%2BLgE%2BFwIenQM0joDofqLoHVNwBym8CpTnAm2zQq0sgdxbIdQZUlAkqPAZ6dgj05ADoYRoofy%2FoXiro7k5QXjLopgzKiQNlLDaqoIguEwBjzqP5PfDjE9DyIXyI63FMTwQFMCVrqwNav4QfoRg58QF%2BfrMHQrEK8DToCMqNAyWNHfxmTRoLOrmSRVgGtDfqCEqZOHQrzo4pbCUsA3416Qi6EQ9KGjcEFRgHOrOKnU6WAb9bGETYekKxCvjTag9E4pje54Dk5QP8bbMHYv%2FC3ueAeJkP0OGxB%2BJpBnArYR8EYQQnoN1ANFaBnPP5l8SrseYQL06Adk0FJY8HOWaBMleAHjh0hPosIzlo8v0A%2F34ZiOeHra0qKRPMVSI7tv%2B92tw%2FvhxUeBRq4VELgM7fBqK5GpRmoQLXNpubTu6zoNRpgT8nPQbq84wd%2FICuvyxiKHqiNAfI3wM6uIhBqGkLiiwAOsKDqOht7Itr9Vy8SjRBEWfyAbr%2FhR1BfpVQFdHJB%2FB2hh7x7j6QpwCVeeYQ2krUB5Clcj6A2m0gWj%2BD0mL49zW5cQyCHLN7rjlmmatEyXX%2FCrTzA%2FoQxZkWl9GJTCVo%2ByTj87%2B4giPKcv0qIHo4AV4D0VZrrQI34pnpRM65xue%2FzAreE4%2FT%2FSoglfEByMsiQtATlL3RAJ5YHrSx6ZDfS70s7uMHhBpR%2FYB5s0PW6oERp1b6%2FfrRhK3SDL5Tie6OQUHQlQ3sVDu%2BzPck9vWE9str%2B6IjS9gHmWPahaDJ%2BwCK6NIBBXsHB9HykXsxwDphlCmAdvplabUJNnZPB94%2FNt6xOe8XzEbP2WhM3WAg1Gub6tH%2B3Q1Pg376R9q4uqlno6gdHGjDOQ90eb01AHM6rYiuUJ1Oq4r4FVuj5vR9BzM9WgNvOywDhiIYQFvgbcfwAfwMvHcaPgBPA%2FDyHGjPbN9A8amebcdwAdD5Nf375txqewNUReoyvwBIXYLdQpWlhwFWqtPaCPD3AsFuASV6qqqIlb0JvkVC1FL9WkLUUlUWK3zXZLFC%2B1%2FBroFto6OsXIuEYJP4DzzW2YFV1oJaAAAAAElFTkSuQmCC" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>UpdatedAt</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/0e776d94524f0cb61466779eb50737e60371f4d3ad78d628509109be3eb6a098/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f63687562696e2f777474722e696e3f646973706c61795f74696d657374616d703d636f6d6d6974746572266c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e5355684555674141414234414141416543415941414141374d4b3669414141414358424957584d41414173544141414c457745416d7077594141414648556c45515652346e4c5658375539615678776d3236646c582532466468627825324232253246516e626b7655627264554151674a4a496655444e574454546d4f76314651554661504a346b7573725630314a7431734e70637453327533626f745a746d786439744a5346536f714b71494635625944464c436f76436c656673747a4a387758524c445a4c7a6e6b634f343535376e3364332532466e655a3472454f515a74315771462532423858467234253242664f4c4565326a6f59307a776638546f795a50766a45676b4c592532426b306d6d72584f36644b696e787a476b30666a5430782532425279723055716e6359637a4d317263347451253242497270324c4758646f344e4334567657715453373277716c632532427231334f527269364b6458646e624f484c6c776c7a4a70524b6e3657342532424b36706f4f434e6e494166486a253246253242776168495a4234764b6e715a6630714a704e49716c2532467638545530634e6c3572627963337730516e54703379324c54614a374d314e617844723266526e315370504736476961323174664533345463614f617931694d55564f5146624659714957536f31573854694156616e43306576584f4542375770313448466232327a453566714c4f433545524c515769644e614e49347545636339693768634a6c644868324e57725135674464624f6c7061756d49754c62326174415144506e7a3062384e6257636d785656524a33486d7870536377777a4f4a6d4b44524765384c6c435a444c4739673754496e5631516c376462586256316533675430574b697243466f6d6b5079767758466c5a474a4f6a563625324253743634757564445a4f55354555636f782532464d455144567674364d62634e3237593341797a687633737061557242365a3971724a534f3139657a6a387032704c426b4a792532426343484a7857493567573574636652527a31645531394766476b6f7539505a4f34736d52396a4746777065783444793362766e6d4b79706f74625531335669646a71595a68726a343972764d457425324625324659714c7a396430304e6a57253246637a67796f394f35317a7336614e6c6f354644747530445a675146686c47584a30644241446f4e6864367576703657686f617967374e394c564748386d443462253246486e667455516f4e4734764c51306769784d716c5725324234714f6a744e48446733723166365969525347785279375576714c62395534716b716e78504f4e7661356c447048723125324279794b524e4b57425a793565644d554842326d3572792532422532424551772532427a6766347a6f39253246306f634e3357527a4c4277344a2532424a7950574372716d4967475974554f735744346f785a46516f50556a4770564871493425324661666b51504336665a5165654d31253242764c7549516e6a754257514444437363726d485039656f4e5041744271664f6e5875614b25324268364a45624772732532427076764d6d78654962683836336162565065597953456f39464a48704e4d464a59253242503563575a6b6667374f3174537759436553514c54593345385130392532464256504a556c78516a7368543142736343593032723955445542667643484236367063665041336c794165336e6772332532463437584467614a7a736c7937787741364e5a746c555550437541487161536a5549502532427375653842525741432532464e6651374a5a505a35397330476a3756747049537a34685125324243706658474d4b685a63764c70554b7866574d386f68766637702532464f446a4842666356463849736b383267314648796b63564645253242555a414158343761452532464d6c34504f3530506e75683025324678346e6d637957507364774468427836436d6b4c562532466746446a594b784f4a4f4674623077517949684c39527943774b33414f664947703159464542686e4d4a634c525745624b644b516f55366e63545a6b494544696341792532463831645675454d3552775066657934784f7830496b25324649324e6e466b692532425761664f6f464959466367595a43797864376543556a626334416d46363566742532466b4d686b336f25324235686337734d4a79716a4a45477659466151464972375930775077384246415925324236253242766d6b3377367a7a5275444d6d5a5652736668385274413075455453443775434254364459514e36697665553066706b594c6a453671725672744f78654e4b553954484c5a4a396b4255324a427342685635416976422532466f4b61514e4b675043427744596149665a4334616454684f71463457454e56694c4a77566f586f62664c424b56773637414f6154734c6336355461564b32317651344c613939654b6359673576627873624f627a5451394e37554b4467554f3177446a6944494942736868357a746733396e514d4c535a4248344f7a424f55444551586d323036643366634c67737762585141345068634b336e6873775531427a3877765130395248472532466f597933656a6677424e6d746f59714c4130586741414141424a52553545726b4a676767253344253344266c6162656c3d557064617465644174" alt="last-commit" data-canonical-src="https://img.shields.io/github/last-commit/chubin/wttr.in?display_timestamp=committer&amp;logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHUlEQVR4nLVX7U9aVxwm26dlX%2Fdhbx%2B2%2FQnbkvUbrdUAQgJJIfUDNWDTTmOv1FQUFaPJ4kusrV01Jt1sNpctS2u3botZtmxd9tJSFSoqKqIF5bYDFLCovClefstzJ8wXRLDZLznkcO4557n3d3%2FneZ4rEOQZt1WqF%2B8XFr4%2BfOLEe2joY0zwf8ToyZPvjEgkLY%2Bk0mmrXO6dKinxzGk0fjT0x%2BRyr0UqncYczM1rc4tQ%2BIrp2LGXdo4NC4VvWqTS72wqlc%2Br13ORri6KdXdnbOHLlwlzJpRKn6W4%2BK6poOCNnIAfHj%2F%2BwahIZB4vKnqZf0qJpNIql%2Fv8TU0cNl5rbyc3w0QnTp3y2LTaJ7M1NaxDr2fRn1SpPG6Gia21tfE34TcaOay1iMUVOQFbFYqIWSo1W8TiAVanC0evXOEB7Wp14HFb22zE5fqLOC5ERLQWidNaNI4uEcc9i7hcJldHh2NWrQ5gDdbOlpaumIuLb2atAQDPnz0b8NbWcmxVVRJ3HmxpScwwzOJmKDRGe8LlCZDLG9g7TInV1Ql7dbXbV1e3gT0WKirCFomkPyvwXFlZGJOjV6%2BSt64uudDZOU5EUcox%2FMEQDVvt6MbcN27Y3Ayzhv3spaUrB6Z9qrJSO19ezj8p2pLBkJy%2BcCHJxWI5gW5tcfRRz1dU19GfGkou9PZO4smR9jGFwpex4Dy3bvnmKypotbU13VidjqYZhrj49rvMEt%2F%2FYqLz9d00NjW%2Fczgyo9O51zs6aNlo5FDtu0DZgQFhlGXJ0dBADoNhd6uvp6Whoayg7N9LVGH8mD4b%2FHnftUQoNG4vLQ0gixMqlW%2B4qOjtNHDg3r1f6YiRSGxRy7UvqLb9U4qkqnxPONva5lDpHr1%2ByyKRNKWBZy5edMUHB2m5ry%2B%2BEQw%2Bzgf4zo9%2F0ocN3WRzLBw4J%2BJyPWCrqmIgGYtUOsWD4oxZFQoPUjGpVHqI4%2FafkQPC6fZQeeM1%2BvLuIQnjuBWQDDCscrmHP9eoNPAtBqfOnXuaK%2Bh6JEbGrs%2BpvvMmxeIbh863abVPeYySEo9FJHpNMFJY%2BP5cWZkfg7O1tSwYCeSQLTY3E8Q09%2FBVPJUlxQjshT1BscCY02r9UDUBfvCHB66pcfPA3lyAe3ngr3%2F47XDgaJzsly7xwA6NZtlUUPCuAHqaSjUIP%2Bsue8BRWAC%2FNfQ7JZPZ59s0Gj7VtpISz4hQ%2BCpfXGMKhZcvLpUKxfWM8ohvf7p%2FODjHBfcVF8Isk82g1FHykcVFE%2BUZAAX47aE%2FMl4PO50Pnuh0%2Fx4nmcyWPsdwDhBx6CmkLV%2FgFDjYKxOJOFtb0wQyIhL9RyCwK3AOfIGp1YFEBhnMJcLRWEbKdKQoU6ncTZkIEDicAy%2F81dVuEM5RwPfey4xOx0Ik%2FI2NnFki%2BWafOoFIYFcgYZCyxd7eCUjbc4AmF65ft%2FkMhk3o%2B5hc7sMJyqjJEGvYFaQFIr7Y0wPw8BFAY%2B6%2Bvmk3w6zzRuDMmZVRsfh8RtA0uETSD7uCBT6DYQN6iveU0fpkYLjE6qrVrtOxeNKU9THLZJ9kBU2JBsBhV5AivB%2FoKaQNKgPCBwDYaIfZC4adThOqF4WENViLJwVoXobfLBKVw67AOaTsLc65TaVK21vQ4La99eKcYg5vbxsbObzTQ9N7UKDgUO1wDjiDIIBshh5ztg39nQMLSZBH4OzBOUDEQXm206d3fcLgswbXQA4PhcK3nhswU1Bz8wvQ09RHG%2FoYy3ejfwBNmtoYqLA0XgAAAABJRU5ErkJggg%3D%3D&amp;label=UpdatedAt" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>CreatedAt</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/c0a4fd725673af3522a0fc4d9d0bd9c2a20f051c12a69713e389342bdaf44ecd/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f637265617465642d61742f63687562696e2f777474722e696e3f6c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e5355684555674141414234414141416543415941414141374d4b3669414141414358424957584d41414173544141414c457745416d7077594141414648556c45515652346e4c5658375539615678776d3236646c582532466468627825324232253246516e626b7655627264554151674a4a496655444e574454546d4f76314651554661504a346b7573725630314a7431734e70637453327533626f745a746d786439744a5346536f714b71494635625944464c436f76436c656673747a4a387758524c445a4c7a6e6b634f343535376e3364332532466e655a3472454f515a74315771462532423858467234253242664f4c4565326a6f59307a776638546f795a50766a45676b4c592532426b306d6d72584f36644b696e787a476b30666a5430782532425279723055716e6359637a4d317263347451253242497270324c4758646f344e4334567657715453373277716c632532427231334f527269364b6458646e624f484c6c776c7a4a70524b6e3657342532424b36706f4f434e6e494166486a253246253242776168495a4234764b6e715a6630714a704e49716c2532467638545530634e6c3572627963337730516e54703379324c54614a374d314e617844723266526e315370504736476961323174664533345463614f617931694d55564f5146624659714957536f31573854694156616e43306576584f4542375770313448466232327a453566714c4f433545524c515769644e614e49347545636339693768634a6c644868324e57725135674464624f6c7061756d49754c62326174415144506e7a3062384e6257636d785656524a33486d7870536377777a4f4a6d4b44524765384c6c435a444c4739673754496e5631516c376462586256316533675430574b697243466f6d6b5079767758466c5a474a4f6a563625324253743634757564445a4f55354555636f782532464d455144567674364d62634e3237593341797a687633737061557242365a3971724a534f3139657a6a387032704c426b4a792532426343484a7857493567573574636652527a31645531394766476b6f7539505a4f34736d52396a4746777065783444793362766e6d4b79706f74625531335669646a71595a68726a343972764d457425324625324659714c7a396430304e6a57253246637a67796f394f35317a7336614e6c6f354644747530445a675146686c47584a30644241446f4e6864367576703657686f617967374e394c564748386d443462253246486e667455516f4e4734764c51306769784d716c5725324234714f6a744e48446733723166365969525347785279375576714c62395534716b716e78504f4e7661356c447048723125324279794b524e4b57425a793565644d554842326d3572792532422532424551772532427a6766347a6f39253246306f634e3357527a4c4277344a2532424a7950574372716d4967475974554f735744346f785a46516f50556a4770564871493425324661666b51504336665a5165654d31253242764c7549516e6a754257514444437363726d485039656f4e5041744271664f6e5875614b25324268364a45624772732532427076764d6d78654962683836336162565065597953456f39464a48704e4d464a59253242503563575a6b6667374f3174537759436553514c54593345385130392532464256504a556c78516a7368543142736343593032723955445542667643484236367063665041336c794165336e6772332532463437584467614a7a736c7937787741364e5a746c555550437541487161536a5549502532427375653842525741432532464e6651374a5a505a35397330476a3756747049537a34685125324243706658474d4b685a63764c70554b7866574d386f68766637702532464f446a4842666356463849736b383267314648796b63564645253242555a414158343761452532464d6c34504f3530506e75683025324678346e6d637957507364774468427836436d6b4c562532466746446a594b784f4a4f4674623077517949684c39527943774b33414f664947703159464542686e4d4a634c525745624b644b516f55366e63545a6b494544696341792532463831645675454d3552775066657934784f7830496b25324649324e6e466b692532425761664f6f464959466367595a43797864376543556a626334416d46363566742532466b4d686b336f25324235686337734d4a79716a4a45477659466151464972375930775077384246415925324236253242766d6b3377367a7a5275444d6d5a5652736668385274413075455453443775434254364459514e36697665553066706b594c6a453671725672744f78654e4b553954484c5a4a396b4255324a427342685635416976422532466f4b61514e4b675043427744596149665a4334616454684f71463457454e56694c4a77566f586f62664c424b56773637414f6154734c6336355461564b32317651344c613939654b6359673576627873624f627a5451394e37554b4467554f3177446a6944494942736868357a746733396e514d4c535a4248344f7a424f55444551586d323036643366634c67737762585141345068634b336e6873775531427a3877765130395248472532466f597933656a6677424e6d746f59714c4130586741414141424a52553545726b4a676767253344253344266c6162656c3d437265617465644174" alt="create-at" data-canonical-src="https://img.shields.io/github/created-at/chubin/wttr.in?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHUlEQVR4nLVX7U9aVxwm26dlX%2Fdhbx%2B2%2FQnbkvUbrdUAQgJJIfUDNWDTTmOv1FQUFaPJ4kusrV01Jt1sNpctS2u3botZtmxd9tJSFSoqKqIF5bYDFLCovClefstzJ8wXRLDZLznkcO4557n3d3%2FneZ4rEOQZt1WqF%2B8XFr4%2BfOLEe2joY0zwf8ToyZPvjEgkLY%2Bk0mmrXO6dKinxzGk0fjT0x%2BRyr0UqncYczM1rc4tQ%2BIrp2LGXdo4NC4VvWqTS72wqlc%2Br13ORri6KdXdnbOHLlwlzJpRKn6W4%2BK6poOCNnIAfHj%2F%2BwahIZB4vKnqZf0qJpNIql%2Fv8TU0cNl5rbyc3w0QnTp3y2LTaJ7M1NaxDr2fRn1SpPG6Gia21tfE34TcaOay1iMUVOQFbFYqIWSo1W8TiAVanC0evXOEB7Wp14HFb22zE5fqLOC5ERLQWidNaNI4uEcc9i7hcJldHh2NWrQ5gDdbOlpaumIuLb2atAQDPnz0b8NbWcmxVVRJ3HmxpScwwzOJmKDRGe8LlCZDLG9g7TInV1Ql7dbXbV1e3gT0WKirCFomkPyvwXFlZGJOjV6%2BSt64uudDZOU5EUcox%2FMEQDVvt6MbcN27Y3Ayzhv3spaUrB6Z9qrJSO19ezj8p2pLBkJy%2BcCHJxWI5gW5tcfRRz1dU19GfGkou9PZO4smR9jGFwpex4Dy3bvnmKypotbU13VidjqYZhrj49rvMEt%2F%2FYqLz9d00NjW%2Fczgyo9O51zs6aNlo5FDtu0DZgQFhlGXJ0dBADoNhd6uvp6Whoayg7N9LVGH8mD4b%2FHnftUQoNG4vLQ0gixMqlW%2B4qOjtNHDg3r1f6YiRSGxRy7UvqLb9U4qkqnxPONva5lDpHr1%2ByyKRNKWBZy5edMUHB2m5ry%2B%2BEQw%2Bzgf4zo9%2F0ocN3WRzLBw4J%2BJyPWCrqmIgGYtUOsWD4oxZFQoPUjGpVHqI4%2FafkQPC6fZQeeM1%2BvLuIQnjuBWQDDCscrmHP9eoNPAtBqfOnXuaK%2Bh6JEbGrs%2BpvvMmxeIbh863abVPeYySEo9FJHpNMFJY%2BP5cWZkfg7O1tSwYCeSQLTY3E8Q09%2FBVPJUlxQjshT1BscCY02r9UDUBfvCHB66pcfPA3lyAe3ngr3%2F47XDgaJzsly7xwA6NZtlUUPCuAHqaSjUIP%2Bsue8BRWAC%2FNfQ7JZPZ59s0Gj7VtpISz4hQ%2BCpfXGMKhZcvLpUKxfWM8ohvf7p%2FODjHBfcVF8Isk82g1FHykcVFE%2BUZAAX47aE%2FMl4PO50Pnuh0%2Fx4nmcyWPsdwDhBx6CmkLV%2FgFDjYKxOJOFtb0wQyIhL9RyCwK3AOfIGp1YFEBhnMJcLRWEbKdKQoU6ncTZkIEDicAy%2F81dVuEM5RwPfey4xOx0Ik%2FI2NnFki%2BWafOoFIYFcgYZCyxd7eCUjbc4AmF65ft%2FkMhk3o%2B5hc7sMJyqjJEGvYFaQFIr7Y0wPw8BFAY%2B6%2Bvmk3w6zzRuDMmZVRsfh8RtA0uETSD7uCBT6DYQN6iveU0fpkYLjE6qrVrtOxeNKU9THLZJ9kBU2JBsBhV5AivB%2FoKaQNKgPCBwDYaIfZC4adThOqF4WENViLJwVoXobfLBKVw67AOaTsLc65TaVK21vQ4La99eKcYg5vbxsbObzTQ9N7UKDgUO1wDjiDIIBshh5ztg39nQMLSZBH4OzBOUDEQXm206d3fcLgswbXQA4PhcK3nhswU1Bz8wvQ09RHG%2FoYy3ejfwBNmtoYqLA0XgAAAABJRU5ErkJggg%3D%3D&amp;label=CreatedAt" style="max-width: 100%;"></a></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<a href="https://github.com/opsre/awesome-ops">
+</a><p dir="auto"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/b964a36ea4078c39f603d46a29436371c7541a2f26e0228d7b21b9d9805b43d3/68747470733a2f2f736f6369616c6966792e6769742e63692f6f707372652f617765736f6d652d6f70732f696d6167653f6465736372697074696f6e3d3126666f6e743d42697474657226666f726b733d31266973737565733d31266c616e67756167653d31266c6f676f3d6874747073253341253246253246617661746172732e67697468756275736572636f6e74656e742e636f6d25324675253246313838353638303230266e616d653d31266f776e65723d31267061747465726e3d436972637569742b426f6172642670756c6c733d31267374617267617a6572733d31267468656d653d4c69676874" alt="" data-canonical-src="https://socialify.git.ci/opsre/awesome-ops/image?description=1&amp;font=Bitter&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F188568020&amp;name=1&amp;owner=1&amp;pattern=Circuit+Board&amp;pulls=1&amp;stargazers=1&amp;theme=Light" style="max-width: 100%;"></a></p>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966"><img src="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966" width="100%" height="3" data-animated-image="" data-canonical-src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" style="max-width: 100%; height: auto; max-height: 3px;"></a>
+</div>
+<p dir="auto"><em>wttr.in — the right way to <del>check</del> <code class="notranslate">curl</code> the weather!</em></p>
+<p dir="auto">wttr.in is a console-oriented weather forecast service that supports various information<br>
+representation methods like terminal-oriented ANSI-sequences for console HTTP clients<br>
+(curl, httpie, or wget), HTML for web browsers, or PNG for graphical viewers.</p>
+<p dir="auto">Originally started as a small project, a wrapper for <a href="https://github.com/schachmat/wego">wego</a>,<br>
+intended to demonstrate the power of the console-oriented services,<br>
+<em>wttr.in</em> became a popular weather reporting service, handling tens of millions of queries daily.</p>
+<p dir="auto">You can see it running here: <a href="https://wttr.in" rel="nofollow">wttr.in</a>.</p>
+<p dir="auto"><a href="https://wttr.in/:help" rel="nofollow">Documentation</a> | <a href="https://github.com/chubin/wttr.in#usage">Usage</a> | <a href="https://github.com/chubin/wttr.in#one-line-output">One-line output</a> | <a href="https://github.com/chubin/wttr.in#data-rich-output-format-v2">Data-rich output format</a> | <a href="https://github.com/chubin/wttr.in#map-view-v3">Map view</a> | <a href="https://github.com/chubin/wttr.in#different-output-formats">Output formats</a> | <a href="https://github.com/chubin/wttr.in#moon-phases">Moon phases</a> | <a href="https://github.com/chubin/wttr.in#internationalization-and-localization">Internationalization</a> | <a href="https://github.com/chubin/wttr.in#installation">Installation</a></p>
+<h2 dir="auto">Usage</h2>
+<p dir="auto">You can access the service from a shell or from a Web browser like this:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ curl wttr.in
+Weather for City: Paris, France
+
+     \   /     Clear
+      .-.      10 – 11 °C
+   ― (   ) ―   ↑ 11 km/h
+      `-’      10 km
+     /   \     0.0 mm"><pre class="notranslate"><code class="notranslate">$ curl wttr.in
+Weather for City: Paris, France
+
+     \   /     Clear
+      .-.      10 – 11 °C
+   ― (   ) ―   ↑ 11 km/h
+      `-’      10 km
+     /   \     0.0 mm
+</code></pre></div>
+<p dir="auto">Here is an example weather report:</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="share/pics/San_Francisco.png"><img src="share/pics/San_Francisco.png" alt="Weather Report" style="max-width: 100%;"></a></p>
+<p dir="auto">Or in PowerShell:</p>
+<div class="highlight highlight-source-powershell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="Invoke-RestMethod https://wttr.in"><pre class="notranslate"><span class="pl-c1">Invoke-RestMethod</span> https:<span class="pl-k">//</span>wttr.in</pre></div>
+<p dir="auto">Want to get the weather information for a specific location? You can add the desired location to the URL in your<br>
+request like this:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ curl wttr.in/London
+$ curl wttr.in/Moscow
+$ curl wttr.in/Salt+Lake+City"><pre class="notranslate"><code class="notranslate">$ curl wttr.in/London
+$ curl wttr.in/Moscow
+$ curl wttr.in/Salt+Lake+City
+</code></pre></div>
+<p dir="auto">If you omit the location name, you will get the report for your current location based on your IP address.</p>
+<p dir="auto">Use 3-letter airport codes in order to get the weather information at a certain airport:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ curl wttr.in/muc      # Weather for IATA: muc, Munich International Airport, Germany
+$ curl wttr.in/ham      # Weather for IATA: ham, Hamburg Airport, Germany"><pre class="notranslate"><code class="notranslate">$ curl wttr.in/muc      # Weather for IATA: muc, Munich International Airport, Germany
+$ curl wttr.in/ham      # Weather for IATA: ham, Hamburg Airport, Germany
+</code></pre></div>
+<p dir="auto">Let's say you'd like to get the weather for a geographical location other than a town or city - maybe an attraction<br>
+in a city, a mountain name, or some special location. Add the character <code class="notranslate">~</code> before the name to look up that special<br>
+location name before the weather is then retrieved:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ curl wttr.in/~Vostok+Station
+$ curl wttr.in/~Eiffel+Tower
+$ curl wttr.in/~Kilimanjaro"><pre class="notranslate"><code class="notranslate">$ curl wttr.in/~Vostok+Station
+$ curl wttr.in/~Eiffel+Tower
+$ curl wttr.in/~Kilimanjaro
+</code></pre></div>
+<p dir="auto">For these examples, you'll see a line below the weather forecast output that shows the geolocation<br>
+results of looking up the location:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="Location: Vostok Station, станция Восток, AAT, Antarctica [-78.4642714,106.8364678]
+Location: Tour Eiffel, 5, Avenue Anatole France, Gros-Caillou, 7e, Paris, Île-de-France, 75007, France [48.8582602,2.29449905432]
+Location: Kilimanjaro, Northern, Tanzania [-3.4762789,37.3872648]"><pre class="notranslate"><code class="notranslate">Location: Vostok Station, станция Восток, AAT, Antarctica [-78.4642714,106.8364678]
+Location: Tour Eiffel, 5, Avenue Anatole France, Gros-Caillou, 7e, Paris, Île-de-France, 75007, France [48.8582602,2.29449905432]
+Location: Kilimanjaro, Northern, Tanzania [-3.4762789,37.3872648]
+</code></pre></div>
+<p dir="auto">You can also use IP-addresses (direct) or domain names (prefixed with <code class="notranslate">@</code>) to specify a location:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ curl wttr.in/@github.com
+$ curl wttr.in/@msu.ru"><pre class="notranslate"><code class="notranslate">$ curl wttr.in/@github.com
+$ curl wttr.in/@msu.ru
+</code></pre></div>
+<p dir="auto">To get detailed information online, you can access the <a href="https://wttr.in/:help" rel="nofollow">/:help</a> page:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ curl wttr.in/:help"><pre class="notranslate"><code class="notranslate">$ curl wttr.in/:help
+</code></pre></div>
+<h3 dir="auto">Weather Units</h3>
+<p dir="auto">By default the USCS units are used for the queries from the USA and the metric system for the rest of the world.<br>
+You can override this behavior by adding <code class="notranslate">?u</code>, <code class="notranslate">?m</code> or <code class="notranslate">?M</code>   to a URL like this:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ curl wttr.in/Amsterdam?u  # USCS (used by default in US)
+$ curl wttr.in/Amsterdam?m  # metric (SI) (used by default everywhere except US)
+$ curl wttr.in/Amsterdam?M  # metric (SI), but show wind speed in m/s"><pre class="notranslate"><code class="notranslate">$ curl wttr.in/Amsterdam?u  # USCS (used by default in US)
+$ curl wttr.in/Amsterdam?m  # metric (SI) (used by default everywhere except US)
+$ curl wttr.in/Amsterdam?M  # metric (SI), but show wind speed in m/s
+</code></pre></div>
+<p dir="auto">If you have several options to pass, write them without delimiters in between for the one-letter options,<br>
+and use <code class="notranslate">&amp;</code> as a delimiter for the long options with values:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ curl 'wttr.in/Amsterdam?m2&amp;lang=nl'"><pre class="notranslate"><code class="notranslate">$ curl 'wttr.in/Amsterdam?m2&amp;lang=nl'
+</code></pre></div>
+<p dir="auto">It would be a rough equivalent of <code class="notranslate">-m2 --lang nl</code> for the GNU CLI syntax.</p>
+<h2 dir="auto">Supported output formats and views</h2>
+<p dir="auto">wttr.in currently supports five output formats:</p>
+<ul dir="auto">
+<li>ANSI for the terminal;</li>
+<li>Plain-text for the terminal and scripts;</li>
+<li>HTML for the browser;</li>
+<li>PNG for the graphical viewers;</li>
+<li>JSON for scripts and APIs;</li>
+<li>Prometheus metrics for scripts and APIs.</li>
+</ul>
+<p dir="auto">The ANSI and HTML formats are selected based on the User-Agent string.</p>
+<p dir="auto">To force plain text, which disables colors:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ curl wttr.in/?T"><pre class="notranslate"><code class="notranslate">$ curl wttr.in/?T
+</code></pre></div>
+<p dir="auto">To restrict output to glyphs available in standard console fonts (e.g. Consolas and Lucida Console):</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ curl wttr.in/?d"><pre class="notranslate"><code class="notranslate">$ curl wttr.in/?d
+</code></pre></div>
+<p dir="auto">The PNG format can be forced by adding <code class="notranslate">.png</code> to the end of the query:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ wget wttr.in/Paris.png"><pre class="notranslate"><code class="notranslate">$ wget wttr.in/Paris.png
+</code></pre></div>
+<p dir="auto">You can use all of the options with the PNG-format like in an URL, but you have<br>
+to separate them with <code class="notranslate">_</code> instead of <code class="notranslate">?</code> and <code class="notranslate">&amp;</code>:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ wget wttr.in/Paris_0tqp_lang=fr.png"><pre class="notranslate"><code class="notranslate">$ wget wttr.in/Paris_0tqp_lang=fr.png
+</code></pre></div>
+<p dir="auto">Useful options for the PNG format:</p>
+<ul dir="auto">
+<li><code class="notranslate">t</code> for transparency (<code class="notranslate">transparency=150</code>);</li>
+<li>transparency=0..255 for a custom transparency level.</li>
+</ul>
+<p dir="auto">Transparency is a useful feature when weather PNGs are used to add weather data to pictures:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ convert source.jpg &lt;( curl wttr.in/Oymyakon_tqp0.png ) -geometry +50+50 -composite target.jpg"><pre class="notranslate"><code class="notranslate">$ convert source.jpg &lt;( curl wttr.in/Oymyakon_tqp0.png ) -geometry +50+50 -composite target.jpg
+</code></pre></div>
+<p dir="auto">In this example:</p>
+<ul dir="auto">
+<li><code class="notranslate">source.jpg</code> - source file;</li>
+<li><code class="notranslate">target.jpg</code> - target file;</li>
+<li><code class="notranslate">Oymyakon</code> - name of the location;</li>
+<li><code class="notranslate">tqp0</code> - options (recommended).</li>
+</ul>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/2d4f67098a06141686ee56ca833e45eaf1b9cb3d81f489a80b01640bd53efb00/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f4336392d77734957304141634144352e6a7067"><img src="https://camo.githubusercontent.com/2d4f67098a06141686ee56ca833e45eaf1b9cb3d81f489a80b01640bd53efb00/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f4336392d77734957304141634144352e6a7067" alt="Picture with weather data" data-canonical-src="https://pbs.twimg.com/media/C69-wsIW0AAcAD5.jpg" style="max-width: 100%;"></a></p>
+<p dir="auto">You can embed a special wttr.in widget, that displays the weather condition for the current or a selected location, into a HTML page using the <a href="https://github.com/midzer/wttr-switcher">wttr-switcher</a>. That is how it looks like: <a href="https://midzer.github.io/wttr-switcher/" rel="nofollow">wttr-switcher-example</a> or on a real world web site: <a href="https://feuerwehr-eisolzried.de/" rel="nofollow">https://feuerwehr-eisolzried.de/</a>.</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/3875145/65265457-50eac180-db11-11e9-8f9b-2e1711dfc436.png"><img src="https://user-images.githubusercontent.com/3875145/65265457-50eac180-db11-11e9-8f9b-2e1711dfc436.png" alt="Embedded wttr.in example at feuerwehr-eisolzried.de" style="max-width: 100%;"></a></p>
+<h2 dir="auto">One-line output</h2>
+<p dir="auto">One-line output format is convenient to be used to show weather info<br>
+in status bar of different programs, such as <em>tmux</em>, <em>weechat</em>, etc.</p>
+<p dir="auto">For one-line output format, specify additional URL parameter <code class="notranslate">format</code>:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ curl wttr.in/Nuremberg?format=3
+Nuremberg: 🌦 +11⁰C"><pre class="notranslate"><code class="notranslate">$ curl wttr.in/Nuremberg?format=3
+Nuremberg: 🌦 +11⁰C
+</code></pre></div>
+<p dir="auto">Available preconfigured formats: 1, 2, 3, 4 and the custom format using the percent notation (see below).</p>
+<ul dir="auto">
+<li>1: Current weather at location: <code class="notranslate">🌦 +11⁰C</code></li>
+<li>2: Current weather at location with more details: <code class="notranslate">🌦   🌡️+11°C 🌬️↓4km/h</code></li>
+<li>3: Name of location and current weather at location: <code class="notranslate">Nuremberg: 🌦 +11⁰C</code></li>
+<li>4: Name of location and current weather at location with more details: <code class="notranslate">Nuremberg: 🌦   🌡️+11°C 🌬️↓4km/h</code></li>
+</ul>
+<p dir="auto">You can specify multiple locations separated with <code class="notranslate">:</code> (for repeating queries):</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ curl wttr.in/Nuremberg:Hamburg:Berlin?format=3
+Nuremberg: 🌦 +11⁰C"><pre class="notranslate"><code class="notranslate">$ curl wttr.in/Nuremberg:Hamburg:Berlin?format=3
+Nuremberg: 🌦 +11⁰C
+</code></pre></div>
+<p dir="auto">Or to process all this queries at once:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ curl -s 'wttr.in/{Nuremberg,Hamburg,Berlin}?format=3'
+Nuremberg: 🌦 +11⁰C
+Hamburg: 🌦 +8⁰C
+Berlin: 🌦 +8⁰C"><pre class="notranslate"><code class="notranslate">$ curl -s 'wttr.in/{Nuremberg,Hamburg,Berlin}?format=3'
+Nuremberg: 🌦 +11⁰C
+Hamburg: 🌦 +8⁰C
+Berlin: 🌦 +8⁰C
+</code></pre></div>
+<p dir="auto">To specify your own custom output format, use the special <code class="notranslate">%</code>-notation:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="    c    Weather condition,
+    C    Weather condition textual name,
+    x    Weather condition, plain-text symbol,
+    h    Humidity,
+    t    Temperature (Actual),
+    f    Temperature (Feels Like),
+    w    Wind,
+    l    Location,
+    m    Moon phase 🌑🌒🌓🌔🌕🌖🌗🌘,
+    M    Moon day,
+    p    Precipitation (mm/3 hours),
+    P    Pressure (hPa),
+    u    UV index (1-12),
+
+    D    Dawn*,
+    S    Sunrise*,
+    z    Zenith*,
+    s    Sunset*,
+    d    Dusk*,
+    T    Current time*,
+    Z    Local timezone.
+
+(*times are shown in the local timezone)"><pre class="notranslate"><code class="notranslate">    c    Weather condition,
+    C    Weather condition textual name,
+    x    Weather condition, plain-text symbol,
+    h    Humidity,
+    t    Temperature (Actual),
+    f    Temperature (Feels Like),
+    w    Wind,
+    l    Location,
+    m    Moon phase 🌑🌒🌓🌔🌕🌖🌗🌘,
+    M    Moon day,
+    p    Precipitation (mm/3 hours),
+    P    Pressure (hPa),
+    u    UV index (1-12),
+
+    D    Dawn*,
+    S    Sunrise*,
+    z    Zenith*,
+    s    Sunset*,
+    d    Dusk*,
+    T    Current time*,
+    Z    Local timezone.
+
+(*times are shown in the local timezone)
+</code></pre></div>
+<p dir="auto">So, these two calls are the same:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="    $ curl wttr.in/London?format=3
+    London: ⛅️ +7⁰C
+    $ curl wttr.in/London?format=&quot;%l:+%c+%t\n&quot;
+    London: ⛅️ +7⁰C"><pre class="notranslate"><code class="notranslate">    $ curl wttr.in/London?format=3
+    London: ⛅️ +7⁰C
+    $ curl wttr.in/London?format="%l:+%c+%t\n"
+    London: ⛅️ +7⁰C
+</code></pre></div>
+<h3 dir="auto">tmux</h3>
+<p dir="auto">When using in <code class="notranslate">tmux.conf</code>, you have to escape <code class="notranslate">%</code> with <code class="notranslate">%</code>, i.e. write there <code class="notranslate">%%</code> instead of <code class="notranslate">%</code>.</p>
+<p dir="auto">The output does not contain new line by default, when the %-notation is used, but it does contain it when preconfigured format (<code class="notranslate">1</code>,<code class="notranslate">2</code>,<code class="notranslate">3</code> etc.)<br>
+are used. To have the new line in the output when the %-notation is used, use '\n' and single quotes when doing a query from the shell.</p>
+<p dir="auto">In programs, that are querying the service automatically (such as tmux), it is better to use some reasonable update interval. In tmux, you can configure it with <code class="notranslate">status-interval</code>.</p>
+<p dir="auto">If several, <code class="notranslate">:</code> separated locations, are specified in the query, specify update period<br>
+as an additional query parameter <code class="notranslate">period=</code>:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="set -g status-interval 60
+WEATHER='#(curl -s wttr.in/London:Stockholm:Moscow\?format\=&quot;%%l:+%%c%%20%%t%%60%%w&amp;period=60&quot;)'
+set -g status-right &quot;$WEATHER ...&quot;"><pre class="notranslate"><code class="notranslate">set -g status-interval 60
+WEATHER='#(curl -s wttr.in/London:Stockholm:Moscow\?format\="%%l:+%%c%%20%%t%%60%%w&amp;period=60")'
+set -g status-right "$WEATHER ..."
+</code></pre></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/868f4acd313e960f4a9d53d817644d39bbc76013d7efb921c5e8a301930ebae8/68747470733a2f2f777474722e696e2f66696c65732f6578616d706c652d746d75782d7374617475732d6c696e652e706e67"><img src="https://camo.githubusercontent.com/868f4acd313e960f4a9d53d817644d39bbc76013d7efb921c5e8a301930ebae8/68747470733a2f2f777474722e696e2f66696c65732f6578616d706c652d746d75782d7374617475732d6c696e652e706e67" alt="wttr.in in tmux status bar" data-canonical-src="https://wttr.in/files/example-tmux-status-line.png" style="max-width: 100%;"></a></p>
+<h3 dir="auto">WeeChat</h3>
+<p dir="auto">To embed in to an IRC (<a href="https://github.com/weechat/weechat">WeeChat</a>) client's existing status bar:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="/alias add wttr /exec -pipe &quot;/mute /set plugins.var.wttr&quot; url:wttr.in/Montreal?format=%l:+%c+%f+%h+%p+%P+%m+%w+%S+%s;/wait 3 /item refresh wttr
+/trigger add wttr timer 60000;0;0 &quot;&quot; &quot;&quot; &quot;/wttr&quot;
+/item add wttr &quot;&quot; &quot;${plugins.var.wttr}&quot;
+/eval /set weechat.bar.status.items ${weechat.bar.status.items},spacer,wttr
+/eval /set weechat.startup.command_after_plugins ${weechat.startup.command_after_plugins};/wttr
+/wttr"><pre class="notranslate"><code class="notranslate">/alias add wttr /exec -pipe "/mute /set plugins.var.wttr" url:wttr.in/Montreal?format=%l:+%c+%f+%h+%p+%P+%m+%w+%S+%s;/wait 3 /item refresh wttr
+/trigger add wttr timer 60000;0;0 "" "" "/wttr"
+/item add wttr "" "${plugins.var.wttr}"
+/eval /set weechat.bar.status.items ${weechat.bar.status.items},spacer,wttr
+/eval /set weechat.startup.command_after_plugins ${weechat.startup.command_after_plugins};/wttr
+/wttr
+</code></pre></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/41c75f431d64146c5e0c8cb8111bc9f81ae9f59fff862b9d20fdc3f67c8df7b2/68747470733a2f2f692e696d6775722e636f6d2f586b59695255372e706e67"><img src="https://camo.githubusercontent.com/41c75f431d64146c5e0c8cb8111bc9f81ae9f59fff862b9d20fdc3f67c8df7b2/68747470733a2f2f692e696d6775722e636f6d2f586b59695255372e706e67" alt="wttr.in in WeeChat status bar" data-canonical-src="https://i.imgur.com/XkYiRU7.png" style="max-width: 100%;"></a></p>
+<h3 dir="auto">conky</h3>
+<p dir="auto">Conky usage example:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="${texeci 1800 curl wttr.in/kyiv_0pq_lang=uk.png
+  | convert - -transparent black $HOME/.config/conky/out.png}
+${image $HOME/.config/conky/out.png -p 0,0}"><pre class="notranslate"><code class="notranslate">${texeci 1800 curl wttr.in/kyiv_0pq_lang=uk.png
+  | convert - -transparent black $HOME/.config/conky/out.png}
+${image $HOME/.config/conky/out.png -p 0,0}
+</code></pre></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/3875145/172178453-9e9ed9e3-9815-426a-9a21-afdd6e279fc8.png"><img src="https://user-images.githubusercontent.com/3875145/172178453-9e9ed9e3-9815-426a-9a21-afdd6e279fc8.png" alt="wttr.in in conky" style="max-width: 100%;"></a></p>
+<h3 dir="auto">IRC</h3>
+<p dir="auto">IRC integration example:</p>
+<ul dir="auto">
+<li><a href="https://github.com/OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor">https://github.com/OpenSourceTreasure/Mirc-ASCII-weather-translate-pixel-editor</a></li>
+</ul>
+<h3 dir="auto">Emojis support</h3>
+<p dir="auto">To see emojis in terminal, you need:</p>
+<ol dir="auto">
+<li>Terminal support for emojis (was added to Cairo 1.15.8);</li>
+<li>Font with emojis support.</li>
+</ol>
+<p dir="auto">For the emoji font, we recommend <em>Noto Color Emoji</em>, and a good alternative option would be the <em>Emoji One</em> font;<br>
+both of them support all necessary emoji glyphs.</p>
+<p dir="auto">Font configuration:</p>
+<div class="highlight highlight-text-xml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ cat ~/.config/fontconfig/fonts.conf
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE fontconfig SYSTEM &quot;fonts.dtd&quot;&gt;
+&lt;fontconfig&gt;
+  &lt;alias&gt;
+    &lt;family&gt;serif&lt;/family&gt;
+    &lt;prefer&gt;
+      &lt;family&gt;Noto Color Emoji&lt;/family&gt;
+    &lt;/prefer&gt;
+  &lt;/alias&gt;
+  &lt;alias&gt;
+    &lt;family&gt;sans-serif&lt;/family&gt;
+    &lt;prefer&gt;
+      &lt;family&gt;Noto Color Emoji&lt;/family&gt;
+    &lt;/prefer&gt;
+  &lt;/alias&gt;
+  &lt;alias&gt;
+    &lt;family&gt;monospace&lt;/family&gt;
+    &lt;prefer&gt;
+      &lt;family&gt;Noto Color Emoji&lt;/family&gt;
+    &lt;/prefer&gt;
+  &lt;/alias&gt;
+&lt;/fontconfig&gt;"><pre class="notranslate">$ cat ~/.config/fontconfig/fonts.conf
+&lt;?<span class="pl-ent">xml</span><span class="pl-e"> version</span>=<span class="pl-s"><span class="pl-pds">"</span>1.0<span class="pl-pds">"</span></span><span class="pl-e"> encoding</span>=<span class="pl-s"><span class="pl-pds">"</span>UTF-8<span class="pl-pds">"</span></span>?&gt;
+&lt;!<span class="pl-ent">DOCTYPE</span> <span class="pl-e">fontconfig</span> SYSTEM "fonts.dtd"&gt;
+&lt;<span class="pl-ent">fontconfig</span>&gt;
+  &lt;<span class="pl-ent">alias</span>&gt;
+    &lt;<span class="pl-ent">family</span>&gt;serif&lt;/<span class="pl-ent">family</span>&gt;
+    &lt;<span class="pl-ent">prefer</span>&gt;
+      &lt;<span class="pl-ent">family</span>&gt;Noto Color Emoji&lt;/<span class="pl-ent">family</span>&gt;
+    &lt;/<span class="pl-ent">prefer</span>&gt;
+  &lt;/<span class="pl-ent">alias</span>&gt;
+  &lt;<span class="pl-ent">alias</span>&gt;
+    &lt;<span class="pl-ent">family</span>&gt;sans-serif&lt;/<span class="pl-ent">family</span>&gt;
+    &lt;<span class="pl-ent">prefer</span>&gt;
+      &lt;<span class="pl-ent">family</span>&gt;Noto Color Emoji&lt;/<span class="pl-ent">family</span>&gt;
+    &lt;/<span class="pl-ent">prefer</span>&gt;
+  &lt;/<span class="pl-ent">alias</span>&gt;
+  &lt;<span class="pl-ent">alias</span>&gt;
+    &lt;<span class="pl-ent">family</span>&gt;monospace&lt;/<span class="pl-ent">family</span>&gt;
+    &lt;<span class="pl-ent">prefer</span>&gt;
+      &lt;<span class="pl-ent">family</span>&gt;Noto Color Emoji&lt;/<span class="pl-ent">family</span>&gt;
+    &lt;/<span class="pl-ent">prefer</span>&gt;
+  &lt;/<span class="pl-ent">alias</span>&gt;
+&lt;/<span class="pl-ent">fontconfig</span>&gt;</pre></div>
+<p dir="auto">(to apply the configuration, run <code class="notranslate">fc-cache -f -v</code>).</p>
+<p dir="auto">In some cases, <code class="notranslate">tmux</code> and the terminal understanding of some emoji characters may differ, which may<br>
+cause strange effects similar to that described in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3081803429" data-permission-text="Title is private" data-url="https://github.com/awesome-ops/awesome-ops.github.io/issues/579" data-hovercard-type="issue" data-hovercard-url="/awesome-ops/awesome-ops.github.io/issues/579/hovercard" href="https://github.com/awesome-ops/awesome-ops.github.io/issues/579">#579</a>.</p>
+<h3 dir="auto">Squeak</h3>
+<p dir="auto">To embed into the world main docking bar:</p>
+<div class="highlight highlight-source-smalltalk notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="wttr := (UpdatingStringMorph on: [(WebClient httpGet: 'https://wttr.in/?format=%20%20%l:%20%C+%t') content] selector: #value)
+	stepTime: 60000;
+	useStringFormat;
+	yourself.
+dockingBar := World mainDockingBars first.
+dockingBar addMorph: wttr after: (dockingBar findA: ClockMorph)."><pre class="notranslate">wttr <span class="pl-k">:=</span> (<span class="pl-c1">UpdatingStringMorph</span> <span class="pl-c1">on:</span> [(<span class="pl-c1">WebClient</span> <span class="pl-c1">httpGet:</span> <span class="pl-s"><span class="pl-pds">'</span>https://wttr.in/?format=%20%20%l:%20%C+%t<span class="pl-pds">'</span></span>) content] <span class="pl-c1">selector:</span> <span class="pl-c1">#value</span>)
+	<span class="pl-c1">stepTime:</span> <span class="pl-c1">60000</span>;
+	useStringFormat;
+	<span class="pl-k">yourself</span>.
+dockingBar <span class="pl-k">:=</span> <span class="pl-c1">World</span> mainDockingBars first.
+dockingBar <span class="pl-c1">addMorph:</span> wttr <span class="pl-c1">after:</span> (dockingBar <span class="pl-c1">findA:</span> <span class="pl-c1">ClockMorph</span>).</pre></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/38782922/386815114-4c2762b0-77ae-41a8-98db-3eb310d073bd.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMwNjc1OTEsIm5iZiI6MTc1MzA2NzI5MSwicGF0aCI6Ii8zODc4MjkyMi8zODY4MTUxMTQtNGMyNzYyYjAtNzdhZS00MWE4LTk4ZGItM2ViMzEwZDA3M2JkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIxVDAzMDgxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThiMTdmYjk0MjdlMThiZDBiNjU3NjUzMWY0Mjk4MzU5NzBjZmJkZGI2Y2VjZGIxMjg3MzczY2VjNDc1OWJmYWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.V-H7DeHYcEEd4vNZP89O5ENJRe2-yOASgFj--AJcp2U"><img src="https://private-user-images.githubusercontent.com/38782922/386815114-4c2762b0-77ae-41a8-98db-3eb310d073bd.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMwNjc1OTEsIm5iZiI6MTc1MzA2NzI5MSwicGF0aCI6Ii8zODc4MjkyMi8zODY4MTUxMTQtNGMyNzYyYjAtNzdhZS00MWE4LTk4ZGItM2ViMzEwZDA3M2JkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIxVDAzMDgxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThiMTdmYjk0MjdlMThiZDBiNjU3NjUzMWY0Mjk4MzU5NzBjZmJkZGI2Y2VjZGIxMjg3MzczY2VjNDc1OWJmYWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.V-H7DeHYcEEd4vNZP89O5ENJRe2-yOASgFj--AJcp2U" alt="wttr.in integration in the Squeak world main docking bar" style="max-width: 100%;"></a></p>
+<h2 dir="auto">Data-rich output format (v2)</h2>
+<p dir="auto">In the experimental data-rich output format, that is available under the view code <code class="notranslate">v2</code>,<br>
+a lot of additional weather and astronomical information is available:</p>
+<ul dir="auto">
+<li>Temperature, and precipitation changes forecast throughout the days;</li>
+<li>Moonphase for today and the next three days;</li>
+<li>The current weather condition, temperature, humidity, wind speed and direction, pressure;</li>
+<li>Timezone;</li>
+<li>Dawn, sunrise, noon, sunset, dusk time for he selected location;</li>
+<li>Precise geographical coordinates for the selected location.</li>
+</ul>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="  $ curl v2.wttr.in/München"><pre class="notranslate"><code class="notranslate">  $ curl v2.wttr.in/München
+</code></pre></div>
+<p dir="auto">or</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="  $ curl wttr.in/München?format=v2"><pre class="notranslate"><code class="notranslate">  $ curl wttr.in/München?format=v2
+</code></pre></div>
+<p dir="auto">or, if you prefer Nerd Fonts instead of Emoji, <code class="notranslate">v2d</code> (day) or <code class="notranslate">v2n</code> (night):</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="  $ curl v2d.wttr.in/München"><pre class="notranslate"><code class="notranslate">  $ curl v2d.wttr.in/München
+</code></pre></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/9598a56b432d53a737ef69a4e1ec3b31dceca0aa04464ac7cd1c849bf882b931/68747470733a2f2f777474722e696e2f66696c65732f6578616d706c652d777474722d76322e706e67"><img src="https://camo.githubusercontent.com/9598a56b432d53a737ef69a4e1ec3b31dceca0aa04464ac7cd1c849bf882b931/68747470733a2f2f777474722e696e2f66696c65732f6578616d706c652d777474722d76322e706e67" alt="data-rich output format" data-canonical-src="https://wttr.in/files/example-wttr-v2.png" style="max-width: 100%;"></a></p>
+<p dir="auto">(The mode is experimental, and it has several limitations currently:</p>
+<ul dir="auto">
+<li>It works only in terminal;</li>
+<li>Only English is supported).</li>
+</ul>
+<p dir="auto">Currently, you need some tweaks for some terminals, to get the best possible visualization.</p>
+<h3 dir="auto">URXVT</h3>
+<p dir="auto">Depending on your configuration you might be taking all steps, or only a few. URXVT currently doesn't support emoji related fonts, but we can get almost the same effect using <em>Font-Symbola</em>. So add to your <code class="notranslate">.Xresources</code> file the following line:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="    xft:symbola:size=10:minspace=False"><pre class="notranslate"><code class="notranslate">    xft:symbola:size=10:minspace=False
+</code></pre></div>
+<p dir="auto">You can add it <em>after</em> your preferred font and it will only show up when required.<br>
+Then, if you see or feel like you're having spacing issues, add this: <code class="notranslate">URxvt.letterSpace: 0</code><br>
+For some reason URXVT sometimes stops deciding right the word spacing and we need to force it this way.</p>
+<p dir="auto">The result, should look like:</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/24360204/63842949-1d36d480-c975-11e9-81dd-998d1329bd8a.png"><img src="https://user-images.githubusercontent.com/24360204/63842949-1d36d480-c975-11e9-81dd-998d1329bd8a.png" alt="URXVT Emoji line" style="max-width: 100%;"></a></p>
+<h2 dir="auto">Map view (v3)</h2>
+<p dir="auto">In the experimental map view, that is available under the view code <code class="notranslate">v3</code>,<br>
+weather information about a geographical region is available:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="    $ curl v3.wttr.in/Bayern.sxl"><pre class="notranslate"><code class="notranslate">    $ curl v3.wttr.in/Bayern.sxl
+</code></pre></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/1ce9779029ad3d3d87038b73c8ddc54005038750743aaedb6776687c12c922b0/68747470733a2f2f76332e777474722e696e2f42617965726e2e706e67"><img src="https://camo.githubusercontent.com/1ce9779029ad3d3d87038b73c8ddc54005038750743aaedb6776687c12c922b0/68747470733a2f2f76332e777474722e696e2f42617965726e2e706e67" alt="v3.wttr.in/Bayern" data-canonical-src="https://v3.wttr.in/Bayern.png" style="max-width: 100%;"></a></p>
+<p dir="auto">or directly in browser:</p>
+<ul dir="auto">
+<li><a href="https://v3.wttr.in/Bayern" rel="nofollow">https://v3.wttr.in/Bayern</a></li>
+</ul>
+<p dir="auto">The map view currently supports three formats:</p>
+<ul dir="auto">
+<li>PNG (for browser and messengers);</li>
+<li>Sixel (terminal inline images support);</li>
+<li>IIP (terminal with iterm2 inline images protocol support).</li>
+</ul>
+<p dir="auto">Terminal with inline images protocols support:</p>
+<p dir="auto">⟶ <em>Detailed article: <a href="doc/terminal-images.md">Images in terminal</a></em></p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>Terminal</th>
+<th>Environment</th>
+<th>Images support</th>
+<th>Protocol</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>uxterm</td>
+<td>X11</td>
+<td>yes</td>
+<td>Sixel</td>
+</tr>
+<tr>
+<td>mlterm</td>
+<td>X11</td>
+<td>yes</td>
+<td>Sixel</td>
+</tr>
+<tr>
+<td>kitty</td>
+<td>X11</td>
+<td>yes</td>
+<td>Kitty</td>
+</tr>
+<tr>
+<td>wezterm</td>
+<td>X11</td>
+<td>yes</td>
+<td>IIP</td>
+</tr>
+<tr>
+<td>Darktile</td>
+<td>X11</td>
+<td>yes</td>
+<td>Sixel</td>
+</tr>
+<tr>
+<td>Jexer</td>
+<td>X11</td>
+<td>yes</td>
+<td>Sixel</td>
+</tr>
+<tr>
+<td>GNOME Terminal</td>
+<td>X11</td>
+<td><a href="https://gitlab.gnome.org/GNOME/vte/-/issues/253" rel="nofollow">in-progress</a></td>
+<td>Sixel</td>
+</tr>
+<tr>
+<td>alacritty</td>
+<td>X11</td>
+<td><a href="https://github.com/alacritty/alacritty/issues/910" data-hovercard-type="issue" data-hovercard-url="/alacritty/alacritty/issues/910/hovercard">in-progress</a></td>
+<td>Sixel</td>
+</tr>
+<tr>
+<td>foot</td>
+<td>Wayland</td>
+<td>yes</td>
+<td>Sixel</td>
+</tr>
+<tr>
+<td>DomTerm</td>
+<td>Web</td>
+<td>yes</td>
+<td>Sixel</td>
+</tr>
+<tr>
+<td>Yaft</td>
+<td>FB</td>
+<td>yes</td>
+<td>Sixel</td>
+</tr>
+<tr>
+<td>iTerm2</td>
+<td>Mac OS X</td>
+<td>yes</td>
+<td>IIP</td>
+</tr>
+<tr>
+<td>mintty</td>
+<td>Windows</td>
+<td>yes</td>
+<td>Sixel</td>
+</tr>
+<tr>
+<td>Windows Terminal</td>
+<td>Windows</td>
+<td><a href="https://github.com/microsoft/terminal/issues/448" data-hovercard-type="issue" data-hovercard-url="/microsoft/terminal/issues/448/hovercard">in-progress</a></td>
+<td>Sixel</td>
+</tr>
+<tr>
+<td><a href="http://nanno.dip.jp/softlib/man/rlogin/" rel="nofollow">RLogin</a></td>
+<td>Windows</td>
+<td>yes</td>
+<td>Sixel</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<h2 dir="auto">Different output formats</h2>
+<h3 dir="auto">JSON output</h3>
+<p dir="auto">The JSON format is a feature providing access to <em>wttr.in</em> data through an easy-to-parse format, without requiring the user to create a complex script to reinterpret wttr.in's graphical output.</p>
+<p dir="auto">To fetch information in JSON format, use the following syntax:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ curl wttr.in/Detroit?format=j1"><pre class="notranslate"><code class="notranslate">$ curl wttr.in/Detroit?format=j1
+</code></pre></div>
+<p dir="auto">This will fetch information on the Detroit region in JSON format. The j1 format code is used to allow for the use of other layouts for the JSON output.</p>
+<p dir="auto">The result will look something like the following:</p>
+<div class="highlight highlight-source-json notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="{
+	&quot;current_condition&quot;: [
+		{
+		    &quot;FeelsLikeC&quot;: &quot;25&quot;,
+		    &quot;FeelsLikeF&quot;: &quot;76&quot;,
+		    &quot;cloudcover&quot;: &quot;100&quot;,
+		    &quot;humidity&quot;: &quot;76&quot;,
+		    &quot;observation_time&quot;: &quot;04:08 PM&quot;,
+		    &quot;precipMM&quot;: &quot;0.2&quot;,
+		    &quot;pressure&quot;: &quot;1019&quot;,
+		    &quot;temp_C&quot;: &quot;22&quot;,
+		    &quot;temp_F&quot;: &quot;72&quot;,
+		    &quot;uvIndex&quot;: 5,
+		    &quot;visibility&quot;: &quot;16&quot;,
+		    &quot;weatherCode&quot;: &quot;122&quot;,
+		    &quot;weatherDesc&quot;: [
+			{
+			    &quot;value&quot;: &quot;Overcast&quot;
+			}
+		    ],
+		    &quot;weatherIconUrl&quot;: [
+			{
+			    &quot;value&quot;: &quot;&quot;
+			}
+		    ],
+		    &quot;winddir16Point&quot;: &quot;NNE&quot;,
+		    &quot;winddirDegree&quot;: &quot;20&quot;,
+		    &quot;windspeedKmph&quot;: &quot;7&quot;,
+		    &quot;windspeedMiles&quot;: &quot;4&quot;
+		}
+	],
+..."><pre class="notranslate">{
+	<span class="pl-ent">"current_condition"</span>: [
+		{
+		    <span class="pl-ent">"FeelsLikeC"</span>: <span class="pl-s"><span class="pl-pds">"</span>25<span class="pl-pds">"</span></span>,
+		    <span class="pl-ent">"FeelsLikeF"</span>: <span class="pl-s"><span class="pl-pds">"</span>76<span class="pl-pds">"</span></span>,
+		    <span class="pl-ent">"cloudcover"</span>: <span class="pl-s"><span class="pl-pds">"</span>100<span class="pl-pds">"</span></span>,
+		    <span class="pl-ent">"humidity"</span>: <span class="pl-s"><span class="pl-pds">"</span>76<span class="pl-pds">"</span></span>,
+		    <span class="pl-ent">"observation_time"</span>: <span class="pl-s"><span class="pl-pds">"</span>04:08 PM<span class="pl-pds">"</span></span>,
+		    <span class="pl-ent">"precipMM"</span>: <span class="pl-s"><span class="pl-pds">"</span>0.2<span class="pl-pds">"</span></span>,
+		    <span class="pl-ent">"pressure"</span>: <span class="pl-s"><span class="pl-pds">"</span>1019<span class="pl-pds">"</span></span>,
+		    <span class="pl-ent">"temp_C"</span>: <span class="pl-s"><span class="pl-pds">"</span>22<span class="pl-pds">"</span></span>,
+		    <span class="pl-ent">"temp_F"</span>: <span class="pl-s"><span class="pl-pds">"</span>72<span class="pl-pds">"</span></span>,
+		    <span class="pl-ent">"uvIndex"</span>: <span class="pl-c1">5</span>,
+		    <span class="pl-ent">"visibility"</span>: <span class="pl-s"><span class="pl-pds">"</span>16<span class="pl-pds">"</span></span>,
+		    <span class="pl-ent">"weatherCode"</span>: <span class="pl-s"><span class="pl-pds">"</span>122<span class="pl-pds">"</span></span>,
+		    <span class="pl-ent">"weatherDesc"</span>: [
+			{
+			    <span class="pl-ent">"value"</span>: <span class="pl-s"><span class="pl-pds">"</span>Overcast<span class="pl-pds">"</span></span>
+			}
+		    ],
+		    <span class="pl-ent">"weatherIconUrl"</span>: [
+			{
+			    <span class="pl-ent">"value"</span>: <span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>
+			}
+		    ],
+		    <span class="pl-ent">"winddir16Point"</span>: <span class="pl-s"><span class="pl-pds">"</span>NNE<span class="pl-pds">"</span></span>,
+		    <span class="pl-ent">"winddirDegree"</span>: <span class="pl-s"><span class="pl-pds">"</span>20<span class="pl-pds">"</span></span>,
+		    <span class="pl-ent">"windspeedKmph"</span>: <span class="pl-s"><span class="pl-pds">"</span>7<span class="pl-pds">"</span></span>,
+		    <span class="pl-ent">"windspeedMiles"</span>: <span class="pl-s"><span class="pl-pds">"</span>4<span class="pl-pds">"</span></span>
+		}
+	],
+<span class="pl-ii">...</span></pre></div>
+<p dir="auto">Most of these values are self-explanatory, aside from <code class="notranslate">weatherCode</code>. The <code class="notranslate">weatherCode</code> is an enumeration which you can find at either <a href="https://www.worldweatheronline.com/developer/api/docs/weather-icons.aspx" rel="nofollow">the WorldWeatherOnline website</a> or <a href="https://github.com/chubin/wttr.in/blob/master/lib/constants.py">in the wttr.in source code</a>.</p>
+<h3 dir="auto">Prometheus Metrics Output</h3>
+<p dir="auto">The <a href="https://github.com/prometheus/prometheus">Prometheus</a> Metrics format is a feature providing access to <em>wttr.in</em> data through an easy-to-parse format for monitoring systems, without requiring the user to create a complex script to reinterpret wttr.in's graphical output.</p>
+<p dir="auto">To fetch information in Prometheus format, use the following syntax:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ curl wttr.in/Detroit?format=p1"><pre class="notranslate"><code class="notranslate">$ curl wttr.in/Detroit?format=p1
+</code></pre></div>
+<p dir="auto">This will fetch information on the Detroit region in Prometheus Metrics format. The <code class="notranslate">p1</code> format code is used to allow for the use of other layouts for the Prometheus Metrics output.</p>
+<p dir="auto">A possible configuration for Prometheus could look like this:</p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="    - job_name: 'wttr_in_detroit'
+        static_configs:
+            - targets: ['wttr.in']
+        metrics_path: '/Detroit'
+        params:
+            format: ['p1']"><pre class="notranslate">    - <span class="pl-ent">job_name</span>: <span class="pl-s"><span class="pl-pds">'</span>wttr_in_detroit<span class="pl-pds">'</span></span>
+        <span class="pl-ent">static_configs</span>:
+            - <span class="pl-ent">targets</span>: <span class="pl-s">['wttr.in']</span>
+        <span class="pl-ent">metrics_path</span>: <span class="pl-s"><span class="pl-pds">'</span>/Detroit<span class="pl-pds">'</span></span>
+        <span class="pl-ent">params</span>:
+            <span class="pl-ent">format</span>: <span class="pl-s">['p1']</span></pre></div>
+<p dir="auto">The result will look something like the following:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="# HELP temperature_feels_like_celsius Feels Like Temperature in Celsius
+temperature_feels_like_celsius{forecast=&quot;current&quot;} 7
+# HELP temperature_feels_like_fahrenheit Feels Like Temperature in Fahrenheit
+temperature_feels_like_fahrenheit{forecast=&quot;current&quot;} 45
+[truncated]"><pre class="notranslate"><code class="notranslate"># HELP temperature_feels_like_celsius Feels Like Temperature in Celsius
+temperature_feels_like_celsius{forecast="current"} 7
+# HELP temperature_feels_like_fahrenheit Feels Like Temperature in Fahrenheit
+temperature_feels_like_fahrenheit{forecast="current"} 45
+[truncated]
+</code></pre></div>
+<p dir="auto">...</p>
+<h2 dir="auto">Moon phases</h2>
+<p dir="auto">wttr.in can also be used to check the phase of the Moon. This example shows how to see the current Moon phase<br>
+in the full-output mode:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ curl wttr.in/Moon"><pre class="notranslate"><code class="notranslate">$ curl wttr.in/Moon
+</code></pre></div>
+<p dir="auto">Get the moon phase for a particular date by adding <code class="notranslate">@YYYY-MM-DD</code>:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ curl wttr.in/Moon@2016-12-25"><pre class="notranslate"><code class="notranslate">$ curl wttr.in/Moon@2016-12-25
+</code></pre></div>
+<p dir="auto">The moon phase information uses <a href="https://github.com/chubin/pyphoon">pyphoon</a> as its backend.</p>
+<p dir="auto">To get the moon phase information in the online mode, use <code class="notranslate">%m</code>:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ curl wttr.in/London?format=%m
+🌖"><pre class="notranslate"><code class="notranslate">$ curl wttr.in/London?format=%m
+🌖
+</code></pre></div>
+<p dir="auto">Keep in mind that the Unicode representation of moon phases suffers 2 caveats:</p>
+<ul dir="auto">
+<li>
+<p dir="auto">With some fonts, the representation <code class="notranslate">🌘</code> is ambiguous, for it either seem<br>
+almost-shadowed or almost-lit, depending on whether your terminal is in<br>
+light mode or dark mode. Relying on colored fonts like <code class="notranslate">noto-fonts</code> works<br>
+around this problem.</p>
+</li>
+<li>
+<p dir="auto">The representation <code class="notranslate">🌘</code> is also ambiguous, for it means "last quarter" in<br>
+northern hemisphere, but "first quarter" in souther hemisphere. It also means<br>
+nothing in tropical zones. This is a limitation that<br>
+<a href="https://www.unicode.org/L2/L2017/17304-moon-var.pdf" rel="nofollow">Unicode</a> is aware about.<br>
+But it has not been worked around at <code class="notranslate">wttr.in</code> yet.</p>
+</li>
+</ul>
+<p dir="auto">See <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3080749650" data-permission-text="Title is private" data-url="https://github.com/awesome-ops/awesome-ops.github.io/issues/247" data-hovercard-type="issue" data-hovercard-url="/awesome-ops/awesome-ops.github.io/issues/247/hovercard" href="https://github.com/awesome-ops/awesome-ops.github.io/issues/247">#247</a>, <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3080771392" data-permission-text="Title is private" data-url="https://github.com/awesome-ops/awesome-ops.github.io/issues/364" data-hovercard-type="issue" data-hovercard-url="/awesome-ops/awesome-ops.github.io/issues/364/hovercard" href="https://github.com/awesome-ops/awesome-ops.github.io/issues/364">#364</a> for the corresponding tracking issues,<br>
+and <a href="https://github.com/chubin/pyphoon/issues/1" data-hovercard-type="issue" data-hovercard-url="/chubin/pyphoon/issues/1/hovercard">pyphoon#1</a> for pyphoon. Any help is welcome.</p>
+<h2 dir="auto">Internationalization and localization</h2>
+<p dir="auto">wttr.in supports multilingual locations names that can be specified in any language in the world<br>
+(it may be surprising, but many locations in the world don't have an English name).</p>
+<p dir="auto">The query string should be specified in Unicode (hex-encoded or not). Spaces in the query string<br>
+must be replaced with <code class="notranslate">+</code>:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ curl wttr.in/станция+Восток
+Weather report: станция Восток
+
+               Overcast
+      .--.     -65 – -47 °C
+   .-(    ).   ↑ 23 km/h
+  (___.__)__)  15 km
+               0.0 mm"><pre class="notranslate"><code class="notranslate">$ curl wttr.in/станция+Восток
+Weather report: станция Восток
+
+               Overcast
+      .--.     -65 – -47 °C
+   .-(    ).   ↑ 23 km/h
+  (___.__)__)  15 km
+               0.0 mm
+</code></pre></div>
+<p dir="auto">The language used for the output (except the location name) does not depend on the input language<br>
+and it is either English (by default) or the preferred language of the browser (if the query<br>
+was issued from a browser) that is specified in the query headers (<code class="notranslate">Accept-Language</code>).</p>
+<p dir="auto">The language can be set explicitly when using console clients by using command-line options like this:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="curl -H &quot;Accept-Language: fr&quot; wttr.in
+http GET wttr.in Accept-Language:ru"><pre class="notranslate"><code class="notranslate">curl -H "Accept-Language: fr" wttr.in
+http GET wttr.in Accept-Language:ru
+</code></pre></div>
+<p dir="auto">The preferred language can be forced using the <code class="notranslate">lang</code> option:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ curl wttr.in/Berlin?lang=de"><pre class="notranslate"><code class="notranslate">$ curl wttr.in/Berlin?lang=de
+</code></pre></div>
+<p dir="auto">The third option is to choose the language using the DNS name used in the query:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ curl de.wttr.in/Berlin"><pre class="notranslate"><code class="notranslate">$ curl de.wttr.in/Berlin
+</code></pre></div>
+<p dir="auto">wttr.in is currently translated into 54 languages, and the number of supported languages is constantly growing.</p>
+<p dir="auto">See <a href="https://wttr.in/:translation" rel="nofollow">/:translation</a> to learn more about the translation process,<br>
+to see the list of supported languages and contributors, or to know how you can help to translate wttr.in<br>
+in your language.</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/b14280936cebb4c05ebc6b673dfb0e95ca9bf452e567cf2681fbbdd972620ca8/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f433768536869445851414553367a312e6a7067"><img src="https://camo.githubusercontent.com/b14280936cebb4c05ebc6b673dfb0e95ca9bf452e567cf2681fbbdd972620ca8/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f433768536869445851414553367a312e6a7067" alt="Queries to wttr.in in various languages" data-canonical-src="https://pbs.twimg.com/media/C7hShiDXQAES6z1.jpg" style="max-width: 100%;"></a></p>
+<h2 dir="auto">Installation</h2>
+<p dir="auto">To install the application:</p>
+<ol dir="auto">
+<li>Install external dependencies</li>
+<li>Install Python dependencies used by the service</li>
+<li>Configure IP2Location (optional)</li>
+<li>Get a WorldWeatherOnline API and configure wego</li>
+<li>Configure wttr.in</li>
+<li>Configure the HTTP-frontend service</li>
+</ol>
+<h3 dir="auto">Install external dependencies</h3>
+<p dir="auto">wttr.in has the following external dependencies:</p>
+<ul dir="auto">
+<li><a href="https://golang.org/doc/install" rel="nofollow">golang</a>, wego dependency</li>
+<li><a href="https://github.com/schachmat/wego">wego</a>, weather client for terminal</li>
+</ul>
+<p dir="auto">After you install <a href="https://golang.org/doc/install" rel="nofollow">golang</a>, install <code class="notranslate">wego</code>:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="go install github.com/schachmat/wego@latest"><pre class="notranslate">go install github.com/schachmat/wego@latest</pre></div>
+<h3 dir="auto">Install Python dependencies</h3>
+<p dir="auto">Python requirements:</p>
+<ul dir="auto">
+<li>Flask</li>
+<li>geoip2</li>
+<li>geopy</li>
+<li>requests</li>
+<li>gevent</li>
+</ul>
+<p dir="auto">If you want to get weather reports as PNG files, you'll also need to install:</p>
+<ul dir="auto">
+<li>PIL</li>
+<li>pyte (&gt;=0.6)</li>
+<li>necessary fonts</li>
+</ul>
+<p dir="auto">You can install most of them using <code class="notranslate">pip</code>.</p>
+<p dir="auto">Some python package use LLVM, so install it first:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="apt-get install llvm-7 llvm-7-dev"><pre class="notranslate">apt-get install llvm-7 llvm-7-dev</pre></div>
+<p dir="auto">If <code class="notranslate">virtualenv</code> is used:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="virtualenv -p python3 ve
+ve/bin/pip3 install -r requirements.txt
+ve/bin/python3 bin/srv.py"><pre class="notranslate">virtualenv -p python3 ve
+ve/bin/pip3 install -r requirements.txt
+ve/bin/python3 bin/srv.py</pre></div>
+<p dir="auto">Also, you need to install the geoip2 database.<br>
+You can use a free database GeoLite2 that can be downloaded from (<a href="http://dev.maxmind.com/geoip/geoip2/geolite2/" rel="nofollow">http://dev.maxmind.com/geoip/geoip2/geolite2/</a>).</p>
+<h3 dir="auto">Configure IP2Location (optional)</h3>
+<p dir="auto">If you want to use the IP2location service for IP-addresses that are not covered by GeoLite2,<br>
+you have to obtain a API key of that service, and after that save into the <code class="notranslate">~/.ip2location.key</code> file:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="$ echo 'YOUR_IP2LOCATION_KEY' &gt; ~/.ip2location.key"><pre class="notranslate"><code class="notranslate">$ echo 'YOUR_IP2LOCATION_KEY' &gt; ~/.ip2location.key
+</code></pre></div>
+<p dir="auto">If you don't have this file, the service will be silently skipped (it is not a big problem,<br>
+because the MaxMind database is pretty good).</p>
+<h3 dir="auto">Installation with Docker</h3>
+<ul dir="auto">
+<li>Install Docker</li>
+<li>Build Docker Image</li>
+<li>These files should be mounted by the user at runtime:</li>
+</ul>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="/root/.wegorc
+/root/.ip2location.key (optional)
+/app/airports.dat
+/app/GeoLite2-City.mmdb"><pre class="notranslate"><code class="notranslate">/root/.wegorc
+/root/.ip2location.key (optional)
+/app/airports.dat
+/app/GeoLite2-City.mmdb
+</code></pre></div>
+<h3 dir="auto">Get a WorldWeatherOnline key and configure wego</h3>
+<p dir="auto">To get a WorldWeatherOnline API key, you must register here:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="https://developer.worldweatheronline.com/auth/register"><pre class="notranslate"><code class="notranslate">https://developer.worldweatheronline.com/auth/register
+</code></pre></div>
+<p dir="auto">After you have a WorldWeatherOnline key, you can save it into the<br>
+WWO key file: <code class="notranslate">~/.wwo.key</code></p>
+<p dir="auto">Also, you have to specify the key in the <code class="notranslate">wego</code> configuration:</p>
+<div class="highlight highlight-source-json notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ cat ~/.wegorc
+{
+	&quot;APIKey&quot;: &quot;00XXXXXXXXXXXXXXXXXXXXXXXXXXX&quot;,
+	&quot;City&quot;: &quot;London&quot;,
+	&quot;Numdays&quot;: 3,
+	&quot;Imperial&quot;: false,
+	&quot;Lang&quot;: &quot;en&quot;
+}"><pre class="notranslate"><span class="pl-ii">$ cat ~/.wegorc</span>
+{
+	<span class="pl-ent">"APIKey"</span>: <span class="pl-s"><span class="pl-pds">"</span>00XXXXXXXXXXXXXXXXXXXXXXXXXXX<span class="pl-pds">"</span></span>,
+	<span class="pl-ent">"City"</span>: <span class="pl-s"><span class="pl-pds">"</span>London<span class="pl-pds">"</span></span>,
+	<span class="pl-ent">"Numdays"</span>: <span class="pl-c1">3</span>,
+	<span class="pl-ent">"Imperial"</span>: <span class="pl-c1">false</span>,
+	<span class="pl-ent">"Lang"</span>: <span class="pl-s"><span class="pl-pds">"</span>en<span class="pl-pds">"</span></span>
+}</pre></div>
+<p dir="auto">The <code class="notranslate">City</code> parameter in <code class="notranslate">~/.wegorc</code> is ignored.</p>
+<h3 dir="auto">Configure wttr.in</h3>
+<p dir="auto">Configure the following environment variables that define the path to the local <code class="notranslate">wttr.in</code><br>
+installation, to the GeoLite database, and to the <code class="notranslate">wego</code> installation. For example:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="export WTTR_MYDIR=&quot;/home/igor/wttr.in&quot;
+export WTTR_GEOLITE=&quot;/home/igor/wttr.in/GeoLite2-City.mmdb&quot;
+export WTTR_WEGO=&quot;/home/igor/go/bin/wego&quot;
+export WTTR_LISTEN_HOST=&quot;0.0.0.0&quot;
+export WTTR_LISTEN_PORT=&quot;8002&quot;"><pre class="notranslate"><span class="pl-k">export</span> WTTR_MYDIR=<span class="pl-s"><span class="pl-pds">"</span>/home/igor/wttr.in<span class="pl-pds">"</span></span>
+<span class="pl-k">export</span> WTTR_GEOLITE=<span class="pl-s"><span class="pl-pds">"</span>/home/igor/wttr.in/GeoLite2-City.mmdb<span class="pl-pds">"</span></span>
+<span class="pl-k">export</span> WTTR_WEGO=<span class="pl-s"><span class="pl-pds">"</span>/home/igor/go/bin/wego<span class="pl-pds">"</span></span>
+<span class="pl-k">export</span> WTTR_LISTEN_HOST=<span class="pl-s"><span class="pl-pds">"</span>0.0.0.0<span class="pl-pds">"</span></span>
+<span class="pl-k">export</span> WTTR_LISTEN_PORT=<span class="pl-s"><span class="pl-pds">"</span>8002<span class="pl-pds">"</span></span></pre></div>
+<h3 dir="auto">Configure the HTTP-frontend service</h3>
+<p dir="auto">It's recommended that you also configure the web server that will be used to access the service:</p>
+<div class="highlight highlight-source-nginx notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="server {
+	listen [::]:80;
+	server_name  wttr.in *.wttr.in;
+	access_log  /var/log/nginx/wttr.in-access.log  main;
+	error_log  /var/log/nginx/wttr.in-error.log;
+
+	location / {
+	    proxy_pass         http://127.0.0.1:8002;
+
+	    proxy_set_header   Host             $host;
+	    proxy_set_header   X-Real-IP        $remote_addr;
+	    proxy_set_header   X-Forwarded-For  $remote_addr;
+
+	    client_max_body_size       10m;
+	    client_body_buffer_size    128k;
+
+	    proxy_connect_timeout      90;
+	    proxy_send_timeout         90;
+	    proxy_read_timeout         90;
+
+	    proxy_buffer_size          4k;
+	    proxy_buffers              4 32k;
+	    proxy_busy_buffers_size    64k;
+	    proxy_temp_file_write_size 64k;
+
+	    expires                    off;
+	}
+}"><pre class="notranslate"><span class="pl-k">server</span> {
+	<span class="pl-k">listen</span> [::]:80;
+	<span class="pl-k">server_name</span>  wttr.in *.wttr.in;
+	<span class="pl-k">access_log</span>  /var/log/nginx/wttr.in-access.log <span class="pl-c1"> main</span>;
+	<span class="pl-k">error_log</span>  /var/log/nginx/wttr.in-error.log;
+
+	<span class="pl-k">location</span> <span class="pl-en">/ </span>{
+	    <span class="pl-k">proxy_pass</span>         http://127.0.0.1:8002;
+
+	    <span class="pl-k">proxy_set_header</span>   Host             <span class="pl-smi">$host</span>;
+	    <span class="pl-k">proxy_set_header</span>   X-Real-IP        <span class="pl-smi">$remote_addr</span>;
+	    <span class="pl-k">proxy_set_header</span>   X-Forwarded-For  <span class="pl-smi">$remote_addr</span>;
+
+	    <span class="pl-k">client_max_body_size</span>       <span class="pl-c1">10m</span>;
+	    <span class="pl-k">client_body_buffer_size</span>    <span class="pl-c1">128k</span>;
+
+	    <span class="pl-k">proxy_connect_timeout</span>      <span class="pl-s">90</span>;
+	    <span class="pl-k">proxy_send_timeout</span>         <span class="pl-s">90</span>;
+	    <span class="pl-k">proxy_read_timeout</span>         <span class="pl-s">90</span>;
+
+	    <span class="pl-k">proxy_buffer_size</span>          <span class="pl-c1">4k</span>;
+	    <span class="pl-k">proxy_buffers</span>              <span class="pl-s">4</span> <span class="pl-c1">32k</span>;
+	    <span class="pl-k">proxy_busy_buffers_size</span>    <span class="pl-c1">64k</span>;
+	    <span class="pl-k">proxy_temp_file_write_size</span> <span class="pl-c1">64k</span>;
+
+	    <span class="pl-k">expires</span>                   <span class="pl-c1"> off</span>;
+	}
+}</pre></div></div></div></div><div class="gg-issues-prev-next"><a class="prev" href="/issues/612"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M2 3h17a2 2 0 0 1 2 2v4h-2V5H2v14h17v-4h2v4a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m15 12v-2h7v-2h-7V9l-4 3l4 3M4 13h7v-2H4v2m0-4h7V7H4v2m0 8h4v-2H4v2Z"/></svg>axetroy/wsm: 通过 Web 来管理远端服务器，简易的堡垒机</span></a><a class="next" href="/issues/614"><span>enix/x509-certificate-exporter: Prometheus 导出器用于监控 Kubernetes 集群或独立系统中的 x509 证书过期情况<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M22 3H5a2 2 0 0 0-2 2v4h2V5h17v14H5v-4H3v4a2 2 0 0 0 2 2h17a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2M7 15v-2H0v-2h7V9l4 3l-4 3m13-2h-7v-2h7v2m0-4h-7V7h7v2m-3 8h-4v-2h4v2Z"/></svg></span></a></div><div class="answer-content"><div class="comments"></div></div></div></div></main><footer><div class="license"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img style="width:60px;height:21px" src="/static/license-83d755bd405fbe51c87dc088baf26299.svg" alt="License"/></a></div><div class="copyright"><span>Copyright ©<!-- --> <!-- -->2025<!-- -->-present</span><a class="owner" href="https://github.com/awesome-ops/awesome-ops.github.io" target="_blank">awesome-ops/awesome-ops.github.io</a>.</div><span class="powered">Powered by<a class="owner" title="GG (Gatsby + GitHub) - A gatsby website builder based on github discussions" href="https://github.com/lencx/gg" target="_blank">gg</a></span></footer></div><div id="gg-backtop" class="hide"><svg viewBox="0 0 98 125" xmlns="http://www.w3.org/2000/svg"><path d="m.41627505 120.505813c.36557376-2.799314 38.38567845-112.09375627 40.40633855-116.52273479 2.0206601-4.42897853 7.0443939-6.06190829 10.0049342.20172081 1.9736935 4.17575274 17.3630227 42.22464148 46.1679874 114.14666598.3068629 1.030234.4237748 1.755017.3507358 2.174348-.4483666 2.574161-2.3292736 3.429521-4.6125739 2.516093-15.0683018-6.028033-36.2681037-23.1692513-43.8663627-23.1692513-7.5982589 0-27.0568176 12.9171643-43.18383202 23.1692513-.96511235.613531-1.91473089 1.069619-2.88840599 1.149501s-2.74439509-.86628-2.37882134-3.665594z" fill="var(--gg-icon)" fill-rule="evenodd"></path></svg></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/issues/613";window.___webpackCompilationHash="24ed58306e97f1c1f657";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-97dd130bca8800dece7d.js"],"app":["/app-7383f855f15f63329e5f.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-2d05d9e504a620062115.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-408674d1ce0d96365c3f.js"],"component---src-templates-archives-tsx":["/component---src-templates-archives-tsx-06d205e572129bb8618c.js"],"component---src-templates-issues-tsx":["/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js"],"component---src-templates-labels-category-tsx":["/component---src-templates-labels-category-tsx-5456164ce90934624119.js"],"component---src-templates-labels-tsx":["/component---src-templates-labels-tsx-ee7b95bd8aa06617f372.js"],"component---src-templates-nav-category-tsx":["/component---src-templates-nav-category-tsx-91c7d8cb3880e3e0fda2.js"],"component---src-templates-nav-labels-tsx":["/component---src-templates-nav-labels-tsx-ae07fd835c5a914973d3.js"]};/*]]>*/</script><script src="/polyfill-97dd130bca8800dece7d.js" nomodule=""></script><script src="/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js" async=""></script><script src="/fc369a2ef6459b03f38591687cef4a587495c716-f468df31cbdaf6ffa970.js" async=""></script><script src="/app-7383f855f15f63329e5f.js" async=""></script><script src="/framework-86c8a5417e68dc3cefff.js" async=""></script><script src="/webpack-runtime-4fee7405b8a071e8c34e.js" async=""></script></body></html>

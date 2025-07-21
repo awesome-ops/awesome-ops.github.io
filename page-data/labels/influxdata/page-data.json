@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/influxdata",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"influxdata/influxdb: 可扩展数据存储，用于度量、事件和实时分析","number":238}},{"node":{"title":"influxdata/telegraf: 用于收集、处理、聚合和写入指标、日志和其他任意数据的代理，提供超过 300 个插件的综合套件，涵盖系统监控、云服务和消息传递等广泛功能","number":550}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Xx5w","name":"influxdata","color":"12966f","description":null},"name":"influxdata","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

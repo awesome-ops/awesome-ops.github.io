@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/benc-uk",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"benc-uk/kubeview: Kubernetes 集群可视化器和图形浏览器","number":339}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7aAog","name":"benc-uk","color":"0b6a27","description":null},"name":"benc-uk","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

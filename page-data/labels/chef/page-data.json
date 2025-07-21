@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/chef",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"chef/chef: Chef Infra 是一个高效的自动化平台，它将基础设施转化成可编程代码，实现了基础设施配置、部署和管理在任何环境、任何规模下的自动化。","number":77}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UcfA","name":"chef","color":"f7763b","description":null},"name":"chef","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/nginxproxymanager",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"NginxProxyManager/nginx-proxy-manager: 该项目是一个预构建的Docker镜像，可以让您轻松地将您在家中或其他地方运行的网站转发出去，包括免费SSL，而无需对Nginx或Letsencrypt有太多了解。","number":397}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7bNBA","name":"NginxProxyManager","color":"5d83c6","description":null},"name":"NginxProxyManager","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

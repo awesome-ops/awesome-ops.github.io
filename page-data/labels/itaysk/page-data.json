@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/itaysk",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"itaysk/kubectl-neat: 能够智能清除 kubectl get pod -o yaml 时的无用输出，使其更易于阅读","number":311}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Zbrg","name":"itaysk","color":"16ab6f","description":null},"name":"itaysk","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

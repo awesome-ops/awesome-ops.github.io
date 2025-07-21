@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/caoyingjunz",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"caoyingjunz/pixiu: 一个面对 k8s 集群从创建集群，到业务开发到服务部署的全流程管控平台。","number":442}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7cH7g","name":"caoyingjunz","color":"5aec5a","description":null},"name":"caoyingjunz","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

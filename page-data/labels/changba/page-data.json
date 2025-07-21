@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/changba",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"changba/nsqproxy: NSQProxy 是 NSQ 和 Worker 之间的中间件，根据配置负责消息转发。然后通过 HTTP/FastCGI/CBNSQ 等协议转发给 Worker 机执行。","number":405}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7bX1w","name":"changba","color":"ba061b","description":null},"name":"changba","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

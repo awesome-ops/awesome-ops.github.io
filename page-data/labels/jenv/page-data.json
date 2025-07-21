@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/jenv",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"jenv/jenv: 一个简单的工具，用于多个 JDK 版本的管理与切换","number":249}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7YAng","name":"jenv","color":"d0dd53","description":null},"name":"jenv","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

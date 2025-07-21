@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/eryajf",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"eryajf/eryajfctl: 🚀 基于 Cobra 库快速打造类似 kubectl 一样的命令行工具箱 🧰","number":156}},{"node":{"title":"eryajf/gitlabCodeSearch: 🔎 使用关键字搜索所有 Gitlab 项目, 并将结果输出为 Excel","number":183}},{"node":{"title":"eryajf/go-ldap-admin: 🌉 基于 Golang+Vue 实现的 OpenLDAP 后台管理项目","number":200}},{"node":{"title":"eryajf/HowToStartOpenSource: GitHub 开源项目维护协作指南","number":230}},{"node":{"title":"eryajf/magic-of-sysuse-scripts: 基于shell脚本实现的一个运维外挂，可通过脚本随处完成一些运维自动化的操作","number":363}},{"node":{"title":"eryajf/rpmbuild: 收集整理生产实践中积累的 RPM 包构建 spec 文件，你可以直接基于此构建出符合自己实际需求的 RPM 包","number":487}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WDOg","name":"eryajf","color":"0556e4","description":null},"name":"eryajf","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

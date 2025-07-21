@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/ssbeatty",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"ssbeatty/oms: 一个 Golang 开发的简单易用的运维管理平台，实现了资产管理、文件浏览器、批量命令、批量上传文件、VNC 连接和基于自建脚本并行执行的能力","number":412}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7bgzA","name":"ssbeatty","color":"fa965b","description":null},"name":"ssbeatty","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

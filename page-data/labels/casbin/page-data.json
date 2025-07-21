@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/casbin",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"casbin/casnode: 一个 V2EX 风格的论坛项目","number":66}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UP6Q","name":"casbin","color":"b4c305","description":null},"name":"casbin","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

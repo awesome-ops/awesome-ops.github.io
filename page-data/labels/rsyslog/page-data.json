@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/rsyslog",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"rsyslog/rsyslog: 一个速度极快的日志处理系统。","number":489}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7dLdg","name":"rsyslog","color":"84c288","description":null},"name":"rsyslog","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

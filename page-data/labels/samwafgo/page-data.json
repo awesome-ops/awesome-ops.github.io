@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/samwafgo",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"samwafgo/SamWaf: 一款开源轻量级的网站应用防火墙","number":500}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9helA","name":"samwafgo","color":"7847f9","description":null},"name":"samwafgo","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

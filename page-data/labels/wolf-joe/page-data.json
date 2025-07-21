@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/wolf-joe",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"wolf-joe/ts-dns: 灵活快速的 DNS 分组转发器","number":578}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9iPkw","name":"wolf-joe","color":"4f292d","description":null},"name":"wolf-joe","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/sohutv",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"sohutv/cachecloud: 支持 Redis 多种架构(Standalone、Sentinel、Cluster)高效管理、有效降低大规模 redis 运维成本，提升资源管控能力和利用率。平台提供快速搭建/迁移，运维管理，弹性伸缩，统计监控，客户端整合接入等功能","number":62}},{"node":{"title":"sohutv/mqcloud:  集客户端 SDK，运维，监控，预警等功能的 RocketMQ 企业级一站式服务平台","number":382}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7ULWg","name":"sohutv","color":"ee9015","description":null},"name":"sohutv","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/go-gitea",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"go-gitea/gitea: 包括 Git 托管、代码审查、团队协作、包注册和 CI/CD，功能强大，值得一试。fork 自 Gogs","number":182}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WkTw","name":"go-gitea","color":"1969ed","description":null},"name":"go-gitea","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/zouuup",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"Zouuup/landrun: 使用Landlock在一个安全的、非特权的沙盒中运行任何Linux进程。","number":346}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7aJeA","name":"Zouuup","color":"45d73f","description":null},"name":"Zouuup","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

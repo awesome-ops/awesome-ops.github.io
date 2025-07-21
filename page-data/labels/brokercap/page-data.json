@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/brokercap",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"brokercap/Bifrost: 面向生产环境的 MySQL, MariaDB, kafka 同步到Redis, MongoDB, ClickHouse, StarRocks, Doris, Kafka等服务的异构中间件","number":51}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7T7yg","name":"brokercap","color":"737771","description":null},"name":"brokercap","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

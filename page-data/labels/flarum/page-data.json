@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/flarum",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"flarum/framework: 一个简单的，优雅的论坛项目","number":174}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WaAg","name":"flarum","color":"bc0dd0","description":null},"name":"flarum","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

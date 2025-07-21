@@ -1,0 +1,1469 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/><meta name="theme-color" content="#FFFFFF"/><meta name="generator" content="Gatsby 4.11.3"/><style data-href="/styles.3aaba633489943369223.css" data-identity="gatsby-global-css">@media (prefers-color-scheme:dark){.markdown-body{--color-prettylights-syntax-comment:#8b949e;--color-prettylights-syntax-constant:#79c0ff;--color-prettylights-syntax-entity:#d2a8ff;--color-prettylights-syntax-storage-modifier-import:#c9d1d9;--color-prettylights-syntax-entity-tag:#7ee787;--color-prettylights-syntax-keyword:#ff7b72;--color-prettylights-syntax-string:#a5d6ff;--color-prettylights-syntax-variable:#ffa657;--color-prettylights-syntax-brackethighlighter-unmatched:#f85149;--color-prettylights-syntax-invalid-illegal-text:#f0f6fc;--color-prettylights-syntax-invalid-illegal-bg:#8e1519;--color-prettylights-syntax-carriage-return-text:#f0f6fc;--color-prettylights-syntax-carriage-return-bg:#b62324;--color-prettylights-syntax-string-regexp:#7ee787;--color-prettylights-syntax-markup-list:#f2cc60;--color-prettylights-syntax-markup-heading:#1f6feb;--color-prettylights-syntax-markup-italic:#c9d1d9;--color-prettylights-syntax-markup-bold:#c9d1d9;--color-prettylights-syntax-markup-deleted-text:#ffdcd7;--color-prettylights-syntax-markup-deleted-bg:#67060c;--color-prettylights-syntax-markup-inserted-text:#aff5b4;--color-prettylights-syntax-markup-inserted-bg:#033a16;--color-prettylights-syntax-markup-changed-text:#ffdfb6;--color-prettylights-syntax-markup-changed-bg:#5a1e02;--color-prettylights-syntax-markup-ignored-text:#c9d1d9;--color-prettylights-syntax-markup-ignored-bg:#1158c7;--color-prettylights-syntax-meta-diff-range:#d2a8ff;--color-prettylights-syntax-brackethighlighter-angle:#8b949e;--color-prettylights-syntax-sublimelinter-gutter-mark:#484f58;--color-prettylights-syntax-constant-other-reference-link:#a5d6ff;--color-fg-default:#c9d1d9;--color-fg-muted:#8b949e;--color-fg-subtle:#484f58;--color-canvas-default:#0d1117;--color-canvas-subtle:#161b22;--color-border-default:#30363d;--color-border-muted:#21262d;--color-neutral-muted:hsla(215,8%,47%,.4);--color-accent-fg:#58a6ff;--color-accent-emphasis:#1f6feb;--color-attention-subtle:rgba(187,128,9,.15);--color-danger-fg:#f85149;color-scheme:dark}}@media (prefers-color-scheme:light){.markdown-body{--color-prettylights-syntax-comment:#6e7781;--color-prettylights-syntax-constant:#0550ae;--color-prettylights-syntax-entity:#8250df;--color-prettylights-syntax-storage-modifier-import:#24292f;--color-prettylights-syntax-entity-tag:#116329;--color-prettylights-syntax-keyword:#cf222e;--color-prettylights-syntax-string:#0a3069;--color-prettylights-syntax-variable:#953800;--color-prettylights-syntax-brackethighlighter-unmatched:#82071e;--color-prettylights-syntax-invalid-illegal-text:#f6f8fa;--color-prettylights-syntax-invalid-illegal-bg:#82071e;--color-prettylights-syntax-carriage-return-text:#f6f8fa;--color-prettylights-syntax-carriage-return-bg:#cf222e;--color-prettylights-syntax-string-regexp:#116329;--color-prettylights-syntax-markup-list:#3b2300;--color-prettylights-syntax-markup-heading:#0550ae;--color-prettylights-syntax-markup-italic:#24292f;--color-prettylights-syntax-markup-bold:#24292f;--color-prettylights-syntax-markup-deleted-text:#82071e;--color-prettylights-syntax-markup-deleted-bg:#ffebe9;--color-prettylights-syntax-markup-inserted-text:#116329;--color-prettylights-syntax-markup-inserted-bg:#dafbe1;--color-prettylights-syntax-markup-changed-text:#953800;--color-prettylights-syntax-markup-changed-bg:#ffd8b5;--color-prettylights-syntax-markup-ignored-text:#eaeef2;--color-prettylights-syntax-markup-ignored-bg:#0550ae;--color-prettylights-syntax-meta-diff-range:#8250df;--color-prettylights-syntax-brackethighlighter-angle:#57606a;--color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;--color-prettylights-syntax-constant-other-reference-link:#0a3069;--color-fg-default:#24292f;--color-fg-muted:#57606a;--color-fg-subtle:#6e7781;--color-canvas-default:#fff;--color-canvas-subtle:#f6f8fa;--color-border-default:#d0d7de;--color-border-muted:#d8dee4;--color-neutral-muted:rgba(175,184,193,.2);--color-accent-fg:#0969da;--color-accent-emphasis:#0969da;--color-attention-subtle:#fff8c5;--color-danger-fg:#cf222e;color-scheme:light}}.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;word-wrap:break-word;background-color:var(--color-canvas-default);color:var(--color-fg-default);font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:16px;line-height:1.5;margin:0}.markdown-body h1:hover .anchor .octicon-link:before,.markdown-body h2:hover .anchor .octicon-link:before,.markdown-body h3:hover .anchor .octicon-link:before,.markdown-body h4:hover .anchor .octicon-link:before,.markdown-body h5:hover .anchor .octicon-link:before,.markdown-body h6:hover .anchor .octicon-link:before{background-color:currentColor;content:" ";display:inline-block;height:16px;-webkit-mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');width:16px}.markdown-body details,.markdown-body figcaption,.markdown-body figure{display:block}.markdown-body summary{display:list-item}.markdown-body [hidden]{display:none!important}.markdown-body a{background-color:transparent;color:var(--color-accent-fg);text-decoration:none}.markdown-body a:active,.markdown-body a:hover{outline-width:0}.markdown-body abbr[title]{border-bottom:none;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}.markdown-body b,.markdown-body strong{font-weight:600}.markdown-body dfn{font-style:italic}.markdown-body h1{border-bottom:1px solid var(--color-border-muted);font-size:2em;font-weight:600;margin:.67em 0;padding-bottom:.3em}.markdown-body mark{background-color:var(--color-attention-subtle);color:var(--color-text-primary)}.markdown-body small{font-size:90%}.markdown-body sub,.markdown-body sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}.markdown-body sub{bottom:-.25em}.markdown-body sup{top:-.5em}.markdown-body img{background-color:var(--color-canvas-default);border-style:none;box-sizing:content-box;max-width:100%}.markdown-body code,.markdown-body kbd,.markdown-body pre,.markdown-body samp{font-family:monospace,monospace;font-size:1em}.markdown-body figure{margin:1em 40px}.markdown-body hr{background:transparent;background-color:var(--color-border-default);border:0;box-sizing:content-box;height:.25em;margin:24px 0;overflow:hidden;padding:0}.markdown-body input{font:inherit;font-family:inherit;font-size:inherit;line-height:inherit;margin:0;overflow:visible}.markdown-body [type=button],.markdown-body [type=reset],.markdown-body [type=submit]{-webkit-appearance:button}.markdown-body [type=button]::-moz-focus-inner,.markdown-body [type=reset]::-moz-focus-inner,.markdown-body [type=submit]::-moz-focus-inner{border-style:none;padding:0}.markdown-body [type=button]:-moz-focusring,.markdown-body [type=reset]:-moz-focusring,.markdown-body [type=submit]:-moz-focusring{outline:1px dotted ButtonText}.markdown-body [type=checkbox],.markdown-body [type=radio]{box-sizing:border-box;padding:0}.markdown-body [type=number]::-webkit-inner-spin-button,.markdown-body [type=number]::-webkit-outer-spin-button{height:auto}.markdown-body [type=search]{-webkit-appearance:textfield;outline-offset:-2px}.markdown-body [type=search]::-webkit-search-cancel-button,.markdown-body [type=search]::-webkit-search-decoration{-webkit-appearance:none}.markdown-body ::-webkit-input-placeholder{color:inherit;opacity:.54}.markdown-body ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}.markdown-body a:hover{text-decoration:underline}.markdown-body hr:after,.markdown-body hr:before{content:"";display:table}.markdown-body hr:after{clear:both}.markdown-body table{border-collapse:collapse;border-spacing:0;display:block;max-width:100%;overflow:auto;width:-webkit-max-content;width:max-content}.markdown-body td,.markdown-body th{padding:0}.markdown-body details summary{cursor:pointer}.markdown-body details:not([open])>:not(summary){display:none!important}.markdown-body kbd{background-color:var(--color-canvas-subtle);border-bottom-color:var(--color-neutral-muted);border:1px solid var(--color-neutral-muted);border-radius:6px;box-shadow:inset 0 -1px 0 var(--color-neutral-muted);color:var(--color-fg-default);display:inline-block;font:11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;line-height:10px;padding:3px 5px;vertical-align:middle}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{font-weight:600;line-height:1.25;margin-bottom:16px;margin-top:24px}.markdown-body h2{border-bottom:1px solid var(--color-border-muted);font-size:1.5em;font-weight:600;padding-bottom:.3em}.markdown-body h3{font-size:1.25em;font-weight:600}.markdown-body h4{font-size:1em;font-weight:600}.markdown-body h5{font-size:.875em;font-weight:600}.markdown-body h6{color:var(--color-fg-muted);font-size:.85em;font-weight:600}.markdown-body p{margin-bottom:10px;margin-top:0}.markdown-body blockquote{border-left:.25em solid var(--color-border-default);color:var(--color-fg-muted);margin:0;padding:0 1em}.markdown-body ol,.markdown-body ul{margin-bottom:0;margin-top:0;padding-left:2em}.markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}.markdown-body ol ol ol,.markdown-body ol ul ol,.markdown-body ul ol ol,.markdown-body ul ul ol{list-style-type:lower-alpha}.markdown-body dd{margin-left:0}.markdown-body code,.markdown-body pre,.markdown-body tt{font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;font-size:12px}.markdown-body pre{word-wrap:normal;margin-bottom:0;margin-top:0}.markdown-body .octicon{fill:currentColor;display:inline-block;overflow:visible!important;vertical-align:text-bottom}.markdown-body ::-webkit-input-placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body :-ms-input-placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body ::placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body input::-webkit-inner-spin-button,.markdown-body input::-webkit-outer-spin-button{-webkit-appearance:none;appearance:none;margin:0}.markdown-body .pl-c{color:var(--color-prettylights-syntax-comment)}.markdown-body .pl-c1,.markdown-body .pl-s .pl-v{color:var(--color-prettylights-syntax-constant)}.markdown-body .pl-e,.markdown-body .pl-en{color:var(--color-prettylights-syntax-entity)}.markdown-body .pl-s .pl-s1,.markdown-body .pl-smi{color:var(--color-prettylights-syntax-storage-modifier-import)}.markdown-body .pl-ent{color:var(--color-prettylights-syntax-entity-tag)}.markdown-body .pl-k{color:var(--color-prettylights-syntax-keyword)}.markdown-body .pl-pds,.markdown-body .pl-s,.markdown-body .pl-s .pl-pse .pl-s1,.markdown-body .pl-sr,.markdown-body .pl-sr .pl-cce,.markdown-body .pl-sr .pl-sra,.markdown-body .pl-sr .pl-sre{color:var(--color-prettylights-syntax-string)}.markdown-body .pl-smw,.markdown-body .pl-v{color:var(--color-prettylights-syntax-variable)}.markdown-body .pl-bu{color:var(--color-prettylights-syntax-brackethighlighter-unmatched)}.markdown-body .pl-ii{background-color:var(--color-prettylights-syntax-invalid-illegal-bg);color:var(--color-prettylights-syntax-invalid-illegal-text)}.markdown-body .pl-c2{background-color:var(--color-prettylights-syntax-carriage-return-bg);color:var(--color-prettylights-syntax-carriage-return-text)}.markdown-body .pl-sr .pl-cce{color:var(--color-prettylights-syntax-string-regexp);font-weight:700}.markdown-body .pl-ml{color:var(--color-prettylights-syntax-markup-list)}.markdown-body .pl-mh,.markdown-body .pl-mh .pl-en,.markdown-body .pl-ms{color:var(--color-prettylights-syntax-markup-heading);font-weight:700}.markdown-body .pl-mi{color:var(--color-prettylights-syntax-markup-italic);font-style:italic}.markdown-body .pl-mb{color:var(--color-prettylights-syntax-markup-bold);font-weight:700}.markdown-body .pl-md{background-color:var(--color-prettylights-syntax-markup-deleted-bg);color:var(--color-prettylights-syntax-markup-deleted-text)}.markdown-body .pl-mi1{background-color:var(--color-prettylights-syntax-markup-inserted-bg);color:var(--color-prettylights-syntax-markup-inserted-text)}.markdown-body .pl-mc{background-color:var(--color-prettylights-syntax-markup-changed-bg);color:var(--color-prettylights-syntax-markup-changed-text)}.markdown-body .pl-mi2{background-color:var(--color-prettylights-syntax-markup-ignored-bg);color:var(--color-prettylights-syntax-markup-ignored-text)}.markdown-body .pl-mdr{color:var(--color-prettylights-syntax-meta-diff-range);font-weight:700}.markdown-body .pl-ba{color:var(--color-prettylights-syntax-brackethighlighter-angle)}.markdown-body .pl-sg{color:var(--color-prettylights-syntax-sublimelinter-gutter-mark)}.markdown-body .pl-corl{color:var(--color-prettylights-syntax-constant-other-reference-link);text-decoration:underline}.markdown-body [data-catalyst]{display:block}.markdown-body g-emoji{font-family:Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-size:1em;font-style:normal!important;font-weight:400;line-height:1;vertical-align:-.075em}.markdown-body g-emoji img{height:1em;width:1em}.markdown-body:after,.markdown-body:before{content:"";display:table}.markdown-body:after{clear:both}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body .absent{color:var(--color-danger-fg)}.markdown-body .anchor{float:left;line-height:1;margin-left:-20px;padding-right:4px}.markdown-body .anchor:focus{outline:none}.markdown-body blockquote,.markdown-body details,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-bottom:16px;margin-top:0}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body sup>a:before{content:"["}.markdown-body sup>a:after{content:"]"}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:var(--color-fg-default);vertical-align:middle;visibility:hidden}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}.markdown-body h1 code,.markdown-body h1 tt,.markdown-body h2 code,.markdown-body h2 tt,.markdown-body h3 code,.markdown-body h3 tt,.markdown-body h4 code,.markdown-body h4 tt,.markdown-body h5 code,.markdown-body h5 tt,.markdown-body h6 code,.markdown-body h6 tt{font-size:inherit;padding:0 .2em}.markdown-body ol.no-list,.markdown-body ul.no-list{list-style-type:none;padding:0}.markdown-body ol[type="1"]{list-style-type:decimal}.markdown-body ol[type=a]{list-style-type:lower-alpha}.markdown-body ol[type=i]{list-style-type:lower-roman}.markdown-body div>ol:not([type]){list-style-type:decimal}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-bottom:0;margin-top:0}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dl{padding:0}.markdown-body dl dt{font-size:1em;font-style:italic;font-weight:600;margin-top:16px;padding:0}.markdown-body dl dd{margin-bottom:16px;padding:0 16px}.markdown-body table th{font-weight:600}.markdown-body table td,.markdown-body table th{border:1px solid var(--color-border-default);padding:6px 13px}.markdown-body table tr{background-color:var(--color-canvas-default);border-top:1px solid var(--color-border-muted)}.markdown-body table tr:nth-child(2n){background-color:var(--color-canvas-subtle)}.markdown-body table img{background-color:transparent}.markdown-body img[align=right]{padding-left:20px}.markdown-body img[align=left]{padding-right:20px}.markdown-body .emoji{background-color:transparent;max-width:none;vertical-align:text-top}.markdown-body span.frame{display:block;overflow:hidden}.markdown-body span.frame>span{border:1px solid var(--color-border-default);display:block;float:left;margin:13px 0 0;overflow:hidden;padding:7px;width:auto}.markdown-body span.frame span img{display:block;float:left}.markdown-body span.frame span span{clear:both;color:var(--color-fg-default);display:block;padding:5px 0 0}.markdown-body span.align-center{clear:both;display:block;overflow:hidden}.markdown-body span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}.markdown-body span.align-center span img{margin:0 auto;text-align:center}.markdown-body span.align-right{clear:both;display:block;overflow:hidden}.markdown-body span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}.markdown-body span.align-right span img{margin:0;text-align:right}.markdown-body span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}.markdown-body span.float-left span{margin:13px 0 0}.markdown-body span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}.markdown-body span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}.markdown-body code,.markdown-body tt{background-color:var(--color-neutral-muted);border-radius:6px;font-size:85%;margin:0;padding:.2em .4em}.markdown-body code br,.markdown-body tt br{display:none}.markdown-body del code{text-decoration:inherit}.markdown-body pre code{font-size:100%}.markdown-body pre>code{background:transparent;border:0;margin:0;padding:0;white-space:pre;word-break:normal}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{background-color:var(--color-canvas-subtle);border-radius:6px;font-size:85%;line-height:1.45;overflow:auto;padding:16px}.markdown-body pre code,.markdown-body pre tt{word-wrap:normal;background-color:transparent;border:0;display:inline;line-height:inherit;margin:0;max-width:auto;overflow:visible;padding:0}.markdown-body .csv-data td,.markdown-body .csv-data th{font-size:12px;line-height:1;overflow:hidden;padding:5px;text-align:left;white-space:nowrap}.markdown-body .csv-data .blob-num{background:var(--color-canvas-default);border:0;padding:10px 8px 9px;text-align:right}.markdown-body .csv-data tr{border-top:0}.markdown-body .csv-data th{background:var(--color-canvas-subtle);border-top:0;font-weight:600}.markdown-body .footnotes{border-top:1px solid var(--color-border-default);color:var(--color-fg-muted);font-size:12px}.markdown-body .footnotes ol{padding-left:16px}.markdown-body .footnotes li{position:relative}.markdown-body .footnotes li:target:before{border:2px solid var(--color-accent-emphasis);border-radius:6px;bottom:-8px;content:"";left:-24px;pointer-events:none;position:absolute;right:-8px;top:-8px}.markdown-body .footnotes li:target{color:var(--color-fg-default)}.markdown-body .footnotes .data-footnote-backref g-emoji{font-family:monospace}.markdown-body .task-list-item{list-style-type:none}.markdown-body .task-list-item label{font-weight:400}.markdown-body .task-list-item.enabled label{cursor:pointer}.markdown-body .task-list-item+.task-list-item{margin-top:3px}.markdown-body .task-list-item .handle{display:none}.markdown-body .task-list-item-checkbox{margin:0 .2em .25em -1.6em;vertical-align:middle}.markdown-body .contains-task-list:dir(rtl) .task-list-item-checkbox{margin:0 -1.6em .25em .2em}.markdown-body ::-webkit-calendar-picker-indicator{-webkit-filter:invert(50%);filter:invert(50%)}@font-face{font-family:lab;src:url(/static/lab-b3a92fdc7ccdc8ebf471556b2e7b1018.woff2) format("woff2")}:root{--font-base:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;--layout-header-height:56px;--layout-footer-height:100px;--gg-border:hsla(0,0%,71%,.1)}*{box-sizing:border-box;transition:all .3s ease-out}html.dark{--theme-content-background-color:#232629;--theme-header-background-color:#232629;--theme-footer-background-color:#232629;--theme-text:#d8d8d8;--gg-logo:#d8d8d8;--gg-icon:#75757a}html.light{--theme-content-background-color:#fff;--theme-header-background-color:#fafafa;--theme-footer-background-color:#fefefe;--theme-text:#232629;--gg-logo:#232629;--gg-icon:#a5a5ac}body{font-family:var(--font-base);margin:0;padding:0}.icon-action{cursor:pointer;user-select:none}.page-title{align-items:center;display:flex;font-size:20px;font-weight:700;justify-content:center;margin-bottom:20px;text-align:center}.page-title .icon{margin-right:10px}.text-center{text-align:center}.gg-empty{color:hsla(0,0%,71%,.5);font-size:18px}.dark .markdown-body{--color-prettylights-syntax-comment:#8b949e;--color-prettylights-syntax-constant:#79c0ff;--color-prettylights-syntax-entity:#d2a8ff;--color-prettylights-syntax-storage-modifier-import:#c9d1d9;--color-prettylights-syntax-entity-tag:#7ee787;--color-prettylights-syntax-keyword:#ff7b72;--color-prettylights-syntax-string:#a5d6ff;--color-prettylights-syntax-variable:#ffa657;--color-prettylights-syntax-brackethighlighter-unmatched:#f85149;--color-prettylights-syntax-invalid-illegal-text:#f0f6fc;--color-prettylights-syntax-invalid-illegal-bg:#8e1519;--color-prettylights-syntax-carriage-return-text:#f0f6fc;--color-prettylights-syntax-carriage-return-bg:#b62324;--color-prettylights-syntax-string-regexp:#7ee787;--color-prettylights-syntax-markup-list:#f2cc60;--color-prettylights-syntax-markup-heading:#1f6feb;--color-prettylights-syntax-markup-italic:#c9d1d9;--color-prettylights-syntax-markup-bold:#c9d1d9;--color-prettylights-syntax-markup-deleted-text:#ffdcd7;--color-prettylights-syntax-markup-deleted-bg:#67060c;--color-prettylights-syntax-markup-inserted-text:#aff5b4;--color-prettylights-syntax-markup-inserted-bg:#033a16;--color-prettylights-syntax-markup-changed-text:#ffdfb6;--color-prettylights-syntax-markup-changed-bg:#5a1e02;--color-prettylights-syntax-markup-ignored-text:#c9d1d9;--color-prettylights-syntax-markup-ignored-bg:#1158c7;--color-prettylights-syntax-meta-diff-range:#d2a8ff;--color-prettylights-syntax-brackethighlighter-angle:#8b949e;--color-prettylights-syntax-sublimelinter-gutter-mark:#484f58;--color-prettylights-syntax-constant-other-reference-link:#a5d6ff;--color-fg-default:#c9d1d9;--color-fg-muted:#8b949e;--color-fg-subtle:#484f58;--color-canvas-default:#232629;--color-canvas-subtle:#161b22;--color-border-default:#30363d;--color-border-muted:#21262d;--color-neutral-muted:hsla(215,8%,47%,.4);--color-accent-fg:#58a6ff;--color-accent-emphasis:#1f6feb;--color-attention-subtle:rgba(187,128,9,.15);--color-danger-fg:#f85149;color-scheme:dark}.light .markdown-body{--color-prettylights-syntax-comment:#6e7781;--color-prettylights-syntax-constant:#0550ae;--color-prettylights-syntax-entity:#8250df;--color-prettylights-syntax-storage-modifier-import:#24292f;--color-prettylights-syntax-entity-tag:#116329;--color-prettylights-syntax-keyword:#cf222e;--color-prettylights-syntax-string:#0a3069;--color-prettylights-syntax-variable:#953800;--color-prettylights-syntax-brackethighlighter-unmatched:#82071e;--color-prettylights-syntax-invalid-illegal-text:#f6f8fa;--color-prettylights-syntax-invalid-illegal-bg:#82071e;--color-prettylights-syntax-carriage-return-text:#f6f8fa;--color-prettylights-syntax-carriage-return-bg:#cf222e;--color-prettylights-syntax-string-regexp:#116329;--color-prettylights-syntax-markup-list:#3b2300;--color-prettylights-syntax-markup-heading:#0550ae;--color-prettylights-syntax-markup-italic:#24292f;--color-prettylights-syntax-markup-bold:#24292f;--color-prettylights-syntax-markup-deleted-text:#82071e;--color-prettylights-syntax-markup-deleted-bg:#ffebe9;--color-prettylights-syntax-markup-inserted-text:#116329;--color-prettylights-syntax-markup-inserted-bg:#dafbe1;--color-prettylights-syntax-markup-changed-text:#953800;--color-prettylights-syntax-markup-changed-bg:#ffd8b5;--color-prettylights-syntax-markup-ignored-text:#eaeef2;--color-prettylights-syntax-markup-ignored-bg:#0550ae;--color-prettylights-syntax-meta-diff-range:#8250df;--color-prettylights-syntax-brackethighlighter-angle:#57606a;--color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;--color-prettylights-syntax-constant-other-reference-link:#0a3069;--color-fg-default:#24292f;--color-fg-muted:#57606a;--color-fg-subtle:#6e7781;--color-canvas-default:#fff;--color-canvas-subtle:#f6f8fa;--color-border-default:#d0d7de;--color-border-muted:#d8dee4;--color-neutral-muted:rgba(175,184,193,.2);--color-accent-fg:#0969da;--color-accent-emphasis:#0969da;--color-attention-subtle:#fff8c5;--color-danger-fg:#cf222e;color-scheme:light}.markdown-body{margin:0 auto;max-width:720px;padding:0 20px 20px}h1{border-bottom:none!important}.gg-logo{text-rendering:optimizelegibility;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;line-height:0;outline:none;text-align:center;text-transform:none;vertical-align:-.125em}.gg-logo,.gg-theme-toggle{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.gg-nav{height:var(--layout-header-height)}.gg-nav *{transition:none}.gg-nav .icons,.gg-nav .nav-screen nav li{align-items:center;display:flex}.gg-nav .nav-screen nav li{color:var(--gg-icon);cursor:pointer;font-weight:700;list-style:none}@media screen and (max-width:720px){.gg-nav{align-items:center;display:flex}.gg-nav .nav-icon{cursor:pointer;height:24px;overflow:hidden;width:24px}.gg-nav .nav-icon span{background:#999;display:block;height:3px;margin:4px 0;transition:all .3s ease;width:24px}.gg-nav .nav-icon .top{-webkit-transform:translateX(6px);transform:translateX(6px)}.gg-nav .nav-icon .bottom{-webkit-transform:translateX(8px);transform:translateX(8px)}.gg-nav .nav-icon.active .top{-webkit-transform:rotate(225deg) translateY(-5px) translateX(-5px);transform:rotate(225deg) translateY(-5px) translateX(-5px)}.gg-nav .nav-icon.active .middle{-webkit-transform:translateX(24px);transform:translateX(24px)}.gg-nav .nav-icon.active .bottom{-webkit-transform:rotate(135deg) translateY(5px) translateX(-5px);transform:rotate(135deg) translateY(5px) translateX(-5px)}.nav-icon{display:block}.nav-screen{background-color:var(--theme-header-background-color);height:0;left:0;overflow:hidden;position:fixed;top:var(--layout-header-height);transition:height .15s ease-out;width:100%;z-index:1000}.nav-screen>div{padding:20px}.nav-screen.open{height:calc(100vh - var(--layout-header-height))}.nav-screen nav{font-size:16px;text-align:center}.nav-screen nav svg{font-size:24px;margin-right:10px}.nav-screen nav li{justify-content:center;padding:8px 0}.nav-screen .icons{justify-content:center;margin-top:40px}.nav-screen .icons .icon-action{margin:0 10px}}@media screen and (min-width:721px){.nav-icon{display:none}.nav-screen{height:100%;justify-content:space-between}.nav-screen,.nav-screen>div{display:flex}.nav-screen .icons .icon-action{margin:0 5px}.nav-screen nav{margin-right:20px}.nav-screen nav svg{margin-right:4px}.nav-screen nav li{float:left;font-size:14px;height:100%;margin-right:20px}}#gg-backtop{align-items:center;border-radius:50%;bottom:20px;box-shadow:inset 0 0 5px hsla(0,0%,59%,.5);cursor:pointer;display:flex;height:42px;justify-content:center;position:fixed;right:20px;transition:all .5s ease;-webkit-user-select:none;-ms-user-select:none;user-select:none;width:42px}@media screen and (max-width:767px){#gg-backtop{height:36px;width:36px}}#gg-backtop svg{width:50%}#gg-backtop.hide{opacity:0;-webkit-transform:scale(0);transform:scale(0)}#gg-backtop.show{opacity:1;-webkit-transform:scale(1);transform:scale(1)}.gg-container{display:flex;flex-direction:column;min-height:100vh}.gg-container header{align-items:center;background-color:#fff;background-color:var(--theme-header-background-color);border-bottom:1px solid hsla(0,0%,47%,.2);box-shadow:0 1px 2px rgba(0,0,0,.05),0 1px 4px rgba(0,0,0,.05),0 2px 8px rgba(0,0,0,.05);display:flex;height:var(--layout-header-height);justify-content:space-between;padding:0 16px;position:fixed;top:0;width:100%;z-index:999}.gg-container header .imglogo{border:1px solid var(--gg-border);border-radius:8px;cursor:pointer;width:32px}.gg-container main{background-color:var(--theme-content-background-color);min-height:calc(100vh - var(--layout-footer-height));padding-top:80px}.gg-container footer{align-items:center;background-color:var(--theme-footer-background-color);color:#838c95;display:flex;font-size:14px;height:var(--layout-footer-height);justify-content:center;padding:0 10px;position:relative;text-align:center;width:100%}.gg-container footer:after{background:radial-gradient(hsla(0,0%,59%,.6),transparent 80%);content:"";display:block;height:1px;position:absolute;top:0;width:100%}.gg-container footer img{vertical-align:middle}.gg-container footer .owner{color:#3486e2;cursor:pointer;margin-left:5px;text-decoration:none}.gg-container footer .copyright{margin-left:10px}.gg-container footer .powered{margin-left:5px}@media screen and (max-width:720px){.gg-container footer{flex-direction:column}.gg-container footer .copyright,.gg-container footer .powered{margin-left:0;margin-top:5px}}.issues-page h1{text-align:center}.author-info{margin-bottom:3px}.author-info .author{cursor:pointer}.author-info .author .name{font-weight:500}.author-info .author img{border-radius:50%;margin-right:5px;vertical-align:middle;width:30px}.author-info i,.author-info span{font-size:14px}.author-info .date{margin-left:10px;opacity:.4}.author-info .number{float:right;line-height:26px;opacity:.3}.gg-category{background:hsla(0,0%,71%,.3)!important;border-radius:4px;display:inline-block;font-size:10px;font-weight:700;height:18px;line-height:18px;margin-right:10px;padding:0 5px;text-decoration:none!important;vertical-align:middle}.gg-category,.issues-num{color:var(--color-fg-default)!important;cursor:pointer}.issues-num{font-family:lab;font-style:italic;font-variation-settings:"size" 30,"quad" 40,"bevl" 20,"oval" 30;opacity:.6}.home-page .issues-list{max-width:unset}.home-page .issues-list>div{display:flex;flex-wrap:wrap;margin:0 auto;max-width:960px}.home-page .issues-list .author-info{margin-bottom:3px}.home-page .issues-list .author-info .author img{width:24px}.home-page .issues-list .author-info i,.home-page .issues-list .author-info span{font-size:12px}.home-page .issues-list .author-info .number{float:right;line-height:26px;opacity:.3}.home-page .issues-list .post-info .title{font-size:15px;font-weight:700;text-decoration:none;vertical-align:middle}@media screen and (min-width:721px){.home-page .issues-list .item{border:1px solid var(--gg-border);border-radius:5px;margin:0 10px 20px;max-width:100%;min-width:200px;overflow:hidden;width:calc(50% - 20px)}.home-page .issues-list .item .author-info{background-color:var(--gg-border);padding:3px 5px}.home-page .issues-list .item .post-info{padding:5px}}@media screen and (max-width:720px){.home-page .issues-list .item{border-bottom:1px solid hsla(0,0%,59%,.2);padding:15px 0 12px;width:100%}.home-page .issues-list .item .author-info{margin-bottom:5px}}.gg-label{border-radius:4px;border-style:solid;border-width:1px;cursor:pointer;display:inline-block;font-size:12px;height:18px;line-height:17px;overflow:hidden;vertical-align:middle}.gg-label b{color:#fff;padding:0 3px 0 2px}.gg-label b,.gg-label em{display:inline-block;height:100%}.gg-label em{border-bottom-right-radius:3px;border-top-right-radius:3px;color:var(--theme-text);padding:0 3px}.gg-issues-prev-next{align-items:stretch;border:1px solid hsla(0,0%,59%,.3);border-radius:5px;display:flex;margin:30px 0}.gg-issues-prev-next:after{clear:both;content:"";display:block}.gg-issues-prev-next a{flex:1 1;padding:15px 10px;width:50%}.gg-issues-prev-next a>span{align-items:center;display:flex;height:100%}.gg-issues-prev-next a .icon-action{min-width:20px}.gg-issues-prev-next .prev{text-align:left}.gg-issues-prev-next .prev>span{float:left}.gg-issues-prev-next .prev .icon-action{margin-right:5px}.gg-issues-prev-next .next{text-align:right}.gg-issues-prev-next .next>span{float:right}.gg-issues-prev-next .next .icon-action{margin-left:5px}@media screen and (max-width:720px){.gg-issues-prev-next{font-size:14px}}.issues-page h1{font-size:24px}.issues-page h1>span{background:linear-gradient(180deg,transparent 50%,hsla(0,0%,71%,.5) 0);padding:0 5px}.issues-page h1 .issues-num{font-size:18px;margin-right:10px}.issues-page .widget{margin-bottom:20px;text-align:center}.issues-page .gg-label{margin:2px 4px}.issues-page .ques-content{display:flex;margin-top:5px;min-height:120px}.issues-page .ques-content .quesicon{margin-right:3px}.issues-page .ques-content .quescontent{width:100%}.issues-page .vote{align-items:center;display:flex;flex-direction:column;font-style:normal}.issues-page .answer-content .answericon{background-color:hsla(0,0%,71%,.3);border-radius:5px;margin-bottom:20px;padding:5px 0 0;text-align:center}.issues-page .comments-item{border-left:1px solid hsla(0,0%,71%,.3);padding-bottom:1px;padding-left:3px}.issues-page .comments-item-content{margin-left:20px}.labels-category-page .gg-label-category-head{margin-bottom:20px;position:-webkit-sticky;position:sticky;top:56px}.labels-category-page .category-group{display:flex;width:100%}.labels-category-page .category-group .label-category{color:#fff;cursor:pointer;display:inline-block;font-weight:700;height:36px;line-height:36px;padding:0 10px;text-shadow:0 1px 1px rgba(80,80,80,.5)}.labels-category-page .category-group .label-category.active{color:#000}.labels-category-page .level-group .label-level{background-color:#000;color:#fff;cursor:pointer;display:inline-block;font-size:16px;font-size:14px;height:24px;line-height:24px;margin-right:1px;opacity:.5;padding:0 10px}.labels-category-page .level-group .label-level.active{opacity:1}.labels-category-page .level-group .label-level.level1{background-color:#3c3c3c}.labels-category-page .level-group .label-level.level2{background-color:#555}.labels-category-page .level-group .label-level.level3{background-color:#6f6f6f}.labels-category-page .level-group .label-level.level4{background-color:#888}.labels-category-page .level-group .label-level.level5{background-color:#a2a2a2}.labels-category-page .issues-list .item{background-color:var(--gg-border);border-radius:5px;margin-bottom:10px;padding:10px}.labels-category-page .issues-list .item .label-issue{margin-right:10px}.labels-category-page .issues-list .labels-list{font-size:12px;margin-top:4px}.labels-category-page .issues-list .labels-list .gg-label{margin-bottom:4px;margin-right:4px}.labels-category-page .issues-list .post-info{font-weight:700;margin-top:5px}.issues-list .issues-item{align-items:baseline;display:flex;margin-bottom:10px;text-align:left}.issues-list .issues-item .issues-num{font-size:12px;margin-right:10px}.issues-list .issues-item .title{font-weight:700}.labels-page{text-align:center}.labels-page .markdown-body{display:inline-block}.labels-page .labels-head{border-radius:5px;color:#fff;cursor:pointer;display:block;font-weight:700;margin-bottom:20px;padding:5px 10px;text-shadow:0 1px 2px #000}.labels-page .labels-head:hover{text-decoration:none!important}.labels-page .label-desc{font-weight:700;opacity:.5}.nav-category-page .gg-category{font-size:14px;font-weight:700;height:36px;line-height:36px;margin:10px;padding:0 12px}.nav-labels-page .gg-label{font-size:16px;font-weight:700;height:30px;line-height:29px;margin:5px}.nav-labels-page .gg-label b,.nav-labels-page .gg-label em{padding:0 10px}</style><link rel="icon" href="/favicon-32x32.png?v=fdd225e9135e951b972a3dc20604182e" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=fdd225e9135e951b972a3dc20604182e"/><link as="script" rel="preload" href="/webpack-runtime-4fee7405b8a071e8c34e.js"/><link as="script" rel="preload" href="/framework-86c8a5417e68dc3cefff.js"/><link as="script" rel="preload" href="/app-7383f855f15f63329e5f.js"/><link as="script" rel="preload" href="/fc369a2ef6459b03f38591687cef4a587495c716-f468df31cbdaf6ffa970.js"/><link as="script" rel="preload" href="/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js"/><link as="fetch" rel="preload" href="/page-data/issues/176/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/151096407.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2861350382.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/><script>
+(function() {
+  window.__onThemeChange = function() {};
+  function setTheme(newTheme) {
+    window.__theme = newTheme;
+    preferredTheme = newTheme;
+    document.querySelector('html').className = newTheme;
+    window.__onThemeChange(newTheme);
+  }
+  var preferredTheme;
+  try {
+    preferredTheme = localStorage.getItem('theme');
+  } catch (err) { }
+  window.__setPreferredTheme = function(newTheme) {
+    setTheme(newTheme);
+    try {
+      localStorage.setItem('theme', newTheme);
+    } catch (err) {}
+  }
+  var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  darkQuery.addListener(function(e) {
+    window.__setPreferredTheme(e.matches ? 'dark' : 'light')
+  });
+
+  setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
+})()</script></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="gg-container issues-page"><header><img class="imglogo" src="/static/logo-fe174465633f84724b37eea28a42c520.png" alt="logo"/><div class="gg-nav"><span class="nav-icon"><span class="top"></span><span class="middle"></span><span class="bottom"></span></span><div class="nav-screen"><div><nav><li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 9A1.5 1.5 0 0 0 7 7.5A1.5 1.5 0 0 0 5.5 6A1.5 1.5 0 0 0 4 7.5A1.5 1.5 0 0 0 5.5 9m11.91 2.58c.36.36.59.86.59 1.42c0 .55-.22 1.05-.59 1.41l-5 5a1.996 1.996 0 0 1-2.83 0l-6.99-6.99C2.22 12.05 2 11.55 2 11V6c0-1.11.89-2 2-2h5c.55 0 1.05.22 1.41.58l7 7m-3.87-5.87l1-1l6.87 6.87c.37.36.59.87.59 1.42c0 .55-.22 1.05-.58 1.41l-5.38 5.38l-1-1L20.75 13l-7.21-7.29Z"/></svg>Labels</li><li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M3 3h18v4H3V3m1 5h16v13H4V8m5.5 3a.5.5 0 0 0-.5.5V13h6v-1.5a.5.5 0 0 0-.5-.5h-5Z"/></svg>Archives</li></nav><div class="icons"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="gg-theme-toggle icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="m3.55 18.54l1.41 1.41l1.8-1.79l-1.42-1.42M11 22.45h2V19.5h-2m1-14a6 6 0 0 0-6 6a6 6 0 0 0 6 6a6 6 0 0 0 6-6c0-3.32-2.69-6-6-6m8 7h3v-2h-3m-2.76 7.66l1.8 1.79l1.41-1.41l-1.79-1.8m1.79-12.28l-1.41-1.41l-1.8 1.79l1.42 1.42M13 .55h-2V3.5h2m-9 7H1v2h3m2.76-7.66l-1.8-1.79l-1.41 1.41l1.79 1.8l1.42-1.42Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg></div></div></div></div></header><main><div class="content"><div class="markdown-body"><h1><span><a class="number issues-num" href="https://github.com/awesome-ops/awesome-ops.github.io/issues/176" target="_blank">#176</a><span>fatedier/frp: 一个专注于内网穿透的高性能的反向代理应用，支持 TCP、UDP、HTTP、HTTPS 等多种协议。可以将内网服务以安全、便捷的方式通过具有公网 IP 节点的中转暴露到公网</span></span></h1><div class="widget"><a class="gg-label" style="border-color:#25B472" href="/labels/更多"><b style="background:#25B472">#</b><em>更多</em></a><a class="gg-label" style="border-color:#4b9909" href="/labels/内网穿透"><b style="background:#4b9909">#</b><em>内网穿透</em></a><a class="gg-label" style="border-color:#d89566" href="/labels/fatedier"><b style="background:#d89566">#</b><em>fatedier</em></a></div><div><div class="author-info"><span class="author" title="https://github.com/eryajf"><img src="https://avatars.githubusercontent.com/u/33259379?u=e4a4090a38ac2473aaed4ef9945233636776c6c3&amp;v=4" alt="eryajf"/><span>eryajf</span></span><i class="date">2025/05/21</i></div><div class="ques-content"><div class="quescontent"><div align="center" dir="auto">
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966"><img src="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966" width="100%" height="3" data-animated-image="" data-canonical-src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" style="max-width: 100%; height: auto; max-height: 3px;"></a><br><br></p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th align="right">Repos</th>
+<th align="left"><a href="https://github.com/fatedier/frp">fatedier/frp</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right"><strong>Views</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/6ecabefc2e320f44c5d74363b006ca09a0f229f295ec76753d3b9d7b72781c12/68747470733a2f2f76696577732e77686174696c656172656e65642e746f6461792f76696577732f6769746875622f66617465646965722f6672702e737667" alt="views" data-canonical-src="https://views.whatilearened.today/views/github/fatedier/frp.svg" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>Stars</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/81277ed39bbbcd6dbabe1b966aa9e2c33a61aa6b70fa3a5dfbbf000b454573d0/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f66617465646965722f6672703f636f6c6f723d663266303864266c6f676f3d556e64657274616c65266c6f676f436f6c6f723d656234363330" alt="stars" data-canonical-src="https://img.shields.io/github/stars/fatedier/frp?color=f2f08d&amp;logo=Undertale&amp;logoColor=eb4630" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>Forks</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/33dbfbd52f22bba5c322bf60b292c903ed38da75507edcaa169bd11c1eebc089/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f66617465646965722f6672703f636f6c6f723d626138366562266c6f676f3d48616e647368616b65266c6f676f436f6c6f723d656136616136" alt="forks" data-canonical-src="https://img.shields.io/github/forks/fatedier/frp?color=ba86eb&amp;logo=Handshake&amp;logoColor=ea6aa6" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>License</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/0edd0fb2bee4cfcbb60bd0d7319b1dba7112237506b404a96912c9ddabe73a73/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f66617465646965722f6672703f6c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e53556845556741414144414141414177434159414141425841766d48414141414358424957584d41414173544141414c457745416d70775941414144336b6c45515652346e4f335953557a5555426748384a726f57567255474a66456d3773584e63534446784d544c327069347348456778654e526f77586770455742445552522532424e414e4f4b4f4b36366f6f4b4a4742586545475263574163455646475152484677516d483525324630774861655748493944554455354c356b6e6568644f62377a66652532423139636e434a47495243516945596c514237594a4979474c38616f73756c565a36695246516a69474b6b7564576735614c6c704f70704e586e665071773555304459524a6d56786a4367464633424c755a476d416f5655694b4541726d583744375553677351706f72674761336748664b34483663754262435644334771683141352532424c6745253242467749656e514d306a6f446f66714c6f48564e7742796d384370546e416d327a51713073676478624964515a556c416b7150415a3664676a303541446f59526f6f66792532466f5869726f376b3551586a4c6f70677a4b69514e6c4c4461716f4967754577426a7a7150355066446a45394479495879493633464d547751464d43567271774e61763451666f52673538514625324266724d485172454b3844546f434d714e4179574e4866786d54526f4c4f726d5352566747744466714345715a4f4851727a6f34706243557341333431365169364551394b476a6345465267484f724f4b6e5536574162396247455459656b4b7843766a546167394534706a653534446b3551503862624d4859762532464333756541654a6b50304f4778422532424a70426e4172595238455951516e6f4e31414e4661426e5050356c385372736559514c303641646b30464a5938484f5761424d6c6541486a683068506f73497a6c6f3876304125324633345a694f6548726130714b52504d5653493774762532423932747725324676687855654252713456454c674d376642714b354770526d6f514c584e7075625475367a6f4e52706754386e5051627138347764253246494375767978694b4871694e41664933774d367549684271476b4c696977414f734b44714f68743749747239567938536a52424557667941627225324668523142667056514664484a42253246423268683778376a36517077435665655951326b72554235436c636a3641326d3067576a25324244306d4c34397a573563517943484c4e37726a6c6d6d6174457958582532464372547a412532466f51785a6b576c39474a5443566f25324279546a3837253242346769504b6376307149486f344156344430565a727251493334706e70524d36357875652532467a417265453425324654253246536f676c664542794d7369517441546c4c3352414a355948725378365a44665337307337754d486842705225324659423573305057366f455270316236253246667252684b3353444c35546965364f515548516c5133735644752532427a50636b397657453973747225324236496a533967486d5750616861444a25324277434b364e494242587348423948796b587378774470686c436d416476706c6162554a4e6e5a504239342532464e7436784f6538587a4562503257684d335741673147756236744825324233513150673337365239713475716c6e6f36676448476a444f5139306562303141484d3672596975554a314f713472344656756a35765239427a4d3957674e764f7977446869495951467667626366774166774d764863615067425041253246447948476a50624e394138616d6562636477416444354e6633373574787165774e5552656f797677424958594c645170576c6877465771745061435044334173467541535636717171496c62304a766b564331464c39576b4c55556c55574b337a585a4c46432532423125324642726f46746f364f7358497545594a5034447a7a5732594656316f4a614141414141456c46546b5375516d4343" alt="license" data-canonical-src="https://img.shields.io/github/license/fatedier/frp?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD3klEQVR4nO3YSUzUUBgH8JroWVrUGJfEm7sXNcSDFxMTL2pi4sHEgxeNRowXgpEWBDURR%2BNANOKOK66ooKJGBXeEGRcWAcEVFGQRHFwQmH5%2F0wHaeWHI9DUDU5L5knehdOb7zfe%2B19cnCJGIRCQiEYlQB7YJIyGL8aosulVZ6iRFQjiGKkudWg5aLlpOppNXnfPqw5U0DYRJmVxjCgFF3BLuZGmAoVUiKEArmX7D7USgsQporgGa3gHfK4H6cuBbCVD3Gqh1A5%2BLgE%2BFwIenQM0joDofqLoHVNwBym8CpTnAm2zQq0sgdxbIdQZUlAkqPAZ6dgj05ADoYRoofy%2FoXiro7k5QXjLopgzKiQNlLDaqoIguEwBjzqP5PfDjE9DyIXyI63FMTwQFMCVrqwNav4QfoRg58QF%2BfrMHQrEK8DToCMqNAyWNHfxmTRoLOrmSRVgGtDfqCEqZOHQrzo4pbCUsA3416Qi6EQ9KGjcEFRgHOrOKnU6WAb9bGETYekKxCvjTag9E4pje54Dk5QP8bbMHYv%2FC3ueAeJkP0OGxB%2BJpBnArYR8EYQQnoN1ANFaBnPP5l8SrseYQL06Adk0FJY8HOWaBMleAHjh0hPosIzlo8v0A%2F34ZiOeHra0qKRPMVSI7tv%2B92tw%2FvhxUeBRq4VELgM7fBqK5GpRmoQLXNpubTu6zoNRpgT8nPQbq84wd%2FICuvyxiKHqiNAfI3wM6uIhBqGkLiiwAOsKDqOht7Itr9Vy8SjRBEWfyAbr%2FhR1BfpVQFdHJB%2FB2hh7x7j6QpwCVeeYQ2krUB5Clcj6A2m0gWj%2BD0mL49zW5cQyCHLN7rjlmmatEyXX%2FCrTzA%2FoQxZkWl9GJTCVo%2ByTj87%2B4giPKcv0qIHo4AV4D0VZrrQI34pnpRM65xue%2FzAreE4%2FT%2FSoglfEByMsiQtATlL3RAJ5YHrSx6ZDfS70s7uMHhBpR%2FYB5s0PW6oERp1b6%2FfrRhK3SDL5Tie6OQUHQlQ3sVDu%2BzPck9vWE9str%2B6IjS9gHmWPahaDJ%2BwCK6NIBBXsHB9HykXsxwDphlCmAdvplabUJNnZPB94%2FNt6xOe8XzEbP2WhM3WAg1Gub6tH%2B3Q1Pg376R9q4uqlno6gdHGjDOQ90eb01AHM6rYiuUJ1Oq4r4FVuj5vR9BzM9WgNvOywDhiIYQFvgbcfwAfwMvHcaPgBPA%2FDyHGjPbN9A8amebcdwAdD5Nf375txqewNUReoyvwBIXYLdQpWlhwFWqtPaCPD3AsFuASV6qqqIlb0JvkVC1FL9WkLUUlUWK3zXZLFC%2B1%2FBroFto6OsXIuEYJP4DzzW2YFV1oJaAAAAAElFTkSuQmCC" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>UpdatedAt</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/557302132ec6aa60bdbff3e18fea8109afeb8d5ab21c9c8c055c9e4c8df430f4/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f66617465646965722f6672703f646973706c61795f74696d657374616d703d636f6d6d6974746572266c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e5355684555674141414234414141416543415941414141374d4b3669414141414358424957584d41414173544141414c457745416d7077594141414648556c45515652346e4c5658375539615678776d3236646c582532466468627825324232253246516e626b7655627264554151674a4a496655444e574454546d4f76314651554661504a346b7573725630314a7431734e70637453327533626f745a746d786439744a5346536f714b71494635625944464c436f76436c656673747a4a387758524c445a4c7a6e6b634f343535376e3364332532466e655a3472454f515a74315771462532423858467234253242664f4c4565326a6f59307a776638546f795a50766a45676b4c592532426b306d6d72584f36644b696e787a476b30666a5430782532425279723055716e6359637a4d317263347451253242497270324c4758646f344e4334567657715453373277716c632532427231334f527269364b6458646e624f484c6c776c7a4a70524b6e3657342532424b36706f4f434e6e494166486a253246253242776168495a4234764b6e715a6630714a704e49716c2532467638545530634e6c3572627963337730516e54703379324c54614a374d314e617844723266526e315370504736476961323174664533345463614f617931694d55564f5146624659714957536f31573854694156616e43306576584f4542375770313448466232327a453566714c4f433545524c515769644e614e49347545636339693768634a6c644868324e57725135674464624f6c7061756d49754c62326174415144506e7a3062384e6257636d785656524a33486d7870536377777a4f4a6d4b44524765384c6c435a444c4739673754496e5631516c376462586256316533675430574b697243466f6d6b5079767758466c5a474a4f6a563625324253743634757564445a4f55354555636f782532464d455144567674364d62634e3237593341797a687633737061557242365a3971724a534f3139657a6a387032704c426b4a792532426343484a7857493567573574636652527a31645531394766476b6f7539505a4f34736d52396a4746777065783444793362766e6d4b79706f74625531335669646a71595a68726a343972764d457425324625324659714c7a396430304e6a57253246637a67796f394f35317a7336614e6c6f354644747530445a675146686c47584a30644241446f4e6864367576703657686f617967374e394c564748386d443462253246486e667455516f4e4734764c51306769784d716c5725324234714f6a744e48446733723166365969525347785279375576714c62395534716b716e78504f4e7661356c447048723125324279794b524e4b57425a793565644d554842326d3572792532422532424551772532427a6766347a6f39253246306f634e3357527a4c4277344a2532424a7950574372716d4967475974554f735744346f785a46516f50556a4770564871493425324661666b51504336665a5165654d31253242764c7549516e6a754257514444437363726d485039656f4e5041744271664f6e5875614b25324268364a45624772732532427076764d6d78654962683836336162565065597953456f39464a48704e4d464a59253242503563575a6b6667374f3174537759436553514c54593345385130392532464256504a556c78516a7368543142736343593032723955445542667643484236367063665041336c794165336e6772332532463437584467614a7a736c7937787741364e5a746c555550437541487161536a5549502532427375653842525741432532464e6651374a5a505a35397330476a3756747049537a34685125324243706658474d4b685a63764c70554b7866574d386f68766637702532464f446a4842666356463849736b383267314648796b63564645253242555a414158343761452532464d6c34504f3530506e75683025324678346e6d637957507364774468427836436d6b4c562532466746446a594b784f4a4f4674623077517949684c39527943774b33414f664947703159464542686e4d4a634c525745624b644b516f55366e63545a6b494544696341792532463831645675454d3552775066657934784f7830496b25324649324e6e466b692532425761664f6f464959466367595a43797864376543556a626334416d46363566742532466b4d686b336f25324235686337734d4a79716a4a45477659466151464972375930775077384246415925324236253242766d6b3377367a7a5275444d6d5a5652736668385274413075455453443775434254364459514e36697665553066706b594c6a453671725672744f78654e4b553954484c5a4a396b4255324a427342685635416976422532466f4b61514e4b675043427744596149665a4334616454684f71463457454e56694c4a77566f586f62664c424b56773637414f6154734c6336355461564b32317651344c613939654b6359673576627873624f627a5451394e37554b4467554f3177446a6944494942736868357a746733396e514d4c535a4248344f7a424f55444551586d323036643366634c67737762585141345068634b336e6873775531427a3877765130395248472532466f597933656a6677424e6d746f59714c4130586741414141424a52553545726b4a676767253344253344266c6162656c3d557064617465644174" alt="last-commit" data-canonical-src="https://img.shields.io/github/last-commit/fatedier/frp?display_timestamp=committer&amp;logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHUlEQVR4nLVX7U9aVxwm26dlX%2Fdhbx%2B2%2FQnbkvUbrdUAQgJJIfUDNWDTTmOv1FQUFaPJ4kusrV01Jt1sNpctS2u3botZtmxd9tJSFSoqKqIF5bYDFLCovClefstzJ8wXRLDZLznkcO4557n3d3%2FneZ4rEOQZt1WqF%2B8XFr4%2BfOLEe2joY0zwf8ToyZPvjEgkLY%2Bk0mmrXO6dKinxzGk0fjT0x%2BRyr0UqncYczM1rc4tQ%2BIrp2LGXdo4NC4VvWqTS72wqlc%2Br13ORri6KdXdnbOHLlwlzJpRKn6W4%2BK6poOCNnIAfHj%2F%2BwahIZB4vKnqZf0qJpNIql%2Fv8TU0cNl5rbyc3w0QnTp3y2LTaJ7M1NaxDr2fRn1SpPG6Gia21tfE34TcaOay1iMUVOQFbFYqIWSo1W8TiAVanC0evXOEB7Wp14HFb22zE5fqLOC5ERLQWidNaNI4uEcc9i7hcJldHh2NWrQ5gDdbOlpaumIuLb2atAQDPnz0b8NbWcmxVVRJ3HmxpScwwzOJmKDRGe8LlCZDLG9g7TInV1Ql7dbXbV1e3gT0WKirCFomkPyvwXFlZGJOjV6%2BSt64uudDZOU5EUcox%2FMEQDVvt6MbcN27Y3Ayzhv3spaUrB6Z9qrJSO19ezj8p2pLBkJy%2BcCHJxWI5gW5tcfRRz1dU19GfGkou9PZO4smR9jGFwpex4Dy3bvnmKypotbU13VidjqYZhrj49rvMEt%2F%2FYqLz9d00NjW%2Fczgyo9O51zs6aNlo5FDtu0DZgQFhlGXJ0dBADoNhd6uvp6Whoayg7N9LVGH8mD4b%2FHnftUQoNG4vLQ0gixMqlW%2B4qOjtNHDg3r1f6YiRSGxRy7UvqLb9U4qkqnxPONva5lDpHr1%2ByyKRNKWBZy5edMUHB2m5ry%2B%2BEQw%2Bzgf4zo9%2F0ocN3WRzLBw4J%2BJyPWCrqmIgGYtUOsWD4oxZFQoPUjGpVHqI4%2FafkQPC6fZQeeM1%2BvLuIQnjuBWQDDCscrmHP9eoNPAtBqfOnXuaK%2Bh6JEbGrs%2BpvvMmxeIbh863abVPeYySEo9FJHpNMFJY%2BP5cWZkfg7O1tSwYCeSQLTY3E8Q09%2FBVPJUlxQjshT1BscCY02r9UDUBfvCHB66pcfPA3lyAe3ngr3%2F47XDgaJzsly7xwA6NZtlUUPCuAHqaSjUIP%2Bsue8BRWAC%2FNfQ7JZPZ59s0Gj7VtpISz4hQ%2BCpfXGMKhZcvLpUKxfWM8ohvf7p%2FODjHBfcVF8Isk82g1FHykcVFE%2BUZAAX47aE%2FMl4PO50Pnuh0%2Fx4nmcyWPsdwDhBx6CmkLV%2FgFDjYKxOJOFtb0wQyIhL9RyCwK3AOfIGp1YFEBhnMJcLRWEbKdKQoU6ncTZkIEDicAy%2F81dVuEM5RwPfey4xOx0Ik%2FI2NnFki%2BWafOoFIYFcgYZCyxd7eCUjbc4AmF65ft%2FkMhk3o%2B5hc7sMJyqjJEGvYFaQFIr7Y0wPw8BFAY%2B6%2Bvmk3w6zzRuDMmZVRsfh8RtA0uETSD7uCBT6DYQN6iveU0fpkYLjE6qrVrtOxeNKU9THLZJ9kBU2JBsBhV5AivB%2FoKaQNKgPCBwDYaIfZC4adThOqF4WENViLJwVoXobfLBKVw67AOaTsLc65TaVK21vQ4La99eKcYg5vbxsbObzTQ9N7UKDgUO1wDjiDIIBshh5ztg39nQMLSZBH4OzBOUDEQXm206d3fcLgswbXQA4PhcK3nhswU1Bz8wvQ09RHG%2FoYy3ejfwBNmtoYqLA0XgAAAABJRU5ErkJggg%3D%3D&amp;label=UpdatedAt" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>CreatedAt</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/d0ae481434e1e7ba0178cd14df724d3ae55bad29c0071b87bb6ed5f683ac6722/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f637265617465642d61742f66617465646965722f6672703f6c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e5355684555674141414234414141416543415941414141374d4b3669414141414358424957584d41414173544141414c457745416d7077594141414648556c45515652346e4c5658375539615678776d3236646c582532466468627825324232253246516e626b7655627264554151674a4a496655444e574454546d4f76314651554661504a346b7573725630314a7431734e70637453327533626f745a746d786439744a5346536f714b71494635625944464c436f76436c656673747a4a387758524c445a4c7a6e6b634f343535376e3364332532466e655a3472454f515a74315771462532423858467234253242664f4c4565326a6f59307a776638546f795a50766a45676b4c592532426b306d6d72584f36644b696e787a476b30666a5430782532425279723055716e6359637a4d317263347451253242497270324c4758646f344e4334567657715453373277716c632532427231334f527269364b6458646e624f484c6c776c7a4a70524b6e3657342532424b36706f4f434e6e494166486a253246253242776168495a4234764b6e715a6630714a704e49716c2532467638545530634e6c3572627963337730516e54703379324c54614a374d314e617844723266526e315370504736476961323174664533345463614f617931694d55564f5146624659714957536f31573854694156616e43306576584f4542375770313448466232327a453566714c4f433545524c515769644e614e49347545636339693768634a6c644868324e57725135674464624f6c7061756d49754c62326174415144506e7a3062384e6257636d785656524a33486d7870536377777a4f4a6d4b44524765384c6c435a444c4739673754496e5631516c376462586256316533675430574b697243466f6d6b5079767758466c5a474a4f6a563625324253743634757564445a4f55354555636f782532464d455144567674364d62634e3237593341797a687633737061557242365a3971724a534f3139657a6a387032704c426b4a792532426343484a7857493567573574636652527a31645531394766476b6f7539505a4f34736d52396a4746777065783444793362766e6d4b79706f74625531335669646a71595a68726a343972764d457425324625324659714c7a396430304e6a57253246637a67796f394f35317a7336614e6c6f354644747530445a675146686c47584a30644241446f4e6864367576703657686f617967374e394c564748386d443462253246486e667455516f4e4734764c51306769784d716c5725324234714f6a744e48446733723166365969525347785279375576714c62395534716b716e78504f4e7661356c447048723125324279794b524e4b57425a793565644d554842326d3572792532422532424551772532427a6766347a6f39253246306f634e3357527a4c4277344a2532424a7950574372716d4967475974554f735744346f785a46516f50556a4770564871493425324661666b51504336665a5165654d31253242764c7549516e6a754257514444437363726d485039656f4e5041744271664f6e5875614b25324268364a45624772732532427076764d6d78654962683836336162565065597953456f39464a48704e4d464a59253242503563575a6b6667374f3174537759436553514c54593345385130392532464256504a556c78516a7368543142736343593032723955445542667643484236367063665041336c794165336e6772332532463437584467614a7a736c7937787741364e5a746c555550437541487161536a5549502532427375653842525741432532464e6651374a5a505a35397330476a3756747049537a34685125324243706658474d4b685a63764c70554b7866574d386f68766637702532464f446a4842666356463849736b383267314648796b63564645253242555a414158343761452532464d6c34504f3530506e75683025324678346e6d637957507364774468427836436d6b4c562532466746446a594b784f4a4f4674623077517949684c39527943774b33414f664947703159464542686e4d4a634c525745624b644b516f55366e63545a6b494544696341792532463831645675454d3552775066657934784f7830496b25324649324e6e466b692532425761664f6f464959466367595a43797864376543556a626334416d46363566742532466b4d686b336f25324235686337734d4a79716a4a45477659466151464972375930775077384246415925324236253242766d6b3377367a7a5275444d6d5a5652736668385274413075455453443775434254364459514e36697665553066706b594c6a453671725672744f78654e4b553954484c5a4a396b4255324a427342685635416976422532466f4b61514e4b675043427744596149665a4334616454684f71463457454e56694c4a77566f586f62664c424b56773637414f6154734c6336355461564b32317651344c613939654b6359673576627873624f627a5451394e37554b4467554f3177446a6944494942736868357a746733396e514d4c535a4248344f7a424f55444551586d323036643366634c67737762585141345068634b336e6873775531427a3877765130395248472532466f597933656a6677424e6d746f59714c4130586741414141424a52553545726b4a676767253344253344266c6162656c3d437265617465644174" alt="create-at" data-canonical-src="https://img.shields.io/github/created-at/fatedier/frp?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHUlEQVR4nLVX7U9aVxwm26dlX%2Fdhbx%2B2%2FQnbkvUbrdUAQgJJIfUDNWDTTmOv1FQUFaPJ4kusrV01Jt1sNpctS2u3botZtmxd9tJSFSoqKqIF5bYDFLCovClefstzJ8wXRLDZLznkcO4557n3d3%2FneZ4rEOQZt1WqF%2B8XFr4%2BfOLEe2joY0zwf8ToyZPvjEgkLY%2Bk0mmrXO6dKinxzGk0fjT0x%2BRyr0UqncYczM1rc4tQ%2BIrp2LGXdo4NC4VvWqTS72wqlc%2Br13ORri6KdXdnbOHLlwlzJpRKn6W4%2BK6poOCNnIAfHj%2F%2BwahIZB4vKnqZf0qJpNIql%2Fv8TU0cNl5rbyc3w0QnTp3y2LTaJ7M1NaxDr2fRn1SpPG6Gia21tfE34TcaOay1iMUVOQFbFYqIWSo1W8TiAVanC0evXOEB7Wp14HFb22zE5fqLOC5ERLQWidNaNI4uEcc9i7hcJldHh2NWrQ5gDdbOlpaumIuLb2atAQDPnz0b8NbWcmxVVRJ3HmxpScwwzOJmKDRGe8LlCZDLG9g7TInV1Ql7dbXbV1e3gT0WKirCFomkPyvwXFlZGJOjV6%2BSt64uudDZOU5EUcox%2FMEQDVvt6MbcN27Y3Ayzhv3spaUrB6Z9qrJSO19ezj8p2pLBkJy%2BcCHJxWI5gW5tcfRRz1dU19GfGkou9PZO4smR9jGFwpex4Dy3bvnmKypotbU13VidjqYZhrj49rvMEt%2F%2FYqLz9d00NjW%2Fczgyo9O51zs6aNlo5FDtu0DZgQFhlGXJ0dBADoNhd6uvp6Whoayg7N9LVGH8mD4b%2FHnftUQoNG4vLQ0gixMqlW%2B4qOjtNHDg3r1f6YiRSGxRy7UvqLb9U4qkqnxPONva5lDpHr1%2ByyKRNKWBZy5edMUHB2m5ry%2B%2BEQw%2Bzgf4zo9%2F0ocN3WRzLBw4J%2BJyPWCrqmIgGYtUOsWD4oxZFQoPUjGpVHqI4%2FafkQPC6fZQeeM1%2BvLuIQnjuBWQDDCscrmHP9eoNPAtBqfOnXuaK%2Bh6JEbGrs%2BpvvMmxeIbh863abVPeYySEo9FJHpNMFJY%2BP5cWZkfg7O1tSwYCeSQLTY3E8Q09%2FBVPJUlxQjshT1BscCY02r9UDUBfvCHB66pcfPA3lyAe3ngr3%2F47XDgaJzsly7xwA6NZtlUUPCuAHqaSjUIP%2Bsue8BRWAC%2FNfQ7JZPZ59s0Gj7VtpISz4hQ%2BCpfXGMKhZcvLpUKxfWM8ohvf7p%2FODjHBfcVF8Isk82g1FHykcVFE%2BUZAAX47aE%2FMl4PO50Pnuh0%2Fx4nmcyWPsdwDhBx6CmkLV%2FgFDjYKxOJOFtb0wQyIhL9RyCwK3AOfIGp1YFEBhnMJcLRWEbKdKQoU6ncTZkIEDicAy%2F81dVuEM5RwPfey4xOx0Ik%2FI2NnFki%2BWafOoFIYFcgYZCyxd7eCUjbc4AmF65ft%2FkMhk3o%2B5hc7sMJyqjJEGvYFaQFIr7Y0wPw8BFAY%2B6%2Bvmk3w6zzRuDMmZVRsfh8RtA0uETSD7uCBT6DYQN6iveU0fpkYLjE6qrVrtOxeNKU9THLZJ9kBU2JBsBhV5AivB%2FoKaQNKgPCBwDYaIfZC4adThOqF4WENViLJwVoXobfLBKVw67AOaTsLc65TaVK21vQ4La99eKcYg5vbxsbObzTQ9N7UKDgUO1wDjiDIIBshh5ztg39nQMLSZBH4OzBOUDEQXm206d3fcLgswbXQA4PhcK3nhswU1Bz8wvQ09RHG%2FoYy3ejfwBNmtoYqLA0XgAAAABJRU5ErkJggg%3D%3D&amp;label=CreatedAt" style="max-width: 100%;"></a></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<a href="https://github.com/opsre/awesome-ops">
+</a><p dir="auto"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/b964a36ea4078c39f603d46a29436371c7541a2f26e0228d7b21b9d9805b43d3/68747470733a2f2f736f6369616c6966792e6769742e63692f6f707372652f617765736f6d652d6f70732f696d6167653f6465736372697074696f6e3d3126666f6e743d42697474657226666f726b733d31266973737565733d31266c616e67756167653d31266c6f676f3d6874747073253341253246253246617661746172732e67697468756275736572636f6e74656e742e636f6d25324675253246313838353638303230266e616d653d31266f776e65723d31267061747465726e3d436972637569742b426f6172642670756c6c733d31267374617267617a6572733d31267468656d653d4c69676874" alt="" data-canonical-src="https://socialify.git.ci/opsre/awesome-ops/image?description=1&amp;font=Bitter&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F188568020&amp;name=1&amp;owner=1&amp;pattern=Circuit+Board&amp;pulls=1&amp;stargazers=1&amp;theme=Light" style="max-width: 100%;"></a></p>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966"><img src="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966" width="100%" height="3" data-animated-image="" data-canonical-src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" style="max-width: 100%; height: auto; max-height: 3px;"></a>
+</div>
+<h1 dir="auto">frp</h1>
+<p dir="auto"><a href="https://circleci.com/gh/fatedier/frp" rel="nofollow"><img src="https://camo.githubusercontent.com/246fe4e4513dbb4b8c109303d9af8a294648ed65979c4102e06c2b95dea0809b/68747470733a2f2f636972636c6563692e636f6d2f67682f66617465646965722f6672702e7376673f7374796c653d736869656c64" alt="Build Status" data-canonical-src="https://circleci.com/gh/fatedier/frp.svg?style=shield" style="max-width: 100%;"></a><br>
+<a href="https://github.com/fatedier/frp/releases"><img src="https://camo.githubusercontent.com/6ce432f679bb719b324565e28323ea610b77939de0d0a81feb34715adb69a19f/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f7461672f66617465646965722f6672702e7376673f6c6162656c3d72656c65617365" alt="GitHub release" data-canonical-src="https://img.shields.io/github/tag/fatedier/frp.svg?label=release" style="max-width: 100%;"></a><br>
+<a href="https://goreportcard.com/report/github.com/fatedier/frp" rel="nofollow"><img src="https://camo.githubusercontent.com/3a9acdaa0ecfad0f732797b3f8eb903de639d84f238ef84a879373761fe5b433/68747470733a2f2f676f7265706f7274636172642e636f6d2f62616467652f6769746875622e636f6d2f66617465646965722f667270" alt="Go Report Card" data-canonical-src="https://goreportcard.com/badge/github.com/fatedier/frp" style="max-width: 100%;"></a><br>
+<a href="https://somsubhra.github.io/github-release-stats/?username=fatedier&amp;repository=frp" rel="nofollow"><img src="https://camo.githubusercontent.com/511f7f01cae67e6872f2820cce7317a111df0d6243a13600612d173ee7f89b30/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f66617465646965722f6672702f746f74616c2e7376673f6c6f676f3d676974687562" alt="GitHub Releases Stats" data-canonical-src="https://img.shields.io/github/downloads/fatedier/frp/total.svg?logo=github" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="README.md">README</a> | <a href="README_zh.md">中文文档</a></p>
+<h2 dir="auto">Sponsors</h2>
+<p dir="auto">frp is an open source project with its ongoing development made possible entirely by the support of our awesome sponsors. If you'd like to join them, please consider <a href="https://github.com/sponsors/fatedier">sponsoring frp's development</a>.</p>
+<h3 align="center" dir="auto">Gold Sponsors</h3>
+
+<p align="center" dir="auto">
+  <a href="https://jb.gg/frp" rel="nofollow">
+    <img width="420px" src="https://raw.githubusercontent.com/fatedier/frp/dev/doc/pic/sponsor_jetbrains.jpg" style="max-width: 100%;">
+  </a>
+</p>
+<p align="center" dir="auto">
+  <a href="https://github.com/daytonaio/daytona">
+    <img width="420px" src="https://raw.githubusercontent.com/fatedier/frp/dev/doc/pic/sponsor_daytona.png" style="max-width: 100%;">
+  </a>
+</p>
+<p align="center" dir="auto">
+  <a href="https://github.com/beclab/Olares">
+    <img width="420px" src="https://raw.githubusercontent.com/fatedier/frp/dev/doc/pic/sponsor_olares.jpeg" style="max-width: 100%;">
+  </a>
+</p>
+
+<h2 dir="auto">What is frp?</h2>
+<p dir="auto">frp is a fast reverse proxy that allows you to expose a local server located behind a NAT or firewall to the Internet. It currently supports <strong>TCP</strong> and <strong>UDP</strong>, as well as <strong>HTTP</strong> and <strong>HTTPS</strong> protocols, enabling requests to be forwarded to internal services via domain name.</p>
+<p dir="auto">frp also offers a P2P connect mode.</p>
+<h2 dir="auto">Table of Contents</h2>
+
+<ul dir="auto">
+<li><a href="#development-status">Development Status</a>
+<ul dir="auto">
+<li><a href="#about-v2">About V2</a></li>
+</ul>
+</li>
+<li><a href="#architecture">Architecture</a></li>
+<li><a href="#example-usage">Example Usage</a>
+<ul dir="auto">
+<li><a href="#access-your-computer-in-a-lan-network-via-ssh">Access your computer in a LAN network via SSH</a></li>
+<li><a href="#multiple-ssh-services-sharing-the-same-port">Multiple SSH services sharing the same port</a></li>
+<li><a href="#accessing-internal-web-services-with-custom-domains-in-lan">Accessing Internal Web Services with Custom Domains in LAN</a></li>
+<li><a href="#forward-dns-query-requests">Forward DNS query requests</a></li>
+<li><a href="#forward-unix-domain-socket">Forward Unix Domain Socket</a></li>
+<li><a href="#expose-a-simple-http-file-server">Expose a simple HTTP file server</a></li>
+<li><a href="#enable-https-for-a-local-https-service">Enable HTTPS for a local HTTP(S) service</a></li>
+<li><a href="#expose-your-service-privately">Expose your service privately</a></li>
+<li><a href="#p2p-mode">P2P Mode</a></li>
+</ul>
+</li>
+<li><a href="#features">Features</a>
+<ul dir="auto">
+<li><a href="#configuration-files">Configuration Files</a></li>
+<li><a href="#using-environment-variables">Using Environment Variables</a></li>
+<li><a href="#split-configures-into-different-files">Split Configures Into Different Files</a></li>
+<li><a href="#server-dashboard">Server Dashboard</a></li>
+<li><a href="#client-admin-ui">Client Admin UI</a></li>
+<li><a href="#monitor">Monitor</a>
+<ul dir="auto">
+<li><a href="#prometheus">Prometheus</a></li>
+</ul>
+</li>
+<li><a href="#authenticating-the-client">Authenticating the Client</a>
+<ul dir="auto">
+<li><a href="#token-authentication">Token Authentication</a></li>
+<li><a href="#oidc-authentication">OIDC Authentication</a></li>
+</ul>
+</li>
+<li><a href="#encryption-and-compression">Encryption and Compression</a>
+<ul dir="auto">
+<li><a href="#tls">TLS</a></li>
+</ul>
+</li>
+<li><a href="#hot-reloading-frpc-configuration">Hot-Reloading frpc configuration</a></li>
+<li><a href="#get-proxy-status-from-client">Get proxy status from client</a></li>
+<li><a href="#only-allowing-certain-ports-on-the-server">Only allowing certain ports on the server</a></li>
+<li><a href="#port-reuse">Port Reuse</a></li>
+<li><a href="#bandwidth-limit">Bandwidth Limit</a>
+<ul dir="auto">
+<li><a href="#for-each-proxy">For Each Proxy</a></li>
+</ul>
+</li>
+<li><a href="#tcp-stream-multiplexing">TCP Stream Multiplexing</a></li>
+<li><a href="#support-kcp-protocol">Support KCP Protocol</a></li>
+<li><a href="#support-quic-protocol">Support QUIC Protocol</a></li>
+<li><a href="#connection-pooling">Connection Pooling</a></li>
+<li><a href="#load-balancing">Load balancing</a></li>
+<li><a href="#service-health-check">Service Health Check</a></li>
+<li><a href="#rewriting-the-http-host-header">Rewriting the HTTP Host Header</a></li>
+<li><a href="#setting-other-http-headers">Setting other HTTP Headers</a></li>
+<li><a href="#get-real-ip">Get Real IP</a>
+<ul dir="auto">
+<li><a href="#http-x-forwarded-for">HTTP X-Forwarded-For</a></li>
+<li><a href="#proxy-protocol">Proxy Protocol</a></li>
+</ul>
+</li>
+<li><a href="#require-http-basic-auth-password-for-web-services">Require HTTP Basic Auth (Password) for Web Services</a></li>
+<li><a href="#custom-subdomain-names">Custom Subdomain Names</a></li>
+<li><a href="#url-routing">URL Routing</a></li>
+<li><a href="#tcp-port-multiplexing">TCP Port Multiplexing</a></li>
+<li><a href="#connecting-to-frps-via-proxy">Connecting to frps via PROXY</a></li>
+<li><a href="#port-range-mapping">Port range mapping</a></li>
+<li><a href="#client-plugins">Client Plugins</a></li>
+<li><a href="#server-manage-plugins">Server Manage Plugins</a></li>
+<li><a href="#ssh-tunnel-gateway">SSH Tunnel Gateway</a></li>
+<li><a href="#virtual-network-virtualnet">Virtual Network (VirtualNet)</a></li>
+</ul>
+</li>
+<li><a href="#feature-gates">Feature Gates</a>
+<ul dir="auto">
+<li><a href="#available-feature-gates">Available Feature Gates</a></li>
+<li><a href="#enabling-feature-gates">Enabling Feature Gates</a></li>
+<li><a href="#feature-lifecycle">Feature Lifecycle</a></li>
+</ul>
+</li>
+<li><a href="#related-projects">Related Projects</a></li>
+<li><a href="#contributing">Contributing</a></li>
+<li><a href="#donation">Donation</a>
+<ul dir="auto">
+<li><a href="#github-sponsors">GitHub Sponsors</a></li>
+<li><a href="#paypal">PayPal</a></li>
+</ul>
+</li>
+</ul>
+
+<h2 dir="auto">Development Status</h2>
+<p dir="auto">frp is currently under development. You can try the latest release version in the <code class="notranslate">master</code> branch, or use the <code class="notranslate">dev</code> branch to access the version currently in development.</p>
+<p dir="auto">We are currently working on version 2 and attempting to perform some code refactoring and improvements. However, please note that it will not be compatible with version 1.</p>
+<p dir="auto">We will transition from version 0 to version 1 at the appropriate time and will only accept bug fixes and improvements, rather than big feature requests.</p>
+<h3 dir="auto">About V2</h3>
+<p dir="auto">The complexity and difficulty of the v2 version are much higher than anticipated. I can only work on its development during fragmented time periods, and the constant interruptions disrupt productivity significantly. Given this situation, we will continue to optimize and iterate on the current version until we have more free time to proceed with the major version overhaul.</p>
+<p dir="auto">The concept behind v2 is based on my years of experience and reflection in the cloud-native domain, particularly in K8s and ServiceMesh. Its core is a modernized four-layer and seven-layer proxy, similar to envoy. This proxy itself is highly scalable, not only capable of implementing the functionality of intranet penetration but also applicable to various other domains. Building upon this highly scalable core, we aim to implement all the capabilities of frp v1 while also addressing the functionalities that were previously unachievable or difficult to implement in an elegant manner. Furthermore, we will maintain efficient development and iteration capabilities.</p>
+<p dir="auto">In addition, I envision frp itself becoming a highly extensible system and platform, similar to how we can provide a range of extension capabilities based on K8s. In K8s, we can customize development according to enterprise needs, utilizing features such as CRD, controller mode, webhook, CSI, and CNI. In frp v1, we introduced the concept of server plugins, which implemented some basic extensibility. However, it relies on a simple HTTP protocol and requires users to start independent processes and manage them on their own. This approach is far from flexible and convenient, and real-world demands vary greatly. It is unrealistic to expect a non-profit open-source project maintained by a few individuals to meet everyone's needs.</p>
+<p dir="auto">Finally, we acknowledge that the current design of modules such as configuration management, permission verification, certificate management, and API management is not modern enough. While we may carry out some optimizations in the v1 version, ensuring compatibility remains a challenging issue that requires a considerable amount of effort to address.</p>
+<p dir="auto">We sincerely appreciate your support for frp.</p>
+<h2 dir="auto">Architecture</h2>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/doc/pic/architecture.png"><img src="/doc/pic/architecture.png" alt="architecture" style="max-width: 100%;"></a></p>
+<h2 dir="auto">Example Usage</h2>
+<p dir="auto">To begin, download the latest program for your operating system and architecture from the <a href="https://github.com/fatedier/frp/releases">Release</a> page.</p>
+<p dir="auto">Next, place the <code class="notranslate">frps</code> binary and server configuration file on Server A, which has a public IP address.</p>
+<p dir="auto">Finally, place the <code class="notranslate">frpc</code> binary and client configuration file on Server B, which is located on a LAN that cannot be directly accessed from the public internet.</p>
+<p dir="auto">Some antiviruses improperly mark frpc as malware and delete it. This is due to frp being a networking tool capable of creating reverse proxies. Antiviruses sometimes flag reverse proxies due to their ability to bypass firewall port restrictions. If you are using antivirus, then you may need to whitelist/exclude frpc in your antivirus settings to avoid accidental quarantine/deletion. See <a href="https://github.com/fatedier/frp/issues/3637" data-hovercard-type="issue" data-hovercard-url="/fatedier/frp/issues/3637/hovercard">issue 3637</a> for more details.</p>
+<h3 dir="auto">Access your computer in a LAN network via SSH</h3>
+<ol dir="auto">
+<li>Modify <code class="notranslate">frps.toml</code> on server A by setting the <code class="notranslate">bindPort</code> for frp clients to connect to:</li>
+</ol>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frps.toml
+bindPort = 7000"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frps.toml</span>
+<span class="pl-smi">bindPort</span> = <span class="pl-c1">7000</span></pre></div>
+<ol start="2" dir="auto">
+<li>Start <code class="notranslate">frps</code> on server A:</li>
+</ol>
+<p dir="auto"><code class="notranslate">./frps -c ./frps.toml</code></p>
+<ol start="3" dir="auto">
+<li>Modify <code class="notranslate">frpc.toml</code> on server B and set the <code class="notranslate">serverAddr</code> field to the public IP address of your frps server:</li>
+</ol>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+serverAddr = &quot;x.x.x.x&quot;
+serverPort = 7000
+
+[[proxies]]
+name = &quot;ssh&quot;
+type = &quot;tcp&quot;
+localIP = &quot;127.0.0.1&quot;
+localPort = 22
+remotePort = 6000"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+<span class="pl-smi">serverAddr</span> = <span class="pl-s"><span class="pl-pds">"</span>x.x.x.x<span class="pl-pds">"</span></span>
+<span class="pl-smi">serverPort</span> = <span class="pl-c1">7000</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>ssh<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>tcp<span class="pl-pds">"</span></span>
+<span class="pl-smi">localIP</span> = <span class="pl-s"><span class="pl-pds">"</span>127.0.0.1<span class="pl-pds">"</span></span>
+<span class="pl-smi">localPort</span> = <span class="pl-c1">22</span>
+<span class="pl-smi">remotePort</span> = <span class="pl-c1">6000</span></pre></div>
+<p dir="auto">Note that the <code class="notranslate">localPort</code> (listened on the client) and <code class="notranslate">remotePort</code> (exposed on the server) are used for traffic going in and out of the frp system, while the <code class="notranslate">serverPort</code> is used for communication between frps and frpc.</p>
+<ol start="4" dir="auto">
+<li>Start <code class="notranslate">frpc</code> on server B:</li>
+</ol>
+<p dir="auto"><code class="notranslate">./frpc -c ./frpc.toml</code></p>
+<ol start="5" dir="auto">
+<li>To access server B from another machine through server A via SSH (assuming the username is <code class="notranslate">test</code>), use the following command:</li>
+</ol>
+<p dir="auto"><code class="notranslate">ssh -oPort=6000 test@x.x.x.x</code></p>
+<h3 dir="auto">Multiple SSH services sharing the same port</h3>
+<p dir="auto">This example implements multiple SSH services exposed through the same port using a proxy of type tcpmux. Similarly, as long as the client supports the HTTP Connect proxy connection method, port reuse can be achieved in this way.</p>
+<ol dir="auto">
+<li>Deploy frps on a machine with a public IP and modify the frps.toml file. Here is a simplified configuration:</li>
+</ol>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="bindPort = 7000
+tcpmuxHTTPConnectPort = 5002"><pre class="notranslate"><span class="pl-smi">bindPort</span> = <span class="pl-c1">7000</span>
+<span class="pl-smi">tcpmuxHTTPConnectPort</span> = <span class="pl-c1">5002</span></pre></div>
+<ol start="2" dir="auto">
+<li>Deploy frpc on the internal machine A with the following configuration:</li>
+</ol>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="serverAddr = &quot;x.x.x.x&quot;
+serverPort = 7000
+
+[[proxies]]
+name = &quot;ssh1&quot;
+type = &quot;tcpmux&quot;
+multiplexer = &quot;httpconnect&quot;
+customDomains = [&quot;machine-a.example.com&quot;]
+localIP = &quot;127.0.0.1&quot;
+localPort = 22"><pre class="notranslate"><span class="pl-smi">serverAddr</span> = <span class="pl-s"><span class="pl-pds">"</span>x.x.x.x<span class="pl-pds">"</span></span>
+<span class="pl-smi">serverPort</span> = <span class="pl-c1">7000</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>ssh1<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>tcpmux<span class="pl-pds">"</span></span>
+<span class="pl-smi">multiplexer</span> = <span class="pl-s"><span class="pl-pds">"</span>httpconnect<span class="pl-pds">"</span></span>
+<span class="pl-smi">customDomains</span> = [<span class="pl-s"><span class="pl-pds">"</span>machine-a.example.com<span class="pl-pds">"</span></span>]
+<span class="pl-smi">localIP</span> = <span class="pl-s"><span class="pl-pds">"</span>127.0.0.1<span class="pl-pds">"</span></span>
+<span class="pl-smi">localPort</span> = <span class="pl-c1">22</span></pre></div>
+<ol start="3" dir="auto">
+<li>Deploy another frpc on the internal machine B with the following configuration:</li>
+</ol>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="serverAddr = &quot;x.x.x.x&quot;
+serverPort = 7000
+
+[[proxies]]
+name = &quot;ssh2&quot;
+type = &quot;tcpmux&quot;
+multiplexer = &quot;httpconnect&quot;
+customDomains = [&quot;machine-b.example.com&quot;]
+localIP = &quot;127.0.0.1&quot;
+localPort = 22"><pre class="notranslate"><span class="pl-smi">serverAddr</span> = <span class="pl-s"><span class="pl-pds">"</span>x.x.x.x<span class="pl-pds">"</span></span>
+<span class="pl-smi">serverPort</span> = <span class="pl-c1">7000</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>ssh2<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>tcpmux<span class="pl-pds">"</span></span>
+<span class="pl-smi">multiplexer</span> = <span class="pl-s"><span class="pl-pds">"</span>httpconnect<span class="pl-pds">"</span></span>
+<span class="pl-smi">customDomains</span> = [<span class="pl-s"><span class="pl-pds">"</span>machine-b.example.com<span class="pl-pds">"</span></span>]
+<span class="pl-smi">localIP</span> = <span class="pl-s"><span class="pl-pds">"</span>127.0.0.1<span class="pl-pds">"</span></span>
+<span class="pl-smi">localPort</span> = <span class="pl-c1">22</span></pre></div>
+<ol start="4" dir="auto">
+<li>To access internal machine A using SSH ProxyCommand, assuming the username is "test":</li>
+</ol>
+<p dir="auto"><code class="notranslate">ssh -o 'proxycommand socat - PROXY:x.x.x.x:%h:%p,proxyport=5002' test@machine-a.example.com</code></p>
+<ol start="5" dir="auto">
+<li>To access internal machine B, the only difference is the domain name, assuming the username is "test":</li>
+</ol>
+<p dir="auto"><code class="notranslate">ssh -o 'proxycommand socat - PROXY:x.x.x.x:%h:%p,proxyport=5002' test@machine-b.example.com</code></p>
+<h3 dir="auto">Accessing Internal Web Services with Custom Domains in LAN</h3>
+<p dir="auto">Sometimes we need to expose a local web service behind a NAT network to others for testing purposes with our own domain name.</p>
+<p dir="auto">Unfortunately, we cannot resolve a domain name to a local IP. However, we can use frp to expose an HTTP(S) service.</p>
+<ol dir="auto">
+<li>Modify <code class="notranslate">frps.toml</code> and set the HTTP port for vhost to 8080:</li>
+</ol>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frps.toml
+bindPort = 7000
+vhostHTTPPort = 8080"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frps.toml</span>
+<span class="pl-smi">bindPort</span> = <span class="pl-c1">7000</span>
+<span class="pl-smi">vhostHTTPPort</span> = <span class="pl-c1">8080</span></pre></div>
+<p dir="auto">If you want to configure an https proxy, you need to set up the <code class="notranslate">vhostHTTPSPort</code>.</p>
+<ol start="2" dir="auto">
+<li>Start <code class="notranslate">frps</code>:</li>
+</ol>
+<p dir="auto"><code class="notranslate">./frps -c ./frps.toml</code></p>
+<ol start="3" dir="auto">
+<li>Modify <code class="notranslate">frpc.toml</code> and set <code class="notranslate">serverAddr</code> to the IP address of the remote frps server. Specify the <code class="notranslate">localPort</code> of your web service:</li>
+</ol>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+serverAddr = &quot;x.x.x.x&quot;
+serverPort = 7000
+
+[[proxies]]
+name = &quot;web&quot;
+type = &quot;http&quot;
+localPort = 80
+customDomains = [&quot;www.example.com&quot;]"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+<span class="pl-smi">serverAddr</span> = <span class="pl-s"><span class="pl-pds">"</span>x.x.x.x<span class="pl-pds">"</span></span>
+<span class="pl-smi">serverPort</span> = <span class="pl-c1">7000</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>web<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>http<span class="pl-pds">"</span></span>
+<span class="pl-smi">localPort</span> = <span class="pl-c1">80</span>
+<span class="pl-smi">customDomains</span> = [<span class="pl-s"><span class="pl-pds">"</span>www.example.com<span class="pl-pds">"</span></span>]</pre></div>
+<ol start="4" dir="auto">
+<li>Start <code class="notranslate">frpc</code>:</li>
+</ol>
+<p dir="auto"><code class="notranslate">./frpc -c ./frpc.toml</code></p>
+<ol start="5" dir="auto">
+<li>
+<p dir="auto">Map the A record of <code class="notranslate">www.example.com</code> to either the public IP of the remote frps server or a CNAME record pointing to your original domain.</p>
+</li>
+<li>
+<p dir="auto">Visit your local web service using url <code class="notranslate">http://www.example.com:8080</code>.</p>
+</li>
+</ol>
+<h3 dir="auto">Forward DNS query requests</h3>
+<ol dir="auto">
+<li>Modify <code class="notranslate">frps.toml</code>:</li>
+</ol>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frps.toml
+bindPort = 7000"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frps.toml</span>
+<span class="pl-smi">bindPort</span> = <span class="pl-c1">7000</span></pre></div>
+<ol start="2" dir="auto">
+<li>Start <code class="notranslate">frps</code>:</li>
+</ol>
+<p dir="auto"><code class="notranslate">./frps -c ./frps.toml</code></p>
+<ol start="3" dir="auto">
+<li>Modify <code class="notranslate">frpc.toml</code> and set <code class="notranslate">serverAddr</code> to the IP address of the remote frps server. Forward DNS query requests to the Google Public DNS server <code class="notranslate">8.8.8.8:53</code>:</li>
+</ol>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+serverAddr = &quot;x.x.x.x&quot;
+serverPort = 7000
+
+[[proxies]]
+name = &quot;dns&quot;
+type = &quot;udp&quot;
+localIP = &quot;8.8.8.8&quot;
+localPort = 53
+remotePort = 6000"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+<span class="pl-smi">serverAddr</span> = <span class="pl-s"><span class="pl-pds">"</span>x.x.x.x<span class="pl-pds">"</span></span>
+<span class="pl-smi">serverPort</span> = <span class="pl-c1">7000</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>dns<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>udp<span class="pl-pds">"</span></span>
+<span class="pl-smi">localIP</span> = <span class="pl-s"><span class="pl-pds">"</span>8.8.8.8<span class="pl-pds">"</span></span>
+<span class="pl-smi">localPort</span> = <span class="pl-c1">53</span>
+<span class="pl-smi">remotePort</span> = <span class="pl-c1">6000</span></pre></div>
+<ol start="4" dir="auto">
+<li>Start frpc:</li>
+</ol>
+<p dir="auto"><code class="notranslate">./frpc -c ./frpc.toml</code></p>
+<ol start="5" dir="auto">
+<li>Test DNS resolution using the <code class="notranslate">dig</code> command:</li>
+</ol>
+<p dir="auto"><code class="notranslate">dig @x.x.x.x -p 6000 www.google.com</code></p>
+<h3 dir="auto">Forward Unix Domain Socket</h3>
+<p dir="auto">Expose a Unix domain socket (e.g. the Docker daemon socket) as TCP.</p>
+<p dir="auto">Configure <code class="notranslate">frps</code> as above.</p>
+<ol dir="auto">
+<li>Start <code class="notranslate">frpc</code> with the following configuration:</li>
+</ol>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+serverAddr = &quot;x.x.x.x&quot;
+serverPort = 7000
+
+[[proxies]]
+name = &quot;unix_domain_socket&quot;
+type = &quot;tcp&quot;
+remotePort = 6000
+[proxies.plugin]
+type = &quot;unix_domain_socket&quot;
+unixPath = &quot;/var/run/docker.sock&quot;"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+<span class="pl-smi">serverAddr</span> = <span class="pl-s"><span class="pl-pds">"</span>x.x.x.x<span class="pl-pds">"</span></span>
+<span class="pl-smi">serverPort</span> = <span class="pl-c1">7000</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>unix_domain_socket<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>tcp<span class="pl-pds">"</span></span>
+<span class="pl-smi">remotePort</span> = <span class="pl-c1">6000</span>
+[<span class="pl-en">proxies</span>.<span class="pl-en">plugin</span>]
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>unix_domain_socket<span class="pl-pds">"</span></span>
+<span class="pl-smi">unixPath</span> = <span class="pl-s"><span class="pl-pds">"</span>/var/run/docker.sock<span class="pl-pds">"</span></span></pre></div>
+<ol start="2" dir="auto">
+<li>Test the configuration by getting the docker version using <code class="notranslate">curl</code>:</li>
+</ol>
+<p dir="auto"><code class="notranslate">curl http://x.x.x.x:6000/version</code></p>
+<h3 dir="auto">Expose a simple HTTP file server</h3>
+<p dir="auto">Expose a simple HTTP file server to access files stored in the LAN from the public Internet.</p>
+<p dir="auto">Configure <code class="notranslate">frps</code> as described above, then:</p>
+<ol dir="auto">
+<li>Start <code class="notranslate">frpc</code> with the following configuration:</li>
+</ol>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+serverAddr = &quot;x.x.x.x&quot;
+serverPort = 7000
+
+[[proxies]]
+name = &quot;test_static_file&quot;
+type = &quot;tcp&quot;
+remotePort = 6000
+[proxies.plugin]
+type = &quot;static_file&quot;
+localPath = &quot;/tmp/files&quot;
+stripPrefix = &quot;static&quot;
+httpUser = &quot;abc&quot;
+httpPassword = &quot;abc&quot;"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+<span class="pl-smi">serverAddr</span> = <span class="pl-s"><span class="pl-pds">"</span>x.x.x.x<span class="pl-pds">"</span></span>
+<span class="pl-smi">serverPort</span> = <span class="pl-c1">7000</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>test_static_file<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>tcp<span class="pl-pds">"</span></span>
+<span class="pl-smi">remotePort</span> = <span class="pl-c1">6000</span>
+[<span class="pl-en">proxies</span>.<span class="pl-en">plugin</span>]
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>static_file<span class="pl-pds">"</span></span>
+<span class="pl-smi">localPath</span> = <span class="pl-s"><span class="pl-pds">"</span>/tmp/files<span class="pl-pds">"</span></span>
+<span class="pl-smi">stripPrefix</span> = <span class="pl-s"><span class="pl-pds">"</span>static<span class="pl-pds">"</span></span>
+<span class="pl-smi">httpUser</span> = <span class="pl-s"><span class="pl-pds">"</span>abc<span class="pl-pds">"</span></span>
+<span class="pl-smi">httpPassword</span> = <span class="pl-s"><span class="pl-pds">"</span>abc<span class="pl-pds">"</span></span></pre></div>
+<ol start="2" dir="auto">
+<li>Visit <code class="notranslate">http://x.x.x.x:6000/static/</code> from your browser and specify correct username and password to view files in <code class="notranslate">/tmp/files</code> on the <code class="notranslate">frpc</code> machine.</li>
+</ol>
+<h3 dir="auto">Enable HTTPS for a local HTTP(S) service</h3>
+<p dir="auto">You may substitute <code class="notranslate">https2https</code> for the plugin, and point the <code class="notranslate">localAddr</code> to a HTTPS endpoint.</p>
+<ol dir="auto">
+<li>Start <code class="notranslate">frpc</code> with the following configuration:</li>
+</ol>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+serverAddr = &quot;x.x.x.x&quot;
+serverPort = 7000
+
+[[proxies]]
+name = &quot;test_https2http&quot;
+type = &quot;https&quot;
+customDomains = [&quot;test.example.com&quot;]
+
+[proxies.plugin]
+type = &quot;https2http&quot;
+localAddr = &quot;127.0.0.1:80&quot;
+crtPath = &quot;./server.crt&quot;
+keyPath = &quot;./server.key&quot;
+hostHeaderRewrite = &quot;127.0.0.1&quot;
+requestHeaders.set.x-from-where = &quot;frp&quot;"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+<span class="pl-smi">serverAddr</span> = <span class="pl-s"><span class="pl-pds">"</span>x.x.x.x<span class="pl-pds">"</span></span>
+<span class="pl-smi">serverPort</span> = <span class="pl-c1">7000</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>test_https2http<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>https<span class="pl-pds">"</span></span>
+<span class="pl-smi">customDomains</span> = [<span class="pl-s"><span class="pl-pds">"</span>test.example.com<span class="pl-pds">"</span></span>]
+
+[<span class="pl-en">proxies</span>.<span class="pl-en">plugin</span>]
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>https2http<span class="pl-pds">"</span></span>
+<span class="pl-smi">localAddr</span> = <span class="pl-s"><span class="pl-pds">"</span>127.0.0.1:80<span class="pl-pds">"</span></span>
+<span class="pl-smi">crtPath</span> = <span class="pl-s"><span class="pl-pds">"</span>./server.crt<span class="pl-pds">"</span></span>
+<span class="pl-smi">keyPath</span> = <span class="pl-s"><span class="pl-pds">"</span>./server.key<span class="pl-pds">"</span></span>
+<span class="pl-smi">hostHeaderRewrite</span> = <span class="pl-s"><span class="pl-pds">"</span>127.0.0.1<span class="pl-pds">"</span></span>
+<span class="pl-smi">requestHeaders.set.x-from-where</span> = <span class="pl-s"><span class="pl-pds">"</span>frp<span class="pl-pds">"</span></span></pre></div>
+<ol start="2" dir="auto">
+<li>Visit <code class="notranslate">https://test.example.com</code>.</li>
+</ol>
+<h3 dir="auto">Expose your service privately</h3>
+<p dir="auto">To mitigate risks associated with exposing certain services directly to the public network, STCP (Secret TCP) mode requires a preshared key to be used for access to the service from other clients.</p>
+<p dir="auto">Configure <code class="notranslate">frps</code> same as above.</p>
+<ol dir="auto">
+<li>Start <code class="notranslate">frpc</code> on machine B with the following config. This example is for exposing the SSH service (port 22), and note the <code class="notranslate">secretKey</code> field for the preshared key, and that the <code class="notranslate">remotePort</code> field is removed here:</li>
+</ol>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+serverAddr = &quot;x.x.x.x&quot;
+serverPort = 7000
+
+[[proxies]]
+name = &quot;secret_ssh&quot;
+type = &quot;stcp&quot;
+secretKey = &quot;abcdefg&quot;
+localIP = &quot;127.0.0.1&quot;
+localPort = 22"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+<span class="pl-smi">serverAddr</span> = <span class="pl-s"><span class="pl-pds">"</span>x.x.x.x<span class="pl-pds">"</span></span>
+<span class="pl-smi">serverPort</span> = <span class="pl-c1">7000</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>secret_ssh<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>stcp<span class="pl-pds">"</span></span>
+<span class="pl-smi">secretKey</span> = <span class="pl-s"><span class="pl-pds">"</span>abcdefg<span class="pl-pds">"</span></span>
+<span class="pl-smi">localIP</span> = <span class="pl-s"><span class="pl-pds">"</span>127.0.0.1<span class="pl-pds">"</span></span>
+<span class="pl-smi">localPort</span> = <span class="pl-c1">22</span></pre></div>
+<ol start="2" dir="auto">
+<li>Start another <code class="notranslate">frpc</code> (typically on another machine C) with the following config to access the SSH service with a security key (<code class="notranslate">secretKey</code> field):</li>
+</ol>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+serverAddr = &quot;x.x.x.x&quot;
+serverPort = 7000
+
+[[visitors]]
+name = &quot;secret_ssh_visitor&quot;
+type = &quot;stcp&quot;
+serverName = &quot;secret_ssh&quot;
+secretKey = &quot;abcdefg&quot;
+bindAddr = &quot;127.0.0.1&quot;
+bindPort = 6000"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+<span class="pl-smi">serverAddr</span> = <span class="pl-s"><span class="pl-pds">"</span>x.x.x.x<span class="pl-pds">"</span></span>
+<span class="pl-smi">serverPort</span> = <span class="pl-c1">7000</span>
+
+[[<span class="pl-en">visitors</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>secret_ssh_visitor<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>stcp<span class="pl-pds">"</span></span>
+<span class="pl-smi">serverName</span> = <span class="pl-s"><span class="pl-pds">"</span>secret_ssh<span class="pl-pds">"</span></span>
+<span class="pl-smi">secretKey</span> = <span class="pl-s"><span class="pl-pds">"</span>abcdefg<span class="pl-pds">"</span></span>
+<span class="pl-smi">bindAddr</span> = <span class="pl-s"><span class="pl-pds">"</span>127.0.0.1<span class="pl-pds">"</span></span>
+<span class="pl-smi">bindPort</span> = <span class="pl-c1">6000</span></pre></div>
+<ol start="3" dir="auto">
+<li>On machine C, connect to SSH on machine B, using this command:</li>
+</ol>
+<p dir="auto"><code class="notranslate">ssh -oPort=6000 127.0.0.1</code></p>
+<h3 dir="auto">P2P Mode</h3>
+<p dir="auto"><strong>xtcp</strong> is designed to transmit large amounts of data directly between clients. A frps server is still needed, as P2P here only refers to the actual data transmission.</p>
+<p dir="auto">Note that it may not work with all types of NAT devices. You might want to fallback to stcp if xtcp doesn't work.</p>
+<ol dir="auto">
+<li>Start <code class="notranslate">frpc</code> on machine B, and expose the SSH port. Note that the <code class="notranslate">remotePort</code> field is removed:</li>
+</ol>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+serverAddr = &quot;x.x.x.x&quot;
+serverPort = 7000
+# set up a new stun server if the default one is not available.
+# natHoleStunServer = &quot;xxx&quot;
+
+[[proxies]]
+name = &quot;p2p_ssh&quot;
+type = &quot;xtcp&quot;
+secretKey = &quot;abcdefg&quot;
+localIP = &quot;127.0.0.1&quot;
+localPort = 22"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+<span class="pl-smi">serverAddr</span> = <span class="pl-s"><span class="pl-pds">"</span>x.x.x.x<span class="pl-pds">"</span></span>
+<span class="pl-smi">serverPort</span> = <span class="pl-c1">7000</span>
+<span class="pl-c"><span class="pl-c">#</span> set up a new stun server if the default one is not available.</span>
+<span class="pl-c"><span class="pl-c">#</span> natHoleStunServer = "xxx"</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>p2p_ssh<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>xtcp<span class="pl-pds">"</span></span>
+<span class="pl-smi">secretKey</span> = <span class="pl-s"><span class="pl-pds">"</span>abcdefg<span class="pl-pds">"</span></span>
+<span class="pl-smi">localIP</span> = <span class="pl-s"><span class="pl-pds">"</span>127.0.0.1<span class="pl-pds">"</span></span>
+<span class="pl-smi">localPort</span> = <span class="pl-c1">22</span></pre></div>
+<ol start="2" dir="auto">
+<li>Start another <code class="notranslate">frpc</code> (typically on another machine C) with the configuration to connect to SSH using P2P mode:</li>
+</ol>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+serverAddr = &quot;x.x.x.x&quot;
+serverPort = 7000
+# set up a new stun server if the default one is not available.
+# natHoleStunServer = &quot;xxx&quot;
+
+[[visitors]]
+name = &quot;p2p_ssh_visitor&quot;
+type = &quot;xtcp&quot;
+serverName = &quot;p2p_ssh&quot;
+secretKey = &quot;abcdefg&quot;
+bindAddr = &quot;127.0.0.1&quot;
+bindPort = 6000
+# when automatic tunnel persistence is required, set it to true
+keepTunnelOpen = false"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+<span class="pl-smi">serverAddr</span> = <span class="pl-s"><span class="pl-pds">"</span>x.x.x.x<span class="pl-pds">"</span></span>
+<span class="pl-smi">serverPort</span> = <span class="pl-c1">7000</span>
+<span class="pl-c"><span class="pl-c">#</span> set up a new stun server if the default one is not available.</span>
+<span class="pl-c"><span class="pl-c">#</span> natHoleStunServer = "xxx"</span>
+
+[[<span class="pl-en">visitors</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>p2p_ssh_visitor<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>xtcp<span class="pl-pds">"</span></span>
+<span class="pl-smi">serverName</span> = <span class="pl-s"><span class="pl-pds">"</span>p2p_ssh<span class="pl-pds">"</span></span>
+<span class="pl-smi">secretKey</span> = <span class="pl-s"><span class="pl-pds">"</span>abcdefg<span class="pl-pds">"</span></span>
+<span class="pl-smi">bindAddr</span> = <span class="pl-s"><span class="pl-pds">"</span>127.0.0.1<span class="pl-pds">"</span></span>
+<span class="pl-smi">bindPort</span> = <span class="pl-c1">6000</span>
+<span class="pl-c"><span class="pl-c">#</span> when automatic tunnel persistence is required, set it to true</span>
+<span class="pl-smi">keepTunnelOpen</span> = <span class="pl-c1">false</span></pre></div>
+<ol start="3" dir="auto">
+<li>On machine C, connect to SSH on machine B, using this command:</li>
+</ol>
+<p dir="auto"><code class="notranslate">ssh -oPort=6000 127.0.0.1</code></p>
+<h2 dir="auto">Features</h2>
+<h3 dir="auto">Configuration Files</h3>
+<p dir="auto">Since v0.52.0, we support TOML, YAML, and JSON for configuration. Please note that INI is deprecated and will be removed in future releases. New features will only be available in TOML, YAML, or JSON. Users wanting these new features should switch their configuration format accordingly.</p>
+<p dir="auto">Read the full example configuration files to find out even more features not described here.</p>
+<p dir="auto">Examples use TOML format, but you can still use YAML or JSON.</p>
+<p dir="auto">These configuration files is for reference only. Please do not use this configuration directly to run the program as it may have various issues.</p>
+<p dir="auto"><a href="./conf/frps_full_example.toml">Full configuration file for frps (Server)</a></p>
+<p dir="auto"><a href="./conf/frpc_full_example.toml">Full configuration file for frpc (Client)</a></p>
+<h3 dir="auto">Using Environment Variables</h3>
+<p dir="auto">Environment variables can be referenced in the configuration file, using Go's standard format:</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+serverAddr = &quot;{{ .Envs.FRP_SERVER_ADDR }}&quot;
+serverPort = 7000
+
+[[proxies]]
+name = &quot;ssh&quot;
+type = &quot;tcp&quot;
+localIP = &quot;127.0.0.1&quot;
+localPort = 22
+remotePort = &quot;{{ .Envs.FRP_SSH_REMOTE_PORT }}&quot;"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+<span class="pl-smi">serverAddr</span> = <span class="pl-s"><span class="pl-pds">"</span>{{ .Envs.FRP_SERVER_ADDR }}<span class="pl-pds">"</span></span>
+<span class="pl-smi">serverPort</span> = <span class="pl-c1">7000</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>ssh<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>tcp<span class="pl-pds">"</span></span>
+<span class="pl-smi">localIP</span> = <span class="pl-s"><span class="pl-pds">"</span>127.0.0.1<span class="pl-pds">"</span></span>
+<span class="pl-smi">localPort</span> = <span class="pl-c1">22</span>
+<span class="pl-smi">remotePort</span> = <span class="pl-s"><span class="pl-pds">"</span>{{ .Envs.FRP_SSH_REMOTE_PORT }}<span class="pl-pds">"</span></span></pre></div>
+<p dir="auto">With the config above, variables can be passed into <code class="notranslate">frpc</code> program like this:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="export FRP_SERVER_ADDR=x.x.x.x
+export FRP_SSH_REMOTE_PORT=6000
+./frpc -c ./frpc.toml"><pre class="notranslate"><code class="notranslate">export FRP_SERVER_ADDR=x.x.x.x
+export FRP_SSH_REMOTE_PORT=6000
+./frpc -c ./frpc.toml
+</code></pre></div>
+<p dir="auto"><code class="notranslate">frpc</code> will render configuration file template using OS environment variables. Remember to prefix your reference with <code class="notranslate">.Envs</code>.</p>
+<h3 dir="auto">Split Configures Into Different Files</h3>
+<p dir="auto">You can split multiple proxy configs into different files and include them in the main file.</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+serverAddr = &quot;x.x.x.x&quot;
+serverPort = 7000
+includes = [&quot;./confd/*.toml&quot;]"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+<span class="pl-smi">serverAddr</span> = <span class="pl-s"><span class="pl-pds">"</span>x.x.x.x<span class="pl-pds">"</span></span>
+<span class="pl-smi">serverPort</span> = <span class="pl-c1">7000</span>
+<span class="pl-smi">includes</span> = [<span class="pl-s"><span class="pl-pds">"</span>./confd/*.toml<span class="pl-pds">"</span></span>]</pre></div>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# ./confd/test.toml
+
+[[proxies]]
+name = &quot;ssh&quot;
+type = &quot;tcp&quot;
+localIP = &quot;127.0.0.1&quot;
+localPort = 22
+remotePort = 6000"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> ./confd/test.toml</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>ssh<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>tcp<span class="pl-pds">"</span></span>
+<span class="pl-smi">localIP</span> = <span class="pl-s"><span class="pl-pds">"</span>127.0.0.1<span class="pl-pds">"</span></span>
+<span class="pl-smi">localPort</span> = <span class="pl-c1">22</span>
+<span class="pl-smi">remotePort</span> = <span class="pl-c1">6000</span></pre></div>
+<h3 dir="auto">Server Dashboard</h3>
+<p dir="auto">Check frp's status and proxies' statistics information by Dashboard.</p>
+<p dir="auto">Configure a port for dashboard to enable this feature:</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# The default value is 127.0.0.1. Change it to 0.0.0.0 when you want to access it from a public network.
+webServer.addr = &quot;0.0.0.0&quot;
+webServer.port = 7500
+# dashboard's username and password are both optional
+webServer.user = &quot;admin&quot;
+webServer.password = &quot;admin&quot;"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> The default value is 127.0.0.1. Change it to 0.0.0.0 when you want to access it from a public network.</span>
+<span class="pl-smi">webServer.addr</span> = <span class="pl-s"><span class="pl-pds">"</span>0.0.0.0<span class="pl-pds">"</span></span>
+<span class="pl-smi">webServer.port</span> = <span class="pl-c1">7500</span>
+<span class="pl-c"><span class="pl-c">#</span> dashboard's username and password are both optional</span>
+<span class="pl-smi">webServer.user</span> = <span class="pl-s"><span class="pl-pds">"</span>admin<span class="pl-pds">"</span></span>
+<span class="pl-smi">webServer.password</span> = <span class="pl-s"><span class="pl-pds">"</span>admin<span class="pl-pds">"</span></span></pre></div>
+<p dir="auto">Then visit <code class="notranslate">http://[serverAddr]:7500</code> to see the dashboard, with username and password both being <code class="notranslate">admin</code>.</p>
+<p dir="auto">Additionally, you can use HTTPS port by using your domains wildcard or normal SSL certificate:</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="webServer.port = 7500
+# dashboard's username and password are both optional
+webServer.user = &quot;admin&quot;
+webServer.password = &quot;admin&quot;
+webServer.tls.certFile = &quot;server.crt&quot;
+webServer.tls.keyFile = &quot;server.key&quot;"><pre class="notranslate"><span class="pl-smi">webServer.port</span> = <span class="pl-c1">7500</span>
+<span class="pl-c"><span class="pl-c">#</span> dashboard's username and password are both optional</span>
+<span class="pl-smi">webServer.user</span> = <span class="pl-s"><span class="pl-pds">"</span>admin<span class="pl-pds">"</span></span>
+<span class="pl-smi">webServer.password</span> = <span class="pl-s"><span class="pl-pds">"</span>admin<span class="pl-pds">"</span></span>
+<span class="pl-smi">webServer.tls.certFile</span> = <span class="pl-s"><span class="pl-pds">"</span>server.crt<span class="pl-pds">"</span></span>
+<span class="pl-smi">webServer.tls.keyFile</span> = <span class="pl-s"><span class="pl-pds">"</span>server.key<span class="pl-pds">"</span></span></pre></div>
+<p dir="auto">Then visit <code class="notranslate">https://[serverAddr]:7500</code> to see the dashboard in secure HTTPS connection, with username and password both being <code class="notranslate">admin</code>.</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/doc/pic/dashboard.png"><img src="/doc/pic/dashboard.png" alt="dashboard" style="max-width: 100%;"></a></p>
+<h3 dir="auto">Client Admin UI</h3>
+<p dir="auto">The Client Admin UI helps you check and manage frpc's configuration.</p>
+<p dir="auto">Configure an address for admin UI to enable this feature:</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="webServer.addr = &quot;127.0.0.1&quot;
+webServer.port = 7400
+webServer.user = &quot;admin&quot;
+webServer.password = &quot;admin&quot;"><pre class="notranslate"><span class="pl-smi">webServer.addr</span> = <span class="pl-s"><span class="pl-pds">"</span>127.0.0.1<span class="pl-pds">"</span></span>
+<span class="pl-smi">webServer.port</span> = <span class="pl-c1">7400</span>
+<span class="pl-smi">webServer.user</span> = <span class="pl-s"><span class="pl-pds">"</span>admin<span class="pl-pds">"</span></span>
+<span class="pl-smi">webServer.password</span> = <span class="pl-s"><span class="pl-pds">"</span>admin<span class="pl-pds">"</span></span></pre></div>
+<p dir="auto">Then visit <code class="notranslate">http://127.0.0.1:7400</code> to see admin UI, with username and password both being <code class="notranslate">admin</code>.</p>
+<h3 dir="auto">Monitor</h3>
+<p dir="auto">When web server is enabled, frps will save monitor data in cache for 7 days. It will be cleared after process restart.</p>
+<p dir="auto">Prometheus is also supported.</p>
+<h4 dir="auto">Prometheus</h4>
+<p dir="auto">Enable dashboard first, then configure <code class="notranslate">enablePrometheus = true</code> in <code class="notranslate">frps.toml</code>.</p>
+<p dir="auto"><code class="notranslate">http://{dashboard_addr}/metrics</code> will provide prometheus monitor data.</p>
+<h3 dir="auto">Authenticating the Client</h3>
+<p dir="auto">There are 2 authentication methods to authenticate frpc with frps.</p>
+<p dir="auto">You can decide which one to use by configuring <code class="notranslate">auth.method</code> in <code class="notranslate">frpc.toml</code> and <code class="notranslate">frps.toml</code>, the default one is token.</p>
+<p dir="auto">Configuring <code class="notranslate">auth.additionalScopes = ["HeartBeats"]</code> will use the configured authentication method to add and validate authentication on every heartbeat between frpc and frps.</p>
+<p dir="auto">Configuring <code class="notranslate">auth.additionalScopes = ["NewWorkConns"]</code> will do the same for every new work connection between frpc and frps.</p>
+<h4 dir="auto">Token Authentication</h4>
+<p dir="auto">When specifying <code class="notranslate">auth.method = "token"</code> in <code class="notranslate">frpc.toml</code> and <code class="notranslate">frps.toml</code> - token based authentication will be used.</p>
+<p dir="auto">Make sure to specify the same <code class="notranslate">auth.token</code> in <code class="notranslate">frps.toml</code> and <code class="notranslate">frpc.toml</code> for frpc to pass frps validation</p>
+<h4 dir="auto">OIDC Authentication</h4>
+<p dir="auto">When specifying <code class="notranslate">auth.method = "oidc"</code> in <code class="notranslate">frpc.toml</code> and <code class="notranslate">frps.toml</code> - OIDC based authentication will be used.</p>
+<p dir="auto">OIDC stands for OpenID Connect, and the flow used is called <a href="https://tools.ietf.org/html/rfc6749#section-4.4" rel="nofollow">Client Credentials Grant</a>.</p>
+<p dir="auto">To use this authentication type - configure <code class="notranslate">frpc.toml</code> and <code class="notranslate">frps.toml</code> as follows:</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frps.toml
+auth.method = &quot;oidc&quot;
+auth.oidc.issuer = &quot;https://example-oidc-issuer.com/&quot;
+auth.oidc.audience = &quot;https://oidc-audience.com/.default&quot;"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frps.toml</span>
+<span class="pl-smi">auth.method</span> = <span class="pl-s"><span class="pl-pds">"</span>oidc<span class="pl-pds">"</span></span>
+<span class="pl-smi">auth.oidc.issuer</span> = <span class="pl-s"><span class="pl-pds">"</span>https://example-oidc-issuer.com/<span class="pl-pds">"</span></span>
+<span class="pl-smi">auth.oidc.audience</span> = <span class="pl-s"><span class="pl-pds">"</span>https://oidc-audience.com/.default<span class="pl-pds">"</span></span></pre></div>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+auth.method = &quot;oidc&quot;
+auth.oidc.clientID = &quot;98692467-37de-409a-9fac-bb2585826f18&quot; # Replace with OIDC client ID
+auth.oidc.clientSecret = &quot;oidc_secret&quot;
+auth.oidc.audience = &quot;https://oidc-audience.com/.default&quot;
+auth.oidc.tokenEndpointURL = &quot;https://example-oidc-endpoint.com/oauth2/v2.0/token&quot;"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+<span class="pl-smi">auth.method</span> = <span class="pl-s"><span class="pl-pds">"</span>oidc<span class="pl-pds">"</span></span>
+<span class="pl-smi">auth.oidc.clientID</span> = <span class="pl-s"><span class="pl-pds">"</span>98692467-37de-409a-9fac-bb2585826f18<span class="pl-pds">"</span></span> <span class="pl-c"><span class="pl-c">#</span> Replace with OIDC client ID</span>
+<span class="pl-smi">auth.oidc.clientSecret</span> = <span class="pl-s"><span class="pl-pds">"</span>oidc_secret<span class="pl-pds">"</span></span>
+<span class="pl-smi">auth.oidc.audience</span> = <span class="pl-s"><span class="pl-pds">"</span>https://oidc-audience.com/.default<span class="pl-pds">"</span></span>
+<span class="pl-smi">auth.oidc.tokenEndpointURL</span> = <span class="pl-s"><span class="pl-pds">"</span>https://example-oidc-endpoint.com/oauth2/v2.0/token<span class="pl-pds">"</span></span></pre></div>
+<h3 dir="auto">Encryption and Compression</h3>
+<p dir="auto">The features are off by default. You can turn on encryption and/or compression:</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+
+[[proxies]]
+name = &quot;ssh&quot;
+type = &quot;tcp&quot;
+localPort = 22
+remotePort = 6000
+transport.useEncryption = true
+transport.useCompression = true"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>ssh<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>tcp<span class="pl-pds">"</span></span>
+<span class="pl-smi">localPort</span> = <span class="pl-c1">22</span>
+<span class="pl-smi">remotePort</span> = <span class="pl-c1">6000</span>
+<span class="pl-smi">transport.useEncryption</span> = <span class="pl-c1">true</span>
+<span class="pl-smi">transport.useCompression</span> = <span class="pl-c1">true</span></pre></div>
+<h4 dir="auto">TLS</h4>
+<p dir="auto">Since v0.50.0, the default value of <code class="notranslate">transport.tls.enable</code> and <code class="notranslate">transport.tls.disableCustomTLSFirstByte</code> has been changed to true, and tls is enabled by default.</p>
+<p dir="auto">For port multiplexing, frp sends a first byte <code class="notranslate">0x17</code> to dial a TLS connection. This only takes effect when you set <code class="notranslate">transport.tls.disableCustomTLSFirstByte</code> to false.</p>
+<p dir="auto">To <strong>enforce</strong> <code class="notranslate">frps</code> to only accept TLS connections - configure <code class="notranslate">transport.tls.force = true</code> in <code class="notranslate">frps.toml</code>. <strong>This is optional.</strong></p>
+<p dir="auto"><strong><code class="notranslate">frpc</code> TLS settings:</strong></p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="transport.tls.enable = true
+transport.tls.certFile = &quot;certificate.crt&quot;
+transport.tls.keyFile = &quot;certificate.key&quot;
+transport.tls.trustedCaFile = &quot;ca.crt&quot;"><pre class="notranslate"><span class="pl-smi">transport.tls.enable</span> = <span class="pl-c1">true</span>
+<span class="pl-smi">transport.tls.certFile</span> = <span class="pl-s"><span class="pl-pds">"</span>certificate.crt<span class="pl-pds">"</span></span>
+<span class="pl-smi">transport.tls.keyFile</span> = <span class="pl-s"><span class="pl-pds">"</span>certificate.key<span class="pl-pds">"</span></span>
+<span class="pl-smi">transport.tls.trustedCaFile</span> = <span class="pl-s"><span class="pl-pds">"</span>ca.crt<span class="pl-pds">"</span></span></pre></div>
+<p dir="auto"><strong><code class="notranslate">frps</code> TLS settings:</strong></p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="transport.tls.force = true
+transport.tls.certFile = &quot;certificate.crt&quot;
+transport.tls.keyFile = &quot;certificate.key&quot;
+transport.tls.trustedCaFile = &quot;ca.crt&quot;"><pre class="notranslate"><span class="pl-smi">transport.tls.force</span> = <span class="pl-c1">true</span>
+<span class="pl-smi">transport.tls.certFile</span> = <span class="pl-s"><span class="pl-pds">"</span>certificate.crt<span class="pl-pds">"</span></span>
+<span class="pl-smi">transport.tls.keyFile</span> = <span class="pl-s"><span class="pl-pds">"</span>certificate.key<span class="pl-pds">"</span></span>
+<span class="pl-smi">transport.tls.trustedCaFile</span> = <span class="pl-s"><span class="pl-pds">"</span>ca.crt<span class="pl-pds">"</span></span></pre></div>
+<p dir="auto">You will need <strong>a root CA cert</strong> and <strong>at least one SSL/TLS certificate</strong>. It <strong>can</strong> be self-signed or regular (such as Let's Encrypt or another SSL/TLS certificate provider).</p>
+<p dir="auto">If you using <code class="notranslate">frp</code> via IP address and not hostname, make sure to set the appropriate IP address in the Subject Alternative Name (SAN) area when generating SSL/TLS Certificates.</p>
+<p dir="auto">Given an example:</p>
+<ul dir="auto">
+<li>Prepare openssl config file. It exists at <code class="notranslate">/etc/pki/tls/openssl.cnf</code> in Linux System and <code class="notranslate">/System/Library/OpenSSL/openssl.cnf</code> in MacOS, and you can copy it to current path, like <code class="notranslate">cp /etc/pki/tls/openssl.cnf ./my-openssl.cnf</code>. If not, you can build it by yourself, like:</li>
+</ul>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="cat &gt; my-openssl.cnf &lt;&lt; EOF
+[ ca ]
+default_ca = CA_default
+[ CA_default ]
+x509_extensions = usr_cert
+[ req ]
+default_bits        = 2048
+default_md          = sha256
+default_keyfile     = privkey.pem
+distinguished_name  = req_distinguished_name
+attributes          = req_attributes
+x509_extensions     = v3_ca
+string_mask         = utf8only
+[ req_distinguished_name ]
+[ req_attributes ]
+[ usr_cert ]
+basicConstraints       = CA:FALSE
+nsComment              = &quot;OpenSSL Generated Certificate&quot;
+subjectKeyIdentifier   = hash
+authorityKeyIdentifier = keyid,issuer
+[ v3_ca ]
+subjectKeyIdentifier   = hash
+authorityKeyIdentifier = keyid:always,issuer
+basicConstraints       = CA:true
+EOF"><pre class="notranslate"><code class="notranslate">cat &gt; my-openssl.cnf &lt;&lt; EOF
+[ ca ]
+default_ca = CA_default
+[ CA_default ]
+x509_extensions = usr_cert
+[ req ]
+default_bits        = 2048
+default_md          = sha256
+default_keyfile     = privkey.pem
+distinguished_name  = req_distinguished_name
+attributes          = req_attributes
+x509_extensions     = v3_ca
+string_mask         = utf8only
+[ req_distinguished_name ]
+[ req_attributes ]
+[ usr_cert ]
+basicConstraints       = CA:FALSE
+nsComment              = "OpenSSL Generated Certificate"
+subjectKeyIdentifier   = hash
+authorityKeyIdentifier = keyid,issuer
+[ v3_ca ]
+subjectKeyIdentifier   = hash
+authorityKeyIdentifier = keyid:always,issuer
+basicConstraints       = CA:true
+EOF
+</code></pre></div>
+<ul dir="auto">
+<li>build ca certificates:</li>
+</ul>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="openssl genrsa -out ca.key 2048
+openssl req -x509 -new -nodes -key ca.key -subj &quot;/CN=example.ca.com&quot; -days 5000 -out ca.crt"><pre class="notranslate"><code class="notranslate">openssl genrsa -out ca.key 2048
+openssl req -x509 -new -nodes -key ca.key -subj "/CN=example.ca.com" -days 5000 -out ca.crt
+</code></pre></div>
+<ul dir="auto">
+<li>build frps certificates:</li>
+</ul>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="openssl genrsa -out server.key 2048
+
+openssl req -new -sha256 -key server.key \
+    -subj &quot;/C=XX/ST=DEFAULT/L=DEFAULT/O=DEFAULT/CN=server.com&quot; \
+    -reqexts SAN \
+    -config &lt;(cat my-openssl.cnf &lt;(printf &quot;\n[SAN]\nsubjectAltName=DNS:localhost,IP:127.0.0.1,DNS:example.server.com&quot;)) \
+    -out server.csr
+
+openssl x509 -req -days 365 -sha256 \
+	-in server.csr -CA ca.crt -CAkey ca.key -CAcreateserial \
+	-extfile &lt;(printf &quot;subjectAltName=DNS:localhost,IP:127.0.0.1,DNS:example.server.com&quot;) \
+	-out server.crt"><pre class="notranslate"><code class="notranslate">openssl genrsa -out server.key 2048
+
+openssl req -new -sha256 -key server.key \
+    -subj "/C=XX/ST=DEFAULT/L=DEFAULT/O=DEFAULT/CN=server.com" \
+    -reqexts SAN \
+    -config &lt;(cat my-openssl.cnf &lt;(printf "\n[SAN]\nsubjectAltName=DNS:localhost,IP:127.0.0.1,DNS:example.server.com")) \
+    -out server.csr
+
+openssl x509 -req -days 365 -sha256 \
+	-in server.csr -CA ca.crt -CAkey ca.key -CAcreateserial \
+	-extfile &lt;(printf "subjectAltName=DNS:localhost,IP:127.0.0.1,DNS:example.server.com") \
+	-out server.crt
+</code></pre></div>
+<ul dir="auto">
+<li>build frpc certificates：</li>
+</ul>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="openssl genrsa -out client.key 2048
+openssl req -new -sha256 -key client.key \
+    -subj &quot;/C=XX/ST=DEFAULT/L=DEFAULT/O=DEFAULT/CN=client.com&quot; \
+    -reqexts SAN \
+    -config &lt;(cat my-openssl.cnf &lt;(printf &quot;\n[SAN]\nsubjectAltName=DNS:client.com,DNS:example.client.com&quot;)) \
+    -out client.csr
+
+openssl x509 -req -days 365 -sha256 \
+    -in client.csr -CA ca.crt -CAkey ca.key -CAcreateserial \
+	-extfile &lt;(printf &quot;subjectAltName=DNS:client.com,DNS:example.client.com&quot;) \
+	-out client.crt"><pre class="notranslate"><code class="notranslate">openssl genrsa -out client.key 2048
+openssl req -new -sha256 -key client.key \
+    -subj "/C=XX/ST=DEFAULT/L=DEFAULT/O=DEFAULT/CN=client.com" \
+    -reqexts SAN \
+    -config &lt;(cat my-openssl.cnf &lt;(printf "\n[SAN]\nsubjectAltName=DNS:client.com,DNS:example.client.com")) \
+    -out client.csr
+
+openssl x509 -req -days 365 -sha256 \
+    -in client.csr -CA ca.crt -CAkey ca.key -CAcreateserial \
+	-extfile &lt;(printf "subjectAltName=DNS:client.com,DNS:example.client.com") \
+	-out client.crt
+</code></pre></div>
+<h3 dir="auto">Hot-Reloading frpc configuration</h3>
+<p dir="auto">The <code class="notranslate">webServer</code> fields are required for enabling HTTP API:</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+webServer.addr = &quot;127.0.0.1&quot;
+webServer.port = 7400"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+<span class="pl-smi">webServer.addr</span> = <span class="pl-s"><span class="pl-pds">"</span>127.0.0.1<span class="pl-pds">"</span></span>
+<span class="pl-smi">webServer.port</span> = <span class="pl-c1">7400</span></pre></div>
+<p dir="auto">Then run command <code class="notranslate">frpc reload -c ./frpc.toml</code> and wait for about 10 seconds to let <code class="notranslate">frpc</code> create or update or remove proxies.</p>
+<p dir="auto"><strong>Note that global client parameters won't be modified except 'start'.</strong></p>
+<p dir="auto">You can run command <code class="notranslate">frpc verify -c ./frpc.toml</code> before reloading to check if there are config errors.</p>
+<h3 dir="auto">Get proxy status from client</h3>
+<p dir="auto">Use <code class="notranslate">frpc status -c ./frpc.toml</code> to get status of all proxies. The <code class="notranslate">webServer</code> fields are required for enabling HTTP API.</p>
+<h3 dir="auto">Only allowing certain ports on the server</h3>
+<p dir="auto"><code class="notranslate">allowPorts</code> in <code class="notranslate">frps.toml</code> is used to avoid abuse of ports:</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frps.toml
+allowPorts = [
+  { start = 2000, end = 3000 },
+  { single = 3001 },
+  { single = 3003 },
+  { start = 4000, end = 50000 }
+]"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frps.toml</span>
+<span class="pl-smi">allowPorts</span> = [
+  { <span class="pl-smi">start</span> = <span class="pl-c1">2000</span>, <span class="pl-smi">end</span> = <span class="pl-c1">3000</span> },
+  { <span class="pl-smi">single</span> = <span class="pl-c1">3001</span> },
+  { <span class="pl-smi">single</span> = <span class="pl-c1">3003</span> },
+  { <span class="pl-smi">start</span> = <span class="pl-c1">4000</span>, <span class="pl-smi">end</span> = <span class="pl-c1">50000</span> }
+]</pre></div>
+<h3 dir="auto">Port Reuse</h3>
+<p dir="auto"><code class="notranslate">vhostHTTPPort</code> and <code class="notranslate">vhostHTTPSPort</code> in frps can use same port with <code class="notranslate">bindPort</code>. frps will detect the connection's protocol and handle it correspondingly.</p>
+<p dir="auto">What you need to pay attention to is that if you want to configure <code class="notranslate">vhostHTTPSPort</code> and <code class="notranslate">bindPort</code> to the same port, you need to first set <code class="notranslate">transport.tls.disableCustomTLSFirstByte</code> to false.</p>
+<p dir="auto">We would like to try to allow multiple proxies bind a same remote port with different protocols in the future.</p>
+<h3 dir="auto">Bandwidth Limit</h3>
+<h4 dir="auto">For Each Proxy</h4>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+
+[[proxies]]
+name = &quot;ssh&quot;
+type = &quot;tcp&quot;
+localPort = 22
+remotePort = 6000
+transport.bandwidthLimit = &quot;1MB&quot;"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>ssh<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>tcp<span class="pl-pds">"</span></span>
+<span class="pl-smi">localPort</span> = <span class="pl-c1">22</span>
+<span class="pl-smi">remotePort</span> = <span class="pl-c1">6000</span>
+<span class="pl-smi">transport.bandwidthLimit</span> = <span class="pl-s"><span class="pl-pds">"</span>1MB<span class="pl-pds">"</span></span></pre></div>
+<p dir="auto">Set <code class="notranslate">transport.bandwidthLimit</code> in each proxy's configure to enable this feature. Supported units are <code class="notranslate">MB</code> and <code class="notranslate">KB</code>.</p>
+<p dir="auto">Set <code class="notranslate">transport.bandwidthLimitMode</code> to <code class="notranslate">client</code> or <code class="notranslate">server</code> to limit bandwidth on the client or server side. Default is <code class="notranslate">client</code>.</p>
+<h3 dir="auto">TCP Stream Multiplexing</h3>
+<p dir="auto">frp supports tcp stream multiplexing since v0.10.0 like HTTP2 Multiplexing, in which case all logic connections to the same frpc are multiplexed into the same TCP connection.</p>
+<p dir="auto">You can disable this feature by modify <code class="notranslate">frps.toml</code> and <code class="notranslate">frpc.toml</code>:</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frps.toml and frpc.toml, must be same
+transport.tcpMux = false"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frps.toml and frpc.toml, must be same</span>
+<span class="pl-smi">transport.tcpMux</span> = <span class="pl-c1">false</span></pre></div>
+<h3 dir="auto">Support KCP Protocol</h3>
+<p dir="auto">KCP is a fast and reliable protocol that can achieve the transmission effect of a reduction of the average latency by 30% to 40% and reduction of the maximum delay by a factor of three, at the cost of 10% to 20% more bandwidth wasted than TCP.</p>
+<p dir="auto">KCP mode uses UDP as the underlying transport. Using KCP in frp:</p>
+<ol dir="auto">
+<li>Enable KCP in frps:</li>
+</ol>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frps.toml
+bindPort = 7000
+# Specify a UDP port for KCP.
+kcpBindPort = 7000"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frps.toml</span>
+<span class="pl-smi">bindPort</span> = <span class="pl-c1">7000</span>
+<span class="pl-c"><span class="pl-c">#</span> Specify a UDP port for KCP.</span>
+<span class="pl-smi">kcpBindPort</span> = <span class="pl-c1">7000</span></pre></div>
+<p dir="auto">The <code class="notranslate">kcpBindPort</code> number can be the same number as <code class="notranslate">bindPort</code>, since <code class="notranslate">bindPort</code> field specifies a TCP port.</p>
+<ol start="2" dir="auto">
+<li>Configure <code class="notranslate">frpc.toml</code> to use KCP to connect to frps:</li>
+</ol>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+serverAddr = &quot;x.x.x.x&quot;
+# Same as the 'kcpBindPort' in frps.toml
+serverPort = 7000
+transport.protocol = &quot;kcp&quot;"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+<span class="pl-smi">serverAddr</span> = <span class="pl-s"><span class="pl-pds">"</span>x.x.x.x<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> Same as the 'kcpBindPort' in frps.toml</span>
+<span class="pl-smi">serverPort</span> = <span class="pl-c1">7000</span>
+<span class="pl-smi">transport.protocol</span> = <span class="pl-s"><span class="pl-pds">"</span>kcp<span class="pl-pds">"</span></span></pre></div>
+<h3 dir="auto">Support QUIC Protocol</h3>
+<p dir="auto">QUIC is a new multiplexed transport built on top of UDP.</p>
+<p dir="auto">Using QUIC in frp:</p>
+<ol dir="auto">
+<li>Enable QUIC in frps:</li>
+</ol>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frps.toml
+bindPort = 7000
+# Specify a UDP port for QUIC.
+quicBindPort = 7000"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frps.toml</span>
+<span class="pl-smi">bindPort</span> = <span class="pl-c1">7000</span>
+<span class="pl-c"><span class="pl-c">#</span> Specify a UDP port for QUIC.</span>
+<span class="pl-smi">quicBindPort</span> = <span class="pl-c1">7000</span></pre></div>
+<p dir="auto">The <code class="notranslate">quicBindPort</code> number can be the same number as <code class="notranslate">bindPort</code>, since <code class="notranslate">bindPort</code> field specifies a TCP port.</p>
+<ol start="2" dir="auto">
+<li>Configure <code class="notranslate">frpc.toml</code> to use QUIC to connect to frps:</li>
+</ol>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+serverAddr = &quot;x.x.x.x&quot;
+# Same as the 'quicBindPort' in frps.toml
+serverPort = 7000
+transport.protocol = &quot;quic&quot;"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+<span class="pl-smi">serverAddr</span> = <span class="pl-s"><span class="pl-pds">"</span>x.x.x.x<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> Same as the 'quicBindPort' in frps.toml</span>
+<span class="pl-smi">serverPort</span> = <span class="pl-c1">7000</span>
+<span class="pl-smi">transport.protocol</span> = <span class="pl-s"><span class="pl-pds">"</span>quic<span class="pl-pds">"</span></span></pre></div>
+<h3 dir="auto">Connection Pooling</h3>
+<p dir="auto">By default, frps creates a new frpc connection to the backend service upon a user request. With connection pooling, frps keeps a certain number of pre-established connections, reducing the time needed to establish a connection.</p>
+<p dir="auto">This feature is suitable for a large number of short connections.</p>
+<ol dir="auto">
+<li>Configure the limit of pool count each proxy can use in <code class="notranslate">frps.toml</code>:</li>
+</ol>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frps.toml
+transport.maxPoolCount = 5"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frps.toml</span>
+<span class="pl-smi">transport.maxPoolCount</span> = <span class="pl-c1">5</span></pre></div>
+<ol start="2" dir="auto">
+<li>Enable and specify the number of connection pool:</li>
+</ol>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+transport.poolCount = 1"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+<span class="pl-smi">transport.poolCount</span> = <span class="pl-c1">1</span></pre></div>
+<h3 dir="auto">Load balancing</h3>
+<p dir="auto">Load balancing is supported by <code class="notranslate">group</code>.</p>
+<p dir="auto">This feature is only available for types <code class="notranslate">tcp</code>, <code class="notranslate">http</code>, <code class="notranslate">tcpmux</code> now.</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+
+[[proxies]]
+name = &quot;test1&quot;
+type = &quot;tcp&quot;
+localPort = 8080
+remotePort = 80
+loadBalancer.group = &quot;web&quot;
+loadBalancer.groupKey = &quot;123&quot;
+
+[[proxies]]
+name = &quot;test2&quot;
+type = &quot;tcp&quot;
+localPort = 8081
+remotePort = 80
+loadBalancer.group = &quot;web&quot;
+loadBalancer.groupKey = &quot;123&quot;"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>test1<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>tcp<span class="pl-pds">"</span></span>
+<span class="pl-smi">localPort</span> = <span class="pl-c1">8080</span>
+<span class="pl-smi">remotePort</span> = <span class="pl-c1">80</span>
+<span class="pl-smi">loadBalancer.group</span> = <span class="pl-s"><span class="pl-pds">"</span>web<span class="pl-pds">"</span></span>
+<span class="pl-smi">loadBalancer.groupKey</span> = <span class="pl-s"><span class="pl-pds">"</span>123<span class="pl-pds">"</span></span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>test2<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>tcp<span class="pl-pds">"</span></span>
+<span class="pl-smi">localPort</span> = <span class="pl-c1">8081</span>
+<span class="pl-smi">remotePort</span> = <span class="pl-c1">80</span>
+<span class="pl-smi">loadBalancer.group</span> = <span class="pl-s"><span class="pl-pds">"</span>web<span class="pl-pds">"</span></span>
+<span class="pl-smi">loadBalancer.groupKey</span> = <span class="pl-s"><span class="pl-pds">"</span>123<span class="pl-pds">"</span></span></pre></div>
+<p dir="auto"><code class="notranslate">loadBalancer.groupKey</code> is used for authentication.</p>
+<p dir="auto">Connections to port 80 will be dispatched to proxies in the same group randomly.</p>
+<p dir="auto">For type <code class="notranslate">tcp</code>, <code class="notranslate">remotePort</code> in the same group should be the same.</p>
+<p dir="auto">For type <code class="notranslate">http</code>, <code class="notranslate">customDomains</code>, <code class="notranslate">subdomain</code>, <code class="notranslate">locations</code> should be the same.</p>
+<h3 dir="auto">Service Health Check</h3>
+<p dir="auto">Health check feature can help you achieve high availability with load balancing.</p>
+<p dir="auto">Add <code class="notranslate">healthCheck.type = "tcp"</code> or <code class="notranslate">healthCheck.type = "http"</code> to enable health check.</p>
+<p dir="auto">With health check type <strong>tcp</strong>, the service port will be pinged (TCPing):</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+
+[[proxies]]
+name = &quot;test1&quot;
+type = &quot;tcp&quot;
+localPort = 22
+remotePort = 6000
+# Enable TCP health check
+healthCheck.type = &quot;tcp&quot;
+# TCPing timeout seconds
+healthCheck.timeoutSeconds = 3
+# If health check failed 3 times in a row, the proxy will be removed from frps
+healthCheck.maxFailed = 3
+# A health check every 10 seconds
+healthCheck.intervalSeconds = 10"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>test1<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>tcp<span class="pl-pds">"</span></span>
+<span class="pl-smi">localPort</span> = <span class="pl-c1">22</span>
+<span class="pl-smi">remotePort</span> = <span class="pl-c1">6000</span>
+<span class="pl-c"><span class="pl-c">#</span> Enable TCP health check</span>
+<span class="pl-smi">healthCheck.type</span> = <span class="pl-s"><span class="pl-pds">"</span>tcp<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> TCPing timeout seconds</span>
+<span class="pl-smi">healthCheck.timeoutSeconds</span> = <span class="pl-c1">3</span>
+<span class="pl-c"><span class="pl-c">#</span> If health check failed 3 times in a row, the proxy will be removed from frps</span>
+<span class="pl-smi">healthCheck.maxFailed</span> = <span class="pl-c1">3</span>
+<span class="pl-c"><span class="pl-c">#</span> A health check every 10 seconds</span>
+<span class="pl-smi">healthCheck.intervalSeconds</span> = <span class="pl-c1">10</span></pre></div>
+<p dir="auto">With health check type <strong>http</strong>, an HTTP request will be sent to the service and an HTTP 2xx OK response is expected:</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+
+[[proxies]]
+name = &quot;web&quot;
+type = &quot;http&quot;
+localIP = &quot;127.0.0.1&quot;
+localPort = 80
+customDomains = [&quot;test.example.com&quot;]
+# Enable HTTP health check
+healthCheck.type = &quot;http&quot;
+# frpc will send a GET request to '/status'
+# and expect an HTTP 2xx OK response
+healthCheck.path = &quot;/status&quot;
+healthCheck.timeoutSeconds = 3
+healthCheck.maxFailed = 3
+healthCheck.intervalSeconds = 10"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>web<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>http<span class="pl-pds">"</span></span>
+<span class="pl-smi">localIP</span> = <span class="pl-s"><span class="pl-pds">"</span>127.0.0.1<span class="pl-pds">"</span></span>
+<span class="pl-smi">localPort</span> = <span class="pl-c1">80</span>
+<span class="pl-smi">customDomains</span> = [<span class="pl-s"><span class="pl-pds">"</span>test.example.com<span class="pl-pds">"</span></span>]
+<span class="pl-c"><span class="pl-c">#</span> Enable HTTP health check</span>
+<span class="pl-smi">healthCheck.type</span> = <span class="pl-s"><span class="pl-pds">"</span>http<span class="pl-pds">"</span></span>
+<span class="pl-c"><span class="pl-c">#</span> frpc will send a GET request to '/status'</span>
+<span class="pl-c"><span class="pl-c">#</span> and expect an HTTP 2xx OK response</span>
+<span class="pl-smi">healthCheck.path</span> = <span class="pl-s"><span class="pl-pds">"</span>/status<span class="pl-pds">"</span></span>
+<span class="pl-smi">healthCheck.timeoutSeconds</span> = <span class="pl-c1">3</span>
+<span class="pl-smi">healthCheck.maxFailed</span> = <span class="pl-c1">3</span>
+<span class="pl-smi">healthCheck.intervalSeconds</span> = <span class="pl-c1">10</span></pre></div>
+<h3 dir="auto">Rewriting the HTTP Host Header</h3>
+<p dir="auto">By default frp does not modify the tunneled HTTP requests at all as it's a byte-for-byte copy.</p>
+<p dir="auto">However, speaking of web servers and HTTP requests, your web server might rely on the <code class="notranslate">Host</code> HTTP header to determine the website to be accessed. frp can rewrite the <code class="notranslate">Host</code> header when forwarding the HTTP requests, with the <code class="notranslate">hostHeaderRewrite</code> field:</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+
+[[proxies]]
+name = &quot;web&quot;
+type = &quot;http&quot;
+localPort = 80
+customDomains = [&quot;test.example.com&quot;]
+hostHeaderRewrite = &quot;dev.example.com&quot;"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>web<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>http<span class="pl-pds">"</span></span>
+<span class="pl-smi">localPort</span> = <span class="pl-c1">80</span>
+<span class="pl-smi">customDomains</span> = [<span class="pl-s"><span class="pl-pds">"</span>test.example.com<span class="pl-pds">"</span></span>]
+<span class="pl-smi">hostHeaderRewrite</span> = <span class="pl-s"><span class="pl-pds">"</span>dev.example.com<span class="pl-pds">"</span></span></pre></div>
+<p dir="auto">The HTTP request will have the <code class="notranslate">Host</code> header rewritten to <code class="notranslate">Host: dev.example.com</code> when it reaches the actual web server, although the request from the browser probably has <code class="notranslate">Host: test.example.com</code>.</p>
+<h3 dir="auto">Setting other HTTP Headers</h3>
+<p dir="auto">Similar to <code class="notranslate">Host</code>, You can override other HTTP request and response headers with proxy type <code class="notranslate">http</code>.</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+
+[[proxies]]
+name = &quot;web&quot;
+type = &quot;http&quot;
+localPort = 80
+customDomains = [&quot;test.example.com&quot;]
+hostHeaderRewrite = &quot;dev.example.com&quot;
+requestHeaders.set.x-from-where = &quot;frp&quot;
+responseHeaders.set.foo = &quot;bar&quot;"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>web<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>http<span class="pl-pds">"</span></span>
+<span class="pl-smi">localPort</span> = <span class="pl-c1">80</span>
+<span class="pl-smi">customDomains</span> = [<span class="pl-s"><span class="pl-pds">"</span>test.example.com<span class="pl-pds">"</span></span>]
+<span class="pl-smi">hostHeaderRewrite</span> = <span class="pl-s"><span class="pl-pds">"</span>dev.example.com<span class="pl-pds">"</span></span>
+<span class="pl-smi">requestHeaders.set.x-from-where</span> = <span class="pl-s"><span class="pl-pds">"</span>frp<span class="pl-pds">"</span></span>
+<span class="pl-smi">responseHeaders.set.foo</span> = <span class="pl-s"><span class="pl-pds">"</span>bar<span class="pl-pds">"</span></span></pre></div>
+<p dir="auto">In this example, it will set header <code class="notranslate">x-from-where: frp</code> in the HTTP request and <code class="notranslate">foo: bar</code> in the HTTP response.</p>
+<h3 dir="auto">Get Real IP</h3>
+<h4 dir="auto">HTTP X-Forwarded-For</h4>
+<p dir="auto">This feature is for <code class="notranslate">http</code> proxies or proxies with the <code class="notranslate">https2http</code> and <code class="notranslate">https2https</code> plugins enabled.</p>
+<p dir="auto">You can get user's real IP from HTTP request headers <code class="notranslate">X-Forwarded-For</code>.</p>
+<h4 dir="auto">Proxy Protocol</h4>
+<p dir="auto">frp supports Proxy Protocol to send user's real IP to local services. It support all types except UDP.</p>
+<p dir="auto">Here is an example for https service:</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+
+[[proxies]]
+name = &quot;web&quot;
+type = &quot;https&quot;
+localPort = 443
+customDomains = [&quot;test.example.com&quot;]
+
+# now v1 and v2 are supported
+transport.proxyProtocolVersion = &quot;v2&quot;"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>web<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>https<span class="pl-pds">"</span></span>
+<span class="pl-smi">localPort</span> = <span class="pl-c1">443</span>
+<span class="pl-smi">customDomains</span> = [<span class="pl-s"><span class="pl-pds">"</span>test.example.com<span class="pl-pds">"</span></span>]
+
+<span class="pl-c"><span class="pl-c">#</span> now v1 and v2 are supported</span>
+<span class="pl-smi">transport.proxyProtocolVersion</span> = <span class="pl-s"><span class="pl-pds">"</span>v2<span class="pl-pds">"</span></span></pre></div>
+<p dir="auto">You can enable Proxy Protocol support in nginx to expose user's real IP in HTTP header <code class="notranslate">X-Real-IP</code>, and then read <code class="notranslate">X-Real-IP</code> header in your web service for the real IP.</p>
+<h3 dir="auto">Require HTTP Basic Auth (Password) for Web Services</h3>
+<p dir="auto">Anyone who can guess your tunnel URL can access your local web server unless you protect it with a password.</p>
+<p dir="auto">This enforces HTTP Basic Auth on all requests with the username and password specified in frpc's configure file.</p>
+<p dir="auto">It can only be enabled when proxy type is http.</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+
+[[proxies]]
+name = &quot;web&quot;
+type = &quot;http&quot;
+localPort = 80
+customDomains = [&quot;test.example.com&quot;]
+httpUser = &quot;abc&quot;
+httpPassword = &quot;abc&quot;"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>web<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>http<span class="pl-pds">"</span></span>
+<span class="pl-smi">localPort</span> = <span class="pl-c1">80</span>
+<span class="pl-smi">customDomains</span> = [<span class="pl-s"><span class="pl-pds">"</span>test.example.com<span class="pl-pds">"</span></span>]
+<span class="pl-smi">httpUser</span> = <span class="pl-s"><span class="pl-pds">"</span>abc<span class="pl-pds">"</span></span>
+<span class="pl-smi">httpPassword</span> = <span class="pl-s"><span class="pl-pds">"</span>abc<span class="pl-pds">"</span></span></pre></div>
+<p dir="auto">Visit <code class="notranslate">http://test.example.com</code> in the browser and now you are prompted to enter the username and password.</p>
+<h3 dir="auto">Custom Subdomain Names</h3>
+<p dir="auto">It is convenient to use <code class="notranslate">subdomain</code> configure for http and https types when many people share one frps server.</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frps.toml
+subDomainHost = &quot;frps.com&quot;"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frps.toml</span>
+<span class="pl-smi">subDomainHost</span> = <span class="pl-s"><span class="pl-pds">"</span>frps.com<span class="pl-pds">"</span></span></pre></div>
+<p dir="auto">Resolve <code class="notranslate">*.frps.com</code> to the frps server's IP. This is usually called a Wildcard DNS record.</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+
+[[proxies]]
+name = &quot;web&quot;
+type = &quot;http&quot;
+localPort = 80
+subdomain = &quot;test&quot;"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>web<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>http<span class="pl-pds">"</span></span>
+<span class="pl-smi">localPort</span> = <span class="pl-c1">80</span>
+<span class="pl-smi">subdomain</span> = <span class="pl-s"><span class="pl-pds">"</span>test<span class="pl-pds">"</span></span></pre></div>
+<p dir="auto">Now you can visit your web service on <code class="notranslate">test.frps.com</code>.</p>
+<p dir="auto">Note that if <code class="notranslate">subdomainHost</code> is not empty, <code class="notranslate">customDomains</code> should not be the subdomain of <code class="notranslate">subdomainHost</code>.</p>
+<h3 dir="auto">URL Routing</h3>
+<p dir="auto">frp supports forwarding HTTP requests to different backend web services by url routing.</p>
+<p dir="auto"><code class="notranslate">locations</code> specifies the prefix of URL used for routing. frps first searches for the most specific prefix location given by literal strings regardless of the listed order.</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+
+[[proxies]]
+name = &quot;web01&quot;
+type = &quot;http&quot;
+localPort = 80
+customDomains = [&quot;web.example.com&quot;]
+locations = [&quot;/&quot;]
+
+[[proxies]]
+name = &quot;web02&quot;
+type = &quot;http&quot;
+localPort = 81
+customDomains = [&quot;web.example.com&quot;]
+locations = [&quot;/news&quot;, &quot;/about&quot;]"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>web01<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>http<span class="pl-pds">"</span></span>
+<span class="pl-smi">localPort</span> = <span class="pl-c1">80</span>
+<span class="pl-smi">customDomains</span> = [<span class="pl-s"><span class="pl-pds">"</span>web.example.com<span class="pl-pds">"</span></span>]
+<span class="pl-smi">locations</span> = [<span class="pl-s"><span class="pl-pds">"</span>/<span class="pl-pds">"</span></span>]
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>web02<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>http<span class="pl-pds">"</span></span>
+<span class="pl-smi">localPort</span> = <span class="pl-c1">81</span>
+<span class="pl-smi">customDomains</span> = [<span class="pl-s"><span class="pl-pds">"</span>web.example.com<span class="pl-pds">"</span></span>]
+<span class="pl-smi">locations</span> = [<span class="pl-s"><span class="pl-pds">"</span>/news<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>/about<span class="pl-pds">"</span></span>]</pre></div>
+<p dir="auto">HTTP requests with URL prefix <code class="notranslate">/news</code> or <code class="notranslate">/about</code> will be forwarded to <strong>web02</strong> and other requests to <strong>web01</strong>.</p>
+<h3 dir="auto">TCP Port Multiplexing</h3>
+<p dir="auto">frp supports receiving TCP sockets directed to different proxies on a single port on frps, similar to <code class="notranslate">vhostHTTPPort</code> and <code class="notranslate">vhostHTTPSPort</code>.</p>
+<p dir="auto">The only supported TCP port multiplexing method available at the moment is <code class="notranslate">httpconnect</code> - HTTP CONNECT tunnel.</p>
+<p dir="auto">When setting <code class="notranslate">tcpmuxHTTPConnectPort</code> to anything other than 0 in frps, frps will listen on this port for HTTP CONNECT requests.</p>
+<p dir="auto">The host of the HTTP CONNECT request will be used to match the proxy in frps. Proxy hosts can be configured in frpc by configuring <code class="notranslate">customDomains</code> and / or <code class="notranslate">subdomain</code> under <code class="notranslate">tcpmux</code> proxies, when <code class="notranslate">multiplexer = "httpconnect"</code>.</p>
+<p dir="auto">For example:</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frps.toml
+bindPort = 7000
+tcpmuxHTTPConnectPort = 1337"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frps.toml</span>
+<span class="pl-smi">bindPort</span> = <span class="pl-c1">7000</span>
+<span class="pl-smi">tcpmuxHTTPConnectPort</span> = <span class="pl-c1">1337</span></pre></div>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+serverAddr = &quot;x.x.x.x&quot;
+serverPort = 7000
+
+[[proxies]]
+name = &quot;proxy1&quot;
+type = &quot;tcpmux&quot;
+multiplexer = &quot;httpconnect&quot;
+customDomains = [&quot;test1&quot;]
+localPort = 80
+
+[[proxies]]
+name = &quot;proxy2&quot;
+type = &quot;tcpmux&quot;
+multiplexer = &quot;httpconnect&quot;
+customDomains = [&quot;test2&quot;]
+localPort = 8080"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+<span class="pl-smi">serverAddr</span> = <span class="pl-s"><span class="pl-pds">"</span>x.x.x.x<span class="pl-pds">"</span></span>
+<span class="pl-smi">serverPort</span> = <span class="pl-c1">7000</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>proxy1<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>tcpmux<span class="pl-pds">"</span></span>
+<span class="pl-smi">multiplexer</span> = <span class="pl-s"><span class="pl-pds">"</span>httpconnect<span class="pl-pds">"</span></span>
+<span class="pl-smi">customDomains</span> = [<span class="pl-s"><span class="pl-pds">"</span>test1<span class="pl-pds">"</span></span>]
+<span class="pl-smi">localPort</span> = <span class="pl-c1">80</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>proxy2<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>tcpmux<span class="pl-pds">"</span></span>
+<span class="pl-smi">multiplexer</span> = <span class="pl-s"><span class="pl-pds">"</span>httpconnect<span class="pl-pds">"</span></span>
+<span class="pl-smi">customDomains</span> = [<span class="pl-s"><span class="pl-pds">"</span>test2<span class="pl-pds">"</span></span>]
+<span class="pl-smi">localPort</span> = <span class="pl-c1">8080</span></pre></div>
+<p dir="auto">In the above configuration - frps can be contacted on port 1337 with a HTTP CONNECT header such as:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="CONNECT test1 HTTP/1.1\r\n\r\n"><pre class="notranslate"><code class="notranslate">CONNECT test1 HTTP/1.1\r\n\r\n
+</code></pre></div>
+<p dir="auto">and the connection will be routed to <code class="notranslate">proxy1</code>.</p>
+<h3 dir="auto">Connecting to frps via PROXY</h3>
+<p dir="auto">frpc can connect to frps through proxy if you set OS environment variable <code class="notranslate">HTTP_PROXY</code>, or if <code class="notranslate">transport.proxyURL</code> is set in frpc.toml file.</p>
+<p dir="auto">It only works when protocol is tcp.</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+serverAddr = &quot;x.x.x.x&quot;
+serverPort = 7000
+transport.proxyURL = &quot;http://user:pwd@192.168.1.128:8080&quot;"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+<span class="pl-smi">serverAddr</span> = <span class="pl-s"><span class="pl-pds">"</span>x.x.x.x<span class="pl-pds">"</span></span>
+<span class="pl-smi">serverPort</span> = <span class="pl-c1">7000</span>
+<span class="pl-smi">transport.proxyURL</span> = <span class="pl-s"><span class="pl-pds">"</span>http://user:pwd@192.168.1.128:8080<span class="pl-pds">"</span></span></pre></div>
+<h3 dir="auto">Port range mapping</h3>
+<p dir="auto"><em>Added in v0.56.0</em></p>
+<p dir="auto">We can use the range syntax of Go template combined with the built-in <code class="notranslate">parseNumberRangePair</code> function to achieve port range mapping.</p>
+<p dir="auto">The following example, when run, will create 8 proxies named <code class="notranslate">test-6000, test-6001 ... test-6007</code>, each mapping the remote port to the local port.</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="{{- range $_, $v := parseNumberRangePair &quot;6000-6006,6007&quot; &quot;6000-6006,6007&quot; }}
+[[proxies]]
+name = &quot;tcp-{{ $v.First }}&quot;
+type = &quot;tcp&quot;
+localPort = {{ $v.First }}
+remotePort = {{ $v.Second }}
+{{- end }}"><pre class="notranslate"><code class="notranslate">{{- range $_, $v := parseNumberRangePair "6000-6006,6007" "6000-6006,6007" }}
+[[proxies]]
+name = "tcp-{{ $v.First }}"
+type = "tcp"
+localPort = {{ $v.First }}
+remotePort = {{ $v.Second }}
+{{- end }}
+</code></pre></div>
+<h3 dir="auto">Client Plugins</h3>
+<p dir="auto">frpc only forwards requests to local TCP or UDP ports by default.</p>
+<p dir="auto">Plugins are used for providing rich features. There are built-in plugins such as <code class="notranslate">unix_domain_socket</code>, <code class="notranslate">http_proxy</code>, <code class="notranslate">socks5</code>, <code class="notranslate">static_file</code>, <code class="notranslate">http2https</code>, <code class="notranslate">https2http</code>, <code class="notranslate">https2https</code> and you can see <a href="#example-usage">example usage</a>.</p>
+<p dir="auto">Using plugin <strong>http_proxy</strong>:</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frpc.toml
+
+[[proxies]]
+name = &quot;http_proxy&quot;
+type = &quot;tcp&quot;
+remotePort = 6000
+[proxies.plugin]
+type = &quot;http_proxy&quot;
+httpUser = &quot;abc&quot;
+httpPassword = &quot;abc&quot;"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frpc.toml</span>
+
+[[<span class="pl-en">proxies</span>]]
+<span class="pl-smi">name</span> = <span class="pl-s"><span class="pl-pds">"</span>http_proxy<span class="pl-pds">"</span></span>
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>tcp<span class="pl-pds">"</span></span>
+<span class="pl-smi">remotePort</span> = <span class="pl-c1">6000</span>
+[<span class="pl-en">proxies</span>.<span class="pl-en">plugin</span>]
+<span class="pl-smi">type</span> = <span class="pl-s"><span class="pl-pds">"</span>http_proxy<span class="pl-pds">"</span></span>
+<span class="pl-smi">httpUser</span> = <span class="pl-s"><span class="pl-pds">"</span>abc<span class="pl-pds">"</span></span>
+<span class="pl-smi">httpPassword</span> = <span class="pl-s"><span class="pl-pds">"</span>abc<span class="pl-pds">"</span></span></pre></div>
+<p dir="auto"><code class="notranslate">httpUser</code> and <code class="notranslate">httpPassword</code> are configuration parameters used in <code class="notranslate">http_proxy</code> plugin.</p>
+<h3 dir="auto">Server Manage Plugins</h3>
+<p dir="auto">Read the <a href="/doc/server_plugin.md">document</a>.</p>
+<p dir="auto">Find more plugins in <a href="https://github.com/gofrp/plugin">gofrp/plugin</a>.</p>
+<h3 dir="auto">SSH Tunnel Gateway</h3>
+<p dir="auto"><em>added in v0.53.0</em></p>
+<p dir="auto">frp supports listening to an SSH port on the frps side and achieves TCP protocol proxying through the SSH -R protocol, without relying on frpc.</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# frps.toml
+sshTunnelGateway.bindPort = 2200"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> frps.toml</span>
+<span class="pl-smi">sshTunnelGateway.bindPort</span> = <span class="pl-c1">2200</span></pre></div>
+<p dir="auto">When running <code class="notranslate">./frps -c frps.toml</code>, a private key file named <code class="notranslate">.autogen_ssh_key</code> will be automatically created in the current working directory. This generated private key file will be used by the SSH server in frps.</p>
+<p dir="auto">Executing the command</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="ssh -R :80:127.0.0.1:8080 v0@{frp address} -p 2200 tcp --proxy_name &quot;test-tcp&quot; --remote_port 9090"><pre class="notranslate">ssh -R :80:127.0.0.1:8080 v0@{frp address} -p 2200 tcp --proxy_name <span class="pl-s"><span class="pl-pds">"</span>test-tcp<span class="pl-pds">"</span></span> --remote_port 9090</pre></div>
+<p dir="auto">sets up a proxy on frps that forwards the local 8080 service to the port 9090.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="frp (via SSH) (Ctrl+C to quit)
+
+User:
+ProxyName: test-tcp
+Type: tcp
+RemoteAddress: :9090"><pre class="notranslate">frp (via SSH) (Ctrl+C to quit)
+
+User:
+ProxyName: test-tcp
+Type: tcp
+RemoteAddress: :9090</pre></div>
+<p dir="auto">This is equivalent to:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="frpc tcp --proxy_name &quot;test-tcp&quot; --local_ip 127.0.0.1 --local_port 8080 --remote_port 9090"><pre class="notranslate">frpc tcp --proxy_name <span class="pl-s"><span class="pl-pds">"</span>test-tcp<span class="pl-pds">"</span></span> --local_ip 127.0.0.1 --local_port 8080 --remote_port 9090</pre></div>
+<p dir="auto">Please refer to this <a href="/doc/ssh_tunnel_gateway.md">document</a> for more information.</p>
+<h3 dir="auto">Virtual Network (VirtualNet)</h3>
+<p dir="auto"><em>Alpha feature added in v0.62.0</em></p>
+<p dir="auto">The VirtualNet feature enables frp to create and manage virtual network connections between clients and visitors through a TUN interface. This allows for IP-level routing between machines, extending frp beyond simple port forwarding to support full network connectivity.</p>
+<p dir="auto">For detailed information about configuration and usage, please refer to the <a href="/doc/virtual_net.md">VirtualNet documentation</a>.</p>
+<h2 dir="auto">Feature Gates</h2>
+<p dir="auto">frp supports feature gates to enable or disable experimental features. This allows users to try out new features before they're considered stable.</p>
+<h3 dir="auto">Available Feature Gates</h3>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>Name</th>
+<th>Stage</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VirtualNet</td>
+<td>ALPHA</td>
+<td>false</td>
+<td>Virtual network capabilities for frp</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<h3 dir="auto">Enabling Feature Gates</h3>
+<p dir="auto">To enable an experimental feature, add the feature gate to your configuration:</p>
+<div class="highlight highlight-source-toml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="featureGates = { VirtualNet = true }"><pre class="notranslate"><span class="pl-smi">featureGates</span> = { <span class="pl-smi">VirtualNet</span> = <span class="pl-c1">true</span> }</pre></div>
+<h3 dir="auto">Feature Lifecycle</h3>
+<p dir="auto">Features typically go through three stages:</p>
+<ol dir="auto">
+<li><strong>ALPHA</strong>: Disabled by default, may be unstable</li>
+<li><strong>BETA</strong>: May be enabled by default, more stable but still evolving</li>
+<li><strong>GA (Generally Available)</strong>: Enabled by default, ready for production use</li>
+</ol>
+<h2 dir="auto">Related Projects</h2>
+<ul dir="auto">
+<li><a href="https://github.com/gofrp/plugin">gofrp/plugin</a> - A repository for frp plugins that contains a variety of plugins implemented based on the frp extension mechanism, meeting the customization needs of different scenarios.</li>
+<li><a href="https://github.com/gofrp/tiny-frpc">gofrp/tiny-frpc</a> - A lightweight version of the frp client (around 3.5MB at minimum) implemented using the ssh protocol, supporting some of the most commonly used features, suitable for devices with limited resources.</li>
+</ul>
+<h2 dir="auto">Contributing</h2>
+<p dir="auto">Interested in getting involved? We would like to help you!</p>
+<ul dir="auto">
+<li>Take a look at our <a href="https://github.com/fatedier/frp/issues">issues list</a> and consider sending a Pull Request to <strong>dev branch</strong>.</li>
+<li>If you want to add a new feature, please create an issue first to describe the new feature, as well as the implementation approach. Once a proposal is accepted, create an implementation of the new features and submit it as a pull request.</li>
+<li>Sorry for my poor English. Improvements for this document are welcome, even some typo fixes.</li>
+<li>If you have great ideas, send an email to <a href="mailto:fatedier@gmail.com">fatedier@gmail.com</a>.</li>
+</ul>
+<p dir="auto"><strong>Note: We prefer you to give your advise in <a href="https://github.com/fatedier/frp/issues">issues</a>, so others with a same question can search it quickly and we don't need to answer them repeatedly.</strong></p>
+<h2 dir="auto">Donation</h2>
+<p dir="auto">If frp helps you a lot, you can support us by:</p>
+<h3 dir="auto">GitHub Sponsors</h3>
+<p dir="auto">Support us by <a href="https://github.com/sponsors/fatedier">Github Sponsors</a>.</p>
+<p dir="auto">You can have your company's logo placed on README file of this project.</p>
+<h3 dir="auto">PayPal</h3>
+<p dir="auto">Donate money by <a href="https://www.paypal.me/fatedier" rel="nofollow">PayPal</a> to my account <strong><a href="mailto:fatedier@gmail.com">fatedier@gmail.com</a></strong>.</p></div></div></div><div class="gg-issues-prev-next"><a class="prev" href="/issues/175"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M2 3h17a2 2 0 0 1 2 2v4h-2V5H2v14h17v-4h2v4a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m15 12v-2h7v-2h-7V9l-4 3l4 3M4 13h7v-2H4v2m0-4h7V7H4v2m0 8h4v-2H4v2Z"/></svg>AutohomeCorp/frostmourne: 基于 Elasticsearch,  Prometheus,  SkyWalking,  InfluxDB，MySQL/TiDB，ClickHouse,  SQLServer,  IoTDB 数据的分布式监控报警系统</span></a><a class="next" href="/issues/177"><span>shadow1ng/fscan: 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M22 3H5a2 2 0 0 0-2 2v4h2V5h17v14H5v-4H3v4a2 2 0 0 0 2 2h17a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2M7 15v-2H0v-2h7V9l4 3l-4 3m13-2h-7v-2h7v2m0-4h-7V7h7v2m-3 8h-4v-2h4v2Z"/></svg></span></a></div><div class="answer-content"><div class="comments"></div></div></div></div></main><footer><div class="license"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img style="width:60px;height:21px" src="/static/license-83d755bd405fbe51c87dc088baf26299.svg" alt="License"/></a></div><div class="copyright"><span>Copyright ©<!-- --> <!-- -->2025<!-- -->-present</span><a class="owner" href="https://github.com/awesome-ops/awesome-ops.github.io" target="_blank">awesome-ops/awesome-ops.github.io</a>.</div><span class="powered">Powered by<a class="owner" title="GG (Gatsby + GitHub) - A gatsby website builder based on github discussions" href="https://github.com/lencx/gg" target="_blank">gg</a></span></footer></div><div id="gg-backtop" class="hide"><svg viewBox="0 0 98 125" xmlns="http://www.w3.org/2000/svg"><path d="m.41627505 120.505813c.36557376-2.799314 38.38567845-112.09375627 40.40633855-116.52273479 2.0206601-4.42897853 7.0443939-6.06190829 10.0049342.20172081 1.9736935 4.17575274 17.3630227 42.22464148 46.1679874 114.14666598.3068629 1.030234.4237748 1.755017.3507358 2.174348-.4483666 2.574161-2.3292736 3.429521-4.6125739 2.516093-15.0683018-6.028033-36.2681037-23.1692513-43.8663627-23.1692513-7.5982589 0-27.0568176 12.9171643-43.18383202 23.1692513-.96511235.613531-1.91473089 1.069619-2.88840599 1.149501s-2.74439509-.86628-2.37882134-3.665594z" fill="var(--gg-icon)" fill-rule="evenodd"></path></svg></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/issues/176";window.___webpackCompilationHash="24ed58306e97f1c1f657";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-97dd130bca8800dece7d.js"],"app":["/app-7383f855f15f63329e5f.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-2d05d9e504a620062115.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-408674d1ce0d96365c3f.js"],"component---src-templates-archives-tsx":["/component---src-templates-archives-tsx-06d205e572129bb8618c.js"],"component---src-templates-issues-tsx":["/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js"],"component---src-templates-labels-category-tsx":["/component---src-templates-labels-category-tsx-5456164ce90934624119.js"],"component---src-templates-labels-tsx":["/component---src-templates-labels-tsx-ee7b95bd8aa06617f372.js"],"component---src-templates-nav-category-tsx":["/component---src-templates-nav-category-tsx-91c7d8cb3880e3e0fda2.js"],"component---src-templates-nav-labels-tsx":["/component---src-templates-nav-labels-tsx-ae07fd835c5a914973d3.js"]};/*]]>*/</script><script src="/polyfill-97dd130bca8800dece7d.js" nomodule=""></script><script src="/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js" async=""></script><script src="/fc369a2ef6459b03f38591687cef4a587495c716-f468df31cbdaf6ffa970.js" async=""></script><script src="/app-7383f855f15f63329e5f.js" async=""></script><script src="/framework-86c8a5417e68dc3cefff.js" async=""></script><script src="/webpack-runtime-4fee7405b8a071e8c34e.js" async=""></script></body></html>

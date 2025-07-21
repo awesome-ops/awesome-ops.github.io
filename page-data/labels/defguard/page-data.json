@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/defguard",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"DefGuard/defguard: 一款真正的零信任 WireGuard® VPN，具备双重身份验证 (2FA)/多重身份验证 (MFA)","number":111}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VJiQ","name":"DefGuard","color":"bef92a","description":null},"name":"DefGuard","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

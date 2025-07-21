@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/beemdevelopment",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"beemdevelopment/Aegis: 一款免费、安全且开源的 Android 2 FA 应用程序。界面优美，支持扫描以及手动输入，支持备份。","number":12}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TLsQ","name":"beemdevelopment","color":"f70d83","description":null},"name":"beemdevelopment","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

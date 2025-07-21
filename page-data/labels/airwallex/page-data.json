@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/airwallex",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"airwallex/k8s-pod-restart-info-collector: 监视 Pod 更改并在 Pod 重新启动时将 K8s Pod 重新启动原因、日志和事件收集到 Slack 通道","number":263}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7YVug","name":"airwallex","color":"81b950","description":null},"name":"airwallex","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

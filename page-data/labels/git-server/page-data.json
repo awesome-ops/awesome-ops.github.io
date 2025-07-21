@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/git-server",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"PGYER/codefever: 具有 CI/CD 和看板的自托管 Git 服务器","number":91}},{"node":{"title":"go-gitea/gitea: 包括 Git 托管、代码审查、团队协作、包注册和 CI/CD，功能强大，值得一试。fork 自 Gogs","number":182}},{"node":{"title":"gogs/gogs: 一个最简单、最快速和最轻松的方式搭建自助 Git 服务，基于 Golang 开发，支持多平台。","number":195}},{"node":{"title":"theonedev/onedev: 完全免费开源的 Git 代码托管服务，支持一行命令安装到自己服务器","number":413}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Ut6A","name":"Git-Server","color":"0da45a","description":null},"name":"Git-Server","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

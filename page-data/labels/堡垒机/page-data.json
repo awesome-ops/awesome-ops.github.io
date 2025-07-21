@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/堡垒机",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"TNK-Studio/gortal: 一个使用 Go 语言开发的，超级轻量的跳板机服务。","number":205}},{"node":{"title":"lwch/natpass: 主机管理工具，支持 Shell 管理，支持远程桌面管理","number":387}},{"node":{"title":"dushixiang/next-terminal: 一个 Golang 开发的简单好用安全的开源交互审计系统，支持 RDP、SSH、VNC、Telnet、Kubernetes 协议","number":394}},{"node":{"title":"veops/oneterm: 一款简单、轻量、灵活的企业级堡垒机产品，基于4A理念","number":414}},{"node":{"title":"dromara/orion-visor: 一款高颜值、现代化的智能运维&轻量堡垒机平台。","number":421}},{"node":{"title":"yinheli/sshw: 一款实现了类似 jumpserver 登陆界面的终端 SSH 工具","number":537}},{"node":{"title":"trzsz/trzsz-ssh: 支持 trzsz ( trz / tsz ) 的 ssh 客户端，支持搜索和选择服务器进行批量登录，支持记住密码","number":576}},{"node":{"title":"axetroy/wsm: 通过 Web 来管理远端服务器，简易的堡垒机","number":612}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7XEdw","name":"堡垒机","color":"f4c6dd","description":null},"name":"堡垒机","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

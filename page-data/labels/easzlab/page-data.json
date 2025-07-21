@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/easzlab",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"easzlab/kubeasz:  使用 Ansible 脚本安装 K8S 集群，介绍组件交互原理，方便直接，不受国内网络环境影响 ","number":305}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7ZUaw","name":"easzlab","color":"01c755","description":null},"name":"easzlab","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/axetroy",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"axetroy/wsm: 通过 Web 来管理远端服务器，简易的堡垒机","number":612}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9ilng","name":"axetroy","color":"9cb2ca","description":null},"name":"axetroy","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

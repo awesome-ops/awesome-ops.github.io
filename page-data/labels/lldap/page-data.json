@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/lldap",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"lldap/lldap: 一个基于 Rust 编写的轻量 ldap 服务端，提供了简单的 UI 界面，注意，它没有实现完整的 ldap。","number":353}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7aSkw","name":"lldap","color":"435425","description":null},"name":"lldap","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

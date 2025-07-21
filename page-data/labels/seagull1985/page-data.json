@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/seagull1985",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"seagull1985/LuckyFrameWeb: 一款免费开源的测试平台，最大的特点是全纬度覆盖了接口自动化、 WEB UI自动化、 APP自动化，并且支持分布式测试，测试关键字驱动也很大程度上解决了测试同学代码基础弱的问题。","number":360}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7ablQ","name":"seagull1985","color":"db5755","description":null},"name":"seagull1985","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

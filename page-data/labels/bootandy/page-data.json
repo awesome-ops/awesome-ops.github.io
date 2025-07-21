@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/bootandy",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"bootandy/dust: 一个现代的 du (磁盘使用情况) 命令行工具，用于查看磁盘使用情况","number":141}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VvMA","name":"bootandy","color":"be840f","description":null},"name":"bootandy","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

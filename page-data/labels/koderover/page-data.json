@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/koderover",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"koderover/zadig: 基于 Kubernetes 研发的自助式云原生 DevOps 平台","number":624}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9is2g","name":"koderover","color":"717e69","description":null},"name":"koderover","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/rqlite",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"rqlite/rqlite: 一个关系型数据库，它兼具 SQLite 的简洁性以及强大、容错的分布式系统。","number":488}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7dKVg","name":"rqlite","color":"499bad","description":null},"name":"rqlite","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

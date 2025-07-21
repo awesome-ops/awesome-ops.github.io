@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/headlamp-k8s",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"headlamp-k8s/headlamp: Headlamp 是一个易于使用且可扩展的 Kubernetes Web UI。","number":222}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Xbaw","name":"headlamp-k8s","color":"bcc653","description":null},"name":"headlamp-k8s","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

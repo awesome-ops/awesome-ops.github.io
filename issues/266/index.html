@@ -1,0 +1,1773 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/><meta name="theme-color" content="#FFFFFF"/><meta name="generator" content="Gatsby 4.11.3"/><style data-href="/styles.3aaba633489943369223.css" data-identity="gatsby-global-css">@media (prefers-color-scheme:dark){.markdown-body{--color-prettylights-syntax-comment:#8b949e;--color-prettylights-syntax-constant:#79c0ff;--color-prettylights-syntax-entity:#d2a8ff;--color-prettylights-syntax-storage-modifier-import:#c9d1d9;--color-prettylights-syntax-entity-tag:#7ee787;--color-prettylights-syntax-keyword:#ff7b72;--color-prettylights-syntax-string:#a5d6ff;--color-prettylights-syntax-variable:#ffa657;--color-prettylights-syntax-brackethighlighter-unmatched:#f85149;--color-prettylights-syntax-invalid-illegal-text:#f0f6fc;--color-prettylights-syntax-invalid-illegal-bg:#8e1519;--color-prettylights-syntax-carriage-return-text:#f0f6fc;--color-prettylights-syntax-carriage-return-bg:#b62324;--color-prettylights-syntax-string-regexp:#7ee787;--color-prettylights-syntax-markup-list:#f2cc60;--color-prettylights-syntax-markup-heading:#1f6feb;--color-prettylights-syntax-markup-italic:#c9d1d9;--color-prettylights-syntax-markup-bold:#c9d1d9;--color-prettylights-syntax-markup-deleted-text:#ffdcd7;--color-prettylights-syntax-markup-deleted-bg:#67060c;--color-prettylights-syntax-markup-inserted-text:#aff5b4;--color-prettylights-syntax-markup-inserted-bg:#033a16;--color-prettylights-syntax-markup-changed-text:#ffdfb6;--color-prettylights-syntax-markup-changed-bg:#5a1e02;--color-prettylights-syntax-markup-ignored-text:#c9d1d9;--color-prettylights-syntax-markup-ignored-bg:#1158c7;--color-prettylights-syntax-meta-diff-range:#d2a8ff;--color-prettylights-syntax-brackethighlighter-angle:#8b949e;--color-prettylights-syntax-sublimelinter-gutter-mark:#484f58;--color-prettylights-syntax-constant-other-reference-link:#a5d6ff;--color-fg-default:#c9d1d9;--color-fg-muted:#8b949e;--color-fg-subtle:#484f58;--color-canvas-default:#0d1117;--color-canvas-subtle:#161b22;--color-border-default:#30363d;--color-border-muted:#21262d;--color-neutral-muted:hsla(215,8%,47%,.4);--color-accent-fg:#58a6ff;--color-accent-emphasis:#1f6feb;--color-attention-subtle:rgba(187,128,9,.15);--color-danger-fg:#f85149;color-scheme:dark}}@media (prefers-color-scheme:light){.markdown-body{--color-prettylights-syntax-comment:#6e7781;--color-prettylights-syntax-constant:#0550ae;--color-prettylights-syntax-entity:#8250df;--color-prettylights-syntax-storage-modifier-import:#24292f;--color-prettylights-syntax-entity-tag:#116329;--color-prettylights-syntax-keyword:#cf222e;--color-prettylights-syntax-string:#0a3069;--color-prettylights-syntax-variable:#953800;--color-prettylights-syntax-brackethighlighter-unmatched:#82071e;--color-prettylights-syntax-invalid-illegal-text:#f6f8fa;--color-prettylights-syntax-invalid-illegal-bg:#82071e;--color-prettylights-syntax-carriage-return-text:#f6f8fa;--color-prettylights-syntax-carriage-return-bg:#cf222e;--color-prettylights-syntax-string-regexp:#116329;--color-prettylights-syntax-markup-list:#3b2300;--color-prettylights-syntax-markup-heading:#0550ae;--color-prettylights-syntax-markup-italic:#24292f;--color-prettylights-syntax-markup-bold:#24292f;--color-prettylights-syntax-markup-deleted-text:#82071e;--color-prettylights-syntax-markup-deleted-bg:#ffebe9;--color-prettylights-syntax-markup-inserted-text:#116329;--color-prettylights-syntax-markup-inserted-bg:#dafbe1;--color-prettylights-syntax-markup-changed-text:#953800;--color-prettylights-syntax-markup-changed-bg:#ffd8b5;--color-prettylights-syntax-markup-ignored-text:#eaeef2;--color-prettylights-syntax-markup-ignored-bg:#0550ae;--color-prettylights-syntax-meta-diff-range:#8250df;--color-prettylights-syntax-brackethighlighter-angle:#57606a;--color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;--color-prettylights-syntax-constant-other-reference-link:#0a3069;--color-fg-default:#24292f;--color-fg-muted:#57606a;--color-fg-subtle:#6e7781;--color-canvas-default:#fff;--color-canvas-subtle:#f6f8fa;--color-border-default:#d0d7de;--color-border-muted:#d8dee4;--color-neutral-muted:rgba(175,184,193,.2);--color-accent-fg:#0969da;--color-accent-emphasis:#0969da;--color-attention-subtle:#fff8c5;--color-danger-fg:#cf222e;color-scheme:light}}.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;word-wrap:break-word;background-color:var(--color-canvas-default);color:var(--color-fg-default);font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:16px;line-height:1.5;margin:0}.markdown-body h1:hover .anchor .octicon-link:before,.markdown-body h2:hover .anchor .octicon-link:before,.markdown-body h3:hover .anchor .octicon-link:before,.markdown-body h4:hover .anchor .octicon-link:before,.markdown-body h5:hover .anchor .octicon-link:before,.markdown-body h6:hover .anchor .octicon-link:before{background-color:currentColor;content:" ";display:inline-block;height:16px;-webkit-mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');width:16px}.markdown-body details,.markdown-body figcaption,.markdown-body figure{display:block}.markdown-body summary{display:list-item}.markdown-body [hidden]{display:none!important}.markdown-body a{background-color:transparent;color:var(--color-accent-fg);text-decoration:none}.markdown-body a:active,.markdown-body a:hover{outline-width:0}.markdown-body abbr[title]{border-bottom:none;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}.markdown-body b,.markdown-body strong{font-weight:600}.markdown-body dfn{font-style:italic}.markdown-body h1{border-bottom:1px solid var(--color-border-muted);font-size:2em;font-weight:600;margin:.67em 0;padding-bottom:.3em}.markdown-body mark{background-color:var(--color-attention-subtle);color:var(--color-text-primary)}.markdown-body small{font-size:90%}.markdown-body sub,.markdown-body sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}.markdown-body sub{bottom:-.25em}.markdown-body sup{top:-.5em}.markdown-body img{background-color:var(--color-canvas-default);border-style:none;box-sizing:content-box;max-width:100%}.markdown-body code,.markdown-body kbd,.markdown-body pre,.markdown-body samp{font-family:monospace,monospace;font-size:1em}.markdown-body figure{margin:1em 40px}.markdown-body hr{background:transparent;background-color:var(--color-border-default);border:0;box-sizing:content-box;height:.25em;margin:24px 0;overflow:hidden;padding:0}.markdown-body input{font:inherit;font-family:inherit;font-size:inherit;line-height:inherit;margin:0;overflow:visible}.markdown-body [type=button],.markdown-body [type=reset],.markdown-body [type=submit]{-webkit-appearance:button}.markdown-body [type=button]::-moz-focus-inner,.markdown-body [type=reset]::-moz-focus-inner,.markdown-body [type=submit]::-moz-focus-inner{border-style:none;padding:0}.markdown-body [type=button]:-moz-focusring,.markdown-body [type=reset]:-moz-focusring,.markdown-body [type=submit]:-moz-focusring{outline:1px dotted ButtonText}.markdown-body [type=checkbox],.markdown-body [type=radio]{box-sizing:border-box;padding:0}.markdown-body [type=number]::-webkit-inner-spin-button,.markdown-body [type=number]::-webkit-outer-spin-button{height:auto}.markdown-body [type=search]{-webkit-appearance:textfield;outline-offset:-2px}.markdown-body [type=search]::-webkit-search-cancel-button,.markdown-body [type=search]::-webkit-search-decoration{-webkit-appearance:none}.markdown-body ::-webkit-input-placeholder{color:inherit;opacity:.54}.markdown-body ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}.markdown-body a:hover{text-decoration:underline}.markdown-body hr:after,.markdown-body hr:before{content:"";display:table}.markdown-body hr:after{clear:both}.markdown-body table{border-collapse:collapse;border-spacing:0;display:block;max-width:100%;overflow:auto;width:-webkit-max-content;width:max-content}.markdown-body td,.markdown-body th{padding:0}.markdown-body details summary{cursor:pointer}.markdown-body details:not([open])>:not(summary){display:none!important}.markdown-body kbd{background-color:var(--color-canvas-subtle);border-bottom-color:var(--color-neutral-muted);border:1px solid var(--color-neutral-muted);border-radius:6px;box-shadow:inset 0 -1px 0 var(--color-neutral-muted);color:var(--color-fg-default);display:inline-block;font:11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;line-height:10px;padding:3px 5px;vertical-align:middle}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{font-weight:600;line-height:1.25;margin-bottom:16px;margin-top:24px}.markdown-body h2{border-bottom:1px solid var(--color-border-muted);font-size:1.5em;font-weight:600;padding-bottom:.3em}.markdown-body h3{font-size:1.25em;font-weight:600}.markdown-body h4{font-size:1em;font-weight:600}.markdown-body h5{font-size:.875em;font-weight:600}.markdown-body h6{color:var(--color-fg-muted);font-size:.85em;font-weight:600}.markdown-body p{margin-bottom:10px;margin-top:0}.markdown-body blockquote{border-left:.25em solid var(--color-border-default);color:var(--color-fg-muted);margin:0;padding:0 1em}.markdown-body ol,.markdown-body ul{margin-bottom:0;margin-top:0;padding-left:2em}.markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}.markdown-body ol ol ol,.markdown-body ol ul ol,.markdown-body ul ol ol,.markdown-body ul ul ol{list-style-type:lower-alpha}.markdown-body dd{margin-left:0}.markdown-body code,.markdown-body pre,.markdown-body tt{font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;font-size:12px}.markdown-body pre{word-wrap:normal;margin-bottom:0;margin-top:0}.markdown-body .octicon{fill:currentColor;display:inline-block;overflow:visible!important;vertical-align:text-bottom}.markdown-body ::-webkit-input-placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body :-ms-input-placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body ::placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body input::-webkit-inner-spin-button,.markdown-body input::-webkit-outer-spin-button{-webkit-appearance:none;appearance:none;margin:0}.markdown-body .pl-c{color:var(--color-prettylights-syntax-comment)}.markdown-body .pl-c1,.markdown-body .pl-s .pl-v{color:var(--color-prettylights-syntax-constant)}.markdown-body .pl-e,.markdown-body .pl-en{color:var(--color-prettylights-syntax-entity)}.markdown-body .pl-s .pl-s1,.markdown-body .pl-smi{color:var(--color-prettylights-syntax-storage-modifier-import)}.markdown-body .pl-ent{color:var(--color-prettylights-syntax-entity-tag)}.markdown-body .pl-k{color:var(--color-prettylights-syntax-keyword)}.markdown-body .pl-pds,.markdown-body .pl-s,.markdown-body .pl-s .pl-pse .pl-s1,.markdown-body .pl-sr,.markdown-body .pl-sr .pl-cce,.markdown-body .pl-sr .pl-sra,.markdown-body .pl-sr .pl-sre{color:var(--color-prettylights-syntax-string)}.markdown-body .pl-smw,.markdown-body .pl-v{color:var(--color-prettylights-syntax-variable)}.markdown-body .pl-bu{color:var(--color-prettylights-syntax-brackethighlighter-unmatched)}.markdown-body .pl-ii{background-color:var(--color-prettylights-syntax-invalid-illegal-bg);color:var(--color-prettylights-syntax-invalid-illegal-text)}.markdown-body .pl-c2{background-color:var(--color-prettylights-syntax-carriage-return-bg);color:var(--color-prettylights-syntax-carriage-return-text)}.markdown-body .pl-sr .pl-cce{color:var(--color-prettylights-syntax-string-regexp);font-weight:700}.markdown-body .pl-ml{color:var(--color-prettylights-syntax-markup-list)}.markdown-body .pl-mh,.markdown-body .pl-mh .pl-en,.markdown-body .pl-ms{color:var(--color-prettylights-syntax-markup-heading);font-weight:700}.markdown-body .pl-mi{color:var(--color-prettylights-syntax-markup-italic);font-style:italic}.markdown-body .pl-mb{color:var(--color-prettylights-syntax-markup-bold);font-weight:700}.markdown-body .pl-md{background-color:var(--color-prettylights-syntax-markup-deleted-bg);color:var(--color-prettylights-syntax-markup-deleted-text)}.markdown-body .pl-mi1{background-color:var(--color-prettylights-syntax-markup-inserted-bg);color:var(--color-prettylights-syntax-markup-inserted-text)}.markdown-body .pl-mc{background-color:var(--color-prettylights-syntax-markup-changed-bg);color:var(--color-prettylights-syntax-markup-changed-text)}.markdown-body .pl-mi2{background-color:var(--color-prettylights-syntax-markup-ignored-bg);color:var(--color-prettylights-syntax-markup-ignored-text)}.markdown-body .pl-mdr{color:var(--color-prettylights-syntax-meta-diff-range);font-weight:700}.markdown-body .pl-ba{color:var(--color-prettylights-syntax-brackethighlighter-angle)}.markdown-body .pl-sg{color:var(--color-prettylights-syntax-sublimelinter-gutter-mark)}.markdown-body .pl-corl{color:var(--color-prettylights-syntax-constant-other-reference-link);text-decoration:underline}.markdown-body [data-catalyst]{display:block}.markdown-body g-emoji{font-family:Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-size:1em;font-style:normal!important;font-weight:400;line-height:1;vertical-align:-.075em}.markdown-body g-emoji img{height:1em;width:1em}.markdown-body:after,.markdown-body:before{content:"";display:table}.markdown-body:after{clear:both}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body .absent{color:var(--color-danger-fg)}.markdown-body .anchor{float:left;line-height:1;margin-left:-20px;padding-right:4px}.markdown-body .anchor:focus{outline:none}.markdown-body blockquote,.markdown-body details,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-bottom:16px;margin-top:0}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body sup>a:before{content:"["}.markdown-body sup>a:after{content:"]"}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:var(--color-fg-default);vertical-align:middle;visibility:hidden}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}.markdown-body h1 code,.markdown-body h1 tt,.markdown-body h2 code,.markdown-body h2 tt,.markdown-body h3 code,.markdown-body h3 tt,.markdown-body h4 code,.markdown-body h4 tt,.markdown-body h5 code,.markdown-body h5 tt,.markdown-body h6 code,.markdown-body h6 tt{font-size:inherit;padding:0 .2em}.markdown-body ol.no-list,.markdown-body ul.no-list{list-style-type:none;padding:0}.markdown-body ol[type="1"]{list-style-type:decimal}.markdown-body ol[type=a]{list-style-type:lower-alpha}.markdown-body ol[type=i]{list-style-type:lower-roman}.markdown-body div>ol:not([type]){list-style-type:decimal}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-bottom:0;margin-top:0}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dl{padding:0}.markdown-body dl dt{font-size:1em;font-style:italic;font-weight:600;margin-top:16px;padding:0}.markdown-body dl dd{margin-bottom:16px;padding:0 16px}.markdown-body table th{font-weight:600}.markdown-body table td,.markdown-body table th{border:1px solid var(--color-border-default);padding:6px 13px}.markdown-body table tr{background-color:var(--color-canvas-default);border-top:1px solid var(--color-border-muted)}.markdown-body table tr:nth-child(2n){background-color:var(--color-canvas-subtle)}.markdown-body table img{background-color:transparent}.markdown-body img[align=right]{padding-left:20px}.markdown-body img[align=left]{padding-right:20px}.markdown-body .emoji{background-color:transparent;max-width:none;vertical-align:text-top}.markdown-body span.frame{display:block;overflow:hidden}.markdown-body span.frame>span{border:1px solid var(--color-border-default);display:block;float:left;margin:13px 0 0;overflow:hidden;padding:7px;width:auto}.markdown-body span.frame span img{display:block;float:left}.markdown-body span.frame span span{clear:both;color:var(--color-fg-default);display:block;padding:5px 0 0}.markdown-body span.align-center{clear:both;display:block;overflow:hidden}.markdown-body span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}.markdown-body span.align-center span img{margin:0 auto;text-align:center}.markdown-body span.align-right{clear:both;display:block;overflow:hidden}.markdown-body span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}.markdown-body span.align-right span img{margin:0;text-align:right}.markdown-body span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}.markdown-body span.float-left span{margin:13px 0 0}.markdown-body span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}.markdown-body span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}.markdown-body code,.markdown-body tt{background-color:var(--color-neutral-muted);border-radius:6px;font-size:85%;margin:0;padding:.2em .4em}.markdown-body code br,.markdown-body tt br{display:none}.markdown-body del code{text-decoration:inherit}.markdown-body pre code{font-size:100%}.markdown-body pre>code{background:transparent;border:0;margin:0;padding:0;white-space:pre;word-break:normal}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{background-color:var(--color-canvas-subtle);border-radius:6px;font-size:85%;line-height:1.45;overflow:auto;padding:16px}.markdown-body pre code,.markdown-body pre tt{word-wrap:normal;background-color:transparent;border:0;display:inline;line-height:inherit;margin:0;max-width:auto;overflow:visible;padding:0}.markdown-body .csv-data td,.markdown-body .csv-data th{font-size:12px;line-height:1;overflow:hidden;padding:5px;text-align:left;white-space:nowrap}.markdown-body .csv-data .blob-num{background:var(--color-canvas-default);border:0;padding:10px 8px 9px;text-align:right}.markdown-body .csv-data tr{border-top:0}.markdown-body .csv-data th{background:var(--color-canvas-subtle);border-top:0;font-weight:600}.markdown-body .footnotes{border-top:1px solid var(--color-border-default);color:var(--color-fg-muted);font-size:12px}.markdown-body .footnotes ol{padding-left:16px}.markdown-body .footnotes li{position:relative}.markdown-body .footnotes li:target:before{border:2px solid var(--color-accent-emphasis);border-radius:6px;bottom:-8px;content:"";left:-24px;pointer-events:none;position:absolute;right:-8px;top:-8px}.markdown-body .footnotes li:target{color:var(--color-fg-default)}.markdown-body .footnotes .data-footnote-backref g-emoji{font-family:monospace}.markdown-body .task-list-item{list-style-type:none}.markdown-body .task-list-item label{font-weight:400}.markdown-body .task-list-item.enabled label{cursor:pointer}.markdown-body .task-list-item+.task-list-item{margin-top:3px}.markdown-body .task-list-item .handle{display:none}.markdown-body .task-list-item-checkbox{margin:0 .2em .25em -1.6em;vertical-align:middle}.markdown-body .contains-task-list:dir(rtl) .task-list-item-checkbox{margin:0 -1.6em .25em .2em}.markdown-body ::-webkit-calendar-picker-indicator{-webkit-filter:invert(50%);filter:invert(50%)}@font-face{font-family:lab;src:url(/static/lab-b3a92fdc7ccdc8ebf471556b2e7b1018.woff2) format("woff2")}:root{--font-base:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;--layout-header-height:56px;--layout-footer-height:100px;--gg-border:hsla(0,0%,71%,.1)}*{box-sizing:border-box;transition:all .3s ease-out}html.dark{--theme-content-background-color:#232629;--theme-header-background-color:#232629;--theme-footer-background-color:#232629;--theme-text:#d8d8d8;--gg-logo:#d8d8d8;--gg-icon:#75757a}html.light{--theme-content-background-color:#fff;--theme-header-background-color:#fafafa;--theme-footer-background-color:#fefefe;--theme-text:#232629;--gg-logo:#232629;--gg-icon:#a5a5ac}body{font-family:var(--font-base);margin:0;padding:0}.icon-action{cursor:pointer;user-select:none}.page-title{align-items:center;display:flex;font-size:20px;font-weight:700;justify-content:center;margin-bottom:20px;text-align:center}.page-title .icon{margin-right:10px}.text-center{text-align:center}.gg-empty{color:hsla(0,0%,71%,.5);font-size:18px}.dark .markdown-body{--color-prettylights-syntax-comment:#8b949e;--color-prettylights-syntax-constant:#79c0ff;--color-prettylights-syntax-entity:#d2a8ff;--color-prettylights-syntax-storage-modifier-import:#c9d1d9;--color-prettylights-syntax-entity-tag:#7ee787;--color-prettylights-syntax-keyword:#ff7b72;--color-prettylights-syntax-string:#a5d6ff;--color-prettylights-syntax-variable:#ffa657;--color-prettylights-syntax-brackethighlighter-unmatched:#f85149;--color-prettylights-syntax-invalid-illegal-text:#f0f6fc;--color-prettylights-syntax-invalid-illegal-bg:#8e1519;--color-prettylights-syntax-carriage-return-text:#f0f6fc;--color-prettylights-syntax-carriage-return-bg:#b62324;--color-prettylights-syntax-string-regexp:#7ee787;--color-prettylights-syntax-markup-list:#f2cc60;--color-prettylights-syntax-markup-heading:#1f6feb;--color-prettylights-syntax-markup-italic:#c9d1d9;--color-prettylights-syntax-markup-bold:#c9d1d9;--color-prettylights-syntax-markup-deleted-text:#ffdcd7;--color-prettylights-syntax-markup-deleted-bg:#67060c;--color-prettylights-syntax-markup-inserted-text:#aff5b4;--color-prettylights-syntax-markup-inserted-bg:#033a16;--color-prettylights-syntax-markup-changed-text:#ffdfb6;--color-prettylights-syntax-markup-changed-bg:#5a1e02;--color-prettylights-syntax-markup-ignored-text:#c9d1d9;--color-prettylights-syntax-markup-ignored-bg:#1158c7;--color-prettylights-syntax-meta-diff-range:#d2a8ff;--color-prettylights-syntax-brackethighlighter-angle:#8b949e;--color-prettylights-syntax-sublimelinter-gutter-mark:#484f58;--color-prettylights-syntax-constant-other-reference-link:#a5d6ff;--color-fg-default:#c9d1d9;--color-fg-muted:#8b949e;--color-fg-subtle:#484f58;--color-canvas-default:#232629;--color-canvas-subtle:#161b22;--color-border-default:#30363d;--color-border-muted:#21262d;--color-neutral-muted:hsla(215,8%,47%,.4);--color-accent-fg:#58a6ff;--color-accent-emphasis:#1f6feb;--color-attention-subtle:rgba(187,128,9,.15);--color-danger-fg:#f85149;color-scheme:dark}.light .markdown-body{--color-prettylights-syntax-comment:#6e7781;--color-prettylights-syntax-constant:#0550ae;--color-prettylights-syntax-entity:#8250df;--color-prettylights-syntax-storage-modifier-import:#24292f;--color-prettylights-syntax-entity-tag:#116329;--color-prettylights-syntax-keyword:#cf222e;--color-prettylights-syntax-string:#0a3069;--color-prettylights-syntax-variable:#953800;--color-prettylights-syntax-brackethighlighter-unmatched:#82071e;--color-prettylights-syntax-invalid-illegal-text:#f6f8fa;--color-prettylights-syntax-invalid-illegal-bg:#82071e;--color-prettylights-syntax-carriage-return-text:#f6f8fa;--color-prettylights-syntax-carriage-return-bg:#cf222e;--color-prettylights-syntax-string-regexp:#116329;--color-prettylights-syntax-markup-list:#3b2300;--color-prettylights-syntax-markup-heading:#0550ae;--color-prettylights-syntax-markup-italic:#24292f;--color-prettylights-syntax-markup-bold:#24292f;--color-prettylights-syntax-markup-deleted-text:#82071e;--color-prettylights-syntax-markup-deleted-bg:#ffebe9;--color-prettylights-syntax-markup-inserted-text:#116329;--color-prettylights-syntax-markup-inserted-bg:#dafbe1;--color-prettylights-syntax-markup-changed-text:#953800;--color-prettylights-syntax-markup-changed-bg:#ffd8b5;--color-prettylights-syntax-markup-ignored-text:#eaeef2;--color-prettylights-syntax-markup-ignored-bg:#0550ae;--color-prettylights-syntax-meta-diff-range:#8250df;--color-prettylights-syntax-brackethighlighter-angle:#57606a;--color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;--color-prettylights-syntax-constant-other-reference-link:#0a3069;--color-fg-default:#24292f;--color-fg-muted:#57606a;--color-fg-subtle:#6e7781;--color-canvas-default:#fff;--color-canvas-subtle:#f6f8fa;--color-border-default:#d0d7de;--color-border-muted:#d8dee4;--color-neutral-muted:rgba(175,184,193,.2);--color-accent-fg:#0969da;--color-accent-emphasis:#0969da;--color-attention-subtle:#fff8c5;--color-danger-fg:#cf222e;color-scheme:light}.markdown-body{margin:0 auto;max-width:720px;padding:0 20px 20px}h1{border-bottom:none!important}.gg-logo{text-rendering:optimizelegibility;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;line-height:0;outline:none;text-align:center;text-transform:none;vertical-align:-.125em}.gg-logo,.gg-theme-toggle{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.gg-nav{height:var(--layout-header-height)}.gg-nav *{transition:none}.gg-nav .icons,.gg-nav .nav-screen nav li{align-items:center;display:flex}.gg-nav .nav-screen nav li{color:var(--gg-icon);cursor:pointer;font-weight:700;list-style:none}@media screen and (max-width:720px){.gg-nav{align-items:center;display:flex}.gg-nav .nav-icon{cursor:pointer;height:24px;overflow:hidden;width:24px}.gg-nav .nav-icon span{background:#999;display:block;height:3px;margin:4px 0;transition:all .3s ease;width:24px}.gg-nav .nav-icon .top{-webkit-transform:translateX(6px);transform:translateX(6px)}.gg-nav .nav-icon .bottom{-webkit-transform:translateX(8px);transform:translateX(8px)}.gg-nav .nav-icon.active .top{-webkit-transform:rotate(225deg) translateY(-5px) translateX(-5px);transform:rotate(225deg) translateY(-5px) translateX(-5px)}.gg-nav .nav-icon.active .middle{-webkit-transform:translateX(24px);transform:translateX(24px)}.gg-nav .nav-icon.active .bottom{-webkit-transform:rotate(135deg) translateY(5px) translateX(-5px);transform:rotate(135deg) translateY(5px) translateX(-5px)}.nav-icon{display:block}.nav-screen{background-color:var(--theme-header-background-color);height:0;left:0;overflow:hidden;position:fixed;top:var(--layout-header-height);transition:height .15s ease-out;width:100%;z-index:1000}.nav-screen>div{padding:20px}.nav-screen.open{height:calc(100vh - var(--layout-header-height))}.nav-screen nav{font-size:16px;text-align:center}.nav-screen nav svg{font-size:24px;margin-right:10px}.nav-screen nav li{justify-content:center;padding:8px 0}.nav-screen .icons{justify-content:center;margin-top:40px}.nav-screen .icons .icon-action{margin:0 10px}}@media screen and (min-width:721px){.nav-icon{display:none}.nav-screen{height:100%;justify-content:space-between}.nav-screen,.nav-screen>div{display:flex}.nav-screen .icons .icon-action{margin:0 5px}.nav-screen nav{margin-right:20px}.nav-screen nav svg{margin-right:4px}.nav-screen nav li{float:left;font-size:14px;height:100%;margin-right:20px}}#gg-backtop{align-items:center;border-radius:50%;bottom:20px;box-shadow:inset 0 0 5px hsla(0,0%,59%,.5);cursor:pointer;display:flex;height:42px;justify-content:center;position:fixed;right:20px;transition:all .5s ease;-webkit-user-select:none;-ms-user-select:none;user-select:none;width:42px}@media screen and (max-width:767px){#gg-backtop{height:36px;width:36px}}#gg-backtop svg{width:50%}#gg-backtop.hide{opacity:0;-webkit-transform:scale(0);transform:scale(0)}#gg-backtop.show{opacity:1;-webkit-transform:scale(1);transform:scale(1)}.gg-container{display:flex;flex-direction:column;min-height:100vh}.gg-container header{align-items:center;background-color:#fff;background-color:var(--theme-header-background-color);border-bottom:1px solid hsla(0,0%,47%,.2);box-shadow:0 1px 2px rgba(0,0,0,.05),0 1px 4px rgba(0,0,0,.05),0 2px 8px rgba(0,0,0,.05);display:flex;height:var(--layout-header-height);justify-content:space-between;padding:0 16px;position:fixed;top:0;width:100%;z-index:999}.gg-container header .imglogo{border:1px solid var(--gg-border);border-radius:8px;cursor:pointer;width:32px}.gg-container main{background-color:var(--theme-content-background-color);min-height:calc(100vh - var(--layout-footer-height));padding-top:80px}.gg-container footer{align-items:center;background-color:var(--theme-footer-background-color);color:#838c95;display:flex;font-size:14px;height:var(--layout-footer-height);justify-content:center;padding:0 10px;position:relative;text-align:center;width:100%}.gg-container footer:after{background:radial-gradient(hsla(0,0%,59%,.6),transparent 80%);content:"";display:block;height:1px;position:absolute;top:0;width:100%}.gg-container footer img{vertical-align:middle}.gg-container footer .owner{color:#3486e2;cursor:pointer;margin-left:5px;text-decoration:none}.gg-container footer .copyright{margin-left:10px}.gg-container footer .powered{margin-left:5px}@media screen and (max-width:720px){.gg-container footer{flex-direction:column}.gg-container footer .copyright,.gg-container footer .powered{margin-left:0;margin-top:5px}}.issues-page h1{text-align:center}.author-info{margin-bottom:3px}.author-info .author{cursor:pointer}.author-info .author .name{font-weight:500}.author-info .author img{border-radius:50%;margin-right:5px;vertical-align:middle;width:30px}.author-info i,.author-info span{font-size:14px}.author-info .date{margin-left:10px;opacity:.4}.author-info .number{float:right;line-height:26px;opacity:.3}.gg-category{background:hsla(0,0%,71%,.3)!important;border-radius:4px;display:inline-block;font-size:10px;font-weight:700;height:18px;line-height:18px;margin-right:10px;padding:0 5px;text-decoration:none!important;vertical-align:middle}.gg-category,.issues-num{color:var(--color-fg-default)!important;cursor:pointer}.issues-num{font-family:lab;font-style:italic;font-variation-settings:"size" 30,"quad" 40,"bevl" 20,"oval" 30;opacity:.6}.home-page .issues-list{max-width:unset}.home-page .issues-list>div{display:flex;flex-wrap:wrap;margin:0 auto;max-width:960px}.home-page .issues-list .author-info{margin-bottom:3px}.home-page .issues-list .author-info .author img{width:24px}.home-page .issues-list .author-info i,.home-page .issues-list .author-info span{font-size:12px}.home-page .issues-list .author-info .number{float:right;line-height:26px;opacity:.3}.home-page .issues-list .post-info .title{font-size:15px;font-weight:700;text-decoration:none;vertical-align:middle}@media screen and (min-width:721px){.home-page .issues-list .item{border:1px solid var(--gg-border);border-radius:5px;margin:0 10px 20px;max-width:100%;min-width:200px;overflow:hidden;width:calc(50% - 20px)}.home-page .issues-list .item .author-info{background-color:var(--gg-border);padding:3px 5px}.home-page .issues-list .item .post-info{padding:5px}}@media screen and (max-width:720px){.home-page .issues-list .item{border-bottom:1px solid hsla(0,0%,59%,.2);padding:15px 0 12px;width:100%}.home-page .issues-list .item .author-info{margin-bottom:5px}}.gg-label{border-radius:4px;border-style:solid;border-width:1px;cursor:pointer;display:inline-block;font-size:12px;height:18px;line-height:17px;overflow:hidden;vertical-align:middle}.gg-label b{color:#fff;padding:0 3px 0 2px}.gg-label b,.gg-label em{display:inline-block;height:100%}.gg-label em{border-bottom-right-radius:3px;border-top-right-radius:3px;color:var(--theme-text);padding:0 3px}.gg-issues-prev-next{align-items:stretch;border:1px solid hsla(0,0%,59%,.3);border-radius:5px;display:flex;margin:30px 0}.gg-issues-prev-next:after{clear:both;content:"";display:block}.gg-issues-prev-next a{flex:1 1;padding:15px 10px;width:50%}.gg-issues-prev-next a>span{align-items:center;display:flex;height:100%}.gg-issues-prev-next a .icon-action{min-width:20px}.gg-issues-prev-next .prev{text-align:left}.gg-issues-prev-next .prev>span{float:left}.gg-issues-prev-next .prev .icon-action{margin-right:5px}.gg-issues-prev-next .next{text-align:right}.gg-issues-prev-next .next>span{float:right}.gg-issues-prev-next .next .icon-action{margin-left:5px}@media screen and (max-width:720px){.gg-issues-prev-next{font-size:14px}}.issues-page h1{font-size:24px}.issues-page h1>span{background:linear-gradient(180deg,transparent 50%,hsla(0,0%,71%,.5) 0);padding:0 5px}.issues-page h1 .issues-num{font-size:18px;margin-right:10px}.issues-page .widget{margin-bottom:20px;text-align:center}.issues-page .gg-label{margin:2px 4px}.issues-page .ques-content{display:flex;margin-top:5px;min-height:120px}.issues-page .ques-content .quesicon{margin-right:3px}.issues-page .ques-content .quescontent{width:100%}.issues-page .vote{align-items:center;display:flex;flex-direction:column;font-style:normal}.issues-page .answer-content .answericon{background-color:hsla(0,0%,71%,.3);border-radius:5px;margin-bottom:20px;padding:5px 0 0;text-align:center}.issues-page .comments-item{border-left:1px solid hsla(0,0%,71%,.3);padding-bottom:1px;padding-left:3px}.issues-page .comments-item-content{margin-left:20px}.labels-category-page .gg-label-category-head{margin-bottom:20px;position:-webkit-sticky;position:sticky;top:56px}.labels-category-page .category-group{display:flex;width:100%}.labels-category-page .category-group .label-category{color:#fff;cursor:pointer;display:inline-block;font-weight:700;height:36px;line-height:36px;padding:0 10px;text-shadow:0 1px 1px rgba(80,80,80,.5)}.labels-category-page .category-group .label-category.active{color:#000}.labels-category-page .level-group .label-level{background-color:#000;color:#fff;cursor:pointer;display:inline-block;font-size:16px;font-size:14px;height:24px;line-height:24px;margin-right:1px;opacity:.5;padding:0 10px}.labels-category-page .level-group .label-level.active{opacity:1}.labels-category-page .level-group .label-level.level1{background-color:#3c3c3c}.labels-category-page .level-group .label-level.level2{background-color:#555}.labels-category-page .level-group .label-level.level3{background-color:#6f6f6f}.labels-category-page .level-group .label-level.level4{background-color:#888}.labels-category-page .level-group .label-level.level5{background-color:#a2a2a2}.labels-category-page .issues-list .item{background-color:var(--gg-border);border-radius:5px;margin-bottom:10px;padding:10px}.labels-category-page .issues-list .item .label-issue{margin-right:10px}.labels-category-page .issues-list .labels-list{font-size:12px;margin-top:4px}.labels-category-page .issues-list .labels-list .gg-label{margin-bottom:4px;margin-right:4px}.labels-category-page .issues-list .post-info{font-weight:700;margin-top:5px}.issues-list .issues-item{align-items:baseline;display:flex;margin-bottom:10px;text-align:left}.issues-list .issues-item .issues-num{font-size:12px;margin-right:10px}.issues-list .issues-item .title{font-weight:700}.labels-page{text-align:center}.labels-page .markdown-body{display:inline-block}.labels-page .labels-head{border-radius:5px;color:#fff;cursor:pointer;display:block;font-weight:700;margin-bottom:20px;padding:5px 10px;text-shadow:0 1px 2px #000}.labels-page .labels-head:hover{text-decoration:none!important}.labels-page .label-desc{font-weight:700;opacity:.5}.nav-category-page .gg-category{font-size:14px;font-weight:700;height:36px;line-height:36px;margin:10px;padding:0 12px}.nav-labels-page .gg-label{font-size:16px;font-weight:700;height:30px;line-height:29px;margin:5px}.nav-labels-page .gg-label b,.nav-labels-page .gg-label em{padding:0 10px}</style><link rel="icon" href="/favicon-32x32.png?v=fdd225e9135e951b972a3dc20604182e" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=fdd225e9135e951b972a3dc20604182e"/><link as="script" rel="preload" href="/webpack-runtime-4fee7405b8a071e8c34e.js"/><link as="script" rel="preload" href="/framework-86c8a5417e68dc3cefff.js"/><link as="script" rel="preload" href="/app-7383f855f15f63329e5f.js"/><link as="script" rel="preload" href="/fc369a2ef6459b03f38591687cef4a587495c716-f468df31cbdaf6ffa970.js"/><link as="script" rel="preload" href="/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js"/><link as="fetch" rel="preload" href="/page-data/issues/266/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/151096407.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2861350382.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/><script>
+(function() {
+  window.__onThemeChange = function() {};
+  function setTheme(newTheme) {
+    window.__theme = newTheme;
+    preferredTheme = newTheme;
+    document.querySelector('html').className = newTheme;
+    window.__onThemeChange(newTheme);
+  }
+  var preferredTheme;
+  try {
+    preferredTheme = localStorage.getItem('theme');
+  } catch (err) { }
+  window.__setPreferredTheme = function(newTheme) {
+    setTheme(newTheme);
+    try {
+      localStorage.setItem('theme', newTheme);
+    } catch (err) {}
+  }
+  var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  darkQuery.addListener(function(e) {
+    window.__setPreferredTheme(e.matches ? 'dark' : 'light')
+  });
+
+  setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
+})()</script></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="gg-container issues-page"><header><img class="imglogo" src="/static/logo-fe174465633f84724b37eea28a42c520.png" alt="logo"/><div class="gg-nav"><span class="nav-icon"><span class="top"></span><span class="middle"></span><span class="bottom"></span></span><div class="nav-screen"><div><nav><li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 9A1.5 1.5 0 0 0 7 7.5A1.5 1.5 0 0 0 5.5 6A1.5 1.5 0 0 0 4 7.5A1.5 1.5 0 0 0 5.5 9m11.91 2.58c.36.36.59.86.59 1.42c0 .55-.22 1.05-.59 1.41l-5 5a1.996 1.996 0 0 1-2.83 0l-6.99-6.99C2.22 12.05 2 11.55 2 11V6c0-1.11.89-2 2-2h5c.55 0 1.05.22 1.41.58l7 7m-3.87-5.87l1-1l6.87 6.87c.37.36.59.87.59 1.42c0 .55-.22 1.05-.58 1.41l-5.38 5.38l-1-1L20.75 13l-7.21-7.29Z"/></svg>Labels</li><li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M3 3h18v4H3V3m1 5h16v13H4V8m5.5 3a.5.5 0 0 0-.5.5V13h6v-1.5a.5.5 0 0 0-.5-.5h-5Z"/></svg>Archives</li></nav><div class="icons"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="gg-theme-toggle icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="m3.55 18.54l1.41 1.41l1.8-1.79l-1.42-1.42M11 22.45h2V19.5h-2m1-14a6 6 0 0 0-6 6a6 6 0 0 0 6 6a6 6 0 0 0 6-6c0-3.32-2.69-6-6-6m8 7h3v-2h-3m-2.76 7.66l1.8 1.79l1.41-1.41l-1.79-1.8m1.79-12.28l-1.41-1.41l-1.8 1.79l1.42 1.42M13 .55h-2V3.5h2m-9 7H1v2h3m2.76-7.66l-1.8-1.79l-1.41 1.41l1.79 1.8l1.42-1.42Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg></div></div></div></div></header><main><div class="content"><div class="markdown-body"><h1><span><a class="number issues-num" href="https://github.com/awesome-ops/awesome-ops.github.io/issues/266" target="_blank">#266</a><span>derailed/k9s: Kubernetes CLI，以风格化的方式管理您的集群！</span></span></h1><div class="widget"><a class="gg-label" style="border-color:#25B472" href="/labels/更多"><b style="background:#25B472">#</b><em>更多</em></a><a class="gg-label" style="border-color:#249bda" href="/labels/k8s-cluster-manage"><b style="background:#249bda">#</b><em>K8S-Cluster-Manage</em></a><a class="gg-label" style="border-color:#10e4bc" href="/labels/derailed"><b style="background:#10e4bc">#</b><em>derailed</em></a></div><div><div class="author-info"><span class="author" title="https://github.com/eryajf"><img src="https://avatars.githubusercontent.com/u/33259379?u=e4a4090a38ac2473aaed4ef9945233636776c6c3&amp;v=4" alt="eryajf"/><span>eryajf</span></span><i class="date">2025/05/21</i></div><div class="ques-content"><div class="quescontent"><div align="center" dir="auto">
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966"><img src="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966" width="100%" height="3" data-animated-image="" data-canonical-src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" style="max-width: 100%; height: auto; max-height: 3px;"></a><br><br></p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th align="right">Repos</th>
+<th align="left"><a href="https://github.com/derailed/k9s">derailed/k9s</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right"><strong>Views</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/3c0c55b4e19613a4e29e03310017fedee3eadb13ae9b6dc919f512a1b7c507c1/68747470733a2f2f76696577732e77686174696c656172656e65642e746f6461792f76696577732f6769746875622f64657261696c65642f6b39732e737667" alt="views" data-canonical-src="https://views.whatilearened.today/views/github/derailed/k9s.svg" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>Stars</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/7aa13a758fe2fa023fbac45e381dc9fdf4885fc3f51ad0b5975106588244fc2f/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f64657261696c65642f6b39733f636f6c6f723d663266303864266c6f676f3d556e64657274616c65266c6f676f436f6c6f723d656234363330" alt="stars" data-canonical-src="https://img.shields.io/github/stars/derailed/k9s?color=f2f08d&amp;logo=Undertale&amp;logoColor=eb4630" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>Forks</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/1e61da11b5ae16726af2228005871fc8594053f1d715f5e14297fea8896a3424/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f64657261696c65642f6b39733f636f6c6f723d626138366562266c6f676f3d48616e647368616b65266c6f676f436f6c6f723d656136616136" alt="forks" data-canonical-src="https://img.shields.io/github/forks/derailed/k9s?color=ba86eb&amp;logo=Handshake&amp;logoColor=ea6aa6" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>License</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/dffea7568e19c612b9b2df857d2a8b70c4428dc179b5e660d8caf9426b642a1a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f64657261696c65642f6b39733f6c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e53556845556741414144414141414177434159414141425841766d48414141414358424957584d41414173544141414c457745416d70775941414144336b6c45515652346e4f335953557a5555426748384a726f57567255474a66456d3773584e63534446784d544c327069347348456778654e526f77586770455742445552522532424e414e4f4b4f4b36366f6f4b4a4742586545475263574163455646475152484677516d483525324630774861655748493944554455354c356b6e6568644f62377a66652532423139636e434a47495243516945596c514237594a4979474c38616f73756c565a36695246516a69474b6b7564576735614c6c704f70704e586e665071773555304459524a6d56786a4367464633424c755a476d416f5655694b4541726d583744375553677351706f72674761336748664b34483663754262435644334771683141352532424c6745253242467749656e514d306a6f446f66714c6f48564e7742796d384370546e416d327a51713073676478624964515a556c416b7150415a3664676a303541446f59526f6f66792532466f5869726f376b3551586a4c6f70677a4b69514e6c4c4461716f4967754577426a7a7150355066446a45394479495879493633464d547751464d43567271774e61763451666f52673538514625324266724d485172454b3844546f434d714e4179574e4866786d54526f4c4f726d5352566747744466714345715a4f4851727a6f34706243557341333431365169364551394b476a6345465267484f724f4b6e5536574162396247455459656b4b7843766a546167394534706a653534446b3551503862624d4859762532464333756541654a6b50304f4778422532424a70426e4172595238455951516e6f4e31414e4661426e5050356c385372736559514c303641646b30464a5938484f5761424d6c6541486a683068506f73497a6c6f3876304125324633345a694f6548726130714b52504d5653493774762532423932747725324676687855654252713456454c674d376642714b354770526d6f514c584e7075625475367a6f4e52706754386e5051627138347764253246494375767978694b4871694e41664933774d367549684271476b4c696977414f734b44714f68743749747239567938536a52424557667941627225324668523142667056514664484a42253246423268683778376a36517077435665655951326b72554235436c636a3641326d3067576a25324244306d4c34397a573563517943484c4e37726a6c6d6d6174457958582532464372547a412532466f51785a6b576c39474a5443566f25324279546a3837253242346769504b6376307149486f344156344430565a727251493334706e70524d36357875652532467a417265453425324654253246536f676c664542794d7369517441546c4c3352414a355948725378365a44665337307337754d486842705225324659423573305057366f455270316236253246667252684b3353444c35546965364f515548516c5133735644752532427a50636b397657453973747225324236496a533967486d5750616861444a25324277434b364e494242587348423948796b587378774470686c436d416476706c6162554a4e6e5a504239342532464e7436784f6538587a4562503257684d335741673147756236744825324233513150673337365239713475716c6e6f36676448476a444f5139306562303141484d3672596975554a314f713472344656756a35765239427a4d3957674e764f7977446869495951467667626366774166774d764863615067425041253246447948476a50624e394138616d6562636477416444354e6633373574787165774e5552656f797677424958594c645170576c6877465771745061435044334173467541535636717171496c62304a766b564331464c39576b4c55556c55574b337a585a4c46432532423125324642726f46746f364f7358497545594a5034447a7a5732594656316f4a614141414141456c46546b5375516d4343" alt="license" data-canonical-src="https://img.shields.io/github/license/derailed/k9s?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD3klEQVR4nO3YSUzUUBgH8JroWVrUGJfEm7sXNcSDFxMTL2pi4sHEgxeNRowXgpEWBDURR%2BNANOKOK66ooKJGBXeEGRcWAcEVFGQRHFwQmH5%2F0wHaeWHI9DUDU5L5knehdOb7zfe%2B19cnCJGIRCQiEYlQB7YJIyGL8aosulVZ6iRFQjiGKkudWg5aLlpOppNXnfPqw5U0DYRJmVxjCgFF3BLuZGmAoVUiKEArmX7D7USgsQporgGa3gHfK4H6cuBbCVD3Gqh1A5%2BLgE%2BFwIenQM0joDofqLoHVNwBym8CpTnAm2zQq0sgdxbIdQZUlAkqPAZ6dgj05ADoYRoofy%2FoXiro7k5QXjLopgzKiQNlLDaqoIguEwBjzqP5PfDjE9DyIXyI63FMTwQFMCVrqwNav4QfoRg58QF%2BfrMHQrEK8DToCMqNAyWNHfxmTRoLOrmSRVgGtDfqCEqZOHQrzo4pbCUsA3416Qi6EQ9KGjcEFRgHOrOKnU6WAb9bGETYekKxCvjTag9E4pje54Dk5QP8bbMHYv%2FC3ueAeJkP0OGxB%2BJpBnArYR8EYQQnoN1ANFaBnPP5l8SrseYQL06Adk0FJY8HOWaBMleAHjh0hPosIzlo8v0A%2F34ZiOeHra0qKRPMVSI7tv%2B92tw%2FvhxUeBRq4VELgM7fBqK5GpRmoQLXNpubTu6zoNRpgT8nPQbq84wd%2FICuvyxiKHqiNAfI3wM6uIhBqGkLiiwAOsKDqOht7Itr9Vy8SjRBEWfyAbr%2FhR1BfpVQFdHJB%2FB2hh7x7j6QpwCVeeYQ2krUB5Clcj6A2m0gWj%2BD0mL49zW5cQyCHLN7rjlmmatEyXX%2FCrTzA%2FoQxZkWl9GJTCVo%2ByTj87%2B4giPKcv0qIHo4AV4D0VZrrQI34pnpRM65xue%2FzAreE4%2FT%2FSoglfEByMsiQtATlL3RAJ5YHrSx6ZDfS70s7uMHhBpR%2FYB5s0PW6oERp1b6%2FfrRhK3SDL5Tie6OQUHQlQ3sVDu%2BzPck9vWE9str%2B6IjS9gHmWPahaDJ%2BwCK6NIBBXsHB9HykXsxwDphlCmAdvplabUJNnZPB94%2FNt6xOe8XzEbP2WhM3WAg1Gub6tH%2B3Q1Pg376R9q4uqlno6gdHGjDOQ90eb01AHM6rYiuUJ1Oq4r4FVuj5vR9BzM9WgNvOywDhiIYQFvgbcfwAfwMvHcaPgBPA%2FDyHGjPbN9A8amebcdwAdD5Nf375txqewNUReoyvwBIXYLdQpWlhwFWqtPaCPD3AsFuASV6qqqIlb0JvkVC1FL9WkLUUlUWK3zXZLFC%2B1%2FBroFto6OsXIuEYJP4DzzW2YFV1oJaAAAAAElFTkSuQmCC" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>UpdatedAt</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/9a50e7134d0705172efc23bb6d47b6817e087eff5a0384864f778971485e158c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f64657261696c65642f6b39733f646973706c61795f74696d657374616d703d636f6d6d6974746572266c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e5355684555674141414234414141416543415941414141374d4b3669414141414358424957584d41414173544141414c457745416d7077594141414648556c45515652346e4c5658375539615678776d3236646c582532466468627825324232253246516e626b7655627264554151674a4a496655444e574454546d4f76314651554661504a346b7573725630314a7431734e70637453327533626f745a746d786439744a5346536f714b71494635625944464c436f76436c656673747a4a387758524c445a4c7a6e6b634f343535376e3364332532466e655a3472454f515a74315771462532423858467234253242664f4c4565326a6f59307a776638546f795a50766a45676b4c592532426b306d6d72584f36644b696e787a476b30666a5430782532425279723055716e6359637a4d317263347451253242497270324c4758646f344e4334567657715453373277716c632532427231334f527269364b6458646e624f484c6c776c7a4a70524b6e3657342532424b36706f4f434e6e494166486a253246253242776168495a4234764b6e715a6630714a704e49716c2532467638545530634e6c3572627963337730516e54703379324c54614a374d314e617844723266526e315370504736476961323174664533345463614f617931694d55564f5146624659714957536f31573854694156616e43306576584f4542375770313448466232327a453566714c4f433545524c515769644e614e49347545636339693768634a6c644868324e57725135674464624f6c7061756d49754c62326174415144506e7a3062384e6257636d785656524a33486d7870536377777a4f4a6d4b44524765384c6c435a444c4739673754496e5631516c376462586256316533675430574b697243466f6d6b5079767758466c5a474a4f6a563625324253743634757564445a4f55354555636f782532464d455144567674364d62634e3237593341797a687633737061557242365a3971724a534f3139657a6a387032704c426b4a792532426343484a7857493567573574636652527a31645531394766476b6f7539505a4f34736d52396a4746777065783444793362766e6d4b79706f74625531335669646a71595a68726a343972764d457425324625324659714c7a396430304e6a57253246637a67796f394f35317a7336614e6c6f354644747530445a675146686c47584a30644241446f4e6864367576703657686f617967374e394c564748386d443462253246486e667455516f4e4734764c51306769784d716c5725324234714f6a744e48446733723166365969525347785279375576714c62395534716b716e78504f4e7661356c447048723125324279794b524e4b57425a793565644d554842326d3572792532422532424551772532427a6766347a6f39253246306f634e3357527a4c4277344a2532424a7950574372716d4967475974554f735744346f785a46516f50556a4770564871493425324661666b51504336665a5165654d31253242764c7549516e6a754257514444437363726d485039656f4e5041744271664f6e5875614b25324268364a45624772732532427076764d6d78654962683836336162565065597953456f39464a48704e4d464a59253242503563575a6b6667374f3174537759436553514c54593345385130392532464256504a556c78516a7368543142736343593032723955445542667643484236367063665041336c794165336e6772332532463437584467614a7a736c7937787741364e5a746c555550437541487161536a5549502532427375653842525741432532464e6651374a5a505a35397330476a3756747049537a34685125324243706658474d4b685a63764c70554b7866574d386f68766637702532464f446a4842666356463849736b383267314648796b63564645253242555a414158343761452532464d6c34504f3530506e75683025324678346e6d637957507364774468427836436d6b4c562532466746446a594b784f4a4f4674623077517949684c39527943774b33414f664947703159464542686e4d4a634c525745624b644b516f55366e63545a6b494544696341792532463831645675454d3552775066657934784f7830496b25324649324e6e466b692532425761664f6f464959466367595a43797864376543556a626334416d46363566742532466b4d686b336f25324235686337734d4a79716a4a45477659466151464972375930775077384246415925324236253242766d6b3377367a7a5275444d6d5a5652736668385274413075455453443775434254364459514e36697665553066706b594c6a453671725672744f78654e4b553954484c5a4a396b4255324a427342685635416976422532466f4b61514e4b675043427744596149665a4334616454684f71463457454e56694c4a77566f586f62664c424b56773637414f6154734c6336355461564b32317651344c613939654b6359673576627873624f627a5451394e37554b4467554f3177446a6944494942736868357a746733396e514d4c535a4248344f7a424f55444551586d323036643366634c67737762585141345068634b336e6873775531427a3877765130395248472532466f597933656a6677424e6d746f59714c4130586741414141424a52553545726b4a676767253344253344266c6162656c3d557064617465644174" alt="last-commit" data-canonical-src="https://img.shields.io/github/last-commit/derailed/k9s?display_timestamp=committer&amp;logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHUlEQVR4nLVX7U9aVxwm26dlX%2Fdhbx%2B2%2FQnbkvUbrdUAQgJJIfUDNWDTTmOv1FQUFaPJ4kusrV01Jt1sNpctS2u3botZtmxd9tJSFSoqKqIF5bYDFLCovClefstzJ8wXRLDZLznkcO4557n3d3%2FneZ4rEOQZt1WqF%2B8XFr4%2BfOLEe2joY0zwf8ToyZPvjEgkLY%2Bk0mmrXO6dKinxzGk0fjT0x%2BRyr0UqncYczM1rc4tQ%2BIrp2LGXdo4NC4VvWqTS72wqlc%2Br13ORri6KdXdnbOHLlwlzJpRKn6W4%2BK6poOCNnIAfHj%2F%2BwahIZB4vKnqZf0qJpNIql%2Fv8TU0cNl5rbyc3w0QnTp3y2LTaJ7M1NaxDr2fRn1SpPG6Gia21tfE34TcaOay1iMUVOQFbFYqIWSo1W8TiAVanC0evXOEB7Wp14HFb22zE5fqLOC5ERLQWidNaNI4uEcc9i7hcJldHh2NWrQ5gDdbOlpaumIuLb2atAQDPnz0b8NbWcmxVVRJ3HmxpScwwzOJmKDRGe8LlCZDLG9g7TInV1Ql7dbXbV1e3gT0WKirCFomkPyvwXFlZGJOjV6%2BSt64uudDZOU5EUcox%2FMEQDVvt6MbcN27Y3Ayzhv3spaUrB6Z9qrJSO19ezj8p2pLBkJy%2BcCHJxWI5gW5tcfRRz1dU19GfGkou9PZO4smR9jGFwpex4Dy3bvnmKypotbU13VidjqYZhrj49rvMEt%2F%2FYqLz9d00NjW%2Fczgyo9O51zs6aNlo5FDtu0DZgQFhlGXJ0dBADoNhd6uvp6Whoayg7N9LVGH8mD4b%2FHnftUQoNG4vLQ0gixMqlW%2B4qOjtNHDg3r1f6YiRSGxRy7UvqLb9U4qkqnxPONva5lDpHr1%2ByyKRNKWBZy5edMUHB2m5ry%2B%2BEQw%2Bzgf4zo9%2F0ocN3WRzLBw4J%2BJyPWCrqmIgGYtUOsWD4oxZFQoPUjGpVHqI4%2FafkQPC6fZQeeM1%2BvLuIQnjuBWQDDCscrmHP9eoNPAtBqfOnXuaK%2Bh6JEbGrs%2BpvvMmxeIbh863abVPeYySEo9FJHpNMFJY%2BP5cWZkfg7O1tSwYCeSQLTY3E8Q09%2FBVPJUlxQjshT1BscCY02r9UDUBfvCHB66pcfPA3lyAe3ngr3%2F47XDgaJzsly7xwA6NZtlUUPCuAHqaSjUIP%2Bsue8BRWAC%2FNfQ7JZPZ59s0Gj7VtpISz4hQ%2BCpfXGMKhZcvLpUKxfWM8ohvf7p%2FODjHBfcVF8Isk82g1FHykcVFE%2BUZAAX47aE%2FMl4PO50Pnuh0%2Fx4nmcyWPsdwDhBx6CmkLV%2FgFDjYKxOJOFtb0wQyIhL9RyCwK3AOfIGp1YFEBhnMJcLRWEbKdKQoU6ncTZkIEDicAy%2F81dVuEM5RwPfey4xOx0Ik%2FI2NnFki%2BWafOoFIYFcgYZCyxd7eCUjbc4AmF65ft%2FkMhk3o%2B5hc7sMJyqjJEGvYFaQFIr7Y0wPw8BFAY%2B6%2Bvmk3w6zzRuDMmZVRsfh8RtA0uETSD7uCBT6DYQN6iveU0fpkYLjE6qrVrtOxeNKU9THLZJ9kBU2JBsBhV5AivB%2FoKaQNKgPCBwDYaIfZC4adThOqF4WENViLJwVoXobfLBKVw67AOaTsLc65TaVK21vQ4La99eKcYg5vbxsbObzTQ9N7UKDgUO1wDjiDIIBshh5ztg39nQMLSZBH4OzBOUDEQXm206d3fcLgswbXQA4PhcK3nhswU1Bz8wvQ09RHG%2FoYy3ejfwBNmtoYqLA0XgAAAABJRU5ErkJggg%3D%3D&amp;label=UpdatedAt" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>CreatedAt</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/6b29ef9ab14ccc62c52434fa284353a638864d322965f281473c70d000b4d9e8/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f637265617465642d61742f64657261696c65642f6b39733f6c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e5355684555674141414234414141416543415941414141374d4b3669414141414358424957584d41414173544141414c457745416d7077594141414648556c45515652346e4c5658375539615678776d3236646c582532466468627825324232253246516e626b7655627264554151674a4a496655444e574454546d4f76314651554661504a346b7573725630314a7431734e70637453327533626f745a746d786439744a5346536f714b71494635625944464c436f76436c656673747a4a387758524c445a4c7a6e6b634f343535376e3364332532466e655a3472454f515a74315771462532423858467234253242664f4c4565326a6f59307a776638546f795a50766a45676b4c592532426b306d6d72584f36644b696e787a476b30666a5430782532425279723055716e6359637a4d317263347451253242497270324c4758646f344e4334567657715453373277716c632532427231334f527269364b6458646e624f484c6c776c7a4a70524b6e3657342532424b36706f4f434e6e494166486a253246253242776168495a4234764b6e715a6630714a704e49716c2532467638545530634e6c3572627963337730516e54703379324c54614a374d314e617844723266526e315370504736476961323174664533345463614f617931694d55564f5146624659714957536f31573854694156616e43306576584f4542375770313448466232327a453566714c4f433545524c515769644e614e49347545636339693768634a6c644868324e57725135674464624f6c7061756d49754c62326174415144506e7a3062384e6257636d785656524a33486d7870536377777a4f4a6d4b44524765384c6c435a444c4739673754496e5631516c376462586256316533675430574b697243466f6d6b5079767758466c5a474a4f6a563625324253743634757564445a4f55354555636f782532464d455144567674364d62634e3237593341797a687633737061557242365a3971724a534f3139657a6a387032704c426b4a792532426343484a7857493567573574636652527a31645531394766476b6f7539505a4f34736d52396a4746777065783444793362766e6d4b79706f74625531335669646a71595a68726a343972764d457425324625324659714c7a396430304e6a57253246637a67796f394f35317a7336614e6c6f354644747530445a675146686c47584a30644241446f4e6864367576703657686f617967374e394c564748386d443462253246486e667455516f4e4734764c51306769784d716c5725324234714f6a744e48446733723166365969525347785279375576714c62395534716b716e78504f4e7661356c447048723125324279794b524e4b57425a793565644d554842326d3572792532422532424551772532427a6766347a6f39253246306f634e3357527a4c4277344a2532424a7950574372716d4967475974554f735744346f785a46516f50556a4770564871493425324661666b51504336665a5165654d31253242764c7549516e6a754257514444437363726d485039656f4e5041744271664f6e5875614b25324268364a45624772732532427076764d6d78654962683836336162565065597953456f39464a48704e4d464a59253242503563575a6b6667374f3174537759436553514c54593345385130392532464256504a556c78516a7368543142736343593032723955445542667643484236367063665041336c794165336e6772332532463437584467614a7a736c7937787741364e5a746c555550437541487161536a5549502532427375653842525741432532464e6651374a5a505a35397330476a3756747049537a34685125324243706658474d4b685a63764c70554b7866574d386f68766637702532464f446a4842666356463849736b383267314648796b63564645253242555a414158343761452532464d6c34504f3530506e75683025324678346e6d637957507364774468427836436d6b4c562532466746446a594b784f4a4f4674623077517949684c39527943774b33414f664947703159464542686e4d4a634c525745624b644b516f55366e63545a6b494544696341792532463831645675454d3552775066657934784f7830496b25324649324e6e466b692532425761664f6f464959466367595a43797864376543556a626334416d46363566742532466b4d686b336f25324235686337734d4a79716a4a45477659466151464972375930775077384246415925324236253242766d6b3377367a7a5275444d6d5a5652736668385274413075455453443775434254364459514e36697665553066706b594c6a453671725672744f78654e4b553954484c5a4a396b4255324a427342685635416976422532466f4b61514e4b675043427744596149665a4334616454684f71463457454e56694c4a77566f586f62664c424b56773637414f6154734c6336355461564b32317651344c613939654b6359673576627873624f627a5451394e37554b4467554f3177446a6944494942736868357a746733396e514d4c535a4248344f7a424f55444551586d323036643366634c67737762585141345068634b336e6873775531427a3877765130395248472532466f597933656a6677424e6d746f59714c4130586741414141424a52553545726b4a676767253344253344266c6162656c3d437265617465644174" alt="create-at" data-canonical-src="https://img.shields.io/github/created-at/derailed/k9s?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHUlEQVR4nLVX7U9aVxwm26dlX%2Fdhbx%2B2%2FQnbkvUbrdUAQgJJIfUDNWDTTmOv1FQUFaPJ4kusrV01Jt1sNpctS2u3botZtmxd9tJSFSoqKqIF5bYDFLCovClefstzJ8wXRLDZLznkcO4557n3d3%2FneZ4rEOQZt1WqF%2B8XFr4%2BfOLEe2joY0zwf8ToyZPvjEgkLY%2Bk0mmrXO6dKinxzGk0fjT0x%2BRyr0UqncYczM1rc4tQ%2BIrp2LGXdo4NC4VvWqTS72wqlc%2Br13ORri6KdXdnbOHLlwlzJpRKn6W4%2BK6poOCNnIAfHj%2F%2BwahIZB4vKnqZf0qJpNIql%2Fv8TU0cNl5rbyc3w0QnTp3y2LTaJ7M1NaxDr2fRn1SpPG6Gia21tfE34TcaOay1iMUVOQFbFYqIWSo1W8TiAVanC0evXOEB7Wp14HFb22zE5fqLOC5ERLQWidNaNI4uEcc9i7hcJldHh2NWrQ5gDdbOlpaumIuLb2atAQDPnz0b8NbWcmxVVRJ3HmxpScwwzOJmKDRGe8LlCZDLG9g7TInV1Ql7dbXbV1e3gT0WKirCFomkPyvwXFlZGJOjV6%2BSt64uudDZOU5EUcox%2FMEQDVvt6MbcN27Y3Ayzhv3spaUrB6Z9qrJSO19ezj8p2pLBkJy%2BcCHJxWI5gW5tcfRRz1dU19GfGkou9PZO4smR9jGFwpex4Dy3bvnmKypotbU13VidjqYZhrj49rvMEt%2F%2FYqLz9d00NjW%2Fczgyo9O51zs6aNlo5FDtu0DZgQFhlGXJ0dBADoNhd6uvp6Whoayg7N9LVGH8mD4b%2FHnftUQoNG4vLQ0gixMqlW%2B4qOjtNHDg3r1f6YiRSGxRy7UvqLb9U4qkqnxPONva5lDpHr1%2ByyKRNKWBZy5edMUHB2m5ry%2B%2BEQw%2Bzgf4zo9%2F0ocN3WRzLBw4J%2BJyPWCrqmIgGYtUOsWD4oxZFQoPUjGpVHqI4%2FafkQPC6fZQeeM1%2BvLuIQnjuBWQDDCscrmHP9eoNPAtBqfOnXuaK%2Bh6JEbGrs%2BpvvMmxeIbh863abVPeYySEo9FJHpNMFJY%2BP5cWZkfg7O1tSwYCeSQLTY3E8Q09%2FBVPJUlxQjshT1BscCY02r9UDUBfvCHB66pcfPA3lyAe3ngr3%2F47XDgaJzsly7xwA6NZtlUUPCuAHqaSjUIP%2Bsue8BRWAC%2FNfQ7JZPZ59s0Gj7VtpISz4hQ%2BCpfXGMKhZcvLpUKxfWM8ohvf7p%2FODjHBfcVF8Isk82g1FHykcVFE%2BUZAAX47aE%2FMl4PO50Pnuh0%2Fx4nmcyWPsdwDhBx6CmkLV%2FgFDjYKxOJOFtb0wQyIhL9RyCwK3AOfIGp1YFEBhnMJcLRWEbKdKQoU6ncTZkIEDicAy%2F81dVuEM5RwPfey4xOx0Ik%2FI2NnFki%2BWafOoFIYFcgYZCyxd7eCUjbc4AmF65ft%2FkMhk3o%2B5hc7sMJyqjJEGvYFaQFIr7Y0wPw8BFAY%2B6%2Bvmk3w6zzRuDMmZVRsfh8RtA0uETSD7uCBT6DYQN6iveU0fpkYLjE6qrVrtOxeNKU9THLZJ9kBU2JBsBhV5AivB%2FoKaQNKgPCBwDYaIfZC4adThOqF4WENViLJwVoXobfLBKVw67AOaTsLc65TaVK21vQ4La99eKcYg5vbxsbObzTQ9N7UKDgUO1wDjiDIIBshh5ztg39nQMLSZBH4OzBOUDEQXm206d3fcLgswbXQA4PhcK3nhswU1Bz8wvQ09RHG%2FoYy3ejfwBNmtoYqLA0XgAAAABJRU5ErkJggg%3D%3D&amp;label=CreatedAt" style="max-width: 100%;"></a></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<a href="https://github.com/opsre/awesome-ops">
+</a><p dir="auto"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/b964a36ea4078c39f603d46a29436371c7541a2f26e0228d7b21b9d9805b43d3/68747470733a2f2f736f6369616c6966792e6769742e63692f6f707372652f617765736f6d652d6f70732f696d6167653f6465736372697074696f6e3d3126666f6e743d42697474657226666f726b733d31266973737565733d31266c616e67756167653d31266c6f676f3d6874747073253341253246253246617661746172732e67697468756275736572636f6e74656e742e636f6d25324675253246313838353638303230266e616d653d31266f776e65723d31267061747465726e3d436972637569742b426f6172642670756c6c733d31267374617267617a6572733d31267468656d653d4c69676874" alt="" data-canonical-src="https://socialify.git.ci/opsre/awesome-ops/image?description=1&amp;font=Bitter&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F188568020&amp;name=1&amp;owner=1&amp;pattern=Circuit+Board&amp;pulls=1&amp;stargazers=1&amp;theme=Light" style="max-width: 100%;"></a></p>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966"><img src="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966" width="100%" height="3" data-animated-image="" data-canonical-src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" style="max-width: 100%; height: auto; max-height: 3px;"></a>
+</div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="assets/k9s.png"><img src="assets/k9s.png" alt="k9s" style="max-width: 100%;"></a></p>
+<h2 dir="auto">K9s - Kubernetes CLI To Manage Your Clusters In Style!</h2>
+<p dir="auto">K9s provides a terminal UI to interact with your Kubernetes clusters.<br>
+The aim of this project is to make it easier to navigate, observe and manage<br>
+your applications in the wild. K9s continually watches Kubernetes<br>
+for changes and offers subsequent commands to interact with your observed resources.</p>
+<hr>
+<h2 dir="auto">Note...</h2>
+<p dir="auto">K9s is not pimped out by a big corporation with deep pockets.<br>
+It is a complex OSS project that demands a lot of my time to maintain and support.<br>
+K9s will always remain OSS and therefore free! That said, if you feel k9s makes your day to day Kubernetes journey a tad brighter, saves you time and makes you more productive, please consider <a href="https://github.com/sponsors/derailed">sponsoring us!</a><br>
+Your donations will go a long way in keeping our servers lights on and beers in our fridge!</p>
+<p dir="auto"><strong>Thank you!</strong></p>
+<hr>
+<p dir="auto"><a href="https://goreportcard.com/report/github.com/derailed/k9s" rel="nofollow"><img src="https://camo.githubusercontent.com/5e89b70f4b5cd6fa14933c2b2ab55ed2b099ae0ac2350ce08450f34939d2c699/68747470733a2f2f676f7265706f7274636172642e636f6d2f62616467652f6769746875622e636f6d2f64657261696c65642f6b39733f" alt="Go Report Card" data-canonical-src="https://goreportcard.com/badge/github.com/derailed/k9s?" style="max-width: 100%;"></a><br>
+<a href="https://golangci.com/r/github.com/derailed/k9s" rel="nofollow"><img src="https://github.com/golangci/golangci-web/blob/master/src/assets/images/badge_a_plus_flat.svg" alt="golangci badge" style="max-width: 100%;"></a><br>
+<a href="https://codebeat.co/projects/github-com-derailed-k9s-master" rel="nofollow"><img src="https://camo.githubusercontent.com/2cfa01f7c0dbd3e199d5e21fc78db3f6f3e31584ffae308aeaf88af5bf35c8e8/68747470733a2f2f636f6465626561742e636f2f6261646765732f38396535613830652d646665382d343432362d616366362d366265373831653061313265" alt="codebeat badge" data-canonical-src="https://codebeat.co/badges/89e5a80e-dfe8-4426-acf6-6be781e0a12e" style="max-width: 100%;"></a><br>
+<a href="https://travis-ci.com/derailed/k9s" rel="nofollow"><img src="https://camo.githubusercontent.com/0695dacc6bfff6f85d7448899edd8c1360029b269c95b7df3c4826ede6d0e440/68747470733a2f2f6170692e7472617669732d63692e636f6d2f64657261696c65642f6b39732e7376673f6272616e63683d6d6173746572" alt="Build Status" data-canonical-src="https://api.travis-ci.com/derailed/k9s.svg?branch=master" style="max-width: 100%;"></a><br>
+<a href="https://quay.io/repository/derailed/k9s" rel="nofollow"><img src="https://camo.githubusercontent.com/d1bdfa3ac65e252212b1e4566b2cf92003663dc08ecb941850325f0d6544be94/68747470733a2f2f717561792e696f2f7265706f7369746f72792f64657261696c65642f6b39732f737461747573" alt="Docker Repository on Quay" title="Docker Repository on Quay" data-canonical-src="https://quay.io/repository/derailed/k9s/status" style="max-width: 100%;"></a><br>
+<a href="https://github.com/derailed/k9s/releases"><img src="https://camo.githubusercontent.com/8dea48f09d5aff4f0185fdd2c76cbf63fc9dac927bb4d9bb14f52c6b113e1ab7/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f72656c656173652d7072652f64657261696c65642f6b39732e737667" alt="release" data-canonical-src="https://img.shields.io/github/release-pre/derailed/k9s.svg" style="max-width: 100%;"></a><br>
+<a href="https://github.com/mum4k/termdash/blob/master/LICENSE"><img src="https://camo.githubusercontent.com/859a1a0bc85ce8bbd7a730a274fec5c9e77c4726ffdf6aa762a78685e26033a4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d417061636865253230322e302d626c75652e737667" alt="License" data-canonical-src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" style="max-width: 100%;"></a><br>
+<a href="https://github.com/derailed/k9s/releases"><img src="https://camo.githubusercontent.com/3a6cbc0153357b958ccf203fdb8df00c1131e93d35e028ae6ebadc587f5d35f1/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f64657261696c65642f6b39732f746f74616c2e737667" alt="Releases" data-canonical-src="https://img.shields.io/github/downloads/derailed/k9s/total.svg" style="max-width: 100%;"></a></p>
+<hr>
+<h2 dir="auto">Screenshots</h2>
+<ol dir="auto">
+<li>Pods<br>
+<a target="_blank" rel="noopener noreferrer" href="assets/screen_po.png"><img src="assets/screen_po.png" style="max-width: 100%;"></a></li>
+<li>Logs<br>
+<a target="_blank" rel="noopener noreferrer" href="assets/screen_logs.png"><img src="assets/screen_logs.png" style="max-width: 100%;"></a></li>
+<li>Deployments<br>
+<a target="_blank" rel="noopener noreferrer" href="assets/screen_dp.png"><img src="assets/screen_dp.png" style="max-width: 100%;"></a></li>
+</ol>
+<hr>
+<h2 dir="auto">Demo Videos/Recordings</h2>
+<ul dir="auto">
+<li><a href="https://youtu.be/iy6RDozAM4A" rel="nofollow">K9s v0.40.0 -Column Blow- Sneak peek</a></li>
+<li><a href="https://youtu.be/X3444KfjguE" rel="nofollow">K9s v0.31.0 Configs+Sneak peek</a></li>
+<li><a href="https://youtu.be/mVBc1XneRJ4" rel="nofollow">K9s v0.30.0 Sneak peek</a></li>
+<li><a href="https://youtu.be/ULkl0MsaidU" rel="nofollow">Vulnerability Scans</a></li>
+<li><a href="https://youtu.be/oiU3wmoAkBo" rel="nofollow">K9s v0.29.0</a></li>
+<li><a href="https://youtu.be/wG8KCwDAhnw" rel="nofollow">K9s v0.21.3</a></li>
+<li><a href="https://youtu.be/kj-WverKZ24" rel="nofollow">K9s v0.19.X</a></li>
+<li><a href="https://www.youtube.com/watch?v=zMnD5e53yRw" rel="nofollow">K9s v0.18.0</a></li>
+<li><a href="https://www.youtube.com/watch?v=7S33CNLAofk&amp;feature=youtu.be" rel="nofollow">K9s v0.17.0</a></li>
+<li><a href="https://asciinema.org/a/UbXKPal6IWpTaVAjBBFmizcGN" rel="nofollow">K9s Pulses</a></li>
+<li><a href="https://youtu.be/7Fx4XQ2ftpM" rel="nofollow">K9s v0.15.1</a></li>
+<li><a href="https://www.youtube.com/watch?v=qaeR2iK7U0o&amp;t=15s" rel="nofollow">K9s v0.13.0</a></li>
+<li><a href="https://www.youtube.com/watch?v=bxKfqumjW4I" rel="nofollow">K9s v0.9.0</a></li>
+<li><a href="https://youtu.be/83jYehwlql8" rel="nofollow">K9s v0.7.0 Features</a></li>
+<li><a href="https://youtu.be/k7zseUhaXeU" rel="nofollow">K9s v0 Demo</a></li>
+</ul>
+<hr>
+<h2 dir="auto">Documentation</h2>
+<p dir="auto">Please refer to our <a href="https://k9scli.io" rel="nofollow">K9s documentation</a> site for installation, usage, customization and tips.</p>
+<hr>
+<h2 dir="auto">Slack Channel</h2>
+<p dir="auto">Wanna discuss K9s features with your fellow <code class="notranslate">K9sers</code> or simply show your support for this tool?</p>
+<ul dir="auto">
+<li>Channel: <a href="https://k9sers.slack.com/" rel="nofollow">K9sersSlack</a></li>
+<li>Invite: <a href="https://join.slack.com/t/k9sers/shared_invite/zt-3360a389v-ElLHrb0Dp1kAXqYUItSAFA" rel="nofollow">K9slackers Invite</a></li>
+</ul>
+<hr>
+<h2 dir="auto">🥳 A Word From Our Rhodium Sponsors...</h2>
+<p dir="auto">Below are organizations that have opted to show their support and sponsor K9s.</p>
+<br>
+<a href="https://panfactum.com" rel="nofollow"><img src="assets/sponsors/panfactum.png" alt="panfactum" style="max-width: 100%;"></a>
+<br>
+<br>
+<hr>
+<h2 dir="auto">Installation</h2>
+<p dir="auto">K9s is available on Linux, macOS and Windows platforms.<br>
+Binaries for Linux, Windows and Mac are available as tarballs in the <a href="https://github.com/derailed/k9s/releases">release page</a>.</p>
+<ul dir="auto">
+<li>
+<p dir="auto">Via <a href="https://brew.sh/" rel="nofollow">Homebrew</a> for macOS or Linux</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="brew install derailed/k9s/k9s"><pre class="notranslate">brew install derailed/k9s/k9s</pre></div>
+</li>
+<li>
+<p dir="auto">Via <a href="https://www.macports.org" rel="nofollow">MacPorts</a></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo port install k9s"><pre class="notranslate">sudo port install k9s</pre></div>
+</li>
+<li>
+<p dir="auto">Via <a href="https://snapcraft.io/k9s" rel="nofollow">snap</a> for Linux</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="snap install k9s --devmode"><pre class="notranslate">snap install k9s --devmode</pre></div>
+</li>
+<li>
+<p dir="auto">On Arch Linux</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="pacman -S k9s"><pre class="notranslate">pacman -S k9s</pre></div>
+</li>
+<li>
+<p dir="auto">On OpenSUSE Linux distribution</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="zypper install k9s"><pre class="notranslate">zypper install k9s</pre></div>
+</li>
+<li>
+<p dir="auto">On FreeBSD</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="pkg install k9s"><pre class="notranslate">pkg install k9s</pre></div>
+</li>
+<li>
+<p dir="auto">On Ubuntu</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="wget https://github.com/derailed/k9s/releases/latest/download/k9s_linux_amd64.deb &amp;&amp; apt install ./k9s_linux_amd64.deb &amp;&amp; rm k9s_linux_amd64.deb"><pre class="notranslate">wget https://github.com/derailed/k9s/releases/latest/download/k9s_linux_amd64.deb <span class="pl-k">&amp;&amp;</span> apt install ./k9s_linux_amd64.deb <span class="pl-k">&amp;&amp;</span> rm k9s_linux_amd64.deb</pre></div>
+</li>
+<li>
+<p dir="auto">Via <a href="https://github.com/microsoft/winget-cli">Winget</a> for Windows</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="winget install k9s"><pre class="notranslate">winget install k9s</pre></div>
+</li>
+<li>
+<p dir="auto">Via <a href="https://scoop.sh" rel="nofollow">Scoop</a> for Windows</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="scoop install k9s"><pre class="notranslate">scoop install k9s</pre></div>
+</li>
+<li>
+<p dir="auto">Via <a href="https://chocolatey.org/packages/k9s" rel="nofollow">Chocolatey</a> for Windows</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="choco install k9s"><pre class="notranslate">choco install k9s</pre></div>
+</li>
+<li>
+<p dir="auto">Via a GO install</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# NOTE: The dev version will be in effect!
+go install github.com/derailed/k9s@latest"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> NOTE: The dev version will be in effect!</span>
+go install github.com/derailed/k9s@latest</pre></div>
+</li>
+<li>
+<p dir="auto">Via <a href="https://webinstall.dev" rel="nofollow">Webi</a> for Linux and macOS</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="curl -sS https://webinstall.dev/k9s | bash"><pre class="notranslate">curl -sS https://webinstall.dev/k9s <span class="pl-k">|</span> bash</pre></div>
+</li>
+<li>
+<p dir="auto">Via <a href="https://pkgx.dev/pkgs/k9scli.io/" rel="nofollow">pkgx</a> for Linux and macOS</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="pkgx k9s"><pre class="notranslate">pkgx k9s</pre></div>
+</li>
+<li>
+<p dir="auto">Via <a href="https://webinstall.dev" rel="nofollow">Webi</a> for Windows</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="curl.exe -A MS https://webinstall.dev/k9s | powershell"><pre class="notranslate">curl.exe -A MS https://webinstall.dev/k9s <span class="pl-k">|</span> powershell</pre></div>
+</li>
+<li>
+<p dir="auto">As a <a href="https://docs.docker.com/desktop/extensions/" rel="nofollow">Docker Desktop Extension</a> (for the Docker Desktop built in Kubernetes Server)</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="docker extension install spurin/k9s-dd-extension:latest"><pre class="notranslate">docker extension install spurin/k9s-dd-extension:latest</pre></div>
+</li>
+</ul>
+<hr>
+<h2 dir="auto">Building From Source</h2>
+<p dir="auto">K9s is currently using GO v1.23.X or above.<br>
+In order to build K9s from source you must:</p>
+<ol dir="auto">
+<li>
+<p dir="auto">Clone the repo</p>
+</li>
+<li>
+<p dir="auto">Build and run the executable</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="make build &amp;&amp; ./execs/k9s"><pre class="notranslate">make build <span class="pl-k">&amp;&amp;</span> ./execs/k9s</pre></div>
+</li>
+</ol>
+<hr>
+<h2 dir="auto">Running with Docker</h2>
+<h3 dir="auto">Running the official Docker image</h3>
+<p dir="auto">You can run k9s as a Docker container by mounting your <code class="notranslate">KUBECONFIG</code>:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="docker run --rm -it -v $KUBECONFIG:/root/.kube/config quay.io/derailed/k9s"><pre class="notranslate">docker run --rm -it -v <span class="pl-smi">$KUBECONFIG</span>:/root/.kube/config quay.io/derailed/k9s</pre></div>
+<p dir="auto">For default path it would be:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="docker run --rm -it -v ~/.kube/config:/root/.kube/config quay.io/derailed/k9s"><pre class="notranslate">docker run --rm -it -v <span class="pl-k">~</span>/.kube/config:/root/.kube/config quay.io/derailed/k9s</pre></div>
+<h3 dir="auto">Building your own Docker image</h3>
+<p dir="auto">You can build your own Docker image of k9s from the <a href="Dockerfile">Dockerfile</a> with the following:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="docker build -t k9s-docker:v0.0.1 ."><pre class="notranslate">docker build -t k9s-docker:v0.0.1 <span class="pl-c1">.</span></pre></div>
+<p dir="auto">You can get the latest stable <code class="notranslate">kubectl</code> version and pass it to the <code class="notranslate">docker build</code> command with the <code class="notranslate">--build-arg</code> option.<br>
+You can use the <code class="notranslate">--build-arg</code> option to pass any valid <code class="notranslate">kubectl</code> version (like <code class="notranslate">v1.18.0</code> or <code class="notranslate">v1.19.1</code>).</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="KUBECTL_VERSION=$(make kubectl-stable-version 2&gt;/dev/null)
+docker build --build-arg KUBECTL_VERSION=${KUBECTL_VERSION} -t k9s-docker:0.1 ."><pre class="notranslate">KUBECTL_VERSION=<span class="pl-s"><span class="pl-pds">$(</span>make kubectl-stable-version <span class="pl-k">2&gt;</span>/dev/null<span class="pl-pds">)</span></span>
+docker build --build-arg KUBECTL_VERSION=<span class="pl-smi">${KUBECTL_VERSION}</span> -t k9s-docker:0.1 <span class="pl-c1">.</span></pre></div>
+<p dir="auto">Run your container:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="docker run --rm -it -v ~/.kube/config:/root/.kube/config k9s-docker:0.1"><pre class="notranslate">docker run --rm -it -v <span class="pl-k">~</span>/.kube/config:/root/.kube/config k9s-docker:0.1</pre></div>
+<hr>
+<h2 dir="auto">PreFlight Checks</h2>
+<ul dir="auto">
+<li>
+<p dir="auto">K9s uses 256 colors terminal mode. On `Nix system make sure TERM is set accordingly.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="export TERM=xterm-256color"><pre class="notranslate"><span class="pl-k">export</span> TERM=xterm-256color</pre></div>
+</li>
+<li>
+<p dir="auto">In order to issue resource edit commands make sure your EDITOR and KUBE_EDITOR env vars are set.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# Kubectl edit command will use this env var.
+export KUBE_EDITOR=my_fav_editor"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> Kubectl edit command will use this env var.</span>
+<span class="pl-k">export</span> KUBE_EDITOR=my_fav_editor</pre></div>
+</li>
+<li>
+<p dir="auto">K9s prefers recent kubernetes versions ie 1.28+</p>
+</li>
+</ul>
+<hr>
+<h2 dir="auto">K8S Compatibility Matrix</h2>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>k9s</th>
+<th>k8s client</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&gt;= v0.27.0</td>
+<td>1.26.1</td>
+</tr>
+<tr>
+<td>v0.26.7 - v0.26.6</td>
+<td>1.25.3</td>
+</tr>
+<tr>
+<td>v0.26.5 - v0.26.4</td>
+<td>1.25.1</td>
+</tr>
+<tr>
+<td>v0.26.3 - v0.26.1</td>
+<td>1.24.3</td>
+</tr>
+<tr>
+<td>v0.26.0 - v0.25.19</td>
+<td>1.24.2</td>
+</tr>
+<tr>
+<td>v0.25.18 - v0.25.3</td>
+<td>1.22.3</td>
+</tr>
+<tr>
+<td>v0.25.2 - v0.25.0</td>
+<td>1.22.0</td>
+</tr>
+<tr>
+<td>&lt;= v0.24</td>
+<td>1.21.3</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<hr>
+<h2 dir="auto">The Command Line</h2>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# List current version
+k9s version
+
+# To get info about K9s runtime (logs, configs, etc..)
+k9s info
+
+# List all available CLI options
+k9s help
+
+# To run K9s in a given namespace
+k9s -n mycoolns
+
+# Start K9s in an existing KubeConfig context
+k9s --context coolCtx
+
+# Start K9s in readonly mode - with all cluster modification commands disabled
+k9s --readonly"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> List current version</span>
+k9s version
+
+<span class="pl-c"><span class="pl-c">#</span> To get info about K9s runtime (logs, configs, etc..)</span>
+k9s info
+
+<span class="pl-c"><span class="pl-c">#</span> List all available CLI options</span>
+k9s <span class="pl-c1">help</span>
+
+<span class="pl-c"><span class="pl-c">#</span> To run K9s in a given namespace</span>
+k9s -n mycoolns
+
+<span class="pl-c"><span class="pl-c">#</span> Start K9s in an existing KubeConfig context</span>
+k9s --context coolCtx
+
+<span class="pl-c"><span class="pl-c">#</span> Start K9s in readonly mode - with all cluster modification commands disabled</span>
+k9s --readonly</pre></div>
+<h2 dir="auto">Logs And Debug Logs</h2>
+<p dir="auto">Given the nature of the ui k9s does produce logs to a specific location.<br>
+To view the logs and turn on debug mode, use the following commands:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# Find out where the logs are stored
+k9s info"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> Find out where the logs are stored</span>
+k9s info</pre></div>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content=" ____  __.________
+|    |/ _/   __   \______
+|      &lt; \____    /  ___/
+|    |  \   /    /\___ \
+|____|__ \ /____//____  &gt;
+        \/            \/
+
+Version:           vX.Y.Z
+Config:            /Users/fernand/.config/k9s/config.yaml
+Logs:              /Users/fernand/.local/state/k9s/k9s.log
+Dumps dir:         /Users/fernand/.local/state/k9s/screen-dumps
+Benchmarks dir:    /Users/fernand/.local/state/k9s/benchmarks
+Skins dir:         /Users/fernand/.local/share/k9s/skins
+Contexts dir:      /Users/fernand/.local/share/k9s/clusters
+Custom views file: /Users/fernand/.local/share/k9s/views.yaml
+Plugins file:      /Users/fernand/.local/share/k9s/plugins.yaml
+Hotkeys file:      /Users/fernand/.local/share/k9s/hotkeys.yaml
+Alias file:        /Users/fernand/.local/share/k9s/aliases.yaml"><pre lang="text" class="notranslate"><code class="notranslate"> ____  __.________
+|    |/ _/   __   \______
+|      &lt; \____    /  ___/
+|    |  \   /    /\___ \
+|____|__ \ /____//____  &gt;
+        \/            \/
+
+Version:           vX.Y.Z
+Config:            /Users/fernand/.config/k9s/config.yaml
+Logs:              /Users/fernand/.local/state/k9s/k9s.log
+Dumps dir:         /Users/fernand/.local/state/k9s/screen-dumps
+Benchmarks dir:    /Users/fernand/.local/state/k9s/benchmarks
+Skins dir:         /Users/fernand/.local/share/k9s/skins
+Contexts dir:      /Users/fernand/.local/share/k9s/clusters
+Custom views file: /Users/fernand/.local/share/k9s/views.yaml
+Plugins file:      /Users/fernand/.local/share/k9s/plugins.yaml
+Hotkeys file:      /Users/fernand/.local/share/k9s/hotkeys.yaml
+Alias file:        /Users/fernand/.local/share/k9s/aliases.yaml
+</code></pre></div>
+<h3 dir="auto">View K9s logs</h3>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="tail -f /Users/fernand/.local/data/k9s/k9s.log"><pre class="notranslate">tail -f /Users/fernand/.local/data/k9s/k9s.log</pre></div>
+<h3 dir="auto">Start K9s in debug mode</h3>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="k9s -l debug"><pre class="notranslate">k9s -l debug</pre></div>
+<h3 dir="auto">Customize logs destination</h3>
+<p dir="auto">You can override the default log file destination either with the <code class="notranslate">--logFile</code> argument:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="k9s --logFile /tmp/k9s.log
+less /tmp/k9s.log"><pre class="notranslate">k9s --logFile /tmp/k9s.log
+less /tmp/k9s.log</pre></div>
+<p dir="auto">Or through the <code class="notranslate">K9S_LOGS_DIR</code> environment variable:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="K9S_LOGS_DIR=/var/log k9s
+less /var/log/k9s.log"><pre class="notranslate">K9S_LOGS_DIR=/var/log k9s
+less /var/log/k9s.log</pre></div>
+<h2 dir="auto">Key Bindings</h2>
+<p dir="auto">K9s uses aliases to navigate most K8s resources.</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>Action</th>
+<th>Command</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Show active keyboard mnemonics and help</td>
+<td><code class="notranslate">?</code></td>
+<td></td>
+</tr>
+<tr>
+<td>Show all available resource alias</td>
+<td><code class="notranslate">ctrl-a</code></td>
+<td></td>
+</tr>
+<tr>
+<td>To bail out of K9s</td>
+<td><code class="notranslate">:quit</code>, <code class="notranslate">:q</code>, <code class="notranslate">ctrl-c</code></td>
+<td></td>
+</tr>
+<tr>
+<td>To go up/back to the previous view</td>
+<td><code class="notranslate">esc</code></td>
+<td>If you have crumbs on, this will go to the previous one</td>
+</tr>
+<tr>
+<td>View a Kubernetes resource using singular/plural or short-name</td>
+<td><code class="notranslate">:</code>pod⏎</td>
+<td>accepts singular, plural, short-name or alias ie pod or pods</td>
+</tr>
+<tr>
+<td>View a Kubernetes resource in a given namespace</td>
+<td><code class="notranslate">:</code>pod ns-x⏎</td>
+<td></td>
+</tr>
+<tr>
+<td>View filtered pods (New v0.30.0!)</td>
+<td><code class="notranslate">:</code>pod /fred⏎</td>
+<td>View all pods filtered by fred</td>
+</tr>
+<tr>
+<td>View labeled pods (New v0.30.0!)</td>
+<td><code class="notranslate">:</code>pod app=fred,env=dev⏎</td>
+<td>View all pods with labels matching app=fred and env=dev</td>
+</tr>
+<tr>
+<td>View pods in a given context (New v0.30.0!)</td>
+<td><code class="notranslate">:</code>pod <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/cTx1/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/cTx1">@cTx1</a>⏎</td>
+<td>View all pods in context ctx1. Switches out your current k9s context!</td>
+</tr>
+<tr>
+<td>Filter out a resource view given a filter</td>
+<td><code class="notranslate">/</code>filter⏎</td>
+<td>Regex2 supported ie `fred</td>
+</tr>
+<tr>
+<td>Inverse regex filter</td>
+<td><code class="notranslate">/</code>! filter⏎</td>
+<td>Keep everything that <em>doesn't</em> match.</td>
+</tr>
+<tr>
+<td>Filter resource view by labels</td>
+<td><code class="notranslate">/</code>-l label-selector⏎</td>
+<td></td>
+</tr>
+<tr>
+<td>Fuzzy find a resource given a filter</td>
+<td><code class="notranslate">/</code>-f filter⏎</td>
+<td></td>
+</tr>
+<tr>
+<td>Bails out of view/command/filter mode</td>
+<td><code class="notranslate">&lt;esc&gt;</code></td>
+<td></td>
+</tr>
+<tr>
+<td>Key mapping to describe, view, edit, view logs,...</td>
+<td><code class="notranslate">d</code>,<code class="notranslate">v</code>, <code class="notranslate">e</code>, <code class="notranslate">l</code>,...</td>
+<td></td>
+</tr>
+<tr>
+<td>To view and switch to another Kubernetes context (Pod view)</td>
+<td><code class="notranslate">:</code>ctx⏎</td>
+<td></td>
+</tr>
+<tr>
+<td>To view and switch directly to another Kubernetes context (Last used view)</td>
+<td><code class="notranslate">:</code>ctx context-name⏎</td>
+<td></td>
+</tr>
+<tr>
+<td>To view and switch to another Kubernetes namespace</td>
+<td><code class="notranslate">:</code>ns⏎</td>
+<td></td>
+</tr>
+<tr>
+<td>To switch back to the last active command (like how "cd -" works)</td>
+<td><code class="notranslate">-</code></td>
+<td>Navigation that adds breadcrumbs to the bottom are not commands</td>
+</tr>
+<tr>
+<td>To go back and forward through the command history</td>
+<td>back: <code class="notranslate">[</code>, forward: <code class="notranslate">]</code></td>
+<td>Same as above</td>
+</tr>
+<tr>
+<td>To view all saved resources</td>
+<td><code class="notranslate">:</code>screendump or sd⏎</td>
+<td></td>
+</tr>
+<tr>
+<td>To delete a resource (TAB and ENTER to confirm)</td>
+<td><code class="notranslate">ctrl-d</code></td>
+<td></td>
+</tr>
+<tr>
+<td>To kill a resource (no confirmation dialog, equivalent to kubectl delete --now)</td>
+<td><code class="notranslate">ctrl-k</code></td>
+<td></td>
+</tr>
+<tr>
+<td>Launch pulses view</td>
+<td><code class="notranslate">:</code>pulses or pu⏎</td>
+<td></td>
+</tr>
+<tr>
+<td>Launch XRay view</td>
+<td><code class="notranslate">:</code>xray RESOURCE [NAMESPACE]⏎</td>
+<td>RESOURCE can be one of po, svc, dp, rs, sts, ds, NAMESPACE is optional</td>
+</tr>
+<tr>
+<td>Launch Popeye view</td>
+<td><code class="notranslate">:</code>popeye or pop⏎</td>
+<td>See <a href="#popeye">popeye</a></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<hr>
+<h2 dir="auto">K9s Configuration</h2>
+<p dir="auto">K9s keeps its configurations as YAML files inside of a <code class="notranslate">k9s</code> directory and the location depends on your operating system. K9s leverages <a href="https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html" rel="nofollow">XDG</a> to load its various configurations files. For information on the default locations for your OS please see <a href="https://github.com/adrg/xdg/blob/master/README.md">this link</a>. If you are still confused a quick <code class="notranslate">k9s info</code> will reveal where k9s is loading its configurations from. Alternatively, you can set <code class="notranslate">K9S_CONFIG_DIR</code> to tell K9s the directory location to pull its configurations from.</p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th>Unix</th>
+<th>macOS</th>
+<th>Windows</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code class="notranslate">~/.config/k9s</code></td>
+<td><code class="notranslate">~/Library/Application Support/k9s</code></td>
+<td><code class="notranslate">%LOCALAPPDATA%\k9s</code></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<blockquote>
+<p dir="auto">NOTE: This is still in flux and will change while in pre-release stage!</p>
+</blockquote>
+<p dir="auto">You can now override the context portForward default address configuration by setting an env variable that can override all clusters portForward local address using <code class="notranslate">K9S_DEFAULT_PF_ADDRESS=a.b.c.d</code></p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# $XDG_CONFIG_HOME/k9s/config.yaml
+k9s:
+  # Enable periodic refresh of resource browser windows. Default false
+  liveViewAutoRefresh: false
+  # The path to screen dump. Default: '%temp_dir%/k9s-screens-%username%' (k9s info)
+  screenDumpDir: /tmp/dumps
+  # Represents ui poll intervals in seconds. Default 2secs
+  refreshRate: 2
+  # Overrides the default k8s api server requests timeout. Defaults 120s
+  apiServerTimeout: 15s
+  # Number of retries once the connection to the api-server is lost. Default 15.
+  maxConnRetry: 5
+  # Indicates whether modification commands like delete/kill/edit are disabled. Default is false
+  readOnly: false
+  # This setting allows users to specify the default view, but it is not set by default.
+  defaultView: &quot;&quot;
+  # Toggles whether k9s should exit when CTRL-C is pressed. When set to true, you will need to exit k9s via the :quit command. Default is false.
+  noExitOnCtrlC: false
+  #UI settings
+  ui:
+    # Enable mouse support. Default false
+    enableMouse: false
+    # Set to true to hide K9s header. Default false
+    headless: false
+    # Set to true to hide the K9S logo Default false
+    logoless: false
+    # Set to true to hide K9s crumbs. Default false
+    crumbsless: false
+    # Set to true to suppress the K9s splash screen on start. Default false. Note that for larger clusters or higher latency connections, there may be no resources visible initially until local caches have finished populating.
+    splashless: false
+    # Toggles icons display as not all terminal support these chars. Default: true
+    noIcons: false
+    # Toggles reactive UI. This option provide for watching on disk artifacts changes and update the UI live Defaults to false.
+    reactive: false
+    # By default all contexts will use the dracula skin unless explicitly overridden in the context config file.
+    skin: dracula # =&gt; assumes the file skins/dracula.yaml is present in the  $XDG_DATA_HOME/k9s/skins directory
+    # Allows to set certain views default fullscreen mode. (yaml, helm history, describe, value_extender, details, logs) Default false
+    defaultsToFullScreen: false
+    # Show full resource GVR (Group/Version/Resource) vs just R. Default: false.
+    useFullGVRTitle: false
+  # Toggles icons display as not all terminal support these chars.
+  noIcons: false
+  # Toggles whether k9s should check for the latest revision from the GitHub repository releases. Default is false.
+  skipLatestRevCheck: false
+  # When altering kubeconfig or using multiple kube configs, k9s will clean up clusters configurations that are no longer in use. Setting this flag to true will keep k9s from cleaning up inactive cluster configs. Defaults to false.
+  keepMissingClusters: false
+  # Logs configuration
+  logger:
+    # Defines the number of lines to return. Default 100
+    tail: 200
+    # Defines the total number of log lines to allow in the view. Default 1000
+    buffer: 500
+    # Represents how far to go back in the log timeline in seconds. Setting to -1 will tail logs. Default is -1.
+    sinceSeconds: 300 # =&gt; tail the last 5 mins.
+    # Toggles log line wrap. Default false
+    textWrap: false
+    # Autoscroll in logs will be disabled. Default is false.
+    disableAutoscroll: false
+    # Toggles log line timestamp info. Default false
+    showTime: false
+  # Provide shell pod customization when nodeShell feature gate is enabled!
+  shellPod:
+    # The shell pod image to use.
+    image: killerAdmin
+    # The namespace to launch to shell pod into.
+    namespace: default
+    # The resource limit to set on the shell pod.
+    limits:
+      cpu: 100m
+      memory: 100Mi
+    # Enable TTY
+    tty: true
+    hostPathVolume:
+    - name: docker-socket
+      # Mount the Docker socket into the shell pod
+      mountPath: /var/run/docker.sock
+      # The path on the host to mount
+      hostPath: /var/run/docker.sock
+      readOnly: true"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> $XDG_CONFIG_HOME/k9s/config.yaml</span>
+<span class="pl-ent">k9s</span>:
+  <span class="pl-c"><span class="pl-c">#</span> Enable periodic refresh of resource browser windows. Default false</span>
+  <span class="pl-ent">liveViewAutoRefresh</span>: <span class="pl-c1">false</span>
+  <span class="pl-c"><span class="pl-c">#</span> The path to screen dump. Default: '%temp_dir%/k9s-screens-%username%' (k9s info)</span>
+  <span class="pl-ent">screenDumpDir</span>: <span class="pl-s">/tmp/dumps</span>
+  <span class="pl-c"><span class="pl-c">#</span> Represents ui poll intervals in seconds. Default 2secs</span>
+  <span class="pl-ent">refreshRate</span>: <span class="pl-c1">2</span>
+  <span class="pl-c"><span class="pl-c">#</span> Overrides the default k8s api server requests timeout. Defaults 120s</span>
+  <span class="pl-ent">apiServerTimeout</span>: <span class="pl-c1">15s</span>
+  <span class="pl-c"><span class="pl-c">#</span> Number of retries once the connection to the api-server is lost. Default 15.</span>
+  <span class="pl-ent">maxConnRetry</span>: <span class="pl-c1">5</span>
+  <span class="pl-c"><span class="pl-c">#</span> Indicates whether modification commands like delete/kill/edit are disabled. Default is false</span>
+  <span class="pl-ent">readOnly</span>: <span class="pl-c1">false</span>
+  <span class="pl-c"><span class="pl-c">#</span> This setting allows users to specify the default view, but it is not set by default.</span>
+  <span class="pl-ent">defaultView</span>: <span class="pl-s"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>
+  <span class="pl-c"><span class="pl-c">#</span> Toggles whether k9s should exit when CTRL-C is pressed. When set to true, you will need to exit k9s via the :quit command. Default is false.</span>
+  <span class="pl-ent">noExitOnCtrlC</span>: <span class="pl-c1">false</span>
+  <span class="pl-c"><span class="pl-c">#</span>UI settings</span>
+  <span class="pl-ent">ui</span>:
+    <span class="pl-c"><span class="pl-c">#</span> Enable mouse support. Default false</span>
+    <span class="pl-ent">enableMouse</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span> Set to true to hide K9s header. Default false</span>
+    <span class="pl-ent">headless</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span> Set to true to hide the K9S logo Default false</span>
+    <span class="pl-ent">logoless</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span> Set to true to hide K9s crumbs. Default false</span>
+    <span class="pl-ent">crumbsless</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span> Set to true to suppress the K9s splash screen on start. Default false. Note that for larger clusters or higher latency connections, there may be no resources visible initially until local caches have finished populating.</span>
+    <span class="pl-ent">splashless</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span> Toggles icons display as not all terminal support these chars. Default: true</span>
+    <span class="pl-ent">noIcons</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span> Toggles reactive UI. This option provide for watching on disk artifacts changes and update the UI live Defaults to false.</span>
+    <span class="pl-ent">reactive</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span> By default all contexts will use the dracula skin unless explicitly overridden in the context config file.</span>
+    <span class="pl-ent">skin</span>: <span class="pl-s">dracula </span><span class="pl-c"><span class="pl-c">#</span> =&gt; assumes the file skins/dracula.yaml is present in the  $XDG_DATA_HOME/k9s/skins directory</span>
+    <span class="pl-c"><span class="pl-c">#</span> Allows to set certain views default fullscreen mode. (yaml, helm history, describe, value_extender, details, logs) Default false</span>
+    <span class="pl-ent">defaultsToFullScreen</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span> Show full resource GVR (Group/Version/Resource) vs just R. Default: false.</span>
+    <span class="pl-ent">useFullGVRTitle</span>: <span class="pl-c1">false</span>
+  <span class="pl-c"><span class="pl-c">#</span> Toggles icons display as not all terminal support these chars.</span>
+  <span class="pl-ent">noIcons</span>: <span class="pl-c1">false</span>
+  <span class="pl-c"><span class="pl-c">#</span> Toggles whether k9s should check for the latest revision from the GitHub repository releases. Default is false.</span>
+  <span class="pl-ent">skipLatestRevCheck</span>: <span class="pl-c1">false</span>
+  <span class="pl-c"><span class="pl-c">#</span> When altering kubeconfig or using multiple kube configs, k9s will clean up clusters configurations that are no longer in use. Setting this flag to true will keep k9s from cleaning up inactive cluster configs. Defaults to false.</span>
+  <span class="pl-ent">keepMissingClusters</span>: <span class="pl-c1">false</span>
+  <span class="pl-c"><span class="pl-c">#</span> Logs configuration</span>
+  <span class="pl-ent">logger</span>:
+    <span class="pl-c"><span class="pl-c">#</span> Defines the number of lines to return. Default 100</span>
+    <span class="pl-ent">tail</span>: <span class="pl-c1">200</span>
+    <span class="pl-c"><span class="pl-c">#</span> Defines the total number of log lines to allow in the view. Default 1000</span>
+    <span class="pl-ent">buffer</span>: <span class="pl-c1">500</span>
+    <span class="pl-c"><span class="pl-c">#</span> Represents how far to go back in the log timeline in seconds. Setting to -1 will tail logs. Default is -1.</span>
+    <span class="pl-ent">sinceSeconds</span>: <span class="pl-c1">300</span> <span class="pl-c"><span class="pl-c">#</span> =&gt; tail the last 5 mins.</span>
+    <span class="pl-c"><span class="pl-c">#</span> Toggles log line wrap. Default false</span>
+    <span class="pl-ent">textWrap</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span> Autoscroll in logs will be disabled. Default is false.</span>
+    <span class="pl-ent">disableAutoscroll</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span> Toggles log line timestamp info. Default false</span>
+    <span class="pl-ent">showTime</span>: <span class="pl-c1">false</span>
+  <span class="pl-c"><span class="pl-c">#</span> Provide shell pod customization when nodeShell feature gate is enabled!</span>
+  <span class="pl-ent">shellPod</span>:
+    <span class="pl-c"><span class="pl-c">#</span> The shell pod image to use.</span>
+    <span class="pl-ent">image</span>: <span class="pl-s">killerAdmin</span>
+    <span class="pl-c"><span class="pl-c">#</span> The namespace to launch to shell pod into.</span>
+    <span class="pl-ent">namespace</span>: <span class="pl-s">default</span>
+    <span class="pl-c"><span class="pl-c">#</span> The resource limit to set on the shell pod.</span>
+    <span class="pl-ent">limits</span>:
+      <span class="pl-ent">cpu</span>: <span class="pl-c1">100m</span>
+      <span class="pl-ent">memory</span>: <span class="pl-s">100Mi</span>
+    <span class="pl-c"><span class="pl-c">#</span> Enable TTY</span>
+    <span class="pl-ent">tty</span>: <span class="pl-c1">true</span>
+    <span class="pl-ent">hostPathVolume</span>:
+    - <span class="pl-ent">name</span>: <span class="pl-s">docker-socket</span>
+      <span class="pl-c"><span class="pl-c">#</span> Mount the Docker socket into the shell pod</span>
+      <span class="pl-ent">mountPath</span>: <span class="pl-s">/var/run/docker.sock</span>
+      <span class="pl-c"><span class="pl-c">#</span> The path on the host to mount</span>
+      <span class="pl-ent">hostPath</span>: <span class="pl-s">/var/run/docker.sock</span>
+      <span class="pl-ent">readOnly</span>: <span class="pl-c1">true</span></pre></div>
+<hr>
+<h2 dir="auto"><a id="user-content-popeye"></a>Popeye Configuration</h2>
+<p dir="auto">K9s has integration with <a href="https://popeyecli.io/" rel="nofollow">Popeye</a>, which is a Kubernetes cluster sanitizer.  Popeye itself uses a configuration called <code class="notranslate">spinach.yml</code>, but when integrating with K9s the cluster-specific file should be name <code class="notranslate">$XDG_CONFIG_HOME/share/k9s/clusters/clusterX/contextY/spinach.yml</code>.  This allows you to have a different spinach config per cluster.</p>
+<hr>
+<h2 dir="auto">Node Shell</h2>
+<p dir="auto">By enabling the nodeShell feature gate on a given cluster, K9s allows you to shell into your cluster nodes. Once enabled, you will have a new <code class="notranslate">s</code> for <code class="notranslate">shell</code> menu option while in node view. K9s will launch a pod on the selected node using a special k9s_shell pod. Furthermore, you can refine your shell pod by using a custom docker image preloaded with the shell tools you love. By default k9s uses a BusyBox image, but you can configure it as follows:</p>
+<p dir="auto">Alternatively, you can now override the context configuration by setting an env variable that can override all clusters node shell gate using <code class="notranslate">K9S_FEATURE_GATE_NODE_SHELL=true|false</code></p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# $XDG_CONFIG_HOME/k9s/config.yaml
+k9s:
+  # You can also further tune the shell pod specification
+  shellPod:
+    image: cool_kid_admin:42
+    namespace: blee
+    limits:
+      cpu: 100m
+      memory: 100Mi"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> $XDG_CONFIG_HOME/k9s/config.yaml</span>
+<span class="pl-ent">k9s</span>:
+  <span class="pl-c"><span class="pl-c">#</span> You can also further tune the shell pod specification</span>
+  <span class="pl-ent">shellPod</span>:
+    <span class="pl-ent">image</span>: <span class="pl-s">cool_kid_admin:42</span>
+    <span class="pl-ent">namespace</span>: <span class="pl-s">blee</span>
+    <span class="pl-ent">limits</span>:
+      <span class="pl-ent">cpu</span>: <span class="pl-c1">100m</span>
+      <span class="pl-ent">memory</span>: <span class="pl-s">100Mi</span></pre></div>
+<p dir="auto">Then in your cluster configuration file...</p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# $XDG_DATA_HOME/k9s/clusters/cluster-1/context-1
+k9s:
+  cluster: cluster-1
+  readOnly: false
+  namespace:
+    active: default
+    lockFavorites: false
+    favorites:
+    - kube-system
+    - default
+  view:
+    active: po
+  featureGates:
+    nodeShell: true # =&gt; Enable this feature gate to make nodeShell available on this cluster
+  portForwardAddress: localhost"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> $XDG_DATA_HOME/k9s/clusters/cluster-1/context-1</span>
+<span class="pl-ent">k9s</span>:
+  <span class="pl-ent">cluster</span>: <span class="pl-s">cluster-1</span>
+  <span class="pl-ent">readOnly</span>: <span class="pl-c1">false</span>
+  <span class="pl-ent">namespace</span>:
+    <span class="pl-ent">active</span>: <span class="pl-s">default</span>
+    <span class="pl-ent">lockFavorites</span>: <span class="pl-c1">false</span>
+    <span class="pl-ent">favorites</span>:
+    - <span class="pl-s">kube-system</span>
+    - <span class="pl-s">default</span>
+  <span class="pl-ent">view</span>:
+    <span class="pl-ent">active</span>: <span class="pl-s">po</span>
+  <span class="pl-ent">featureGates</span>:
+    <span class="pl-ent">nodeShell</span>: <span class="pl-s">true </span><span class="pl-c"><span class="pl-c">#</span> =&gt; Enable this feature gate to make nodeShell available on this cluster</span>
+  <span class="pl-ent">portForwardAddress</span>: <span class="pl-s">localhost</span></pre></div>
+<h3 dir="auto">Customizing the Shell Pod</h3>
+<p dir="auto">You can also customize the shell pod by adding a <code class="notranslate">hostPathVolume</code> to your shell pod. This allows you to mount a local directory or file into the shell pod. For example, if you want to mount the Docker socket into the shell pod, you can do so as follows:</p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="k9s:
+  shellPod:
+    hostPathVolume:
+    - name: docker-socket
+      # Mount the Docker socket into the shell pod
+      mountPath: /var/run/docker.sock
+      # The path on the host to mount
+      hostPath: /var/run/docker.sock
+      readOnly: true"><pre class="notranslate"><span class="pl-ent">k9s</span>:
+  <span class="pl-ent">shellPod</span>:
+    <span class="pl-ent">hostPathVolume</span>:
+    - <span class="pl-ent">name</span>: <span class="pl-s">docker-socket</span>
+      <span class="pl-c"><span class="pl-c">#</span> Mount the Docker socket into the shell pod</span>
+      <span class="pl-ent">mountPath</span>: <span class="pl-s">/var/run/docker.sock</span>
+      <span class="pl-c"><span class="pl-c">#</span> The path on the host to mount</span>
+      <span class="pl-ent">hostPath</span>: <span class="pl-s">/var/run/docker.sock</span>
+      <span class="pl-ent">readOnly</span>: <span class="pl-c1">true</span></pre></div>
+<p dir="auto">This will mount the Docker socket into the shell pod at <code class="notranslate">/var/run/docker.sock</code> and make it read-only. You can also mount any other directory or file in a similar way.</p>
+<hr>
+<h2 dir="auto">Command Aliases</h2>
+<p dir="auto">In K9s, you can define your very own command aliases (shortnames) to access your resources. In your <code class="notranslate">$HOME/.config/k9s</code> define a file called <code class="notranslate">aliases.yaml</code>.<br>
+A K9s alias defines pairs of alias:gvr. A gvr (Group/Version/Resource) represents a fully qualified Kubernetes resource identifier. Here is an example of an alias file:</p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="#  $XDG_DATA_HOME/k9s/aliases.yaml
+aliases:
+  pp: v1/pods
+  crb: rbac.authorization.k8s.io/v1/clusterrolebindings
+  # As of v0.30.0 you can also refer to another command alias...
+  fred: pod fred app=blee # =&gt; view pods in namespace fred with labels matching app=blee"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span>  $XDG_DATA_HOME/k9s/aliases.yaml</span>
+<span class="pl-ent">aliases</span>:
+  <span class="pl-ent">pp</span>: <span class="pl-s">v1/pods</span>
+  <span class="pl-ent">crb</span>: <span class="pl-s">rbac.authorization.k8s.io/v1/clusterrolebindings</span>
+  <span class="pl-c"><span class="pl-c">#</span> As of v0.30.0 you can also refer to another command alias...</span>
+  <span class="pl-ent">fred</span>: <span class="pl-s">pod fred app=blee </span><span class="pl-c"><span class="pl-c">#</span> =&gt; view pods in namespace fred with labels matching app=blee</span></pre></div>
+<p dir="auto">Using this aliases file, you can now type <code class="notranslate">:pp</code> or <code class="notranslate">:crb</code> or <code class="notranslate">:fred</code> to activate their respective commands.</p>
+<hr>
+<h2 dir="auto">HotKey Support</h2>
+<p dir="auto">Entering the command mode and typing a resource name or alias, could be cumbersome for navigating thru often used resources.<br>
+We're introducing hotkeys that allow users to define their own key combination to activate their favorite resource views.</p>
+<p dir="auto">Additionally, you can define context specific hotkeys by add a context level configuration file in <code class="notranslate">$XDG_DATA_HOME/k9s/clusters/clusterX/contextY/hotkeys.yaml</code></p>
+<p dir="auto">In order to surface hotkeys globally please follow these steps:</p>
+<ol dir="auto">
+<li>
+<p dir="auto">Create a file named <code class="notranslate">$XDG_CONFIG_HOME/k9s/hotkeys.yaml</code></p>
+</li>
+<li>
+<p dir="auto">Add the following to your <code class="notranslate">hotkeys.yaml</code>. You can use resource name/short name to specify a command ie same as typing it while in command mode.</p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="#  $XDG_CONFIG_HOME/k9s/hotkeys.yaml
+hotKeys:
+  # Hitting Shift-0 navigates to your pod view
+  shift-0:
+    shortCut:    Shift-0
+    description: Viewing pods
+    command:     pods
+  # Hitting Shift-1 navigates to your deployments
+  shift-1:
+    shortCut:    Shift-1
+    description: View deployments
+    command:     dp
+  # Hitting Shift-2 navigates to your xray deployments
+  shift-2:
+    shortCut:    Shift-2
+    description: Xray Deployments
+    command:     xray deploy
+  # Hitting Shift-S view the resources in the namespace of your current selection
+  shift-s:
+    shortCut:    Shift-S
+    override:    true # =&gt; will override the default shortcut related action if set to true (default to false)
+    description: Namespaced resources
+    command:     &quot;$RESOURCE_NAME $NAMESPACE&quot;
+    keepHistory: true # whether you can return to the previous view"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span>  $XDG_CONFIG_HOME/k9s/hotkeys.yaml</span>
+<span class="pl-ent">hotKeys</span>:
+  <span class="pl-c"><span class="pl-c">#</span> Hitting Shift-0 navigates to your pod view</span>
+  <span class="pl-ent">shift-0</span>:
+    <span class="pl-ent">shortCut</span>:    <span class="pl-s">Shift-0</span>
+    <span class="pl-ent">description</span>: <span class="pl-s">Viewing pods</span>
+    <span class="pl-ent">command</span>:     <span class="pl-s">pods</span>
+  <span class="pl-c"><span class="pl-c">#</span> Hitting Shift-1 navigates to your deployments</span>
+  <span class="pl-ent">shift-1</span>:
+    <span class="pl-ent">shortCut</span>:    <span class="pl-s">Shift-1</span>
+    <span class="pl-ent">description</span>: <span class="pl-s">View deployments</span>
+    <span class="pl-ent">command</span>:     <span class="pl-s">dp</span>
+  <span class="pl-c"><span class="pl-c">#</span> Hitting Shift-2 navigates to your xray deployments</span>
+  <span class="pl-ent">shift-2</span>:
+    <span class="pl-ent">shortCut</span>:    <span class="pl-s">Shift-2</span>
+    <span class="pl-ent">description</span>: <span class="pl-s">Xray Deployments</span>
+    <span class="pl-ent">command</span>:     <span class="pl-s">xray deploy</span>
+  <span class="pl-c"><span class="pl-c">#</span> Hitting Shift-S view the resources in the namespace of your current selection</span>
+  <span class="pl-ent">shift-s</span>:
+    <span class="pl-ent">shortCut</span>:    <span class="pl-s">Shift-S</span>
+    <span class="pl-ent">override</span>:    <span class="pl-s">true </span><span class="pl-c"><span class="pl-c">#</span> =&gt; will override the default shortcut related action if set to true (default to false)</span>
+    <span class="pl-ent">description</span>: <span class="pl-s">Namespaced resources</span>
+    <span class="pl-ent">command</span>:     <span class="pl-s"><span class="pl-pds">"</span>$RESOURCE_NAME $NAMESPACE<span class="pl-pds">"</span></span>
+    <span class="pl-ent">keepHistory</span>: <span class="pl-s">true </span><span class="pl-c"><span class="pl-c">#</span> whether you can return to the previous view</span></pre></div>
+</li>
+</ol>
+<p dir="auto">Not feeling so hot? Your custom hotkeys will be listed in the help view <code class="notranslate">?</code>.<br>
+Also your hotkeys file will be automatically reloaded so you can readily use your hotkeys as you define them.</p>
+<p dir="auto">You can choose any keyboard shortcuts that make sense to you, provided they are not part of the standard K9s shortcuts list.</p>
+<p dir="auto">Similarly, referencing environment variables in hotkeys is also supported. The available environment variables can refer to the description in the <a href="#plugins">Plugins</a> section.</p>
+<blockquote>
+<p dir="auto">NOTE: This feature/configuration might change in future releases!</p>
+</blockquote>
+<hr>
+<h2 dir="auto">Port Forwarding over websockets</h2>
+<p dir="auto">K9s follows <code class="notranslate">kubectl</code> feature flag environment variables to enable/disable port-forwarding over websockets. (default enabled in &gt;1.30)<br>
+To disable Websocket support, set <code class="notranslate">KUBECTL_PORT_FORWARD_WEBSOCKETS=false</code></p>
+<hr>
+<h2 dir="auto">FastForwards</h2>
+<p dir="auto">As of v0.25.0, you can leverage the <code class="notranslate">FastForwards</code> feature to tell K9s how to default port-forwards. In situations where you are dealing with multiple containers or containers exposing multiple ports, it can be cumbersome to specify the desired port-forward from the dialog as in most cases, you already know which container/port tuple you desire. For these use cases, you can now annotate your manifests with the following annotations:</p>
+<p dir="auto">@ <code class="notranslate">k9scli.io/auto-port-forwards</code><br>
+activates one or more port-forwards directly bypassing the port-forward dialog all together.<br>
+@ <code class="notranslate">k9scli.io/port-forwards</code><br>
+pre-selects one or more port-forwards when launching the port-forward dialog.</p>
+<p dir="auto">The annotation value takes on the shape <code class="notranslate">container-name::[local-port:]container-port</code></p>
+<blockquote>
+<p dir="auto">NOTE: for either cases above you can specify the container port by name or number in your annotation!</p>
+</blockquote>
+<h3 dir="auto">Example</h3>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# Pod fred
+apiVersion: v1
+kind: Pod
+metadata:
+  name: fred
+  annotations:
+    k9scli.io/auto-port-forwards: zorg::5556        # =&gt; will default to container zorg port 5556 and local port 5566. No port-forward dialog will be shown.
+    # Or...
+    k9scli.io/port-forwards: bozo::9090:p1          # =&gt; launches the port-forward dialog selecting default port-forward on container bozo port named p1(8081)
+                                                    # mapping to local port 9090.
+    ...
+spec:
+  containers:
+  - name: zorg
+    ports:
+    - name: p1
+      containerPort: 5556
+    ...
+  - name: bozo
+    ports:
+    - name: p1
+      containerPort: 8081
+    - name: p2
+      containerPort: 5555
+    ..."><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> Pod fred</span>
+<span class="pl-ent">apiVersion</span>: <span class="pl-c1">v1</span>
+<span class="pl-ent">kind</span>: <span class="pl-s">Pod</span>
+<span class="pl-ent">metadata</span>:
+  <span class="pl-ent">name</span>: <span class="pl-s">fred</span>
+  <span class="pl-ent">annotations</span>:
+    <span class="pl-ent">k9scli.io/auto-port-forwards</span>: <span class="pl-s">zorg::5556        </span><span class="pl-c"><span class="pl-c">#</span> =&gt; will default to container zorg port 5556 and local port 5566. No port-forward dialog will be shown.</span>
+    <span class="pl-c"><span class="pl-c">#</span> Or...</span>
+    <span class="pl-ent">k9scli.io/port-forwards</span>: <span class="pl-s">bozo::9090:p1          </span><span class="pl-c"><span class="pl-c">#</span> =&gt; launches the port-forward dialog selecting default port-forward on container bozo port named p1(8081)</span>
+                                                    <span class="pl-c"><span class="pl-c">#</span> mapping to local port 9090.</span>
+    <span class="pl-s">...</span>
+<span class="pl-ent">spec</span>:
+  <span class="pl-ent">containers</span>:
+  - <span class="pl-ent">name</span>: <span class="pl-s">zorg</span>
+    <span class="pl-ent">ports</span>:
+    - <span class="pl-ent">name</span>: <span class="pl-c1">p1</span>
+      <span class="pl-ent">containerPort</span>: <span class="pl-c1">5556</span>
+    <span class="pl-s">...</span>
+  - <span class="pl-ent">name</span>: <span class="pl-s">bozo</span>
+    <span class="pl-ent">ports</span>:
+    - <span class="pl-ent">name</span>: <span class="pl-c1">p1</span>
+      <span class="pl-ent">containerPort</span>: <span class="pl-c1">8081</span>
+    - <span class="pl-ent">name</span>: <span class="pl-c1">p2</span>
+      <span class="pl-ent">containerPort</span>: <span class="pl-c1">5555</span>
+    <span class="pl-s">...</span></pre></div>
+<p dir="auto">The annotation value must specify a container to forward to as well as a local port and container port. The container port may be specified as either a port number or port name. If the local port is omitted then the local port will default to the container port number. Here are a few examples:</p>
+<ol dir="auto">
+<li>bozo::http      - creates a pf on container <code class="notranslate">bozo</code> with port name http. If http specifies port number 8080 then the local port will be 8080 as well.</li>
+<li>bozo::9090:http - creates a pf on container <code class="notranslate">bozo</code> mapping local port 9090-&gt;http(8080)</li>
+<li>bozo::9090:8080 - creates a pf on container <code class="notranslate">bozo</code> mapping local port 9090-&gt;8080</li>
+</ol>
+<hr>
+<h2 dir="auto">Custom Views</h2>
+<p dir="auto"><a href="https://youtu.be/7S33CNLAofk" rel="nofollow">SneakCast v0.17.0 on The Beach! - Yup! sound is sucking but what a setting!</a></p>
+<p dir="auto">You can change which columns shows up for a given resource via custom views. To surface this feature, you will need to create a new configuration file, namely <code class="notranslate">$XDG_CONFIG_HOME/k9s/views.yaml</code>. This file leverages GVR (Group/Version/Resource) to configure the associated table view columns. If no GVR is found for a view the default rendering will take over (ie what we have now). Going wide will add all the remaining columns that are available on the given resource after your custom columns. To boot, you can edit your views config file and tune your resources views live!</p>
+<p dir="auto">📢 🎉 As of <code class="notranslate">release v0.40.0</code> you can specify json parse expressions to further customize your resources rendering.</p>
+<p dir="auto">The new column syntax is as follows:</p>
+<blockquote>
+<p dir="auto">COLUMN_NAME&lt;:json_parse_expression&gt;&lt;|column_attributes&gt;</p>
+</blockquote>
+<p dir="auto">Where <code class="notranslate">:json_parse_expression</code> represents an expression to pull a specific snippet out of the resource manifest.<br>
+Similar to <code class="notranslate">kubectl -o custom-columns</code> command. This expression is optional.</p>
+<blockquote>
+<p dir="auto">IMPORTANT! Columns must be valid YAML strings. Thus if your column definition contains non-alpha chars<br>
+they must figure with either single/double quotes or escaped via <code class="notranslate">\</code></p>
+</blockquote>
+<blockquote>
+<p dir="auto">NOTE! Be sure to watch k9s logs as any issues with the custom views specification are only surfaced in the logs.</p>
+</blockquote>
+<p dir="auto">Additionally, you can specify column attributes to further tailor the column rendering.<br>
+To use this you will need to add a <code class="notranslate">|</code> indicator followed by your rendering bits.<br>
+You can have one or more of the following attributes:</p>
+<ul dir="auto">
+<li><code class="notranslate">T</code> -&gt; time column indicator</li>
+<li><code class="notranslate">N</code> -&gt; number column indicator</li>
+<li><code class="notranslate">W</code> -&gt; turns on wide column aka only shows while in wide mode. Defaults to the standard resource definition when present.</li>
+<li><code class="notranslate">S</code> -&gt; Ensures a column is visible and not wide. Overrides <code class="notranslate">wide</code> std resource definition if present.</li>
+<li><code class="notranslate">H</code> -&gt; Hides the column</li>
+<li><code class="notranslate">L</code> -&gt; Left align (default)</li>
+<li><code class="notranslate">R</code> -&gt; Right align</li>
+</ul>
+<p dir="auto">Here is a sample views configuration that customize a pods and services views.</p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# $XDG_CONFIG_HOME/k9s/views.yaml
+views:
+  v1/pods:
+    columns:
+      - AGE
+      - NAMESPACE|WR                                     # =&gt; 🌚 Specifies the NAMESPACE column to be right aligned and only visible while in wide mode
+      - ZORG:.metadata.labels.fred\.io\.kubernetes\.blee # =&gt; 🌚 extract fred.io.kubernetes.blee label into it's own column
+      - BLEE:.metadata.annotations.blee|R                # =&gt; 🌚 extract annotation blee into it's own column and right align it
+      - NAME
+      - IP
+      - NODE
+      - STATUS
+      - READY
+      - MEM/RL|S                                         # =&gt; 🌚 Overrides std resource default wide attribute via `S` for `Show`
+      - '%MEM/R|'                                        # =&gt; NOTE! column names with non alpha names need to be quoted as columns must be strings!
+
+  v1/pods@fred:                                          # =&gt; 🌚 New v0.40.6! Customize columns for a given resource and namespace!
+    columns:
+      - AGE
+      - NAME|WR
+
+  v1/pods@kube*:                                         # =&gt; 🌚 New v0.40.6! You can also specify a namespace using a regular expression.
+    columns:
+      - NAME
+      - AGE
+      - LABELS
+
+  cool-kid:                                              # =&gt; 🌚 New v0.40.8! You can also reference a specific alias and display a custom view for it
+    columns:
+      - AGE
+      - NAMESPACE|WR
+
+  v1/services:
+    columns:
+      - AGE
+      - NAMESPACE
+      - NAME
+      - TYPE
+      - CLUSTER-IP"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> $XDG_CONFIG_HOME/k9s/views.yaml</span>
+<span class="pl-ent">views</span>:
+  <span class="pl-ent">v1/pods</span>:
+    <span class="pl-ent">columns</span>:
+      - <span class="pl-s">AGE</span>
+      - <span class="pl-s">NAMESPACE|WR                                     </span><span class="pl-c"><span class="pl-c">#</span> =&gt; 🌚 Specifies the NAMESPACE column to be right aligned and only visible while in wide mode</span>
+      - <span class="pl-s">ZORG:.metadata.labels.fred\.io\.kubernetes\.blee </span><span class="pl-c"><span class="pl-c">#</span> =&gt; 🌚 extract fred.io.kubernetes.blee label into it's own column</span>
+      - <span class="pl-s">BLEE:.metadata.annotations.blee|R                </span><span class="pl-c"><span class="pl-c">#</span> =&gt; 🌚 extract annotation blee into it's own column and right align it</span>
+      - <span class="pl-s">NAME</span>
+      - <span class="pl-s">IP</span>
+      - <span class="pl-s">NODE</span>
+      - <span class="pl-s">STATUS</span>
+      - <span class="pl-s">READY</span>
+      - <span class="pl-s">MEM/RL|S                                         </span><span class="pl-c"><span class="pl-c">#</span> =&gt; 🌚 Overrides std resource default wide attribute via `S` for `Show`</span>
+      - <span class="pl-s"><span class="pl-pds">'</span>%MEM/R|<span class="pl-pds">'</span></span>                                        <span class="pl-c"><span class="pl-c">#</span> =&gt; NOTE! column names with non alpha names need to be quoted as columns must be strings!</span>
+
+  <span class="pl-ent">v1/pods@fred</span>:                                          <span class="pl-c"><span class="pl-c">#</span> =&gt; 🌚 New v0.40.6! Customize columns for a given resource and namespace!</span>
+    <span class="pl-ent">columns</span>:
+      - <span class="pl-s">AGE</span>
+      - <span class="pl-s">NAME|WR</span>
+
+  <span class="pl-ent">v1/pods@kube*</span>:                                         <span class="pl-c"><span class="pl-c">#</span> =&gt; 🌚 New v0.40.6! You can also specify a namespace using a regular expression.</span>
+    <span class="pl-ent">columns</span>:
+      - <span class="pl-s">NAME</span>
+      - <span class="pl-s">AGE</span>
+      - <span class="pl-s">LABELS</span>
+
+  <span class="pl-ent">cool-kid</span>:                                              <span class="pl-c"><span class="pl-c">#</span> =&gt; 🌚 New v0.40.8! You can also reference a specific alias and display a custom view for it</span>
+    <span class="pl-ent">columns</span>:
+      - <span class="pl-s">AGE</span>
+      - <span class="pl-s">NAMESPACE|WR</span>
+
+  <span class="pl-ent">v1/services</span>:
+    <span class="pl-ent">columns</span>:
+      - <span class="pl-s">AGE</span>
+      - <span class="pl-s">NAMESPACE</span>
+      - <span class="pl-s">NAME</span>
+      - <span class="pl-s">TYPE</span>
+      - <span class="pl-s">CLUSTER-IP</span></pre></div>
+<blockquote>
+<p dir="auto">🩻 NOTE: This is experimental and will most likely change as we iron this out!</p>
+</blockquote>
+<hr>
+<h2 dir="auto">Plugins</h2>
+<p dir="auto">K9s allows you to extend your command line and tooling by defining your very own cluster commands via plugins.<br>
+Minimally we look at <code class="notranslate">$XDG_CONFIG_HOME/k9s/plugins.yaml</code> to locate all available plugins.<br>
+Additionally, K9s will scan the following directories for additional plugins:</p>
+<ul dir="auto">
+<li><code class="notranslate">$XDG_CONFIG_HOME/k9s/plugins</code></li>
+<li><code class="notranslate">$XDG_DATA_HOME/k9s/plugins</code></li>
+<li><code class="notranslate">$XDG_DATA_DIRS/k9s/plugins</code></li>
+</ul>
+<p dir="auto">The plugin file content can be either a single plugin snippet, a collections of snippets or a complete plugins definition (see examples below...).</p>
+<p dir="auto">A plugin is defined as follows:</p>
+<ul dir="auto">
+<li>Shortcut option represents the key combination a user would type to activate the plugin. Valid values are [a-z], Shift-[A-Z], Ctrl-[A-Z].</li>
+<li>Override option make that the default action related to the shortcut will be overridden by the plugin</li>
+<li>Confirm option (when enabled) lets you see the command that is going to be executed and gives you an option to confirm or prevent execution</li>
+<li>Description will be printed next to the shortcut in the k9s menu</li>
+<li>Scopes defines a collection of resources names/short-names for the views associated with the plugin. You can specify <code class="notranslate">all</code> to provide this shortcut for all views.</li>
+<li>Command represents ad-hoc commands the plugin runs upon activation</li>
+<li>Background specifies whether or not the command runs in the background</li>
+<li>Args specifies the various arguments that should apply to the command above</li>
+<li>OverwriteOutput boolean option allows plugin developers to provide custom messages on plugin stdout execution. See example in <a href="https://github.com/derailed/k9s/pull/2644" data-hovercard-type="pull_request" data-hovercard-url="/derailed/k9s/pull/2644/hovercard">#2644</a></li>
+<li>Dangerous boolean option enables disabling the plugin when read-only mode is set. See <a href="https://github.com/derailed/k9s/issues/2604" data-hovercard-type="issue" data-hovercard-url="/derailed/k9s/issues/2604/hovercard">#2604</a></li>
+</ul>
+<p dir="auto">K9s does provide additional environment variables for you to customize your plugins arguments. Currently, the available environment variables are as follows:</p>
+<ul dir="auto">
+<li><code class="notranslate">$RESOURCE_GROUP</code> -- the selected resource group</li>
+<li><code class="notranslate">$RESOURCE_VERSION</code> -- the selected resource api version</li>
+<li><code class="notranslate">$RESOURCE_NAME</code> -- the selected resource name</li>
+<li><code class="notranslate">$NAMESPACE</code> -- the selected resource namespace</li>
+<li><code class="notranslate">$NAME</code> -- the selected resource name</li>
+<li><code class="notranslate">$CONTAINER</code> -- the current container if applicable</li>
+<li><code class="notranslate">$FILTER</code> -- the current filter if any</li>
+<li><code class="notranslate">$KUBECONFIG</code> -- the KubeConfig location.</li>
+<li><code class="notranslate">$CLUSTER</code> the active cluster name</li>
+<li><code class="notranslate">$CONTEXT</code> the active context name</li>
+<li><code class="notranslate">$USER</code> the active user</li>
+<li><code class="notranslate">$GROUPS</code> the active groups</li>
+<li><code class="notranslate">$POD</code> while in a container view</li>
+<li><code class="notranslate">$COL-&lt;RESOURCE_COLUMN_NAME&gt;</code> use a given column name for a viewed resource. Must be prefixed by <code class="notranslate">COL-</code>!</li>
+</ul>
+<p dir="auto">Curly braces can be used to embed an environment variable inside another string, or if the column name contains special characters. (e.g. <code class="notranslate">${NAME}-example</code> or <code class="notranslate">${COL-%CPU/L}</code>)</p>
+<h3 dir="auto">Plugin Examples</h3>
+<p dir="auto">Define several plugins and host them in a single file. These can leave in the K9s root config so that they are available on any clusters. Additionally, you can define cluster/context specific plugins for your clusters of choice by adding clusterA/contextB/plugins.yaml file.</p>
+<p dir="auto">The following defines a plugin for viewing logs on a selected pod using <code class="notranslate">ctrl-l</code> as shortcut.</p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# Define several plugins in a single file in the K9s root configuration
+# $XDG_DATA_HOME/k9s/plugins.yaml
+plugins:
+  # Defines a plugin to provide a `ctrl-l` shortcut to tail the logs while in pod view.
+  fred:
+    shortCut: Ctrl-L
+    override: false
+    overwriteOutput: false
+    confirm: false
+    dangerous: false
+    description: Pod logs
+    scopes:
+    - pods
+    command: kubectl
+    background: false
+    args:
+    - logs
+    - -f
+    - $NAME
+    - -n
+    - $NAMESPACE
+    - --context
+    - $CONTEXT"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> Define several plugins in a single file in the K9s root configuration</span>
+<span class="pl-c"><span class="pl-c">#</span> $XDG_DATA_HOME/k9s/plugins.yaml</span>
+<span class="pl-ent">plugins</span>:
+  <span class="pl-c"><span class="pl-c">#</span> Defines a plugin to provide a `ctrl-l` shortcut to tail the logs while in pod view.</span>
+  <span class="pl-ent">fred</span>:
+    <span class="pl-ent">shortCut</span>: <span class="pl-s">Ctrl-L</span>
+    <span class="pl-ent">override</span>: <span class="pl-c1">false</span>
+    <span class="pl-ent">overwriteOutput</span>: <span class="pl-c1">false</span>
+    <span class="pl-ent">confirm</span>: <span class="pl-c1">false</span>
+    <span class="pl-ent">dangerous</span>: <span class="pl-c1">false</span>
+    <span class="pl-ent">description</span>: <span class="pl-s">Pod logs</span>
+    <span class="pl-ent">scopes</span>:
+    - <span class="pl-s">pods</span>
+    <span class="pl-ent">command</span>: <span class="pl-s">kubectl</span>
+    <span class="pl-ent">background</span>: <span class="pl-c1">false</span>
+    <span class="pl-ent">args</span>:
+    - <span class="pl-s">logs</span>
+    - <span class="pl-s">-f</span>
+    - <span class="pl-s">$NAME</span>
+    - <span class="pl-s">-n</span>
+    - <span class="pl-s">$NAMESPACE</span>
+    - <span class="pl-s">--context</span>
+    - <span class="pl-s">$CONTEXT</span></pre></div>
+<p dir="auto">Similarly you can define the plugin above in a directory using either a file per plugin or several plugins per files as follow...</p>
+<p dir="auto">The following defines two plugins namely fred and zorg.</p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# Multiple plugins in a single file...
+# Note: as of v0.40.9 you can have ad-hoc plugin dirs
+# Loads plugins fred and zorg
+# $XDG_DATA_HOME/k9s/plugins/misc-plugins/blee.yaml
+fred:
+  shortCut: Shift-B
+  description: Bozo
+  scopes:
+  - deploy
+  command: bozo
+
+zorg:
+  shortCut: Shift-Z
+  description: Pod logs
+  scopes:
+  - svc
+  command: zorg"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> Multiple plugins in a single file...</span>
+<span class="pl-c"><span class="pl-c">#</span> Note: as of v0.40.9 you can have ad-hoc plugin dirs</span>
+<span class="pl-c"><span class="pl-c">#</span> Loads plugins fred and zorg</span>
+<span class="pl-c"><span class="pl-c">#</span> $XDG_DATA_HOME/k9s/plugins/misc-plugins/blee.yaml</span>
+<span class="pl-ent">fred</span>:
+  <span class="pl-ent">shortCut</span>: <span class="pl-s">Shift-B</span>
+  <span class="pl-ent">description</span>: <span class="pl-s">Bozo</span>
+  <span class="pl-ent">scopes</span>:
+  - <span class="pl-s">deploy</span>
+  <span class="pl-ent">command</span>: <span class="pl-s">bozo</span>
+
+<span class="pl-ent">zorg</span>:
+  <span class="pl-ent">shortCut</span>: <span class="pl-s">Shift-Z</span>
+  <span class="pl-ent">description</span>: <span class="pl-s">Pod logs</span>
+  <span class="pl-ent">scopes</span>:
+  - <span class="pl-s">svc</span>
+  <span class="pl-ent">command</span>: <span class="pl-s">zorg</span></pre></div>
+<p dir="auto">Lastly you can define plugin snippets in their own file. The snippet will be named from the file name. In this case, we define a <code class="notranslate">bozo</code> plugin using a plugin snippet.</p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# $XDG_DATA_HOME/k9s/plugins/schtuff/bozo.yaml
+shortCut: Shift-B
+description: Bozo
+scopes:
+- deploy
+command: bozo"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> $XDG_DATA_HOME/k9s/plugins/schtuff/bozo.yaml</span>
+<span class="pl-ent">shortCut</span>: <span class="pl-s">Shift-B</span>
+<span class="pl-ent">description</span>: <span class="pl-s">Bozo</span>
+<span class="pl-ent">scopes</span>:
+- <span class="pl-s">deploy</span>
+<span class="pl-ent">command</span>: <span class="pl-s">bozo</span></pre></div>
+<blockquote>
+<p dir="auto">NOTE: This is an experimental feature! Options and layout may change in future K9s releases as this feature solidifies.</p>
+</blockquote>
+<hr>
+<h2 dir="auto">Benchmark Your Applications</h2>
+<p dir="auto">K9s integrates <a href="https://github.com/rakyll/hey">Hey</a> from the brilliant and super talented <a href="https://github.com/rakyll">Jaana Dogan</a>. <code class="notranslate">Hey</code> is a CLI tool to benchmark HTTP endpoints similar to AB bench. This preliminary feature currently supports benchmarking port-forwards and services (Read the paint on this is way fresh!).</p>
+<p dir="auto">To setup a port-forward, you will need to navigate to the PodView, select a pod and a container that exposes a given port. Using <code class="notranslate">SHIFT-F</code> a dialog comes up to allow you to specify a local port to forward. Once acknowledged, you can navigate to the PortForward view (alias <code class="notranslate">pf</code>) listing out your active port-forwards. Selecting a port-forward and using <code class="notranslate">CTRL-B</code> will run a benchmark on that HTTP endpoint. To view the results of your benchmark runs, go to the Benchmarks view (alias <code class="notranslate">be</code>). You should now be able to select a benchmark and view the run stats details by pressing <code class="notranslate">&lt;ENTER&gt;</code>. NOTE: Port-forwards only last for the duration of the K9s session and will be terminated upon exit.</p>
+<p dir="auto">Initially, the benchmarks will run with the following defaults:</p>
+<ul dir="auto">
+<li>Concurrency Level: 1</li>
+<li>Number of Requests: 200</li>
+<li>HTTP Verb: GET</li>
+<li>Path: /</li>
+</ul>
+<p dir="auto">The PortForward view is backed by a new K9s config file namely: <code class="notranslate">$XDG_DATA_HOME/k9s/clusters/clusterX/contextY/benchmarks.yaml</code>. Each cluster you connect to will have its own bench config file, containing the name of the K8s context for the cluster. Changes to this file should automatically update the PortForward view to indicate how you want to run your benchmarks.</p>
+<p dir="auto">Benchmarks result reports are stored in <code class="notranslate">$XDG_STATE_HOME/k9s/clusters/clusterX/contextY</code></p>
+<p dir="auto">Here is a sample benchmarks.yaml configuration. Please keep in mind this file will likely change in subsequent releases!</p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# This file resides in  $XDG_DATA_HOME/k9s/clusters/clusterX/contextY/benchmarks.yaml
+benchmarks:
+  # Indicates the default concurrency and number of requests setting if a container or service rule does not match.
+  defaults:
+    # One concurrent connection
+    concurrency: 1
+    # Number of requests that will be sent to an endpoint
+    requests: 500
+  containers:
+    # Containers section allows you to configure your http container's endpoints and benchmarking settings.
+    # NOTE: the container ID syntax uses namespace/pod-name:container-name
+    default/nginx:nginx:
+      # Benchmark a container named nginx using POST HTTP verb using http://localhost:port/bozo URL and headers.
+      concurrency: 1
+      requests: 10000
+      http:
+        path: /bozo
+        method: POST
+        body:
+          {&quot;fred&quot;:&quot;blee&quot;}
+        header:
+          Accept:
+            - text/html
+          Content-Type:
+            - application/json
+  services:
+    # Similarly you can Benchmark an HTTP service exposed either via NodePort, LoadBalancer types.
+    # Service ID is ns/svc-name
+    default/nginx:
+      # Set the concurrency level
+      concurrency: 5
+      # Number of requests to be sent
+      requests: 500
+      http:
+        method: GET
+        # This setting will depend on whether service is NodePort or LoadBalancer. NodePort may require vendor port tunneling setting.
+        # Set this to a node if NodePort or LB if applicable. IP or dns name.
+        host: A.B.C.D
+        path: /bumblebeetuna
+      auth:
+        user: jean-baptiste-emmanuel
+        password: Zorg!"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> This file resides in  $XDG_DATA_HOME/k9s/clusters/clusterX/contextY/benchmarks.yaml</span>
+<span class="pl-ent">benchmarks</span>:
+  <span class="pl-c"><span class="pl-c">#</span> Indicates the default concurrency and number of requests setting if a container or service rule does not match.</span>
+  <span class="pl-ent">defaults</span>:
+    <span class="pl-c"><span class="pl-c">#</span> One concurrent connection</span>
+    <span class="pl-ent">concurrency</span>: <span class="pl-c1">1</span>
+    <span class="pl-c"><span class="pl-c">#</span> Number of requests that will be sent to an endpoint</span>
+    <span class="pl-ent">requests</span>: <span class="pl-c1">500</span>
+  <span class="pl-ent">containers</span>:
+    <span class="pl-c"><span class="pl-c">#</span> Containers section allows you to configure your http container's endpoints and benchmarking settings.</span>
+    <span class="pl-c"><span class="pl-c">#</span> NOTE: the container ID syntax uses namespace/pod-name:container-name</span>
+    <span class="pl-ent">default/nginx:nginx</span>:
+      <span class="pl-c"><span class="pl-c">#</span> Benchmark a container named nginx using POST HTTP verb using http://localhost:port/bozo URL and headers.</span>
+      <span class="pl-ent">concurrency</span>: <span class="pl-c1">1</span>
+      <span class="pl-ent">requests</span>: <span class="pl-c1">10000</span>
+      <span class="pl-ent">http</span>:
+        <span class="pl-ent">path</span>: <span class="pl-s">/bozo</span>
+        <span class="pl-ent">method</span>: <span class="pl-s">POST</span>
+        <span class="pl-ent">body</span>:
+          <span class="pl-s">{"fred":"blee"}</span>
+        <span class="pl-ent">header</span>:
+          <span class="pl-ent">Accept</span>:
+            - <span class="pl-s">text/html</span>
+          <span class="pl-ent">Content-Type</span>:
+            - <span class="pl-s">application/json</span>
+  <span class="pl-ent">services</span>:
+    <span class="pl-c"><span class="pl-c">#</span> Similarly you can Benchmark an HTTP service exposed either via NodePort, LoadBalancer types.</span>
+    <span class="pl-c"><span class="pl-c">#</span> Service ID is ns/svc-name</span>
+    <span class="pl-ent">default/nginx</span>:
+      <span class="pl-c"><span class="pl-c">#</span> Set the concurrency level</span>
+      <span class="pl-ent">concurrency</span>: <span class="pl-c1">5</span>
+      <span class="pl-c"><span class="pl-c">#</span> Number of requests to be sent</span>
+      <span class="pl-ent">requests</span>: <span class="pl-c1">500</span>
+      <span class="pl-ent">http</span>:
+        <span class="pl-ent">method</span>: <span class="pl-s">GET</span>
+        <span class="pl-c"><span class="pl-c">#</span> This setting will depend on whether service is NodePort or LoadBalancer. NodePort may require vendor port tunneling setting.</span>
+        <span class="pl-c"><span class="pl-c">#</span> Set this to a node if NodePort or LB if applicable. IP or dns name.</span>
+        <span class="pl-ent">host</span>: <span class="pl-s">A.B.C.D</span>
+        <span class="pl-ent">path</span>: <span class="pl-s">/bumblebeetuna</span>
+      <span class="pl-ent">auth</span>:
+        <span class="pl-ent">user</span>: <span class="pl-s">jean-baptiste-emmanuel</span>
+        <span class="pl-ent">password</span>: <span class="pl-s">Zorg!</span></pre></div>
+<hr>
+<h2 dir="auto">K9s RBAC FU</h2>
+<p dir="auto">On RBAC enabled clusters, you would need to give your users/groups capabilities so that they can use K9s to explore their Kubernetes cluster. K9s needs minimally read privileges at both the cluster and namespace level to display resources and metrics.</p>
+<p dir="auto">These rules below are just suggestions. You will need to customize them based on your environment policies. If you need to edit/delete resources extra Fu will be necessary.</p>
+<blockquote>
+<p dir="auto">NOTE! Cluster/Namespace access may change in the future as K9s evolves.<br>
+NOTE! We expect K9s to keep running even in atrophied clusters/namespaces. Please file issues if this is not the case!</p>
+</blockquote>
+<h3 dir="auto">Cluster RBAC scope</h3>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="---
+# K9s Reader ClusterRole
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: k9s
+rules:
+  # Grants RO access to cluster resources node and namespace
+  - apiGroups: [&quot;&quot;]
+    resources: [&quot;nodes&quot;, &quot;namespaces&quot;]
+    verbs: [&quot;get&quot;, &quot;list&quot;, &quot;watch&quot;]
+  # Grants RO access to RBAC resources
+  - apiGroups: [&quot;rbac.authorization.k8s.io&quot;]
+    resources: [&quot;clusterroles&quot;, &quot;roles&quot;, &quot;clusterrolebindings&quot;, &quot;rolebindings&quot;]
+    verbs: [&quot;get&quot;, &quot;list&quot;, &quot;watch&quot;]
+  # Grants RO access to CRD resources
+  - apiGroups: [&quot;apiextensions.k8s.io&quot;]
+    resources: [&quot;customresourcedefinitions&quot;]
+    verbs: [&quot;get&quot;, &quot;list&quot;, &quot;watch&quot;]
+  # Grants RO access to metric server (if present)
+  - apiGroups: [&quot;metrics.k8s.io&quot;]
+    resources: [&quot;nodes&quot;, &quot;pods&quot;]
+    verbs: [&quot;get&quot;, &quot;list&quot;, &quot;watch&quot;]
+
+---
+# Sample K9s user ClusterRoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: k9s
+subjects:
+  - kind: User
+    name: fernand
+    apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: ClusterRole
+  name: k9s
+  apiGroup: rbac.authorization.k8s.io"><pre class="notranslate">---
+<span class="pl-c"><span class="pl-c">#</span> K9s Reader ClusterRole</span>
+<span class="pl-ent">kind</span>: <span class="pl-s">ClusterRole</span>
+<span class="pl-ent">apiVersion</span>: <span class="pl-s">rbac.authorization.k8s.io/v1</span>
+<span class="pl-ent">metadata</span>:
+  <span class="pl-ent">name</span>: <span class="pl-s">k9s</span>
+<span class="pl-ent">rules</span>:
+  <span class="pl-c"><span class="pl-c">#</span> Grants RO access to cluster resources node and namespace</span>
+  - <span class="pl-ent">apiGroups</span>: <span class="pl-s">[""]</span>
+    <span class="pl-ent">resources</span>: <span class="pl-s">["nodes", "namespaces"]</span>
+    <span class="pl-ent">verbs</span>: <span class="pl-s">["get", "list", "watch"]</span>
+  <span class="pl-c"><span class="pl-c">#</span> Grants RO access to RBAC resources</span>
+  - <span class="pl-ent">apiGroups</span>: <span class="pl-s">["rbac.authorization.k8s.io"]</span>
+    <span class="pl-ent">resources</span>: <span class="pl-s">["clusterroles", "roles", "clusterrolebindings", "rolebindings"]</span>
+    <span class="pl-ent">verbs</span>: <span class="pl-s">["get", "list", "watch"]</span>
+  <span class="pl-c"><span class="pl-c">#</span> Grants RO access to CRD resources</span>
+  - <span class="pl-ent">apiGroups</span>: <span class="pl-s">["apiextensions.k8s.io"]</span>
+    <span class="pl-ent">resources</span>: <span class="pl-s">["customresourcedefinitions"]</span>
+    <span class="pl-ent">verbs</span>: <span class="pl-s">["get", "list", "watch"]</span>
+  <span class="pl-c"><span class="pl-c">#</span> Grants RO access to metric server (if present)</span>
+  - <span class="pl-ent">apiGroups</span>: <span class="pl-s">["metrics.k8s.io"]</span>
+    <span class="pl-ent">resources</span>: <span class="pl-s">["nodes", "pods"]</span>
+    <span class="pl-ent">verbs</span>: <span class="pl-s">["get", "list", "watch"]</span>
+
+---
+<span class="pl-c"><span class="pl-c">#</span> Sample K9s user ClusterRoleBinding</span>
+<span class="pl-ent">apiVersion</span>: <span class="pl-s">rbac.authorization.k8s.io/v1</span>
+<span class="pl-ent">kind</span>: <span class="pl-s">ClusterRoleBinding</span>
+<span class="pl-ent">metadata</span>:
+  <span class="pl-ent">name</span>: <span class="pl-s">k9s</span>
+<span class="pl-ent">subjects</span>:
+  - <span class="pl-ent">kind</span>: <span class="pl-s">User</span>
+    <span class="pl-ent">name</span>: <span class="pl-s">fernand</span>
+    <span class="pl-ent">apiGroup</span>: <span class="pl-s">rbac.authorization.k8s.io</span>
+<span class="pl-ent">roleRef</span>:
+  <span class="pl-ent">kind</span>: <span class="pl-s">ClusterRole</span>
+  <span class="pl-ent">name</span>: <span class="pl-s">k9s</span>
+  <span class="pl-ent">apiGroup</span>: <span class="pl-s">rbac.authorization.k8s.io</span></pre></div>
+<h3 dir="auto">Namespace RBAC scope</h3>
+<p dir="auto">If your users are constrained to certain namespaces, K9s will need to following role to enable read access to namespaced resources.</p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="---
+# K9s Reader Role (default namespace)
+kind: Role
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: k9s
+  namespace: default
+rules:
+  # Grants RO access to most namespaced resources
+  - apiGroups: [&quot;&quot;, &quot;apps&quot;, &quot;autoscaling&quot;, &quot;batch&quot;, &quot;extensions&quot;]
+    resources: [&quot;*&quot;]
+    verbs: [&quot;get&quot;, &quot;list&quot;, &quot;watch&quot;]
+  # Grants RO access to metric server
+  - apiGroups: [&quot;metrics.k8s.io&quot;]
+    resources: [&quot;pods&quot;, &quot;nodes&quot;]
+    verbs:
+      - get
+      - list
+      - watch
+
+---
+# Sample K9s user RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: k9s
+  namespace: default
+subjects:
+  - kind: User
+    name: fernand
+    apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: Role
+  name: k9s
+  apiGroup: rbac.authorization.k8s.io"><pre class="notranslate">---
+<span class="pl-c"><span class="pl-c">#</span> K9s Reader Role (default namespace)</span>
+<span class="pl-ent">kind</span>: <span class="pl-s">Role</span>
+<span class="pl-ent">apiVersion</span>: <span class="pl-s">rbac.authorization.k8s.io/v1</span>
+<span class="pl-ent">metadata</span>:
+  <span class="pl-ent">name</span>: <span class="pl-s">k9s</span>
+  <span class="pl-ent">namespace</span>: <span class="pl-s">default</span>
+<span class="pl-ent">rules</span>:
+  <span class="pl-c"><span class="pl-c">#</span> Grants RO access to most namespaced resources</span>
+  - <span class="pl-ent">apiGroups</span>: <span class="pl-s">["", "apps", "autoscaling", "batch", "extensions"]</span>
+    <span class="pl-ent">resources</span>: <span class="pl-s">["*"]</span>
+    <span class="pl-ent">verbs</span>: <span class="pl-s">["get", "list", "watch"]</span>
+  <span class="pl-c"><span class="pl-c">#</span> Grants RO access to metric server</span>
+  - <span class="pl-ent">apiGroups</span>: <span class="pl-s">["metrics.k8s.io"]</span>
+    <span class="pl-ent">resources</span>: <span class="pl-s">["pods", "nodes"]</span>
+    <span class="pl-ent">verbs</span>:
+      - <span class="pl-s">get</span>
+      - <span class="pl-s">list</span>
+      - <span class="pl-s">watch</span>
+
+---
+<span class="pl-c"><span class="pl-c">#</span> Sample K9s user RoleBinding</span>
+<span class="pl-ent">apiVersion</span>: <span class="pl-s">rbac.authorization.k8s.io/v1</span>
+<span class="pl-ent">kind</span>: <span class="pl-s">RoleBinding</span>
+<span class="pl-ent">metadata</span>:
+  <span class="pl-ent">name</span>: <span class="pl-s">k9s</span>
+  <span class="pl-ent">namespace</span>: <span class="pl-s">default</span>
+<span class="pl-ent">subjects</span>:
+  - <span class="pl-ent">kind</span>: <span class="pl-s">User</span>
+    <span class="pl-ent">name</span>: <span class="pl-s">fernand</span>
+    <span class="pl-ent">apiGroup</span>: <span class="pl-s">rbac.authorization.k8s.io</span>
+<span class="pl-ent">roleRef</span>:
+  <span class="pl-ent">kind</span>: <span class="pl-s">Role</span>
+  <span class="pl-ent">name</span>: <span class="pl-s">k9s</span>
+  <span class="pl-ent">apiGroup</span>: <span class="pl-s">rbac.authorization.k8s.io</span></pre></div>
+<hr>
+<h2 dir="auto">Skins</h2>
+<p dir="auto">Example: Dracula Skin ;)</p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="assets/skins/dracula.png"><img src="assets/skins/dracula.png" alt="Dracula Skin" style="max-width: 100%;"></a></p>
+<p dir="auto">You can style K9s based on your own sense of look and style. Skins are YAML files, that enable a user to change the K9s presentation layer. See this repo <code class="notranslate">skins</code> directory for examples.<br>
+You can skin k9s by default by specifying a UI.skin attribute. You can also change K9s skins based on the context you are connecting too.<br>
+In this case, you can specify a skin field on your cluster config aka <code class="notranslate">skin: dracula</code> (just the name of the skin file without the extension!) and copy this repo<br>
+<code class="notranslate">skins/dracula.yaml</code> to <code class="notranslate">$XDG_CONFIG_HOME/k9s/skins/</code> directory.</p>
+<p dir="auto">In the case where your cluster spans several contexts, you can add a skin context configuration to your context configuration.<br>
+This is a collection of {context_name, skin} tuples (please see example below!)</p>
+<p dir="auto">Colors can be defined by name or using a hex representation. Of recent, we've added a color named <code class="notranslate">default</code> to indicate a transparent background color to preserve your terminal background color settings if so desired.</p>
+<blockquote>
+<p dir="auto">NOTE: This is very much an experimental feature at this time, more will be added/modified if this feature has legs so thread accordingly!<br>
+NOTE: Please see <a href="https://k9scli.io/topics/skins/" rel="nofollow">K9s Skins</a> for a list of available colors.</p>
+</blockquote>
+<p dir="auto">To skin a specific context and provided the file <code class="notranslate">in-the-navy.yaml</code> is present in your skins directory.</p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="#  $XDG_DATA_HOME/k9s/clusters/clusterX/contextY/config.yaml
+k9s:
+  cluster: clusterX
+  skin: in-the-navy
+  readOnly: false
+  namespace:
+    active: default
+    lockFavorites: false
+    favorites:
+    - kube-system
+    - default
+  view:
+    active: po
+  featureGates:
+    nodeShell: false
+  portForwardAddress: localhost"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span>  $XDG_DATA_HOME/k9s/clusters/clusterX/contextY/config.yaml</span>
+<span class="pl-ent">k9s</span>:
+  <span class="pl-ent">cluster</span>: <span class="pl-s">clusterX</span>
+  <span class="pl-ent">skin</span>: <span class="pl-s">in-the-navy</span>
+  <span class="pl-ent">readOnly</span>: <span class="pl-c1">false</span>
+  <span class="pl-ent">namespace</span>:
+    <span class="pl-ent">active</span>: <span class="pl-s">default</span>
+    <span class="pl-ent">lockFavorites</span>: <span class="pl-c1">false</span>
+    <span class="pl-ent">favorites</span>:
+    - <span class="pl-s">kube-system</span>
+    - <span class="pl-s">default</span>
+  <span class="pl-ent">view</span>:
+    <span class="pl-ent">active</span>: <span class="pl-s">po</span>
+  <span class="pl-ent">featureGates</span>:
+    <span class="pl-ent">nodeShell</span>: <span class="pl-c1">false</span>
+  <span class="pl-ent">portForwardAddress</span>: <span class="pl-s">localhost</span></pre></div>
+<p dir="auto">You can also specify a default skin for all contexts in the root k9s config file as so:</p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="#  $XDG_CONFIG_HOME/k9s/config.yaml
+k9s:
+  liveViewAutoRefresh: false
+  screenDumpDir: /tmp/dumps
+  refreshRate: 2
+  maxConnRetry: 5
+  readOnly: false
+  noExitOnCtrlC: false
+  ui:
+    enableMouse: false
+    headless: false
+    logoless: false
+    crumbsless: false
+    splashless: false
+    noIcons: false
+    # Toggles reactive UI. This option provide for watching on disk artifacts changes and update the UI live  Defaults to false.
+    reactive: false
+    # By default all contexts will use the dracula skin unless explicitly overridden in the context config file.
+    skin: dracula # =&gt; assumes the file skins/dracula.yaml is present in the  $XDG_DATA_HOME/k9s/skins directory
+    defaultsToFullScreen: false
+  skipLatestRevCheck: false
+  disablePodCounting: false
+  shellPod:
+    image: busybox
+    namespace: default
+    limits:
+      cpu: 100m
+      memory: 100Mi
+  imageScans:
+    enable: false
+    exclusions:
+      namespaces: []
+      labels: {}
+  logger:
+    tail: 100
+    buffer: 5000
+    sinceSeconds: -1
+    textWrap: false
+    disableAutoscroll: false
+    showTime: false
+  thresholds:
+    cpu:
+      critical: 90
+      warn: 70
+    memory:
+      critical: 90
+      warn: 70"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span>  $XDG_CONFIG_HOME/k9s/config.yaml</span>
+<span class="pl-ent">k9s</span>:
+  <span class="pl-ent">liveViewAutoRefresh</span>: <span class="pl-c1">false</span>
+  <span class="pl-ent">screenDumpDir</span>: <span class="pl-s">/tmp/dumps</span>
+  <span class="pl-ent">refreshRate</span>: <span class="pl-c1">2</span>
+  <span class="pl-ent">maxConnRetry</span>: <span class="pl-c1">5</span>
+  <span class="pl-ent">readOnly</span>: <span class="pl-c1">false</span>
+  <span class="pl-ent">noExitOnCtrlC</span>: <span class="pl-c1">false</span>
+  <span class="pl-ent">ui</span>:
+    <span class="pl-ent">enableMouse</span>: <span class="pl-c1">false</span>
+    <span class="pl-ent">headless</span>: <span class="pl-c1">false</span>
+    <span class="pl-ent">logoless</span>: <span class="pl-c1">false</span>
+    <span class="pl-ent">crumbsless</span>: <span class="pl-c1">false</span>
+    <span class="pl-ent">splashless</span>: <span class="pl-c1">false</span>
+    <span class="pl-ent">noIcons</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span> Toggles reactive UI. This option provide for watching on disk artifacts changes and update the UI live  Defaults to false.</span>
+    <span class="pl-ent">reactive</span>: <span class="pl-c1">false</span>
+    <span class="pl-c"><span class="pl-c">#</span> By default all contexts will use the dracula skin unless explicitly overridden in the context config file.</span>
+    <span class="pl-ent">skin</span>: <span class="pl-s">dracula </span><span class="pl-c"><span class="pl-c">#</span> =&gt; assumes the file skins/dracula.yaml is present in the  $XDG_DATA_HOME/k9s/skins directory</span>
+    <span class="pl-ent">defaultsToFullScreen</span>: <span class="pl-c1">false</span>
+  <span class="pl-ent">skipLatestRevCheck</span>: <span class="pl-c1">false</span>
+  <span class="pl-ent">disablePodCounting</span>: <span class="pl-c1">false</span>
+  <span class="pl-ent">shellPod</span>:
+    <span class="pl-ent">image</span>: <span class="pl-s">busybox</span>
+    <span class="pl-ent">namespace</span>: <span class="pl-s">default</span>
+    <span class="pl-ent">limits</span>:
+      <span class="pl-ent">cpu</span>: <span class="pl-c1">100m</span>
+      <span class="pl-ent">memory</span>: <span class="pl-s">100Mi</span>
+  <span class="pl-ent">imageScans</span>:
+    <span class="pl-ent">enable</span>: <span class="pl-c1">false</span>
+    <span class="pl-ent">exclusions</span>:
+      <span class="pl-ent">namespaces</span>: <span class="pl-s">[]</span>
+      <span class="pl-ent">labels</span>: <span class="pl-s">{}</span>
+  <span class="pl-ent">logger</span>:
+    <span class="pl-ent">tail</span>: <span class="pl-c1">100</span>
+    <span class="pl-ent">buffer</span>: <span class="pl-c1">5000</span>
+    <span class="pl-ent">sinceSeconds</span>: <span class="pl-c1">-1</span>
+    <span class="pl-ent">textWrap</span>: <span class="pl-c1">false</span>
+    <span class="pl-ent">disableAutoscroll</span>: <span class="pl-c1">false</span>
+    <span class="pl-ent">showTime</span>: <span class="pl-c1">false</span>
+  <span class="pl-ent">thresholds</span>:
+    <span class="pl-ent">cpu</span>:
+      <span class="pl-ent">critical</span>: <span class="pl-c1">90</span>
+      <span class="pl-ent">warn</span>: <span class="pl-c1">70</span>
+    <span class="pl-ent">memory</span>:
+      <span class="pl-ent">critical</span>: <span class="pl-c1">90</span>
+      <span class="pl-ent">warn</span>: <span class="pl-c1">70</span></pre></div>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# $XDG_DATA_HOME/k9s/skins/in-the-navy.yaml
+# Skin InTheNavy!
+k9s:
+  # General K9s styles
+  body:
+    fgColor: dodgerblue
+    bgColor: '#ffffff'
+    logoColor: '#0000ff'
+  # ClusterInfoView styles.
+  info:
+    fgColor: lightskyblue
+    sectionColor: steelblue
+  # Help panel styles
+  help:
+    fgColor: white
+    bgColor: black
+    keyColor: cyan
+    numKeyColor: blue
+    sectionColor: gray
+  frame:
+    # Borders styles.
+    border:
+      fgColor: dodgerblue
+      focusColor: aliceblue
+    # MenuView attributes and styles.
+    menu:
+      fgColor: darkblue
+      # Style of menu text. Supported options are &quot;dim&quot; (default), &quot;normal&quot;, and &quot;bold&quot;
+      fgStyle: dim
+      keyColor: cornflowerblue
+      # Used for favorite namespaces
+      numKeyColor: cadetblue
+    # CrumbView attributes for history navigation.
+    crumbs:
+      fgColor: white
+      bgColor: steelblue
+      activeColor: skyblue
+    # Resource status and update styles
+    status:
+      newColor: '#00ff00'
+      modifyColor: powderblue
+      addColor: lightskyblue
+      errorColor: indianred
+      highlightcolor: royalblue
+      killColor: slategray
+      completedColor: gray
+    # Border title styles.
+    title:
+      fgColor: aqua
+      bgColor: white
+      highlightColor: skyblue
+      counterColor: slateblue
+      filterColor: slategray
+  views:
+    # TableView attributes.
+    table:
+      fgColor: blue
+      bgColor: darkblue
+      cursorColor: aqua
+      # Header row styles.
+      header:
+        fgColor: white
+        bgColor: darkblue
+        sorterColor: orange
+    # YAML info styles.
+    yaml:
+      keyColor: steelblue
+      colonColor: blue
+      valueColor: royalblue
+    # Logs styles.
+    logs:
+      fgColor: lightskyblue
+      bgColor: black
+      indicator:
+        fgColor: dodgerblue
+        bgColor: black
+        toggleOnColor: limegreen
+        toggleOffColor: gray"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> $XDG_DATA_HOME/k9s/skins/in-the-navy.yaml</span>
+<span class="pl-c"><span class="pl-c">#</span> Skin InTheNavy!</span>
+<span class="pl-ent">k9s</span>:
+  <span class="pl-c"><span class="pl-c">#</span> General K9s styles</span>
+  <span class="pl-ent">body</span>:
+    <span class="pl-ent">fgColor</span>: <span class="pl-s">dodgerblue</span>
+    <span class="pl-ent">bgColor</span>: <span class="pl-s"><span class="pl-pds">'</span>#ffffff<span class="pl-pds">'</span></span>
+    <span class="pl-ent">logoColor</span>: <span class="pl-s"><span class="pl-pds">'</span>#0000ff<span class="pl-pds">'</span></span>
+  <span class="pl-c"><span class="pl-c">#</span> ClusterInfoView styles.</span>
+  <span class="pl-ent">info</span>:
+    <span class="pl-ent">fgColor</span>: <span class="pl-s">lightskyblue</span>
+    <span class="pl-ent">sectionColor</span>: <span class="pl-s">steelblue</span>
+  <span class="pl-c"><span class="pl-c">#</span> Help panel styles</span>
+  <span class="pl-ent">help</span>:
+    <span class="pl-ent">fgColor</span>: <span class="pl-s">white</span>
+    <span class="pl-ent">bgColor</span>: <span class="pl-s">black</span>
+    <span class="pl-ent">keyColor</span>: <span class="pl-s">cyan</span>
+    <span class="pl-ent">numKeyColor</span>: <span class="pl-s">blue</span>
+    <span class="pl-ent">sectionColor</span>: <span class="pl-s">gray</span>
+  <span class="pl-ent">frame</span>:
+    <span class="pl-c"><span class="pl-c">#</span> Borders styles.</span>
+    <span class="pl-ent">border</span>:
+      <span class="pl-ent">fgColor</span>: <span class="pl-s">dodgerblue</span>
+      <span class="pl-ent">focusColor</span>: <span class="pl-s">aliceblue</span>
+    <span class="pl-c"><span class="pl-c">#</span> MenuView attributes and styles.</span>
+    <span class="pl-ent">menu</span>:
+      <span class="pl-ent">fgColor</span>: <span class="pl-s">darkblue</span>
+      <span class="pl-c"><span class="pl-c">#</span> Style of menu text. Supported options are "dim" (default), "normal", and "bold"</span>
+      <span class="pl-ent">fgStyle</span>: <span class="pl-s">dim</span>
+      <span class="pl-ent">keyColor</span>: <span class="pl-s">cornflowerblue</span>
+      <span class="pl-c"><span class="pl-c">#</span> Used for favorite namespaces</span>
+      <span class="pl-ent">numKeyColor</span>: <span class="pl-s">cadetblue</span>
+    <span class="pl-c"><span class="pl-c">#</span> CrumbView attributes for history navigation.</span>
+    <span class="pl-ent">crumbs</span>:
+      <span class="pl-ent">fgColor</span>: <span class="pl-s">white</span>
+      <span class="pl-ent">bgColor</span>: <span class="pl-s">steelblue</span>
+      <span class="pl-ent">activeColor</span>: <span class="pl-s">skyblue</span>
+    <span class="pl-c"><span class="pl-c">#</span> Resource status and update styles</span>
+    <span class="pl-ent">status</span>:
+      <span class="pl-ent">newColor</span>: <span class="pl-s"><span class="pl-pds">'</span>#00ff00<span class="pl-pds">'</span></span>
+      <span class="pl-ent">modifyColor</span>: <span class="pl-s">powderblue</span>
+      <span class="pl-ent">addColor</span>: <span class="pl-s">lightskyblue</span>
+      <span class="pl-ent">errorColor</span>: <span class="pl-s">indianred</span>
+      <span class="pl-ent">highlightcolor</span>: <span class="pl-s">royalblue</span>
+      <span class="pl-ent">killColor</span>: <span class="pl-s">slategray</span>
+      <span class="pl-ent">completedColor</span>: <span class="pl-s">gray</span>
+    <span class="pl-c"><span class="pl-c">#</span> Border title styles.</span>
+    <span class="pl-ent">title</span>:
+      <span class="pl-ent">fgColor</span>: <span class="pl-s">aqua</span>
+      <span class="pl-ent">bgColor</span>: <span class="pl-s">white</span>
+      <span class="pl-ent">highlightColor</span>: <span class="pl-s">skyblue</span>
+      <span class="pl-ent">counterColor</span>: <span class="pl-s">slateblue</span>
+      <span class="pl-ent">filterColor</span>: <span class="pl-s">slategray</span>
+  <span class="pl-ent">views</span>:
+    <span class="pl-c"><span class="pl-c">#</span> TableView attributes.</span>
+    <span class="pl-ent">table</span>:
+      <span class="pl-ent">fgColor</span>: <span class="pl-s">blue</span>
+      <span class="pl-ent">bgColor</span>: <span class="pl-s">darkblue</span>
+      <span class="pl-ent">cursorColor</span>: <span class="pl-s">aqua</span>
+      <span class="pl-c"><span class="pl-c">#</span> Header row styles.</span>
+      <span class="pl-ent">header</span>:
+        <span class="pl-ent">fgColor</span>: <span class="pl-s">white</span>
+        <span class="pl-ent">bgColor</span>: <span class="pl-s">darkblue</span>
+        <span class="pl-ent">sorterColor</span>: <span class="pl-s">orange</span>
+    <span class="pl-c"><span class="pl-c">#</span> YAML info styles.</span>
+    <span class="pl-ent">yaml</span>:
+      <span class="pl-ent">keyColor</span>: <span class="pl-s">steelblue</span>
+      <span class="pl-ent">colonColor</span>: <span class="pl-s">blue</span>
+      <span class="pl-ent">valueColor</span>: <span class="pl-s">royalblue</span>
+    <span class="pl-c"><span class="pl-c">#</span> Logs styles.</span>
+    <span class="pl-ent">logs</span>:
+      <span class="pl-ent">fgColor</span>: <span class="pl-s">lightskyblue</span>
+      <span class="pl-ent">bgColor</span>: <span class="pl-s">black</span>
+      <span class="pl-ent">indicator</span>:
+        <span class="pl-ent">fgColor</span>: <span class="pl-s">dodgerblue</span>
+        <span class="pl-ent">bgColor</span>: <span class="pl-s">black</span>
+        <span class="pl-ent">toggleOnColor</span>: <span class="pl-s">limegreen</span>
+        <span class="pl-ent">toggleOffColor</span>: <span class="pl-s">gray</span></pre></div>
+<hr>
+<h2 dir="auto">Contributors</h2>
+<p dir="auto">Without the contributions from these fine folks, this project would be a total dud!</p>
+<a href="https://github.com/derailed/k9s/graphs/contributors">
+  <img src="https://camo.githubusercontent.com/ae108e3679d8b8d93daf21355316f923f7b3a71fba2187c94e93a81ebf6453be/68747470733a2f2f636f6e747269622e726f636b732f696d6167653f7265706f3d64657261696c65642f6b3973" data-canonical-src="https://contrib.rocks/image?repo=derailed/k9s" style="max-width: 100%;">
+</a>
+<hr>
+<h2 dir="auto">Known Issues</h2>
+<p dir="auto">This is still work in progress! If something is broken or there's a feature<br>
+that you want, please file an issue and if so inclined submit a PR!</p>
+<p dir="auto">K9s will most likely blow up if...</p>
+<ol dir="auto">
+<li>You're running older versions of Kubernetes. K9s works best on later Kubernetes versions.</li>
+<li>You don't have enough RBAC fu to manage your cluster.</li>
+</ol>
+<hr>
+<h2 dir="auto">ATTA Girls/Boys!</h2>
+<p dir="auto">K9s sits on top of many open source projects and libraries. Our <em>sincere</em><br>
+appreciations to all the OSS contributors that work nights and weekends<br>
+to make this project a reality!</p>
+<hr>
+<h2 dir="auto">Meet The Core Team!</h2>
+<p dir="auto">If you have chops in GO and K8s and would like to offer your time to help maintain and enhance this project, please reach out to me.</p>
+<ul dir="auto">
+<li><a href="https://github.com/derailed">Fernand Galiana</a>
+<ul dir="auto">
+<li><a target="_blank" rel="noopener noreferrer" href="assets/mail.png"><img src="assets/mail.png" width="16" height="auto" alt="email" style="max-width: 100%;"></a>  <a href="mailto:fernand@imhotep.io">fernand@imhotep.io</a></li>
+<li><a target="_blank" rel="noopener noreferrer" href="assets/twitter.png"><img src="assets/twitter.png" width="16" height="auto" alt="twitter" style="max-width: 100%;"></a> <a href="https://twitter.com/kitesurfer?lang=en" rel="nofollow">@kitesurfer</a></li>
+</ul>
+</li>
+</ul>
+<p dir="auto">We always enjoy hearing from folks who benefit from our work!</p>
+<h2 dir="auto">Contributions Guideline</h2>
+<ul dir="auto">
+<li>File an issue first prior to submitting a PR!</li>
+<li>Ensure all exported items are properly commented</li>
+<li>If applicable, submit a test suite against your PR</li>
+</ul>
+<hr>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="assets/imhotep_logo.png"><img src="assets/imhotep_logo.png" width="32" height="auto" alt="Imhotep" style="max-width: 100%;"></a>  © 2025 Imhotep Software LLC. All materials licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" rel="nofollow">Apache v2.0</a></p></div></div></div><div class="gg-issues-prev-next"><a class="prev" href="/issues/265"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M2 3h17a2 2 0 0 1 2 2v4h-2V5H2v14h17v-4h2v4a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m15 12v-2h7v-2h-7V9l-4 3l4 3M4 13h7v-2H4v2m0-4h7V7H4v2m0 8h4v-2H4v2Z"/></svg>gotomicro/k8z: 提供k8s集群资源的管理能力，还集成了抓包，debug等功能</span></a><a class="next" href="/issues/267"><span>obsidiandynamics/kafdrop: 一个用于查看 Kafka 主题和浏览消费者组的 Web UI。该工具显示代理、主题、分区、消费者等信息，并允许您查看消息<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M22 3H5a2 2 0 0 0-2 2v4h2V5h17v14H5v-4H3v4a2 2 0 0 0 2 2h17a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2M7 15v-2H0v-2h7V9l4 3l-4 3m13-2h-7v-2h7v2m0-4h-7V7h7v2m-3 8h-4v-2h4v2Z"/></svg></span></a></div><div class="answer-content"><div class="comments"></div></div></div></div></main><footer><div class="license"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img style="width:60px;height:21px" src="/static/license-83d755bd405fbe51c87dc088baf26299.svg" alt="License"/></a></div><div class="copyright"><span>Copyright ©<!-- --> <!-- -->2025<!-- -->-present</span><a class="owner" href="https://github.com/awesome-ops/awesome-ops.github.io" target="_blank">awesome-ops/awesome-ops.github.io</a>.</div><span class="powered">Powered by<a class="owner" title="GG (Gatsby + GitHub) - A gatsby website builder based on github discussions" href="https://github.com/lencx/gg" target="_blank">gg</a></span></footer></div><div id="gg-backtop" class="hide"><svg viewBox="0 0 98 125" xmlns="http://www.w3.org/2000/svg"><path d="m.41627505 120.505813c.36557376-2.799314 38.38567845-112.09375627 40.40633855-116.52273479 2.0206601-4.42897853 7.0443939-6.06190829 10.0049342.20172081 1.9736935 4.17575274 17.3630227 42.22464148 46.1679874 114.14666598.3068629 1.030234.4237748 1.755017.3507358 2.174348-.4483666 2.574161-2.3292736 3.429521-4.6125739 2.516093-15.0683018-6.028033-36.2681037-23.1692513-43.8663627-23.1692513-7.5982589 0-27.0568176 12.9171643-43.18383202 23.1692513-.96511235.613531-1.91473089 1.069619-2.88840599 1.149501s-2.74439509-.86628-2.37882134-3.665594z" fill="var(--gg-icon)" fill-rule="evenodd"></path></svg></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/issues/266";window.___webpackCompilationHash="24ed58306e97f1c1f657";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-97dd130bca8800dece7d.js"],"app":["/app-7383f855f15f63329e5f.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-2d05d9e504a620062115.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-408674d1ce0d96365c3f.js"],"component---src-templates-archives-tsx":["/component---src-templates-archives-tsx-06d205e572129bb8618c.js"],"component---src-templates-issues-tsx":["/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js"],"component---src-templates-labels-category-tsx":["/component---src-templates-labels-category-tsx-5456164ce90934624119.js"],"component---src-templates-labels-tsx":["/component---src-templates-labels-tsx-ee7b95bd8aa06617f372.js"],"component---src-templates-nav-category-tsx":["/component---src-templates-nav-category-tsx-91c7d8cb3880e3e0fda2.js"],"component---src-templates-nav-labels-tsx":["/component---src-templates-nav-labels-tsx-ae07fd835c5a914973d3.js"]};/*]]>*/</script><script src="/polyfill-97dd130bca8800dece7d.js" nomodule=""></script><script src="/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js" async=""></script><script src="/fc369a2ef6459b03f38591687cef4a587495c716-f468df31cbdaf6ffa970.js" async=""></script><script src="/app-7383f855f15f63329e5f.js" async=""></script><script src="/framework-86c8a5417e68dc3cefff.js" async=""></script><script src="/webpack-runtime-4fee7405b8a071e8c34e.js" async=""></script></body></html>

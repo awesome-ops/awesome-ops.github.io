@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/greptimeteam",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"GreptimeTeam/greptimedb: 开源、云原生、分布式时序数据库，支持 PromQL/SQL/Python","number":211}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7XNAQ","name":"GreptimeTeam","color":"9bdc40","description":null},"name":"GreptimeTeam","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

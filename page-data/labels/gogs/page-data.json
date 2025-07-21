@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/gogs",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"gogs/gogs: 一个最简单、最快速和最轻松的方式搭建自助 Git 服务，基于 Golang 开发，支持多平台。","number":195}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7W1GQ","name":"gogs","color":"4bdc5e","description":null},"name":"gogs","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

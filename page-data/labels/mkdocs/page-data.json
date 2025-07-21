@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/mkdocs",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"mkdocs/mkdocs: MkDocs 是一个快速、简单且华丽的静态站点生成器，适用于构建项目文档。文档源文件是用 Markdown 编写的，并使用单个 YAML 配置文件进行配置。它的设计易于使用，并且可以通过第三方主题、插件和 Markdown 扩展进行扩展。","number":378}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7a0zg","name":"mkdocs","color":"c7eef7","description":null},"name":"mkdocs","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

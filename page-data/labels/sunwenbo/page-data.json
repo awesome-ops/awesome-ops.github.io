@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/sunwenbo",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"sunwenbo/smart-api: 基于 Go 语言开发的自定义开放式工单系统","number":523}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9htag","name":"sunwenbo","color":"046f98","description":null},"name":"sunwenbo","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

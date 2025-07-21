@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/aristocratos",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"aristocratos/btop: 系统资源监视器显示处理器、内存、磁盘、网络和进程的使用情况和统计​​信息","number":57}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UEzA","name":"aristocratos","color":"c9dec1","description":null},"name":"aristocratos","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

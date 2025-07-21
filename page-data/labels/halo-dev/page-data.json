@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/halo-dev",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"halo-dev/halo: 强大易用的开源建站工具，更偏向于博客风格","number":218}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7XVvQ","name":"halo-dev","color":"54b5cd","description":null},"name":"halo-dev","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

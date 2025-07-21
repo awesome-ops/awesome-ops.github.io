@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/deepflowio",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"deepflowio/deepflow: DeepFlow 开源项目旨在为复杂的云基础设施及云原生应用提供深度可观测性。","number":110}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VHuw","name":"deepflowio","color":"28b270","description":null},"name":"deepflowio","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/actiontech",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"actiontech/sqle: 一个支持多种不同类型数据库，覆盖事前控制、事后监督、标准发布场景，帮助您建立质量规范的SQL全生命周期质量管理平台。","number":532}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9hylA","name":"actiontech","color":"2c2572","description":null},"name":"actiontech","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

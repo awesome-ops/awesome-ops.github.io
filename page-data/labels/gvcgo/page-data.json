@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/gvcgo",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"gvcgo/version-manager: 一款简单，跨平台，且经过良好设计的版本管理器，用于管理多种SDK以及其他工具。","number":591}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9iYZg","name":"gvcgo","color":"9314a5","description":null},"name":"gvcgo","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

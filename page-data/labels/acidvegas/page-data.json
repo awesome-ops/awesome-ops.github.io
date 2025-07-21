@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/acidvegas",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"acidvegas/elastop: 一个基于终端的仪表板，用于实时监控 Elasticsearch 集群。","number":154}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WAZA","name":"acidvegas","color":"ead8e2","description":null},"name":"acidvegas","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

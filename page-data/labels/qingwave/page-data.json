@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/qingwave",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"qingwave/weave: 一个基于Go + Vue3实现的Web应用模板，支持前后端，拥有完整的认证、存储、Restful API、应用管理（docker & kubernetes）功能","number":598}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9icmg","name":"qingwave","color":"948861","description":null},"name":"qingwave","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

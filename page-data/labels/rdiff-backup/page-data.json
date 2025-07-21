@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/rdiff-backup",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"rdiff-backup/rdiff-backup: rdiff-backup 是一个简单的备份工具，可以在本地和远程、Linux 和 Windows 上使用，甚至可以在两者之间跨平台使用。","number":470}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7csUg","name":"rdiff-backup","color":"c6ef00","description":null},"name":"rdiff-backup","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

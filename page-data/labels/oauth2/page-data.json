@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/oauth2",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"keycloak/keycloak: Keycloak提供用户联合、强身份验证、用户管理、细粒度授权等功能","number":281}},{"node":{"title":"logto-io/logto: 专为现代应用程序和 SaaS 产品设计的 Auth0 替代方案。它提供无缝的开发人员体验，非常适合个人和成长型公司","number":357}},{"node":{"title":"dromara/MaxKey: 业界领先的IAM-IDaas身份管理和认证产品, 支持OAuth 2.x/OpenID Connect、SAML 2.0、JWT、CAS、SCIM等标准协议，提供安全、标准和开放的用户身份管理(IDM)、身份认证(AM)、单点登录(SSO)、RBAC权限管理和资源管理等","number":366}},{"node":{"title":"zitadel/zitadel: 企业级统一身份认证管理系统","number":630}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Yvxg","name":"OAuth2","color":"91a032","description":null},"name":"OAuth2","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/lensapp",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"lensapp/lens: Lens 是一个开源的 Kubernetes IDE（集成开发环境），提供直观的界面用于管理、监控和调试 Kubernetes 集群。","number":351}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7aP3A","name":"lensapp","color":"480ce2","description":null},"name":"lensapp","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

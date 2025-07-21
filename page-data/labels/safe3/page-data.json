@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/safe3",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"Safe3/openresty-manager: 简单易用、功能强大、漂亮的OpenResty管理器","number":419}},{"node":{"title":"Safe3/uuWAF: 一款工业级免费、高性能、高扩展，支持AI和语义引擎的Web应用和API安全防护产品。","number":585}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7bpTQ","name":"Safe3","color":"882d01","description":null},"name":"Safe3","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

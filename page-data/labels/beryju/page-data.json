@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/beryju",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"BeryJu/gravity: 基于 Golang 开发，实现了完整的 DNS 和 DHCP 的管理控制台","number":210}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7XLjQ","name":"BeryJu","color":"212e8a","description":null},"name":"BeryJu","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

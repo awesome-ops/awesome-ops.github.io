@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/charmbracelet",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"charmbracelet/glow: Glow 是一款基于终端的 Markdown 阅读器，从头开始设计，旨在展现 CLI 的美丽和强大功能。","number":189}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WubA","name":"charmbracelet","color":"136168","description":null},"name":"charmbracelet","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

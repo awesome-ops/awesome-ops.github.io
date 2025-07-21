@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/zincsearch",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"zincsearch/zincsearch: 一个进行全文索引的搜索引擎。它是 Elasticsearch 的轻量级替代品，运行时只使用一小部分资源。它使用蓝色作为底层索引库","number":629}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9ivsg","name":"zincsearch","color":"6287eb","description":null},"name":"zincsearch","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

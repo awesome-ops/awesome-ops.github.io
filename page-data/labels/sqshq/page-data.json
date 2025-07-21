@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/sqshq",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"sqshq/sampler: Sampler 是一个用于 shell 命令执行、可视化和警报的工具。使用简单的 YAML 文件进行配置。","number":499}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9hdzw","name":"sqshq","color":"1b35a9","description":null},"name":"sqshq","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

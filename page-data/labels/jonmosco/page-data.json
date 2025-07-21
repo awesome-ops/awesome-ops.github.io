@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/jonmosco",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"jonmosco/kube-ps1: Kubernetes Bash/Zsh提示符插件。","number":328}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Zx4A","name":"jonmosco","color":"771853","description":null},"name":"jonmosco","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

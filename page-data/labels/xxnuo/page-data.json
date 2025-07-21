@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/xxnuo",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"xxnuo/dns-benchmark: 一个批量 DNS 服务器基准测试工具，用于本地测量全世界的 DNS 服务器的可访问性和性能。","number":115}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VOWg","name":"xxnuo","color":"7ecb8d","description":null},"name":"xxnuo","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

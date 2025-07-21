@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/gopeedlab",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"GopeedLab/gopeed: 一款由Golang+Flutter开发的高速下载器，支持（HTTP、BitTorrent、Magnet）协议下载，并且支持全平台使用。除了基本的下载功能外，Gopeed 还是一款高度可定制化的下载器，支持通过对接APIs或者安装和开发扩展来实现更多的功能","number":202}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7XAOQ","name":"GopeedLab","color":"f2d0e0","description":null},"name":"GopeedLab","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

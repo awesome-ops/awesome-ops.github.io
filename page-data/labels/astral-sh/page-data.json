@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/astral-sh",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"astral-sh/uv: 一个用 Rust 编写的极快的 Python 包和项目管理器。","number":586}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9iUmA","name":"astral-sh","color":"64ccda","description":null},"name":"astral-sh","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

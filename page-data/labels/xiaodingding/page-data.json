@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/xiaodingding",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"xiaodingding/iotfast: 基于 Goframe2.0 + Vue3.x 开发的物联网平台，支持跨语言，跨平台接入","number":242}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7X2mg","name":"xiaodingding","color":"0fba09","description":null},"name":"xiaodingding","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

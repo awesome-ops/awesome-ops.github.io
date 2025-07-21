@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/eip-work",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"eip-work/kuboard-press: K8s 多集群管理平台，开源免费版本仅支持3个以内的集群","number":342}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7aFPQ","name":"eip-work","color":"da7766","description":null},"name":"eip-work","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

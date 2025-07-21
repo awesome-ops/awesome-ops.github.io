@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/aquasecurity",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"aquasecurity/kube-bench: 检查 Kubernetes 是否根据 CIS Kubernetes Benchmark 定义的安全最佳实践进行部署","number":306}},{"node":{"title":"aquasecurity/kube-hunter: 在 Kubernetes 集群中追踪安全弱点","number":321}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7ZVzQ","name":"aquasecurity","color":"3d5803","description":null},"name":"aquasecurity","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

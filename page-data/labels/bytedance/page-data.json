@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/bytedance",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"bytedance/netcap: 一个基于bcc，可对含skb作为参数的系统函数，或者基于DPDK的mbuf抓包分析的工具。","number":390}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7bEFw","name":"bytedance","color":"883a7e","description":null},"name":"bytedance","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/cmdb",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"TencentBlueKing/bk-cmdb: 腾讯蓝鲸配置平台是一个面向资产及应用的企业级配置管理平台","number":52}},{"node":{"title":"veops/cmdb: 简单、轻量、通用的运维配置管理数据库","number":88}},{"node":{"title":"Duke1616/ecmdb: 一个现代化思路开发的 CMDB 和工单系统，功能还在早期开发中。","number":147}},{"node":{"title":"opendevops-cn/opendevops: 一站式 DevOps、自动化运维、完全开源的云管理平台、自动化运维平台","number":415}},{"node":{"title":"WeBankPartners/we-cmdb: 微众银行配置管理数据库系统","number":604}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7T86A","name":"CMDB","color":"01d887","description":null},"name":"CMDB","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

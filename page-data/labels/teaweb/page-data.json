@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/teaweb",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"TeaWeb/build: TeaWeb 是一款集静态资源、缓存、代理、统计、日志、安全、监控于一体的可视化智能 WebServer。","number":59}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UHzA","name":"TeaWeb","color":"333529","description":null},"name":"TeaWeb","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

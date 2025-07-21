@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/jrhouston",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"jrhouston/tfk8s: 一个用于将 Kubernetes 的 YAML 清单转换为 Terraform 的 HCL 的工具。","number":560}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9iCpQ","name":"jrhouston","color":"f3fee9","description":null},"name":"jrhouston","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

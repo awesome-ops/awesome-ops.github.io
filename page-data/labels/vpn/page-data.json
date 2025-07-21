@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/vpn",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"bjdgyc/anylink: 一个企业级远程办公 SSL VPN 软件，可以支持多人同时在线使用","number":25}},{"node":{"title":"DefGuard/defguard: 一款真正的零信任 WireGuard® VPN，具备双重身份验证 (2FA)/多重身份验证 (MFA)","number":111}},{"node":{"title":"dockovpn/dockovpn: 一个开箱即用、无状态、无需持久存储的 VPN服务器 Docker 镜像，可以在几秒钟内启动。","number":124}},{"node":{"title":"firezone/firezone: 一个开源平台，可安全地管理各种规模组织的远程访问。与大多数 VPN 不同，Firezone 采用细粒度、最小权限的访问管理方法。","number":167}},{"node":{"title":"qdm12/gluetun: VPN 客户端位于一个薄型 Docker 容器中，适用于多个 VPN 提供商，用 Go 编写，使用 OpenVPN 或 Wireguard、TLS 上的 DNS，并内置了一些代理服务器。","number":190}},{"node":{"title":"juanfont/headscale: Tailscale控制服务器的开源、自托管实现","number":223}},{"node":{"title":"slackhq/nebula: 一款可扩展的覆盖网络工具，专注于性能、简便性和安全性。","number":388}},{"node":{"title":"gravitl/netmaker: Netmaker使用WireGuard构建网络。Netmaker自动化了快速、安全和分布式的虚拟网络","number":391}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Ta_Q","name":"VPN","color":"da3863","description":null},"name":"VPN","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

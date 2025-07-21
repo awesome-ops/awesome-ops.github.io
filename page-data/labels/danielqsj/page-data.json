@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/danielqsj",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"danielqsj/kafka_exporter: Kafka 指标的 Prometheus Exporter","number":269}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Yd5Q","name":"danielqsj","color":"eb20a0","description":null},"name":"danielqsj","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

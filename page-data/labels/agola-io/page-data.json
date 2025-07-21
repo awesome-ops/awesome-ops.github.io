@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/agola-io",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"agola-io/agola: 以容器化形式运行的 CI/CD 工具","number":14}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TOPQ","name":"agola-io","color":"efca24","description":null},"name":"agola-io","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

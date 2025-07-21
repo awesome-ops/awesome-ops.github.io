@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/dragonflydb",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"dragonflydb/dragonfly: Dragonfly是一种针对现代应用程序负荷需求而构建的内存数据库，完全兼容Redis和Memcached的 API，迁移时无需修改任何代码。相比于这些传统的内存数据库，Dragonfly提供了其25倍的吞吐量，高缓存命中率和低尾延迟，并且对于相同大小的工作负载运行资源最多可减少80%。","number":136}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VpEA","name":"dragonflydb","color":"16b17d","description":null},"name":"dragonflydb","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

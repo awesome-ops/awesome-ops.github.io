@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/snowdreamtech",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"snowdreamtech/gserver: 使用 gin 和 golang 构建的简单静态 HTTP 服务器。跨平台，零配置","number":214}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7XQrA","name":"snowdreamtech","color":"7e7645","description":null},"name":"snowdreamtech","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

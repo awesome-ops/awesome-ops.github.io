@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/hidetatz",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"hidetatz/kubecolor: 可以给 kubectl 命令行输出内容着色的一个工具","number":309}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7ZZcA","name":"hidetatz","color":"26704c","description":null},"name":"hidetatz","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/danielfoehrkn",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"danielfoehrKn/kubeswitch: 一款 k8s 多集群配置文件管理切换工具","number":335}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Z7hQ","name":"danielfoehrKn","color":"805716","description":null},"name":"danielfoehrKn","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/derailed",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"derailed/k9s: Kubernetes CLI，以风格化的方式管理您的集群！","number":266}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7YaIA","name":"derailed","color":"10e4bc","description":null},"name":"derailed","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/trufflesecurity",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"trufflesecurity/trufflehog: 一款用于扫描代码中是否包含密码，秘钥等敏感信息的工具，可以集成到你的流水线当中","number":575}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9iNfw","name":"trufflesecurity","color":"ea9207","description":null},"name":"trufflesecurity","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

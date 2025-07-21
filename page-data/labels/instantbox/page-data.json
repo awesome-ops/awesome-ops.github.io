@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/instantbox",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"instantbox/instantbox: 在不到 30s 内得到一个干净、开箱即用的临时 Linux 系统","number":240}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7X0DA","name":"instantbox","color":"f5e1d7","description":null},"name":"instantbox","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

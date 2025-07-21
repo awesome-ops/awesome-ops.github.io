@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/certd",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"certd/certd: 开源SSL证书管理工具；全自动证书申请、更新、续期；通配符证书，泛域名证书申请；证书自动化部署到阿里云、腾讯云、主机、群晖、宝塔；https证书，pfx证书，der证书，TLS证书，nginx证书自动续签自动部署","number":71}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UVkg","name":"certd","color":"1b95f1","description":null},"name":"certd","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

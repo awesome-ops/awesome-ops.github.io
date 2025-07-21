@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/glinford",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"glinford/dns-easy-switcher: 一个简单的 macOS 菜单栏应用程序，允许您在不同的 DNS 提供商之间快速切换。","number":116}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VPxA","name":"glinford","color":"cdf45a","description":null},"name":"glinford","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

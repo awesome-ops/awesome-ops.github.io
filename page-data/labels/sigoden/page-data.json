@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/sigoden",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"sigoden/dufs: 一个独特的实用文件服务器，支持静态服务、上传、搜索、访问控制、webdav","number":139}},{"node":{"title":"sigoden/proxyfor: 一个强大而灵活的代理 CLI，用于捕获和检查 HTTP(S) 和 WS(S) 流量，带有 TUI 和 WebUI。","number":458}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7VsiA","name":"sigoden","color":"b5cd4f","description":null},"name":"sigoden","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

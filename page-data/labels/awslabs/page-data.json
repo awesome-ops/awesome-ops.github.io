@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/awslabs",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"awslabs/aws-shell: AWS CLI 的交互式生产力增强器","number":43}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Txew","name":"awslabs","color":"1624e8","description":null},"name":"awslabs","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

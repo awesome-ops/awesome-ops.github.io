@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/obsidiandynamics",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"obsidiandynamics/kafdrop: 一个用于查看 Kafka 主题和浏览消费者组的 Web UI。该工具显示代理、主题、分区、消费者等信息，并允许您查看消息","number":267}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7YbaA","name":"obsidiandynamics","color":"b1a4d6","description":null},"name":"obsidiandynamics","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

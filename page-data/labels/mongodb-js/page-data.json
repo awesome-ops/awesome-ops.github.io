@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/mongodb-js",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"mongodb-js/compass: MongoDB 官方开源的一款客户端工具","number":94}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UybQ","name":"mongodb-js","color":"58ae93","description":null},"name":"mongodb-js","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

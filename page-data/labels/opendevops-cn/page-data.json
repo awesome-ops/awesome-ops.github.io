@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/opendevops-cn",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"opendevops-cn/opendevops: 一站式 DevOps、自动化运维、完全开源的云管理平台、自动化运维平台","number":415}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7bkpw","name":"opendevops-cn","color":"4c6050","description":null},"name":"opendevops-cn","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

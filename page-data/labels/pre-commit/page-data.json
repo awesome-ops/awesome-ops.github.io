@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/pre-commit",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"pre-commit/pre-commit-hooks: 一些用于代码预提交的开箱即用的前置检测工具","number":451}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7cTMw","name":"pre-commit","color":"e55a8d","description":null},"name":"pre-commit","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/ben1234560",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"ben1234560/k8s_PaaS: 基于Kubernetes一步步部署成PaaS/DevOps的教程文档","number":262}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7YUFQ","name":"ben1234560","color":"c8a123","description":null},"name":"ben1234560","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

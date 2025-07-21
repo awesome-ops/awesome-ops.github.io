@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/duyanghao",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"duyanghao/kubernetes-reading-notes: Kubernetes源码阅读笔记，专注云原生、边缘计算、程序员综合素质以及自我修养","number":330}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Z03w","name":"duyanghao","color":"264f5c","description":null},"name":"duyanghao","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

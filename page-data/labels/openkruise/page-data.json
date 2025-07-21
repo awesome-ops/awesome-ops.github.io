@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/openkruise",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"openkruise/kruise: 在 Kubernetes 上自动管理大规模应用程序（属于 CNCF 的孵化项目）","number":300}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7ZNFQ","name":"openkruise","color":"e99e19","description":null},"name":"openkruise","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

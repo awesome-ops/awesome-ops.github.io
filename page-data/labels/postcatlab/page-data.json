@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/postcatlab",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"Postcatlab/postcat: 一个可扩展的 API 工具平台，支持多平台","number":450}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7cR6Q","name":"Postcatlab","color":"86e4eb","description":null},"name":"Postcatlab","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

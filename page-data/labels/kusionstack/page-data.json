@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/kusionstack",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"KusionStack/karpor: 智能化的 Kubernetes 平台，它为 Kubernetes 带来了高级的搜索、洞察和 AI 功能，本质上是一个 Kubernetes 可视化工具。","number":276}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7YpTA","name":"KusionStack","color":"60d7c8","description":null},"name":"KusionStack","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

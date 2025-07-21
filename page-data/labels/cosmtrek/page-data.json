@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/cosmtrek",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"cosmtrek/air: ☁️ 针对 Golang 应用开发设计的一个热重载的命令行工具","number":16}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TQdg","name":"cosmtrek","color":"eee227","description":null},"name":"cosmtrek","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

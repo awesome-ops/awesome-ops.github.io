@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/portainer",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"portainer/portainer: 让 Docker 和 Kubernetes 的管理变得简单。","number":449}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7cQoQ","name":"portainer","color":"a7dc09","description":null},"name":"portainer","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

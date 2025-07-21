@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/qishibo",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"qishibo/AnotherRedisDesktopManager: 🚀 更快、更好、更稳定的 Redis 桌面(GUI)管理客户端，支持多平台","number":22}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TXRQ","name":"qishibo","color":"ed93ec","description":null},"name":"qishibo","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

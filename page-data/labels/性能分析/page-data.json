@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/性能分析",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"alibaba/arthas: Arthas 是一款线上监控诊断产品，通过全局视角实时查看应用 load、内存、gc、线程的状态信息，并能在不修改应用代码的情况下，对业务问题进行诊断，包括查看方法调用的出入参、异常，监测方法执行耗时，类加载信息等，大大提升线上问题排查效率。","number":37}},{"node":{"title":"dromara/cubic: 一站式问题定位平台，以 agent 的方式无侵入接入应用，提供各种指标，动态线程堆栈追踪，完整集成 arthas 功能模块，致力于应用级监控，帮助开发人员快速定位问题。","number":102}},{"node":{"title":"LinShunKang/MyPerf4J: 一个针对高并发、低延迟应用设计的高性能 Java 性能监控和统计工具。","number":385}},{"node":{"title":"brendangregg/perf-tools: Linux 性能分析工具集合","number":433}},{"node":{"title":"grafana/pyroscope:  性能分析平台，用于分析 CPU 利用率和内存泄漏等应用性能问题","number":462}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7TqPA","name":"性能分析","color":"72a5ee","description":null},"name":"性能分析","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

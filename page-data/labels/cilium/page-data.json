@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/cilium",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"cilium/hubble: Hubble - 使用 eBPF 的 Kubernetes 网络、服务和安全可观测性","number":234}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7XsIw","name":"cilium","color":"6c4341","description":null},"name":"cilium","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

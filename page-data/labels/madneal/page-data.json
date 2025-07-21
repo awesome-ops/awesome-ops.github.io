@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/madneal",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"madneal/gshark: 根据关键字等规则，从 GitHub、GitLab 等扫描代码泄露、敏感信息泄露等安全问题","number":215}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7XSLw","name":"madneal","color":"c69e2e","description":null},"name":"madneal","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

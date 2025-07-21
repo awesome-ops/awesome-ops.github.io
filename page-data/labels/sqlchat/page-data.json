@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/sqlchat",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"sqlchat/sqlchat: 一个基于聊天的 SQL 客户端，使用自然语言与数据库以沟通的方式，实现对数据库的查询、修改、新增、删除等操作。","number":531}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9hyMw","name":"sqlchat","color":"1f9309","description":null},"name":"sqlchat","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

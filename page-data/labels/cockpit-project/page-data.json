@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/cockpit-project",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"cockpit-project/cockpit: Cockpit 是一个基于 Web 的服务器图形界面","number":90}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7UsmA","name":"cockpit-project","color":"30f827","description":null},"name":"cockpit-project","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

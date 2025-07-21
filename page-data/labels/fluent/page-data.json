@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/fluent",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"fluent/fluentd: 从各种数据源收集事件，并将其写入文件、RDBMS、NoSQL、IaaS、SaaS、Hadoop 等。","number":169}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WUCg","name":"fluent","color":"7c4103","description":null},"name":"fluent","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

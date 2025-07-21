@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/cli",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"cli/cli: GitHub的 官方命令行交互工具","number":81}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Uhgg","name":"cli","color":"d0666c","description":null},"name":"cli","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

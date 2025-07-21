@@ -1,0 +1,1131 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/><meta name="theme-color" content="#FFFFFF"/><meta name="generator" content="Gatsby 4.11.3"/><style data-href="/styles.3aaba633489943369223.css" data-identity="gatsby-global-css">@media (prefers-color-scheme:dark){.markdown-body{--color-prettylights-syntax-comment:#8b949e;--color-prettylights-syntax-constant:#79c0ff;--color-prettylights-syntax-entity:#d2a8ff;--color-prettylights-syntax-storage-modifier-import:#c9d1d9;--color-prettylights-syntax-entity-tag:#7ee787;--color-prettylights-syntax-keyword:#ff7b72;--color-prettylights-syntax-string:#a5d6ff;--color-prettylights-syntax-variable:#ffa657;--color-prettylights-syntax-brackethighlighter-unmatched:#f85149;--color-prettylights-syntax-invalid-illegal-text:#f0f6fc;--color-prettylights-syntax-invalid-illegal-bg:#8e1519;--color-prettylights-syntax-carriage-return-text:#f0f6fc;--color-prettylights-syntax-carriage-return-bg:#b62324;--color-prettylights-syntax-string-regexp:#7ee787;--color-prettylights-syntax-markup-list:#f2cc60;--color-prettylights-syntax-markup-heading:#1f6feb;--color-prettylights-syntax-markup-italic:#c9d1d9;--color-prettylights-syntax-markup-bold:#c9d1d9;--color-prettylights-syntax-markup-deleted-text:#ffdcd7;--color-prettylights-syntax-markup-deleted-bg:#67060c;--color-prettylights-syntax-markup-inserted-text:#aff5b4;--color-prettylights-syntax-markup-inserted-bg:#033a16;--color-prettylights-syntax-markup-changed-text:#ffdfb6;--color-prettylights-syntax-markup-changed-bg:#5a1e02;--color-prettylights-syntax-markup-ignored-text:#c9d1d9;--color-prettylights-syntax-markup-ignored-bg:#1158c7;--color-prettylights-syntax-meta-diff-range:#d2a8ff;--color-prettylights-syntax-brackethighlighter-angle:#8b949e;--color-prettylights-syntax-sublimelinter-gutter-mark:#484f58;--color-prettylights-syntax-constant-other-reference-link:#a5d6ff;--color-fg-default:#c9d1d9;--color-fg-muted:#8b949e;--color-fg-subtle:#484f58;--color-canvas-default:#0d1117;--color-canvas-subtle:#161b22;--color-border-default:#30363d;--color-border-muted:#21262d;--color-neutral-muted:hsla(215,8%,47%,.4);--color-accent-fg:#58a6ff;--color-accent-emphasis:#1f6feb;--color-attention-subtle:rgba(187,128,9,.15);--color-danger-fg:#f85149;color-scheme:dark}}@media (prefers-color-scheme:light){.markdown-body{--color-prettylights-syntax-comment:#6e7781;--color-prettylights-syntax-constant:#0550ae;--color-prettylights-syntax-entity:#8250df;--color-prettylights-syntax-storage-modifier-import:#24292f;--color-prettylights-syntax-entity-tag:#116329;--color-prettylights-syntax-keyword:#cf222e;--color-prettylights-syntax-string:#0a3069;--color-prettylights-syntax-variable:#953800;--color-prettylights-syntax-brackethighlighter-unmatched:#82071e;--color-prettylights-syntax-invalid-illegal-text:#f6f8fa;--color-prettylights-syntax-invalid-illegal-bg:#82071e;--color-prettylights-syntax-carriage-return-text:#f6f8fa;--color-prettylights-syntax-carriage-return-bg:#cf222e;--color-prettylights-syntax-string-regexp:#116329;--color-prettylights-syntax-markup-list:#3b2300;--color-prettylights-syntax-markup-heading:#0550ae;--color-prettylights-syntax-markup-italic:#24292f;--color-prettylights-syntax-markup-bold:#24292f;--color-prettylights-syntax-markup-deleted-text:#82071e;--color-prettylights-syntax-markup-deleted-bg:#ffebe9;--color-prettylights-syntax-markup-inserted-text:#116329;--color-prettylights-syntax-markup-inserted-bg:#dafbe1;--color-prettylights-syntax-markup-changed-text:#953800;--color-prettylights-syntax-markup-changed-bg:#ffd8b5;--color-prettylights-syntax-markup-ignored-text:#eaeef2;--color-prettylights-syntax-markup-ignored-bg:#0550ae;--color-prettylights-syntax-meta-diff-range:#8250df;--color-prettylights-syntax-brackethighlighter-angle:#57606a;--color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;--color-prettylights-syntax-constant-other-reference-link:#0a3069;--color-fg-default:#24292f;--color-fg-muted:#57606a;--color-fg-subtle:#6e7781;--color-canvas-default:#fff;--color-canvas-subtle:#f6f8fa;--color-border-default:#d0d7de;--color-border-muted:#d8dee4;--color-neutral-muted:rgba(175,184,193,.2);--color-accent-fg:#0969da;--color-accent-emphasis:#0969da;--color-attention-subtle:#fff8c5;--color-danger-fg:#cf222e;color-scheme:light}}.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;word-wrap:break-word;background-color:var(--color-canvas-default);color:var(--color-fg-default);font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:16px;line-height:1.5;margin:0}.markdown-body h1:hover .anchor .octicon-link:before,.markdown-body h2:hover .anchor .octicon-link:before,.markdown-body h3:hover .anchor .octicon-link:before,.markdown-body h4:hover .anchor .octicon-link:before,.markdown-body h5:hover .anchor .octicon-link:before,.markdown-body h6:hover .anchor .octicon-link:before{background-color:currentColor;content:" ";display:inline-block;height:16px;-webkit-mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');width:16px}.markdown-body details,.markdown-body figcaption,.markdown-body figure{display:block}.markdown-body summary{display:list-item}.markdown-body [hidden]{display:none!important}.markdown-body a{background-color:transparent;color:var(--color-accent-fg);text-decoration:none}.markdown-body a:active,.markdown-body a:hover{outline-width:0}.markdown-body abbr[title]{border-bottom:none;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}.markdown-body b,.markdown-body strong{font-weight:600}.markdown-body dfn{font-style:italic}.markdown-body h1{border-bottom:1px solid var(--color-border-muted);font-size:2em;font-weight:600;margin:.67em 0;padding-bottom:.3em}.markdown-body mark{background-color:var(--color-attention-subtle);color:var(--color-text-primary)}.markdown-body small{font-size:90%}.markdown-body sub,.markdown-body sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}.markdown-body sub{bottom:-.25em}.markdown-body sup{top:-.5em}.markdown-body img{background-color:var(--color-canvas-default);border-style:none;box-sizing:content-box;max-width:100%}.markdown-body code,.markdown-body kbd,.markdown-body pre,.markdown-body samp{font-family:monospace,monospace;font-size:1em}.markdown-body figure{margin:1em 40px}.markdown-body hr{background:transparent;background-color:var(--color-border-default);border:0;box-sizing:content-box;height:.25em;margin:24px 0;overflow:hidden;padding:0}.markdown-body input{font:inherit;font-family:inherit;font-size:inherit;line-height:inherit;margin:0;overflow:visible}.markdown-body [type=button],.markdown-body [type=reset],.markdown-body [type=submit]{-webkit-appearance:button}.markdown-body [type=button]::-moz-focus-inner,.markdown-body [type=reset]::-moz-focus-inner,.markdown-body [type=submit]::-moz-focus-inner{border-style:none;padding:0}.markdown-body [type=button]:-moz-focusring,.markdown-body [type=reset]:-moz-focusring,.markdown-body [type=submit]:-moz-focusring{outline:1px dotted ButtonText}.markdown-body [type=checkbox],.markdown-body [type=radio]{box-sizing:border-box;padding:0}.markdown-body [type=number]::-webkit-inner-spin-button,.markdown-body [type=number]::-webkit-outer-spin-button{height:auto}.markdown-body [type=search]{-webkit-appearance:textfield;outline-offset:-2px}.markdown-body [type=search]::-webkit-search-cancel-button,.markdown-body [type=search]::-webkit-search-decoration{-webkit-appearance:none}.markdown-body ::-webkit-input-placeholder{color:inherit;opacity:.54}.markdown-body ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}.markdown-body a:hover{text-decoration:underline}.markdown-body hr:after,.markdown-body hr:before{content:"";display:table}.markdown-body hr:after{clear:both}.markdown-body table{border-collapse:collapse;border-spacing:0;display:block;max-width:100%;overflow:auto;width:-webkit-max-content;width:max-content}.markdown-body td,.markdown-body th{padding:0}.markdown-body details summary{cursor:pointer}.markdown-body details:not([open])>:not(summary){display:none!important}.markdown-body kbd{background-color:var(--color-canvas-subtle);border-bottom-color:var(--color-neutral-muted);border:1px solid var(--color-neutral-muted);border-radius:6px;box-shadow:inset 0 -1px 0 var(--color-neutral-muted);color:var(--color-fg-default);display:inline-block;font:11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;line-height:10px;padding:3px 5px;vertical-align:middle}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{font-weight:600;line-height:1.25;margin-bottom:16px;margin-top:24px}.markdown-body h2{border-bottom:1px solid var(--color-border-muted);font-size:1.5em;font-weight:600;padding-bottom:.3em}.markdown-body h3{font-size:1.25em;font-weight:600}.markdown-body h4{font-size:1em;font-weight:600}.markdown-body h5{font-size:.875em;font-weight:600}.markdown-body h6{color:var(--color-fg-muted);font-size:.85em;font-weight:600}.markdown-body p{margin-bottom:10px;margin-top:0}.markdown-body blockquote{border-left:.25em solid var(--color-border-default);color:var(--color-fg-muted);margin:0;padding:0 1em}.markdown-body ol,.markdown-body ul{margin-bottom:0;margin-top:0;padding-left:2em}.markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}.markdown-body ol ol ol,.markdown-body ol ul ol,.markdown-body ul ol ol,.markdown-body ul ul ol{list-style-type:lower-alpha}.markdown-body dd{margin-left:0}.markdown-body code,.markdown-body pre,.markdown-body tt{font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;font-size:12px}.markdown-body pre{word-wrap:normal;margin-bottom:0;margin-top:0}.markdown-body .octicon{fill:currentColor;display:inline-block;overflow:visible!important;vertical-align:text-bottom}.markdown-body ::-webkit-input-placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body :-ms-input-placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body ::placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body input::-webkit-inner-spin-button,.markdown-body input::-webkit-outer-spin-button{-webkit-appearance:none;appearance:none;margin:0}.markdown-body .pl-c{color:var(--color-prettylights-syntax-comment)}.markdown-body .pl-c1,.markdown-body .pl-s .pl-v{color:var(--color-prettylights-syntax-constant)}.markdown-body .pl-e,.markdown-body .pl-en{color:var(--color-prettylights-syntax-entity)}.markdown-body .pl-s .pl-s1,.markdown-body .pl-smi{color:var(--color-prettylights-syntax-storage-modifier-import)}.markdown-body .pl-ent{color:var(--color-prettylights-syntax-entity-tag)}.markdown-body .pl-k{color:var(--color-prettylights-syntax-keyword)}.markdown-body .pl-pds,.markdown-body .pl-s,.markdown-body .pl-s .pl-pse .pl-s1,.markdown-body .pl-sr,.markdown-body .pl-sr .pl-cce,.markdown-body .pl-sr .pl-sra,.markdown-body .pl-sr .pl-sre{color:var(--color-prettylights-syntax-string)}.markdown-body .pl-smw,.markdown-body .pl-v{color:var(--color-prettylights-syntax-variable)}.markdown-body .pl-bu{color:var(--color-prettylights-syntax-brackethighlighter-unmatched)}.markdown-body .pl-ii{background-color:var(--color-prettylights-syntax-invalid-illegal-bg);color:var(--color-prettylights-syntax-invalid-illegal-text)}.markdown-body .pl-c2{background-color:var(--color-prettylights-syntax-carriage-return-bg);color:var(--color-prettylights-syntax-carriage-return-text)}.markdown-body .pl-sr .pl-cce{color:var(--color-prettylights-syntax-string-regexp);font-weight:700}.markdown-body .pl-ml{color:var(--color-prettylights-syntax-markup-list)}.markdown-body .pl-mh,.markdown-body .pl-mh .pl-en,.markdown-body .pl-ms{color:var(--color-prettylights-syntax-markup-heading);font-weight:700}.markdown-body .pl-mi{color:var(--color-prettylights-syntax-markup-italic);font-style:italic}.markdown-body .pl-mb{color:var(--color-prettylights-syntax-markup-bold);font-weight:700}.markdown-body .pl-md{background-color:var(--color-prettylights-syntax-markup-deleted-bg);color:var(--color-prettylights-syntax-markup-deleted-text)}.markdown-body .pl-mi1{background-color:var(--color-prettylights-syntax-markup-inserted-bg);color:var(--color-prettylights-syntax-markup-inserted-text)}.markdown-body .pl-mc{background-color:var(--color-prettylights-syntax-markup-changed-bg);color:var(--color-prettylights-syntax-markup-changed-text)}.markdown-body .pl-mi2{background-color:var(--color-prettylights-syntax-markup-ignored-bg);color:var(--color-prettylights-syntax-markup-ignored-text)}.markdown-body .pl-mdr{color:var(--color-prettylights-syntax-meta-diff-range);font-weight:700}.markdown-body .pl-ba{color:var(--color-prettylights-syntax-brackethighlighter-angle)}.markdown-body .pl-sg{color:var(--color-prettylights-syntax-sublimelinter-gutter-mark)}.markdown-body .pl-corl{color:var(--color-prettylights-syntax-constant-other-reference-link);text-decoration:underline}.markdown-body [data-catalyst]{display:block}.markdown-body g-emoji{font-family:Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-size:1em;font-style:normal!important;font-weight:400;line-height:1;vertical-align:-.075em}.markdown-body g-emoji img{height:1em;width:1em}.markdown-body:after,.markdown-body:before{content:"";display:table}.markdown-body:after{clear:both}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body .absent{color:var(--color-danger-fg)}.markdown-body .anchor{float:left;line-height:1;margin-left:-20px;padding-right:4px}.markdown-body .anchor:focus{outline:none}.markdown-body blockquote,.markdown-body details,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-bottom:16px;margin-top:0}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body sup>a:before{content:"["}.markdown-body sup>a:after{content:"]"}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:var(--color-fg-default);vertical-align:middle;visibility:hidden}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}.markdown-body h1 code,.markdown-body h1 tt,.markdown-body h2 code,.markdown-body h2 tt,.markdown-body h3 code,.markdown-body h3 tt,.markdown-body h4 code,.markdown-body h4 tt,.markdown-body h5 code,.markdown-body h5 tt,.markdown-body h6 code,.markdown-body h6 tt{font-size:inherit;padding:0 .2em}.markdown-body ol.no-list,.markdown-body ul.no-list{list-style-type:none;padding:0}.markdown-body ol[type="1"]{list-style-type:decimal}.markdown-body ol[type=a]{list-style-type:lower-alpha}.markdown-body ol[type=i]{list-style-type:lower-roman}.markdown-body div>ol:not([type]){list-style-type:decimal}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-bottom:0;margin-top:0}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dl{padding:0}.markdown-body dl dt{font-size:1em;font-style:italic;font-weight:600;margin-top:16px;padding:0}.markdown-body dl dd{margin-bottom:16px;padding:0 16px}.markdown-body table th{font-weight:600}.markdown-body table td,.markdown-body table th{border:1px solid var(--color-border-default);padding:6px 13px}.markdown-body table tr{background-color:var(--color-canvas-default);border-top:1px solid var(--color-border-muted)}.markdown-body table tr:nth-child(2n){background-color:var(--color-canvas-subtle)}.markdown-body table img{background-color:transparent}.markdown-body img[align=right]{padding-left:20px}.markdown-body img[align=left]{padding-right:20px}.markdown-body .emoji{background-color:transparent;max-width:none;vertical-align:text-top}.markdown-body span.frame{display:block;overflow:hidden}.markdown-body span.frame>span{border:1px solid var(--color-border-default);display:block;float:left;margin:13px 0 0;overflow:hidden;padding:7px;width:auto}.markdown-body span.frame span img{display:block;float:left}.markdown-body span.frame span span{clear:both;color:var(--color-fg-default);display:block;padding:5px 0 0}.markdown-body span.align-center{clear:both;display:block;overflow:hidden}.markdown-body span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}.markdown-body span.align-center span img{margin:0 auto;text-align:center}.markdown-body span.align-right{clear:both;display:block;overflow:hidden}.markdown-body span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}.markdown-body span.align-right span img{margin:0;text-align:right}.markdown-body span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}.markdown-body span.float-left span{margin:13px 0 0}.markdown-body span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}.markdown-body span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}.markdown-body code,.markdown-body tt{background-color:var(--color-neutral-muted);border-radius:6px;font-size:85%;margin:0;padding:.2em .4em}.markdown-body code br,.markdown-body tt br{display:none}.markdown-body del code{text-decoration:inherit}.markdown-body pre code{font-size:100%}.markdown-body pre>code{background:transparent;border:0;margin:0;padding:0;white-space:pre;word-break:normal}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{background-color:var(--color-canvas-subtle);border-radius:6px;font-size:85%;line-height:1.45;overflow:auto;padding:16px}.markdown-body pre code,.markdown-body pre tt{word-wrap:normal;background-color:transparent;border:0;display:inline;line-height:inherit;margin:0;max-width:auto;overflow:visible;padding:0}.markdown-body .csv-data td,.markdown-body .csv-data th{font-size:12px;line-height:1;overflow:hidden;padding:5px;text-align:left;white-space:nowrap}.markdown-body .csv-data .blob-num{background:var(--color-canvas-default);border:0;padding:10px 8px 9px;text-align:right}.markdown-body .csv-data tr{border-top:0}.markdown-body .csv-data th{background:var(--color-canvas-subtle);border-top:0;font-weight:600}.markdown-body .footnotes{border-top:1px solid var(--color-border-default);color:var(--color-fg-muted);font-size:12px}.markdown-body .footnotes ol{padding-left:16px}.markdown-body .footnotes li{position:relative}.markdown-body .footnotes li:target:before{border:2px solid var(--color-accent-emphasis);border-radius:6px;bottom:-8px;content:"";left:-24px;pointer-events:none;position:absolute;right:-8px;top:-8px}.markdown-body .footnotes li:target{color:var(--color-fg-default)}.markdown-body .footnotes .data-footnote-backref g-emoji{font-family:monospace}.markdown-body .task-list-item{list-style-type:none}.markdown-body .task-list-item label{font-weight:400}.markdown-body .task-list-item.enabled label{cursor:pointer}.markdown-body .task-list-item+.task-list-item{margin-top:3px}.markdown-body .task-list-item .handle{display:none}.markdown-body .task-list-item-checkbox{margin:0 .2em .25em -1.6em;vertical-align:middle}.markdown-body .contains-task-list:dir(rtl) .task-list-item-checkbox{margin:0 -1.6em .25em .2em}.markdown-body ::-webkit-calendar-picker-indicator{-webkit-filter:invert(50%);filter:invert(50%)}@font-face{font-family:lab;src:url(/static/lab-b3a92fdc7ccdc8ebf471556b2e7b1018.woff2) format("woff2")}:root{--font-base:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;--layout-header-height:56px;--layout-footer-height:100px;--gg-border:hsla(0,0%,71%,.1)}*{box-sizing:border-box;transition:all .3s ease-out}html.dark{--theme-content-background-color:#232629;--theme-header-background-color:#232629;--theme-footer-background-color:#232629;--theme-text:#d8d8d8;--gg-logo:#d8d8d8;--gg-icon:#75757a}html.light{--theme-content-background-color:#fff;--theme-header-background-color:#fafafa;--theme-footer-background-color:#fefefe;--theme-text:#232629;--gg-logo:#232629;--gg-icon:#a5a5ac}body{font-family:var(--font-base);margin:0;padding:0}.icon-action{cursor:pointer;user-select:none}.page-title{align-items:center;display:flex;font-size:20px;font-weight:700;justify-content:center;margin-bottom:20px;text-align:center}.page-title .icon{margin-right:10px}.text-center{text-align:center}.gg-empty{color:hsla(0,0%,71%,.5);font-size:18px}.dark .markdown-body{--color-prettylights-syntax-comment:#8b949e;--color-prettylights-syntax-constant:#79c0ff;--color-prettylights-syntax-entity:#d2a8ff;--color-prettylights-syntax-storage-modifier-import:#c9d1d9;--color-prettylights-syntax-entity-tag:#7ee787;--color-prettylights-syntax-keyword:#ff7b72;--color-prettylights-syntax-string:#a5d6ff;--color-prettylights-syntax-variable:#ffa657;--color-prettylights-syntax-brackethighlighter-unmatched:#f85149;--color-prettylights-syntax-invalid-illegal-text:#f0f6fc;--color-prettylights-syntax-invalid-illegal-bg:#8e1519;--color-prettylights-syntax-carriage-return-text:#f0f6fc;--color-prettylights-syntax-carriage-return-bg:#b62324;--color-prettylights-syntax-string-regexp:#7ee787;--color-prettylights-syntax-markup-list:#f2cc60;--color-prettylights-syntax-markup-heading:#1f6feb;--color-prettylights-syntax-markup-italic:#c9d1d9;--color-prettylights-syntax-markup-bold:#c9d1d9;--color-prettylights-syntax-markup-deleted-text:#ffdcd7;--color-prettylights-syntax-markup-deleted-bg:#67060c;--color-prettylights-syntax-markup-inserted-text:#aff5b4;--color-prettylights-syntax-markup-inserted-bg:#033a16;--color-prettylights-syntax-markup-changed-text:#ffdfb6;--color-prettylights-syntax-markup-changed-bg:#5a1e02;--color-prettylights-syntax-markup-ignored-text:#c9d1d9;--color-prettylights-syntax-markup-ignored-bg:#1158c7;--color-prettylights-syntax-meta-diff-range:#d2a8ff;--color-prettylights-syntax-brackethighlighter-angle:#8b949e;--color-prettylights-syntax-sublimelinter-gutter-mark:#484f58;--color-prettylights-syntax-constant-other-reference-link:#a5d6ff;--color-fg-default:#c9d1d9;--color-fg-muted:#8b949e;--color-fg-subtle:#484f58;--color-canvas-default:#232629;--color-canvas-subtle:#161b22;--color-border-default:#30363d;--color-border-muted:#21262d;--color-neutral-muted:hsla(215,8%,47%,.4);--color-accent-fg:#58a6ff;--color-accent-emphasis:#1f6feb;--color-attention-subtle:rgba(187,128,9,.15);--color-danger-fg:#f85149;color-scheme:dark}.light .markdown-body{--color-prettylights-syntax-comment:#6e7781;--color-prettylights-syntax-constant:#0550ae;--color-prettylights-syntax-entity:#8250df;--color-prettylights-syntax-storage-modifier-import:#24292f;--color-prettylights-syntax-entity-tag:#116329;--color-prettylights-syntax-keyword:#cf222e;--color-prettylights-syntax-string:#0a3069;--color-prettylights-syntax-variable:#953800;--color-prettylights-syntax-brackethighlighter-unmatched:#82071e;--color-prettylights-syntax-invalid-illegal-text:#f6f8fa;--color-prettylights-syntax-invalid-illegal-bg:#82071e;--color-prettylights-syntax-carriage-return-text:#f6f8fa;--color-prettylights-syntax-carriage-return-bg:#cf222e;--color-prettylights-syntax-string-regexp:#116329;--color-prettylights-syntax-markup-list:#3b2300;--color-prettylights-syntax-markup-heading:#0550ae;--color-prettylights-syntax-markup-italic:#24292f;--color-prettylights-syntax-markup-bold:#24292f;--color-prettylights-syntax-markup-deleted-text:#82071e;--color-prettylights-syntax-markup-deleted-bg:#ffebe9;--color-prettylights-syntax-markup-inserted-text:#116329;--color-prettylights-syntax-markup-inserted-bg:#dafbe1;--color-prettylights-syntax-markup-changed-text:#953800;--color-prettylights-syntax-markup-changed-bg:#ffd8b5;--color-prettylights-syntax-markup-ignored-text:#eaeef2;--color-prettylights-syntax-markup-ignored-bg:#0550ae;--color-prettylights-syntax-meta-diff-range:#8250df;--color-prettylights-syntax-brackethighlighter-angle:#57606a;--color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;--color-prettylights-syntax-constant-other-reference-link:#0a3069;--color-fg-default:#24292f;--color-fg-muted:#57606a;--color-fg-subtle:#6e7781;--color-canvas-default:#fff;--color-canvas-subtle:#f6f8fa;--color-border-default:#d0d7de;--color-border-muted:#d8dee4;--color-neutral-muted:rgba(175,184,193,.2);--color-accent-fg:#0969da;--color-accent-emphasis:#0969da;--color-attention-subtle:#fff8c5;--color-danger-fg:#cf222e;color-scheme:light}.markdown-body{margin:0 auto;max-width:720px;padding:0 20px 20px}h1{border-bottom:none!important}.gg-logo{text-rendering:optimizelegibility;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;line-height:0;outline:none;text-align:center;text-transform:none;vertical-align:-.125em}.gg-logo,.gg-theme-toggle{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.gg-nav{height:var(--layout-header-height)}.gg-nav *{transition:none}.gg-nav .icons,.gg-nav .nav-screen nav li{align-items:center;display:flex}.gg-nav .nav-screen nav li{color:var(--gg-icon);cursor:pointer;font-weight:700;list-style:none}@media screen and (max-width:720px){.gg-nav{align-items:center;display:flex}.gg-nav .nav-icon{cursor:pointer;height:24px;overflow:hidden;width:24px}.gg-nav .nav-icon span{background:#999;display:block;height:3px;margin:4px 0;transition:all .3s ease;width:24px}.gg-nav .nav-icon .top{-webkit-transform:translateX(6px);transform:translateX(6px)}.gg-nav .nav-icon .bottom{-webkit-transform:translateX(8px);transform:translateX(8px)}.gg-nav .nav-icon.active .top{-webkit-transform:rotate(225deg) translateY(-5px) translateX(-5px);transform:rotate(225deg) translateY(-5px) translateX(-5px)}.gg-nav .nav-icon.active .middle{-webkit-transform:translateX(24px);transform:translateX(24px)}.gg-nav .nav-icon.active .bottom{-webkit-transform:rotate(135deg) translateY(5px) translateX(-5px);transform:rotate(135deg) translateY(5px) translateX(-5px)}.nav-icon{display:block}.nav-screen{background-color:var(--theme-header-background-color);height:0;left:0;overflow:hidden;position:fixed;top:var(--layout-header-height);transition:height .15s ease-out;width:100%;z-index:1000}.nav-screen>div{padding:20px}.nav-screen.open{height:calc(100vh - var(--layout-header-height))}.nav-screen nav{font-size:16px;text-align:center}.nav-screen nav svg{font-size:24px;margin-right:10px}.nav-screen nav li{justify-content:center;padding:8px 0}.nav-screen .icons{justify-content:center;margin-top:40px}.nav-screen .icons .icon-action{margin:0 10px}}@media screen and (min-width:721px){.nav-icon{display:none}.nav-screen{height:100%;justify-content:space-between}.nav-screen,.nav-screen>div{display:flex}.nav-screen .icons .icon-action{margin:0 5px}.nav-screen nav{margin-right:20px}.nav-screen nav svg{margin-right:4px}.nav-screen nav li{float:left;font-size:14px;height:100%;margin-right:20px}}#gg-backtop{align-items:center;border-radius:50%;bottom:20px;box-shadow:inset 0 0 5px hsla(0,0%,59%,.5);cursor:pointer;display:flex;height:42px;justify-content:center;position:fixed;right:20px;transition:all .5s ease;-webkit-user-select:none;-ms-user-select:none;user-select:none;width:42px}@media screen and (max-width:767px){#gg-backtop{height:36px;width:36px}}#gg-backtop svg{width:50%}#gg-backtop.hide{opacity:0;-webkit-transform:scale(0);transform:scale(0)}#gg-backtop.show{opacity:1;-webkit-transform:scale(1);transform:scale(1)}.gg-container{display:flex;flex-direction:column;min-height:100vh}.gg-container header{align-items:center;background-color:#fff;background-color:var(--theme-header-background-color);border-bottom:1px solid hsla(0,0%,47%,.2);box-shadow:0 1px 2px rgba(0,0,0,.05),0 1px 4px rgba(0,0,0,.05),0 2px 8px rgba(0,0,0,.05);display:flex;height:var(--layout-header-height);justify-content:space-between;padding:0 16px;position:fixed;top:0;width:100%;z-index:999}.gg-container header .imglogo{border:1px solid var(--gg-border);border-radius:8px;cursor:pointer;width:32px}.gg-container main{background-color:var(--theme-content-background-color);min-height:calc(100vh - var(--layout-footer-height));padding-top:80px}.gg-container footer{align-items:center;background-color:var(--theme-footer-background-color);color:#838c95;display:flex;font-size:14px;height:var(--layout-footer-height);justify-content:center;padding:0 10px;position:relative;text-align:center;width:100%}.gg-container footer:after{background:radial-gradient(hsla(0,0%,59%,.6),transparent 80%);content:"";display:block;height:1px;position:absolute;top:0;width:100%}.gg-container footer img{vertical-align:middle}.gg-container footer .owner{color:#3486e2;cursor:pointer;margin-left:5px;text-decoration:none}.gg-container footer .copyright{margin-left:10px}.gg-container footer .powered{margin-left:5px}@media screen and (max-width:720px){.gg-container footer{flex-direction:column}.gg-container footer .copyright,.gg-container footer .powered{margin-left:0;margin-top:5px}}.issues-page h1{text-align:center}.author-info{margin-bottom:3px}.author-info .author{cursor:pointer}.author-info .author .name{font-weight:500}.author-info .author img{border-radius:50%;margin-right:5px;vertical-align:middle;width:30px}.author-info i,.author-info span{font-size:14px}.author-info .date{margin-left:10px;opacity:.4}.author-info .number{float:right;line-height:26px;opacity:.3}.gg-category{background:hsla(0,0%,71%,.3)!important;border-radius:4px;display:inline-block;font-size:10px;font-weight:700;height:18px;line-height:18px;margin-right:10px;padding:0 5px;text-decoration:none!important;vertical-align:middle}.gg-category,.issues-num{color:var(--color-fg-default)!important;cursor:pointer}.issues-num{font-family:lab;font-style:italic;font-variation-settings:"size" 30,"quad" 40,"bevl" 20,"oval" 30;opacity:.6}.home-page .issues-list{max-width:unset}.home-page .issues-list>div{display:flex;flex-wrap:wrap;margin:0 auto;max-width:960px}.home-page .issues-list .author-info{margin-bottom:3px}.home-page .issues-list .author-info .author img{width:24px}.home-page .issues-list .author-info i,.home-page .issues-list .author-info span{font-size:12px}.home-page .issues-list .author-info .number{float:right;line-height:26px;opacity:.3}.home-page .issues-list .post-info .title{font-size:15px;font-weight:700;text-decoration:none;vertical-align:middle}@media screen and (min-width:721px){.home-page .issues-list .item{border:1px solid var(--gg-border);border-radius:5px;margin:0 10px 20px;max-width:100%;min-width:200px;overflow:hidden;width:calc(50% - 20px)}.home-page .issues-list .item .author-info{background-color:var(--gg-border);padding:3px 5px}.home-page .issues-list .item .post-info{padding:5px}}@media screen and (max-width:720px){.home-page .issues-list .item{border-bottom:1px solid hsla(0,0%,59%,.2);padding:15px 0 12px;width:100%}.home-page .issues-list .item .author-info{margin-bottom:5px}}.gg-label{border-radius:4px;border-style:solid;border-width:1px;cursor:pointer;display:inline-block;font-size:12px;height:18px;line-height:17px;overflow:hidden;vertical-align:middle}.gg-label b{color:#fff;padding:0 3px 0 2px}.gg-label b,.gg-label em{display:inline-block;height:100%}.gg-label em{border-bottom-right-radius:3px;border-top-right-radius:3px;color:var(--theme-text);padding:0 3px}.gg-issues-prev-next{align-items:stretch;border:1px solid hsla(0,0%,59%,.3);border-radius:5px;display:flex;margin:30px 0}.gg-issues-prev-next:after{clear:both;content:"";display:block}.gg-issues-prev-next a{flex:1 1;padding:15px 10px;width:50%}.gg-issues-prev-next a>span{align-items:center;display:flex;height:100%}.gg-issues-prev-next a .icon-action{min-width:20px}.gg-issues-prev-next .prev{text-align:left}.gg-issues-prev-next .prev>span{float:left}.gg-issues-prev-next .prev .icon-action{margin-right:5px}.gg-issues-prev-next .next{text-align:right}.gg-issues-prev-next .next>span{float:right}.gg-issues-prev-next .next .icon-action{margin-left:5px}@media screen and (max-width:720px){.gg-issues-prev-next{font-size:14px}}.issues-page h1{font-size:24px}.issues-page h1>span{background:linear-gradient(180deg,transparent 50%,hsla(0,0%,71%,.5) 0);padding:0 5px}.issues-page h1 .issues-num{font-size:18px;margin-right:10px}.issues-page .widget{margin-bottom:20px;text-align:center}.issues-page .gg-label{margin:2px 4px}.issues-page .ques-content{display:flex;margin-top:5px;min-height:120px}.issues-page .ques-content .quesicon{margin-right:3px}.issues-page .ques-content .quescontent{width:100%}.issues-page .vote{align-items:center;display:flex;flex-direction:column;font-style:normal}.issues-page .answer-content .answericon{background-color:hsla(0,0%,71%,.3);border-radius:5px;margin-bottom:20px;padding:5px 0 0;text-align:center}.issues-page .comments-item{border-left:1px solid hsla(0,0%,71%,.3);padding-bottom:1px;padding-left:3px}.issues-page .comments-item-content{margin-left:20px}.labels-category-page .gg-label-category-head{margin-bottom:20px;position:-webkit-sticky;position:sticky;top:56px}.labels-category-page .category-group{display:flex;width:100%}.labels-category-page .category-group .label-category{color:#fff;cursor:pointer;display:inline-block;font-weight:700;height:36px;line-height:36px;padding:0 10px;text-shadow:0 1px 1px rgba(80,80,80,.5)}.labels-category-page .category-group .label-category.active{color:#000}.labels-category-page .level-group .label-level{background-color:#000;color:#fff;cursor:pointer;display:inline-block;font-size:16px;font-size:14px;height:24px;line-height:24px;margin-right:1px;opacity:.5;padding:0 10px}.labels-category-page .level-group .label-level.active{opacity:1}.labels-category-page .level-group .label-level.level1{background-color:#3c3c3c}.labels-category-page .level-group .label-level.level2{background-color:#555}.labels-category-page .level-group .label-level.level3{background-color:#6f6f6f}.labels-category-page .level-group .label-level.level4{background-color:#888}.labels-category-page .level-group .label-level.level5{background-color:#a2a2a2}.labels-category-page .issues-list .item{background-color:var(--gg-border);border-radius:5px;margin-bottom:10px;padding:10px}.labels-category-page .issues-list .item .label-issue{margin-right:10px}.labels-category-page .issues-list .labels-list{font-size:12px;margin-top:4px}.labels-category-page .issues-list .labels-list .gg-label{margin-bottom:4px;margin-right:4px}.labels-category-page .issues-list .post-info{font-weight:700;margin-top:5px}.issues-list .issues-item{align-items:baseline;display:flex;margin-bottom:10px;text-align:left}.issues-list .issues-item .issues-num{font-size:12px;margin-right:10px}.issues-list .issues-item .title{font-weight:700}.labels-page{text-align:center}.labels-page .markdown-body{display:inline-block}.labels-page .labels-head{border-radius:5px;color:#fff;cursor:pointer;display:block;font-weight:700;margin-bottom:20px;padding:5px 10px;text-shadow:0 1px 2px #000}.labels-page .labels-head:hover{text-decoration:none!important}.labels-page .label-desc{font-weight:700;opacity:.5}.nav-category-page .gg-category{font-size:14px;font-weight:700;height:36px;line-height:36px;margin:10px;padding:0 12px}.nav-labels-page .gg-label{font-size:16px;font-weight:700;height:30px;line-height:29px;margin:5px}.nav-labels-page .gg-label b,.nav-labels-page .gg-label em{padding:0 10px}</style><link rel="icon" href="/favicon-32x32.png?v=fdd225e9135e951b972a3dc20604182e" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=fdd225e9135e951b972a3dc20604182e"/><link as="script" rel="preload" href="/webpack-runtime-4fee7405b8a071e8c34e.js"/><link as="script" rel="preload" href="/framework-86c8a5417e68dc3cefff.js"/><link as="script" rel="preload" href="/app-7383f855f15f63329e5f.js"/><link as="script" rel="preload" href="/fc369a2ef6459b03f38591687cef4a587495c716-f468df31cbdaf6ffa970.js"/><link as="script" rel="preload" href="/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js"/><link as="fetch" rel="preload" href="/page-data/issues/408/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/151096407.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2861350382.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/><script>
+(function() {
+  window.__onThemeChange = function() {};
+  function setTheme(newTheme) {
+    window.__theme = newTheme;
+    preferredTheme = newTheme;
+    document.querySelector('html').className = newTheme;
+    window.__onThemeChange(newTheme);
+  }
+  var preferredTheme;
+  try {
+    preferredTheme = localStorage.getItem('theme');
+  } catch (err) { }
+  window.__setPreferredTheme = function(newTheme) {
+    setTheme(newTheme);
+    try {
+      localStorage.setItem('theme', newTheme);
+    } catch (err) {}
+  }
+  var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  darkQuery.addListener(function(e) {
+    window.__setPreferredTheme(e.matches ? 'dark' : 'light')
+  });
+
+  setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
+})()</script></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="gg-container issues-page"><header><img class="imglogo" src="/static/logo-fe174465633f84724b37eea28a42c520.png" alt="logo"/><div class="gg-nav"><span class="nav-icon"><span class="top"></span><span class="middle"></span><span class="bottom"></span></span><div class="nav-screen"><div><nav><li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 9A1.5 1.5 0 0 0 7 7.5A1.5 1.5 0 0 0 5.5 6A1.5 1.5 0 0 0 4 7.5A1.5 1.5 0 0 0 5.5 9m11.91 2.58c.36.36.59.86.59 1.42c0 .55-.22 1.05-.59 1.41l-5 5a1.996 1.996 0 0 1-2.83 0l-6.99-6.99C2.22 12.05 2 11.55 2 11V6c0-1.11.89-2 2-2h5c.55 0 1.05.22 1.41.58l7 7m-3.87-5.87l1-1l6.87 6.87c.37.36.59.87.59 1.42c0 .55-.22 1.05-.58 1.41l-5.38 5.38l-1-1L20.75 13l-7.21-7.29Z"/></svg>Labels</li><li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M3 3h18v4H3V3m1 5h16v13H4V8m5.5 3a.5.5 0 0 0-.5.5V13h6v-1.5a.5.5 0 0 0-.5-.5h-5Z"/></svg>Archives</li></nav><div class="icons"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="gg-theme-toggle icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="m3.55 18.54l1.41 1.41l1.8-1.79l-1.42-1.42M11 22.45h2V19.5h-2m1-14a6 6 0 0 0-6 6a6 6 0 0 0 6 6a6 6 0 0 0 6-6c0-3.32-2.69-6-6-6m8 7h3v-2h-3m-2.76 7.66l1.8 1.79l1.41-1.41l-1.79-1.8m1.79-12.28l-1.41-1.41l-1.8 1.79l1.42 1.42M13 .55h-2V3.5h2m-9 7H1v2h3m2.76-7.66l-1.8-1.79l-1.41 1.41l1.79 1.8l1.42-1.42Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg></div></div></div></div></header><main><div class="content"><div class="markdown-body"><h1><span><a class="number issues-num" href="https://github.com/awesome-ops/awesome-ops.github.io/issues/408" target="_blank">#408</a><span>nvm-sh/nvm: 一个简单的工具，用于多个 Node 版本的管理与切换</span></span></h1><div class="widget"><a class="gg-label" style="border-color:#25B472" href="/labels/更多"><b style="background:#25B472">#</b><em>更多</em></a><a class="gg-label" style="border-color:#8ff216" href="/labels/version-switch-tools"><b style="background:#8ff216">#</b><em>Version-Switch-Tools</em></a><a class="gg-label" style="border-color:#677910" href="/labels/nvm-sh"><b style="background:#677910">#</b><em>nvm-sh</em></a></div><div><div class="author-info"><span class="author" title="https://github.com/eryajf"><img src="https://avatars.githubusercontent.com/u/33259379?u=e4a4090a38ac2473aaed4ef9945233636776c6c3&amp;v=4" alt="eryajf"/><span>eryajf</span></span><i class="date">2025/05/21</i></div><div class="ques-content"><div class="quescontent"><div align="center" dir="auto">
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966"><img src="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966" width="100%" height="3" data-animated-image="" data-canonical-src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" style="max-width: 100%; height: auto; max-height: 3px;"></a><br><br></p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th align="right">Repos</th>
+<th align="left"><a href="https://github.com/nvm-sh/nvm">nvm-sh/nvm</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right"><strong>Views</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/4aded213c7ef55bc0dc0b44dae8820c0d36925c87c5cac7b39754c343618c900/68747470733a2f2f76696577732e77686174696c656172656e65642e746f6461792f76696577732f6769746875622f6e766d2d73682f6e766d2e737667" alt="views" data-canonical-src="https://views.whatilearened.today/views/github/nvm-sh/nvm.svg" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>Stars</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/7434e5f96cbed726926eb9c15881439c8ed7e8abfcd911f4183660ff984d28cf/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6e766d2d73682f6e766d3f636f6c6f723d663266303864266c6f676f3d556e64657274616c65266c6f676f436f6c6f723d656234363330" alt="stars" data-canonical-src="https://img.shields.io/github/stars/nvm-sh/nvm?color=f2f08d&amp;logo=Undertale&amp;logoColor=eb4630" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>Forks</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/66753557a1fb878b5790d4fa253d1179049e65c5574bbe2380246e6a0e6e3f9e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f6e766d2d73682f6e766d3f636f6c6f723d626138366562266c6f676f3d48616e647368616b65266c6f676f436f6c6f723d656136616136" alt="forks" data-canonical-src="https://img.shields.io/github/forks/nvm-sh/nvm?color=ba86eb&amp;logo=Handshake&amp;logoColor=ea6aa6" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>License</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/676a2ef462fe0412438716c9d027684cac5b42a059b9b30b5577c9509fa50f09/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f6e766d2d73682f6e766d3f6c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e53556845556741414144414141414177434159414141425841766d48414141414358424957584d41414173544141414c457745416d70775941414144336b6c45515652346e4f335953557a5555426748384a726f57567255474a66456d3773584e63534446784d544c327069347348456778654e526f77586770455742445552522532424e414e4f4b4f4b36366f6f4b4a4742586545475263574163455646475152484677516d483525324630774861655748493944554455354c356b6e6568644f62377a66652532423139636e434a47495243516945596c514237594a4979474c38616f73756c565a36695246516a69474b6b7564576735614c6c704f70704e586e665071773555304459524a6d56786a4367464633424c755a476d416f5655694b4541726d583744375553677351706f72674761336748664b34483663754262435644334771683141352532424c6745253242467749656e514d306a6f446f66714c6f48564e7742796d384370546e416d327a51713073676478624964515a556c416b7150415a3664676a303541446f59526f6f66792532466f5869726f376b3551586a4c6f70677a4b69514e6c4c4461716f4967754577426a7a7150355066446a45394479495879493633464d547751464d43567271774e61763451666f52673538514625324266724d485172454b3844546f434d714e4179574e4866786d54526f4c4f726d5352566747744466714345715a4f4851727a6f34706243557341333431365169364551394b476a6345465267484f724f4b6e5536574162396247455459656b4b7843766a546167394534706a653534446b3551503862624d4859762532464333756541654a6b50304f4778422532424a70426e4172595238455951516e6f4e31414e4661426e5050356c385372736559514c303641646b30464a5938484f5761424d6c6541486a683068506f73497a6c6f3876304125324633345a694f6548726130714b52504d5653493774762532423932747725324676687855654252713456454c674d376642714b354770526d6f514c584e7075625475367a6f4e52706754386e5051627138347764253246494375767978694b4871694e41664933774d367549684271476b4c696977414f734b44714f68743749747239567938536a52424557667941627225324668523142667056514664484a42253246423268683778376a36517077435665655951326b72554235436c636a3641326d3067576a25324244306d4c34397a573563517943484c4e37726a6c6d6d6174457958582532464372547a412532466f51785a6b576c39474a5443566f25324279546a3837253242346769504b6376307149486f344156344430565a727251493334706e70524d36357875652532467a417265453425324654253246536f676c664542794d7369517441546c4c3352414a355948725378365a44665337307337754d486842705225324659423573305057366f455270316236253246667252684b3353444c35546965364f515548516c5133735644752532427a50636b397657453973747225324236496a533967486d5750616861444a25324277434b364e494242587348423948796b587378774470686c436d416476706c6162554a4e6e5a504239342532464e7436784f6538587a4562503257684d335741673147756236744825324233513150673337365239713475716c6e6f36676448476a444f5139306562303141484d3672596975554a314f713472344656756a35765239427a4d3957674e764f7977446869495951467667626366774166774d764863615067425041253246447948476a50624e394138616d6562636477416444354e6633373574787165774e5552656f797677424958594c645170576c6877465771745061435044334173467541535636717171496c62304a766b564331464c39576b4c55556c55574b337a585a4c46432532423125324642726f46746f364f7358497545594a5034447a7a5732594656316f4a614141414141456c46546b5375516d4343" alt="license" data-canonical-src="https://img.shields.io/github/license/nvm-sh/nvm?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD3klEQVR4nO3YSUzUUBgH8JroWVrUGJfEm7sXNcSDFxMTL2pi4sHEgxeNRowXgpEWBDURR%2BNANOKOK66ooKJGBXeEGRcWAcEVFGQRHFwQmH5%2F0wHaeWHI9DUDU5L5knehdOb7zfe%2B19cnCJGIRCQiEYlQB7YJIyGL8aosulVZ6iRFQjiGKkudWg5aLlpOppNXnfPqw5U0DYRJmVxjCgFF3BLuZGmAoVUiKEArmX7D7USgsQporgGa3gHfK4H6cuBbCVD3Gqh1A5%2BLgE%2BFwIenQM0joDofqLoHVNwBym8CpTnAm2zQq0sgdxbIdQZUlAkqPAZ6dgj05ADoYRoofy%2FoXiro7k5QXjLopgzKiQNlLDaqoIguEwBjzqP5PfDjE9DyIXyI63FMTwQFMCVrqwNav4QfoRg58QF%2BfrMHQrEK8DToCMqNAyWNHfxmTRoLOrmSRVgGtDfqCEqZOHQrzo4pbCUsA3416Qi6EQ9KGjcEFRgHOrOKnU6WAb9bGETYekKxCvjTag9E4pje54Dk5QP8bbMHYv%2FC3ueAeJkP0OGxB%2BJpBnArYR8EYQQnoN1ANFaBnPP5l8SrseYQL06Adk0FJY8HOWaBMleAHjh0hPosIzlo8v0A%2F34ZiOeHra0qKRPMVSI7tv%2B92tw%2FvhxUeBRq4VELgM7fBqK5GpRmoQLXNpubTu6zoNRpgT8nPQbq84wd%2FICuvyxiKHqiNAfI3wM6uIhBqGkLiiwAOsKDqOht7Itr9Vy8SjRBEWfyAbr%2FhR1BfpVQFdHJB%2FB2hh7x7j6QpwCVeeYQ2krUB5Clcj6A2m0gWj%2BD0mL49zW5cQyCHLN7rjlmmatEyXX%2FCrTzA%2FoQxZkWl9GJTCVo%2ByTj87%2B4giPKcv0qIHo4AV4D0VZrrQI34pnpRM65xue%2FzAreE4%2FT%2FSoglfEByMsiQtATlL3RAJ5YHrSx6ZDfS70s7uMHhBpR%2FYB5s0PW6oERp1b6%2FfrRhK3SDL5Tie6OQUHQlQ3sVDu%2BzPck9vWE9str%2B6IjS9gHmWPahaDJ%2BwCK6NIBBXsHB9HykXsxwDphlCmAdvplabUJNnZPB94%2FNt6xOe8XzEbP2WhM3WAg1Gub6tH%2B3Q1Pg376R9q4uqlno6gdHGjDOQ90eb01AHM6rYiuUJ1Oq4r4FVuj5vR9BzM9WgNvOywDhiIYQFvgbcfwAfwMvHcaPgBPA%2FDyHGjPbN9A8amebcdwAdD5Nf375txqewNUReoyvwBIXYLdQpWlhwFWqtPaCPD3AsFuASV6qqqIlb0JvkVC1FL9WkLUUlUWK3zXZLFC%2B1%2FBroFto6OsXIuEYJP4DzzW2YFV1oJaAAAAAElFTkSuQmCC" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>UpdatedAt</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/855705277d9f09a816838261826de602fb724ef454c435b06dd4579886525496/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f6e766d2d73682f6e766d3f646973706c61795f74696d657374616d703d636f6d6d6974746572266c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e5355684555674141414234414141416543415941414141374d4b3669414141414358424957584d41414173544141414c457745416d7077594141414648556c45515652346e4c5658375539615678776d3236646c582532466468627825324232253246516e626b7655627264554151674a4a496655444e574454546d4f76314651554661504a346b7573725630314a7431734e70637453327533626f745a746d786439744a5346536f714b71494635625944464c436f76436c656673747a4a387758524c445a4c7a6e6b634f343535376e3364332532466e655a3472454f515a74315771462532423858467234253242664f4c4565326a6f59307a776638546f795a50766a45676b4c592532426b306d6d72584f36644b696e787a476b30666a5430782532425279723055716e6359637a4d317263347451253242497270324c4758646f344e4334567657715453373277716c632532427231334f527269364b6458646e624f484c6c776c7a4a70524b6e3657342532424b36706f4f434e6e494166486a253246253242776168495a4234764b6e715a6630714a704e49716c2532467638545530634e6c3572627963337730516e54703379324c54614a374d314e617844723266526e315370504736476961323174664533345463614f617931694d55564f5146624659714957536f31573854694156616e43306576584f4542375770313448466232327a453566714c4f433545524c515769644e614e49347545636339693768634a6c644868324e57725135674464624f6c7061756d49754c62326174415144506e7a3062384e6257636d785656524a33486d7870536377777a4f4a6d4b44524765384c6c435a444c4739673754496e5631516c376462586256316533675430574b697243466f6d6b5079767758466c5a474a4f6a563625324253743634757564445a4f55354555636f782532464d455144567674364d62634e3237593341797a687633737061557242365a3971724a534f3139657a6a387032704c426b4a792532426343484a7857493567573574636652527a31645531394766476b6f7539505a4f34736d52396a4746777065783444793362766e6d4b79706f74625531335669646a71595a68726a343972764d457425324625324659714c7a396430304e6a57253246637a67796f394f35317a7336614e6c6f354644747530445a675146686c47584a30644241446f4e6864367576703657686f617967374e394c564748386d443462253246486e667455516f4e4734764c51306769784d716c5725324234714f6a744e48446733723166365969525347785279375576714c62395534716b716e78504f4e7661356c447048723125324279794b524e4b57425a793565644d554842326d3572792532422532424551772532427a6766347a6f39253246306f634e3357527a4c4277344a2532424a7950574372716d4967475974554f735744346f785a46516f50556a4770564871493425324661666b51504336665a5165654d31253242764c7549516e6a754257514444437363726d485039656f4e5041744271664f6e5875614b25324268364a45624772732532427076764d6d78654962683836336162565065597953456f39464a48704e4d464a59253242503563575a6b6667374f3174537759436553514c54593345385130392532464256504a556c78516a7368543142736343593032723955445542667643484236367063665041336c794165336e6772332532463437584467614a7a736c7937787741364e5a746c555550437541487161536a5549502532427375653842525741432532464e6651374a5a505a35397330476a3756747049537a34685125324243706658474d4b685a63764c70554b7866574d386f68766637702532464f446a4842666356463849736b383267314648796b63564645253242555a414158343761452532464d6c34504f3530506e75683025324678346e6d637957507364774468427836436d6b4c562532466746446a594b784f4a4f4674623077517949684c39527943774b33414f664947703159464542686e4d4a634c525745624b644b516f55366e63545a6b494544696341792532463831645675454d3552775066657934784f7830496b25324649324e6e466b692532425761664f6f464959466367595a43797864376543556a626334416d46363566742532466b4d686b336f25324235686337734d4a79716a4a45477659466151464972375930775077384246415925324236253242766d6b3377367a7a5275444d6d5a5652736668385274413075455453443775434254364459514e36697665553066706b594c6a453671725672744f78654e4b553954484c5a4a396b4255324a427342685635416976422532466f4b61514e4b675043427744596149665a4334616454684f71463457454e56694c4a77566f586f62664c424b56773637414f6154734c6336355461564b32317651344c613939654b6359673576627873624f627a5451394e37554b4467554f3177446a6944494942736868357a746733396e514d4c535a4248344f7a424f55444551586d323036643366634c67737762585141345068634b336e6873775531427a3877765130395248472532466f597933656a6677424e6d746f59714c4130586741414141424a52553545726b4a676767253344253344266c6162656c3d557064617465644174" alt="last-commit" data-canonical-src="https://img.shields.io/github/last-commit/nvm-sh/nvm?display_timestamp=committer&amp;logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHUlEQVR4nLVX7U9aVxwm26dlX%2Fdhbx%2B2%2FQnbkvUbrdUAQgJJIfUDNWDTTmOv1FQUFaPJ4kusrV01Jt1sNpctS2u3botZtmxd9tJSFSoqKqIF5bYDFLCovClefstzJ8wXRLDZLznkcO4557n3d3%2FneZ4rEOQZt1WqF%2B8XFr4%2BfOLEe2joY0zwf8ToyZPvjEgkLY%2Bk0mmrXO6dKinxzGk0fjT0x%2BRyr0UqncYczM1rc4tQ%2BIrp2LGXdo4NC4VvWqTS72wqlc%2Br13ORri6KdXdnbOHLlwlzJpRKn6W4%2BK6poOCNnIAfHj%2F%2BwahIZB4vKnqZf0qJpNIql%2Fv8TU0cNl5rbyc3w0QnTp3y2LTaJ7M1NaxDr2fRn1SpPG6Gia21tfE34TcaOay1iMUVOQFbFYqIWSo1W8TiAVanC0evXOEB7Wp14HFb22zE5fqLOC5ERLQWidNaNI4uEcc9i7hcJldHh2NWrQ5gDdbOlpaumIuLb2atAQDPnz0b8NbWcmxVVRJ3HmxpScwwzOJmKDRGe8LlCZDLG9g7TInV1Ql7dbXbV1e3gT0WKirCFomkPyvwXFlZGJOjV6%2BSt64uudDZOU5EUcox%2FMEQDVvt6MbcN27Y3Ayzhv3spaUrB6Z9qrJSO19ezj8p2pLBkJy%2BcCHJxWI5gW5tcfRRz1dU19GfGkou9PZO4smR9jGFwpex4Dy3bvnmKypotbU13VidjqYZhrj49rvMEt%2F%2FYqLz9d00NjW%2Fczgyo9O51zs6aNlo5FDtu0DZgQFhlGXJ0dBADoNhd6uvp6Whoayg7N9LVGH8mD4b%2FHnftUQoNG4vLQ0gixMqlW%2B4qOjtNHDg3r1f6YiRSGxRy7UvqLb9U4qkqnxPONva5lDpHr1%2ByyKRNKWBZy5edMUHB2m5ry%2B%2BEQw%2Bzgf4zo9%2F0ocN3WRzLBw4J%2BJyPWCrqmIgGYtUOsWD4oxZFQoPUjGpVHqI4%2FafkQPC6fZQeeM1%2BvLuIQnjuBWQDDCscrmHP9eoNPAtBqfOnXuaK%2Bh6JEbGrs%2BpvvMmxeIbh863abVPeYySEo9FJHpNMFJY%2BP5cWZkfg7O1tSwYCeSQLTY3E8Q09%2FBVPJUlxQjshT1BscCY02r9UDUBfvCHB66pcfPA3lyAe3ngr3%2F47XDgaJzsly7xwA6NZtlUUPCuAHqaSjUIP%2Bsue8BRWAC%2FNfQ7JZPZ59s0Gj7VtpISz4hQ%2BCpfXGMKhZcvLpUKxfWM8ohvf7p%2FODjHBfcVF8Isk82g1FHykcVFE%2BUZAAX47aE%2FMl4PO50Pnuh0%2Fx4nmcyWPsdwDhBx6CmkLV%2FgFDjYKxOJOFtb0wQyIhL9RyCwK3AOfIGp1YFEBhnMJcLRWEbKdKQoU6ncTZkIEDicAy%2F81dVuEM5RwPfey4xOx0Ik%2FI2NnFki%2BWafOoFIYFcgYZCyxd7eCUjbc4AmF65ft%2FkMhk3o%2B5hc7sMJyqjJEGvYFaQFIr7Y0wPw8BFAY%2B6%2Bvmk3w6zzRuDMmZVRsfh8RtA0uETSD7uCBT6DYQN6iveU0fpkYLjE6qrVrtOxeNKU9THLZJ9kBU2JBsBhV5AivB%2FoKaQNKgPCBwDYaIfZC4adThOqF4WENViLJwVoXobfLBKVw67AOaTsLc65TaVK21vQ4La99eKcYg5vbxsbObzTQ9N7UKDgUO1wDjiDIIBshh5ztg39nQMLSZBH4OzBOUDEQXm206d3fcLgswbXQA4PhcK3nhswU1Bz8wvQ09RHG%2FoYy3ejfwBNmtoYqLA0XgAAAABJRU5ErkJggg%3D%3D&amp;label=UpdatedAt" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>CreatedAt</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/b3bcc884584a75c39999ebbbc5bde09015abbe24d153c8826319a1b8665fb3fd/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f637265617465642d61742f6e766d2d73682f6e766d3f6c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e5355684555674141414234414141416543415941414141374d4b3669414141414358424957584d41414173544141414c457745416d7077594141414648556c45515652346e4c5658375539615678776d3236646c582532466468627825324232253246516e626b7655627264554151674a4a496655444e574454546d4f76314651554661504a346b7573725630314a7431734e70637453327533626f745a746d786439744a5346536f714b71494635625944464c436f76436c656673747a4a387758524c445a4c7a6e6b634f343535376e3364332532466e655a3472454f515a74315771462532423858467234253242664f4c4565326a6f59307a776638546f795a50766a45676b4c592532426b306d6d72584f36644b696e787a476b30666a5430782532425279723055716e6359637a4d317263347451253242497270324c4758646f344e4334567657715453373277716c632532427231334f527269364b6458646e624f484c6c776c7a4a70524b6e3657342532424b36706f4f434e6e494166486a253246253242776168495a4234764b6e715a6630714a704e49716c2532467638545530634e6c3572627963337730516e54703379324c54614a374d314e617844723266526e315370504736476961323174664533345463614f617931694d55564f5146624659714957536f31573854694156616e43306576584f4542375770313448466232327a453566714c4f433545524c515769644e614e49347545636339693768634a6c644868324e57725135674464624f6c7061756d49754c62326174415144506e7a3062384e6257636d785656524a33486d7870536377777a4f4a6d4b44524765384c6c435a444c4739673754496e5631516c376462586256316533675430574b697243466f6d6b5079767758466c5a474a4f6a563625324253743634757564445a4f55354555636f782532464d455144567674364d62634e3237593341797a687633737061557242365a3971724a534f3139657a6a387032704c426b4a792532426343484a7857493567573574636652527a31645531394766476b6f7539505a4f34736d52396a4746777065783444793362766e6d4b79706f74625531335669646a71595a68726a343972764d457425324625324659714c7a396430304e6a57253246637a67796f394f35317a7336614e6c6f354644747530445a675146686c47584a30644241446f4e6864367576703657686f617967374e394c564748386d443462253246486e667455516f4e4734764c51306769784d716c5725324234714f6a744e48446733723166365969525347785279375576714c62395534716b716e78504f4e7661356c447048723125324279794b524e4b57425a793565644d554842326d3572792532422532424551772532427a6766347a6f39253246306f634e3357527a4c4277344a2532424a7950574372716d4967475974554f735744346f785a46516f50556a4770564871493425324661666b51504336665a5165654d31253242764c7549516e6a754257514444437363726d485039656f4e5041744271664f6e5875614b25324268364a45624772732532427076764d6d78654962683836336162565065597953456f39464a48704e4d464a59253242503563575a6b6667374f3174537759436553514c54593345385130392532464256504a556c78516a7368543142736343593032723955445542667643484236367063665041336c794165336e6772332532463437584467614a7a736c7937787741364e5a746c555550437541487161536a5549502532427375653842525741432532464e6651374a5a505a35397330476a3756747049537a34685125324243706658474d4b685a63764c70554b7866574d386f68766637702532464f446a4842666356463849736b383267314648796b63564645253242555a414158343761452532464d6c34504f3530506e75683025324678346e6d637957507364774468427836436d6b4c562532466746446a594b784f4a4f4674623077517949684c39527943774b33414f664947703159464542686e4d4a634c525745624b644b516f55366e63545a6b494544696341792532463831645675454d3552775066657934784f7830496b25324649324e6e466b692532425761664f6f464959466367595a43797864376543556a626334416d46363566742532466b4d686b336f25324235686337734d4a79716a4a45477659466151464972375930775077384246415925324236253242766d6b3377367a7a5275444d6d5a5652736668385274413075455453443775434254364459514e36697665553066706b594c6a453671725672744f78654e4b553954484c5a4a396b4255324a427342685635416976422532466f4b61514e4b675043427744596149665a4334616454684f71463457454e56694c4a77566f586f62664c424b56773637414f6154734c6336355461564b32317651344c613939654b6359673576627873624f627a5451394e37554b4467554f3177446a6944494942736868357a746733396e514d4c535a4248344f7a424f55444551586d323036643366634c67737762585141345068634b336e6873775531427a3877765130395248472532466f597933656a6677424e6d746f59714c4130586741414141424a52553545726b4a676767253344253344266c6162656c3d437265617465644174" alt="create-at" data-canonical-src="https://img.shields.io/github/created-at/nvm-sh/nvm?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHUlEQVR4nLVX7U9aVxwm26dlX%2Fdhbx%2B2%2FQnbkvUbrdUAQgJJIfUDNWDTTmOv1FQUFaPJ4kusrV01Jt1sNpctS2u3botZtmxd9tJSFSoqKqIF5bYDFLCovClefstzJ8wXRLDZLznkcO4557n3d3%2FneZ4rEOQZt1WqF%2B8XFr4%2BfOLEe2joY0zwf8ToyZPvjEgkLY%2Bk0mmrXO6dKinxzGk0fjT0x%2BRyr0UqncYczM1rc4tQ%2BIrp2LGXdo4NC4VvWqTS72wqlc%2Br13ORri6KdXdnbOHLlwlzJpRKn6W4%2BK6poOCNnIAfHj%2F%2BwahIZB4vKnqZf0qJpNIql%2Fv8TU0cNl5rbyc3w0QnTp3y2LTaJ7M1NaxDr2fRn1SpPG6Gia21tfE34TcaOay1iMUVOQFbFYqIWSo1W8TiAVanC0evXOEB7Wp14HFb22zE5fqLOC5ERLQWidNaNI4uEcc9i7hcJldHh2NWrQ5gDdbOlpaumIuLb2atAQDPnz0b8NbWcmxVVRJ3HmxpScwwzOJmKDRGe8LlCZDLG9g7TInV1Ql7dbXbV1e3gT0WKirCFomkPyvwXFlZGJOjV6%2BSt64uudDZOU5EUcox%2FMEQDVvt6MbcN27Y3Ayzhv3spaUrB6Z9qrJSO19ezj8p2pLBkJy%2BcCHJxWI5gW5tcfRRz1dU19GfGkou9PZO4smR9jGFwpex4Dy3bvnmKypotbU13VidjqYZhrj49rvMEt%2F%2FYqLz9d00NjW%2Fczgyo9O51zs6aNlo5FDtu0DZgQFhlGXJ0dBADoNhd6uvp6Whoayg7N9LVGH8mD4b%2FHnftUQoNG4vLQ0gixMqlW%2B4qOjtNHDg3r1f6YiRSGxRy7UvqLb9U4qkqnxPONva5lDpHr1%2ByyKRNKWBZy5edMUHB2m5ry%2B%2BEQw%2Bzgf4zo9%2F0ocN3WRzLBw4J%2BJyPWCrqmIgGYtUOsWD4oxZFQoPUjGpVHqI4%2FafkQPC6fZQeeM1%2BvLuIQnjuBWQDDCscrmHP9eoNPAtBqfOnXuaK%2Bh6JEbGrs%2BpvvMmxeIbh863abVPeYySEo9FJHpNMFJY%2BP5cWZkfg7O1tSwYCeSQLTY3E8Q09%2FBVPJUlxQjshT1BscCY02r9UDUBfvCHB66pcfPA3lyAe3ngr3%2F47XDgaJzsly7xwA6NZtlUUPCuAHqaSjUIP%2Bsue8BRWAC%2FNfQ7JZPZ59s0Gj7VtpISz4hQ%2BCpfXGMKhZcvLpUKxfWM8ohvf7p%2FODjHBfcVF8Isk82g1FHykcVFE%2BUZAAX47aE%2FMl4PO50Pnuh0%2Fx4nmcyWPsdwDhBx6CmkLV%2FgFDjYKxOJOFtb0wQyIhL9RyCwK3AOfIGp1YFEBhnMJcLRWEbKdKQoU6ncTZkIEDicAy%2F81dVuEM5RwPfey4xOx0Ik%2FI2NnFki%2BWafOoFIYFcgYZCyxd7eCUjbc4AmF65ft%2FkMhk3o%2B5hc7sMJyqjJEGvYFaQFIr7Y0wPw8BFAY%2B6%2Bvmk3w6zzRuDMmZVRsfh8RtA0uETSD7uCBT6DYQN6iveU0fpkYLjE6qrVrtOxeNKU9THLZJ9kBU2JBsBhV5AivB%2FoKaQNKgPCBwDYaIfZC4adThOqF4WENViLJwVoXobfLBKVw67AOaTsLc65TaVK21vQ4La99eKcYg5vbxsbObzTQ9N7UKDgUO1wDjiDIIBshh5ztg39nQMLSZBH4OzBOUDEQXm206d3fcLgswbXQA4PhcK3nhswU1Bz8wvQ09RHG%2FoYy3ejfwBNmtoYqLA0XgAAAABJRU5ErkJggg%3D%3D&amp;label=CreatedAt" style="max-width: 100%;"></a></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<a href="https://github.com/opsre/awesome-ops">
+</a><p dir="auto"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/b964a36ea4078c39f603d46a29436371c7541a2f26e0228d7b21b9d9805b43d3/68747470733a2f2f736f6369616c6966792e6769742e63692f6f707372652f617765736f6d652d6f70732f696d6167653f6465736372697074696f6e3d3126666f6e743d42697474657226666f726b733d31266973737565733d31266c616e67756167653d31266c6f676f3d6874747073253341253246253246617661746172732e67697468756275736572636f6e74656e742e636f6d25324675253246313838353638303230266e616d653d31266f776e65723d31267061747465726e3d436972637569742b426f6172642670756c6c733d31267374617267617a6572733d31267468656d653d4c69676874" alt="" data-canonical-src="https://socialify.git.ci/opsre/awesome-ops/image?description=1&amp;font=Bitter&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F188568020&amp;name=1&amp;owner=1&amp;pattern=Circuit+Board&amp;pulls=1&amp;stargazers=1&amp;theme=Light" style="max-width: 100%;"></a></p>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966"><img src="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966" width="100%" height="3" data-animated-image="" data-canonical-src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" style="max-width: 100%; height: auto; max-height: 3px;"></a>
+</div>
+<a href="https://github.com/nvm-sh/logos">
+  <themed-picture data-catalyst-inline="true"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nvm-sh/logos/HEAD/nvm-logo-white.svg">
+    <img src="https://raw.githubusercontent.com/nvm-sh/logos/HEAD/nvm-logo-color.svg" height="50" alt="nvm project logo">
+  </picture></themed-picture>
+</a>
+<h1 dir="auto">Node Version Manager <a href="https://app.travis-ci.com/nvm-sh/nvm" rel="nofollow"><img src="https://camo.githubusercontent.com/8a042189204d0a496b06c9c51d54b87f8912d907d5ddefcaa801e017548158ab/68747470733a2f2f6170702e7472617669732d63692e636f6d2f6e766d2d73682f6e766d2e7376673f6272616e63683d6d6173746572" alt="Build Status" data-canonical-src="https://app.travis-ci.com/nvm-sh/nvm.svg?branch=master" style="max-width: 100%;"></a> <a href="https://github.com/nvm-sh/nvm/releases/tag/v0.40.3"><img src="https://camo.githubusercontent.com/b19fecde45dc62c3a890f8a60c2b204e6f9f692c11f12cc7b69317d0bb5d3eea/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f76657273696f6e2d76302e34302e332d79656c6c6f772e737667" alt="nvm version" data-canonical-src="https://img.shields.io/badge/version-v0.40.3-yellow.svg" style="max-width: 100%;"></a> <a href="https://bestpractices.dev/projects/684" rel="nofollow"><img src="https://camo.githubusercontent.com/56e71f5e731bbb02144c4bb3e8c964e653046aa94e20f2e654569b7b1fe2d99b/68747470733a2f2f626573747072616374696365732e6465762f70726f6a656374732f3638342f6261646765" alt="CII Best Practices" data-canonical-src="https://bestpractices.dev/projects/684/badge" style="max-width: 100%;"></a></h1>
+
+
+
+<h2 dir="auto">Table of Contents</h2>
+<ul dir="auto">
+<li><a href="#intro">Intro</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#installing-and-updating">Installing and Updating</a>
+<ul dir="auto">
+<li><a href="#install--update-script">Install &amp; Update Script</a>
+<ul dir="auto">
+<li><a href="#additional-notes">Additional Notes</a></li>
+<li><a href="#installing-in-docker">Installing in Docker</a>
+<ul dir="auto">
+<li><a href="#installing-in-docker-for-cicd-jobs">Installing in Docker for CICD-Jobs</a></li>
+</ul>
+</li>
+<li><a href="#troubleshooting-on-linux">Troubleshooting on Linux</a></li>
+<li><a href="#troubleshooting-on-macos">Troubleshooting on macOS</a></li>
+<li><a href="#ansible">Ansible</a></li>
+</ul>
+</li>
+<li><a href="#verify-installation">Verify Installation</a></li>
+<li><a href="#important-notes">Important Notes</a></li>
+<li><a href="#git-install">Git Install</a></li>
+<li><a href="#manual-install">Manual Install</a></li>
+<li><a href="#manual-upgrade">Manual Upgrade</a></li>
+</ul>
+</li>
+<li><a href="#usage">Usage</a>
+<ul dir="auto">
+<li><a href="#long-term-support">Long-term Support</a></li>
+<li><a href="#migrating-global-packages-while-installing">Migrating Global Packages While Installing</a></li>
+<li><a href="#default-global-packages-from-file-while-installing">Default Global Packages From File While Installing</a></li>
+<li><a href="#iojs">io.js</a></li>
+<li><a href="#system-version-of-node">System Version of Node</a></li>
+<li><a href="#listing-versions">Listing Versions</a></li>
+<li><a href="#setting-custom-colors">Setting Custom Colors</a>
+<ul dir="auto">
+<li><a href="#persisting-custom-colors">Persisting custom colors</a></li>
+<li><a href="#suppressing-colorized-output">Suppressing colorized output</a></li>
+</ul>
+</li>
+<li><a href="#restoring-path">Restoring PATH</a></li>
+<li><a href="#set-default-node-version">Set default node version</a></li>
+<li><a href="#use-a-mirror-of-node-binaries">Use a mirror of node binaries</a>
+<ul dir="auto">
+<li><a href="#pass-authorization-header-to-mirror">Pass Authorization header to mirror</a></li>
+</ul>
+</li>
+<li><a href="#nvmrc">.nvmrc</a></li>
+<li><a href="#deeper-shell-integration">Deeper Shell Integration</a>
+<ul dir="auto">
+<li><a href="#calling-nvm-use-automatically-in-a-directory-with-a-nvmrc-file">Calling <code class="notranslate">nvm use</code> automatically in a directory with a <code class="notranslate">.nvmrc</code> file</a>
+<ul dir="auto">
+<li><a href="#bash">bash</a></li>
+<li><a href="#zsh">zsh</a></li>
+<li><a href="#fish">fish</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#running-tests">Running Tests</a></li>
+<li><a href="#environment-variables">Environment variables</a></li>
+<li><a href="#bash-completion">Bash Completion</a>
+<ul dir="auto">
+<li><a href="#usage-1">Usage</a></li>
+</ul>
+</li>
+<li><a href="#compatibility-issues">Compatibility Issues</a></li>
+<li><a href="#installing-nvm-on-alpine-linux">Installing nvm on Alpine Linux</a>
+<ul dir="auto">
+<li><a href="#alpine-linux-313">Alpine Linux 3.13+</a></li>
+<li><a href="#alpine-linux-35---312">Alpine Linux 3.5 - 3.12</a></li>
+</ul>
+</li>
+<li><a href="#uninstalling--removal">Uninstalling / Removal</a>
+<ul dir="auto">
+<li><a href="#manual-uninstall">Manual Uninstall</a></li>
+</ul>
+</li>
+<li><a href="#docker-for-development-environment">Docker For Development Environment</a></li>
+<li><a href="#problems">Problems</a></li>
+<li><a href="#macos-troubleshooting">macOS Troubleshooting</a></li>
+<li><a href="#wsl-troubleshooting">WSL Troubleshooting</a></li>
+<li><a href="#maintainers">Maintainers</a></li>
+<li><a href="#project-support">Project Support</a></li>
+<li><a href="#enterprise-support">Enterprise Support</a></li>
+<li><a href="#license">License</a></li>
+<li><a href="#copyright-notice">Copyright notice</a></li>
+</ul>
+
+<h2 dir="auto">Intro</h2>
+<p dir="auto"><code class="notranslate">nvm</code> allows you to quickly install and use different versions of node via the command line.</p>
+<p dir="auto"><strong>Example:</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ nvm use 16
+Now using node v16.9.1 (npm v7.21.1)
+$ node -v
+v16.9.1
+$ nvm use 14
+Now using node v14.18.0 (npm v6.14.15)
+$ node -v
+v14.18.0
+$ nvm install 12
+Now using node v12.22.6 (npm v6.14.5)
+$ node -v
+v12.22.6"><pre class="notranslate">$ nvm use 16
+Now using node v16.9.1 (npm v7.21.1)
+$ node -v
+v16.9.1
+$ nvm use 14
+Now using node v14.18.0 (npm v6.14.15)
+$ node -v
+v14.18.0
+$ nvm install 12
+Now using node v12.22.6 (npm v6.14.5)
+$ node -v
+v12.22.6</pre></div>
+<p dir="auto">Simple as that!</p>
+<h2 dir="auto">About</h2>
+<p dir="auto">nvm is a version manager for <a href="https://nodejs.org/en/" rel="nofollow">node.js</a>, designed to be installed per-user, and invoked per-shell. <code class="notranslate">nvm</code> works on any POSIX-compliant shell (sh, dash, ksh, zsh, bash), in particular on these platforms: unix, macOS, and <a href="https://github.com/nvm-sh/nvm#important-notes">windows WSL</a>.</p>
+<p dir="auto"><a id="user-content-installation-and-update"></a><br>
+<a id="user-content-install-script"></a></p>
+<h2 dir="auto">Installing and Updating</h2>
+<h3 dir="auto">Install &amp; Update Script</h3>
+<p dir="auto">To <strong>install</strong> or <strong>update</strong> nvm, you should run the <a href="https://github.com/nvm-sh/nvm/blob/v0.40.3/install.sh">install script</a>. To do that, you may either download and run the script manually, or use the following cURL or Wget command:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash"><pre class="notranslate">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh <span class="pl-k">|</span> bash</pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash"><pre class="notranslate">wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh <span class="pl-k">|</span> bash</pre></div>
+<p dir="auto">Running either of the above commands downloads a script and runs it. The script clones the nvm repository to <code class="notranslate">~/.nvm</code>, and attempts to add the source lines from the snippet below to the correct profile file (<code class="notranslate">~/.bashrc</code>, <code class="notranslate">~/.bash_profile</code>, <code class="notranslate">~/.zshrc</code>, or <code class="notranslate">~/.profile</code>). If you find the install script is updating the wrong profile file, set the <code class="notranslate">$PROFILE</code> env var to the profile file’s path, and then rerun the installation script.</p>
+<p dir="auto"><a id="user-content-profile_snippet"></a></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="export NVM_DIR=&quot;$([ -z &quot;${XDG_CONFIG_HOME-}&quot; ] &amp;&amp; printf %s &quot;${HOME}/.nvm&quot; || printf %s &quot;${XDG_CONFIG_HOME}/nvm&quot;)&quot;
+[ -s &quot;$NVM_DIR/nvm.sh&quot; ] &amp;&amp; \. &quot;$NVM_DIR/nvm.sh&quot; # This loads nvm"><pre class="notranslate"><span class="pl-k">export</span> NVM_DIR=<span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>[ <span class="pl-k">-z</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">${XDG_CONFIG_HOME-}</span><span class="pl-pds">"</span></span> ] <span class="pl-k">&amp;&amp;</span> <span class="pl-c1">printf</span> %s <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">${HOME}</span>/.nvm<span class="pl-pds">"</span></span> <span class="pl-k">||</span> <span class="pl-c1">printf</span> %s <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">${XDG_CONFIG_HOME}</span>/nvm<span class="pl-pds">"</span></span><span class="pl-pds">)</span></span><span class="pl-pds">"</span></span>
+[ <span class="pl-k">-s</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$NVM_DIR</span>/nvm.sh<span class="pl-pds">"</span></span> ] <span class="pl-k">&amp;&amp;</span> <span class="pl-cce">\.</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$NVM_DIR</span>/nvm.sh<span class="pl-pds">"</span></span> <span class="pl-c"><span class="pl-c">#</span> This loads nvm</span></pre></div>
+<h4 dir="auto">Additional Notes</h4>
+<ul dir="auto">
+<li>
+<p dir="auto">If the environment variable <code class="notranslate">$XDG_CONFIG_HOME</code> is present, it will place the <code class="notranslate">nvm</code> files there.</p>
+</li>
+<li>
+<p dir="auto">You can add <code class="notranslate">--no-use</code> to the end of the above script to postpone using <code class="notranslate">nvm</code> until you manually <a href="#usage"><code class="notranslate">use</code></a> it:</p>
+</li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="export NVM_DIR=&quot;$([ -z &quot;${XDG_CONFIG_HOME-}&quot; ] &amp;&amp; printf %s &quot;${HOME}/.nvm&quot; || printf %s &quot;${XDG_CONFIG_HOME}/nvm&quot;)&quot;
+[ -s &quot;$NVM_DIR/nvm.sh&quot; ] &amp;&amp; \. &quot;$NVM_DIR/nvm.sh&quot; --no-use # This loads nvm, without auto-using the default version"><pre class="notranslate"><span class="pl-k">export</span> NVM_DIR=<span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>[ <span class="pl-k">-z</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">${XDG_CONFIG_HOME-}</span><span class="pl-pds">"</span></span> ] <span class="pl-k">&amp;&amp;</span> <span class="pl-c1">printf</span> %s <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">${HOME}</span>/.nvm<span class="pl-pds">"</span></span> <span class="pl-k">||</span> <span class="pl-c1">printf</span> %s <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">${XDG_CONFIG_HOME}</span>/nvm<span class="pl-pds">"</span></span><span class="pl-pds">)</span></span><span class="pl-pds">"</span></span>
+[ <span class="pl-k">-s</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$NVM_DIR</span>/nvm.sh<span class="pl-pds">"</span></span> ] <span class="pl-k">&amp;&amp;</span> <span class="pl-cce">\.</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$NVM_DIR</span>/nvm.sh<span class="pl-pds">"</span></span> --no-use <span class="pl-c"><span class="pl-c">#</span> This loads nvm, without auto-using the default version</span></pre></div>
+<ul dir="auto">
+<li>
+<p dir="auto">You can customize the install source, directory, profile, and version using the <code class="notranslate">NVM_SOURCE</code>, <code class="notranslate">NVM_DIR</code>, <code class="notranslate">PROFILE</code>, and <code class="notranslate">NODE_VERSION</code> variables.<br>
+Eg: <code class="notranslate">curl ... | NVM_DIR="path/to/nvm"</code>. Ensure that the <code class="notranslate">NVM_DIR</code> does not contain a trailing slash.</p>
+</li>
+<li>
+<p dir="auto">The installer can use <code class="notranslate">git</code>, <code class="notranslate">curl</code>, or <code class="notranslate">wget</code> to download <code class="notranslate">nvm</code>, whichever is available.</p>
+</li>
+<li>
+<p dir="auto">You can instruct the installer to not edit your shell config (for example if you already get completions via a <a href="https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nvm">zsh nvm plugin</a>) by setting <code class="notranslate">PROFILE=/dev/null</code> before running the <code class="notranslate">install.sh</code> script. Here's an example one-line command to do that: <code class="notranslate">PROFILE=/dev/null bash -c 'curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash'</code></p>
+</li>
+</ul>
+<h4 dir="auto">Installing in Docker</h4>
+<p dir="auto">When invoking bash as a non-interactive shell, like in a Docker container, none of the regular profile files are sourced. In order to use <code class="notranslate">nvm</code>, <code class="notranslate">node</code>, and <code class="notranslate">npm</code> like normal, you can instead specify the special <code class="notranslate">BASH_ENV</code> variable, which bash sources when invoked non-interactively.</p>
+<div class="highlight highlight-source-dockerfile notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# Use bash for the shell
+SHELL [&quot;/bin/bash&quot;, &quot;-o&quot;, &quot;pipefail&quot;, &quot;-c&quot;]
+
+# Create a script file sourced by both interactive and non-interactive bash shells
+ENV BASH_ENV /home/user/.bash_env
+RUN touch &quot;${BASH_ENV}&quot;
+RUN echo '. &quot;${BASH_ENV}&quot;' &gt;&gt; ~/.bashrc
+
+# Download and install nvm
+RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | PROFILE=&quot;${BASH_ENV}&quot; bash
+RUN echo node &gt; .nvmrc
+RUN nvm install"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> Use bash for the shell</span>
+<span class="pl-k">SHELL</span> [<span class="pl-s">"/bin/bash"</span>, <span class="pl-s">"-o"</span>, <span class="pl-s">"pipefail"</span>, <span class="pl-s">"-c"</span>]
+
+<span class="pl-c"><span class="pl-c">#</span> Create a script file sourced by both interactive and non-interactive bash shells</span>
+<span class="pl-k">ENV</span> BASH_ENV /home/user/.bash_env
+<span class="pl-k">RUN</span> touch <span class="pl-s">"${BASH_ENV}"</span>
+<span class="pl-k">RUN</span> echo <span class="pl-s">'. "${BASH_ENV}"'</span> &gt;&gt; ~/.bashrc
+
+<span class="pl-c"><span class="pl-c">#</span> Download and install nvm</span>
+<span class="pl-k">RUN</span> curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | PROFILE=<span class="pl-s">"${BASH_ENV}"</span> bash
+<span class="pl-k">RUN</span> echo node &gt; .nvmrc
+<span class="pl-k">RUN</span> nvm install</pre></div>
+<h5 dir="auto">Installing in Docker for CICD-Jobs</h5>
+<p dir="auto">More robust, works in CI/CD-Jobs. Can be run in interactive and non-interactive containers.<br>
+See <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2866336398" data-permission-text="Title is private" data-url="https://github.com/nvm-sh/nvm/issues/3531" data-hovercard-type="issue" data-hovercard-url="/nvm-sh/nvm/issues/3531/hovercard" href="https://github.com/nvm-sh/nvm/issues/3531">nvm-sh/nvm#3531</a>.</p>
+<div class="highlight highlight-source-dockerfile notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="FROM ubuntu:latest
+ARG NODE_VERSION=20
+
+# install curl
+RUN apt update &amp;&amp; apt install curl -y
+
+# install nvm
+RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+
+# set env
+ENV NVM_DIR=/root/.nvm
+
+# install node
+RUN bash -c &quot;source $NVM_DIR/nvm.sh &amp;&amp; nvm install $NODE_VERSION&quot;
+
+# set ENTRYPOINT for reloading nvm-environment
+ENTRYPOINT [&quot;bash&quot;, &quot;-c&quot;, &quot;source $NVM_DIR/nvm.sh &amp;&amp; exec \&quot;$@\&quot;&quot;, &quot;--&quot;]
+
+# set cmd to bash
+CMD [&quot;/bin/bash&quot;]
+"><pre class="notranslate"><span class="pl-k">FROM</span> ubuntu:latest
+<span class="pl-k">ARG</span> NODE_VERSION=20
+
+<span class="pl-c"><span class="pl-c">#</span> install curl</span>
+<span class="pl-k">RUN</span> apt update &amp;&amp; apt install curl -y
+
+<span class="pl-c"><span class="pl-c">#</span> install nvm</span>
+<span class="pl-k">RUN</span> curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+
+<span class="pl-c"><span class="pl-c">#</span> set env</span>
+<span class="pl-k">ENV</span> NVM_DIR=/root/.nvm
+
+<span class="pl-c"><span class="pl-c">#</span> install node</span>
+<span class="pl-k">RUN</span> bash -c <span class="pl-s">"source $NVM_DIR/nvm.sh &amp;&amp; nvm install $NODE_VERSION"</span>
+
+<span class="pl-c"><span class="pl-c">#</span> set ENTRYPOINT for reloading nvm-environment</span>
+<span class="pl-k">ENTRYPOINT</span> [<span class="pl-s">"bash"</span>, <span class="pl-s">"-c"</span>, <span class="pl-s">"source $NVM_DIR/nvm.sh &amp;&amp; exec <span class="pl-c1">\"</span>$@<span class="pl-c1">\"</span>"</span>, <span class="pl-s">"--"</span>]
+
+<span class="pl-c"><span class="pl-c">#</span> set cmd to bash</span>
+<span class="pl-k">CMD</span> [<span class="pl-s">"/bin/bash"</span>]
+</pre></div>
+<p dir="auto">This example defaults to installation of nodejs version 20.x.y. Optionally you can easily override the version with docker build args like:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="docker build -t nvmimage --build-arg NODE_VERSION=19 ."><pre class="notranslate"><code class="notranslate">docker build -t nvmimage --build-arg NODE_VERSION=19 .
+</code></pre></div>
+<p dir="auto">After creation of the image you can start container interactively and run commands, for example:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="docker run --rm -it nvmimage
+
+root@0a6b5a237c14:/# nvm -v
+0.40.3
+
+root@0a6b5a237c14:/# node -v
+v19.9.0
+
+root@0a6b5a237c14:/# npm -v
+9.6.3"><pre class="notranslate"><code class="notranslate">docker run --rm -it nvmimage
+
+root@0a6b5a237c14:/# nvm -v
+0.40.3
+
+root@0a6b5a237c14:/# node -v
+v19.9.0
+
+root@0a6b5a237c14:/# npm -v
+9.6.3
+</code></pre></div>
+<p dir="auto">Noninteractive example:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="user@host:/tmp/test $ docker run --rm -it nvmimage node -v
+v19.9.0
+user@host:/tmp/test $ docker run --rm -it nvmimage npm -v
+9.6.3"><pre class="notranslate"><code class="notranslate">user@host:/tmp/test $ docker run --rm -it nvmimage node -v
+v19.9.0
+user@host:/tmp/test $ docker run --rm -it nvmimage npm -v
+9.6.3
+</code></pre></div>
+<h4 dir="auto">Troubleshooting on Linux</h4>
+<p dir="auto">On Linux, after running the install script, if you get <code class="notranslate">nvm: command not found</code> or see no feedback from your terminal after you type <code class="notranslate">command -v nvm</code>, simply close your current terminal, open a new terminal, and try verifying again.<br>
+Alternatively, you can run the following commands for the different shells on the command line:</p>
+<p dir="auto"><em>bash</em>: <code class="notranslate">source ~/.bashrc</code></p>
+<p dir="auto"><em>zsh</em>: <code class="notranslate">source ~/.zshrc</code></p>
+<p dir="auto"><em>ksh</em>: <code class="notranslate">. ~/.profile</code></p>
+<p dir="auto">These should pick up the <code class="notranslate">nvm</code> command.</p>
+<h4 dir="auto">Troubleshooting on macOS</h4>
+<p dir="auto">Since OS X 10.9, <code class="notranslate">/usr/bin/git</code> has been preset by Xcode command line tools, which means we can't properly detect if Git is installed or not. You need to manually install the Xcode command line tools before running the install script, otherwise, it'll fail. (see <a href="https://github.com/nvm-sh/nvm/issues/1782" data-hovercard-type="issue" data-hovercard-url="/nvm-sh/nvm/issues/1782/hovercard">#1782</a>)</p>
+<p dir="auto">If you get <code class="notranslate">nvm: command not found</code> after running the install script, one of the following might be the reason:</p>
+<ul dir="auto">
+<li>
+<p dir="auto">Since macOS 10.15, the default shell is <code class="notranslate">zsh</code> and nvm will look for <code class="notranslate">.zshrc</code> to update, none is installed by default. Create one with <code class="notranslate">touch ~/.zshrc</code> and run the install script again.</p>
+</li>
+<li>
+<p dir="auto">If you use bash, the previous default shell, your system may not have <code class="notranslate">.bash_profile</code> or <code class="notranslate">.bashrc</code> files where the command is set up. Create one of them with <code class="notranslate">touch ~/.bash_profile</code> or <code class="notranslate">touch ~/.bashrc</code> and run the install script again. Then, run <code class="notranslate">. ~/.bash_profile</code> or <code class="notranslate">. ~/.bashrc</code> to pick up the <code class="notranslate">nvm</code> command.</p>
+</li>
+<li>
+<p dir="auto">You have previously used <code class="notranslate">bash</code>, but you have <code class="notranslate">zsh</code> installed. You need to manually add <a href="#manual-install">these lines</a> to <code class="notranslate">~/.zshrc</code> and run <code class="notranslate">. ~/.zshrc</code>.</p>
+</li>
+<li>
+<p dir="auto">You might need to restart your terminal instance or run <code class="notranslate">. ~/.nvm/nvm.sh</code>. Restarting your terminal/opening a new tab/window, or running the source command will load the command and the new configuration.</p>
+</li>
+<li>
+<p dir="auto">If the above didn't help, you might need to restart your terminal instance. Try opening a new tab/window in your terminal and retry.</p>
+</li>
+</ul>
+<p dir="auto">If the above doesn't fix the problem, you may try the following:</p>
+<ul dir="auto">
+<li>
+<p dir="auto">If you use bash, it may be that your <code class="notranslate">.bash_profile</code> (or <code class="notranslate">~/.profile</code>) does not source your <code class="notranslate">~/.bashrc</code> properly. You could fix this by adding <code class="notranslate">source ~/&lt;your_profile_file&gt;</code> to it or following the next step below.</p>
+</li>
+<li>
+<p dir="auto">Try adding <a href="#profile_snippet">the snippet from the install section</a>, that finds the correct nvm directory and loads nvm, to your usual profile (<code class="notranslate">~/.bash_profile</code>, <code class="notranslate">~/.zshrc</code>, <code class="notranslate">~/.profile</code>, or <code class="notranslate">~/.bashrc</code>).</p>
+</li>
+<li>
+<p dir="auto">For more information about this issue and possible workarounds, please <a href="https://github.com/nvm-sh/nvm/issues/576" data-hovercard-type="issue" data-hovercard-url="/nvm-sh/nvm/issues/576/hovercard">refer here</a></p>
+</li>
+</ul>
+<p dir="auto"><strong>Note</strong> For Macs with the Apple Silicon chip, node started offering <strong>arm64</strong> arch Darwin packages since v16.0.0 and experimental <strong>arm64</strong> support when compiling from source since v14.17.0. If you are facing issues installing node using <code class="notranslate">nvm</code>, you may want to update to one of those versions or later.</p>
+<h4 dir="auto">Ansible</h4>
+<p dir="auto">You can use a task:</p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="- name: Install nvm
+  ansible.builtin.shell: &gt;
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+  args:
+    creates: &quot;{{ ansible_env.HOME }}/.nvm/nvm.sh&quot;"><pre class="notranslate">- <span class="pl-ent">name</span>: <span class="pl-s">Install nvm</span>
+  <span class="pl-ent">ansible.builtin.shell</span>: <span class="pl-s">&gt;</span>
+<span class="pl-s">    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash</span>
+<span class="pl-s"></span>  <span class="pl-ent">args</span>:
+    <span class="pl-ent">creates</span>: <span class="pl-s"><span class="pl-pds">"</span>{{ ansible_env.HOME }}/.nvm/nvm.sh<span class="pl-pds">"</span></span></pre></div>
+<h3 dir="auto">Verify Installation</h3>
+<p dir="auto">To verify that nvm has been installed, do:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="command -v nvm"><pre class="notranslate"><span class="pl-c1">command</span> -v nvm</pre></div>
+<p dir="auto">which should output <code class="notranslate">nvm</code> if the installation was successful. Please note that <code class="notranslate">which nvm</code> will not work, since <code class="notranslate">nvm</code> is a sourced shell function, not an executable binary.</p>
+<p dir="auto"><strong>Note:</strong> On Linux, after running the install script, if you get <code class="notranslate">nvm: command not found</code> or see no feedback from your terminal after you type <code class="notranslate">command -v nvm</code>, simply close your current terminal, open a new terminal, and try verifying again.</p>
+<h3 dir="auto">Important Notes</h3>
+<p dir="auto">If you're running a system without prepackaged binary available, which means you're going to install node or io.js from its source code, you need to make sure your system has a C++ compiler. For OS X, Xcode will work, for Debian/Ubuntu based GNU/Linux, the <code class="notranslate">build-essential</code> and <code class="notranslate">libssl-dev</code> packages work.</p>
+<p dir="auto"><strong>Note:</strong> <code class="notranslate">nvm</code> also supports Windows in some cases. It should work through WSL (Windows Subsystem for Linux) depending on the version of WSL. It should also work with <a href="https://gitforwindows.org/" rel="nofollow">GitBash</a> (MSYS) or <a href="https://cygwin.com" rel="nofollow">Cygwin</a>. Otherwise, for Windows, a few alternatives exist, which are neither supported nor developed by us:</p>
+<ul dir="auto">
+<li><a href="https://github.com/coreybutler/nvm-windows">nvm-windows</a></li>
+<li><a href="https://github.com/marcelklehr/nodist">nodist</a></li>
+<li><a href="https://github.com/jasongin/nvs">nvs</a></li>
+</ul>
+<p dir="auto"><strong>Note:</strong> <code class="notranslate">nvm</code> does not support <a href="https://fishshell.com" rel="nofollow">Fish</a> either (see <a href="https://github.com/nvm-sh/nvm/issues/303" data-hovercard-type="issue" data-hovercard-url="/nvm-sh/nvm/issues/303/hovercard">#303</a>). Alternatives exist, which are neither supported nor developed by us:</p>
+<ul dir="auto">
+<li><a href="https://github.com/edc/bass">bass</a> allows you to use utilities written for Bash in fish shell</li>
+<li><a href="https://github.com/brigand/fast-nvm-fish">fast-nvm-fish</a> only works with version numbers (not aliases) but doesn't significantly slow your shell startup</li>
+<li><a href="https://github.com/derekstavis/plugin-nvm">plugin-nvm</a> plugin for <a href="https://github.com/oh-my-fish/oh-my-fish">Oh My Fish</a>, which makes nvm and its completions available in fish shell</li>
+<li><a href="https://github.com/jorgebucaran/nvm.fish">nvm.fish</a> - The Node.js version manager you'll adore, crafted just for Fish</li>
+<li><a href="https://github.com/FabioAntunes/fish-nvm">fish-nvm</a> - Wrapper around nvm for fish, delays sourcing nvm until it's actually used.</li>
+</ul>
+<p dir="auto"><strong>Note:</strong> We still have some problems with FreeBSD, because there is no official pre-built binary for FreeBSD, and building from source may need <a href="https://www.freshports.org/www/node/files/patch-deps_v8_src_base_platform_platform-posix.cc" rel="nofollow">patches</a>; see the issue ticket:</p>
+<ul dir="auto">
+<li><a href="https://github.com/nvm-sh/nvm/issues/900" data-hovercard-type="issue" data-hovercard-url="/nvm-sh/nvm/issues/900/hovercard">[#900] [Bug] node on FreeBSD may need to be patched</a></li>
+<li><a href="https://github.com/nodejs/node/issues/3716" data-hovercard-type="issue" data-hovercard-url="/nodejs/node/issues/3716/hovercard">nodejs/node#3716</a></li>
+</ul>
+<p dir="auto"><strong>Note:</strong> On OS X, if you do not have Xcode installed and you do not wish to download the ~4.3GB file, you can install the <code class="notranslate">Command Line Tools</code>. You can check out this blog post on how to just that:</p>
+<ul dir="auto">
+<li><a href="https://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/" rel="nofollow">How to Install Command Line Tools in OS X Mavericks &amp; Yosemite (Without Xcode)</a></li>
+</ul>
+<p dir="auto"><strong>Note:</strong> On OS X, if you have/had a "system" node installed and want to install modules globally, keep in mind that:</p>
+<ul dir="auto">
+<li>When using <code class="notranslate">nvm</code> you do not need <code class="notranslate">sudo</code> to globally install a module with <code class="notranslate">npm -g</code>, so instead of doing <code class="notranslate">sudo npm install -g grunt</code>, do instead <code class="notranslate">npm install -g grunt</code></li>
+<li>If you have an <code class="notranslate">~/.npmrc</code> file, make sure it does not contain any <code class="notranslate">prefix</code> settings (which is not compatible with <code class="notranslate">nvm</code>)</li>
+<li>You can (but should not?) keep your previous "system" node install, but <code class="notranslate">nvm</code> will only be available to your user account (the one used to install nvm). This might cause version mismatches, as other users will be using <code class="notranslate">/usr/local/lib/node_modules/*</code> VS your user account using <code class="notranslate">~/.nvm/versions/node/vX.X.X/lib/node_modules/*</code></li>
+</ul>
+<p dir="auto">Homebrew installation is not supported. If you have issues with homebrew-installed <code class="notranslate">nvm</code>, please <code class="notranslate">brew uninstall</code> it, and install it using the instructions below, before filing an issue.</p>
+<p dir="auto"><strong>Note:</strong> If you're using <code class="notranslate">zsh</code> you can easily install <code class="notranslate">nvm</code> as a zsh plugin. Install <a href="https://github.com/lukechilds/zsh-nvm"><code class="notranslate">zsh-nvm</code></a> and run <code class="notranslate">nvm upgrade</code> to upgrade (<a href="https://github.com/lukechilds/zsh-nvm#auto-use">you can set</a> <code class="notranslate">NVM_AUTO_USE=true</code> to have it automatically detect and use <code class="notranslate">.nvmrc</code> files).</p>
+<p dir="auto"><strong>Note:</strong> Git versions before v1.7 may face a problem of cloning <code class="notranslate">nvm</code> source from GitHub via https protocol, and there is also different behavior of git before v1.6, and git prior to <a href="https://github.com/git/git/commit/5a7d5b683f869d3e3884a89775241afa515da9e7">v1.17.10</a> can not clone tags, so the minimum required git version is v1.7.10. If you are interested in the problem we mentioned here, please refer to GitHub's <a href="https://help.github.com/articles/https-cloning-errors/">HTTPS cloning errors</a> article.</p>
+<h3 dir="auto">Git Install</h3>
+<p dir="auto">If you have <code class="notranslate">git</code> installed (requires git v1.7.10+):</p>
+<ol dir="auto">
+<li>clone this repo in the root of your user profile
+<ul dir="auto">
+<li><code class="notranslate">cd ~/</code> from anywhere then <code class="notranslate">git clone https://github.com/nvm-sh/nvm.git .nvm</code></li>
+</ul>
+</li>
+<li><code class="notranslate">cd ~/.nvm</code> and check out the latest version with <code class="notranslate">git checkout v0.40.3</code></li>
+<li>activate <code class="notranslate">nvm</code> by sourcing it from your shell: <code class="notranslate">. ./nvm.sh</code></li>
+</ol>
+<p dir="auto">Now add these lines to your <code class="notranslate">~/.bashrc</code>, <code class="notranslate">~/.profile</code>, or <code class="notranslate">~/.zshrc</code> file to have it automatically sourced upon login:<br>
+(you may have to add to more than one of the above files)</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="export NVM_DIR=&quot;$HOME/.nvm&quot;
+[ -s &quot;$NVM_DIR/nvm.sh&quot; ] &amp;&amp; \. &quot;$NVM_DIR/nvm.sh&quot;  # This loads nvm
+[ -s &quot;$NVM_DIR/bash_completion&quot; ] &amp;&amp; \. &quot;$NVM_DIR/bash_completion&quot;  # This loads nvm bash_completion"><pre class="notranslate"><span class="pl-k">export</span> NVM_DIR=<span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$HOME</span>/.nvm<span class="pl-pds">"</span></span>
+[ <span class="pl-k">-s</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$NVM_DIR</span>/nvm.sh<span class="pl-pds">"</span></span> ] <span class="pl-k">&amp;&amp;</span> <span class="pl-cce">\.</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$NVM_DIR</span>/nvm.sh<span class="pl-pds">"</span></span>  <span class="pl-c"><span class="pl-c">#</span> This loads nvm</span>
+[ <span class="pl-k">-s</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$NVM_DIR</span>/bash_completion<span class="pl-pds">"</span></span> ] <span class="pl-k">&amp;&amp;</span> <span class="pl-cce">\.</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$NVM_DIR</span>/bash_completion<span class="pl-pds">"</span></span>  <span class="pl-c"><span class="pl-c">#</span> This loads nvm bash_completion</span></pre></div>
+<h3 dir="auto">Manual Install</h3>
+<p dir="auto">For a fully manual install, execute the following lines to first clone the <code class="notranslate">nvm</code> repository into <code class="notranslate">$HOME/.nvm</code>, and then load <code class="notranslate">nvm</code>:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="export NVM_DIR=&quot;$HOME/.nvm&quot; &amp;&amp; (
+  git clone https://github.com/nvm-sh/nvm.git &quot;$NVM_DIR&quot;
+  cd &quot;$NVM_DIR&quot;
+  git checkout `git describe --abbrev=0 --tags --match &quot;v[0-9]*&quot; $(git rev-list --tags --max-count=1)`
+) &amp;&amp; \. &quot;$NVM_DIR/nvm.sh&quot;"><pre class="notranslate"><span class="pl-k">export</span> NVM_DIR=<span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$HOME</span>/.nvm<span class="pl-pds">"</span></span> <span class="pl-k">&amp;&amp;</span> (
+  git clone https://github.com/nvm-sh/nvm.git <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$NVM_DIR</span><span class="pl-pds">"</span></span>
+  <span class="pl-c1">cd</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$NVM_DIR</span><span class="pl-pds">"</span></span>
+  git checkout <span class="pl-s"><span class="pl-pds">`</span>git describe --abbrev=0 --tags --match <span class="pl-s"><span class="pl-pds">"</span>v[0-9]*<span class="pl-pds">"</span></span> <span class="pl-s"><span class="pl-pds">$(</span>git rev-list --tags --max-count=1<span class="pl-pds">)</span></span><span class="pl-pds">`</span></span>
+) <span class="pl-k">&amp;&amp;</span> <span class="pl-cce">\.</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$NVM_DIR</span>/nvm.sh<span class="pl-pds">"</span></span></pre></div>
+<p dir="auto">Now add these lines to your <code class="notranslate">~/.bashrc</code>, <code class="notranslate">~/.profile</code>, or <code class="notranslate">~/.zshrc</code> file to have it automatically sourced upon login:<br>
+(you may have to add to more than one of the above files)</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="export NVM_DIR=&quot;$HOME/.nvm&quot;
+[ -s &quot;$NVM_DIR/nvm.sh&quot; ] &amp;&amp; \. &quot;$NVM_DIR/nvm.sh&quot; # This loads nvm
+[ -s &quot;$NVM_DIR/bash_completion&quot; ] &amp;&amp; \. &quot;$NVM_DIR/bash_completion&quot;  # This loads nvm bash_completion"><pre class="notranslate"><span class="pl-k">export</span> NVM_DIR=<span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$HOME</span>/.nvm<span class="pl-pds">"</span></span>
+[ <span class="pl-k">-s</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$NVM_DIR</span>/nvm.sh<span class="pl-pds">"</span></span> ] <span class="pl-k">&amp;&amp;</span> <span class="pl-cce">\.</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$NVM_DIR</span>/nvm.sh<span class="pl-pds">"</span></span> <span class="pl-c"><span class="pl-c">#</span> This loads nvm</span>
+[ <span class="pl-k">-s</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$NVM_DIR</span>/bash_completion<span class="pl-pds">"</span></span> ] <span class="pl-k">&amp;&amp;</span> <span class="pl-cce">\.</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$NVM_DIR</span>/bash_completion<span class="pl-pds">"</span></span>  <span class="pl-c"><span class="pl-c">#</span> This loads nvm bash_completion</span></pre></div>
+<h3 dir="auto">Manual Upgrade</h3>
+<p dir="auto">For manual upgrade with <code class="notranslate">git</code> (requires git v1.7.10+):</p>
+<ol dir="auto">
+<li>change to the <code class="notranslate">$NVM_DIR</code></li>
+<li>pull down the latest changes</li>
+<li>check out the latest version</li>
+<li>activate the new version</li>
+</ol>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="(
+  cd &quot;$NVM_DIR&quot;
+  git fetch --tags origin
+  git checkout `git describe --abbrev=0 --tags --match &quot;v[0-9]*&quot; $(git rev-list --tags --max-count=1)`
+) &amp;&amp; \. &quot;$NVM_DIR/nvm.sh&quot;"><pre class="notranslate">(
+  <span class="pl-c1">cd</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$NVM_DIR</span><span class="pl-pds">"</span></span>
+  git fetch --tags origin
+  git checkout <span class="pl-s"><span class="pl-pds">`</span>git describe --abbrev=0 --tags --match <span class="pl-s"><span class="pl-pds">"</span>v[0-9]*<span class="pl-pds">"</span></span> <span class="pl-s"><span class="pl-pds">$(</span>git rev-list --tags --max-count=1<span class="pl-pds">)</span></span><span class="pl-pds">`</span></span>
+) <span class="pl-k">&amp;&amp;</span> <span class="pl-cce">\.</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$NVM_DIR</span>/nvm.sh<span class="pl-pds">"</span></span></pre></div>
+<h2 dir="auto">Usage</h2>
+<p dir="auto">To download, compile, and install the latest release of node, do this:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nvm install node # &quot;node&quot; is an alias for the latest version"><pre class="notranslate">nvm install node <span class="pl-c"><span class="pl-c">#</span> "node" is an alias for the latest version</span></pre></div>
+<p dir="auto">To install a specific version of node:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nvm install 14.7.0 # or 16.3.0, 12.22.1, etc"><pre class="notranslate">nvm install 14.7.0 <span class="pl-c"><span class="pl-c">#</span> or 16.3.0, 12.22.1, etc</span></pre></div>
+<p dir="auto">To set an alias:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nvm alias my_alias v14.4.0"><pre class="notranslate">nvm <span class="pl-c1">alias</span> my_alias v14.4.0</pre></div>
+<p dir="auto">Make sure that your alias does not contain any spaces or slashes.</p>
+<p dir="auto">The first version installed becomes the default. New shells will start with the default version of node (e.g., <code class="notranslate">nvm alias default</code>).</p>
+<p dir="auto">You can list available versions using <code class="notranslate">ls-remote</code>:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nvm ls-remote"><pre class="notranslate">nvm ls-remote</pre></div>
+<p dir="auto">And then in any new shell just use the installed version:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nvm use node"><pre class="notranslate">nvm use node</pre></div>
+<p dir="auto">Or you can just run it:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nvm run node --version"><pre class="notranslate">nvm run node --version</pre></div>
+<p dir="auto">Or, you can run any arbitrary command in a subshell with the desired version of node:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nvm exec 4.2 node --version"><pre class="notranslate">nvm <span class="pl-c1">exec</span> 4.2 node --version</pre></div>
+<p dir="auto">You can also get the path to the executable to where it was installed:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nvm which 12.22"><pre class="notranslate">nvm which 12.22</pre></div>
+<p dir="auto">In place of a version pointer like "14.7" or "16.3" or "12.22.1", you can use the following special default aliases with <code class="notranslate">nvm install</code>, <code class="notranslate">nvm use</code>, <code class="notranslate">nvm run</code>, <code class="notranslate">nvm exec</code>, <code class="notranslate">nvm which</code>, etc:</p>
+<ul dir="auto">
+<li><code class="notranslate">node</code>: this installs the latest version of <a href="https://nodejs.org/en/" rel="nofollow"><code class="notranslate">node</code></a></li>
+<li><code class="notranslate">iojs</code>: this installs the latest version of <a href="https://iojs.org/en/" rel="nofollow"><code class="notranslate">io.js</code></a></li>
+<li><code class="notranslate">stable</code>: this alias is deprecated, and only truly applies to <code class="notranslate">node</code> <code class="notranslate">v0.12</code> and earlier. Currently, this is an alias for <code class="notranslate">node</code>.</li>
+<li><code class="notranslate">unstable</code>: this alias points to <code class="notranslate">node</code> <code class="notranslate">v0.11</code> - the last "unstable" node release, since post-1.0, all node versions are stable. (in SemVer, versions communicate breakage, not stability).</li>
+</ul>
+<h3 dir="auto">Long-term Support</h3>
+<p dir="auto">Node has a <a href="https://github.com/nodejs/Release#release-schedule">schedule</a> for long-term support (LTS) You can reference LTS versions in aliases and <code class="notranslate">.nvmrc</code> files with the notation <code class="notranslate">lts/*</code> for the latest LTS, and <code class="notranslate">lts/argon</code> for LTS releases from the "argon" line, for example. In addition, the following commands support LTS arguments:</p>
+<ul dir="auto">
+<li><code class="notranslate">nvm install --lts</code> / <code class="notranslate">nvm install --lts=argon</code> / <code class="notranslate">nvm install 'lts/*'</code> / <code class="notranslate">nvm install lts/argon</code></li>
+<li><code class="notranslate">nvm uninstall --lts</code> / <code class="notranslate">nvm uninstall --lts=argon</code> / <code class="notranslate">nvm uninstall 'lts/*'</code> / <code class="notranslate">nvm uninstall lts/argon</code></li>
+<li><code class="notranslate">nvm use --lts</code> / <code class="notranslate">nvm use --lts=argon</code> / <code class="notranslate">nvm use 'lts/*'</code> / <code class="notranslate">nvm use lts/argon</code></li>
+<li><code class="notranslate">nvm exec --lts</code> / <code class="notranslate">nvm exec --lts=argon</code> / <code class="notranslate">nvm exec 'lts/*'</code> / <code class="notranslate">nvm exec lts/argon</code></li>
+<li><code class="notranslate">nvm run --lts</code> / <code class="notranslate">nvm run --lts=argon</code> / <code class="notranslate">nvm run 'lts/*'</code> / <code class="notranslate">nvm run lts/argon</code></li>
+<li><code class="notranslate">nvm ls-remote --lts</code> / <code class="notranslate">nvm ls-remote --lts=argon</code> <code class="notranslate">nvm ls-remote 'lts/*'</code> / <code class="notranslate">nvm ls-remote lts/argon</code></li>
+<li><code class="notranslate">nvm version-remote --lts</code> / <code class="notranslate">nvm version-remote --lts=argon</code> / <code class="notranslate">nvm version-remote 'lts/*'</code> / <code class="notranslate">nvm version-remote lts/argon</code></li>
+</ul>
+<p dir="auto">Any time your local copy of <code class="notranslate">nvm</code> connects to <a href="https://nodejs.org" rel="nofollow">https://nodejs.org</a>, it will re-create the appropriate local aliases for all available LTS lines. These aliases (stored under <code class="notranslate">$NVM_DIR/alias/lts</code>), are managed by <code class="notranslate">nvm</code>, and you should not modify, remove, or create these files - expect your changes to be undone, and expect meddling with these files to cause bugs that will likely not be supported.</p>
+<p dir="auto">To get the latest LTS version of node and migrate your existing installed packages, use</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nvm install --reinstall-packages-from=current 'lts/*'"><pre class="notranslate">nvm install --reinstall-packages-from=current <span class="pl-s"><span class="pl-pds">'</span>lts/*<span class="pl-pds">'</span></span></pre></div>
+<h3 dir="auto">Migrating Global Packages While Installing</h3>
+<p dir="auto">If you want to install a new version of Node.js and migrate npm packages from a previous version:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nvm install --reinstall-packages-from=node node"><pre class="notranslate">nvm install --reinstall-packages-from=node node</pre></div>
+<p dir="auto">This will first use "nvm version node" to identify the current version you're migrating packages from. Then it resolves the new version to install from the remote server and installs it. Lastly, it runs "nvm reinstall-packages" to reinstall the npm packages from your prior version of Node to the new one.</p>
+<p dir="auto">You can also install and migrate npm packages from specific versions of Node like this:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nvm install --reinstall-packages-from=5 6
+nvm install --reinstall-packages-from=iojs v4.2"><pre class="notranslate">nvm install --reinstall-packages-from=5 6
+nvm install --reinstall-packages-from=iojs v4.2</pre></div>
+<p dir="auto">Note that reinstalling packages <em>explicitly does not update the npm version</em> — this is to ensure that npm isn't accidentally upgraded to a broken version for the new node version.</p>
+<p dir="auto">To update npm at the same time add the <code class="notranslate">--latest-npm</code> flag, like this:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nvm install --reinstall-packages-from=default --latest-npm 'lts/*'"><pre class="notranslate">nvm install --reinstall-packages-from=default --latest-npm <span class="pl-s"><span class="pl-pds">'</span>lts/*<span class="pl-pds">'</span></span></pre></div>
+<p dir="auto">or, you can at any time run the following command to get the latest supported npm version on the current node version:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nvm install-latest-npm"><pre class="notranslate">nvm install-latest-npm</pre></div>
+<p dir="auto">If you've already gotten an error to the effect of "npm does not support Node.js", you'll need to (1) revert to a previous node version (<code class="notranslate">nvm ls</code> &amp; <code class="notranslate">nvm use &lt;your latest _working_ version from the ls&gt;</code>), (2) delete the newly created node version (<code class="notranslate">nvm uninstall &lt;your _broken_ version of node from the ls&gt;</code>), then (3) rerun your <code class="notranslate">nvm install</code> with the <code class="notranslate">--latest-npm</code> flag.</p>
+<h3 dir="auto">Default Global Packages From File While Installing</h3>
+<p dir="auto">If you have a list of default packages you want installed every time you install a new version, we support that too -- just add the package names, one per line, to the file <code class="notranslate">$NVM_DIR/default-packages</code>. You can add anything npm would accept as a package argument on the command line.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# $NVM_DIR/default-packages
+
+rimraf
+object-inspect@1.0.2
+stevemao/left-pad"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> $NVM_DIR/default-packages</span>
+
+rimraf
+object-inspect@1.0.2
+stevemao/left-pad</pre></div>
+<h3 dir="auto">io.js</h3>
+<p dir="auto">If you want to install <a href="https://github.com/iojs/io.js/">io.js</a>:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nvm install iojs"><pre class="notranslate">nvm install iojs</pre></div>
+<p dir="auto">If you want to install a new version of io.js and migrate npm packages from a previous version:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nvm install --reinstall-packages-from=iojs iojs"><pre class="notranslate">nvm install --reinstall-packages-from=iojs iojs</pre></div>
+<p dir="auto">The same guidelines mentioned for migrating npm packages in node are applicable to io.js.</p>
+<h3 dir="auto">System Version of Node</h3>
+<p dir="auto">If you want to use the system-installed version of node, you can use the special default alias "system":</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nvm use system
+nvm run system --version"><pre class="notranslate">nvm use system
+nvm run system --version</pre></div>
+<h3 dir="auto">Listing Versions</h3>
+<p dir="auto">If you want to see what versions are installed:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nvm ls"><pre class="notranslate">nvm ls</pre></div>
+<p dir="auto">If you want to see what versions are available to install:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nvm ls-remote"><pre class="notranslate">nvm ls-remote</pre></div>
+<h3 dir="auto">Setting Custom Colors</h3>
+<p dir="auto">You can set five colors that will be used to display version and alias information. These colors replace the default colors.<br>
+Initial colors are: g b y r e</p>
+<p dir="auto">Color codes:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="r/R = red / bold red
+
+g/G = green / bold green
+
+b/B = blue / bold blue
+
+c/C = cyan / bold cyan
+
+m/M = magenta / bold magenta
+
+y/Y = yellow / bold yellow
+
+k/K = black / bold black
+
+e/W = light grey / white"><pre class="notranslate"><code class="notranslate">r/R = red / bold red
+
+g/G = green / bold green
+
+b/B = blue / bold blue
+
+c/C = cyan / bold cyan
+
+m/M = magenta / bold magenta
+
+y/Y = yellow / bold yellow
+
+k/K = black / bold black
+
+e/W = light grey / white
+</code></pre></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nvm set-colors rgBcm"><pre class="notranslate">nvm set-colors rgBcm</pre></div>
+<h4 dir="auto">Persisting custom colors</h4>
+<p dir="auto">If you want the custom colors to persist after terminating the shell, export the <code class="notranslate">NVM_COLORS</code> variable in your shell profile. For example, if you want to use cyan, magenta, green, bold red and bold yellow, add the following line:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="export NVM_COLORS='cmgRY'"><pre class="notranslate"><span class="pl-k">export</span> NVM_COLORS=<span class="pl-s"><span class="pl-pds">'</span>cmgRY<span class="pl-pds">'</span></span></pre></div>
+<h4 dir="auto">Suppressing colorized output</h4>
+<p dir="auto"><code class="notranslate">nvm help (or -h or --help)</code>, <code class="notranslate">nvm ls</code>, <code class="notranslate">nvm ls-remote</code> and <code class="notranslate">nvm alias</code> usually produce colorized output. You can disable colors with the <code class="notranslate">--no-colors</code> option (or by setting the environment variable <code class="notranslate">TERM=dumb</code>):</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nvm ls --no-colors
+nvm help --no-colors
+TERM=dumb nvm ls"><pre class="notranslate">nvm ls --no-colors
+nvm <span class="pl-c1">help</span> --no-colors
+TERM=dumb nvm ls</pre></div>
+<h3 dir="auto">Restoring PATH</h3>
+<p dir="auto">To restore your PATH, you can deactivate it:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nvm deactivate"><pre class="notranslate">nvm deactivate</pre></div>
+<h3 dir="auto">Set default node version</h3>
+<p dir="auto">To set a default Node version to be used in any new shell, use the alias 'default':</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nvm alias default node # this refers to the latest installed version of node
+nvm alias default 18 # this refers to the latest installed v18.x version of node
+nvm alias default 18.12  # this refers to the latest installed v18.12.x version of node"><pre class="notranslate">nvm <span class="pl-c1">alias</span> default node <span class="pl-c"><span class="pl-c">#</span> this refers to the latest installed version of node</span>
+nvm <span class="pl-c1">alias</span> default 18 <span class="pl-c"><span class="pl-c">#</span> this refers to the latest installed v18.x version of node</span>
+nvm <span class="pl-c1">alias</span> default 18.12  <span class="pl-c"><span class="pl-c">#</span> this refers to the latest installed v18.12.x version of node</span></pre></div>
+<h3 dir="auto">Use a mirror of node binaries</h3>
+<p dir="auto">To use a mirror of the node binaries, set <code class="notranslate">$NVM_NODEJS_ORG_MIRROR</code>:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="export NVM_NODEJS_ORG_MIRROR=https://nodejs.org/dist
+nvm install node
+
+NVM_NODEJS_ORG_MIRROR=https://nodejs.org/dist nvm install 4.2"><pre class="notranslate"><span class="pl-k">export</span> NVM_NODEJS_ORG_MIRROR=https://nodejs.org/dist
+nvm install node
+
+NVM_NODEJS_ORG_MIRROR=https://nodejs.org/dist nvm install 4.2</pre></div>
+<p dir="auto">To use a mirror of the io.js binaries, set <code class="notranslate">$NVM_IOJS_ORG_MIRROR</code>:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="export NVM_IOJS_ORG_MIRROR=https://iojs.org/dist
+nvm install iojs-v1.0.3
+
+NVM_IOJS_ORG_MIRROR=https://iojs.org/dist nvm install iojs-v1.0.3"><pre class="notranslate"><span class="pl-k">export</span> NVM_IOJS_ORG_MIRROR=https://iojs.org/dist
+nvm install iojs-v1.0.3
+
+NVM_IOJS_ORG_MIRROR=https://iojs.org/dist nvm install iojs-v1.0.3</pre></div>
+<p dir="auto"><code class="notranslate">nvm use</code> will not, by default, create a "current" symlink. Set <code class="notranslate">$NVM_SYMLINK_CURRENT</code> to "true" to enable this behavior, which is sometimes useful for IDEs. Note that using <code class="notranslate">nvm</code> in multiple shell tabs with this environment variable enabled can cause race conditions.</p>
+<h4 dir="auto">Pass Authorization header to mirror</h4>
+<p dir="auto">To pass an Authorization header through to the mirror url, set <code class="notranslate">$NVM_AUTH_HEADER</code></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="NVM_AUTH_HEADER=&quot;Bearer secret-token&quot; nvm install node"><pre class="notranslate">NVM_AUTH_HEADER=<span class="pl-s"><span class="pl-pds">"</span>Bearer secret-token<span class="pl-pds">"</span></span> nvm install node</pre></div>
+<h3 dir="auto">.nvmrc</h3>
+<p dir="auto">You can create a <code class="notranslate">.nvmrc</code> file containing a node version number (or any other string that <code class="notranslate">nvm</code> understands; see <code class="notranslate">nvm --help</code> for details) in the project root directory (or any parent directory).<br>
+Afterwards, <code class="notranslate">nvm use</code>, <code class="notranslate">nvm install</code>, <code class="notranslate">nvm exec</code>, <code class="notranslate">nvm run</code>, and <code class="notranslate">nvm which</code> will use the version specified in the <code class="notranslate">.nvmrc</code> file if no version is supplied on the command line.</p>
+<p dir="auto">For example, to make nvm default to the latest 5.9 release, the latest LTS version, or the latest node version for the current directory:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ echo &quot;5.9&quot; &gt; .nvmrc
+
+$ echo &quot;lts/*&quot; &gt; .nvmrc # to default to the latest LTS version
+
+$ echo &quot;node&quot; &gt; .nvmrc # to default to the latest version"><pre class="notranslate">$ <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>5.9<span class="pl-pds">"</span></span> <span class="pl-k">&gt;</span> .nvmrc
+
+$ <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>lts/*<span class="pl-pds">"</span></span> <span class="pl-k">&gt;</span> .nvmrc <span class="pl-c"><span class="pl-c">#</span> to default to the latest LTS version</span>
+
+$ <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>node<span class="pl-pds">"</span></span> <span class="pl-k">&gt;</span> .nvmrc <span class="pl-c"><span class="pl-c">#</span> to default to the latest version</span></pre></div>
+<p dir="auto">[NB these examples assume a POSIX-compliant shell version of <code class="notranslate">echo</code>. If you use a Windows <code class="notranslate">cmd</code> development environment, eg the <code class="notranslate">.nvmrc</code> file is used to configure a remote Linux deployment, then keep in mind the <code class="notranslate">"</code>s will be copied leading to an invalid file. Remove them.]</p>
+<p dir="auto">Then when you run nvm use:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ nvm use
+Found '/path/to/project/.nvmrc' with version &lt;5.9&gt;
+Now using node v5.9.1 (npm v3.7.3)"><pre class="notranslate">$ nvm use
+Found <span class="pl-s"><span class="pl-pds">'</span>/path/to/project/.nvmrc<span class="pl-pds">'</span></span> with version <span class="pl-k">&lt;</span>5.<span class="pl-k">9&gt;</span>
+Now using node v5.9.1 (npm v3.7.3)</pre></div>
+<p dir="auto">Running nvm install will also switch over to the correct version, but if the correct node version isn't already installed, it will install it for you.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ nvm install
+Found '/path/to/project/.nvmrc' with version &lt;5.9&gt;
+Downloading and installing node v5.9.1...
+Downloading https://nodejs.org/dist/v5.9.1/node-v5.9.1-linux-x64.tar.xz...
+#################################################################################### 100.0%
+Computing checksum with sha256sum
+Checksums matched!
+Now using node v5.9.1 (npm v3.7.3)"><pre class="notranslate">$ nvm install
+Found <span class="pl-s"><span class="pl-pds">'</span>/path/to/project/.nvmrc<span class="pl-pds">'</span></span> with version <span class="pl-k">&lt;</span>5.<span class="pl-k">9&gt;</span>
+Downloading and installing node v5.9.1...
+Downloading https://nodejs.org/dist/v5.9.1/node-v5.9.1-linux-x64.tar.xz...
+<span class="pl-c"><span class="pl-c">#</span>################################################################################### 100.0%</span>
+Computing checksum with sha256sum
+Checksums matched<span class="pl-k">!</span>
+Now using node v5.9.1 (npm v3.7.3)</pre></div>
+<p dir="auto"><code class="notranslate">nvm use</code> et. al. will traverse directory structure upwards from the current directory looking for the <code class="notranslate">.nvmrc</code> file. In other words, running <code class="notranslate">nvm use</code> et. al. in any subdirectory of a directory with an <code class="notranslate">.nvmrc</code> will result in that <code class="notranslate">.nvmrc</code> being utilized.</p>
+<p dir="auto">The contents of a <code class="notranslate">.nvmrc</code> file <strong>must</strong> contain precisely one <code class="notranslate">&lt;version&gt;</code> (as described by <code class="notranslate">nvm --help</code>) followed by a newline. <code class="notranslate">.nvmrc</code> files may also have comments. The comment delimiter is <code class="notranslate">#</code>, and it and any text after it, as well as blank lines, and leading and trailing white space, will be ignored when parsing.</p>
+<p dir="auto">Key/value pairs using <code class="notranslate">=</code> are also allowed and ignored, but are reserved for future use, and may cause validation errors in the future.</p>
+<p dir="auto">Run <a href="https://npmjs.com/nvmrc" rel="nofollow"><code class="notranslate">npx nvmrc</code></a> to validate an <code class="notranslate">.nvmrc</code> file. If that tool’s results do not agree with nvm, one or the other has a bug - please file an issue.</p>
+<h3 dir="auto">Deeper Shell Integration</h3>
+<p dir="auto">You can use <a href="https://github.com/iamogbz/nvshim"><code class="notranslate">nvshim</code></a> to shim the <code class="notranslate">node</code>, <code class="notranslate">npm</code>, and <code class="notranslate">npx</code> bins to automatically use the <code class="notranslate">nvm</code> config in the current directory. <code class="notranslate">nvshim</code> is <strong>not</strong> supported by the <code class="notranslate">nvm</code> maintainers. Please <a href="https://github.com/iamogbz/nvshim/issues/new">report issues to the <code class="notranslate">nvshim</code> team</a>.</p>
+<p dir="auto">If you prefer a lighter-weight solution, the recipes below have been contributed by <code class="notranslate">nvm</code> users. They are <strong>not</strong> supported by the <code class="notranslate">nvm</code> maintainers. We are, however, accepting pull requests for more examples.</p>
+<h4 dir="auto">Calling <code class="notranslate">nvm use</code> automatically in a directory with a <code class="notranslate">.nvmrc</code> file</h4>
+<p dir="auto">In your profile (<code class="notranslate">~/.bash_profile</code>, <code class="notranslate">~/.zshrc</code>, <code class="notranslate">~/.profile</code>, or <code class="notranslate">~/.bashrc</code>), add the following to <code class="notranslate">nvm use</code> whenever you enter a new directory:</p>
+<h5 dir="auto">bash</h5>
+<p dir="auto">Put the following at the end of your <code class="notranslate">$HOME/.bashrc</code>:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="cdnvm() {
+    command cd &quot;$@&quot; || return $?
+    nvm_path=&quot;$(nvm_find_up .nvmrc | command tr -d '\n')&quot;
+
+    # If there are no .nvmrc file, use the default nvm version
+    if [[ ! $nvm_path = *[^[:space:]]* ]]; then
+
+        declare default_version
+        default_version=&quot;$(nvm version default)&quot;
+
+        # If there is no default version, set it to `node`
+        # This will use the latest version on your machine
+        if [ $default_version = 'N/A' ]; then
+            nvm alias default node
+            default_version=$(nvm version default)
+        fi
+
+        # If the current version is not the default version, set it to use the default version
+        if [ &quot;$(nvm current)&quot; != &quot;${default_version}&quot; ]; then
+            nvm use default
+        fi
+    elif [[ -s &quot;${nvm_path}/.nvmrc&quot; &amp;&amp; -r &quot;${nvm_path}/.nvmrc&quot; ]]; then
+        declare nvm_version
+        nvm_version=$(&lt;&quot;${nvm_path}&quot;/.nvmrc)
+
+        declare locally_resolved_nvm_version
+        # `nvm ls` will check all locally-available versions
+        # If there are multiple matching versions, take the latest one
+        # Remove the `-&gt;` and `*` characters and spaces
+        # `locally_resolved_nvm_version` will be `N/A` if no local versions are found
+        locally_resolved_nvm_version=$(nvm ls --no-colors &quot;${nvm_version}&quot; | command tail -1 | command tr -d '\-&gt;*' | command tr -d '[:space:]')
+
+        # If it is not already installed, install it
+        # `nvm install` will implicitly use the newly-installed version
+        if [ &quot;${locally_resolved_nvm_version}&quot; = 'N/A' ]; then
+            nvm install &quot;${nvm_version}&quot;;
+        elif [ &quot;$(nvm current)&quot; != &quot;${locally_resolved_nvm_version}&quot; ]; then
+            nvm use &quot;${nvm_version}&quot;;
+        fi
+    fi
+}
+
+alias cd='cdnvm'
+cdnvm &quot;$PWD&quot; || exit"><pre class="notranslate"><span class="pl-en">cdnvm</span>() {
+    <span class="pl-c1">command</span> <span class="pl-c1">cd</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$@</span><span class="pl-pds">"</span></span> <span class="pl-k">||</span> <span class="pl-k">return</span> <span class="pl-smi">$?</span>
+    nvm_path=<span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>nvm_find_up .nvmrc <span class="pl-k">|</span> <span class="pl-c1">command</span> tr -d <span class="pl-s"><span class="pl-pds">'</span>\n<span class="pl-pds">'</span></span><span class="pl-pds">)</span></span><span class="pl-pds">"</span></span>
+
+    <span class="pl-c"><span class="pl-c">#</span> If there are no .nvmrc file, use the default nvm version</span>
+    <span class="pl-k">if</span> [[ <span class="pl-k">!</span> <span class="pl-smi">$nvm_path</span> <span class="pl-k">=</span> <span class="pl-k">*</span>[^[:space:]]<span class="pl-k">*</span> ]]<span class="pl-k">;</span> <span class="pl-k">then</span>
+
+        <span class="pl-k">declare</span> default_version
+        default_version<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>nvm version default<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span>
+
+        <span class="pl-c"><span class="pl-c">#</span> If there is no default version, set it to `node`</span>
+        <span class="pl-c"><span class="pl-c">#</span> This will use the latest version on your machine</span>
+        <span class="pl-k">if</span> [ <span class="pl-smi">$default_version</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>N/A<span class="pl-pds">'</span></span> ]<span class="pl-k">;</span> <span class="pl-k">then</span>
+            nvm <span class="pl-c1">alias</span> default node
+            default_version=<span class="pl-s"><span class="pl-pds">$(</span>nvm version default<span class="pl-pds">)</span></span>
+        <span class="pl-k">fi</span>
+
+        <span class="pl-c"><span class="pl-c">#</span> If the current version is not the default version, set it to use the default version</span>
+        <span class="pl-k">if</span> [ <span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>nvm current<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span> <span class="pl-k">!=</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">${default_version}</span><span class="pl-pds">"</span></span> ]<span class="pl-k">;</span> <span class="pl-k">then</span>
+            nvm use default
+        <span class="pl-k">fi</span>
+    <span class="pl-k">elif</span> [[ <span class="pl-k">-s</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">${nvm_path}</span>/.nvmrc<span class="pl-pds">"</span></span> <span class="pl-k">&amp;&amp;</span> <span class="pl-k">-r</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">${nvm_path}</span>/.nvmrc<span class="pl-pds">"</span></span> ]]<span class="pl-k">;</span> <span class="pl-k">then</span>
+        <span class="pl-k">declare</span> nvm_version
+        nvm_version<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">$(</span><span class="pl-k">&lt;</span><span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">${nvm_path}</span><span class="pl-pds">"</span></span>/.nvmrc<span class="pl-pds">)</span></span>
+
+        <span class="pl-k">declare</span> locally_resolved_nvm_version
+        <span class="pl-c"><span class="pl-c">#</span> `nvm ls` will check all locally-available versions</span>
+        <span class="pl-c"><span class="pl-c">#</span> If there are multiple matching versions, take the latest one</span>
+        <span class="pl-c"><span class="pl-c">#</span> Remove the `-&gt;` and `*` characters and spaces</span>
+        <span class="pl-c"><span class="pl-c">#</span> `locally_resolved_nvm_version` will be `N/A` if no local versions are found</span>
+        locally_resolved_nvm_version<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">$(</span>nvm ls --no-colors <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">${nvm_version}</span><span class="pl-pds">"</span></span> <span class="pl-k">|</span> <span class="pl-c1">command</span> tail -1 <span class="pl-k">|</span> <span class="pl-c1">command</span> tr -d <span class="pl-s"><span class="pl-pds">'</span>\-&gt;*<span class="pl-pds">'</span></span> <span class="pl-k">|</span> <span class="pl-c1">command</span> tr -d <span class="pl-s"><span class="pl-pds">'</span>[:space:]<span class="pl-pds">'</span></span><span class="pl-pds">)</span></span>
+
+        <span class="pl-c"><span class="pl-c">#</span> If it is not already installed, install it</span>
+        <span class="pl-c"><span class="pl-c">#</span> `nvm install` will implicitly use the newly-installed version</span>
+        <span class="pl-k">if</span> [ <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">${locally_resolved_nvm_version}</span><span class="pl-pds">"</span></span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>N/A<span class="pl-pds">'</span></span> ]<span class="pl-k">;</span> <span class="pl-k">then</span>
+            nvm install <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">${nvm_version}</span><span class="pl-pds">"</span></span><span class="pl-k">;</span>
+        <span class="pl-k">elif</span> [ <span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>nvm current<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span> <span class="pl-k">!=</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">${locally_resolved_nvm_version}</span><span class="pl-pds">"</span></span> ]<span class="pl-k">;</span> <span class="pl-k">then</span>
+            nvm use <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">${nvm_version}</span><span class="pl-pds">"</span></span><span class="pl-k">;</span>
+        <span class="pl-k">fi</span>
+    <span class="pl-k">fi</span>
+}
+
+<span class="pl-c1">alias</span> cd<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'</span>cdnvm<span class="pl-pds">'</span></span>
+cdnvm <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$PWD</span><span class="pl-pds">"</span></span> <span class="pl-k">||</span> <span class="pl-c1">exit</span></pre></div>
+<p dir="auto">This alias would search 'up' from your current directory in order to detect a <code class="notranslate">.nvmrc</code> file. If it finds it, it will switch to that version; if not, it will use the default version.</p>
+<h5 dir="auto">zsh</h5>
+<p dir="auto">This shell function will install (if needed) and <code class="notranslate">nvm use</code> the specified Node version when an <code class="notranslate">.nvmrc</code> is found, and <code class="notranslate">nvm use default</code> otherwise.</p>
+<p dir="auto">Put this into your <code class="notranslate">$HOME/.zshrc</code> to call <code class="notranslate">nvm use</code> automatically whenever you enter a directory that contains an<br>
+<code class="notranslate">.nvmrc</code> file with a string telling nvm which node to <code class="notranslate">use</code>:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# place this after nvm initialization!
+autoload -U add-zsh-hook
+
+load-nvmrc() {
+  local nvmrc_path
+  nvmrc_path=&quot;$(nvm_find_nvmrc)&quot;
+
+  if [ -n &quot;$nvmrc_path&quot; ]; then
+    local nvmrc_node_version
+    nvmrc_node_version=$(nvm version &quot;$(cat &quot;${nvmrc_path}&quot;)&quot;)
+
+    if [ &quot;$nvmrc_node_version&quot; = &quot;N/A&quot; ]; then
+      nvm install
+    elif [ &quot;$nvmrc_node_version&quot; != &quot;$(nvm version)&quot; ]; then
+      nvm use
+    fi
+  elif [ -n &quot;$(PWD=$OLDPWD nvm_find_nvmrc)&quot; ] &amp;&amp; [ &quot;$(nvm version)&quot; != &quot;$(nvm version default)&quot; ]; then
+    echo &quot;Reverting to nvm default version&quot;
+    nvm use default
+  fi
+}
+
+add-zsh-hook chpwd load-nvmrc
+load-nvmrc"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> place this after nvm initialization!</span>
+autoload -U add-zsh-hook
+
+<span class="pl-en">load-nvmrc</span>() {
+  <span class="pl-k">local</span> nvmrc_path
+  nvmrc_path=<span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>nvm_find_nvmrc<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span>
+
+  <span class="pl-k">if</span> [ <span class="pl-k">-n</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$nvmrc_path</span><span class="pl-pds">"</span></span> ]<span class="pl-k">;</span> <span class="pl-k">then</span>
+    <span class="pl-k">local</span> nvmrc_node_version
+    nvmrc_node_version=<span class="pl-s"><span class="pl-pds">$(</span>nvm version <span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>cat <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">${nvmrc_path}</span><span class="pl-pds">"</span></span><span class="pl-pds">)</span></span><span class="pl-pds">"</span></span><span class="pl-pds">)</span></span>
+
+    <span class="pl-k">if</span> [ <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$nvmrc_node_version</span><span class="pl-pds">"</span></span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>N/A<span class="pl-pds">"</span></span> ]<span class="pl-k">;</span> <span class="pl-k">then</span>
+      nvm install
+    <span class="pl-k">elif</span> [ <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$nvmrc_node_version</span><span class="pl-pds">"</span></span> <span class="pl-k">!=</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>nvm version<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span> ]<span class="pl-k">;</span> <span class="pl-k">then</span>
+      nvm use
+    <span class="pl-k">fi</span>
+  <span class="pl-k">elif</span> [ <span class="pl-k">-n</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>PWD=<span class="pl-smi">$OLDPWD</span> nvm_find_nvmrc<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span> ] <span class="pl-k">&amp;&amp;</span> [ <span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>nvm version<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span> <span class="pl-k">!=</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>nvm version default<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span> ]<span class="pl-k">;</span> <span class="pl-k">then</span>
+    <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>Reverting to nvm default version<span class="pl-pds">"</span></span>
+    nvm use default
+  <span class="pl-k">fi</span>
+}
+
+add-zsh-hook chpwd load-nvmrc
+load-nvmrc</pre></div>
+<p dir="auto">After saving the file, run <code class="notranslate">source ~/.zshrc</code> to reload the configuration with the latest changes made.</p>
+<h5 dir="auto">fish</h5>
+<p dir="auto">This requires that you have <a href="https://github.com/edc/bass">bass</a> installed.</p>
+<div class="highlight highlight-source-fish notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# ~/.config/fish/functions/nvm.fish
+function nvm
+  bass source ~/.nvm/nvm.sh --no-use ';' nvm $argv
+end
+
+# ~/.config/fish/functions/nvm_find_nvmrc.fish
+function nvm_find_nvmrc
+  bass source ~/.nvm/nvm.sh --no-use ';' nvm_find_nvmrc
+end
+
+# ~/.config/fish/functions/load_nvm.fish
+function load_nvm --on-variable=&quot;PWD&quot;
+  set -l default_node_version (nvm version default)
+  set -l node_version (nvm version)
+  set -l nvmrc_path (nvm_find_nvmrc)
+  if test -n &quot;$nvmrc_path&quot;
+    set -l nvmrc_node_version (nvm version (cat $nvmrc_path))
+    if test &quot;$nvmrc_node_version&quot; = &quot;N/A&quot;
+      nvm install (cat $nvmrc_path)
+    else if test &quot;$nvmrc_node_version&quot; != &quot;$node_version&quot;
+      nvm use $nvmrc_node_version
+    end
+  else if test &quot;$node_version&quot; != &quot;$default_node_version&quot;
+    echo &quot;Reverting to default Node version&quot;
+    nvm use default
+  end
+end
+
+# ~/.config/fish/config.fish
+# You must call it on initialization or listening to directory switching won't work
+load_nvm &gt; /dev/stderr"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> ~/.config/fish/functions/nvm.fish</span>
+<span class="pl-k">function</span> nvm
+  bass source ~/.nvm/nvm.<span class="pl-c1">sh</span> <span class="pl-s">--no-use</span> <span class="pl-s"><span class="pl-pds">'</span>;<span class="pl-pds">'</span></span> nvm <span class="pl-smi">$argv</span>
+<span class="pl-k">end</span>
+
+<span class="pl-c"><span class="pl-c">#</span> ~/.config/fish/functions/nvm_find_nvmrc.fish</span>
+<span class="pl-k">function</span> nvm_find_nvmrc
+  bass source ~/.nvm/nvm.<span class="pl-c1">sh</span> <span class="pl-s">--no-use</span> <span class="pl-s"><span class="pl-pds">'</span>;<span class="pl-pds">'</span></span> nvm_find_nvmrc
+<span class="pl-k">end</span>
+
+<span class="pl-c"><span class="pl-c">#</span> ~/.config/fish/functions/load_nvm.fish</span>
+<span class="pl-k">function</span> load_nvm <span class="pl-s">--on-variable</span>=<span class="pl-s"><span class="pl-pds">"</span>PWD<span class="pl-pds">"</span></span>
+  <span class="pl-c1">set</span> <span class="pl-s">-l</span> default_node_version (nvm version default)
+  <span class="pl-c1">set</span> <span class="pl-s">-l</span> node_version (nvm version)
+  <span class="pl-c1">set</span> <span class="pl-s">-l</span> nvmrc_path (nvm_find_nvmrc)
+  <span class="pl-k">if</span> <span class="pl-c1">test</span> <span class="pl-s">-n</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$nvmrc_path</span><span class="pl-pds">"</span></span>
+    <span class="pl-c1">set</span> <span class="pl-s">-l</span> nvmrc_node_version (nvm version (<span class="pl-c1">cat</span> <span class="pl-smi">$nvmrc_path</span>))
+    <span class="pl-k">if</span> <span class="pl-c1">test</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$nvmrc_node_version</span><span class="pl-pds">"</span></span> = <span class="pl-s"><span class="pl-pds">"</span>N/A<span class="pl-pds">"</span></span>
+      nvm install (<span class="pl-c1">cat</span> <span class="pl-smi">$nvmrc_path</span>)
+    <span class="pl-k">else</span> <span class="pl-k">if</span> <span class="pl-c1">test</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$nvmrc_node_version</span><span class="pl-pds">"</span></span> != <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$node_version</span><span class="pl-pds">"</span></span>
+      nvm use <span class="pl-smi">$nvmrc_node_version</span>
+    <span class="pl-k">end</span>
+  <span class="pl-k">else</span> <span class="pl-k">if</span> <span class="pl-c1">test</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$node_version</span><span class="pl-pds">"</span></span> != <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$default_node_version</span><span class="pl-pds">"</span></span>
+    <span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>Reverting to default Node version<span class="pl-pds">"</span></span>
+    nvm use default
+  <span class="pl-k">end</span>
+<span class="pl-k">end</span>
+
+<span class="pl-c"><span class="pl-c">#</span> ~/.config/fish/config.fish</span>
+<span class="pl-c"><span class="pl-c">#</span> You must call it on initialization or listening to directory switching won't work</span>
+load_nvm <span class="pl-k">&gt;</span> /dev/stderr</pre></div>
+<h2 dir="auto">Running Tests</h2>
+<p dir="auto">Tests are written in <a href="https://git.sdf.org/tlevine/urchin" rel="nofollow">Urchin</a>. Install Urchin (and other dependencies) like so:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="npm install"><pre class="notranslate"><code class="notranslate">npm install
+</code></pre></div>
+<p dir="auto">There are slow tests and fast tests. The slow tests do things like install node<br>
+and check that the right versions are used. The fast tests fake this to test<br>
+things like aliases and uninstalling. From the root of the nvm git repository,<br>
+run the fast tests like this:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="npm run test/fast"><pre class="notranslate"><code class="notranslate">npm run test/fast
+</code></pre></div>
+<p dir="auto">Run the slow tests like this:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="npm run test/slow"><pre class="notranslate"><code class="notranslate">npm run test/slow
+</code></pre></div>
+<p dir="auto">Run all of the tests like this:</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="npm test"><pre class="notranslate"><code class="notranslate">npm test
+</code></pre></div>
+<p dir="auto">Nota bene: Avoid running nvm while the tests are running.</p>
+<h2 dir="auto">Environment variables</h2>
+<p dir="auto">nvm exposes the following environment variables:</p>
+<ul dir="auto">
+<li><code class="notranslate">NVM_DIR</code> - nvm's installation directory.</li>
+<li><code class="notranslate">NVM_BIN</code> - where node, npm, and global packages for the active version of node are installed.</li>
+<li><code class="notranslate">NVM_INC</code> - node's include file directory (useful for building C/C++ addons for node).</li>
+<li><code class="notranslate">NVM_CD_FLAGS</code> - used to maintain compatibility with zsh.</li>
+<li><code class="notranslate">NVM_RC_VERSION</code> - version from .nvmrc file if being used.</li>
+</ul>
+<p dir="auto">Additionally, nvm modifies <code class="notranslate">PATH</code>, and, if present, <code class="notranslate">MANPATH</code> and <code class="notranslate">NODE_PATH</code> when changing versions.</p>
+<h2 dir="auto">Bash Completion</h2>
+<p dir="auto">To activate, you need to source <code class="notranslate">bash_completion</code>:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="[[ -r $NVM_DIR/bash_completion ]] &amp;&amp; \. $NVM_DIR/bash_completion"><pre class="notranslate">[[ <span class="pl-k">-r</span> <span class="pl-smi">$NVM_DIR</span>/bash_completion ]] <span class="pl-k">&amp;&amp;</span> <span class="pl-cce">\.</span> <span class="pl-smi">$NVM_DIR</span>/bash_completion</pre></div>
+<p dir="auto">Put the above sourcing line just below the sourcing line for nvm in your profile (<code class="notranslate">.bashrc</code>, <code class="notranslate">.bash_profile</code>).</p>
+<h3 dir="auto">Usage</h3>
+<p dir="auto">nvm:</p>
+<blockquote>
+<p dir="auto"><code class="notranslate">$ nvm</code> <kbd>Tab</kbd></p>
+</blockquote>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="alias               deactivate          install             list-remote         reinstall-packages  uninstall           version
+cache               exec                install-latest-npm  ls                  run                 unload              version-remote
+current             help                list                ls-remote           unalias             use                 which"><pre class="notranslate"><span class="pl-c1">alias</span>               deactivate          install             list-remote         reinstall-packages  uninstall           version
+cache               <span class="pl-c1">exec</span>                install-latest-npm  ls                  run                 unload              version-remote
+current             <span class="pl-c1">help</span>                list                ls-remote           <span class="pl-c1">unalias</span>             use                 which</pre></div>
+<p dir="auto">nvm alias:</p>
+<blockquote>
+<p dir="auto"><code class="notranslate">$ nvm alias</code> <kbd>Tab</kbd></p>
+</blockquote>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="default      iojs         lts/*        lts/argon    lts/boron    lts/carbon   lts/dubnium  lts/erbium   node         stable       unstable"><pre class="notranslate">default      iojs         lts/<span class="pl-k">*</span>        lts/argon    lts/boron    lts/carbon   lts/dubnium  lts/erbium   node         stable       unstable</pre></div>
+<blockquote>
+<p dir="auto"><code class="notranslate">$ nvm alias my_alias</code> <kbd>Tab</kbd></p>
+</blockquote>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="v10.22.0       v12.18.3      v14.8.0"><pre class="notranslate">v10.22.0       v12.18.3      v14.8.0</pre></div>
+<p dir="auto">nvm use:</p>
+<blockquote>
+<p dir="auto"><code class="notranslate">$ nvm use</code> <kbd>Tab</kbd></p>
+</blockquote>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="my_alias        default        v10.22.0       v12.18.3      v14.8.0"><pre class="notranslate"><code class="notranslate">my_alias        default        v10.22.0       v12.18.3      v14.8.0
+</code></pre></div>
+<p dir="auto">nvm uninstall:</p>
+<blockquote>
+<p dir="auto"><code class="notranslate">$ nvm uninstall</code> <kbd>Tab</kbd></p>
+</blockquote>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="my_alias        default        v10.22.0       v12.18.3      v14.8.0"><pre class="notranslate"><code class="notranslate">my_alias        default        v10.22.0       v12.18.3      v14.8.0
+</code></pre></div>
+<h2 dir="auto">Compatibility Issues</h2>
+<p dir="auto"><code class="notranslate">nvm</code> will encounter some issues if you have some non-default settings set. (see <a href="https://github.com/nvm-sh/nvm/issues/606" data-hovercard-type="issue" data-hovercard-url="/nvm-sh/nvm/issues/606/hovercard">#606</a>)<br>
+The following are known to cause issues:</p>
+<p dir="auto">Inside <code class="notranslate">~/.npmrc</code>:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="prefix='some/path'"><pre class="notranslate">prefix=<span class="pl-s"><span class="pl-pds">'</span>some/path<span class="pl-pds">'</span></span></pre></div>
+<p dir="auto">Environment Variables:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$NPM_CONFIG_PREFIX
+$PREFIX"><pre class="notranslate"><span class="pl-smi">$NPM_CONFIG_PREFIX</span>
+<span class="pl-smi">$PREFIX</span></pre></div>
+<p dir="auto">Shell settings:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="set -e"><pre class="notranslate"><span class="pl-c1">set</span> -e</pre></div>
+<h2 dir="auto">Installing nvm on Alpine Linux</h2>
+<p dir="auto">In order to provide the best performance (and other optimizations), nvm will download and install pre-compiled binaries for Node (and npm) when you run <code class="notranslate">nvm install X</code>. The Node project compiles, tests and hosts/provides these pre-compiled binaries which are built for mainstream/traditional Linux distributions (such as Debian, Ubuntu, CentOS, RedHat et al).</p>
+<p dir="auto">Alpine Linux, unlike mainstream/traditional Linux distributions, is based on <a href="https://www.busybox.net/" rel="nofollow">BusyBox</a>, a very compact (~5MB) Linux distribution. BusyBox (and thus Alpine Linux) uses a different C/C++ stack to most mainstream/traditional Linux distributions - <a href="https://www.musl-libc.org/" rel="nofollow">musl</a>. This makes binary programs built for such mainstream/traditional incompatible with Alpine Linux, thus we cannot simply <code class="notranslate">nvm install X</code> on Alpine Linux and expect the downloaded binary to run correctly - you'll likely see "...does not exist" errors if you try that.</p>
+<p dir="auto">There is a <code class="notranslate">-s</code> flag for <code class="notranslate">nvm install</code> which requests nvm download Node source and compile it locally.</p>
+<p dir="auto">If installing nvm on Alpine Linux <em>is</em> still what you want or need to do, you should be able to achieve this by running the following from you Alpine Linux shell, depending on which version you are using:</p>
+<h3 dir="auto">Alpine Linux 3.13+</h3>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="apk add -U curl bash ca-certificates openssl ncurses coreutils python3 make gcc g++ libgcc linux-headers grep util-linux binutils findutils
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash"><pre class="notranslate">apk add -U curl bash ca-certificates openssl ncurses coreutils python3 make gcc g++ libgcc linux-headers grep util-linux binutils findutils
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh <span class="pl-k">|</span> bash</pre></div>
+<h3 dir="auto">Alpine Linux 3.5 - 3.12</h3>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="apk add -U curl bash ca-certificates openssl ncurses coreutils python2 make gcc g++ libgcc linux-headers grep util-linux binutils findutils
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash"><pre class="notranslate">apk add -U curl bash ca-certificates openssl ncurses coreutils python2 make gcc g++ libgcc linux-headers grep util-linux binutils findutils
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh <span class="pl-k">|</span> bash</pre></div>
+<p dir="auto"><em>Note: Alpine 3.5 can only install NodeJS versions up to v6.9.5, Alpine 3.6 can only install versions up to v6.10.3, Alpine 3.7 installs versions up to v8.9.3, Alpine 3.8 installs versions up to v8.14.0, Alpine 3.9 installs versions up to v10.19.0, Alpine 3.10 installs versions up to v10.24.1, Alpine 3.11 installs versions up to v12.22.6, Alpine 3.12 installs versions up to v12.22.12, Alpine 3.13 &amp; 3.14 install versions up to v14.20.0, Alpine 3.15 &amp; 3.16 install versions up to v16.16.0 (<strong>These are all versions on the main branch</strong>). Alpine 3.5 - 3.12 required the package <code class="notranslate">python2</code> to build NodeJS, as they are older versions to build. Alpine 3.13+ requires <code class="notranslate">python3</code> to successfully build newer NodeJS versions, but you can use <code class="notranslate">python2</code> with Alpine 3.13+ if you need to build versions of node supported in Alpine 3.5 - 3.15, you just need to specify what version of NodeJS you need to install in the package install script.</em></p>
+<p dir="auto">The Node project has some desire but no concrete plans (due to the overheads of building, testing and support) to offer Alpine-compatible binaries.</p>
+<p dir="auto">As a potential alternative, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mhart/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mhart">@mhart</a> (a Node contributor) has some <a href="https://github.com/mhart/alpine-node">Docker images for Alpine Linux with Node and optionally, npm, pre-installed</a>.</p>
+<p dir="auto"><a id="user-content-removal"></a></p>
+<h2 dir="auto">Uninstalling / Removal</h2>
+<h3 dir="auto">Manual Uninstall</h3>
+<p dir="auto">To remove <code class="notranslate">nvm</code> manually, execute the following:</p>
+<p dir="auto">First, use <code class="notranslate">nvm unload</code> to remove the nvm command from your terminal session and delete the installation directory:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ nvm_dir=&quot;${NVM_DIR:-~/.nvm}&quot;
+$ nvm unload
+$ rm -rf &quot;$nvm_dir&quot;"><pre class="notranslate">$ nvm_dir=<span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">${NVM_DIR<span class="pl-k">:-</span>~<span class="pl-k">/</span>.nvm}</span><span class="pl-pds">"</span></span>
+$ nvm unload
+$ rm -rf <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$nvm_dir</span><span class="pl-pds">"</span></span></pre></div>
+<p dir="auto">Edit <code class="notranslate">~/.bashrc</code> (or other shell resource config) and remove the lines below:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="export NVM_DIR=&quot;$HOME/.nvm&quot;
+[ -s &quot;$NVM_DIR/nvm.sh&quot; ] &amp;&amp; \. &quot;$NVM_DIR/nvm.sh&quot; # This loads nvm
+[[ -r $NVM_DIR/bash_completion ]] &amp;&amp; \. $NVM_DIR/bash_completion"><pre class="notranslate"><span class="pl-k">export</span> NVM_DIR=<span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$HOME</span>/.nvm<span class="pl-pds">"</span></span>
+[ <span class="pl-k">-s</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$NVM_DIR</span>/nvm.sh<span class="pl-pds">"</span></span> ] <span class="pl-k">&amp;&amp;</span> <span class="pl-cce">\.</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">$NVM_DIR</span>/nvm.sh<span class="pl-pds">"</span></span> <span class="pl-c"><span class="pl-c">#</span> This loads nvm</span>
+[[ <span class="pl-k">-r</span> <span class="pl-smi">$NVM_DIR</span>/bash_completion ]] <span class="pl-k">&amp;&amp;</span> <span class="pl-cce">\.</span> <span class="pl-smi">$NVM_DIR</span>/bash_completion</pre></div>
+<h2 dir="auto">Docker For Development Environment</h2>
+<p dir="auto">To make the development and testing work easier, we have a Dockerfile for development usage, which is based on Ubuntu 18.04 base image, prepared with essential and useful tools for <code class="notranslate">nvm</code> development, to build the docker image of the environment, run the docker command at the root of <code class="notranslate">nvm</code> repository:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ docker build -t nvm-dev ."><pre class="notranslate">$ docker build -t nvm-dev <span class="pl-c1">.</span></pre></div>
+<p dir="auto">This will package your current nvm repository with our pre-defined development environment into a docker image named <code class="notranslate">nvm-dev</code>, once it's built with success, validate your image via <code class="notranslate">docker images</code>:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ docker images
+
+REPOSITORY         TAG                 IMAGE ID            CREATED             SIZE
+nvm-dev            latest              9ca4c57a97d8        7 days ago          650 MB"><pre class="notranslate">$ docker images
+
+REPOSITORY         TAG                 IMAGE ID            CREATED             SIZE
+nvm-dev            latest              9ca4c57a97d8        7 days ago          650 MB</pre></div>
+<p dir="auto">If you got no error message, now you can easily involve in:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ docker run -h nvm-dev -it nvm-dev
+
+nvm@nvm-dev:~/.nvm$"><pre class="notranslate">$ docker run -h nvm-dev -it nvm-dev
+
+nvm@nvm-dev:<span class="pl-k">~</span>/.nvm$</pre></div>
+<p dir="auto">Please note that it'll take about 8 minutes to build the image and the image size would be about 650MB, so it's not suitable for production usage.</p>
+<p dir="auto">For more information and documentation about docker, please refer to its official website:</p>
+<ul dir="auto">
+<li><a href="https://www.docker.com/" rel="nofollow">https://www.docker.com/</a></li>
+<li><a href="https://docs.docker.com/" rel="nofollow">https://docs.docker.com/</a></li>
+</ul>
+<h2 dir="auto">Problems</h2>
+<ul dir="auto">
+<li>
+<p dir="auto">If you try to install a node version and the installation fails, be sure to run <code class="notranslate">nvm cache clear</code> to delete cached node downloads, or you might get an error like the following:</p>
+<p dir="auto">curl: (33) HTTP server doesn't seem to support byte ranges. Cannot resume.</p>
+</li>
+<li>
+<p dir="auto">Where's my <code class="notranslate">sudo node</code>? Check out <a href="https://github.com/nvm-sh/nvm/issues/43" data-hovercard-type="issue" data-hovercard-url="/nvm-sh/nvm/issues/43/hovercard">#43</a></p>
+</li>
+<li>
+<p dir="auto">After the v0.8.6 release of node, nvm tries to install from binary packages. But in some systems, the official binary packages don't work due to incompatibility of shared libs. In such cases, use <code class="notranslate">-s</code> option to force install from source:</p>
+</li>
+</ul>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nvm install -s 0.8.6"><pre class="notranslate">nvm install -s 0.8.6</pre></div>
+<ul dir="auto">
+<li>If setting the <code class="notranslate">default</code> alias does not establish the node version in new shells (i.e. <code class="notranslate">nvm current</code> yields <code class="notranslate">system</code>), ensure that the system's node <code class="notranslate">PATH</code> is set before the <code class="notranslate">nvm.sh</code> source line in your shell profile (see <a href="https://github.com/nvm-sh/nvm/issues/658" data-hovercard-type="issue" data-hovercard-url="/nvm-sh/nvm/issues/658/hovercard">#658</a>)</li>
+</ul>
+<h2 dir="auto">macOS Troubleshooting</h2>
+<p dir="auto"><strong>nvm node version not found in vim shell</strong></p>
+<p dir="auto">If you set node version to a version other than your system node version <code class="notranslate">nvm use 6.2.1</code> and open vim and run <code class="notranslate">:!node -v</code> you should see <code class="notranslate">v6.2.1</code> if you see your system version <code class="notranslate">v0.12.7</code>. You need to run:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo chmod ugo-x /usr/libexec/path_helper"><pre class="notranslate">sudo chmod ugo-x /usr/libexec/path_helper</pre></div>
+<p dir="auto">More on this issue in <a href="https://github.com/dotphiles/dotzsh#mac-os-x">dotphiles/dotzsh</a>.</p>
+<p dir="auto"><strong>nvm is not compatible with the npm config "prefix" option</strong></p>
+<p dir="auto">Some solutions for this issue can be found <a href="https://github.com/nvm-sh/nvm/issues/1245" data-hovercard-type="issue" data-hovercard-url="/nvm-sh/nvm/issues/1245/hovercard">here</a></p>
+<p dir="auto">There is one more edge case causing this issue, and that's a <strong>mismatch between the <code class="notranslate">$HOME</code> path and the user's home directory's actual name</strong>.</p>
+<p dir="auto">You have to make sure that the user directory name in <code class="notranslate">$HOME</code> and the user directory name you'd see from running <code class="notranslate">ls /Users/</code> <strong>are capitalized the same way</strong> (<a href="https://github.com/nvm-sh/nvm/issues/2261" data-hovercard-type="issue" data-hovercard-url="/nvm-sh/nvm/issues/2261/hovercard">See this issue</a>).</p>
+<p dir="auto">To change the user directory and/or account name follow the instructions <a href="https://support.apple.com/en-us/HT201548" rel="nofollow">here</a></p>
+<p dir="auto"><strong>Homebrew makes zsh directories unsecure</strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="zsh compinit: insecure directories, run compaudit for list.
+Ignore insecure directories and continue [y] or abort compinit [n]? y"><pre class="notranslate">zsh compinit: insecure directories, run compaudit <span class="pl-k">for</span> list.
+Ignore insecure directories and <span class="pl-k">continue</span> [y] or abort compinit [n]<span class="pl-k">?</span> y</pre></div>
+<p dir="auto">Homebrew causes insecure directories like <code class="notranslate">/usr/local/share/zsh/site-functions</code> and <code class="notranslate">/usr/local/share/zsh</code>. This is <strong>not</strong> an <code class="notranslate">nvm</code> problem - it is a homebrew problem. Refer <a href="https://github.com/zsh-users/zsh-completions/issues/680" data-hovercard-type="issue" data-hovercard-url="/zsh-users/zsh-completions/issues/680/hovercard">here</a> for some solutions related to the issue.</p>
+<p dir="auto"><strong>Macs with Apple Silicon chips</strong></p>
+<p dir="auto">Experimental support for the Apple Silicon chip architecture was added in node.js v15.3 and full support was added in v16.0.<br>
+Because of this, if you try to install older versions of node as usual, you will probably experience either compilation errors when installing node or out-of-memory errors while running your code.</p>
+<p dir="auto">So, if you want to run a version prior to v16.0 on an Apple Silicon Mac, it may be best to compile node targeting the <code class="notranslate">x86_64</code> Intel architecture so that Rosetta 2 can translate the <code class="notranslate">x86_64</code> processor instructions to ARM-based Apple Silicon instructions.<br>
+Here's what you will need to do:</p>
+<ul dir="auto">
+<li>
+<p dir="auto">Install Rosetta, if you haven't already done so</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ softwareupdate --install-rosetta"><pre class="notranslate">$ softwareupdate --install-rosetta</pre></div>
+<p dir="auto">You might wonder, "how will my Apple Silicon Mac know to use Rosetta for a version of node compiled for an Intel chip?".<br>
+If an executable contains only Intel instructions, macOS will automatically use Rosetta to translate the instructions.</p>
+</li>
+<li>
+<p dir="auto">Open a shell that's running using Rosetta</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ arch -x86_64 zsh"><pre class="notranslate">$ arch -x86_64 zsh</pre></div>
+<p dir="auto">Note: This same thing can also be accomplished by finding the Terminal or iTerm App in Finder, right clicking, selecting "Get Info", and then checking the box labeled "Open using Rosetta".</p>
+<p dir="auto">Note: This terminal session is now running in <code class="notranslate">zsh</code>.<br>
+If <code class="notranslate">zsh</code> is not the shell you typically use, <code class="notranslate">nvm</code> may not be <code class="notranslate">source</code>'d automatically like it probably is for your usual shell through your dotfiles.<br>
+If that's the case, make sure to source <code class="notranslate">nvm</code>.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ source &quot;${NVM_DIR}/nvm.sh&quot;"><pre class="notranslate">$ <span class="pl-c1">source</span> <span class="pl-s"><span class="pl-pds">"</span><span class="pl-smi">${NVM_DIR}</span>/nvm.sh<span class="pl-pds">"</span></span></pre></div>
+</li>
+<li>
+<p dir="auto">Install whatever older version of node you are interested in. Let's use 12.22.1 as an example.<br>
+This will fetch the node source code and compile it, which will take several minutes.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ nvm install v12.22.1 --shared-zlib"><pre class="notranslate">$ nvm install v12.22.1 --shared-zlib</pre></div>
+<p dir="auto">Note: You're probably curious why <code class="notranslate">--shared-zlib</code> is included.<br>
+There's a bug in recent versions of Apple's system <code class="notranslate">clang</code> compiler.<br>
+If one of these broken versions is installed on your system, the above step will likely still succeed even if you didn't include the <code class="notranslate">--shared-zlib</code> flag.<br>
+However, later, when you attempt to <code class="notranslate">npm install</code> something using your old version of node.js, you will see <code class="notranslate">incorrect data check</code> errors.<br>
+If you want to avoid the possible hassle of dealing with this, include that flag.<br>
+For more details, see <a href="https://github.com/nodejs/node/issues/39313" data-hovercard-type="issue" data-hovercard-url="/nodejs/node/issues/39313/hovercard">this issue</a> and <a href="https://github.com/nodejs/node/issues/39313#issuecomment-90.40.376" data-hovercard-type="issue" data-hovercard-url="/nodejs/node/issues/39313/hovercard">this comment</a></p>
+</li>
+<li>
+<p dir="auto">Exit back to your native shell.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ exit
+$ arch
+arm64"><pre class="notranslate">$ <span class="pl-c1">exit</span>
+$ arch
+arm64</pre></div>
+<p dir="auto">Note: If you selected the box labeled "Open using Rosetta" rather than running the CLI command in the second step, you will see <code class="notranslate">i386</code> here.<br>
+Unless you have another reason to have that box selected, you can deselect it now.</p>
+</li>
+<li>
+<p dir="auto">Check to make sure the architecture is correct. <code class="notranslate">x64</code> is the abbreviation for <code class="notranslate">x86_64</code>, which is what you want to see.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ node -p process.arch
+x64"><pre class="notranslate">$ node -p process.arch
+x64</pre></div>
+</li>
+</ul>
+<p dir="auto">Now you should be able to use node as usual.</p>
+<h2 dir="auto">WSL Troubleshooting</h2>
+<p dir="auto">If you've encountered this error on WSL-2:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                Dload  Upload  Total   Spent    Left  Speed
+0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0curl: (6) Could not resolve host: raw.githubusercontent.com"><pre class="notranslate">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh <span class="pl-k">|</span> bash
+% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                Dload  Upload  Total   Spent    Left  Speed
+0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0curl: (6) Could not resolve host: raw.githubusercontent.com</pre></div>
+<p dir="auto">It may be due to your antivirus, VPN, or other reasons.</p>
+<p dir="auto">Where you can <code class="notranslate">ping 8.8.8.8</code> while you can't <code class="notranslate">ping google.com</code></p>
+<p dir="auto">This could simply be solved by running this in your root directory:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="sudo rm /etc/resolv.conf
+sudo bash -c 'echo &quot;nameserver 8.8.8.8&quot; &gt; /etc/resolv.conf'
+sudo bash -c 'echo &quot;[network]&quot; &gt; /etc/wsl.conf'
+sudo bash -c 'echo &quot;generateResolvConf = false&quot; &gt;&gt; /etc/wsl.conf'
+sudo chattr +i /etc/resolv.conf"><pre class="notranslate">sudo rm /etc/resolv.conf
+sudo bash -c <span class="pl-s"><span class="pl-pds">'</span>echo "nameserver 8.8.8.8" &gt; /etc/resolv.conf<span class="pl-pds">'</span></span>
+sudo bash -c <span class="pl-s"><span class="pl-pds">'</span>echo "[network]" &gt; /etc/wsl.conf<span class="pl-pds">'</span></span>
+sudo bash -c <span class="pl-s"><span class="pl-pds">'</span>echo "generateResolvConf = false" &gt;&gt; /etc/wsl.conf<span class="pl-pds">'</span></span>
+sudo chattr +i /etc/resolv.conf</pre></div>
+<p dir="auto">This deletes your <code class="notranslate">resolv.conf</code> file that is automatically generated when you run WSL, creates a new file and puts <code class="notranslate">nameserver 8.8.8.8</code>, then creates a <code class="notranslate">wsl.conf</code> file and adds <code class="notranslate">[network]</code> and <code class="notranslate">generateResolveConf = false</code> to prevent auto-generation of that file.</p>
+<p dir="auto">You can check the contents of the file by running:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="cat /etc/resolv.conf"><pre class="notranslate">cat /etc/resolv.conf</pre></div>
+<h2 dir="auto">Maintainers</h2>
+<p dir="auto">Currently, the sole maintainer is <a href="https://github.com/ljharb">@ljharb</a> - more maintainers are quite welcome, and we hope to add folks to the team over time. <a href="./GOVERNANCE.md">Governance</a> will be re-evaluated as the project evolves.</p>
+<h2 dir="auto">Project Support</h2>
+<p dir="auto">Only the latest version (v0.40.3 at this time) is supported.</p>
+<h2 dir="auto">Enterprise Support</h2>
+<p dir="auto">If you are unable to update to the latest version of <code class="notranslate">nvm</code>, our <a href="https://openjsf.org/ecosystem-sustainability-program" rel="nofollow">partners</a> provide commercial security fixes for all unsupported versions:</p>
+<ul dir="auto">
+<li><a href="https://www.herodevs.com/support?utm_source=OpenJS&amp;utm_medium=Link&amp;utm_campaign=nvm_openjs" rel="nofollow">HeroDevs Never-Ending Support</a></li>
+</ul>
+<h2 dir="auto">License</h2>
+<p dir="auto">See <a href="./LICENSE.md">LICENSE.md</a>.</p>
+<h2 dir="auto">Copyright notice</h2>
+<p dir="auto">Copyright <a href="https://openjsf.org" rel="nofollow">OpenJS Foundation</a> and <code class="notranslate">nvm</code> contributors. All rights reserved. The <a href="https://openjsf.org" rel="nofollow">OpenJS Foundation</a> has registered trademarks and uses trademarks.  For a list of trademarks of the <a href="https://openjsf.org" rel="nofollow">OpenJS Foundation</a>, please see our <a href="https://trademark-policy.openjsf.org/" rel="nofollow">Trademark Policy</a> and <a href="https://trademark-list.openjsf.org/" rel="nofollow">Trademark List</a>.  Trademarks and logos not indicated on the <a href="https://trademark-list.openjsf.org" rel="nofollow">list of OpenJS Foundation trademarks</a> are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.<br>
+<a href="https://openjsf.org/" rel="nofollow">The OpenJS Foundation</a> | <a href="https://terms-of-use.openjsf.org/" rel="nofollow">Terms of Use</a> | <a href="https://privacy-policy.openjsf.org/" rel="nofollow">Privacy Policy</a> | <a href="https://bylaws.openjsf.org/" rel="nofollow">Bylaws</a> | <a href="https://code-of-conduct.openjsf.org" rel="nofollow">Code of Conduct</a> | <a href="https://trademark-policy.openjsf.org/" rel="nofollow">Trademark Policy</a> | <a href="https://trademark-list.openjsf.org/" rel="nofollow">Trademark List</a> | <a href="https://www.linuxfoundation.org/cookies/" rel="nofollow">Cookie Policy</a></p></div></div></div><div class="gg-issues-prev-next"><a class="prev" href="/issues/407"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M2 3h17a2 2 0 0 1 2 2v4h-2V5H2v14h17v-4h2v4a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m15 12v-2h7v-2h-7V9l-4 3l4 3M4 13h7v-2H4v2m0-4h7V7H4v2m0 8h4v-2H4v2Z"/></svg>coreybutler/nvm-windows: 用于 Windows 系统中多个 Node 版本的管理与切换</span></a><a class="next" href="/issues/409"><span>keyval-dev/odigos: 分布式跟踪，无需更改代码。🚀 使用 OpenTelemetry 和 eBPF 即时监控任何应用程序<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M22 3H5a2 2 0 0 0-2 2v4h2V5h17v14H5v-4H3v4a2 2 0 0 0 2 2h17a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2M7 15v-2H0v-2h7V9l4 3l-4 3m13-2h-7v-2h7v2m0-4h-7V7h7v2m-3 8h-4v-2h4v2Z"/></svg></span></a></div><div class="answer-content"><div class="comments"></div></div></div></div></main><footer><div class="license"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img style="width:60px;height:21px" src="/static/license-83d755bd405fbe51c87dc088baf26299.svg" alt="License"/></a></div><div class="copyright"><span>Copyright ©<!-- --> <!-- -->2025<!-- -->-present</span><a class="owner" href="https://github.com/awesome-ops/awesome-ops.github.io" target="_blank">awesome-ops/awesome-ops.github.io</a>.</div><span class="powered">Powered by<a class="owner" title="GG (Gatsby + GitHub) - A gatsby website builder based on github discussions" href="https://github.com/lencx/gg" target="_blank">gg</a></span></footer></div><div id="gg-backtop" class="hide"><svg viewBox="0 0 98 125" xmlns="http://www.w3.org/2000/svg"><path d="m.41627505 120.505813c.36557376-2.799314 38.38567845-112.09375627 40.40633855-116.52273479 2.0206601-4.42897853 7.0443939-6.06190829 10.0049342.20172081 1.9736935 4.17575274 17.3630227 42.22464148 46.1679874 114.14666598.3068629 1.030234.4237748 1.755017.3507358 2.174348-.4483666 2.574161-2.3292736 3.429521-4.6125739 2.516093-15.0683018-6.028033-36.2681037-23.1692513-43.8663627-23.1692513-7.5982589 0-27.0568176 12.9171643-43.18383202 23.1692513-.96511235.613531-1.91473089 1.069619-2.88840599 1.149501s-2.74439509-.86628-2.37882134-3.665594z" fill="var(--gg-icon)" fill-rule="evenodd"></path></svg></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/issues/408";window.___webpackCompilationHash="24ed58306e97f1c1f657";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-97dd130bca8800dece7d.js"],"app":["/app-7383f855f15f63329e5f.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-2d05d9e504a620062115.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-408674d1ce0d96365c3f.js"],"component---src-templates-archives-tsx":["/component---src-templates-archives-tsx-06d205e572129bb8618c.js"],"component---src-templates-issues-tsx":["/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js"],"component---src-templates-labels-category-tsx":["/component---src-templates-labels-category-tsx-5456164ce90934624119.js"],"component---src-templates-labels-tsx":["/component---src-templates-labels-tsx-ee7b95bd8aa06617f372.js"],"component---src-templates-nav-category-tsx":["/component---src-templates-nav-category-tsx-91c7d8cb3880e3e0fda2.js"],"component---src-templates-nav-labels-tsx":["/component---src-templates-nav-labels-tsx-ae07fd835c5a914973d3.js"]};/*]]>*/</script><script src="/polyfill-97dd130bca8800dece7d.js" nomodule=""></script><script src="/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js" async=""></script><script src="/fc369a2ef6459b03f38591687cef4a587495c716-f468df31cbdaf6ffa970.js" async=""></script><script src="/app-7383f855f15f63329e5f.js" async=""></script><script src="/framework-86c8a5417e68dc3cefff.js" async=""></script><script src="/webpack-runtime-4fee7405b8a071e8c34e.js" async=""></script></body></html>

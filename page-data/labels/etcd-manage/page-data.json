@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/etcd-manage",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"etcd-manage/etcd-manage-server: 用 Golang 编写的 etcd 管理工具，具有友好的界面，管理key就像管理本地文件一样方便，支持简单权限管理区分只读和读写权限","number":161}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7WI9Q","name":"etcd-manage","color":"3e9515","description":null},"name":"etcd-manage","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/tiny-craft",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"tiny-craft/tiny-rdm: 一款现代轻量级跨平台 Redis 桌面管理器，适用于 Mac、Windows 和 Linux。颜值高，功能丰富。","number":565}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9iGqQ","name":"tiny-craft","color":"7ab8bc","description":null},"name":"tiny-craft","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

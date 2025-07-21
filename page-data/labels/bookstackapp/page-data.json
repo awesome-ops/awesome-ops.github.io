@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/bookstackapp",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"BookStackApp/BookStack: 使用 PHP 和 Laravel 构建的创建文档/wiki 内容的平台","number":54}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7T_zw","name":"BookStackApp","color":"4abaec","description":null},"name":"BookStackApp","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

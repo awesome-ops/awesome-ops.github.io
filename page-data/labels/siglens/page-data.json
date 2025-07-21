@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/siglens",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"siglens/siglens: 一个部署简单，易于使用的日志和指标系统。","number":512}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9hmqA","name":"siglens","color":"788335","description":null},"name":"siglens","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

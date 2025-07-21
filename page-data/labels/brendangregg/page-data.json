@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/brendangregg",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"brendangregg/perf-tools: Linux 性能分析工具集合","number":433}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7b7lw","name":"brendangregg","color":"b12856","description":null},"name":"brendangregg","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

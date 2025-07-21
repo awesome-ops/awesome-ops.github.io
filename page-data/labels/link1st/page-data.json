@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/link1st",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"link1st/go-stress-testing: Golang 实现的压测工具","number":206}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7XGRA","name":"link1st","color":"4c2299","description":null},"name":"link1st","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

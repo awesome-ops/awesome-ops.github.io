@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/polarismesh",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"polarismesh/polaris: 支持多语言和多框架的服务发现和治理平台，致力于解决分布式和微服务架构中的服务管理、流量管理、故障容错、配置管理和可观测性问题","number":448}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7cPOQ","name":"polarismesh","color":"316077","description":null},"name":"polarismesh","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

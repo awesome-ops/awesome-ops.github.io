@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/puppetlabs",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"puppetlabs/puppet: 服务器自动化框架和应用程序","number":461}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7ch8w","name":"puppetlabs","color":"aaaa6a","description":null},"name":"puppetlabs","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

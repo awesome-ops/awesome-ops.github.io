@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/juanfont",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"juanfont/headscale: Tailscale控制服务器的开源、自托管实现","number":223}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7XctQ","name":"juanfont","color":"1ea777","description":null},"name":"juanfont","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/配置及服务发现",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"apolloconfig/apollo: Apollo（阿波罗）是一款可靠的分布式配置管理中心，诞生于携程框架研发部，能够集中化管理应用不同环境、不同集群的配置，配置修改后能够实时推送到应用端，并且具备规范的权限、流程治理等特性，适用于微服务配置管理场景。","number":30}},{"node":{"title":"hashicorp/consul: 一种分布式、高可用性和数据中心感知的解决方案，用于跨动态分布式基础设施连接和配置应用程序。","number":97}},{"node":{"title":"etcd-io/etcd: 用于分布式系统中最关键数据的分布式可靠键值存储","number":164}},{"node":{"title":"alibaba/nacos: 一个易于使用的动态服务发现、配置和服务管理平台，用于构建云原生应用程序。","number":386}},{"node":{"title":"apache/zookeeper: 一个集中式服务，用于维护配置信息、命名、提供分布式同步以及提供组服务。","number":631}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7ThgQ","name":"配置及服务发现","color":"5b7cda","description":null},"name":"配置及服务发现","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

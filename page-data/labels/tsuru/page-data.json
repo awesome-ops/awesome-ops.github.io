@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/tsuru",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"tsuru/tsuru: 这是一个开源并且具备扩展性的平台即服务 (PaaS)。","number":580}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9iQ2w","name":"tsuru","color":"51eb66","description":null},"name":"tsuru","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

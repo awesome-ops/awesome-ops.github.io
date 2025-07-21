@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/apernet",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"apernet/OpenGFW: OpenGFW 是一个 Linux 上灵活、易用、开源的 GFW 实现，并且在许多方面比真正的 GFW 更强大","number":417}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7bm7w","name":"apernet","color":"cc09cd","description":null},"name":"apernet","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

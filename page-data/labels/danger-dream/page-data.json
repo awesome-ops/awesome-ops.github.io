@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/danger-dream",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"danger-dream/ebpf-firewall: 基于 eBPF 技术的高性能网络防火墙系统，具有实时入站流量监控、规则过滤和黑名单管理等功能。","number":145}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7V0WA","name":"danger-dream","color":"bc2ba5","description":null},"name":"danger-dream","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

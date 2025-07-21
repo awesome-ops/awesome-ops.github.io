@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/henrygd",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"henrygd/beszel: 一个轻量级的服务器资源监控中心，具有历史数据、docker 统计信息和警报。","number":49}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7T5Lw","name":"henrygd","color":"5c42e1","description":null},"name":"henrygd","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

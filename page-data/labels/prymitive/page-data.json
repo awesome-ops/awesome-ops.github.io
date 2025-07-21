@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/prymitive",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"prymitive/karma: 一款展示 AlertManager 告警信息的面板，可用于投屏","number":275}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Yn7A","name":"prymitive","color":"6c2b3e","description":null},"name":"prymitive","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

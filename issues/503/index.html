@@ -1,0 +1,822 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/><meta name="theme-color" content="#FFFFFF"/><meta name="generator" content="Gatsby 4.11.3"/><style data-href="/styles.3aaba633489943369223.css" data-identity="gatsby-global-css">@media (prefers-color-scheme:dark){.markdown-body{--color-prettylights-syntax-comment:#8b949e;--color-prettylights-syntax-constant:#79c0ff;--color-prettylights-syntax-entity:#d2a8ff;--color-prettylights-syntax-storage-modifier-import:#c9d1d9;--color-prettylights-syntax-entity-tag:#7ee787;--color-prettylights-syntax-keyword:#ff7b72;--color-prettylights-syntax-string:#a5d6ff;--color-prettylights-syntax-variable:#ffa657;--color-prettylights-syntax-brackethighlighter-unmatched:#f85149;--color-prettylights-syntax-invalid-illegal-text:#f0f6fc;--color-prettylights-syntax-invalid-illegal-bg:#8e1519;--color-prettylights-syntax-carriage-return-text:#f0f6fc;--color-prettylights-syntax-carriage-return-bg:#b62324;--color-prettylights-syntax-string-regexp:#7ee787;--color-prettylights-syntax-markup-list:#f2cc60;--color-prettylights-syntax-markup-heading:#1f6feb;--color-prettylights-syntax-markup-italic:#c9d1d9;--color-prettylights-syntax-markup-bold:#c9d1d9;--color-prettylights-syntax-markup-deleted-text:#ffdcd7;--color-prettylights-syntax-markup-deleted-bg:#67060c;--color-prettylights-syntax-markup-inserted-text:#aff5b4;--color-prettylights-syntax-markup-inserted-bg:#033a16;--color-prettylights-syntax-markup-changed-text:#ffdfb6;--color-prettylights-syntax-markup-changed-bg:#5a1e02;--color-prettylights-syntax-markup-ignored-text:#c9d1d9;--color-prettylights-syntax-markup-ignored-bg:#1158c7;--color-prettylights-syntax-meta-diff-range:#d2a8ff;--color-prettylights-syntax-brackethighlighter-angle:#8b949e;--color-prettylights-syntax-sublimelinter-gutter-mark:#484f58;--color-prettylights-syntax-constant-other-reference-link:#a5d6ff;--color-fg-default:#c9d1d9;--color-fg-muted:#8b949e;--color-fg-subtle:#484f58;--color-canvas-default:#0d1117;--color-canvas-subtle:#161b22;--color-border-default:#30363d;--color-border-muted:#21262d;--color-neutral-muted:hsla(215,8%,47%,.4);--color-accent-fg:#58a6ff;--color-accent-emphasis:#1f6feb;--color-attention-subtle:rgba(187,128,9,.15);--color-danger-fg:#f85149;color-scheme:dark}}@media (prefers-color-scheme:light){.markdown-body{--color-prettylights-syntax-comment:#6e7781;--color-prettylights-syntax-constant:#0550ae;--color-prettylights-syntax-entity:#8250df;--color-prettylights-syntax-storage-modifier-import:#24292f;--color-prettylights-syntax-entity-tag:#116329;--color-prettylights-syntax-keyword:#cf222e;--color-prettylights-syntax-string:#0a3069;--color-prettylights-syntax-variable:#953800;--color-prettylights-syntax-brackethighlighter-unmatched:#82071e;--color-prettylights-syntax-invalid-illegal-text:#f6f8fa;--color-prettylights-syntax-invalid-illegal-bg:#82071e;--color-prettylights-syntax-carriage-return-text:#f6f8fa;--color-prettylights-syntax-carriage-return-bg:#cf222e;--color-prettylights-syntax-string-regexp:#116329;--color-prettylights-syntax-markup-list:#3b2300;--color-prettylights-syntax-markup-heading:#0550ae;--color-prettylights-syntax-markup-italic:#24292f;--color-prettylights-syntax-markup-bold:#24292f;--color-prettylights-syntax-markup-deleted-text:#82071e;--color-prettylights-syntax-markup-deleted-bg:#ffebe9;--color-prettylights-syntax-markup-inserted-text:#116329;--color-prettylights-syntax-markup-inserted-bg:#dafbe1;--color-prettylights-syntax-markup-changed-text:#953800;--color-prettylights-syntax-markup-changed-bg:#ffd8b5;--color-prettylights-syntax-markup-ignored-text:#eaeef2;--color-prettylights-syntax-markup-ignored-bg:#0550ae;--color-prettylights-syntax-meta-diff-range:#8250df;--color-prettylights-syntax-brackethighlighter-angle:#57606a;--color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;--color-prettylights-syntax-constant-other-reference-link:#0a3069;--color-fg-default:#24292f;--color-fg-muted:#57606a;--color-fg-subtle:#6e7781;--color-canvas-default:#fff;--color-canvas-subtle:#f6f8fa;--color-border-default:#d0d7de;--color-border-muted:#d8dee4;--color-neutral-muted:rgba(175,184,193,.2);--color-accent-fg:#0969da;--color-accent-emphasis:#0969da;--color-attention-subtle:#fff8c5;--color-danger-fg:#cf222e;color-scheme:light}}.markdown-body{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;word-wrap:break-word;background-color:var(--color-canvas-default);color:var(--color-fg-default);font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:16px;line-height:1.5;margin:0}.markdown-body h1:hover .anchor .octicon-link:before,.markdown-body h2:hover .anchor .octicon-link:before,.markdown-body h3:hover .anchor .octicon-link:before,.markdown-body h4:hover .anchor .octicon-link:before,.markdown-body h5:hover .anchor .octicon-link:before,.markdown-body h6:hover .anchor .octicon-link:before{background-color:currentColor;content:" ";display:inline-block;height:16px;-webkit-mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');mask-image:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.75.75 0 0 0-1.06-1.06l-1.25 1.25a2 2 0 0 1-2.83 0z"/></svg>');width:16px}.markdown-body details,.markdown-body figcaption,.markdown-body figure{display:block}.markdown-body summary{display:list-item}.markdown-body [hidden]{display:none!important}.markdown-body a{background-color:transparent;color:var(--color-accent-fg);text-decoration:none}.markdown-body a:active,.markdown-body a:hover{outline-width:0}.markdown-body abbr[title]{border-bottom:none;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}.markdown-body b,.markdown-body strong{font-weight:600}.markdown-body dfn{font-style:italic}.markdown-body h1{border-bottom:1px solid var(--color-border-muted);font-size:2em;font-weight:600;margin:.67em 0;padding-bottom:.3em}.markdown-body mark{background-color:var(--color-attention-subtle);color:var(--color-text-primary)}.markdown-body small{font-size:90%}.markdown-body sub,.markdown-body sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}.markdown-body sub{bottom:-.25em}.markdown-body sup{top:-.5em}.markdown-body img{background-color:var(--color-canvas-default);border-style:none;box-sizing:content-box;max-width:100%}.markdown-body code,.markdown-body kbd,.markdown-body pre,.markdown-body samp{font-family:monospace,monospace;font-size:1em}.markdown-body figure{margin:1em 40px}.markdown-body hr{background:transparent;background-color:var(--color-border-default);border:0;box-sizing:content-box;height:.25em;margin:24px 0;overflow:hidden;padding:0}.markdown-body input{font:inherit;font-family:inherit;font-size:inherit;line-height:inherit;margin:0;overflow:visible}.markdown-body [type=button],.markdown-body [type=reset],.markdown-body [type=submit]{-webkit-appearance:button}.markdown-body [type=button]::-moz-focus-inner,.markdown-body [type=reset]::-moz-focus-inner,.markdown-body [type=submit]::-moz-focus-inner{border-style:none;padding:0}.markdown-body [type=button]:-moz-focusring,.markdown-body [type=reset]:-moz-focusring,.markdown-body [type=submit]:-moz-focusring{outline:1px dotted ButtonText}.markdown-body [type=checkbox],.markdown-body [type=radio]{box-sizing:border-box;padding:0}.markdown-body [type=number]::-webkit-inner-spin-button,.markdown-body [type=number]::-webkit-outer-spin-button{height:auto}.markdown-body [type=search]{-webkit-appearance:textfield;outline-offset:-2px}.markdown-body [type=search]::-webkit-search-cancel-button,.markdown-body [type=search]::-webkit-search-decoration{-webkit-appearance:none}.markdown-body ::-webkit-input-placeholder{color:inherit;opacity:.54}.markdown-body ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}.markdown-body a:hover{text-decoration:underline}.markdown-body hr:after,.markdown-body hr:before{content:"";display:table}.markdown-body hr:after{clear:both}.markdown-body table{border-collapse:collapse;border-spacing:0;display:block;max-width:100%;overflow:auto;width:-webkit-max-content;width:max-content}.markdown-body td,.markdown-body th{padding:0}.markdown-body details summary{cursor:pointer}.markdown-body details:not([open])>:not(summary){display:none!important}.markdown-body kbd{background-color:var(--color-canvas-subtle);border-bottom-color:var(--color-neutral-muted);border:1px solid var(--color-neutral-muted);border-radius:6px;box-shadow:inset 0 -1px 0 var(--color-neutral-muted);color:var(--color-fg-default);display:inline-block;font:11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;line-height:10px;padding:3px 5px;vertical-align:middle}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{font-weight:600;line-height:1.25;margin-bottom:16px;margin-top:24px}.markdown-body h2{border-bottom:1px solid var(--color-border-muted);font-size:1.5em;font-weight:600;padding-bottom:.3em}.markdown-body h3{font-size:1.25em;font-weight:600}.markdown-body h4{font-size:1em;font-weight:600}.markdown-body h5{font-size:.875em;font-weight:600}.markdown-body h6{color:var(--color-fg-muted);font-size:.85em;font-weight:600}.markdown-body p{margin-bottom:10px;margin-top:0}.markdown-body blockquote{border-left:.25em solid var(--color-border-default);color:var(--color-fg-muted);margin:0;padding:0 1em}.markdown-body ol,.markdown-body ul{margin-bottom:0;margin-top:0;padding-left:2em}.markdown-body ol ol,.markdown-body ul ol{list-style-type:lower-roman}.markdown-body ol ol ol,.markdown-body ol ul ol,.markdown-body ul ol ol,.markdown-body ul ul ol{list-style-type:lower-alpha}.markdown-body dd{margin-left:0}.markdown-body code,.markdown-body pre,.markdown-body tt{font-family:ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;font-size:12px}.markdown-body pre{word-wrap:normal;margin-bottom:0;margin-top:0}.markdown-body .octicon{fill:currentColor;display:inline-block;overflow:visible!important;vertical-align:text-bottom}.markdown-body ::-webkit-input-placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body :-ms-input-placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body ::placeholder{color:var(--color-fg-subtle);opacity:1}.markdown-body input::-webkit-inner-spin-button,.markdown-body input::-webkit-outer-spin-button{-webkit-appearance:none;appearance:none;margin:0}.markdown-body .pl-c{color:var(--color-prettylights-syntax-comment)}.markdown-body .pl-c1,.markdown-body .pl-s .pl-v{color:var(--color-prettylights-syntax-constant)}.markdown-body .pl-e,.markdown-body .pl-en{color:var(--color-prettylights-syntax-entity)}.markdown-body .pl-s .pl-s1,.markdown-body .pl-smi{color:var(--color-prettylights-syntax-storage-modifier-import)}.markdown-body .pl-ent{color:var(--color-prettylights-syntax-entity-tag)}.markdown-body .pl-k{color:var(--color-prettylights-syntax-keyword)}.markdown-body .pl-pds,.markdown-body .pl-s,.markdown-body .pl-s .pl-pse .pl-s1,.markdown-body .pl-sr,.markdown-body .pl-sr .pl-cce,.markdown-body .pl-sr .pl-sra,.markdown-body .pl-sr .pl-sre{color:var(--color-prettylights-syntax-string)}.markdown-body .pl-smw,.markdown-body .pl-v{color:var(--color-prettylights-syntax-variable)}.markdown-body .pl-bu{color:var(--color-prettylights-syntax-brackethighlighter-unmatched)}.markdown-body .pl-ii{background-color:var(--color-prettylights-syntax-invalid-illegal-bg);color:var(--color-prettylights-syntax-invalid-illegal-text)}.markdown-body .pl-c2{background-color:var(--color-prettylights-syntax-carriage-return-bg);color:var(--color-prettylights-syntax-carriage-return-text)}.markdown-body .pl-sr .pl-cce{color:var(--color-prettylights-syntax-string-regexp);font-weight:700}.markdown-body .pl-ml{color:var(--color-prettylights-syntax-markup-list)}.markdown-body .pl-mh,.markdown-body .pl-mh .pl-en,.markdown-body .pl-ms{color:var(--color-prettylights-syntax-markup-heading);font-weight:700}.markdown-body .pl-mi{color:var(--color-prettylights-syntax-markup-italic);font-style:italic}.markdown-body .pl-mb{color:var(--color-prettylights-syntax-markup-bold);font-weight:700}.markdown-body .pl-md{background-color:var(--color-prettylights-syntax-markup-deleted-bg);color:var(--color-prettylights-syntax-markup-deleted-text)}.markdown-body .pl-mi1{background-color:var(--color-prettylights-syntax-markup-inserted-bg);color:var(--color-prettylights-syntax-markup-inserted-text)}.markdown-body .pl-mc{background-color:var(--color-prettylights-syntax-markup-changed-bg);color:var(--color-prettylights-syntax-markup-changed-text)}.markdown-body .pl-mi2{background-color:var(--color-prettylights-syntax-markup-ignored-bg);color:var(--color-prettylights-syntax-markup-ignored-text)}.markdown-body .pl-mdr{color:var(--color-prettylights-syntax-meta-diff-range);font-weight:700}.markdown-body .pl-ba{color:var(--color-prettylights-syntax-brackethighlighter-angle)}.markdown-body .pl-sg{color:var(--color-prettylights-syntax-sublimelinter-gutter-mark)}.markdown-body .pl-corl{color:var(--color-prettylights-syntax-constant-other-reference-link);text-decoration:underline}.markdown-body [data-catalyst]{display:block}.markdown-body g-emoji{font-family:Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-size:1em;font-style:normal!important;font-weight:400;line-height:1;vertical-align:-.075em}.markdown-body g-emoji img{height:1em;width:1em}.markdown-body:after,.markdown-body:before{content:"";display:table}.markdown-body:after{clear:both}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body .absent{color:var(--color-danger-fg)}.markdown-body .anchor{float:left;line-height:1;margin-left:-20px;padding-right:4px}.markdown-body .anchor:focus{outline:none}.markdown-body blockquote,.markdown-body details,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-bottom:16px;margin-top:0}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body sup>a:before{content:"["}.markdown-body sup>a:after{content:"]"}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:var(--color-fg-default);vertical-align:middle;visibility:hidden}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}.markdown-body h1 code,.markdown-body h1 tt,.markdown-body h2 code,.markdown-body h2 tt,.markdown-body h3 code,.markdown-body h3 tt,.markdown-body h4 code,.markdown-body h4 tt,.markdown-body h5 code,.markdown-body h5 tt,.markdown-body h6 code,.markdown-body h6 tt{font-size:inherit;padding:0 .2em}.markdown-body ol.no-list,.markdown-body ul.no-list{list-style-type:none;padding:0}.markdown-body ol[type="1"]{list-style-type:decimal}.markdown-body ol[type=a]{list-style-type:lower-alpha}.markdown-body ol[type=i]{list-style-type:lower-roman}.markdown-body div>ol:not([type]){list-style-type:decimal}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-bottom:0;margin-top:0}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dl{padding:0}.markdown-body dl dt{font-size:1em;font-style:italic;font-weight:600;margin-top:16px;padding:0}.markdown-body dl dd{margin-bottom:16px;padding:0 16px}.markdown-body table th{font-weight:600}.markdown-body table td,.markdown-body table th{border:1px solid var(--color-border-default);padding:6px 13px}.markdown-body table tr{background-color:var(--color-canvas-default);border-top:1px solid var(--color-border-muted)}.markdown-body table tr:nth-child(2n){background-color:var(--color-canvas-subtle)}.markdown-body table img{background-color:transparent}.markdown-body img[align=right]{padding-left:20px}.markdown-body img[align=left]{padding-right:20px}.markdown-body .emoji{background-color:transparent;max-width:none;vertical-align:text-top}.markdown-body span.frame{display:block;overflow:hidden}.markdown-body span.frame>span{border:1px solid var(--color-border-default);display:block;float:left;margin:13px 0 0;overflow:hidden;padding:7px;width:auto}.markdown-body span.frame span img{display:block;float:left}.markdown-body span.frame span span{clear:both;color:var(--color-fg-default);display:block;padding:5px 0 0}.markdown-body span.align-center{clear:both;display:block;overflow:hidden}.markdown-body span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}.markdown-body span.align-center span img{margin:0 auto;text-align:center}.markdown-body span.align-right{clear:both;display:block;overflow:hidden}.markdown-body span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}.markdown-body span.align-right span img{margin:0;text-align:right}.markdown-body span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}.markdown-body span.float-left span{margin:13px 0 0}.markdown-body span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}.markdown-body span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}.markdown-body code,.markdown-body tt{background-color:var(--color-neutral-muted);border-radius:6px;font-size:85%;margin:0;padding:.2em .4em}.markdown-body code br,.markdown-body tt br{display:none}.markdown-body del code{text-decoration:inherit}.markdown-body pre code{font-size:100%}.markdown-body pre>code{background:transparent;border:0;margin:0;padding:0;white-space:pre;word-break:normal}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{background-color:var(--color-canvas-subtle);border-radius:6px;font-size:85%;line-height:1.45;overflow:auto;padding:16px}.markdown-body pre code,.markdown-body pre tt{word-wrap:normal;background-color:transparent;border:0;display:inline;line-height:inherit;margin:0;max-width:auto;overflow:visible;padding:0}.markdown-body .csv-data td,.markdown-body .csv-data th{font-size:12px;line-height:1;overflow:hidden;padding:5px;text-align:left;white-space:nowrap}.markdown-body .csv-data .blob-num{background:var(--color-canvas-default);border:0;padding:10px 8px 9px;text-align:right}.markdown-body .csv-data tr{border-top:0}.markdown-body .csv-data th{background:var(--color-canvas-subtle);border-top:0;font-weight:600}.markdown-body .footnotes{border-top:1px solid var(--color-border-default);color:var(--color-fg-muted);font-size:12px}.markdown-body .footnotes ol{padding-left:16px}.markdown-body .footnotes li{position:relative}.markdown-body .footnotes li:target:before{border:2px solid var(--color-accent-emphasis);border-radius:6px;bottom:-8px;content:"";left:-24px;pointer-events:none;position:absolute;right:-8px;top:-8px}.markdown-body .footnotes li:target{color:var(--color-fg-default)}.markdown-body .footnotes .data-footnote-backref g-emoji{font-family:monospace}.markdown-body .task-list-item{list-style-type:none}.markdown-body .task-list-item label{font-weight:400}.markdown-body .task-list-item.enabled label{cursor:pointer}.markdown-body .task-list-item+.task-list-item{margin-top:3px}.markdown-body .task-list-item .handle{display:none}.markdown-body .task-list-item-checkbox{margin:0 .2em .25em -1.6em;vertical-align:middle}.markdown-body .contains-task-list:dir(rtl) .task-list-item-checkbox{margin:0 -1.6em .25em .2em}.markdown-body ::-webkit-calendar-picker-indicator{-webkit-filter:invert(50%);filter:invert(50%)}@font-face{font-family:lab;src:url(/static/lab-b3a92fdc7ccdc8ebf471556b2e7b1018.woff2) format("woff2")}:root{--font-base:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;--layout-header-height:56px;--layout-footer-height:100px;--gg-border:hsla(0,0%,71%,.1)}*{box-sizing:border-box;transition:all .3s ease-out}html.dark{--theme-content-background-color:#232629;--theme-header-background-color:#232629;--theme-footer-background-color:#232629;--theme-text:#d8d8d8;--gg-logo:#d8d8d8;--gg-icon:#75757a}html.light{--theme-content-background-color:#fff;--theme-header-background-color:#fafafa;--theme-footer-background-color:#fefefe;--theme-text:#232629;--gg-logo:#232629;--gg-icon:#a5a5ac}body{font-family:var(--font-base);margin:0;padding:0}.icon-action{cursor:pointer;user-select:none}.page-title{align-items:center;display:flex;font-size:20px;font-weight:700;justify-content:center;margin-bottom:20px;text-align:center}.page-title .icon{margin-right:10px}.text-center{text-align:center}.gg-empty{color:hsla(0,0%,71%,.5);font-size:18px}.dark .markdown-body{--color-prettylights-syntax-comment:#8b949e;--color-prettylights-syntax-constant:#79c0ff;--color-prettylights-syntax-entity:#d2a8ff;--color-prettylights-syntax-storage-modifier-import:#c9d1d9;--color-prettylights-syntax-entity-tag:#7ee787;--color-prettylights-syntax-keyword:#ff7b72;--color-prettylights-syntax-string:#a5d6ff;--color-prettylights-syntax-variable:#ffa657;--color-prettylights-syntax-brackethighlighter-unmatched:#f85149;--color-prettylights-syntax-invalid-illegal-text:#f0f6fc;--color-prettylights-syntax-invalid-illegal-bg:#8e1519;--color-prettylights-syntax-carriage-return-text:#f0f6fc;--color-prettylights-syntax-carriage-return-bg:#b62324;--color-prettylights-syntax-string-regexp:#7ee787;--color-prettylights-syntax-markup-list:#f2cc60;--color-prettylights-syntax-markup-heading:#1f6feb;--color-prettylights-syntax-markup-italic:#c9d1d9;--color-prettylights-syntax-markup-bold:#c9d1d9;--color-prettylights-syntax-markup-deleted-text:#ffdcd7;--color-prettylights-syntax-markup-deleted-bg:#67060c;--color-prettylights-syntax-markup-inserted-text:#aff5b4;--color-prettylights-syntax-markup-inserted-bg:#033a16;--color-prettylights-syntax-markup-changed-text:#ffdfb6;--color-prettylights-syntax-markup-changed-bg:#5a1e02;--color-prettylights-syntax-markup-ignored-text:#c9d1d9;--color-prettylights-syntax-markup-ignored-bg:#1158c7;--color-prettylights-syntax-meta-diff-range:#d2a8ff;--color-prettylights-syntax-brackethighlighter-angle:#8b949e;--color-prettylights-syntax-sublimelinter-gutter-mark:#484f58;--color-prettylights-syntax-constant-other-reference-link:#a5d6ff;--color-fg-default:#c9d1d9;--color-fg-muted:#8b949e;--color-fg-subtle:#484f58;--color-canvas-default:#232629;--color-canvas-subtle:#161b22;--color-border-default:#30363d;--color-border-muted:#21262d;--color-neutral-muted:hsla(215,8%,47%,.4);--color-accent-fg:#58a6ff;--color-accent-emphasis:#1f6feb;--color-attention-subtle:rgba(187,128,9,.15);--color-danger-fg:#f85149;color-scheme:dark}.light .markdown-body{--color-prettylights-syntax-comment:#6e7781;--color-prettylights-syntax-constant:#0550ae;--color-prettylights-syntax-entity:#8250df;--color-prettylights-syntax-storage-modifier-import:#24292f;--color-prettylights-syntax-entity-tag:#116329;--color-prettylights-syntax-keyword:#cf222e;--color-prettylights-syntax-string:#0a3069;--color-prettylights-syntax-variable:#953800;--color-prettylights-syntax-brackethighlighter-unmatched:#82071e;--color-prettylights-syntax-invalid-illegal-text:#f6f8fa;--color-prettylights-syntax-invalid-illegal-bg:#82071e;--color-prettylights-syntax-carriage-return-text:#f6f8fa;--color-prettylights-syntax-carriage-return-bg:#cf222e;--color-prettylights-syntax-string-regexp:#116329;--color-prettylights-syntax-markup-list:#3b2300;--color-prettylights-syntax-markup-heading:#0550ae;--color-prettylights-syntax-markup-italic:#24292f;--color-prettylights-syntax-markup-bold:#24292f;--color-prettylights-syntax-markup-deleted-text:#82071e;--color-prettylights-syntax-markup-deleted-bg:#ffebe9;--color-prettylights-syntax-markup-inserted-text:#116329;--color-prettylights-syntax-markup-inserted-bg:#dafbe1;--color-prettylights-syntax-markup-changed-text:#953800;--color-prettylights-syntax-markup-changed-bg:#ffd8b5;--color-prettylights-syntax-markup-ignored-text:#eaeef2;--color-prettylights-syntax-markup-ignored-bg:#0550ae;--color-prettylights-syntax-meta-diff-range:#8250df;--color-prettylights-syntax-brackethighlighter-angle:#57606a;--color-prettylights-syntax-sublimelinter-gutter-mark:#8c959f;--color-prettylights-syntax-constant-other-reference-link:#0a3069;--color-fg-default:#24292f;--color-fg-muted:#57606a;--color-fg-subtle:#6e7781;--color-canvas-default:#fff;--color-canvas-subtle:#f6f8fa;--color-border-default:#d0d7de;--color-border-muted:#d8dee4;--color-neutral-muted:rgba(175,184,193,.2);--color-accent-fg:#0969da;--color-accent-emphasis:#0969da;--color-attention-subtle:#fff8c5;--color-danger-fg:#cf222e;color-scheme:light}.markdown-body{margin:0 auto;max-width:720px;padding:0 20px 20px}h1{border-bottom:none!important}.gg-logo{text-rendering:optimizelegibility;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;line-height:0;outline:none;text-align:center;text-transform:none;vertical-align:-.125em}.gg-logo,.gg-theme-toggle{cursor:pointer;-webkit-user-select:none;-ms-user-select:none;user-select:none}.gg-nav{height:var(--layout-header-height)}.gg-nav *{transition:none}.gg-nav .icons,.gg-nav .nav-screen nav li{align-items:center;display:flex}.gg-nav .nav-screen nav li{color:var(--gg-icon);cursor:pointer;font-weight:700;list-style:none}@media screen and (max-width:720px){.gg-nav{align-items:center;display:flex}.gg-nav .nav-icon{cursor:pointer;height:24px;overflow:hidden;width:24px}.gg-nav .nav-icon span{background:#999;display:block;height:3px;margin:4px 0;transition:all .3s ease;width:24px}.gg-nav .nav-icon .top{-webkit-transform:translateX(6px);transform:translateX(6px)}.gg-nav .nav-icon .bottom{-webkit-transform:translateX(8px);transform:translateX(8px)}.gg-nav .nav-icon.active .top{-webkit-transform:rotate(225deg) translateY(-5px) translateX(-5px);transform:rotate(225deg) translateY(-5px) translateX(-5px)}.gg-nav .nav-icon.active .middle{-webkit-transform:translateX(24px);transform:translateX(24px)}.gg-nav .nav-icon.active .bottom{-webkit-transform:rotate(135deg) translateY(5px) translateX(-5px);transform:rotate(135deg) translateY(5px) translateX(-5px)}.nav-icon{display:block}.nav-screen{background-color:var(--theme-header-background-color);height:0;left:0;overflow:hidden;position:fixed;top:var(--layout-header-height);transition:height .15s ease-out;width:100%;z-index:1000}.nav-screen>div{padding:20px}.nav-screen.open{height:calc(100vh - var(--layout-header-height))}.nav-screen nav{font-size:16px;text-align:center}.nav-screen nav svg{font-size:24px;margin-right:10px}.nav-screen nav li{justify-content:center;padding:8px 0}.nav-screen .icons{justify-content:center;margin-top:40px}.nav-screen .icons .icon-action{margin:0 10px}}@media screen and (min-width:721px){.nav-icon{display:none}.nav-screen{height:100%;justify-content:space-between}.nav-screen,.nav-screen>div{display:flex}.nav-screen .icons .icon-action{margin:0 5px}.nav-screen nav{margin-right:20px}.nav-screen nav svg{margin-right:4px}.nav-screen nav li{float:left;font-size:14px;height:100%;margin-right:20px}}#gg-backtop{align-items:center;border-radius:50%;bottom:20px;box-shadow:inset 0 0 5px hsla(0,0%,59%,.5);cursor:pointer;display:flex;height:42px;justify-content:center;position:fixed;right:20px;transition:all .5s ease;-webkit-user-select:none;-ms-user-select:none;user-select:none;width:42px}@media screen and (max-width:767px){#gg-backtop{height:36px;width:36px}}#gg-backtop svg{width:50%}#gg-backtop.hide{opacity:0;-webkit-transform:scale(0);transform:scale(0)}#gg-backtop.show{opacity:1;-webkit-transform:scale(1);transform:scale(1)}.gg-container{display:flex;flex-direction:column;min-height:100vh}.gg-container header{align-items:center;background-color:#fff;background-color:var(--theme-header-background-color);border-bottom:1px solid hsla(0,0%,47%,.2);box-shadow:0 1px 2px rgba(0,0,0,.05),0 1px 4px rgba(0,0,0,.05),0 2px 8px rgba(0,0,0,.05);display:flex;height:var(--layout-header-height);justify-content:space-between;padding:0 16px;position:fixed;top:0;width:100%;z-index:999}.gg-container header .imglogo{border:1px solid var(--gg-border);border-radius:8px;cursor:pointer;width:32px}.gg-container main{background-color:var(--theme-content-background-color);min-height:calc(100vh - var(--layout-footer-height));padding-top:80px}.gg-container footer{align-items:center;background-color:var(--theme-footer-background-color);color:#838c95;display:flex;font-size:14px;height:var(--layout-footer-height);justify-content:center;padding:0 10px;position:relative;text-align:center;width:100%}.gg-container footer:after{background:radial-gradient(hsla(0,0%,59%,.6),transparent 80%);content:"";display:block;height:1px;position:absolute;top:0;width:100%}.gg-container footer img{vertical-align:middle}.gg-container footer .owner{color:#3486e2;cursor:pointer;margin-left:5px;text-decoration:none}.gg-container footer .copyright{margin-left:10px}.gg-container footer .powered{margin-left:5px}@media screen and (max-width:720px){.gg-container footer{flex-direction:column}.gg-container footer .copyright,.gg-container footer .powered{margin-left:0;margin-top:5px}}.issues-page h1{text-align:center}.author-info{margin-bottom:3px}.author-info .author{cursor:pointer}.author-info .author .name{font-weight:500}.author-info .author img{border-radius:50%;margin-right:5px;vertical-align:middle;width:30px}.author-info i,.author-info span{font-size:14px}.author-info .date{margin-left:10px;opacity:.4}.author-info .number{float:right;line-height:26px;opacity:.3}.gg-category{background:hsla(0,0%,71%,.3)!important;border-radius:4px;display:inline-block;font-size:10px;font-weight:700;height:18px;line-height:18px;margin-right:10px;padding:0 5px;text-decoration:none!important;vertical-align:middle}.gg-category,.issues-num{color:var(--color-fg-default)!important;cursor:pointer}.issues-num{font-family:lab;font-style:italic;font-variation-settings:"size" 30,"quad" 40,"bevl" 20,"oval" 30;opacity:.6}.home-page .issues-list{max-width:unset}.home-page .issues-list>div{display:flex;flex-wrap:wrap;margin:0 auto;max-width:960px}.home-page .issues-list .author-info{margin-bottom:3px}.home-page .issues-list .author-info .author img{width:24px}.home-page .issues-list .author-info i,.home-page .issues-list .author-info span{font-size:12px}.home-page .issues-list .author-info .number{float:right;line-height:26px;opacity:.3}.home-page .issues-list .post-info .title{font-size:15px;font-weight:700;text-decoration:none;vertical-align:middle}@media screen and (min-width:721px){.home-page .issues-list .item{border:1px solid var(--gg-border);border-radius:5px;margin:0 10px 20px;max-width:100%;min-width:200px;overflow:hidden;width:calc(50% - 20px)}.home-page .issues-list .item .author-info{background-color:var(--gg-border);padding:3px 5px}.home-page .issues-list .item .post-info{padding:5px}}@media screen and (max-width:720px){.home-page .issues-list .item{border-bottom:1px solid hsla(0,0%,59%,.2);padding:15px 0 12px;width:100%}.home-page .issues-list .item .author-info{margin-bottom:5px}}.gg-label{border-radius:4px;border-style:solid;border-width:1px;cursor:pointer;display:inline-block;font-size:12px;height:18px;line-height:17px;overflow:hidden;vertical-align:middle}.gg-label b{color:#fff;padding:0 3px 0 2px}.gg-label b,.gg-label em{display:inline-block;height:100%}.gg-label em{border-bottom-right-radius:3px;border-top-right-radius:3px;color:var(--theme-text);padding:0 3px}.gg-issues-prev-next{align-items:stretch;border:1px solid hsla(0,0%,59%,.3);border-radius:5px;display:flex;margin:30px 0}.gg-issues-prev-next:after{clear:both;content:"";display:block}.gg-issues-prev-next a{flex:1 1;padding:15px 10px;width:50%}.gg-issues-prev-next a>span{align-items:center;display:flex;height:100%}.gg-issues-prev-next a .icon-action{min-width:20px}.gg-issues-prev-next .prev{text-align:left}.gg-issues-prev-next .prev>span{float:left}.gg-issues-prev-next .prev .icon-action{margin-right:5px}.gg-issues-prev-next .next{text-align:right}.gg-issues-prev-next .next>span{float:right}.gg-issues-prev-next .next .icon-action{margin-left:5px}@media screen and (max-width:720px){.gg-issues-prev-next{font-size:14px}}.issues-page h1{font-size:24px}.issues-page h1>span{background:linear-gradient(180deg,transparent 50%,hsla(0,0%,71%,.5) 0);padding:0 5px}.issues-page h1 .issues-num{font-size:18px;margin-right:10px}.issues-page .widget{margin-bottom:20px;text-align:center}.issues-page .gg-label{margin:2px 4px}.issues-page .ques-content{display:flex;margin-top:5px;min-height:120px}.issues-page .ques-content .quesicon{margin-right:3px}.issues-page .ques-content .quescontent{width:100%}.issues-page .vote{align-items:center;display:flex;flex-direction:column;font-style:normal}.issues-page .answer-content .answericon{background-color:hsla(0,0%,71%,.3);border-radius:5px;margin-bottom:20px;padding:5px 0 0;text-align:center}.issues-page .comments-item{border-left:1px solid hsla(0,0%,71%,.3);padding-bottom:1px;padding-left:3px}.issues-page .comments-item-content{margin-left:20px}.labels-category-page .gg-label-category-head{margin-bottom:20px;position:-webkit-sticky;position:sticky;top:56px}.labels-category-page .category-group{display:flex;width:100%}.labels-category-page .category-group .label-category{color:#fff;cursor:pointer;display:inline-block;font-weight:700;height:36px;line-height:36px;padding:0 10px;text-shadow:0 1px 1px rgba(80,80,80,.5)}.labels-category-page .category-group .label-category.active{color:#000}.labels-category-page .level-group .label-level{background-color:#000;color:#fff;cursor:pointer;display:inline-block;font-size:16px;font-size:14px;height:24px;line-height:24px;margin-right:1px;opacity:.5;padding:0 10px}.labels-category-page .level-group .label-level.active{opacity:1}.labels-category-page .level-group .label-level.level1{background-color:#3c3c3c}.labels-category-page .level-group .label-level.level2{background-color:#555}.labels-category-page .level-group .label-level.level3{background-color:#6f6f6f}.labels-category-page .level-group .label-level.level4{background-color:#888}.labels-category-page .level-group .label-level.level5{background-color:#a2a2a2}.labels-category-page .issues-list .item{background-color:var(--gg-border);border-radius:5px;margin-bottom:10px;padding:10px}.labels-category-page .issues-list .item .label-issue{margin-right:10px}.labels-category-page .issues-list .labels-list{font-size:12px;margin-top:4px}.labels-category-page .issues-list .labels-list .gg-label{margin-bottom:4px;margin-right:4px}.labels-category-page .issues-list .post-info{font-weight:700;margin-top:5px}.issues-list .issues-item{align-items:baseline;display:flex;margin-bottom:10px;text-align:left}.issues-list .issues-item .issues-num{font-size:12px;margin-right:10px}.issues-list .issues-item .title{font-weight:700}.labels-page{text-align:center}.labels-page .markdown-body{display:inline-block}.labels-page .labels-head{border-radius:5px;color:#fff;cursor:pointer;display:block;font-weight:700;margin-bottom:20px;padding:5px 10px;text-shadow:0 1px 2px #000}.labels-page .labels-head:hover{text-decoration:none!important}.labels-page .label-desc{font-weight:700;opacity:.5}.nav-category-page .gg-category{font-size:14px;font-weight:700;height:36px;line-height:36px;margin:10px;padding:0 12px}.nav-labels-page .gg-label{font-size:16px;font-weight:700;height:30px;line-height:29px;margin:5px}.nav-labels-page .gg-label b,.nav-labels-page .gg-label em{padding:0 10px}</style><link rel="icon" href="/favicon-32x32.png?v=fdd225e9135e951b972a3dc20604182e" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=fdd225e9135e951b972a3dc20604182e"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=fdd225e9135e951b972a3dc20604182e"/><link as="script" rel="preload" href="/webpack-runtime-4fee7405b8a071e8c34e.js"/><link as="script" rel="preload" href="/framework-86c8a5417e68dc3cefff.js"/><link as="script" rel="preload" href="/app-7383f855f15f63329e5f.js"/><link as="script" rel="preload" href="/fc369a2ef6459b03f38591687cef4a587495c716-f468df31cbdaf6ffa970.js"/><link as="script" rel="preload" href="/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js"/><link as="fetch" rel="preload" href="/page-data/issues/503/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/151096407.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2861350382.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/><script>
+(function() {
+  window.__onThemeChange = function() {};
+  function setTheme(newTheme) {
+    window.__theme = newTheme;
+    preferredTheme = newTheme;
+    document.querySelector('html').className = newTheme;
+    window.__onThemeChange(newTheme);
+  }
+  var preferredTheme;
+  try {
+    preferredTheme = localStorage.getItem('theme');
+  } catch (err) { }
+  window.__setPreferredTheme = function(newTheme) {
+    setTheme(newTheme);
+    try {
+      localStorage.setItem('theme', newTheme);
+    } catch (err) {}
+  }
+  var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  darkQuery.addListener(function(e) {
+    window.__setPreferredTheme(e.matches ? 'dark' : 'light')
+  });
+
+  setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
+})()</script></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="gg-container issues-page"><header><img class="imglogo" src="/static/logo-fe174465633f84724b37eea28a42c520.png" alt="logo"/><div class="gg-nav"><span class="nav-icon"><span class="top"></span><span class="middle"></span><span class="bottom"></span></span><div class="nav-screen"><div><nav><li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M5.5 9A1.5 1.5 0 0 0 7 7.5A1.5 1.5 0 0 0 5.5 6A1.5 1.5 0 0 0 4 7.5A1.5 1.5 0 0 0 5.5 9m11.91 2.58c.36.36.59.86.59 1.42c0 .55-.22 1.05-.59 1.41l-5 5a1.996 1.996 0 0 1-2.83 0l-6.99-6.99C2.22 12.05 2 11.55 2 11V6c0-1.11.89-2 2-2h5c.55 0 1.05.22 1.41.58l7 7m-3.87-5.87l1-1l6.87 6.87c.37.36.59.87.59 1.42c0 .55-.22 1.05-.58 1.41l-5.38 5.38l-1-1L20.75 13l-7.21-7.29Z"/></svg>Labels</li><li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M3 3h18v4H3V3m1 5h16v13H4V8m5.5 3a.5.5 0 0 0-.5.5V13h6v-1.5a.5.5 0 0 0-.5-.5h-5Z"/></svg>Archives</li></nav><div class="icons"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="gg-theme-toggle icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="m3.55 18.54l1.41 1.41l1.8-1.79l-1.42-1.42M11 22.45h2V19.5h-2m1-14a6 6 0 0 0-6 6a6 6 0 0 0 6 6a6 6 0 0 0 6-6c0-3.32-2.69-6-6-6m8 7h3v-2h-3m-2.76 7.66l1.8 1.79l1.41-1.41l-1.79-1.8m1.79-12.28l-1.41-1.41l-1.8 1.79l1.42 1.42M13 .55h-2V3.5h2m-9 7H1v2h3m2.76-7.66l-1.8-1.79l-1.41 1.41l1.79 1.8l1.42-1.42Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1Z"/></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" style="color:var(--gg-icon)" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg></div></div></div></div></header><main><div class="content"><div class="markdown-body"><h1><span><a class="number issues-num" href="https://github.com/awesome-ops/awesome-ops.github.io/issues/503" target="_blank">#503</a><span>bitnami-labs/sealed-secrets: 一款 Kubernetes 控制器並用于实现单向加密 Secrets 的工具</span></span></h1><div class="widget"><a class="gg-label" style="border-color:#25B472" href="/labels/更多"><b style="background:#25B472">#</b><em>更多</em></a><a class="gg-label" style="border-color:#2d411a" href="/labels/k8s-tools"><b style="background:#2d411a">#</b><em>K8S-Tools</em></a><a class="gg-label" style="border-color:#4ae529" href="/labels/bitnami-labs"><b style="background:#4ae529">#</b><em>bitnami-labs</em></a></div><div><div class="author-info"><span class="author" title="https://github.com/eryajf"><img src="https://avatars.githubusercontent.com/u/33259379?u=e4a4090a38ac2473aaed4ef9945233636776c6c3&amp;v=4" alt="eryajf"/><span>eryajf</span></span><i class="date">2025/05/22</i></div><div class="ques-content"><div class="quescontent"><div align="center" dir="auto">
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966"><img src="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966" width="100%" height="3" data-animated-image="" data-canonical-src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" style="max-width: 100%; height: auto; max-height: 3px;"></a><br><br></p>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th align="right">Repos</th>
+<th align="left"><a href="https://github.com/bitnami-labs/sealed-secrets">bitnami-labs/sealed-secrets</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right"><strong>Views</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/18d0060ca14a07e6e403fdb9868638e2bd85ed5d0b0c536ca884b4f2cc2df7c9/68747470733a2f2f76696577732e77686174696c656172656e65642e746f6461792f76696577732f6769746875622f6269746e616d692d6c6162732f7365616c65642d736563726574732e737667" alt="views" data-canonical-src="https://views.whatilearened.today/views/github/bitnami-labs/sealed-secrets.svg" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>Stars</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/60d88b97c9543195813f05f71e150a6222a20965a606ac331ec1fdabdc2d1159/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f6269746e616d692d6c6162732f7365616c65642d736563726574733f636f6c6f723d663266303864266c6f676f3d556e64657274616c65266c6f676f436f6c6f723d656234363330" alt="stars" data-canonical-src="https://img.shields.io/github/stars/bitnami-labs/sealed-secrets?color=f2f08d&amp;logo=Undertale&amp;logoColor=eb4630" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>Forks</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/c444171250e40b961900a8f86a0461931b9ef91d65a12582852b867c3f76f39a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f6269746e616d692d6c6162732f7365616c65642d736563726574733f636f6c6f723d626138366562266c6f676f3d48616e647368616b65266c6f676f436f6c6f723d656136616136" alt="forks" data-canonical-src="https://img.shields.io/github/forks/bitnami-labs/sealed-secrets?color=ba86eb&amp;logo=Handshake&amp;logoColor=ea6aa6" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>License</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/e19c45c336bfc40cc8590492fd31393562d30bb2333bdf2eb0a23af2be04c1a1/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f6269746e616d692d6c6162732f7365616c65642d736563726574733f6c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e53556845556741414144414141414177434159414141425841766d48414141414358424957584d41414173544141414c457745416d70775941414144336b6c45515652346e4f335953557a5555426748384a726f57567255474a66456d3773584e63534446784d544c327069347348456778654e526f77586770455742445552522532424e414e4f4b4f4b36366f6f4b4a4742586545475263574163455646475152484677516d483525324630774861655748493944554455354c356b6e6568644f62377a66652532423139636e434a47495243516945596c514237594a4979474c38616f73756c565a36695246516a69474b6b7564576735614c6c704f70704e586e665071773555304459524a6d56786a4367464633424c755a476d416f5655694b4541726d583744375553677351706f72674761336748664b34483663754262435644334771683141352532424c6745253242467749656e514d306a6f446f66714c6f48564e7742796d384370546e416d327a51713073676478624964515a556c416b7150415a3664676a303541446f59526f6f66792532466f5869726f376b3551586a4c6f70677a4b69514e6c4c4461716f4967754577426a7a7150355066446a45394479495879493633464d547751464d43567271774e61763451666f52673538514625324266724d485172454b3844546f434d714e4179574e4866786d54526f4c4f726d5352566747744466714345715a4f4851727a6f34706243557341333431365169364551394b476a6345465267484f724f4b6e5536574162396247455459656b4b7843766a546167394534706a653534446b3551503862624d4859762532464333756541654a6b50304f4778422532424a70426e4172595238455951516e6f4e31414e4661426e5050356c385372736559514c303641646b30464a5938484f5761424d6c6541486a683068506f73497a6c6f3876304125324633345a694f6548726130714b52504d5653493774762532423932747725324676687855654252713456454c674d376642714b354770526d6f514c584e7075625475367a6f4e52706754386e5051627138347764253246494375767978694b4871694e41664933774d367549684271476b4c696977414f734b44714f68743749747239567938536a52424557667941627225324668523142667056514664484a42253246423268683778376a36517077435665655951326b72554235436c636a3641326d3067576a25324244306d4c34397a573563517943484c4e37726a6c6d6d6174457958582532464372547a412532466f51785a6b576c39474a5443566f25324279546a3837253242346769504b6376307149486f344156344430565a727251493334706e70524d36357875652532467a417265453425324654253246536f676c664542794d7369517441546c4c3352414a355948725378365a44665337307337754d486842705225324659423573305057366f455270316236253246667252684b3353444c35546965364f515548516c5133735644752532427a50636b397657453973747225324236496a533967486d5750616861444a25324277434b364e494242587348423948796b587378774470686c436d416476706c6162554a4e6e5a504239342532464e7436784f6538587a4562503257684d335741673147756236744825324233513150673337365239713475716c6e6f36676448476a444f5139306562303141484d3672596975554a314f713472344656756a35765239427a4d3957674e764f7977446869495951467667626366774166774d764863615067425041253246447948476a50624e394138616d6562636477416444354e6633373574787165774e5552656f797677424958594c645170576c6877465771745061435044334173467541535636717171496c62304a766b564331464c39576b4c55556c55574b337a585a4c46432532423125324642726f46746f364f7358497545594a5034447a7a5732594656316f4a614141414141456c46546b5375516d4343" alt="license" data-canonical-src="https://img.shields.io/github/license/bitnami-labs/sealed-secrets?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD3klEQVR4nO3YSUzUUBgH8JroWVrUGJfEm7sXNcSDFxMTL2pi4sHEgxeNRowXgpEWBDURR%2BNANOKOK66ooKJGBXeEGRcWAcEVFGQRHFwQmH5%2F0wHaeWHI9DUDU5L5knehdOb7zfe%2B19cnCJGIRCQiEYlQB7YJIyGL8aosulVZ6iRFQjiGKkudWg5aLlpOppNXnfPqw5U0DYRJmVxjCgFF3BLuZGmAoVUiKEArmX7D7USgsQporgGa3gHfK4H6cuBbCVD3Gqh1A5%2BLgE%2BFwIenQM0joDofqLoHVNwBym8CpTnAm2zQq0sgdxbIdQZUlAkqPAZ6dgj05ADoYRoofy%2FoXiro7k5QXjLopgzKiQNlLDaqoIguEwBjzqP5PfDjE9DyIXyI63FMTwQFMCVrqwNav4QfoRg58QF%2BfrMHQrEK8DToCMqNAyWNHfxmTRoLOrmSRVgGtDfqCEqZOHQrzo4pbCUsA3416Qi6EQ9KGjcEFRgHOrOKnU6WAb9bGETYekKxCvjTag9E4pje54Dk5QP8bbMHYv%2FC3ueAeJkP0OGxB%2BJpBnArYR8EYQQnoN1ANFaBnPP5l8SrseYQL06Adk0FJY8HOWaBMleAHjh0hPosIzlo8v0A%2F34ZiOeHra0qKRPMVSI7tv%2B92tw%2FvhxUeBRq4VELgM7fBqK5GpRmoQLXNpubTu6zoNRpgT8nPQbq84wd%2FICuvyxiKHqiNAfI3wM6uIhBqGkLiiwAOsKDqOht7Itr9Vy8SjRBEWfyAbr%2FhR1BfpVQFdHJB%2FB2hh7x7j6QpwCVeeYQ2krUB5Clcj6A2m0gWj%2BD0mL49zW5cQyCHLN7rjlmmatEyXX%2FCrTzA%2FoQxZkWl9GJTCVo%2ByTj87%2B4giPKcv0qIHo4AV4D0VZrrQI34pnpRM65xue%2FzAreE4%2FT%2FSoglfEByMsiQtATlL3RAJ5YHrSx6ZDfS70s7uMHhBpR%2FYB5s0PW6oERp1b6%2FfrRhK3SDL5Tie6OQUHQlQ3sVDu%2BzPck9vWE9str%2B6IjS9gHmWPahaDJ%2BwCK6NIBBXsHB9HykXsxwDphlCmAdvplabUJNnZPB94%2FNt6xOe8XzEbP2WhM3WAg1Gub6tH%2B3Q1Pg376R9q4uqlno6gdHGjDOQ90eb01AHM6rYiuUJ1Oq4r4FVuj5vR9BzM9WgNvOywDhiIYQFvgbcfwAfwMvHcaPgBPA%2FDyHGjPbN9A8amebcdwAdD5Nf375txqewNUReoyvwBIXYLdQpWlhwFWqtPaCPD3AsFuASV6qqqIlb0JvkVC1FL9WkLUUlUWK3zXZLFC%2B1%2FBroFto6OsXIuEYJP4DzzW2YFV1oJaAAAAAElFTkSuQmCC" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>UpdatedAt</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/6dafba7a4c0ec102d7f979c1a3d48cd23fd32c739a211a09bbc6985f516c6efb/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f6269746e616d692d6c6162732f7365616c65642d736563726574733f646973706c61795f74696d657374616d703d636f6d6d6974746572266c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e5355684555674141414234414141416543415941414141374d4b3669414141414358424957584d41414173544141414c457745416d7077594141414648556c45515652346e4c5658375539615678776d3236646c582532466468627825324232253246516e626b7655627264554151674a4a496655444e574454546d4f76314651554661504a346b7573725630314a7431734e70637453327533626f745a746d786439744a5346536f714b71494635625944464c436f76436c656673747a4a387758524c445a4c7a6e6b634f343535376e3364332532466e655a3472454f515a74315771462532423858467234253242664f4c4565326a6f59307a776638546f795a50766a45676b4c592532426b306d6d72584f36644b696e787a476b30666a5430782532425279723055716e6359637a4d317263347451253242497270324c4758646f344e4334567657715453373277716c632532427231334f527269364b6458646e624f484c6c776c7a4a70524b6e3657342532424b36706f4f434e6e494166486a253246253242776168495a4234764b6e715a6630714a704e49716c2532467638545530634e6c3572627963337730516e54703379324c54614a374d314e617844723266526e315370504736476961323174664533345463614f617931694d55564f5146624659714957536f31573854694156616e43306576584f4542375770313448466232327a453566714c4f433545524c515769644e614e49347545636339693768634a6c644868324e57725135674464624f6c7061756d49754c62326174415144506e7a3062384e6257636d785656524a33486d7870536377777a4f4a6d4b44524765384c6c435a444c4739673754496e5631516c376462586256316533675430574b697243466f6d6b5079767758466c5a474a4f6a563625324253743634757564445a4f55354555636f782532464d455144567674364d62634e3237593341797a687633737061557242365a3971724a534f3139657a6a387032704c426b4a792532426343484a7857493567573574636652527a31645531394766476b6f7539505a4f34736d52396a4746777065783444793362766e6d4b79706f74625531335669646a71595a68726a343972764d457425324625324659714c7a396430304e6a57253246637a67796f394f35317a7336614e6c6f354644747530445a675146686c47584a30644241446f4e6864367576703657686f617967374e394c564748386d443462253246486e667455516f4e4734764c51306769784d716c5725324234714f6a744e48446733723166365969525347785279375576714c62395534716b716e78504f4e7661356c447048723125324279794b524e4b57425a793565644d554842326d3572792532422532424551772532427a6766347a6f39253246306f634e3357527a4c4277344a2532424a7950574372716d4967475974554f735744346f785a46516f50556a4770564871493425324661666b51504336665a5165654d31253242764c7549516e6a754257514444437363726d485039656f4e5041744271664f6e5875614b25324268364a45624772732532427076764d6d78654962683836336162565065597953456f39464a48704e4d464a59253242503563575a6b6667374f3174537759436553514c54593345385130392532464256504a556c78516a7368543142736343593032723955445542667643484236367063665041336c794165336e6772332532463437584467614a7a736c7937787741364e5a746c555550437541487161536a5549502532427375653842525741432532464e6651374a5a505a35397330476a3756747049537a34685125324243706658474d4b685a63764c70554b7866574d386f68766637702532464f446a4842666356463849736b383267314648796b63564645253242555a414158343761452532464d6c34504f3530506e75683025324678346e6d637957507364774468427836436d6b4c562532466746446a594b784f4a4f4674623077517949684c39527943774b33414f664947703159464542686e4d4a634c525745624b644b516f55366e63545a6b494544696341792532463831645675454d3552775066657934784f7830496b25324649324e6e466b692532425761664f6f464959466367595a43797864376543556a626334416d46363566742532466b4d686b336f25324235686337734d4a79716a4a45477659466151464972375930775077384246415925324236253242766d6b3377367a7a5275444d6d5a5652736668385274413075455453443775434254364459514e36697665553066706b594c6a453671725672744f78654e4b553954484c5a4a396b4255324a427342685635416976422532466f4b61514e4b675043427744596149665a4334616454684f71463457454e56694c4a77566f586f62664c424b56773637414f6154734c6336355461564b32317651344c613939654b6359673576627873624f627a5451394e37554b4467554f3177446a6944494942736868357a746733396e514d4c535a4248344f7a424f55444551586d323036643366634c67737762585141345068634b336e6873775531427a3877765130395248472532466f597933656a6677424e6d746f59714c4130586741414141424a52553545726b4a676767253344253344266c6162656c3d557064617465644174" alt="last-commit" data-canonical-src="https://img.shields.io/github/last-commit/bitnami-labs/sealed-secrets?display_timestamp=committer&amp;logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHUlEQVR4nLVX7U9aVxwm26dlX%2Fdhbx%2B2%2FQnbkvUbrdUAQgJJIfUDNWDTTmOv1FQUFaPJ4kusrV01Jt1sNpctS2u3botZtmxd9tJSFSoqKqIF5bYDFLCovClefstzJ8wXRLDZLznkcO4557n3d3%2FneZ4rEOQZt1WqF%2B8XFr4%2BfOLEe2joY0zwf8ToyZPvjEgkLY%2Bk0mmrXO6dKinxzGk0fjT0x%2BRyr0UqncYczM1rc4tQ%2BIrp2LGXdo4NC4VvWqTS72wqlc%2Br13ORri6KdXdnbOHLlwlzJpRKn6W4%2BK6poOCNnIAfHj%2F%2BwahIZB4vKnqZf0qJpNIql%2Fv8TU0cNl5rbyc3w0QnTp3y2LTaJ7M1NaxDr2fRn1SpPG6Gia21tfE34TcaOay1iMUVOQFbFYqIWSo1W8TiAVanC0evXOEB7Wp14HFb22zE5fqLOC5ERLQWidNaNI4uEcc9i7hcJldHh2NWrQ5gDdbOlpaumIuLb2atAQDPnz0b8NbWcmxVVRJ3HmxpScwwzOJmKDRGe8LlCZDLG9g7TInV1Ql7dbXbV1e3gT0WKirCFomkPyvwXFlZGJOjV6%2BSt64uudDZOU5EUcox%2FMEQDVvt6MbcN27Y3Ayzhv3spaUrB6Z9qrJSO19ezj8p2pLBkJy%2BcCHJxWI5gW5tcfRRz1dU19GfGkou9PZO4smR9jGFwpex4Dy3bvnmKypotbU13VidjqYZhrj49rvMEt%2F%2FYqLz9d00NjW%2Fczgyo9O51zs6aNlo5FDtu0DZgQFhlGXJ0dBADoNhd6uvp6Whoayg7N9LVGH8mD4b%2FHnftUQoNG4vLQ0gixMqlW%2B4qOjtNHDg3r1f6YiRSGxRy7UvqLb9U4qkqnxPONva5lDpHr1%2ByyKRNKWBZy5edMUHB2m5ry%2B%2BEQw%2Bzgf4zo9%2F0ocN3WRzLBw4J%2BJyPWCrqmIgGYtUOsWD4oxZFQoPUjGpVHqI4%2FafkQPC6fZQeeM1%2BvLuIQnjuBWQDDCscrmHP9eoNPAtBqfOnXuaK%2Bh6JEbGrs%2BpvvMmxeIbh863abVPeYySEo9FJHpNMFJY%2BP5cWZkfg7O1tSwYCeSQLTY3E8Q09%2FBVPJUlxQjshT1BscCY02r9UDUBfvCHB66pcfPA3lyAe3ngr3%2F47XDgaJzsly7xwA6NZtlUUPCuAHqaSjUIP%2Bsue8BRWAC%2FNfQ7JZPZ59s0Gj7VtpISz4hQ%2BCpfXGMKhZcvLpUKxfWM8ohvf7p%2FODjHBfcVF8Isk82g1FHykcVFE%2BUZAAX47aE%2FMl4PO50Pnuh0%2Fx4nmcyWPsdwDhBx6CmkLV%2FgFDjYKxOJOFtb0wQyIhL9RyCwK3AOfIGp1YFEBhnMJcLRWEbKdKQoU6ncTZkIEDicAy%2F81dVuEM5RwPfey4xOx0Ik%2FI2NnFki%2BWafOoFIYFcgYZCyxd7eCUjbc4AmF65ft%2FkMhk3o%2B5hc7sMJyqjJEGvYFaQFIr7Y0wPw8BFAY%2B6%2Bvmk3w6zzRuDMmZVRsfh8RtA0uETSD7uCBT6DYQN6iveU0fpkYLjE6qrVrtOxeNKU9THLZJ9kBU2JBsBhV5AivB%2FoKaQNKgPCBwDYaIfZC4adThOqF4WENViLJwVoXobfLBKVw67AOaTsLc65TaVK21vQ4La99eKcYg5vbxsbObzTQ9N7UKDgUO1wDjiDIIBshh5ztg39nQMLSZBH4OzBOUDEQXm206d3fcLgswbXQA4PhcK3nhswU1Bz8wvQ09RHG%2FoYy3ejfwBNmtoYqLA0XgAAAABJRU5ErkJggg%3D%3D&amp;label=UpdatedAt" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="right"><strong>CreatedAt</strong></td>
+<td align="left"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/ec73531084f6ca1ed9147b1f3353ac9661b353ebbcff5be109c3010b7292516d/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f637265617465642d61742f6269746e616d692d6c6162732f7365616c65642d736563726574733f6c6f676f3d64617461253341696d616765253246706e672533426261736536342532436956424f5277304b47676f414141414e5355684555674141414234414141416543415941414141374d4b3669414141414358424957584d41414173544141414c457745416d7077594141414648556c45515652346e4c5658375539615678776d3236646c582532466468627825324232253246516e626b7655627264554151674a4a496655444e574454546d4f76314651554661504a346b7573725630314a7431734e70637453327533626f745a746d786439744a5346536f714b71494635625944464c436f76436c656673747a4a387758524c445a4c7a6e6b634f343535376e3364332532466e655a3472454f515a74315771462532423858467234253242664f4c4565326a6f59307a776638546f795a50766a45676b4c592532426b306d6d72584f36644b696e787a476b30666a5430782532425279723055716e6359637a4d317263347451253242497270324c4758646f344e4334567657715453373277716c632532427231334f527269364b6458646e624f484c6c776c7a4a70524b6e3657342532424b36706f4f434e6e494166486a253246253242776168495a4234764b6e715a6630714a704e49716c2532467638545530634e6c3572627963337730516e54703379324c54614a374d314e617844723266526e315370504736476961323174664533345463614f617931694d55564f5146624659714957536f31573854694156616e43306576584f4542375770313448466232327a453566714c4f433545524c515769644e614e49347545636339693768634a6c644868324e57725135674464624f6c7061756d49754c62326174415144506e7a3062384e6257636d785656524a33486d7870536377777a4f4a6d4b44524765384c6c435a444c4739673754496e5631516c376462586256316533675430574b697243466f6d6b5079767758466c5a474a4f6a563625324253743634757564445a4f55354555636f782532464d455144567674364d62634e3237593341797a687633737061557242365a3971724a534f3139657a6a387032704c426b4a792532426343484a7857493567573574636652527a31645531394766476b6f7539505a4f34736d52396a4746777065783444793362766e6d4b79706f74625531335669646a71595a68726a343972764d457425324625324659714c7a396430304e6a57253246637a67796f394f35317a7336614e6c6f354644747530445a675146686c47584a30644241446f4e6864367576703657686f617967374e394c564748386d443462253246486e667455516f4e4734764c51306769784d716c5725324234714f6a744e48446733723166365969525347785279375576714c62395534716b716e78504f4e7661356c447048723125324279794b524e4b57425a793565644d554842326d3572792532422532424551772532427a6766347a6f39253246306f634e3357527a4c4277344a2532424a7950574372716d4967475974554f735744346f785a46516f50556a4770564871493425324661666b51504336665a5165654d31253242764c7549516e6a754257514444437363726d485039656f4e5041744271664f6e5875614b25324268364a45624772732532427076764d6d78654962683836336162565065597953456f39464a48704e4d464a59253242503563575a6b6667374f3174537759436553514c54593345385130392532464256504a556c78516a7368543142736343593032723955445542667643484236367063665041336c794165336e6772332532463437584467614a7a736c7937787741364e5a746c555550437541487161536a5549502532427375653842525741432532464e6651374a5a505a35397330476a3756747049537a34685125324243706658474d4b685a63764c70554b7866574d386f68766637702532464f446a4842666356463849736b383267314648796b63564645253242555a414158343761452532464d6c34504f3530506e75683025324678346e6d637957507364774468427836436d6b4c562532466746446a594b784f4a4f4674623077517949684c39527943774b33414f664947703159464542686e4d4a634c525745624b644b516f55366e63545a6b494544696341792532463831645675454d3552775066657934784f7830496b25324649324e6e466b692532425761664f6f464959466367595a43797864376543556a626334416d46363566742532466b4d686b336f25324235686337734d4a79716a4a45477659466151464972375930775077384246415925324236253242766d6b3377367a7a5275444d6d5a5652736668385274413075455453443775434254364459514e36697665553066706b594c6a453671725672744f78654e4b553954484c5a4a396b4255324a427342685635416976422532466f4b61514e4b675043427744596149665a4334616454684f71463457454e56694c4a77566f586f62664c424b56773637414f6154734c6336355461564b32317651344c613939654b6359673576627873624f627a5451394e37554b4467554f3177446a6944494942736868357a746733396e514d4c535a4248344f7a424f55444551586d323036643366634c67737762585141345068634b336e6873775531427a3877765130395248472532466f597933656a6677424e6d746f59714c4130586741414141424a52553545726b4a676767253344253344266c6162656c3d437265617465644174" alt="create-at" data-canonical-src="https://img.shields.io/github/created-at/bitnami-labs/sealed-secrets?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHUlEQVR4nLVX7U9aVxwm26dlX%2Fdhbx%2B2%2FQnbkvUbrdUAQgJJIfUDNWDTTmOv1FQUFaPJ4kusrV01Jt1sNpctS2u3botZtmxd9tJSFSoqKqIF5bYDFLCovClefstzJ8wXRLDZLznkcO4557n3d3%2FneZ4rEOQZt1WqF%2B8XFr4%2BfOLEe2joY0zwf8ToyZPvjEgkLY%2Bk0mmrXO6dKinxzGk0fjT0x%2BRyr0UqncYczM1rc4tQ%2BIrp2LGXdo4NC4VvWqTS72wqlc%2Br13ORri6KdXdnbOHLlwlzJpRKn6W4%2BK6poOCNnIAfHj%2F%2BwahIZB4vKnqZf0qJpNIql%2Fv8TU0cNl5rbyc3w0QnTp3y2LTaJ7M1NaxDr2fRn1SpPG6Gia21tfE34TcaOay1iMUVOQFbFYqIWSo1W8TiAVanC0evXOEB7Wp14HFb22zE5fqLOC5ERLQWidNaNI4uEcc9i7hcJldHh2NWrQ5gDdbOlpaumIuLb2atAQDPnz0b8NbWcmxVVRJ3HmxpScwwzOJmKDRGe8LlCZDLG9g7TInV1Ql7dbXbV1e3gT0WKirCFomkPyvwXFlZGJOjV6%2BSt64uudDZOU5EUcox%2FMEQDVvt6MbcN27Y3Ayzhv3spaUrB6Z9qrJSO19ezj8p2pLBkJy%2BcCHJxWI5gW5tcfRRz1dU19GfGkou9PZO4smR9jGFwpex4Dy3bvnmKypotbU13VidjqYZhrj49rvMEt%2F%2FYqLz9d00NjW%2Fczgyo9O51zs6aNlo5FDtu0DZgQFhlGXJ0dBADoNhd6uvp6Whoayg7N9LVGH8mD4b%2FHnftUQoNG4vLQ0gixMqlW%2B4qOjtNHDg3r1f6YiRSGxRy7UvqLb9U4qkqnxPONva5lDpHr1%2ByyKRNKWBZy5edMUHB2m5ry%2B%2BEQw%2Bzgf4zo9%2F0ocN3WRzLBw4J%2BJyPWCrqmIgGYtUOsWD4oxZFQoPUjGpVHqI4%2FafkQPC6fZQeeM1%2BvLuIQnjuBWQDDCscrmHP9eoNPAtBqfOnXuaK%2Bh6JEbGrs%2BpvvMmxeIbh863abVPeYySEo9FJHpNMFJY%2BP5cWZkfg7O1tSwYCeSQLTY3E8Q09%2FBVPJUlxQjshT1BscCY02r9UDUBfvCHB66pcfPA3lyAe3ngr3%2F47XDgaJzsly7xwA6NZtlUUPCuAHqaSjUIP%2Bsue8BRWAC%2FNfQ7JZPZ59s0Gj7VtpISz4hQ%2BCpfXGMKhZcvLpUKxfWM8ohvf7p%2FODjHBfcVF8Isk82g1FHykcVFE%2BUZAAX47aE%2FMl4PO50Pnuh0%2Fx4nmcyWPsdwDhBx6CmkLV%2FgFDjYKxOJOFtb0wQyIhL9RyCwK3AOfIGp1YFEBhnMJcLRWEbKdKQoU6ncTZkIEDicAy%2F81dVuEM5RwPfey4xOx0Ik%2FI2NnFki%2BWafOoFIYFcgYZCyxd7eCUjbc4AmF65ft%2FkMhk3o%2B5hc7sMJyqjJEGvYFaQFIr7Y0wPw8BFAY%2B6%2Bvmk3w6zzRuDMmZVRsfh8RtA0uETSD7uCBT6DYQN6iveU0fpkYLjE6qrVrtOxeNKU9THLZJ9kBU2JBsBhV5AivB%2FoKaQNKgPCBwDYaIfZC4adThOqF4WENViLJwVoXobfLBKVw67AOaTsLc65TaVK21vQ4La99eKcYg5vbxsbObzTQ9N7UKDgUO1wDjiDIIBshh5ztg39nQMLSZBH4OzBOUDEQXm206d3fcLgswbXQA4PhcK3nhswU1Bz8wvQ09RHG%2FoYy3ejfwBNmtoYqLA0XgAAAABJRU5ErkJggg%3D%3D&amp;label=CreatedAt" style="max-width: 100%;"></a></td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
+<a href="https://github.com/opsre/awesome-ops">
+</a><p dir="auto"><a href="https://github.com/opsre/awesome-ops"><img src="https://camo.githubusercontent.com/b964a36ea4078c39f603d46a29436371c7541a2f26e0228d7b21b9d9805b43d3/68747470733a2f2f736f6369616c6966792e6769742e63692f6f707372652f617765736f6d652d6f70732f696d6167653f6465736372697074696f6e3d3126666f6e743d42697474657226666f726b733d31266973737565733d31266c616e67756167653d31266c6f676f3d6874747073253341253246253246617661746172732e67697468756275736572636f6e74656e742e636f6d25324675253246313838353638303230266e616d653d31266f776e65723d31267061747465726e3d436972637569742b426f6172642670756c6c733d31267374617267617a6572733d31267468656d653d4c69676874" alt="" data-canonical-src="https://socialify.git.ci/opsre/awesome-ops/image?description=1&amp;font=Bitter&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F188568020&amp;name=1&amp;owner=1&amp;pattern=Circuit+Board&amp;pulls=1&amp;stargazers=1&amp;theme=Light" style="max-width: 100%;"></a></p>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966"><img src="https://camo.githubusercontent.com/a15b413168923d02e21292705ceaf86b92675f98e250c5c896a02ba7504a6eae/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f657279616a662f7475406d61696e2f696d672f696d6167655f32303234303432305f3231343430382e676966" width="100%" height="3" data-animated-image="" data-canonical-src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" style="max-width: 100%; height: auto; max-height: 3px;"></a>
+</div>
+<h1 dir="auto">"Sealed Secrets" for Kubernetes</h1>
+<p dir="auto"><a href="#Installation"><img src="https://camo.githubusercontent.com/7bea9a060ed7db92258fec8d3e98bb05db3e2ed5f0b179b3551a605ea0a8b663/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f696e7374616c6c2d646f63732d627269676874677265656e2e737667" alt="" data-canonical-src="https://img.shields.io/badge/install-docs-brightgreen.svg" style="max-width: 100%;"></a><br>
+<a href="https://github.com/bitnami-labs/sealed-secrets/releases/latest"><img src="https://camo.githubusercontent.com/2011657ba9b09ee9cbedf7400f5c9eeacc9afd39fd686c71038faa765edf7874/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f72656c656173652f6269746e616d692d6c6162732f7365616c65642d736563726574732e737667" alt="" data-canonical-src="https://img.shields.io/github/release/bitnami-labs/sealed-secrets.svg" style="max-width: 100%;"></a><br>
+<a href="https://formulae.brew.sh/formula/kubeseal" rel="nofollow"><img src="https://camo.githubusercontent.com/55a2b9ab5f5081a982be5ecd09f05088c951054b068813dd068d572a7e03b9b6/68747470733a2f2f696d672e736869656c64732e696f2f686f6d65627265772f762f6b7562657365616c" alt="" data-canonical-src="https://img.shields.io/homebrew/v/kubeseal" style="max-width: 100%;"></a><br>
+<a href="https://github.com/bitnami-labs/sealed-secrets/actions/workflows/ci.yml"><img src="https://github.com/bitnami-labs/sealed-secrets/actions/workflows/ci.yml/badge.svg" alt="Build Status" style="max-width: 100%;"></a><br>
+<a href="https://github.com/bitnami-labs/sealed-secrets/releases"><img src="https://camo.githubusercontent.com/f05fb23bcb38369df329296a12546d9a761b80f8df8d9f98500b258681f4404e/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f6269746e616d692d6c6162732f7365616c65642d736563726574733f696e636c7564655f70726572656c6561736573266c6162656c3d68656c6d26736f72743d73656d766572" alt="" data-canonical-src="https://img.shields.io/github/v/release/bitnami-labs/sealed-secrets?include_prereleases&amp;label=helm&amp;sort=semver" style="max-width: 100%;"></a><br>
+<a href="https://hub.docker.com/r/bitnami/sealed-secrets-controller" rel="nofollow"><img src="https://camo.githubusercontent.com/5230c040c5c2055871dc861acd5b2dd8c57c5e92bea052b4c6152368e7336b15/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f70756c6c732f6269746e616d692f7365616c65642d736563726574732d636f6e74726f6c6c65722e737667" alt="Download Status" data-canonical-src="https://img.shields.io/docker/pulls/bitnami/sealed-secrets-controller.svg" style="max-width: 100%;"></a><br>
+<a href="https://goreportcard.com/report/github.com/bitnami-labs/sealed-secrets" rel="nofollow"><img src="https://camo.githubusercontent.com/86d619e4082044ab74373222af0dc5f3dce9978604063bb27fd0221a7ce38a5d/68747470733a2f2f676f7265706f7274636172642e636f6d2f62616467652f6769746875622e636f6d2f6269746e616d692d6c6162732f7365616c65642d73656372657473" alt="Go Report Card" data-canonical-src="https://goreportcard.com/badge/github.com/bitnami-labs/sealed-secrets" style="max-width: 100%;"></a><br>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/57494adb4f0997535d1798eeb35db77c7a1de20af527554880707774c028fb32/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f6269746e616d692d6c6162732f7365616c65642d736563726574732f746f74616c2e737667"><img src="https://camo.githubusercontent.com/57494adb4f0997535d1798eeb35db77c7a1de20af527554880707774c028fb32/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f6269746e616d692d6c6162732f7365616c65642d736563726574732f746f74616c2e737667" alt="Downloads" data-canonical-src="https://img.shields.io/github/downloads/bitnami-labs/sealed-secrets/total.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><strong>Problem:</strong> "I can manage all my K8s config in git, except Secrets."</p>
+<p dir="auto"><strong>Solution:</strong> Encrypt your Secret into a SealedSecret, which <em>is</em> safe<br>
+to store - even inside a public repository. The SealedSecret can be<br>
+decrypted only by the controller running in the target cluster and<br>
+nobody else (not even the original author) is able to obtain the<br>
+original Secret from the SealedSecret.</p>
+
+
+<ul dir="auto">
+<li>
+<p dir="auto"><a href="#overview">Overview</a></p>
+<ul dir="auto">
+<li><a href="#sealedsecrets-as-templates-for-secrets">SealedSecrets as templates for secrets</a></li>
+<li><a href="#public-key--certificate">Public key / Certificate</a></li>
+<li><a href="#scopes">Scopes</a></li>
+</ul>
+</li>
+<li>
+<p dir="auto"><a href="#installation">Installation</a></p>
+<ul dir="auto">
+<li><a href="#controller">Controller</a>
+<ul dir="auto">
+<li><a href="#kustomize">Kustomize</a></li>
+<li><a href="#helm-chart">Helm Chart</a></li>
+</ul>
+</li>
+<li><a href="#kubeseal">Kubeseal</a>
+<ul dir="auto">
+<li><a href="#homebrew">Homebrew</a></li>
+<li><a href="#macports">MacPorts</a></li>
+<li><a href="#linux">Linux</a></li>
+<li><a href="#installation-from-source">Installation from source</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p dir="auto"><a href="#upgrade">Upgrade</a></p>
+</li>
+<li>
+<p dir="auto"><a href="#usage">Usage</a></p>
+<ul dir="auto">
+<li><a href="#managing-existing-secrets">Managing existing secrets</a></li>
+<li><a href="#patching-existing-secrets">Patching existing secrets</a></li>
+<li><a href="#update-existing-secrets">Update existing secrets</a></li>
+<li><a href="#raw-mode-experimental">Raw mode (experimental)</a></li>
+<li><a href="#validate-a-sealed-secret">Validate a Sealed Secret</a></li>
+</ul>
+</li>
+<li>
+<p dir="auto"><a href="#secret-rotation">Secret Rotation</a></p>
+<ul dir="auto">
+<li><a href="#sealing-key-renewal">Sealing key renewal</a></li>
+<li><a href="#user-secret-rotation">User secret rotation</a></li>
+<li><a href="#early-key-renewal">Early key renewal</a></li>
+<li><a href="#common-misconceptions-about-key-renewal">Common misconceptions about key renewal</a></li>
+<li><a href="#manual-key-management-advanced">Manual key management (advanced)</a></li>
+<li><a href="#re-encryption-advanced">Re-encryption (advanced)</a></li>
+</ul>
+</li>
+<li>
+<p dir="auto"><a href="#details-advanced">Details (advanced)</a></p>
+<ul dir="auto">
+<li><a href="#crypto">Crypto</a></li>
+</ul>
+</li>
+<li>
+<p dir="auto"><a href="#developing">Developing</a></p>
+</li>
+<li>
+<p dir="auto"><a href="#faq">FAQ</a></p>
+<ul dir="auto">
+<li><a href="#will-you-still-be-able-to-decrypt-if-you-no-longer-have-access-to-your-cluster">Will you still be able to decrypt if you no longer have access to your cluster?</a></li>
+<li><a href="#how-can-i-do-a-backup-of-my-sealedsecrets">How can I do a backup of my SealedSecrets?</a></li>
+<li><a href="#can-i-decrypt-my-secrets-offline-with-a-backup-key">Can I decrypt my secrets offline with a backup key?</a></li>
+<li><a href="#what-flags-are-available-for-kubeseal">What flags are available for kubeseal?</a></li>
+<li><a href="#how-do-i-update-parts-of-jsonyamltoml-file-encrypted-with-sealed-secrets">How do I update parts of JSON/YAML/TOML/.. file encrypted with sealed secrets?</a></li>
+<li><a href="#can-i-bring-my-own-pre-generated-certificates">Can I bring my own (pre-generated) certificates?</a></li>
+<li><a href="#how-to-use-kubeseal-if-the-controller-is-not-running-within-the-kube-system-namespace">How to use kubeseal if the controller is not running within the <code class="notranslate">kube-system</code> namespace?</a></li>
+<li><a href="#how-to-verify-the-images">How to verify the images?</a></li>
+<li><a href="#How-to-use-one-controller-for-a-subset-of-namespaces">How to use one controller for a subset of namespaces</a></li>
+<li><a href="#can-i-configure-the-controller-unseal-retries">Can I configure the controller unseal retries</a></li>
+</ul>
+</li>
+<li>
+<p dir="auto"><a href="#community">Community</a></p>
+<ul dir="auto">
+<li><a href="#related-projects">Related projects</a></li>
+</ul>
+</li>
+</ul>
+
+<h2 dir="auto">Overview</h2>
+<p dir="auto">Sealed Secrets is composed of two parts:</p>
+<ul dir="auto">
+<li>A cluster-side controller / operator</li>
+<li>A client-side utility: <code class="notranslate">kubeseal</code></li>
+</ul>
+<p dir="auto">The <code class="notranslate">kubeseal</code> utility uses asymmetric crypto to encrypt secrets that only the controller can decrypt.</p>
+<p dir="auto">These encrypted secrets are encoded in a <code class="notranslate">SealedSecret</code> resource, which you can see as a recipe for creating<br>
+a secret. Here is how it looks:</p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  name: mysecret
+  namespace: mynamespace
+spec:
+  encryptedData:
+    foo: AgBy3i4OJSWK+PiTySYZZA9rO43cGDEq....."><pre class="notranslate"><span class="pl-ent">apiVersion</span>: <span class="pl-s">bitnami.com/v1alpha1</span>
+<span class="pl-ent">kind</span>: <span class="pl-s">SealedSecret</span>
+<span class="pl-ent">metadata</span>:
+  <span class="pl-ent">name</span>: <span class="pl-s">mysecret</span>
+  <span class="pl-ent">namespace</span>: <span class="pl-s">mynamespace</span>
+<span class="pl-ent">spec</span>:
+  <span class="pl-ent">encryptedData</span>:
+    <span class="pl-ent">foo</span>: <span class="pl-s">AgBy3i4OJSWK+PiTySYZZA9rO43cGDEq.....</span></pre></div>
+<p dir="auto">Once unsealed this will produce a secret equivalent to this:</p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="apiVersion: v1
+kind: Secret
+metadata:
+  name: mysecret
+  namespace: mynamespace
+data:
+  foo: YmFy  # &lt;- base64 encoded &quot;bar&quot;"><pre class="notranslate"><span class="pl-ent">apiVersion</span>: <span class="pl-c1">v1</span>
+<span class="pl-ent">kind</span>: <span class="pl-s">Secret</span>
+<span class="pl-ent">metadata</span>:
+  <span class="pl-ent">name</span>: <span class="pl-s">mysecret</span>
+  <span class="pl-ent">namespace</span>: <span class="pl-s">mynamespace</span>
+<span class="pl-ent">data</span>:
+  <span class="pl-ent">foo</span>: <span class="pl-s">YmFy  </span><span class="pl-c"><span class="pl-c">#</span> &lt;- base64 encoded "bar"</span></pre></div>
+<p dir="auto">This normal <a href="https://kubernetes.io/docs/concepts/configuration/secret/" rel="nofollow">kubernetes secret</a> will appear in the cluster<br>
+after a few seconds you can use it as you would use any secret that you would have created directly (e.g. reference it from a <code class="notranslate">Pod</code>).</p>
+<p dir="auto">Jump to the <a href="#installation">Installation</a> section to get up and running.</p>
+<p dir="auto">The <a href="#usage">Usage</a> section explores in more detail how you craft <code class="notranslate">SealedSecret</code> resources.</p>
+<h3 dir="auto">SealedSecrets as templates for secrets</h3>
+<p dir="auto">The previous example only focused on the encrypted secret items themselves, but the relationship between a <code class="notranslate">SealedSecret</code> custom resource and the <code class="notranslate">Secret</code> it unseals into is similar in many ways (but not in all of them) to the familiar <code class="notranslate">Deployment</code> vs <code class="notranslate">Pod</code>.</p>
+<p dir="auto">In particular, the annotations and labels of a <code class="notranslate">SealedSecret</code> resource are not the same as the annotations of the <code class="notranslate">Secret</code> that gets generated out of it.</p>
+<p dir="auto">To capture this distinction, the <code class="notranslate">SealedSecret</code> object has a <code class="notranslate">template</code> section which encodes all the fields you want the controller to put in the unsealed <code class="notranslate">Secret</code>.</p>
+<p dir="auto">The <a href="https://masterminds.github.io/sprig/" rel="nofollow">Sprig function library</a> is available (except for <code class="notranslate">env</code>, <code class="notranslate">expandenv</code> and <code class="notranslate">getHostByName</code>) in addition to the default Go Text Template functions.</p>
+<p dir="auto">The <code class="notranslate">metadata</code> block is copied as is (the <code class="notranslate">ownerReference</code> field will be updated <a href="#seal-secret-which-can-skip-set-owner-references">unless disabled</a>).</p>
+<p dir="auto">Other secret fields are handled individually. The <code class="notranslate">type</code> and <code class="notranslate">immutable</code> fields are copied, and the <code class="notranslate">data</code> field can be used to <a href="docs/examples/config-template">template complex values</a> on the <code class="notranslate">Secret</code>. All other fields are currently ignored.</p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  name: mysecret
+  namespace: mynamespace
+  annotations:
+    &quot;kubectl.kubernetes.io/last-applied-configuration&quot;: ....
+spec:
+  encryptedData:
+    .dockerconfigjson: AgBy3i4OJSWK+PiTySYZZA9rO43cGDEq.....
+  template:
+    type: kubernetes.io/dockerconfigjson
+    immutable: true
+    # this is an example of labels and annotations that will be added to the output secret
+    metadata:
+      labels:
+        &quot;jenkins.io/credentials-type&quot;: usernamePassword
+      annotations:
+        &quot;jenkins.io/credentials-description&quot;: credentials from Kubernetes"><pre class="notranslate"><span class="pl-ent">apiVersion</span>: <span class="pl-s">bitnami.com/v1alpha1</span>
+<span class="pl-ent">kind</span>: <span class="pl-s">SealedSecret</span>
+<span class="pl-ent">metadata</span>:
+  <span class="pl-ent">name</span>: <span class="pl-s">mysecret</span>
+  <span class="pl-ent">namespace</span>: <span class="pl-s">mynamespace</span>
+  <span class="pl-ent">annotations</span>:
+    <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">kubectl.kubernetes.io/last-applied-configuration</span><span class="pl-pds">"</span></span>: <span class="pl-s">....</span>
+<span class="pl-ent">spec</span>:
+  <span class="pl-ent">encryptedData</span>:
+    <span class="pl-ent">.dockerconfigjson</span>: <span class="pl-s">AgBy3i4OJSWK+PiTySYZZA9rO43cGDEq.....</span>
+  <span class="pl-ent">template</span>:
+    <span class="pl-ent">type</span>: <span class="pl-s">kubernetes.io/dockerconfigjson</span>
+    <span class="pl-ent">immutable</span>: <span class="pl-c1">true</span>
+    <span class="pl-c"><span class="pl-c">#</span> this is an example of labels and annotations that will be added to the output secret</span>
+    <span class="pl-ent">metadata</span>:
+      <span class="pl-ent">labels</span>:
+        <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">jenkins.io/credentials-type</span><span class="pl-pds">"</span></span>: <span class="pl-s">usernamePassword</span>
+      <span class="pl-ent">annotations</span>:
+        <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">jenkins.io/credentials-description</span><span class="pl-pds">"</span></span>: <span class="pl-s">credentials from Kubernetes</span></pre></div>
+<p dir="auto">The controller would unseal that into something like:</p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="apiVersion: v1
+kind: Secret
+metadata:
+  name: mysecret
+  namespace: mynamespace
+  labels:
+    &quot;jenkins.io/credentials-type&quot;: usernamePassword
+  annotations:
+    &quot;jenkins.io/credentials-description&quot;: credentials from Kubernetes
+  ownerReferences:
+  - apiVersion: bitnami.com/v1alpha1
+    controller: true
+    kind: SealedSecret
+    name: mysecret
+    uid: 5caff6a0-c9ac-11e9-881e-42010aac003e
+type: kubernetes.io/dockerconfigjson
+immutable: true
+data:
+  .dockerconfigjson: ewogICJjcmVk..."><pre class="notranslate"><span class="pl-ent">apiVersion</span>: <span class="pl-c1">v1</span>
+<span class="pl-ent">kind</span>: <span class="pl-s">Secret</span>
+<span class="pl-ent">metadata</span>:
+  <span class="pl-ent">name</span>: <span class="pl-s">mysecret</span>
+  <span class="pl-ent">namespace</span>: <span class="pl-s">mynamespace</span>
+  <span class="pl-ent">labels</span>:
+    <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">jenkins.io/credentials-type</span><span class="pl-pds">"</span></span>: <span class="pl-s">usernamePassword</span>
+  <span class="pl-ent">annotations</span>:
+    <span class="pl-s"><span class="pl-pds">"</span><span class="pl-ent">jenkins.io/credentials-description</span><span class="pl-pds">"</span></span>: <span class="pl-s">credentials from Kubernetes</span>
+  <span class="pl-ent">ownerReferences</span>:
+  - <span class="pl-ent">apiVersion</span>: <span class="pl-s">bitnami.com/v1alpha1</span>
+    <span class="pl-ent">controller</span>: <span class="pl-c1">true</span>
+    <span class="pl-ent">kind</span>: <span class="pl-s">SealedSecret</span>
+    <span class="pl-ent">name</span>: <span class="pl-s">mysecret</span>
+    <span class="pl-ent">uid</span>: <span class="pl-s">5caff6a0-c9ac-11e9-881e-42010aac003e</span>
+<span class="pl-ent">type</span>: <span class="pl-s">kubernetes.io/dockerconfigjson</span>
+<span class="pl-ent">immutable</span>: <span class="pl-c1">true</span>
+<span class="pl-ent">data</span>:
+  <span class="pl-ent">.dockerconfigjson</span>: <span class="pl-s">ewogICJjcmVk...</span></pre></div>
+<p dir="auto">As you can see, the generated <code class="notranslate">Secret</code> resource is a "dependent object" of the <code class="notranslate">SealedSecret</code> and as such<br>
+it will be updated and deleted whenever the <code class="notranslate">SealedSecret</code> object gets updated or deleted.</p>
+<h3 dir="auto">Public key / Certificate</h3>
+<p dir="auto">The key certificate (public key portion) is used for sealing secrets,<br>
+and needs to be available wherever <code class="notranslate">kubeseal</code> is going to be<br>
+used. The certificate is not secret information, although you need to<br>
+ensure you are using the correct one.</p>
+<p dir="auto"><code class="notranslate">kubeseal</code> will fetch the certificate from the controller at runtime<br>
+(requires secure access to the Kubernetes API server), which is<br>
+convenient for interactive use, but it's known to be brittle when users<br>
+have clusters with special configurations such as <a href="docs/GKE.md#private-gke-clusters">private GKE clusters</a> that have<br>
+firewalls between control plane and nodes.</p>
+<p dir="auto">An alternative workflow<br>
+is to store the certificate somewhere (e.g. local disk) with<br>
+<code class="notranslate">kubeseal --fetch-cert &gt;mycert.pem</code>,<br>
+and use it offline with <code class="notranslate">kubeseal --cert mycert.pem</code>.<br>
+The certificate is also printed to the controller log on startup.</p>
+<p dir="auto">Since v0.9.x certificates get automatically renewed every 30 days. It's good practice that you and your team<br>
+update your offline certificate periodically. To help you with that, since v0.9.2 <code class="notranslate">kubeseal</code> accepts URLs too. You can set up your internal automation to publish certificates somewhere you trust.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="kubeseal --cert https://your.intranet.company.com/sealed-secrets/your-cluster.cert"><pre class="notranslate">kubeseal --cert https://your.intranet.company.com/sealed-secrets/your-cluster.cert</pre></div>
+<p dir="auto">It also recognizes the <code class="notranslate">SEALED_SECRETS_CERT</code> env var. (pro-tip: see also <a href="https://github.com/direnv/direnv">direnv</a>).</p>
+<blockquote>
+<p dir="auto"><strong>NOTE</strong>: we are working on providing key management mechanisms that offload the encryption to HSM based modules or managed cloud crypto solutions such as KMS.</p>
+</blockquote>
+<h3 dir="auto">Scopes</h3>
+<p dir="auto">SealedSecrets are from the POV of an end user a "write only" device.</p>
+<p dir="auto">The idea is that the SealedSecret can be decrypted only by the controller running in the target cluster and<br>
+nobody else (not even the original author) is able to obtain the original Secret from the SealedSecret.</p>
+<p dir="auto">The user may or may not have direct access to the target cluster.<br>
+More specifically, the user might or might not have access to the Secret unsealed by the controller.</p>
+<p dir="auto">There are many ways to configure RBAC on k8s, but it's quite common to forbid low-privilege users<br>
+from reading Secrets. It's also common to give users one or more namespaces where they have higher privileges,<br>
+which would allow them to create and read secrets (and/or create deployments that can reference those secrets).</p>
+<p dir="auto">Encrypted <code class="notranslate">SealedSecret</code> resources are designed to be safe to be looked at without gaining any knowledge about the secrets it conceals. This implies that we cannot allow users to read a SealedSecret meant for a namespace they wouldn't have access to<br>
+and just push a copy of it in a namespace where they can read secrets from.</p>
+<p dir="auto">Sealed-secrets thus behaves <em>as if</em> each namespace had its own independent encryption key and thus once you<br>
+seal a secret for a namespace, it cannot be moved in another namespace and decrypted there.</p>
+<p dir="auto">We don't technically use an independent private key for each namespace, but instead we <em>include</em> the namespace name<br>
+during the encryption process, effectively achieving the same result.</p>
+<p dir="auto">Furthermore, namespaces are not the only level at which RBAC configurations can decide who can see which secret. In fact, it's possible that users can access a secret called <code class="notranslate">foo</code> in a given namespace but not any other secret in the same namespace. We cannot thus by default let users freely rename <code class="notranslate">SealedSecret</code> resources otherwise a malicious user would be able to decrypt any SealedSecret for that namespace by just renaming it to overwrite the one secret user does have access to. We use the same mechanism used to include the namespace in the encryption key to also include the secret name.</p>
+<p dir="auto">That said, there are many scenarios where you might not care about this level of protection. For example, the only people who have access to your clusters are either admins or they cannot read any <code class="notranslate">Secret</code> resource at all. You might have a use case for moving a sealed secret to other namespaces (e.g. you might not know the namespace name upfront), or you might not know the name of the secret (e.g. it could contain a unique suffix based on the hash of the contents etc).</p>
+<p dir="auto">These are the possible scopes:</p>
+<ul dir="auto">
+<li><code class="notranslate">strict</code> (default): the secret must be sealed with exactly the same <em>name</em> and <em>namespace</em>. These attributes become <em>part of the encrypted data</em> and thus changing name and/or namespace would lead to "decryption error".</li>
+<li><code class="notranslate">namespace-wide</code>: you can freely <em>rename</em> the sealed secret within a given namespace.</li>
+<li><code class="notranslate">cluster-wide</code>: the secret can be unsealed in <em>any</em> namespace and can be given <em>any</em> name.</li>
+</ul>
+<p dir="auto">In contrast to the restrictions of <em>name</em> and <em>namespace</em>, secret <em>items</em> (i.e. JSON object keys like <code class="notranslate">spec.encryptedData.my-key</code>) can be renamed at will without losing the ability to decrypt the sealed secret.</p>
+<p dir="auto">The scope is selected with the <code class="notranslate">--scope</code> flag:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="kubeseal --scope cluster-wide &lt;secret.yaml &gt;sealed-secret.json"><pre class="notranslate">kubeseal --scope cluster-wide <span class="pl-k">&lt;</span>secret.yaml <span class="pl-k">&gt;</span>sealed-secret.json</pre></div>
+<p dir="auto">It's also possible to request a scope via annotations in the input secret you pass to <code class="notranslate">kubeseal</code>:</p>
+<ul dir="auto">
+<li><code class="notranslate">sealedsecrets.bitnami.com/namespace-wide: "true"</code> -&gt; for <code class="notranslate">namespace-wide</code></li>
+<li><code class="notranslate">sealedsecrets.bitnami.com/cluster-wide: "true"</code> -&gt; for <code class="notranslate">cluster-wide</code></li>
+</ul>
+<p dir="auto">The lack of any of such annotations means <code class="notranslate">strict</code> mode. If both are set, <code class="notranslate">cluster-wide</code> takes precedence.</p>
+<blockquote>
+<p dir="auto">NOTE: Next release will consolidate this into a single <code class="notranslate">sealedsecrets.bitnami.com/scope</code> annotation.</p>
+</blockquote>
+<h2 dir="auto">Installation</h2>
+<p dir="auto">See <a href="https://github.com/bitnami-labs/sealed-secrets/releases">https://github.com/bitnami-labs/sealed-secrets/releases</a> for the latest release and detailed installation instructions.</p>
+<p dir="auto">Cloud platform specific notes and instructions:</p>
+<ul dir="auto">
+<li><a href="docs/GKE.md">GKE</a></li>
+</ul>
+<h3 dir="auto">Controller</h3>
+<p dir="auto">Once you deploy the manifest it will create the <code class="notranslate">SealedSecret</code> resource<br>
+and install the controller into <code class="notranslate">kube-system</code> namespace, create a service<br>
+account and necessary RBAC roles.</p>
+<p dir="auto">After a few moments, the controller will start, generate a key pair,<br>
+and be ready for operation. If it does not, check the controller logs.</p>
+<h4 dir="auto">Kustomize</h4>
+<p dir="auto">The official controller manifest installation mechanism is just a YAML file.</p>
+<p dir="auto">In some cases you might need to apply your own customizations, like set a custom namespace or set some env variables.</p>
+<p dir="auto"><code class="notranslate">kubectl</code> has native support for that, see <a href="https://kustomize.io/" rel="nofollow">kustomize</a>.</p>
+<h4 dir="auto">Helm Chart</h4>
+<p dir="auto">The Sealed Secrets helm chart is now officially supported and hosted in this GitHub repo.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="helm repo add sealed-secrets https://bitnami-labs.github.io/sealed-secrets"><pre class="notranslate">helm repo add sealed-secrets https://bitnami-labs.github.io/sealed-secrets</pre></div>
+<blockquote>
+<p dir="auto">NOTE: The versioning scheme of the helm chart differs from the versioning scheme of the sealed secrets project itself.</p>
+</blockquote>
+<p dir="auto">Originally the helm chart was maintained by the community and the first version adopted a major version of 1 while the<br>
+sealed secrets project itself is still at major 0.<br>
+This is ok because the version of the helm chart itself is not meant to be necessarily the version of the app itself.<br>
+However this is confusing, so our current versioning rule is:</p>
+<ol dir="auto">
+<li>The <code class="notranslate">SealedSecret</code> controller version scheme: 0.X.Y</li>
+<li>The helm chart version scheme: 1.X.Y-rZ</li>
+</ol>
+<p dir="auto">There can be thus multiple revisions of the helm chart, with fixes that apply only to the helm chart without<br>
+affecting the static YAML manifests or the controller image itself.</p>
+<blockquote>
+<p dir="auto">NOTE: The helm chart readme still contains a deprecation notice, but it no longer reflects reality and will be removed upon the next release.</p>
+</blockquote>
+<blockquote>
+<p dir="auto">NOTE: The helm chart by default installs the controller with the name <code class="notranslate">sealed-secrets</code>, while the <code class="notranslate">kubeseal</code> command line interface (CLI) tries to access the controller with the name <code class="notranslate">sealed-secrets-controller</code>. You can explicitly pass <code class="notranslate">--controller-name</code> to the CLI:</p>
+</blockquote>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="kubeseal --controller-name sealed-secrets &lt;args&gt;"><pre class="notranslate">kubeseal --controller-name sealed-secrets <span class="pl-k">&lt;</span>args<span class="pl-k">&gt;</span></pre></div>
+<p dir="auto">Alternatively, you can set <code class="notranslate">fullnameOverride</code> when installing the chart to override the name. Note also that <code class="notranslate">kubeseal</code> assumes that the controller is installed within the <code class="notranslate">kube-system</code> namespace by default. So if you want to use the <code class="notranslate">kubeseal</code> CLI without having to pass the expected controller name and namespace you should install the Helm Chart like this:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="helm install sealed-secrets -n kube-system --set-string fullnameOverride=sealed-secrets-controller sealed-secrets/sealed-secrets"><pre class="notranslate">helm install sealed-secrets -n kube-system --set-string fullnameOverride=sealed-secrets-controller sealed-secrets/sealed-secrets</pre></div>
+<h5 dir="auto">Helm Chart on a restricted environment</h5>
+<p dir="auto">In some companies you might be given access only to a single namespace, not a full cluster.</p>
+<p dir="auto">One of the most restrictive environments you can encounter is:</p>
+<ul dir="auto">
+<li>A <code class="notranslate">namespace</code> was allocated to you with some <code class="notranslate">service account</code>.</li>
+<li>You do not have access to the rest of the cluster, not even cluster CRDs.</li>
+<li>You may not even be able to create further service accounts or roles in your namespace.</li>
+<li>You are required to include resource limits in all your deployments.</li>
+</ul>
+<p dir="auto">Even with these restrictions you can still install the sealed secrets Helm Chart, there is only one pre-requisite:</p>
+<ul dir="auto">
+<li><em>The cluster must already have the sealed secrets CRDs installed</em>.</li>
+</ul>
+<p dir="auto">Once your admins installed the CRDs, if they were not there already, you can install the chart by preparing a YAML config file such as this:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="serviceAccount:
+  create: false
+  name: {allocated-service-account}
+rbac:
+  create: false
+  clusterRole: false
+resources:
+  limits:
+    cpu: 150m
+    memory: 256Mi"><pre class="notranslate">serviceAccount:
+  create: <span class="pl-c1">false</span>
+  name: {allocated-service-account}
+rbac:
+  create: <span class="pl-c1">false</span>
+  clusterRole: <span class="pl-c1">false</span>
+resources:
+  limits:
+    cpu: 150m
+    memory: 256Mi</pre></div>
+<p dir="auto">Note that:</p>
+<ul dir="auto">
+<li>No service accounts are created, instead the one allocated to you will be used.
+<ul dir="auto">
+<li><code class="notranslate">{allocated-service-account}</code> is the name of the <code class="notranslate">service account</code> you were allocated on the cluster.</li>
+</ul>
+</li>
+<li>No RBAC roles are created neither in the namespace nor the cluster.</li>
+<li>Resource limits must be specified.
+<ul dir="auto">
+<li>The limits are samples that should work, but you might want to review them in your particular setup.</li>
+</ul>
+</li>
+</ul>
+<p dir="auto">Once that file is ready, if you named it <code class="notranslate">config.yaml</code> you now can install the sealed secrets Helm Chart like this:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="helm install sealed-secrets -n {allocated-namespace} sealed-secrets/sealed-secrets --skip-crds -f config.yaml"><pre class="notranslate">helm install sealed-secrets -n {allocated-namespace} sealed-secrets/sealed-secrets --skip-crds -f config.yaml</pre></div>
+<p dir="auto">Where <code class="notranslate">{allocated-namespace}</code> is the name of the <code class="notranslate">namespace</code> you were allocated in the cluster.</p>
+<h3 dir="auto">Kubeseal</h3>
+<h4 dir="auto">Homebrew</h4>
+<p dir="auto">The <code class="notranslate">kubeseal</code> client is also available on <a href="https://formulae.brew.sh/formula/kubeseal" rel="nofollow">homebrew</a>:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="brew install kubeseal"><pre class="notranslate">brew install kubeseal</pre></div>
+<h4 dir="auto">MacPorts</h4>
+<p dir="auto">The <code class="notranslate">kubeseal</code> client is also available on <a href="https://ports.macports.org/port/kubeseal/summary" rel="nofollow">MacPorts</a>:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="port install kubeseal"><pre class="notranslate">port install kubeseal</pre></div>
+<h4 dir="auto">Nixpkgs</h4>
+<p dir="auto">The <code class="notranslate">kubeseal</code> client is also available on <a href="https://search.nixos.org/packages?channel=unstable&amp;show=kubeseal&amp;from=0&amp;size=50&amp;sort=relevance&amp;type=packages&amp;query=kubeseal" rel="nofollow">Nixpkgs</a>: (<strong>DISCLAIMER</strong>: Not maintained by bitnami-labs)</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="nix-env -iA nixpkgs.kubeseal"><pre class="notranslate">nix-env -iA nixpkgs.kubeseal</pre></div>
+<h4 dir="auto">Linux</h4>
+<p dir="auto">The <code class="notranslate">kubeseal</code> client can be installed on Linux, using the below commands:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="KUBESEAL_VERSION='' # Set this to, for example, KUBESEAL_VERSION='0.23.0'
+curl -OL &quot;https://github.com/bitnami-labs/sealed-secrets/releases/download/v${KUBESEAL_VERSION:?}/kubeseal-${KUBESEAL_VERSION:?}-linux-amd64.tar.gz&quot;
+tar -xvzf kubeseal-${KUBESEAL_VERSION:?}-linux-amd64.tar.gz kubeseal
+sudo install -m 755 kubeseal /usr/local/bin/kubeseal"><pre class="notranslate">KUBESEAL_VERSION=<span class="pl-s"><span class="pl-pds">'</span><span class="pl-pds">'</span></span> <span class="pl-c"><span class="pl-c">#</span> Set this to, for example, KUBESEAL_VERSION='0.23.0'</span>
+curl -OL <span class="pl-s"><span class="pl-pds">"</span>https://github.com/bitnami-labs/sealed-secrets/releases/download/v<span class="pl-smi">${KUBESEAL_VERSION<span class="pl-k">:?</span>}</span>/kubeseal-<span class="pl-smi">${KUBESEAL_VERSION<span class="pl-k">:?</span>}</span>-linux-amd64.tar.gz<span class="pl-pds">"</span></span>
+tar -xvzf kubeseal-<span class="pl-smi">${KUBESEAL_VERSION<span class="pl-k">:?</span>}</span>-linux-amd64.tar.gz kubeseal
+sudo install -m 755 kubeseal /usr/local/bin/kubeseal</pre></div>
+<p dir="auto">If you have <code class="notranslate">curl</code> and <code class="notranslate">jq</code> installed on your machine, you can get the version dynamically this way. This can be useful for environments used in automation and such.</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="# Fetch the latest sealed-secrets version using GitHub API
+KUBESEAL_VERSION=$(curl -s https://api.github.com/repos/bitnami-labs/sealed-secrets/tags | jq -r '.[0].name' | cut -c 2-)
+
+# Check if the version was fetched successfully
+if [ -z &quot;$KUBESEAL_VERSION&quot; ]; then
+    echo &quot;Failed to fetch the latest KUBESEAL_VERSION&quot;
+    exit 1
+fi
+
+curl -OL &quot;https://github.com/bitnami-labs/sealed-secrets/releases/download/v${KUBESEAL_VERSION}/kubeseal-${KUBESEAL_VERSION}-linux-amd64.tar.gz&quot;
+tar -xvzf kubeseal-${KUBESEAL_VERSION}-linux-amd64.tar.gz kubeseal
+sudo install -m 755 kubeseal /usr/local/bin/kubeseal"><pre class="notranslate"><code class="notranslate"># Fetch the latest sealed-secrets version using GitHub API
+KUBESEAL_VERSION=$(curl -s https://api.github.com/repos/bitnami-labs/sealed-secrets/tags | jq -r '.[0].name' | cut -c 2-)
+
+# Check if the version was fetched successfully
+if [ -z "$KUBESEAL_VERSION" ]; then
+    echo "Failed to fetch the latest KUBESEAL_VERSION"
+    exit 1
+fi
+
+curl -OL "https://github.com/bitnami-labs/sealed-secrets/releases/download/v${KUBESEAL_VERSION}/kubeseal-${KUBESEAL_VERSION}-linux-amd64.tar.gz"
+tar -xvzf kubeseal-${KUBESEAL_VERSION}-linux-amd64.tar.gz kubeseal
+sudo install -m 755 kubeseal /usr/local/bin/kubeseal
+</code></pre></div>
+<p dir="auto">where <code class="notranslate">KUBESEAL_VERSION</code> is the <a href="https://github.com/bitnami-labs/sealed-secrets/tags">version tag</a> of the kubeseal release you want to use. For example: <code class="notranslate">v0.18.0</code>.</p>
+<h4 dir="auto">Installation from source</h4>
+<p dir="auto">If you just want the latest client tool, it can be installed into<br>
+<code class="notranslate">$GOPATH/bin</code> with:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="go install github.com/bitnami-labs/sealed-secrets/cmd/kubeseal@main"><pre class="notranslate">go install github.com/bitnami-labs/sealed-secrets/cmd/kubeseal@main</pre></div>
+<p dir="auto">You can specify a release tag or a commit SHA instead of <code class="notranslate">main</code>.</p>
+<p dir="auto">The <code class="notranslate">go install</code> command will place the <code class="notranslate">kubeseal</code> binary at <code class="notranslate">$GOPATH/bin</code>:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$(go env GOPATH)/bin/kubeseal"><pre class="notranslate"><span class="pl-s"><span class="pl-pds">$(</span>go env GOPATH<span class="pl-pds">)</span></span>/bin/kubeseal</pre></div>
+<h2 dir="auto">Upgrade</h2>
+<p dir="auto">Don't forget to check the <a href="RELEASE-NOTES.md">release notes</a> for guidance about<br>
+possible breaking changes when you upgrade the client tool<br>
+and/or the controller.</p>
+<h3 dir="auto">Supported Versions</h3>
+<p dir="auto">Currently, only the latest version of Sealed Secrets is supported for production environments.</p>
+<h3 dir="auto">Compatibility with Kubernetes versions</h3>
+<p dir="auto">The Sealed Secrets controller ensures compatibility with different versions of Kubernetes by relying on a stable Kubernetes API. Typically, Kubernetes versions above 1.16 are considered compatible. However, we officially support the <a href="https://kubernetes.io/releases/" rel="nofollow">currently recommended Kubernetes versions</a>. Additionally, versions above 1.24 undergo thorough verification through our CI process with every release.</p>
+<h2 dir="auto">Usage</h2>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# Create a json/yaml-encoded Secret somehow:
+# (note use of `--dry-run` - this is just a local file!)
+echo -n bar | kubectl create secret generic mysecret --dry-run=client --from-file=foo=/dev/stdin -o json &gt;mysecret.json
+
+# This is the important bit:
+kubeseal -f mysecret.json -w mysealedsecret.json
+
+# At this point mysealedsecret.json is safe to upload to Github,
+# post on Twitter, etc.
+
+# Eventually:
+kubectl create -f mysealedsecret.json
+
+# Profit!
+kubectl get secret mysecret"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> Create a json/yaml-encoded Secret somehow:</span>
+<span class="pl-c"><span class="pl-c">#</span> (note use of `--dry-run` - this is just a local file!)</span>
+<span class="pl-c1">echo</span> -n bar <span class="pl-k">|</span> kubectl create secret generic mysecret --dry-run=client --from-file=foo=/dev/stdin -o json <span class="pl-k">&gt;</span>mysecret.json
+
+<span class="pl-c"><span class="pl-c">#</span> This is the important bit:</span>
+kubeseal -f mysecret.json -w mysealedsecret.json
+
+<span class="pl-c"><span class="pl-c">#</span> At this point mysealedsecret.json is safe to upload to Github,</span>
+<span class="pl-c"><span class="pl-c">#</span> post on Twitter, etc.</span>
+
+<span class="pl-c"><span class="pl-c">#</span> Eventually:</span>
+kubectl create -f mysealedsecret.json
+
+<span class="pl-c"><span class="pl-c">#</span> Profit!</span>
+kubectl get secret mysecret</pre></div>
+<p dir="auto">Note the <code class="notranslate">SealedSecret</code> and <code class="notranslate">Secret</code> must have <strong>the same namespace and<br>
+name</strong>. This is a feature to prevent other users on the same cluster<br>
+from re-using your sealed secrets. See the <a href="#scopes">Scopes</a> section for more info.</p>
+<p dir="auto"><code class="notranslate">kubeseal</code> reads the namespace from the input secret, accepts an explicit <code class="notranslate">--namespace</code> argument, and uses<br>
+the <code class="notranslate">kubectl</code> default namespace (in that order). Any labels,<br>
+annotations, etc on the original <code class="notranslate">Secret</code> are preserved, but not<br>
+automatically reflected in the <code class="notranslate">SealedSecret</code>.</p>
+<p dir="auto">By design, this scheme <em>does not authenticate the user</em>. In other<br>
+words, <em>anyone</em> can create a <code class="notranslate">SealedSecret</code> containing any <code class="notranslate">Secret</code><br>
+they like (provided the namespace/name matches). It is up to your<br>
+existing config management workflow, cluster RBAC rules, etc to ensure<br>
+that only the intended <code class="notranslate">SealedSecret</code> is uploaded to the cluster. The<br>
+only change from existing Kubernetes is that the <em>contents</em> of the<br>
+<code class="notranslate">Secret</code> are now hidden while outside the cluster.</p>
+<h3 dir="auto">Managing existing secrets</h3>
+<p dir="auto">If you want the Sealed Secrets controller to manage an existing <code class="notranslate">Secret</code>, you can annotate your <code class="notranslate">Secret</code> with the <code class="notranslate">sealedsecrets.bitnami.com/managed: "true"</code> annotation. The existing <code class="notranslate">Secret</code> will be overwritten when unsealing a <code class="notranslate">SealedSecret</code> with the same name and namespace, and the <code class="notranslate">SealedSecret</code> will take ownership of the <code class="notranslate">Secret</code> (so that when the <code class="notranslate">SealedSecret</code> is deleted the <code class="notranslate">Secret</code> will also be deleted).</p>
+<h3 dir="auto">Patching existing secrets</h3>
+<blockquote>
+<p dir="auto">New in v0.23.0</p>
+</blockquote>
+<p dir="auto">There are some use cases in which you don't want to replace the whole <code class="notranslate">Secret</code> but just add or modify some keys from the existing <code class="notranslate">Secret</code>. For this, you can annotate your <code class="notranslate">Secret</code> with <code class="notranslate">sealedsecrets.bitnami.com/patch: "true"</code>. Using this annotation will make sure that secret keys, labels and annotations in the <code class="notranslate">Secret</code> that are not present in the <code class="notranslate">SealedSecret</code> won't be deleted, and those present in the <code class="notranslate">SealedSecret</code> will be added to the <code class="notranslate">Secret</code> (secret keys, labels and annotations that exist both in the <code class="notranslate">Secret</code> and the <code class="notranslate">SealedSecret</code> will be modified by the <code class="notranslate">SealedSecret</code>).</p>
+<p dir="auto">This annotation does not make the <code class="notranslate">SealedSecret</code> take ownership of the <code class="notranslate">Secret</code>. You can add both the <code class="notranslate">patch</code> and <code class="notranslate">managed</code> annotations to obtain the patching behavior while also taking ownership of the <code class="notranslate">Secret</code>.</p>
+<h3 dir="auto">Seal secret which can skip set owner references</h3>
+<p dir="auto">If you want <code class="notranslate">SealedSecret</code> and the <code class="notranslate">Secret</code> to be independent, which mean when you delete the <code class="notranslate">SealedSecret</code> the <code class="notranslate">Secret</code> won't disappear with it, then you have to annotate that Secret with the annotation <code class="notranslate">sealedsecrets.bitnami.com/skip-set-owner-references: "true"</code> ahead of applying the Usage steps. You still may also add <code class="notranslate">sealedsecrets.bitnami.com/managed: "true"</code> to your <code class="notranslate">Secret</code> so that your secret will be updated when <code class="notranslate">SealedSecret</code> is updated.</p>
+<h3 dir="auto">Update existing secrets</h3>
+<p dir="auto">If you want to add or update existing sealed secrets without having the cleartext for the other items,<br>
+you can just copy&amp;paste the new encrypted data items and merge it into an existing sealed secret.</p>
+<p dir="auto">You must take care of sealing the updated items with a compatible name and namespace (see note about scopes above).</p>
+<p dir="auto">You can use the <code class="notranslate">--merge-into</code> command to update an existing sealed secrets if you don't want to copy&amp;paste:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="echo -n bar | kubectl create secret generic mysecret --dry-run=client --from-file=foo=/dev/stdin -o json \
+  | kubeseal &gt; mysealedsecret.json
+echo -n baz | kubectl create secret generic mysecret --dry-run=client --from-file=bar=/dev/stdin -o json \
+  | kubeseal --merge-into mysealedsecret.json"><pre class="notranslate"><span class="pl-c1">echo</span> -n bar <span class="pl-k">|</span> kubectl create secret generic mysecret --dry-run=client --from-file=foo=/dev/stdin -o json \
+  <span class="pl-k">|</span> kubeseal <span class="pl-k">&gt;</span> mysealedsecret.json
+<span class="pl-c1">echo</span> -n baz <span class="pl-k">|</span> kubectl create secret generic mysecret --dry-run=client --from-file=bar=/dev/stdin -o json \
+  <span class="pl-k">|</span> kubeseal --merge-into mysealedsecret.json</pre></div>
+<h3 dir="auto">Raw mode (experimental)</h3>
+<p dir="auto">Creating temporary Secret with the <code class="notranslate">kubectl</code> command, only to throw it away once piped to <code class="notranslate">kubeseal</code> can<br>
+be a quite unfriendly user experience. We're working on an overhaul of the CLI experience. In the meantime,<br>
+we offer an alternative mode where kubeseal only cares about encrypting a value to stdout, and it's your responsibility to put it inside a <code class="notranslate">SealedSecret</code> resource (not unlike any of the other k8s resources).</p>
+<p dir="auto">It can also be useful as a building block for editor/IDE integrations.</p>
+<p dir="auto">The downside is that you have to be careful to be consistent with the sealing scope, the namespace and the name.</p>
+<p dir="auto">See <a href="#scopes">Scopes</a></p>
+<p dir="auto"><code class="notranslate">strict</code> scope (default):</p>
+<div class="highlight highlight-text-shell-session notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ echo -n foo | kubeseal --raw --namespace bar --name mysecret
+AgBChHUWLMx..."><pre class="notranslate">$ <span class="pl-s1"><span class="pl-c1">echo</span> -n foo <span class="pl-k">|</span> kubeseal --raw --namespace bar --name mysecret</span>
+<span class="pl-c1">AgBChHUWLMx...</span></pre></div>
+<p dir="auto"><code class="notranslate">namespace-wide</code> scope:</p>
+<div class="highlight highlight-text-shell-session notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ echo -n foo | kubeseal --raw --namespace bar --scope namespace-wide
+AgAbbFNkM54..."><pre class="notranslate">$ <span class="pl-s1"><span class="pl-c1">echo</span> -n foo <span class="pl-k">|</span> kubeseal --raw --namespace bar --scope namespace-wide</span>
+<span class="pl-c1">AgAbbFNkM54...</span></pre></div>
+<p dir="auto">Include the <code class="notranslate">sealedsecrets.bitnami.com/namespace-wide</code> annotation in the <code class="notranslate">SealedSecret</code></p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="metadata:
+  annotations:
+    sealedsecrets.bitnami.com/namespace-wide: &quot;true&quot;"><pre class="notranslate"><span class="pl-ent">metadata</span>:
+  <span class="pl-ent">annotations</span>:
+    <span class="pl-ent">sealedsecrets.bitnami.com/namespace-wide</span>: <span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span></pre></div>
+<p dir="auto"><code class="notranslate">cluster-wide</code> scope:</p>
+<div class="highlight highlight-text-shell-session notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ echo -n foo | kubeseal --raw --scope cluster-wide
+AgAjLKpIYV+..."><pre class="notranslate">$ <span class="pl-s1"><span class="pl-c1">echo</span> -n foo <span class="pl-k">|</span> kubeseal --raw --scope cluster-wide</span>
+<span class="pl-c1">AgAjLKpIYV+...</span></pre></div>
+<p dir="auto">Include the <code class="notranslate">sealedsecrets.bitnami.com/cluster-wide</code> annotation in the <code class="notranslate">SealedSecret</code></p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="metadata:
+  annotations:
+    sealedsecrets.bitnami.com/cluster-wide: &quot;true&quot;"><pre class="notranslate"><span class="pl-ent">metadata</span>:
+  <span class="pl-ent">annotations</span>:
+    <span class="pl-ent">sealedsecrets.bitnami.com/cluster-wide</span>: <span class="pl-s"><span class="pl-pds">"</span>true<span class="pl-pds">"</span></span></pre></div>
+<h3 dir="auto">Validate a Sealed Secret</h3>
+<p dir="auto">If you want to validate an existing sealed secret, <code class="notranslate">kubeseal</code> has the flag <code class="notranslate">--validate</code> to help you.</p>
+<p dir="auto">Giving a file named <code class="notranslate">sealed-secrets.yaml</code> containing the following sealed secret:</p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  name: mysecret
+  namespace: mynamespace
+spec:
+  encryptedData:
+    foo: AgBy3i4OJSWK+PiTySYZZA9rO43cGDEq....."><pre class="notranslate"><span class="pl-ent">apiVersion</span>: <span class="pl-s">bitnami.com/v1alpha1</span>
+<span class="pl-ent">kind</span>: <span class="pl-s">SealedSecret</span>
+<span class="pl-ent">metadata</span>:
+  <span class="pl-ent">name</span>: <span class="pl-s">mysecret</span>
+  <span class="pl-ent">namespace</span>: <span class="pl-s">mynamespace</span>
+<span class="pl-ent">spec</span>:
+  <span class="pl-ent">encryptedData</span>:
+    <span class="pl-ent">foo</span>: <span class="pl-s">AgBy3i4OJSWK+PiTySYZZA9rO43cGDEq.....</span></pre></div>
+<p dir="auto">You can validate if the sealed secret was properly created or not:</p>
+<div class="highlight highlight-text-shell-session notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ cat sealed-secrets.yaml | kubeseal --validate"><pre class="notranslate">$ <span class="pl-s1">cat sealed-secrets.yaml <span class="pl-k">|</span> kubeseal --validate</span></pre></div>
+<p dir="auto">In case of an invalid sealed secret, <code class="notranslate">kubeseal</code> will show:</p>
+<div class="highlight highlight-text-shell-session notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="$ cat sealed-secrets.yaml | kubeseal --validate
+error: unable to decrypt sealed secret"><pre class="notranslate">$ <span class="pl-s1">cat sealed-secrets.yaml <span class="pl-k">|</span> kubeseal --validate</span>
+<span class="pl-c1">error: unable to decrypt sealed secret</span></pre></div>
+<h2 dir="auto">Secret Rotation</h2>
+<p dir="auto">You should always rotate your secrets. But since your secrets are encrypted with another secret,<br>
+you need to understand how these two layers relate to take the right decisions.</p>
+<p dir="auto">TL;DR:</p>
+<blockquote>
+<p dir="auto">If a <em>sealing</em> private key is compromised, you need to follow the instructions below in "Early key renewal"<br>
+section before rotating any of your actual secret values.</p>
+<p dir="auto">SealedSecret key renewal and re-encryption features are <strong>not a substitute</strong> for periodical rotation of your actual secret values.</p>
+</blockquote>
+<h3 dir="auto">Sealing key renewal</h3>
+<p dir="auto">Sealing keys are automatically renewed every 30 days. Which means a new sealing key is created and appended to the set of active sealing keys the controller can use to unseal <code class="notranslate">SealedSecret</code> resources.</p>
+<p dir="auto">The most recently created sealing key is the one used to seal new secrets when you use <code class="notranslate">kubeseal</code> and it's the one whose certificate is downloaded when you use <code class="notranslate">kubeseal --fetch-cert</code>.</p>
+<p dir="auto">The renewal time of 30 days is a reasonable default, but it can be tweaked as needed<br>
+with the <code class="notranslate">--key-renew-period=&lt;value&gt;</code> flag for the command in the pod template of the <code class="notranslate">SealedSecret</code> controller. The <code class="notranslate">value</code> field can be given as golang<br>
+duration flag (eg: <code class="notranslate">720h30m</code>). Assuming that you've installed Sealed Secrets into the <code class="notranslate">kube-system</code> namespace, use the following command to edit the Deployment controller, and add the <code class="notranslate">--key-renew-period</code> parameter. Once you close your text editor, and the Deployment controller has been modified, a new Pod will be automatically created to replace the old Pod.</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="kubectl edit deployment/sealed-secrets-controller --namespace=kube-system"><pre class="notranslate"><code class="notranslate">kubectl edit deployment/sealed-secrets-controller --namespace=kube-system
+</code></pre></div>
+<p dir="auto">A value of <code class="notranslate">0</code> will deactivate automatic key renewal. Of course, you may have a valid use case for deactivating automatic sealing key renewal but experience has shown that new users often tend to jump to conclusions that they want control over key renewal, before fully understanding how sealed secrets work. Read more about this in the <a href="#common-misconceptions-about-key-renewal">common misconceptions</a> section below.</p>
+<blockquote>
+<p dir="auto">Unfortunately, you cannot use e.g. "d" as a unit for days because that's not supported by the Go stdlib. Instead of hitting your face with a palm, take this as an opportunity to meditate on the <a href="https://infiniteundo.com/post/25326999628/falsehoods-programmers-believe-about-time" rel="nofollow">falsehoods programmers believe about time</a>.</p>
+</blockquote>
+<p dir="auto">A common misunderstanding is that key renewal is often thought of as a form of key rotation, where the old key is not only obsolete but actually bad and that you thus want to get rid of it.<br>
+It doesn't help that this feature has been historically called "key rotation", which can add to the confusion.</p>
+<p dir="auto">Sealed secrets are not automatically rotated and old keys are not deleted<br>
+when new keys are generated. Old <code class="notranslate">SealedSecret</code> resources can be still decrypted (that's because old sealing keys are not deleted).</p>
+<h3 dir="auto">Key registry init priority order</h3>
+<p dir="auto">When the controller starts, it will initialize the key registry. The most recent key is used to seal secrets. By default, this certificate is chosen based on the NotBefore attribute of the certificate. If you want to change the priority order of the keys in the registry, you can use the <code class="notranslate">--key-order-priority</code> flag.</p>
+<p dir="auto">The <code class="notranslate">--key-order-priority</code> flag accepts the following values:</p>
+<ul dir="auto">
+<li><code class="notranslate">CertNotBefore</code>: (default) The key registry will be ordered based on the NotBefore attribute of the key certificate.</li>
+<li><code class="notranslate">SecretCreationTimestamp</code>: The key registry will be ordered based on the creation timestamp of the secret.</li>
+</ul>
+<p dir="auto">This flag influences the public key used to encrypt secrets and the certificate retrieved by <code class="notranslate">kubeseal --fetch-cert</code>.</p>
+<h3 dir="auto">User secret rotation</h3>
+<p dir="auto">The <em>sealing key</em> renewal and SealedSecret rotation are <strong>not a substitute</strong> for rotating your actual secrets.</p>
+<p dir="auto">A core value proposition of this tool is:</p>
+<blockquote>
+<p dir="auto">Encrypt your Secret into a SealedSecret, which <em>is</em> safe to store - even inside a public repository.</p>
+</blockquote>
+<p dir="auto">If you store anything in a version control storage, and in a public one in particular, you must assume<br>
+you cannot ever delete that information.</p>
+<p dir="auto"><em>If</em> a sealing key somehow leaks out of the cluster you must consider all your <code class="notranslate">SealedSecret</code> resources<br>
+encrypted with that key as compromised. No amount of sealing key rotation in the cluster or even re-encryption of existing SealedSecrets files can change that.</p>
+<p dir="auto">The best practice is to periodically rotate all your actual secrets (e.g. change the password) <strong>and</strong> craft new<br>
+<code class="notranslate">SealedSecret</code> resources with those new secrets.</p>
+<p dir="auto">But if the <code class="notranslate">SealedSecret</code> controller was not renewing the <em>sealing key</em> that rotation would be moot,<br>
+since the attacker could just decrypt the new secrets as well. Thus, you need to do both: periodically renew the sealing key and rotate your actual secrets!</p>
+<h3 dir="auto">Early key renewal</h3>
+<p dir="auto">If you know or suspect a <em>sealing key</em> has been compromised you should renew the key ASAP before you<br>
+start sealing your new rotated secrets, otherwise you'll be giving attackers access to your new secrets as well.</p>
+<p dir="auto">A key can be generated early by passing the current timestamp to the controller into a flag called <code class="notranslate">--key-cutoff-time</code> or an env var called <code class="notranslate">SEALED_SECRETS_KEY_CUTOFF_TIME</code>. The expected format is RFC1123, you can generate it with the <code class="notranslate">date -R</code> unix command.</p>
+<h3 dir="auto">Common misconceptions about key renewal</h3>
+<p dir="auto">Sealed secrets sealing keys are not access control keys (e.g. a password). They are more like the GPG key you might use to read encrypted mail sent to you. Let's continue with the email analogy for a bit:</p>
+<p dir="auto">Imagine you have reasons to believe your private GPG key might have been compromised. You'd have more to lose than to gain if the first thing you do is just delete your private key. All the previous emails sent with that key are no longer accessible to you (unless you have a decrypted copy of those emails), nor are new emails sent by your friends whom you have not yet managed to tell to use the new key.</p>
+<p dir="auto">Sure, the content of those encrypted emails is not secure, as an attacker might now be able to decrypt them, but what's done is done. Your sudden loss of the ability to read those emails surely doesn't undo the damage. If anything, it's worse because you no longer know for sure what secret the attacker got to know. What you really want to do is to make sure that your friend stops using your old key and that from now on all further communication is encrypted with a new key pair (i.e. your friend must know about that new key).</p>
+<p dir="auto">The same logic applies to SealedSecrets. The ultimate goal is to secure your actual "user" secrets. The "sealing" secrets are just a mechanism, an "envelope". If a secret is leaked there is no going back, what's done is done.</p>
+<p dir="auto">You first need to ensure that new secrets don't get encrypted with that old compromised key (in the email analogy above that's: create a new key pair and give all your friends your new public key).</p>
+<p dir="auto">The second logical step is to neutralize the damage, which depends on the nature of the secret. A simple example is a database password: if you accidentally leak your database password, the thing you're supposed to do is simply to change your database password (on the database; and revoke the old one!) <em>and</em> update the <code class="notranslate">SealedSecret</code> resource with the new password (i.e. running <code class="notranslate">kubeseal</code> again).</p>
+<p dir="auto">Both steps are described in the previous sections, albeit in a less verbose way. There is no shame in reading them again, now that you have a more in-depth grasp of the underlying rationale.</p>
+<h3 dir="auto">Manual key management (advanced)</h3>
+<p dir="auto">The <code class="notranslate">SealedSecret</code> controller and the associated workflow are designed to keep old sealing keys around and periodically add new ones. You should not delete old keys unless you know what you're doing.</p>
+<p dir="auto">That said, if you want you can manually manage (create, move, delete) <em>sealing keys</em>. They are just normal k8s secrets living in the same namespace where the <code class="notranslate">SealedSecret</code> controller lives (usually <code class="notranslate">kube-system</code>, but it's configurable).</p>
+<p dir="auto">There are advanced use cases that you can address by creative management of the sealing keys.<br>
+For example, you can share the same sealing key among a few clusters so that you can apply exactly the same sealed secret in multiple clusters.<br>
+Since sealing keys are just normal k8s secrets you can even use sealed secrets themselves and use a GitOps workflow to manage your sealing keys (useful when you want to share the same key among different clusters)!</p>
+<p dir="auto">Labeling a <em>sealing key</em> secret with anything other than <code class="notranslate">active</code> effectively deletes<br>
+the key from the <code class="notranslate">SealedSecret</code> controller, but it is still available in k8s for<br>
+manual encryption/decryption if need be.</p>
+<p dir="auto"><strong>NOTE</strong> <code class="notranslate">SealedSecret</code> controller currently does not automatically pick up manually created, deleted or relabeled sealing keys. An admin must restart the controller before the effect will apply.</p>
+<h3 dir="auto">Re-encryption (advanced)</h3>
+<p dir="auto">Before you can get rid of some old sealing keys you need to re-encrypt your SealedSecrets with the latest private key.</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="kubeseal --re-encrypt &lt;my_sealed_secret.json &gt;tmp.json \
+  &amp;&amp; mv tmp.json my_sealed_secret.json"><pre class="notranslate">kubeseal --re-encrypt <span class="pl-k">&lt;</span>my_sealed_secret.json <span class="pl-k">&gt;</span>tmp.json \
+  <span class="pl-k">&amp;&amp;</span> mv tmp.json my_sealed_secret.json</pre></div>
+<p dir="auto">The invocation above will produce a new sealed secret file freshly encrypted with<br>
+the latest key, without making the secrets leave the cluster to the client. You can then save that file<br>
+in your version control system (<code class="notranslate">kubeseal --re-encrypt</code> doesn't update the in-cluster object).</p>
+<p dir="auto">Currently, old keys are not garbage collected automatically.</p>
+<p dir="auto">It's a good idea to periodically re-encrypt your SealedSecrets. But as mentioned above, don't lull yourself in a false sense of security: you must assume the old version of the <code class="notranslate">SealedSecret</code> resource (the one encrypted with a key you think of as dead) is still potentially around and accessible to attackers. I.e. re-encryption is not a substitute for periodically rotating your actual secrets.</p>
+<h2 dir="auto">Details (advanced)</h2>
+<p dir="auto">This controller adds a new <code class="notranslate">SealedSecret</code> custom resource. The<br>
+interesting part of a <code class="notranslate">SealedSecret</code> is a base64-encoded<br>
+asymmetrically encrypted <code class="notranslate">Secret</code>.</p>
+<p dir="auto">The controller maintains a set of private/public key pairs as kubernetes<br>
+secrets. Keys are labeled with <code class="notranslate">sealedsecrets.bitnami.com/sealed-secrets-key</code><br>
+and identified in the label as either <code class="notranslate">active</code> or <code class="notranslate">compromised</code>. On startup,<br>
+The sealed secrets controller will...</p>
+<ol dir="auto">
+<li>Search for these keys and add them to its local store if they are<br>
+labeled as active.</li>
+<li>Create a new key</li>
+<li>Start the key rotation cycle</li>
+</ol>
+<h3 dir="auto">Crypto</h3>
+<p dir="auto">More details about crypto can be found <a href="docs/developer/crypto.md">here</a>.</p>
+<h2 dir="auto">Developing</h2>
+<p dir="auto">Developing guidelines can be found <a href="docs/developer/README.md">in the Developer Guide</a>.</p>
+<h2 dir="auto">FAQ</h2>
+<h3 dir="auto">Can I encrypt multiple secrets at once, in one YAML / JSON file?</h3>
+<p dir="auto">Yes, you can! Drop as many secrets as you like in one file. Make sure to separate them via <code class="notranslate">---</code> for YAML and as extra, single objects in JSON.</p>
+<h3 dir="auto">Will you still be able to decrypt if you no longer have access to your cluster?</h3>
+<p dir="auto">No, the private keys are only stored in the Secret managed by the controller (unless you have some other backup of your k8s objects). There are no backdoors - without that private key used to encrypt a given SealedSecrets, you can't decrypt it. If you can't get to the Secrets with the encryption keys, and you also can't get to the decrypted versions of your Secrets live in the cluster, then you will need to regenerate new passwords for everything, seal them again with a new sealing key, etc.</p>
+<h3 dir="auto">How can I do a backup of my SealedSecrets?</h3>
+<p dir="auto">If you do want to make a backup of the encryption private keys, it's easy to do from an account with suitable access:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="kubectl get secret -n kube-system -l sealedsecrets.bitnami.com/sealed-secrets-key -o yaml &gt;main.key
+
+echo &quot;---&quot; &gt;&gt; main.key
+kubectl get secret -n kube-system sealed-secrets-key -o yaml &gt;&gt;main.key"><pre class="notranslate">kubectl get secret -n kube-system -l sealedsecrets.bitnami.com/sealed-secrets-key -o yaml <span class="pl-k">&gt;</span>main.key
+
+<span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>---<span class="pl-pds">"</span></span> <span class="pl-k">&gt;&gt;</span> main.key
+kubectl get secret -n kube-system sealed-secrets-key -o yaml <span class="pl-k">&gt;&gt;</span>main.key</pre></div>
+<blockquote>
+<p dir="auto">NOTE: You need the second statement only if you ever installed sealed-secrets older than version 0.9.x on your cluster.</p>
+</blockquote>
+<blockquote>
+<p dir="auto">NOTE: This file will contain the controller's public + private keys and should be kept omg-safe!</p>
+</blockquote>
+<blockquote>
+<p dir="auto">NOTE: After sealing key renewal you should recreate your backup. Otherwise, your backup won't be able to decrypt new sealed secrets.</p>
+</blockquote>
+<p dir="auto">To restore from a backup after some disaster, just put that secrets back before starting the controller - or if the controller was already started, replace the newly-created secrets and restart the controller:</p>
+<ul dir="auto">
+<li>
+<p dir="auto">For Helm deployment:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="kubectl apply -f main.key
+kubectl delete pod -n kube-system -l app.kubernetes.io/name=sealed-secrets"><pre class="notranslate">kubectl apply -f main.key
+kubectl delete pod -n kube-system -l app.kubernetes.io/name=sealed-secrets</pre></div>
+</li>
+<li>
+<p dir="auto">For deployment via <code class="notranslate">controller.yaml</code> manifest</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="kubectl apply -f main.key
+kubectl delete pod -n kube-system -l name=sealed-secrets-controller"><pre class="notranslate">kubectl apply -f main.key
+kubectl delete pod -n kube-system -l name=sealed-secrets-controller</pre></div>
+</li>
+</ul>
+<h3 dir="auto">Can I decrypt my secrets offline with a backup key?</h3>
+<p dir="auto">While treating sealed-secrets as long term storage system for secrets is not the recommended use case, some people<br>
+do have a legitimate requirement for being able to recover secrets when the k8s cluster is down and restoring a backup into a new <code class="notranslate">SealedSecret</code> controller deployment is not practical.</p>
+<p dir="auto">If you have backed up one or more of your private keys (see previous question), you can use the <code class="notranslate">kubeseal --recovery-unseal --recovery-private-key file1.key,file2.key,...</code> command to decrypt a sealed secrets file.</p>
+<h3 dir="auto">What flags are available for kubeseal?</h3>
+<p dir="auto">You can check the flags available using <code class="notranslate">kubeseal --help</code>.</p>
+<h3 dir="auto">How do I update parts of JSON/YAML/TOML/.. file encrypted with sealed secrets?</h3>
+<p dir="auto">A kubernetes <code class="notranslate">Secret</code> resource contains multiple items, basically a flat map of key/value pairs.<br>
+SealedSecrets operate at that level, and does not care what you put in the values. In other words<br>
+it cannot make sense of any structured configuration file you might have put in a secret and thus<br>
+cannot help you update individual fields in it.</p>
+<p dir="auto">Since this is a common problem, especially when dealing with legacy applications, we do offer an <a href="docs/examples/config-template">example</a> of a possible workaround.</p>
+<h3 dir="auto">Can I bring my own (pre-generated) certificates?</h3>
+<p dir="auto">Yes, you can provide the controller with your own certificates, and it will consume them.<br>
+Please check <a href="docs/bring-your-own-certificates.md">here</a> for a workaround.</p>
+<h3 dir="auto">How to use kubeseal if the controller is not running within the <code class="notranslate">kube-system</code> namespace?</h3>
+<p dir="auto">If you installed the controller in a different namespace than the default <code class="notranslate">kube-system</code>, you need to provide this namespace<br>
+to the <code class="notranslate">kubeseal</code> commandline tool. There are two options:</p>
+<ol dir="auto">
+<li>You can specify the namespace via the command line option <code class="notranslate">--controller-namespace &lt;namespace&gt;</code>:</li>
+</ol>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="kubeseal --controller-namespace sealed-secrets &lt;mysecret.json &gt;mysealedsecret.json"><pre class="notranslate">kubeseal --controller-namespace sealed-secrets <span class="pl-k">&lt;</span>mysecret.json <span class="pl-k">&gt;</span>mysealedsecret.json</pre></div>
+<ol start="2" dir="auto">
+<li>Via the environment variable <code class="notranslate">SEALED_SECRETS_CONTROLLER_NAMESPACE</code>:</li>
+</ol>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="export SEALED_SECRETS_CONTROLLER_NAMESPACE=sealed-secrets
+kubeseal &lt;mysecret.json &gt;mysealedsecret.json"><pre class="notranslate"><span class="pl-k">export</span> SEALED_SECRETS_CONTROLLER_NAMESPACE=sealed-secrets
+kubeseal <span class="pl-k">&lt;</span>mysecret.json <span class="pl-k">&gt;</span>mysealedsecret.json</pre></div>
+<h3 dir="auto">How to verify the images?</h3>
+<p dir="auto">Our images are being signed using <a href="https://github.com/sigstore/cosign">cosign</a>. The signatures have been saved in our <a href="https://ghcr.io/bitnami-labs/sealed-secrets-controller/signs" rel="nofollow">GitHub Container Registry</a>.</p>
+<blockquote>
+<p dir="auto">Images up to and including v0.20.2 were signed using Cosign v1. Newer images are signed with Cosign v2.</p>
+</blockquote>
+<p dir="auto">It is pretty simple to verify the images:</p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="# export the COSIGN_VARIABLE setting up the GitHub container registry signs path
+export COSIGN_REPOSITORY=ghcr.io/bitnami-labs/sealed-secrets-controller/signs
+
+# verify the image uploaded in GHCR
+cosign verify --key .github/workflows/cosign.pub ghcr.io/bitnami-labs/sealed-secrets-controller:latest
+
+# verify the image uploaded in Dockerhub
+cosign verify --key .github/workflows/cosign.pub docker.io/bitnami/sealed-secrets-controller:latest"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> export the COSIGN_VARIABLE setting up the GitHub container registry signs path</span>
+<span class="pl-k">export</span> COSIGN_REPOSITORY=ghcr.io/bitnami-labs/sealed-secrets-controller/signs
+
+<span class="pl-c"><span class="pl-c">#</span> verify the image uploaded in GHCR</span>
+cosign verify --key .github/workflows/cosign.pub ghcr.io/bitnami-labs/sealed-secrets-controller:latest
+
+<span class="pl-c"><span class="pl-c">#</span> verify the image uploaded in Dockerhub</span>
+cosign verify --key .github/workflows/cosign.pub docker.io/bitnami/sealed-secrets-controller:latest</pre></div>
+<h3 dir="auto">How to use one controller for a subset of namespaces</h3>
+<p dir="auto">If you want to use one controller for more than one namespace, but not all namespaces, you can provide additional namespaces using the command line flag <code class="notranslate">--additional-namespaces=&lt;namespace1&gt;,&lt;namespace2&gt;,&lt;...&gt;</code>. Make sure you provide appropriate roles and rolebindings in the target namespaces, so the controller can manage the secrets in there.</p>
+<h3 dir="auto">Can I configure the Controller unseal retries?</h3>
+<p dir="auto">The answer is yes, you can configure the number of retries in your controller using the flag <code class="notranslate">--max-unseal-retries</code>. This flag allows you to configure the number of maximum retries to unseal your Sealed Secrets.</p>
+<h2 dir="auto">Community</h2>
+<ul dir="auto">
+<li><a href="https://kubernetes.slack.com/messages/sealed-secrets" rel="nofollow">#sealed-secrets on Kubernetes Slack</a></li>
+</ul>
+<p dir="auto">Click <a href="http://slack.k8s.io" rel="nofollow">here</a> to sign up to the Kubernetes Slack org.</p>
+<h3 dir="auto">Related projects</h3>
+<ul dir="auto">
+<li><code class="notranslate">kubeseal-convert</code>: <a href="https://github.com/EladLeev/kubeseal-convert">https://github.com/EladLeev/kubeseal-convert</a></li>
+<li>Visual Studio Code extension: <a href="https://marketplace.visualstudio.com/items?itemName=codecontemplator.kubeseal" rel="nofollow">https://marketplace.visualstudio.com/items?itemName=codecontemplator.kubeseal</a></li>
+<li>WebSeal: generates secrets in the browser: <a href="https://socialgouv.github.io/webseal" rel="nofollow">https://socialgouv.github.io/webseal</a></li>
+<li>HybridEncrypt TypeScript implementation: <a href="https://github.com/SocialGouv/aes-gcm-rsa-oaep">https://github.com/SocialGouv/aes-gcm-rsa-oaep</a></li>
+<li>[DEPRACATED] Sealed Secrets Operator: <a href="https://github.com/disposab1e/sealed-secrets-operator-helm">https://github.com/disposab1e/sealed-secrets-operator-helm</a></li>
+</ul></div></div></div><div class="gg-issues-prev-next"><a class="prev" href="/issues/502"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M2 3h17a2 2 0 0 1 2 2v4h-2V5H2v14h17v-4h2v4a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2m15 12v-2h7v-2h-7V9l-4 3l4 3M4 13h7v-2H4v2m0-4h7V7H4v2m0 8h4v-2H4v2Z"/></svg>chmln/sd: 与sed命令类似，但提供更加直观的查找和替换能力</span></a><a class="next" href="/issues/504"><span>labring/sealos: 专为管理云原生应用程序而设计的云操作系统<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="icon-action" font-size="20" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M22 3H5a2 2 0 0 0-2 2v4h2V5h17v14H5v-4H3v4a2 2 0 0 0 2 2h17a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2M7 15v-2H0v-2h7V9l4 3l-4 3m13-2h-7v-2h7v2m0-4h-7V7h7v2m-3 8h-4v-2h4v2Z"/></svg></span></a></div><div class="answer-content"><div class="comments"></div></div></div></div></main><footer><div class="license"><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img style="width:60px;height:21px" src="/static/license-83d755bd405fbe51c87dc088baf26299.svg" alt="License"/></a></div><div class="copyright"><span>Copyright ©<!-- --> <!-- -->2025<!-- -->-present</span><a class="owner" href="https://github.com/awesome-ops/awesome-ops.github.io" target="_blank">awesome-ops/awesome-ops.github.io</a>.</div><span class="powered">Powered by<a class="owner" title="GG (Gatsby + GitHub) - A gatsby website builder based on github discussions" href="https://github.com/lencx/gg" target="_blank">gg</a></span></footer></div><div id="gg-backtop" class="hide"><svg viewBox="0 0 98 125" xmlns="http://www.w3.org/2000/svg"><path d="m.41627505 120.505813c.36557376-2.799314 38.38567845-112.09375627 40.40633855-116.52273479 2.0206601-4.42897853 7.0443939-6.06190829 10.0049342.20172081 1.9736935 4.17575274 17.3630227 42.22464148 46.1679874 114.14666598.3068629 1.030234.4237748 1.755017.3507358 2.174348-.4483666 2.574161-2.3292736 3.429521-4.6125739 2.516093-15.0683018-6.028033-36.2681037-23.1692513-43.8663627-23.1692513-7.5982589 0-27.0568176 12.9171643-43.18383202 23.1692513-.96511235.613531-1.91473089 1.069619-2.88840599 1.149501s-2.74439509-.86628-2.37882134-3.665594z" fill="var(--gg-icon)" fill-rule="evenodd"></path></svg></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/issues/503";window.___webpackCompilationHash="24ed58306e97f1c1f657";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-97dd130bca8800dece7d.js"],"app":["/app-7383f855f15f63329e5f.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-2d05d9e504a620062115.js"],"component---src-pages-404-tsx":["/component---src-pages-404-tsx-408674d1ce0d96365c3f.js"],"component---src-templates-archives-tsx":["/component---src-templates-archives-tsx-06d205e572129bb8618c.js"],"component---src-templates-issues-tsx":["/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js"],"component---src-templates-labels-category-tsx":["/component---src-templates-labels-category-tsx-5456164ce90934624119.js"],"component---src-templates-labels-tsx":["/component---src-templates-labels-tsx-ee7b95bd8aa06617f372.js"],"component---src-templates-nav-category-tsx":["/component---src-templates-nav-category-tsx-91c7d8cb3880e3e0fda2.js"],"component---src-templates-nav-labels-tsx":["/component---src-templates-nav-labels-tsx-ae07fd835c5a914973d3.js"]};/*]]>*/</script><script src="/polyfill-97dd130bca8800dece7d.js" nomodule=""></script><script src="/component---src-templates-issues-tsx-d807dcc2af9625aeadb6.js" async=""></script><script src="/fc369a2ef6459b03f38591687cef4a587495c716-f468df31cbdaf6ffa970.js" async=""></script><script src="/app-7383f855f15f63329e5f.js" async=""></script><script src="/framework-86c8a5417e68dc3cefff.js" async=""></script><script src="/webpack-runtime-4fee7405b8a071e8c34e.js" async=""></script></body></html>

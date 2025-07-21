@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/weibaohui",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"weibaohui/k8m: 一款 AI 驱动的 Kubernetes Dashboard 轻量级控制台工具，专为简化集群管理设计。","number":261}},{"node":{"title":"weibaohui/kom: 一个用于 Kubernetes 操作的工具，SDK级的kubectl、client-go的使用封装。并且支持作为管理k8s 的 MCP server。","number":293}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7YSvg","name":"weibaohui","color":"2e8bb3","description":null},"name":"weibaohui","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

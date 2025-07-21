@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/aqzt",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"aqzt/kjyw: 项目基于shell、 python，运维脚本工具库，收集各类运维常用工具脚本，实现快速安装nginx、 mysql、 php、 redis、 nagios、 运维经常使用的脚本等","number":285}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7Y1HQ","name":"aqzt","color":"3c22c2","description":null},"name":"aqzt","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

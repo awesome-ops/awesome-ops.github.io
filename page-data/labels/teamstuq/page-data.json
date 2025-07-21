@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/teamstuq",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"TeamStuQ/skill-map: 程序员技能图谱","number":518}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA9hpoQ","name":"TeamStuQ","color":"62f413","description":null},"name":"TeamStuQ","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}

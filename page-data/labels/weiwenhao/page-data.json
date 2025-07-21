@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-labels-tsx",
+    "path": "/labels/weiwenhao",
+    "result": {"data":{"allDiscussionsJson":{"nodes":[{"node":{"title":"weiwenhao/parker: 一款基于 go 语言编写的轻量级打包工具，能够将可执行文件与其依赖的工作目录打包成一个可执行文件","number":429}}]}},"pageContext":{"labels":{"id":"LA_kwDOOt-V3M8AAAACA7b2Tg","name":"weiwenhao","color":"dee9ec","description":null},"name":"weiwenhao","nlen":3}},
+    "staticQueryHashes": ["151096407","2861350382"]}
